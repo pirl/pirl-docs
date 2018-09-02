@@ -1,0 +1,4 @@
+baseURL = "https://docs.pirl.io"
+languageCode = "en-us"
+title = "Pirl documentation website"
+theme = "hugo-theme-learn"
