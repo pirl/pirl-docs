@@ -52,10 +52,10 @@ body #chapter h1 {
     }
 }
 a {
-    color: #00bdf3;
+    color: #a2d729;
 }
 a:hover {
-    color: #0082a7;
+    color: #a2d729;
 }
 pre {
     position: relative;
@@ -98,10 +98,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     box-shadow: inset 0 1px 3px rgba(0,0,0,.06),0 0 5px rgba(0,169,218,.7)
 }
 #header-wrapper {
-    background: #8451a1;
+    background: #a2d729;
     color: #fff;
     text-align: center;
-    border-bottom: 4px solid #9c6fb6;
+    border-bottom: 4px solid #a2d729;
     padding: 1rem;
 }
 #header a {
@@ -117,12 +117,12 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 .searchbox {
     margin-top: 1rem;
     position: relative;
-    border: 1px solid #915eae;
-    background: #764890;
+    border: none;
+    background: #fff;
     border-radius: 4px;
 }
 .searchbox label {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.6);
     position: absolute;
     left: 10px;
     top: 3px;
@@ -149,16 +149,16 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     font-weight: 300;
 }
 .searchbox input::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 .searchbox input::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 .searchbox input:-moz-placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 .searchbox input:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 #sidebar-toggle-span {
     display: none;
@@ -169,7 +169,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #sidebar {
-    background-color: #322A38;
+    background-color: #343434;
     position: fixed;
     top: 0;
     width: 300px;
@@ -272,11 +272,15 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-top: 9px;
 }
 #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
-    background: #251f29;
+    background: #a2d729;
     margin-left: -1rem;
     margin-right: -1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    color:#fff!important;
+}
+#sidebar ul.topics > li.parent a, #sidebar ul.topics > li.active a {
+color:#343434;
 }
 #sidebar ul li.active > a {
     background: #fff;
@@ -504,22 +508,22 @@ div.notices p:first-child:after {
     left: 2rem;
 }
 div.notices.info p {
-    border-top: 30px solid #F0B37E;
-    background: #FFF2DB;
+  border-top: 30px solid #a2d729;
+  background: #f5fde4;
 }
 div.notices.info p:first-child:after {
     content: 'Info';
 }
 div.notices.warning p {
-    border-top: 30px solid rgba(217, 83, 79, 0.8);
-    background: #FAE2E2;
+  border-top: 30px solid #a2d729;
+  background: #f5fde4;
 }
 div.notices.warning p:first-child:after {
     content: 'Warning';
 }
 div.notices.note p {
-    border-top: 30px solid #6AB0DE;
-    background: #E7F2FA;
+    border-top: 30px solid #a2d729;
+    background: #f5fde4;
 }
 div.notices.note p:first-child:after {
     content: 'Note';
@@ -627,8 +631,8 @@ code {
     border-radius: 2px;
     white-space: nowrap;
     color: #5e5e5e;
-    background: #FFF7DD;
-    border: 1px solid #fbf0cb;
+    background: #f5fde4;
+    border: 1px solid #eefbd0;
     padding: 0px 2px;
 }
 code + .copy-to-clipboard {
@@ -1061,7 +1065,7 @@ td {
     vertical-align: middle;
     position: relative;
     color: #5e5e5e;
-    background-color: #FFF7DD;
+    background-color: #f5fde4;
     margin-left: -.2rem;
     cursor: pointer;
     border-radius: 0 2px 2px 0;
@@ -1112,7 +1116,7 @@ pre .copy-to-clipboard:hover {
     text-align: right;
 }
 #sidebar ul li.visited > a .read-icon {
-    color: #00bdf3;
+    color: #fff;
     display: inline;
 }
 
