@@ -1,12 +1,14 @@
 ---
-title: Démarrage
+title: Basics
 weight: 5
 pre: "<b>1. </b>"
 chapter: true
 ---
 
-### Chapitre 1
+### Writing Pirl docs
 
-# Démarrage
+# Basics
 
-Découvrez comment utiliser ce thème Hugo et apprenez en les concepts
+- Learn hugo and the template : https://themes.gohugo.io/theme/hugo-theme-learn/en
+- Be multilanguages
+- follow some markdown tuts https://guides.github.com/features/mastering-markdown/
