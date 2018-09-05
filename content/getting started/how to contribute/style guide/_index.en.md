@@ -38,4 +38,4 @@ Having all documentation conform to the same standards makes for easier use of t
 
 ## Credits
 
-* At the end of each document, the name of the author is included as well as the author last update
+* At the end of each document, the name of the author is included as well as the name of the author of the last update.
