@@ -12,8 +12,9 @@ Having all documentation conform to the same standards makes for easier use of t
 * Try to use as few words as possible while remaining descriptive.
 * Assume the audience doesn't know all the background you do. Be specific and don't omit important information.
 * For actions, put key words in bold (ex: Open Chrome, select the **address** field at the top and fill in **www.pirl.io**)
+* Use as many screenshots as possible to visually assist your information
 
-## Grammar
+## Grammar and Spelling
 
 * Use Oxford commas
 * American English spelling is used for variant words.
