@@ -13,7 +13,7 @@ Below you'll find some examples of how to use markdown along with our recommenda
 
 Below is an example document using markdown. This document will be rendered by the software to display as desrcibed.
 
-![Magic](/getting started/how to contribute/markdown guide/images/sample.jpg)
+![Sample](/getting started/how to contribute/markdown guide/images/sample.jpg)
 
 ## Basic Markdown Guide
 
