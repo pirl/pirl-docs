@@ -9,6 +9,12 @@ To contribute to PIRL documentation you'll have to use ["markdown"](https://dari
 
 Below you'll find some examples of how to use markdown along with our recommendations and best practices. Please use our recommendations when composing PIRL documentation so that it looks well put together with the rest of the content. Also, make sure to take look at [Style Guide]({{< ref "/getting started/how to contribute/style guide" >}}) for additional guidelines regarding content formatting.
 
+## Example Markdown Document
+
+Below is an example document using markdown. This document will be rendered by the software to display as desrcibed.
+
+![Magic](/getting started/how to contribute/markdown guide/images/sample.jpg)
+
 ## Basic Markdown Guide
 
 ### Main Title
