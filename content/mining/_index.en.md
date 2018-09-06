@@ -1,10 +1,10 @@
 ---
-title: Wallets
+title: Mining
 weight: 5
-pre: "<b>4. </b>"
+pre: "<b>3. </b>"
 chapter: true
 ---
 
-# Wallets
+# Mining
 
 Coming soon, by Pirl Community Member
