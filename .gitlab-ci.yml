@@ -3,13 +3,11 @@ stages:
 - deploy
 build:
   stage: build
-  image: dinofizz/hugo
+  image: jojomi/hugo
   script:
+  - hugo version
   - git submodule update --init --recursive
-  - hugo -d public_html -b "${BLOG_URL}"
-  cache:
-    paths:
-    - public_html
+  - hugo -d public_html
   artifacts:
     paths:
     - public_html
@@ -17,13 +15,16 @@ build:
   - master
 deploy:
   stage: deploy
-  image: dinofizz/rsync-ssh
+  image: alpine:latest
+  tags:
+  - private
+  before_script:
+  - apk update && apk add openssh-client bash rsync
   script:
-  - echo "${SSH_PRIVATE_KEY}" > id_rsa
-  - chmod 700 id_rsa
-  - mkdir "${HOME}/.ssh"
-  - echo "${SSH_HOST_KEY}" > "${HOME}/.ssh/known_hosts"
-  - rsync -hrvz --delete --exclude=_ -e 'ssh -i id_rsa' public_html/ "${SSH_USER_HOST_LOCATION}"
+  - eval $(ssh-agent -s)
+  - bash -c 'ssh-add <(echo "${SSH_PRIVATE_KEY}")'
+  - mkdir -p ~/.ssh
+  - echo "${SSH_HOST_KEY}" > ~/.ssh/known_hosts
+  - rsync -hrvz --delete --exclude=_ -e 'ssh -p 22' public_html/ "${SSH_USER_HOST_LOCATION}"
   only:
   - master
-
