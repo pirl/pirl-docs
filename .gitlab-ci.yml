@@ -14,6 +14,8 @@ build:
   only:
   - master
 deploy:
+  variables:
+    CI_DEBUG_TRACE: "true"
   stage: deploy
   image: alpine:latest
   before_script:
