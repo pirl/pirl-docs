@@ -11,4 +11,4 @@ The Pirl Docs website runs on the Hugo platform. To get started you have to clon
 * Run "hugo server" from within the site directory
 * Use the [Style Guide]({{< ref "/getting started/how to contribute/style guide" >}})
 * Use the [Markdown Guide]({{< ref "/getting started/how to contribute/markdown guide" >}})
-* ![Magic](/getting started/how to contribute/images/magic.gif?classes=shadow)
+* The results will be nothing short of... ![Magic](/getting started/how to contribute/images/magic.gif?classes=shadow)
