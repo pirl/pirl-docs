@@ -14,15 +14,15 @@ build:
   only:
   - master
 deploy:
-  variables:
-    CI_DEBUG_TRACE: "true"
+  #variables:
+  #  CI_DEBUG_TRACE: "true"
   stage: deploy
   image: alpine:latest
   before_script:
   - apk update && apk add openssh-client bash rsync
   script:
   - eval $(ssh-agent -s)
-  - bash -c "ssh-add <(echo '$SSH_PRIVATE_KEY')"
+  - bash -c "ssh-add $SSH_PRIVATE_KEY"
   - mkdir -p ~/.ssh
   - echo "${SSH_HOST_KEY}" > ~/.ssh/known_hosts
   - var=$(ls)
