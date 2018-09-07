@@ -7,7 +7,7 @@ build:
   script:
   - hugo version
   - git submodule update --init --recursive
-  - hugo
+  - hugo -d public_html
   artifacts:
     paths:
     - public_html
@@ -22,11 +22,11 @@ deploy:
   - apk update && apk add openssh-client bash rsync
   script:
   - eval $(ssh-agent -s)
-  - bash -c 'ssh-add <(echo "${SSH_PRIVATE_KEY}")'
+  - bash -c "ssh-add <(echo '$SSH_PRIVATE_KEY')"
   - mkdir -p ~/.ssh
   - echo "${SSH_HOST_KEY}" > ~/.ssh/known_hosts
   - var=$(ls)
   - echo "$var"
-  - rsync -avz --delete --exclude=_ -e ssh  public/ "${SSH_USER_HOST_LOCATION}"
+  - rsync -avz --delete --exclude=_ -e ssh  public_html/ "${SSH_USER_HOST_LOCATION}"
   only:
   - master
