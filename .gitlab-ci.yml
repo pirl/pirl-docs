@@ -16,8 +16,6 @@ build:
 deploy:
   stage: deploy
   image: alpine:latest
-  tags:
-  - private
   before_script:
   - apk update && apk add openssh-client bash rsync
   script:
