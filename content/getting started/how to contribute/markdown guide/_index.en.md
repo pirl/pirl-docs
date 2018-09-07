@@ -58,3 +58,70 @@ To *italicize* text, use a single set of asterisks around it. To mark text as **
 **This text will be in bold**
 
 ~~Did I say something wrong?~~
+
+### Lists
+
+Ordered lists are created by using **1.** for the find item and then incrementing with each subsequent line. Unordered lists are created by using **+**.
+
+```
+1. First
+2. Second
+3. Third
+
++ Satoshi
++ Vitalik
++ PIRL
+
+1. This is first
+  + First thing
+2. This is Second
+  + Second thing
+3. This is Third
+  + Third thing
+```
+
+1. First
+2. Second
+3. Third
+
++ Satoshi
++ Vitalik
++ PIRL
+
+1. This is first
+  + First thing
+2. This is Second
+  + Second thing
+3. This is Third
+    + Third thing
+
+### Links
+
+Making links simply involves pasting a URL between a set of **()** parenthesis. There are also a couple extra options.
+
+```
+This is an [example link](http://example.com/ "With a Title"). It will still work if the only thing included is the link within the parenthesis.
+```
+
+This is an [example link](http://example.com/ "With a Title"). It will still work if the only thing included is the link within the parenthesis.
+
+### Images
+
+Linking images is just like links with a **!** exclamation point in front.
+
+```
+* ![Magic](/getting started/how to contribute/images/magic.gif?classes=shadow "Magic!")
+```
+
+* ![Magic](/getting started/how to contribute/images/magic.gif?classes=shadow "Magic!")
+
+### Code
+
+There are two ways to distinguish code from text, one for inline use and one for blocks of code. To distinguish code `inline` put a set of back ticks around it. To do it as a block of text, put three back ticks at the tom and the bottom.
+
+![Code Block](/getting started/how to contribute/markdown guide/images/code.jpg)
+
+```
+This is will be displayed a as a block of code.
+More importantly, notice the back ticks at the top and bottom.
+```
