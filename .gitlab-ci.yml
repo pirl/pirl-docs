@@ -4,8 +4,6 @@ stages:
 build:
   stage: build
   image: jojomi/hugo
-  tags:
-  - private
   script:
   - hugo version
   - git submodule update --init --recursive
