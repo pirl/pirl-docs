@@ -116,10 +116,10 @@ firewall-cmd --zone=public --add-port=30303/udp --permanent
 firewall-cmd  --reload
 ```
 
-Create a `pirl` user and add it to the `wheel` group:
+Create a `pirl` user and add it to the `systemd-journal` group:
 ```
 adduser pirl && passwd pirl
-usermod -aG wheel pirl
+usermod -aG systemd-journal pirl
 ```
 
 Download the masternode binary:
