@@ -7,7 +7,7 @@ build:
   script:
   - hugo version
   - git submodule update --init --recursive
-  - hugo -d public_html
+  - hugo
   artifacts:
     paths:
     - public_html
@@ -25,6 +25,8 @@ deploy:
   - bash -c 'ssh-add <(echo "${SSH_PRIVATE_KEY}")'
   - mkdir -p ~/.ssh
   - echo "${SSH_HOST_KEY}" > ~/.ssh/known_hosts
-  - rsync -hrvz --delete --exclude=_ -e 'ssh -p 22' public_html/ "${SSH_USER_HOST_LOCATION}"
+  - var=$(ls)
+  - echo "$var"
+  - rsync -avz --delete --exclude=_ -e ssh  public/ "${SSH_USER_HOST_LOCATION}"
   only:
   - master
