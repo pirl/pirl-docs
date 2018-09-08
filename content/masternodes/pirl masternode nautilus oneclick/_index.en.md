@@ -1,5 +1,5 @@
 ---
-title: Configuring Pirl Masternode Using Nautilus Wallet
+title: Staking Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)
 weight: 5
 disableToc: true
 ---
@@ -95,80 +95,6 @@ After returning to the **My Masternodes** screen, observe that the masternode's 
 ![](https://cdn-images-1.medium.com/max/1000/1*wef5d-8ZNtHlQDwX5lAemw.png)
 
 Please allow 30 minutes for the process to complete. You may click the **details** button to monitor the status.
-
--or-
-
-If you prefer a manual setup rather than using the **One-Click MN Setup** Guide, follow the next steps.
-
-## Manual Masternode Setup
-
-Login as root and update the system, then install dependencies:
-```
-yum update
-sudo yum install wget systemd -y
-```
-
-Set up firewall rules:
-```
-firewall-cmd --zone=public --add-port=22/tcp --permanent
-firewall-cmd --zone=public --add-port=30303/tcp --permanent
-firewall-cmd --zone=public --add-port=30303/udp --permanent
-firewall-cmd  --reload
-```
-
-Create a `pirl` user and add it to the `systemd-journal` group:
-```
-adduser pirl && passwd pirl
-usermod -aG systemd-journal pirl
-```
-
-Download the masternode binary:
-```
-wget http://release.pirl.io/downloads/masternode/linux/pirl-linux-amd64
-```
-
-Mark it executable, and change its owner to `pirl:pirl`:
-```
-chmod 755 pirl-linux-amd64
-chown pirl:pirl pirl-linux-amd64
-```
-
-Move the binary to `/usr/sbin/pirl-geth`:
-```
-mv pirl-linux-amd64 /usr/sbin/pirl-geth
-```
-
-Create a system service file:
-```
-vi /etc/systemd/system/pirlnode.service
-```
-
-Press the `i` button to enter insertion mode, then add the following.  Be sure to add your own MASTERNODE and user TOKEN to the Environment under the `[Service]` section:
-```
-[Unit]
-Description=Pirl Client -- masternode service
-After=network.target
-
-[Service]
-Environment=MASTERNODE=YoUR MaSTErNodE ToKEn GoES HeRE
-Environment=TOKEN=YoUR UsER ToKEn GoES HeRE
-
-User=pirl
-Group=pirl
-Type=simple
-Restart=always
-RestartSec=30s
-ExecStart=/usr/sbin/pirl-geth
-
-[Install]
-WantedBy=default.target
-```
-
-Enable and start the new service:
-```
-systemctl enable pirlnode
-systemctl restart pirlnode
-```
 
 Watch the masternode process synchronize with the blockchain:
 ```
