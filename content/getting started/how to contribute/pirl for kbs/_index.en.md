@@ -13,7 +13,7 @@ The PIRL philosophy focuses on involving community participation. We need lots o
 2. You can either choose to write a new KB or improve an existing one:
   * For **New KBs** you will get between **50 PIRL and 100 PIRL** depending on length and quality.
   * For **Improving existing KBs** with useful details, you will get **between 10 PIRL and 50 PIRL**, depending on the details of the edit and its quality.
-  * *(note: all payouts are at editorial discretion)/*
+  * *(note: all payouts are at editorial discretion)*
 3. Once you're ready to write, reference our [How to contribute]({{< ref "/getting started/how to contribute" >}}) guide to setup your working environment.
 4. Depending on your comfort level with GitLab:
   * You can either request the merging of your article yourself at https://docs.pirl.io
