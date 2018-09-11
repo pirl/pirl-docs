@@ -1,3 +1,5 @@
+[![pipeline status](https://git.pirl.io/community/pirl-docs/badges/master/pipeline.svg)](https://git.pirl.io/community/pirl-docs/commits/master)
+
 # pirl-docs
 pirl-docs
 Place for Pirl Community Documentation
