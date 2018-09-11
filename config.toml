@@ -9,7 +9,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/pirl/pirl-docs/tree/master/content/"
+  editURL = "https://git.pirl.io/community/pirl-docs/tree/master/content/"
   description = "Pirl documentations"
   author = "Pirl community"
   showVisitedLinks = true
