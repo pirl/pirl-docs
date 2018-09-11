@@ -24,4 +24,4 @@ deploy:
   - bash -c 'ssh-add <(echo "$SSH_PRIVATE_KEY")'
   - scp -o StrictHostKeyChecking=no -r public_html/* "${SSH_USER_HOST_LOCATION}"
   only:
-  - master
+  - master@community/pirl-docs
