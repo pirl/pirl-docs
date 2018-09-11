@@ -12,7 +12,7 @@ build:
     paths:
     - public_html
   only:
-  - master
+  - master@community/pirl-docs
 deploy:
   stage: deploy
   image: alpine:latest
