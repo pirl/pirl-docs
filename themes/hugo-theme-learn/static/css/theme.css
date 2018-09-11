@@ -677,6 +677,17 @@ hr {
 #body a.anchor-link:hover {
     color: #9c6fb6;
 }
+#body a.highlight {
+  padding-left: 22px;
+  background: url('../images/link.png') no-repeat;
+  background-size:18px auto;
+  font-weight: 600;
+}
+#body #top-bar-sticky-wrapper a.highlight {
+  padding-left:0;
+  background: transparent;
+  background-size:0;
+}
 #body-inner .tabs-wrapper.ui-theme-badges {
     background: #1d1f21;
 }
