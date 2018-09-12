@@ -4,7 +4,7 @@ stages:
 build:
   stage: build
   only:
-  - $CI_PROJECT_NAMESPACE == "community"
+   - $CI_PROJECT_NAMESPACE == "community"
   image: jojomi/hugo
   script:
   - hugo version
