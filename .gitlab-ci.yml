@@ -17,9 +17,9 @@ build:
   - master@community/pirl-docs
 deploy:
   stage: deploy
-    only:
-    - master@community/pirl-docs
-
+  only:
+  - $CI_PROJECT_NAMESPACE == "community"
+  - master@community/pirl-docs
   image: alpine:latest
   before_script:
   - apk update && apk add openssh-client bash rsync
@@ -28,6 +28,4 @@ deploy:
   - eval $(ssh-agent -s)
   - bash -c 'ssh-add <(echo "$SSH_PRIVATE_KEY")'
   - scp -o StrictHostKeyChecking=no -r public_html/* "${SSH_USER_HOST_LOCATION}"
-  only:
-  - $CI_PROJECT_NAMESPACE == "community"
-  - master@community/pirl-docs
+  
