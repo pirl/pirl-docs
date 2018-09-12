@@ -1,5 +1,5 @@
 ---
-title: Configuring Pirl Masternode From Hardware Wallet Using Web Wallet
+title: Staking Pirl Masternode From Hardware Wallet Using Web Wallet
 weight: 5
 disableToc: true
 ---
