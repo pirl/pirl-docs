@@ -3,8 +3,8 @@ stages:
 - deploy
 build:
   stage: build
-    only:
-    - master@community/pirl-docs
+  only:
+  - $CI_PROJECT_NAMESPACE == "community"
   image: jojomi/hugo
   script:
   - hugo version
@@ -29,4 +29,5 @@ deploy:
   - bash -c 'ssh-add <(echo "$SSH_PRIVATE_KEY")'
   - scp -o StrictHostKeyChecking=no -r public_html/* "${SSH_USER_HOST_LOCATION}"
   only:
+  - $CI_PROJECT_NAMESPACE == "community"
   - master@community/pirl-docs
