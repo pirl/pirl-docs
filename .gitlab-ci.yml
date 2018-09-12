@@ -3,6 +3,8 @@ stages:
 - deploy
 build:
   stage: build
+    only:
+    - master@community/pirl-docs
   image: jojomi/hugo
   script:
   - hugo version
@@ -15,6 +17,9 @@ build:
   - master@community/pirl-docs
 deploy:
   stage: deploy
+    only:
+    - master@community/pirl-docs
+
   image: alpine:latest
   before_script:
   - apk update && apk add openssh-client bash rsync
