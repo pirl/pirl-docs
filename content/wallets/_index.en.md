@@ -1,6 +1,6 @@
 ---
 title: Wallets
-weight: 5
+weight: 6
 pre: "<b>4. </b>"
 chapter: true
 ---
