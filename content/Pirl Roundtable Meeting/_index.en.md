@@ -1,6 +1,6 @@
 ---
 title: Pirl Roundtable Meeting
-weight: 6
+weight: 4
 pre: "<b>6. </b>"
 chapter: true
 ---
