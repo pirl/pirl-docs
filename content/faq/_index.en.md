@@ -1,6 +1,6 @@
 ---
 title: FAQ
-weight: 10
+weight: 1
 disableToc: true
 ---
 
