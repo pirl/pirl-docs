@@ -1,5 +1,5 @@
 ---
-title: Retrieve Pirl Masternode Stake
+title: Retrieve Pirl content Masternode Stake
 weight: 5
 disableToc: true
 ---
