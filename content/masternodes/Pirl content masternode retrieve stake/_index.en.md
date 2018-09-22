@@ -59,6 +59,7 @@ For **Contract Address** fill in `0x6c042141C302C354509d2bff30EEFDEF24dE1047`. T
 
 ---
 Author(s):
-_[dptelecom]( )_
+_dptelecom
 
 Contributor(s):
+_PrimateCrypto: credis for the orignal doc
