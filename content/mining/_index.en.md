@@ -1,6 +1,6 @@
 ---
 title: Mining
-weight: 5
+weight: 4
 pre: "<b>3. </b>"
 chapter: true
 ---
