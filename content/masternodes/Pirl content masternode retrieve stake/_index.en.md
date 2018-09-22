@@ -62,4 +62,4 @@ Author(s):
 _dptelecom
 
 Contributor(s):
-_PrimateCrypto: credis for the orignal doc
+_PrimateCrypto: credits for the orignal doc
