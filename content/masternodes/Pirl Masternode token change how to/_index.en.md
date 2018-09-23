@@ -1,5 +1,5 @@
 ---
-title: Retrieve Pirl content Masternode Stake
+title: Pirl Masternode token change how to
 weight: 5
 disableToc: true
 ---
@@ -62,4 +62,4 @@ Author(s):
 _dptelecom
 
 Contributor(s):
-_PrimateCrypto: credits for the orignal doc
+
