@@ -24,6 +24,23 @@ You will see next to the masternode you created earlier, the masternode token un
 
 **log in too your vps**
 
+update the file with ypour Masternode token in it 
+depending on how it was setup its in one of this files:
+
+/etc/pirlnode.env
+
+/etc/pirl.env
+
+/etc/pirlnode-env
+
+/etc/systemd/system/pirlnode.service
+
+cat /etc/pirlnode-env
+
+MASTERNODE="----------------------------------"
+
+TOKEN="1111111111111111111111111111111111111111"
+
 
 Press the `i` button to enter insertion mode, then add the following.  Be sure to add your own MASTERNODE and user TOKEN to the Environment under the `[Service]` section:
 ```
@@ -46,16 +63,19 @@ ExecStart=/usr/sbin/pirl-geth
 WantedBy=default.target
 ```
 
-disable and restart the new service:
+and restart the new service:
 ```
-systemctl disable pirlnode
+
 systemctl restart pirlnode
 ```
 
 
 ---
 Author(s):
-_dptelecom
+_dptelecom.
 
 Contributor(s):
+
+Phatblinkie thanks for your info.
+PrimateCrypto thanks for your info.
 
