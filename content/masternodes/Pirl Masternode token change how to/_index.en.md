@@ -37,6 +37,13 @@ depending on how it was setup its in one of this files:
 
 cat /etc/pirlnode-env
 
+you need to edit the file, with a file editor like:
+vi, vim, joe, nano, pico
+nano:
+nano /etc/pirlnode-env
+joe:
+joe /etc/pirlnode-env
+
 MASTERNODE="----------------------------------"
 
 TOKEN="1111111111111111111111111111111111111111"
@@ -63,10 +70,16 @@ ExecStart=/usr/sbin/pirl-geth
 WantedBy=default.target
 ```
 
-and restart the new service:
+and restart the service:
 ```
 
 systemctl restart pirlnode
+```
+or this one:
+
+```
+
+systemctl restart pirl
 ```
 
 
