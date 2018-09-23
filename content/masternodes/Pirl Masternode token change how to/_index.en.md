@@ -38,11 +38,17 @@ depending on how it was setup its in one of this files:
 cat /etc/pirlnode-env
 
 you need to edit the file, with a file editor like:
+
 vi, vim, joe, nano, pico
+
 nano:
+
 nano /etc/pirlnode-env
+
 joe:
+
 joe /etc/pirlnode-env
+
 
 MASTERNODE="----------------------------------"
 
@@ -90,5 +96,6 @@ _dptelecom.
 Contributor(s):
 
 Phatblinkie thanks for your info.
+
 PrimateCrypto thanks for your info.
 
