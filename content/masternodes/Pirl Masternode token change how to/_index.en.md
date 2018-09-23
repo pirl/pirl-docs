@@ -1,12 +1,12 @@
 ---
-title: Pirl Masternode token change how to
+title: Pirl Masternode token change how to...
 weight: 5
 disableToc: true
 ---
 
 ## Overview
 
-This guide will help ypu change the token on the Masternode
+This guide will help you change the token on the Masternode
 **the one-click-masternode setup users will not have to do this!**
 
 
