@@ -46,6 +46,13 @@ ExecStart=/usr/sbin/pirl-geth
 WantedBy=default.target
 ```
 
+disable and restart the new service:
+```
+systemctl disable pirlnode
+systemctl restart pirlnode
+```
+
+
 ---
 Author(s):
 _dptelecom
