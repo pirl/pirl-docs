@@ -22,7 +22,7 @@ You will see next to the masternode you created earlier, the masternode token un
 ![](content/masternodes/Pirl Masternode token change how to/images/Mn_token.jpg)
 
 
-**log in too your vps**
+**log in to your vps**
 
 update the file with ypour Masternode token in it 
 depending on how it was setup its in one of this files:
@@ -54,6 +54,7 @@ MASTERNODE="----------------------------------"
 
 TOKEN="1111111111111111111111111111111111111111"
 
+or like this:
 
 Press the `i` button to enter insertion mode, then add the following.  Be sure to add your own MASTERNODE and user TOKEN to the Environment under the `[Service]` section:
 ```
