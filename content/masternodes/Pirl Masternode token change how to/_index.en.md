@@ -1,5 +1,5 @@
 ---
-title: Pirl Masternode Token Change How To
+title: Pirl Masternode Token Change
 weight: 5
 disableToc: true
 ---
