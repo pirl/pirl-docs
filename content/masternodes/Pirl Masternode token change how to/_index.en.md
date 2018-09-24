@@ -1,5 +1,5 @@
 ---
-title: Pirl Masternode token change how to...
+title: Pirl Masternode Token Change How To
 weight: 5
 disableToc: true
 ---
@@ -60,7 +60,7 @@ TOKEN="1111111111111111111111111111111111111111"
 
 > (Note: You need to change the MASTERNODE token above. The bottom one is your user token and does not need to be changed.)
 
-oO like this using `vi`:
+You can change it as follows using `vi`:
 
 Press the `i` button to enter insertion mode, then add the following.  Be sure to add your own MASTERNODE and user TOKEN to the Environment under the `[Service]` section:
 ```
