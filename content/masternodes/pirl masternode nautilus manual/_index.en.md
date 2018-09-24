@@ -29,7 +29,7 @@ The first step in the masternode setup process is to send a transaction from you
 
 Navigate over to https://poseidon.pirl.io/ and paste your Nautilus wallet address at the top.  This will show all transactions in and out of your Nautilus wallet.  The latest outgoing transaction will show that it’s going into the address of your Poseidon wallet.  To the very left of the page, the txid (i.e. transaction hash) will be displayed.  Take and safe this txid and copy it because you’ll need it later.
 
-**VERY IMPORTANT: There are 2 hashes for every transaction.  There is the transaction hash (txid) and the block hash.  You need to use the transaction hash (txid) for the masternode setup process to work.  There’s a very easy way to know which one is the txid.  The txid is the one you can click on as a link.  However, once you click on the txid, you will see the block hash displayed.  Do not use the block hash.**
+**VERY IMPORTANT: There are 2 hashes for every transaction.  There is the transaction hash (txid) and the block hash.  You need to use the transaction hash (txid) for the masternode setup process to work.  There’s a very easy way to know which one is the txid.  The txid is on the left side of the general transaction list of your wallet.  Once you click on the txid itself, you will see the block hash displayed.  Do not use the block hash.  Use the txid on the left most side of your wallet transaction list on Poseidon**
 
 ![](https://cdn-images-1.medium.com/max/1600/0*1LTQiVdFomhRei6u.png)
 ![](https://cdn-images-1.medium.com/max/1600/0*bVaXgKomLeN0mEYQ.png)
