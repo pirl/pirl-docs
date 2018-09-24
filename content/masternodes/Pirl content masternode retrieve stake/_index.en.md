@@ -1,65 +1,103 @@
 ---
-title: Retrieve Pirl content Masternode Stake
+title: Pirl Masternode token change how to...
 weight: 5
 disableToc: true
 ---
 
 ## Overview
 
-At any time, you can run two masternode contract functions and retrieve your 10,000 PIRL stake back into your wallet.
+This guide will help you change the masternode token of your masternode. The masternode token and the user token comprise the 2 tokens each masternode service on a VPS. You can check your [user token on Poseidon](https://poseidon.pirl.io/accounts/settings/) by going clicking **Profile > Settings**.
 
-## Disabling Masternode and Retrieving Stake
+**The one-click masternode setup users will usually not have to do this as the process can be initiated remotely by Poseidon**
 
-**Open Nautilus** and navigate to the **Contract** tab located at the top right corner.
 
-You should see the masternode contract on the left side. I will have the address of `0x6c042141C302C354509d2bff30EEFDEF24dE1047`. Select this address.
-(NOTE: If you don't have a contract showing in the **watch contract** section, you can add it as described in the next section.)
+## How to Change the Token
 
-On the right side, the contract function menu will be shown.
+**Open Poseidon** [Poseidon](https://poseidon.pirl.io/accounts/masternodes-list-private/)
 
-Select the **Disable Node** function, then the wallet associated with the contract and hit **Execute**
+The Masternode TOKEN is found here:
 
-![](/masternodes/pirl masternode retrieve stake/images/disable-node.png)
+On the left menu, click on **Masternodes > My masternodes**.
+You will see next to the masternode you created earlier, the masternode token under **MN token**.
 
-On the next screen, confirm you have enough **gas** for the transaction, enter your **UTC file password** and hit **Send Transaction**.
+![](content/masternodes/Pirl Masternode token change how to/images/Mn_token.jpg)
 
-![](/masternodes/pirl masternode retrieve stake/images/disable-node2.png)
 
-Allow 30-60 seconds before running the next step.
+**Log in to your VPS**
 
-Select the **Withdraw Stake** function, then the wallet associated with the contract and hit **Execute**
+Update the file with ypour Masternode token in it.
+Depending on how it was setup, it will be in one of the following files:
 
-![](/masternodes/pirl masternode retrieve stake/images/withdraw-stake.png)
+`/etc/pirlnode.env`
 
-On the next screen, confirm you have enough **gas** for the transaction, enter your **UTC file password** and hit **Send Transaction**.
+`/etc/pirl.env`
 
-![](/masternodes/pirl masternode retrieve stake/images/disable-node2.png)
+`/etc/pirlnode-env`
 
-### Not Enough gas
-
-Sometimes the wallet will be unable to automatically calculate the gas needed for a transaction and will automatically set it to 0. In this situation, you can manually adjust the gas by clicking on where it says 0 and write in your own amount.  A good amount of gas for this purpose is **121,000**.
-
-![](/masternodes/pirl masternode retrieve stake/images/confirm-gas.png)
-
-## Adding Masternode Contract in Nautilus
-
-**Open Nautilus** and navigate to the **Contract** tab located at the top right corner.
-
-![](https://cdn-images-1.medium.com/max/1600/0*OW_7W9P_u0k7ZdmZ.png)
-
-Once there, click on the **Watch Contract** button.
-
-![](https://cdn-images-1.medium.com/max/1600/0*wZbZlfAdjrUuhr53.png)
-
-For **Contract Address** fill in `0x6c042141C302C354509d2bff30EEFDEF24dE1047`. The **Contract Name** can be anything you’d like.  And lastly, the **JSON Interface field** needs to be populated with:
+`/etc/systemd/system/pirlnode.service`
 
 ```
-[{"constant":false,"inputs":[],"name":"nodeRegistration","outputs":[{"name":"paid","type":"bool"}],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeAddress","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"moderators","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"nodes","outputs":[{"name":"pirlAddress","type":"address"},{"name":"nodeStake","type":"uint256"},{"name":"nodeHash","type":"bytes20"},{"name":"stakeLocked","type":"bool"},{"name":"nodeEnabled","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"disableNodeRegistration","outputs":[{"name":"disabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"nodeCost","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getStakeLockedStatus","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"nodeCount","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_admin","type":"address"}],"name":"setAdmin","outputs":[{"name":"set","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"enableNode","outputs":[{"name":"enabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"nodeRegistrationEnabled","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"disableNode","outputs":[{"name":"disabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"withdrawStake","outputs":[{"name":"withdrawn","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"nodeAddresses","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeEnabledStatus","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeStake","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"enableNodeRegistration","outputs":[{"name":"enabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeHash","outputs":[{"name":"","type":"bytes20"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"nodeFee","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"admin","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeRegistered","type":"bool"},{"indexed":false,"name":"_dateRegistered","type":"uint256"}],"name":"MasterNodeRegistered","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeDisabled","type":"bool"},{"indexed":false,"name":"_dateDisabled","type":"uint256"}],"name":"MasterNodeDisabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeEnabled","type":"bool"},{"indexed":false,"name":"_dateEnabled","type":"uint256"}],"name":"MasterNodeEnabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodePaid","type":"bool"},{"indexed":false,"name":"_datePaid","type":"uint256"}],"name":"MasterNodeRewarded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_stakeWithdrawn","type":"bool"},{"indexed":false,"name":"_dateWithdrawn","type":"uint256"}],"name":"StakeWithdrawn","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":false,"name":"_dateEnabled","type":"uint256"},{"indexed":true,"name":"_registrationEnabled","type":"bool"}],"name":"MasterNodeRegistrationEnabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":false,"name":"_dateDisabled","type":"uint256"},{"indexed":true,"name":"_registrationDisabled","type":"bool"}],"name":"MasterNodeRegistrationDisabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":true,"name":"_admin","type":"address"},{"indexed":true,"name":"_adminSet","type":"bool"}],"name":"SetAdmin","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":true,"name":"_newOwner","type":"address"},{"indexed":true,"name":"_ownerChanged","type":"bool"}],"name":"TransferOwnership","type":"event"}]
+cat /etc/pirlnode-env
 ```
+
+You need to edit the file, with a file editor like: *vi, vim, joe, nano, pico*
+
+```
+nano:
+
+nano /etc/pirlnode-env
+
+joe:
+
+joe /etc/pirlnode-env
+```
+
+```
+MASTERNODE="11111111-1111-1111-1111-111111111111"
+TOKEN="1111111111111111111111111111111111111111"
+```
+
+**(Note: You need to change the MASTERNODE token above. The bottom one is your user token and does not need to be changed.)**
+
+oO like this using `vi`:
+
+Press the `i` button to enter insertion mode, then add the following.  Be sure to add your own MASTERNODE and user TOKEN to the Environment under the `[Service]` section:
+```
+[Unit]
+Description=Pirl Client -- masternode service
+After=network.target
+
+[Service]
+Environment=MASTERNODE=YoUR MaSTErNodE ToKEn GoES HeRE
+Environment=TOKEN=YoUR UsER ToKEn GoES HeRE
+
+User=pirl
+Group=pirl
+Type=simple
+Restart=always
+RestartSec=30s
+ExecStart=/usr/sbin/pirl-geth
+
+[Install]
+WantedBy=default.target
+```
+
+and restart the service:
+```
+systemctl restart pirlnode
+```
+or this one:
+```
+systemctl restart pirl
+```
+
 
 ---
 Author(s):
-_dptelecom
+_dptelecom.
 
 Contributor(s):
-_PrimateCrypto: credits for the orignal doc
+
+Phatblinkie thanks for your info.
+
+[PrimateCrypto](https://twitter.com/PrimateCrypto) thanks for your info.

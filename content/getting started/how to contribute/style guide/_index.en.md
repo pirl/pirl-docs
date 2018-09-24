@@ -13,6 +13,10 @@ Having all documentation conform to the same standards makes for easier use of t
 * Assume the audience doesn't know all the background you do. Be specific and don't omit important information.
 * For actions, put key words in bold (ex: Open Chrome, select the **address** field at the top and fill in **www.pirl.io**)
 * Use as many screenshots as possible to visually assist your information
+* Put important information in **bold**
+* Use triple code tags to distinguish terminal commands, text editor contents and code blocks
+* Use single code tags to distinguish anything you find needs to stand out
+* Use blockquotes for notes and comments
 
 ## Grammar and Spelling
 
