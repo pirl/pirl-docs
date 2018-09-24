@@ -19,7 +19,8 @@ The Masternode TOKEN is found here:
 On the left menu, click on Masternodes -> My masternodes. 
 You will see next to the masternode you created earlier, the masternode token under "MN token".
 
-![](content/masternodes/Pirl Masternode token change how to/images/Mn_token.jpg)
+![](https://git.pirl.io/community/pirl-docs/blob/master/content/masternodes/Pirl%20Masternode%20token%20change%20how%20to/images/Mn_token.jpg)
+
 
 
 **log in to your vps**
