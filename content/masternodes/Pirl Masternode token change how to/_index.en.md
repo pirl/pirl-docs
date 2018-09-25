@@ -13,15 +13,12 @@ This guide will help you change the masternode token of your masternode. The mas
 
 ## How to Change the Token
 
-**Open Poseidon** [Poseidon](https://poseidon.pirl.io/accounts/masternodes-list-private/)
-
-The Masternode TOKEN is found here:
+The **Masternode Tokens** are found here: [Poseidon](https://poseidon.pirl.io/accounts/masternodes-list-private/)
 
 On the left menu, click on **Masternodes > My masternodes**.
 You will see next to the masternode you created earlier, the masternode token under **MN token**.
 
-![](https://git.pirl.io/community/pirl-docs/blob/master/content/masternodes/Pirl%20Masternode%20token%20change%20how%20to/images/Mn_token.jpg)
-
+![](/masternodes/pirl masternode token change/images/mn_token_page.png)
 
 
 **Log in to your VPS**
@@ -60,28 +57,15 @@ TOKEN="1111111111111111111111111111111111111111"
 
 > (Note: You need to change the MASTERNODE token above. The bottom one is your user token and does not need to be changed.)
 
-You can change it as follows using `vi`:
+You can change it as follows using `nano`:
 
-Press the `i` button to enter insertion mode, then add the following.  Be sure to add your own MASTERNODE and user TOKEN to the Environment under the `[Service]` section:
+Open the file in nano:
 ```
-[Unit]
-Description=Pirl Client -- masternode service
-After=network.target
-
-[Service]
-Environment=MASTERNODE=YoUR MaSTErNodE ToKEn GoES HeRE
-Environment=TOKEN=YoUR UsER ToKEn GoES HeRE
-
-User=pirl
-Group=pirl
-Type=simple
-Restart=always
-RestartSec=30s
-ExecStart=/usr/sbin/pirl-geth
-
-[Install]
-WantedBy=default.target
+nano /etc/pirlnode-env
 ```
+
+Make sure the **MASTERNODE** token matches the one you recorded online on [Poseidon](https://poseidon.pirl.io/accounts/masternodes-list-private/)
+![](/masternodes/pirl masternode token change/images/mn_token.png)
 
 and restart the service:
 ```
