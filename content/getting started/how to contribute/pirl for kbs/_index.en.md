@@ -5,7 +5,7 @@ weight: 5
 
 ## Introduction
 
-The PIRL philosophy focuses on involving community participation. We need lots of help writing KBs for PIRL. Many of us use PIRL products on a daily basis and have the know how to help others, who are just getting into the PIRL ecosystem. We can help onboard these people and we can also scratch out own itches my showing the community the correct way things are done. The PIRL project is willing to compensate all technical writers with PIRL for making these amazing contributions to the documentation spine of the project.
+The PIRL philosophy focuses on involving community participation. We need lots of help writing KBs for PIRL. Many of us use PIRL products on a daily basis and have the know how to help others, who are just getting into the PIRL ecosystem. We can help onboard these people and we can also scratch our own itches by showing the community the correct way things are done. The PIRL project is willing to compensate all technical writers with PIRL for making these amazing contributions to the documentation spine of the project.
 
 ## How Contributing Works
 
