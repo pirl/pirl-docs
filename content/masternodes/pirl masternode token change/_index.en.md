@@ -34,32 +34,27 @@ Depending on how it was setup, it will be in one of the following files:
 
 `/etc/systemd/system/pirlnode.service`
 
+Find the file that's applicable in your situation and edit it. If you have more than 1 of the files listed above, we recommend disabling your masternode and setting up a new OneClick masternode to eliminate any future frustrations with manual updates.
+
+To simply view the file you can execute:
+> Note that below we keep using /etc/pirlnode-env only as an example of where your token information is located. You will need to update your file containing the MASTERNODE token.
+
 ```
 cat /etc/pirlnode-env
 ```
 
-You need to edit the file, with a file editor like: **vi, vim, joe, nano, pico**
-
+Your file will look something like the one below.  You will have a **MASTERNODE** token and a **TOKEN** (a.k.a. **USER token**)
 ```
-nano:
-
-nano /etc/pirlnode-env
-
-joe:
-
-joe /etc/pirlnode-env
+MASTERNODE=11111111-1111-1111-1111-111111111111
+TOKEN=1111111111111111111111111111111111111111
 ```
 
-```
-MASTERNODE="11111111-1111-1111-1111-111111111111"
-TOKEN="1111111111111111111111111111111111111111"
-```
+> Note: You need to change the MASTERNODE token above. The bottom one is your user token and does not need to be changed.
 
-> (Note: You need to change the MASTERNODE token above. The bottom one is your user token and does not need to be changed.)
+You need to edit the file in question with a file editor like: **vi, vim, joe, nano, pico**
 
 You can change it as follows using `nano`:
 
-Open the file in nano:
 ```
 nano /etc/pirlnode-env
 ```
