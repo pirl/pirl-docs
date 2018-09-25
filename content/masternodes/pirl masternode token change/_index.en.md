@@ -34,11 +34,16 @@ Depending on how it was setup, it will be in one of the following files:
 
 `/etc/systemd/system/pirlnode.service`
 
+Find the file that's applicable in your situation and edit it. If you have more than 1 of the files listed above, we recommend disabling your masternode and setting up a new OneClick masternode to eliminate any future frustrations with manual updates.
+
+To simply view the file you can execute:
+> Note that below we use /etc/pirlnode-env only as an example of where your token information is located.
+
 ```
 cat /etc/pirlnode-env
 ```
 
-You need to edit the file, with a file editor like: **vi, vim, joe, nano, pico**
+You need to edit the file in question with a file editor like: **vi, vim, joe, nano, pico**
 
 ```
 nano:
@@ -63,6 +68,7 @@ Open the file in nano:
 ```
 nano /etc/pirlnode-env
 ```
+
 
 Make sure the **MASTERNODE** token matches the one you recorded online on [Poseidon](https://poseidon.pirl.io/accounts/masternodes-list-private/)
 ![](/masternodes/pirl masternode token change/images/mn_token.png)
