@@ -98,7 +98,7 @@ Dubs: No, Pirl Marlin is a private IPFS network only to be used within the PIRL 
 ```
 clabmw24: how will you pay for the content masternodes? block rewards and pirltube users?
 ```
-Dubs: I will temporarily keep the rewards locked until we're sure Marlin is working well and then adjust everything and unlock the rewards.
+Dubs: I will temporarily keep the rewards inactive until we're sure Marlin is testing well and then adjust everything and start the rewards.
 
 ```
 mk: I'd like to integrate the new contract for Marlin into the web wallet asap.
