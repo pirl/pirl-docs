@@ -255,6 +255,7 @@ Group=pirl
 Type=simple
 Restart=always
 RestartSec=30s
+ExecStartPre=/bin/sleep 5
 ExecStart=/usr/sbin/pirl-marlin daemon
 
 [Install]
