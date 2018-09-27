@@ -138,6 +138,9 @@ sudo yum install wget systemd -y
 Set up firewall rules:
 ```
 firewall-cmd --zone=public --add-port=22/tcp --permanent
+firewall-cmd --zone=public --add-port=4001/tcp --permanent
+firewall-cmd --zone=public --add-port=6588/tcp --permanent
+firewall-cmd --zone=public --add-port=6589/tcp --permanent
 firewall-cmd --zone=public --add-port=30303/tcp --permanent
 firewall-cmd --zone=public --add-port=30303/udp --permanent
 firewall-cmd  --reload
@@ -149,23 +152,63 @@ adduser pirl && passwd pirl
 usermod -aG systemd-journal pirl
 ```
 
-Download the masternode binary:
+Download the premium masternode binaries:
 ```
-wget http://release.pirl.io/downloads/masternode/linux/pirl-linux-amd64
-```
-
-Mark it executable, and change its owner to `pirl:pirl`:
-```
-chmod 755 pirl-linux-amd64
-chown pirl:pirl pirl-linux-amd64
+wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/premium/pirl-v5-masternode-premium-beta
+wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/premium/marlin-v5-masternode-premium-beta
 ```
 
-Move the binary to `/usr/sbin/pirl-geth`:
+...or the content node binaries:
 ```
-mv pirl-linux-amd64 /usr/sbin/pirl-geth
+wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/content/pirl-v2-masternode-content-beta
+http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/content/marlin-v2-masternode-content-beta
 ```
 
-Create a system service file:
+Mark them executable, and change the owner to `pirl:pirl`:
+
+For premium masternodes:
+```
+chmod 755 pirl-v5-masternode-premium-beta
+chmod 755 marlin-v5-masternode-premium-beta
+chown pirl:pirl pirl-v5-masternode-premium-beta
+chown pirl:pirl marlin-v5-masternode-premium-beta
+```
+
+For content nodes:
+```
+chmod 755 pirl-v2-masternode-content-beta
+chmod 755 marlin-v2-masternode-content-beta
+chown pirl:pirl pirl-v2-masternode-content-beta
+chown pirl:pirl marlin-v2-masternode-content-beta
+```
+
+Move the main binary to `/usr/sbin/pirl-geth`:
+
+For premium masternodes:
+```
+mv pirl-v5-masternode-premium-beta /usr/sbin/pirl-geth
+```
+
+For content nodes:
+```
+mv pirl-v2-masternode-content-beta /usr/sbin/pirl-geth
+```
+
+
+Move the marlin binary to `/usr/sbin/pirl-marlin`:
+
+For premium masternodes:
+```
+mv marlin-v5-masternode-premium-beta /usr/sbin/pirl-marlin
+```
+
+For content nodes:
+```
+mv marlin-v2-masternode-content-beta /usr/sbin/pirl-marlin
+```
+
+
+Create a system service file for the geth service:
 ```
 vi /etc/systemd/system/pirlnode.service
 ```
@@ -185,16 +228,45 @@ Group=pirl
 Type=simple
 Restart=always
 RestartSec=30s
-ExecStart=/usr/sbin/pirl-geth
+ExecStart=/usr/sbin/pirl-geth --rpc --ws
+
+[Install]
+WantedBy=default.target pirlmarlin.service
+```
+
+
+Create a system service file for the marlin service:
+```
+vi /etc/systemd/system/pirlmarlin.service
+```
+
+Press the `i` button to enter insertion mode, then add the following.  Be sure to add your own MASTERNODE and user TOKEN to the Environment under the `[Service]` section:
+```
+[Unit]
+Description=Pirl Client -- marlin content service
+After=network.target pirlnode.service
+
+[Service]
+Environment=MASTERNODE=YoUR MaSTErNodE ToKEn GoES HeRE
+Environment=TOKEN=YoUR UsER ToKEn GoES HeRE
+
+User=pirl
+Group=pirl
+Type=simple
+Restart=always
+RestartSec=30s
+ExecStart=/usr/sbin/pirl-marlin
 
 [Install]
 WantedBy=default.target
 ```
 
-Enable and start the new service:
+Enable and start the new services:
 ```
 systemctl enable pirlnode
 systemctl restart pirlnode
+systemctl enable pirlmarlin
+systemctl restart pirlmarlin
 ```
 
 Watch the masternode process synchronize with the blockchain:
