@@ -35,7 +35,7 @@ Go to the web wallet and choose the **Contracts** tab.
 
 ![](https://cdn-images-1.medium.com/max/1000/1*WgStoJFt0ngeYpD8JxYFRQ.png)
 
-From the **Select Existing Contract** drop-down box, select **Masternode Administration**
+From the **Select Existing Contract** drop-down box, select either **Premium Masternode Administration** or **Content Node Administration**
 
 ![](https://cdn-images-1.medium.com/max/1000/1*FfUJJvGS4hNUpymZdLUz9Q.png)
 
