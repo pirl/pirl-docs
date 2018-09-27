@@ -15,7 +15,7 @@ This guide uses the one-click-masternode setup feature. This is an optional feat
 * **A VPS with minimum 4GB RAM and enough storage to run the masternode (minimum 20GB, recommended 60GB)**
 * **A JSON wallet address or a hardware wallet compatible with [https://wallet.pirl.io](https://wallet.pirl.io).  You may import your JSON wallet from Nautilus if you so choose.**
 * **A Poseidon account on [https://poseidon.pirl.io](https://poseidon.pirl.io)**
-* **20001 Pirl available in your wallet.**
+* **20001 Pirl available in your wallet for a premium masternode, or 10001 Pirl for a content node.**
 
 ## Poseidon Wallet Identity Verification
 
@@ -23,7 +23,7 @@ Go to the web wallet and choose the **Send Ether & Tokens** tab.
 
 ![](https://cdn-images-1.medium.com/max/1000/1*rBNbzQmdBafw5IzeIb2zuA.png)
 
-Send a small amount of Pirl from your wallet account that holds 20001 Pirl to your Poseidon address. My screenshots show that I sent 0.1 Pirl, although officially, 0.5 Pirl is recommended. Any small amount should do.  Save the Tx hash - you will need this later.
+Send a small amount of Pirl from your wallet account that holds 20001 (or 10001) Pirl to your Poseidon address. My screenshots show that I sent 0.1 Pirl, although officially, 0.5 Pirl is recommended. Any small amount should do.  Save the Tx hash - you will need this later.
 
 CAUTION: Users have confused the Tx hash with the block hash in the past.  The block hash will not work - you must get the transaction hash!
 
@@ -35,7 +35,7 @@ Go to the web wallet and choose the **Contracts** tab.
 
 ![](https://cdn-images-1.medium.com/max/1000/1*WgStoJFt0ngeYpD8JxYFRQ.png)
 
-From the **Select Existing Contract** drop-down box, select **Masternode Administration**
+From the **Select Existing Contract** drop-down box, select either **Premium Masternode Administration** or **Content Node Administration**
 
 ![](https://cdn-images-1.medium.com/max/1000/1*FfUJJvGS4hNUpymZdLUz9Q.png)
 
@@ -61,11 +61,11 @@ Select the wallet address that contains your funds, and click the **Unlock your 
 
 A message should quickly flash on the bottom of the screen, saying **Wallet successfully decrypted**.  Don't worry if you miss the message - it's just a confirmation, and it doesn't show you any new information.
 
-To send 20000 Pirl to the masternode smart contract, click the **WRITE** button.
+To send your Pirl stake to the masternode smart contract, click the **WRITE** button.
 
 ![](https://cdn-images-1.medium.com/max/1000/1*ZccjsKPBWAePARfBuM0aqg.png)
 
-The **execute function on contract** dialog box will appear.  Fill in your amount (20000) and make sure the Gas Limit is high enough, then click **Generate Transaction**
+The **execute function on contract** dialog box will appear.  Fill in your amount (20000 for premium masternodes, 10000 for content nodes) and make sure the Gas Limit is high enough, then click **Generate Transaction**
 
 ![](https://cdn-images-1.medium.com/max/800/1*kd8tInNtodfN0son6SYjOA.png)
 
