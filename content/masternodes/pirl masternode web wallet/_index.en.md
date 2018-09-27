@@ -255,7 +255,7 @@ Group=pirl
 Type=simple
 Restart=always
 RestartSec=30s
-ExecStart=/usr/sbin/pirl-marlin
+ExecStart=/usr/sbin/pirl-marlin daemon
 
 [Install]
 WantedBy=default.target
