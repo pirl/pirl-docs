@@ -261,6 +261,12 @@ ExecStart=/usr/sbin/pirl-marlin
 WantedBy=default.target
 ```
 
+Become the `pirl` user, then initialize Marlin.  If you're currently logged in as root, do the following:
+```
+su pirl
+/usr/sbin/pirl-marlin init
+```
+
 Enable and start the new services:
 ```
 systemctl enable pirlnode
