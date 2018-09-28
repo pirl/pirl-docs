@@ -262,6 +262,12 @@ ExecStart=/usr/sbin/pirl-marlin daemon
 WantedBy=default.target
 ```
 
+Enable and start the pirlnode service:
+```
+systemctl enable pirlnode
+systemctl restart pirlnode
+```
+
 Become the `pirl` user, then initialize Marlin.  If you're currently logged in as root, do the following:
 ```
 su pirl
@@ -269,10 +275,8 @@ su pirl
 exit
 ```
 
-Enable and start the new services:
+Enable and start the pirlmarlin service:
 ```
-systemctl enable pirlnode
-systemctl restart pirlnode
 systemctl enable pirlmarlin
 systemctl restart pirlmarlin
 ```
