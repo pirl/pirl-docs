@@ -1,11 +1,11 @@
 ---
-title: Masternodes
+title: Pirl-tube
 weight: 3
 pre: "<b>2. </b>"
 chapter: true
 ---
 
-# Masternodes
+# Pirl-tube
 
 ![](/masternodes/images/masternodes.jpg)
 
