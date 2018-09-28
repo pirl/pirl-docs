@@ -161,7 +161,7 @@ wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/
 ...or the content node binaries:
 ```
 wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/content/pirl-v2-masternode-content-beta
-http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/content/marlin-v2-masternode-content-beta
+wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/content/marlin-v2-masternode-content-beta
 ```
 
 Mark them executable, and change the owner to `pirl:pirl`:
@@ -266,6 +266,7 @@ Become the `pirl` user, then initialize Marlin.  If you're currently logged in a
 ```
 su pirl
 /usr/sbin/pirl-marlin init
+exit
 ```
 
 Enable and start the new services:
