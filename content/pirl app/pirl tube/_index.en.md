@@ -7,6 +7,6 @@ chapter: true
 
 # Pirl-tube
 
-![](/pirl app/pirl tube/images/pirltube1.jpg)
+![](/content/pirl app/pirl tube/images/pirltube1.jpg)
 
 **soon** 
