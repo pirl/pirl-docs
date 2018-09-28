@@ -266,6 +266,7 @@ Become the `pirl` user, then initialize Marlin.  If you're currently logged in a
 ```
 su pirl
 /usr/sbin/pirl-marlin init
+exit
 ```
 
 Enable and start the new services:
