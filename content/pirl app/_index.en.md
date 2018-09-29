@@ -13,7 +13,7 @@ chapter: true
 
 This guide will explain how you setup the:
 
-![](/content/pirl app/images/pirlapp21.jpg)
+![](/pirl app/images/pirlapp21.jpg)
 
 
 
