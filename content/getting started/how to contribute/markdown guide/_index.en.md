@@ -11,7 +11,7 @@ Below you'll find some examples of how to use markdown along with our recommenda
 
 ## Example Markdown Document
 
-Below is an example document using markdown. This document will be rendered by the software to display as desrcibed.
+Below is an example document using markdown. This document will be rendered by the software to display as described.
 
 ![Sample](/getting started/how to contribute/markdown guide/images/sample.jpg)
 
@@ -50,14 +50,59 @@ To *italicize* text, use a single set of asterisks around it. To mark text as **
 ```
 *This text will be italicized*
 **This text will be in bold**
+_**What about bold italic**_
 ~~Did I say something wrong?~~
+<center>I am centered writer</center>
 ```
 
 *This text will be italicized*
 
 **This text will be in bold**
 
+_**What about bold italic**_
+
 ~~Did I say something wrong?~~
+
+<center>I am centered writer</center>
+
+### Citation
+
+To quote something, use a right sharp bracket >And do your quote!
+```
+>**Manual to this article**: You have to read this article from front to back and show your grace. After all, that is how literature works, right?
+(unless it is instruction manual, in which case no one reads them at all)
+```
+>**Manual to this article**: You have to read this article from front to back and show your grace. After all, that is how literature works, right?
+(unless it is instruction manual, in which case no one reads them at all)
+
+
+### Table
+If you want to create a simple table in Atom text editor, you can simply time down "table" and hit an Enter! If you are writing in notepad, well,
+then I wish sincere condolences :) But by writing down those symbols, you can create a single rows and columns.
+
+Here you have two examples:
+
+
+```
+| Header One     | Header Two     |
+| :------------- | :------------- |
+| Item One       | Item Two       |
+```
+| Header One     | Header Two     |
+| :------------- | :------------- |
+| Item One       | Item Two       |
+
+
+
+```
+|[Web page](https://pirl.io/)|[White Paper](https://storage.gra1.cloud.ovh.net/v1/AUTH_33a0c4ac73cf4d88a243480c275be8ac/pirl/pirl-whitepaper.pdf)| [Twitter](https://twitter.com/PirlOfficial)  |
+|:------------- |:-------------:| -----:|
+
+```
+|[Web page](https://pirl.io/)|[White Paper](https://storage.gra1.cloud.ovh.net/v1/AUTH_33a0c4ac73cf4d88a243480c275be8ac/pirl/pirl-whitepaper.pdf)| [Twitter](https://twitter.com/PirlOfficial)  |
+|:------------- |:-------------:| -----:|
+
+
 
 ### Lists
 
@@ -125,3 +170,10 @@ There are two ways to distinguish code from text, one for inline use and one for
 This is will be displayed a as a block of code.
 More importantly, notice the back ticks at the top and bottom.
 ```
+
+---
+Author:
+_[PrimateCrypto](https://twitter.com/PrimateCrypto)_
+
+Contributor(s):
+_[Mickey Maler](https://twitter.com/MickeyMaler)_
