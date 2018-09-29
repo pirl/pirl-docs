@@ -24,9 +24,6 @@ This guide will explain how you setup the:
 
 [Download here the Pirl-app for Windows](https://drive.google.com/file/d/1teSDG-8GHxu06GchCCL87qM4dQdj2eJV/view?usp=sharing "Pirl-app for Windows").
 
-[Download here the Pirl-app for Linux](http://example.com/ "With a Title").
-
-[Download here the Pirl-app for Mobile](http://example.com/ "With a Title").
 
 
 ## Instal the Pirl-app.
