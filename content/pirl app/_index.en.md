@@ -12,9 +12,9 @@ PirlApp is
 
 ### Contents
 
-#### 1.) [PirlApp windows installation]({{< ref "/Pirl app windows instal/PirlApp windows instal" >}})
-#### 2.) [PirlApp macOS installation]({{< ref "/pirl app macOS instal/PirlApp macOS instal" >}})
+#### 1.) [PirlApp windows installation]({{< ref "/PirlApp windows instal" >}})
+#### 2.) [PirlApp macOS installation]({{< ref "/PirlApp macOS instal" >}})
 #### 3.) [PirlApp guide]({{< ref "/PirlApp guide" >}})
-#### 4.) [PirlTube]({{< ref "/pirl tube/PirlTube" >}})
+#### 4.) [PirlTube]({{< ref "/PirlTube" >}})
  
 
