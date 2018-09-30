@@ -17,20 +17,21 @@ NB: Before attempting this process, you should make a backup of your keystore da
 ## Deleting the blockchain data
 After ensuring you have backed up your keystore/wallet data securely, the remainder of the process is straight-forward, and goes as follows:
 
- * **Close Pirl Nautilus wallet
- * **Locate & Delete Pirl chaindata
- * **Re-Open Pirl chaindata
-
+ * **Close Pirl Nautilus wallet**
+ * **Locate & Delete Pirl chaindata**
+ * **Re-Open Pirl chaindata**
 
 ### Locating the data
 On Windows, this data is located at:
 
-```C:\Users\*YourUsername*\AppData\Roaming\Pirl\pirl```
+```C:\Users\*YourUsername*\AppData\Roaming\Pirl\pirl
 
 On Linux, it's located at:
+
 ```~/.pirl
 
 On MacOS X, it's located at:
+
 ```~/Library/Pirl
 
 ## Summary
