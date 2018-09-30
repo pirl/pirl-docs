@@ -6,9 +6,6 @@ disableToc: true
 ---
 
 
-# PirlApp
-
-
 ## Overview.
 
 This guide will explain how you setup the:
