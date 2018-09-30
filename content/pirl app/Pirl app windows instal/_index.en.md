@@ -1,7 +1,7 @@
 ---
 title: Pirl app windows instal
-weight: 6
-pre: "<b>5. </b>"
+weight: 1
+pre: "<b>1. </b>"
 chapter: true
 ---
 
