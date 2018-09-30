@@ -1,5 +1,5 @@
 ---
-title: Pirl app macOS instal
+title: PirlApp macOS instal
 weight: 2
 pre: "<b>2. </b>"
 chapter: true
