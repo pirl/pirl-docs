@@ -15,24 +15,17 @@ This guide will explain how you setup the:
 
 ![](/pirl app/images/pirlapp21.jpg)
 
-
-
-
 ## Prerequisites.
 
 [Download here the PirlApp for MacOs](https://drive.google.com/file/d/1K0pQ1nskpH8DmRS5LIdDbDE04ddLnEDV/view?usp=sharing "PirlApp for MacOs").
 
 [Download here the PirlApp for Windows](https://drive.google.com/file/d/1teSDG-8GHxu06GchCCL87qM4dQdj2eJV/view?usp=sharing "PirlApp for Windows").
 
-
-
 ## Instal the PirlApp.
 
 **Go to the folder where you downloaded the PirlApp**
 
 and run the  installer.
-
-
 
 ## Setup the PirlApp.
 
@@ -55,7 +48,7 @@ And hit *create*
 
 ![](/pirl app/images/pirlapp15.jpg)
 
-# And now we get the following error at the bottom off the screen
+## And now we get the following error at the bottom off the screen
 
 ![](/pirl app/images/pirlapp5.jpg)
 
@@ -85,7 +78,6 @@ and fill in the same key/wallet address we just copied and you will see this:
 
 
 **now we wait until the funds are in:**
-
 
 ![](/pirl app/images/pirlapp11.jpg)
 
