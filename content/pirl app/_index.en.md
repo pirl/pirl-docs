@@ -1,12 +1,12 @@
 ---
-title: Pirl-app
+title: PirlApp
 weight: 8
 pre: "<b>7. </b>"
 chapter: true
 ---
 
 
-# Pirl-app
+# PirlApp
 
 
 ## Overview.
@@ -20,23 +20,23 @@ This guide will explain how you setup the:
 
 ## Prerequisites.
 
-[Download here the Pirl-app for MacOs](https://drive.google.com/file/d/1K0pQ1nskpH8DmRS5LIdDbDE04ddLnEDV/view?usp=sharing "Pirl-app for MacOs").
+[Download here the PirlApp for MacOs](https://drive.google.com/file/d/1K0pQ1nskpH8DmRS5LIdDbDE04ddLnEDV/view?usp=sharing "PirlApp for MacOs").
 
-[Download here the Pirl-app for Windows](https://drive.google.com/file/d/1teSDG-8GHxu06GchCCL87qM4dQdj2eJV/view?usp=sharing "Pirl-app for Windows").
+[Download here the PirlApp for Windows](https://drive.google.com/file/d/1teSDG-8GHxu06GchCCL87qM4dQdj2eJV/view?usp=sharing "PirlApp for Windows").
 
 
 
-## Instal the Pirl-app.
+## Instal the PirlApp.
 
-**Go to the folder where you downloaded the Pirl-app** 
+**Go to the folder where you downloaded the PirlApp**
 
 and run the  installer.
 
 
 
-## Setup the Pirl-app.
+## Setup the PirlApp.
 
-Open the Pirl-app:
+Open the PirlApp:
 
 ![](/pirl app/images/pirlapp2.jpg)
 
@@ -45,7 +45,7 @@ The welcome sreen:
 ![](/pirl app/images/pirlapp3.jpg)
 
 
-## Create the account for using the Pirl-app.
+## Create the account for using the PirlApp.
 
 Fill in a *password* you want to use (and write it down somewhere for your self)
 
@@ -55,7 +55,7 @@ And hit *create*
 
 ![](/pirl app/images/pirlapp15.jpg)
 
-# And now we get the following error at the bottom off the screen 
+# And now we get the following error at the bottom off the screen
 
 ![](/pirl app/images/pirlapp5.jpg)
 
@@ -67,7 +67,7 @@ to pay for the gas you need to activate the contract.
 and now we cone fix this by sending an x amount to the wallet
 in this example we do 0.2 Pirl.
 
-The first step is to copy the key/wallet adres:
+The first step is to copy the key/wallet address:
 
 ![](//pirl app/images/pirlapp6.jpg)
 
@@ -92,7 +92,7 @@ and fill in the same key/wallet address we just copied and you will see this:
 
 ## continue the creating of the account
 
-we go back to the *Pirl-app*
+we go back to the *PirlApp*
 **  DO NOT HIT CREATE AGAIN!!!**
 because this makes an extra key/wallet address
 and than it looks like this:
@@ -132,21 +132,3 @@ Author(s):
 dptelecom
 
 Contributor():
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

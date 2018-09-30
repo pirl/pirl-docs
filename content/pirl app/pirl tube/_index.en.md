@@ -1,12 +1,12 @@
 ---
-title: Pirl-tube
+title: PirlTube
 weight: 2
 pre: "<b>1. </b>"
 chapter: true
 ---
 
-# Pirl-tube
+# PirlTube
 
-![](/content/pirl app/pirl tube/images/pirltube1.jpg)
+![](/pirl app/pirl tube/images/pirltube1.jpg)
 
 **soon** 
