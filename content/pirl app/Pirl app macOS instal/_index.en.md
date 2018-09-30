@@ -1,7 +1,7 @@
 ---
 title: Pirl app macOS instal
 weight: 2
-pre: "<b>1. </b>"
+pre: "<b>2. </b>"
 chapter: true
 ---
 
