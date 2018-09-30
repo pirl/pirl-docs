@@ -6,13 +6,13 @@ disableToc: true
 
 ## TL;DR ##
 PirlTube is released today for testing! You can use PirlApp to access it once it finishes compiling!
+Oh wait, there it is! PirlApp and PirlTube are out https://drive.google.com/drive/folders/13CUHTDr3bB0zBeWb0ebHEJ0H8TY8evR4
 
+> This link will expire after the beta testing. For all current releases see the official http://www.pirl.io
 
 ## 2018/09/29 - PirlTube and PirlApp
 
-Fawkes says that the Pirl team is running final tests and checking everything for the new releases. He says Dubs and Is are currently working on finalizing and building PirlApp, which will be released later today! https://drive.google.com/drive/folders/13CUHTDr3bB0zBeWb0ebHEJ0H8TY8evR4
-
-> This link will expire after the beta testing. For all current releases see the official http://www.pirl.io
+Fawkes says that the Pirl team is running final tests and checking everything for the new releases. He says Dubs and Is are currently working on finalizing and building PirlApp, which will be released later today! 
 
 ```
 daxm: 1-click install is really pushed as "the way".  Will there be a time that is the ONLY way to install a PIRL MN?
