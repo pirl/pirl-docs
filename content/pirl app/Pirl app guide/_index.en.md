@@ -18,7 +18,7 @@ This guide will explain how you setup the:
 
 [Download here the PirlApp for Windows](https://drive.google.com/file/d/1teSDG-8GHxu06GchCCL87qM4dQdj2eJV/view?usp=sharing "PirlApp for Windows").
 
-## Instal the PirlApp.
+## Install the PirlApp.
 
 **Go to the folder where you downloaded the PirlApp**
 
