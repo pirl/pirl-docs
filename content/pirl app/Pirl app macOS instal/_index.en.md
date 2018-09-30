@@ -1,10 +1,10 @@
 ---
-title: Links
-weight: 6
-pre: "<b>5. </b>"
+title: Pirl app macOS instal
+weight: 2
+pre: "<b>1. </b>"
 chapter: true
 ---
 
-# Links
+# Pirl app macOS instal
 
 Coming soon, by Pirl Community Member
