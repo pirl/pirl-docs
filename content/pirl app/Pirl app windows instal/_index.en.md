@@ -1,5 +1,5 @@
 ---
-title: Pirl app windows instal
+title: PirlApp windows instal
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
