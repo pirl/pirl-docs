@@ -24,15 +24,15 @@ After ensuring you have backed up your keystore/wallet data securely, the remain
 ### Locating the data
 On Windows, this data is located at:
 
-`C:\Users\*YourUsername*\AppData\Roaming\Pirl\pirl`
+`C:\Users\*YourUsername*\AppData\Roaming\Pirl\pirl\chaindata`
 
 On Linux, it's located at:
 
-`~/.pirl`
+`~/.pirl/chaindata`
 
 On MacOS X, it's located at:
 
-`~/Library/Pirl`
+`~/Library/Pirl/Pirl/Chaindata`
 
 ## Summary
 Your blockchain data should now be reset, which will typically resolve most wallet-related issues.
