@@ -51,7 +51,7 @@ And hit *create*
 
 ![](/pirl app/images/pirlapp15.jpg)
 
-## [- And now we get the following error at the bottom off the screen -]
+## And now we get the following error at the bottom off the screen
 
 ![](/pirl app/images/pirlapp5.jpg)
 
