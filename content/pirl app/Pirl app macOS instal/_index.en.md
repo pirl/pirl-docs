@@ -14,7 +14,7 @@ Coming soon, by Pirl Community Member
 
 
 
-##  [- Warning -]
+## Warning
 
 
 for Mac you have to put PirlApp in application folder or otherwise you get this error:
