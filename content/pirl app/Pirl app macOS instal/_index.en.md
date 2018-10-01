@@ -9,11 +9,12 @@ chapter: true
 
 Coming soon, by Pirl Community Member
 
+## Download:
+[Download here the PirlApp for MacOs](https://drive.google.com/file/d/1K0pQ1nskpH8DmRS5LIdDbDE04ddLnEDV/view?usp=sharing "PirlApp for MacOs").
 
 
 
-
-
+##  [- Warning -]
 
 
 for Mac you have to put PirlApp in application folder or otherwise you get this error:
