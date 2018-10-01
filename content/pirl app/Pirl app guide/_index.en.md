@@ -65,7 +65,7 @@ in this example we do 0.2 Pirl.
 
 The first step is to copy the key/wallet address:
 
-![](//pirl app/images/pirlapp6.jpg)
+![](/pirl app/images/pirlapp6.jpg)
 
 
 Now you  go to your wallet and transfer 0.2 or any other amount you want to the key/wallet address we just copied
