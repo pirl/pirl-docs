@@ -24,8 +24,8 @@ This guide will explain how you setup the:
 
 guide on how to install PirlApp can be found here:
 
-#### 1.) [PirlApp Windows install]({{< ref "/Pirl app windows instal" >}})
-#### 2.) [PirlApp macOs install]({{< ref "/Pirl app macOS instal" >}})
+#### 1.) [PirlApp Windows install]({{< ref "/pirl app/Pirl app windows instal" >}})
+#### 2.) [PirlApp macOs install]({{< ref "/pirl app/Pirl app macOS instal" >}})
 
 
 and run the  installer.
