@@ -1,5 +1,5 @@
 ---
-title: pirl app
+title: PirlApp
 weight: 8
 pre: "<b>7. </b>"
 chapter: true
@@ -9,3 +9,6 @@ chapter: true
 
 
 PirlApp Portal is the user dashboard where PIRL Services are accessible.
+
+
+![](/pirl app/images/pirlapp17.jpg)
