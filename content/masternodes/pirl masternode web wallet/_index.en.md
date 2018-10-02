@@ -128,6 +128,8 @@ If you prefer a manual setup rather than using the **One-Click MN Setup** Guide,
 
 ## Manual Masternode Setup
 
+The instructions are intended for Redhat or CentOS based VPS but should work on most major Linux distributions. You may have the need to adjust the firewall instructions to match the software software running on your VPS.
+
 Login as root and update the system, then install dependencies:
 ```
 yum update
