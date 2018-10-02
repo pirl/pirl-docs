@@ -51,7 +51,7 @@ If you now open **Launchpad** you will find the PirlApp there:
 
 Now you can open it and proceed to:
 
-#### [PirlApp Guide]({{< ref "/pirl app/ Pirl app guide" >}})
+#### [PirlApp Guide]({{< ref "/pirl app/Pirl app guide" >}})
 
 
 
