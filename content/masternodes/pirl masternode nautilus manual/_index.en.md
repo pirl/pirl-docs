@@ -40,7 +40,7 @@ Login to Poseidon and navigate to the page which adds a masternode located here:
 
 The Name can be anything you’d like.  The Wallet id is the address of your Nautilus wallet, the one which contains 20,000 Pirl at present.  And, remember, the Tx hash validation field needs the txid (not block hash, see above!) of the transaction you send to your Poseidon wallet.
 
-**On the bottom of the screenshot above, you will have to select whether the MN is Premium or Content**
+**On the bottom of the screenshot above, you will have to select whether the MN is Premium (20K stake) or Content (10K stake)**
 
 ## Nautilus Contract Execution
 
