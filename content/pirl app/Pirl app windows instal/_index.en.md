@@ -62,7 +62,7 @@ For granting the success of this operation, you will need these requirements:
 ![](/pirl app/Pirl app windows instal/images/creation on Accoun name + password_ hit register.PNG)
 ![](/pirl app/Pirl app windows instal/images/almost.JPG)
 ### Congratulation, you have just joined the future. Enjoy PirlTube and all that nasty stuff from PIRL which will be knocking on your browser soon!
-![](/pirl app/Pirl app windows instal/images/images/done.JPG)
+![](/pirl app/Pirl app windows instal/images/done.JPG)
 
 
 ---
