@@ -42,7 +42,7 @@ For granting the success of this operation, you will need these requirements:
 ### Click on the created account (don't click on create button again) and fill down your Account name (For example "IamKing" or "Mickey") and sign down by typing your Password again
 ![](/pirl app/Pirl app windows instal/images/creation on Accoun name + password_ hit register.PNG)
 ### If you write everything correctly, your account will be registered by your account name, but a red warning label will pop up in the lower section of your screen. Don't worry, its ok. This error only lets you know that you have no funds in your app and you are low on gas, which is a need for successful running
-![](/pirl app/Pirl app windows instal/images/Low gas error will pop out.PNG)
+![](/pirl app/Pirl app windows instal/images/creation_on_Accoun_name_+_password__hit_register.PNG)
 ### Click on the Copy Address button right next to your created account or  highlight it with Left mouse slide and use CTRL+C
 ![](/pirl app/Pirl app windows instal/images/copyAdress.JPG)
 ### Go into your Nautilus wallet (or any wallet you have some Pirl loaded in) and do a "registration" micro transaction
@@ -55,11 +55,11 @@ For granting the success of this operation, you will need these requirements:
 ### Check if it is everything all right in your books and confirm with your password
 ![](/pirl app/Pirl app windows instal/images/checkSend.JPG)
 ### Everything will be done in a few minutes, so take a break and relax for a while in your chair
-![](/pirl app/Pirl app windows instal/images/Actual status.JPG)
+![](/pirl app/Pirl app windows instal/images/Actual_status.JPG)
 ### _* ...3 minutes later and few blocks higher... *_ Yes, right now you can go to your PirlApp and Get in
 ![](/pirl app/Pirl app windows instal/images/rocky.JPG)
 ### Enter your Account and write down the Login name and password. Hit the Register button
-![](/pirl app/Pirl app windows instal/images/creation on Accoun name + password_ hit register.PNG)
+![](/pirl app/Pirl app windows instal/images/creation_on_Accoun_name_+_password__hit_register.PNG)
 ![](/pirl app/Pirl app windows instal/images/almost.JPG)
 ### Congratulation, you have just joined the future. Enjoy PirlTube and all that nasty stuff from PIRL which will be knocking on your browser soon!
 ![](/pirl app/Pirl app windows instal/images/done.JPG)
