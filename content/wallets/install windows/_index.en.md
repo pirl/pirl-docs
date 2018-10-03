@@ -39,11 +39,11 @@ For granting the success of this operation, you will need these requirements:
 ### Unzip downloaded folder
 ![](/wallets/install windows/images/UnzipExtractTheFolder.JPG)
 ### Dive in and find Nautilus Wallet application file and run the installation.
-![](/wallets/install windows/images/LocateNautilusApplication file and runit.JPG)
+![](/wallets/install windows/images/LocateNautilusApplication_file_and_runit.JPG)
 ### Allow this installation in your Windows defender (Windows10)
 ![](/wallets/install windows/images/IfWindowsDefenderPoPUp_RunTheProgramAnyway_TrustMe.JPG)
 ### Allow Nautilus wallet to communicate in your network( but not at airports and stuff;     for your safety)
-![](/wallets/install windows/images/Grand Acces to Nauitullus app in your Local domain.JPG)
+![](/wallets/install windows/images/LocateNautilusApplication_file_and_runit.JPG)
 ![](/wallets/install windows/images/AllowNautilusInyourWIndowsFirewall.JPG)
 ### When the installation begins, wait for download manager until he reaches the last Block. This will take a while.
 ![](/wallets/install windows/images/waitFOrDownloadingBLOCK.JPG)
@@ -54,7 +54,7 @@ For granting the success of this operation, you will need these requirements:
 ### Read Nautilus instructions and make a note for yourself to create a backup of your wallet later
 ![](/wallets/install windows/images/ReadInstructionsAndMakeANoteForYOurSElfToBackUpYourKeystore.JPG)
 ### That's it my friend. You are in.
-![](//wallets/install windows/images/FIRSTscreenInYOurWallet.JPG)
+![](/wallets/install windows/images/FIRSTscreenInYOurWallet.JPG)
 ### Don't forget to backup your wallet. Its the only way how to restore your wallet.
 ### Go to File/Backup/Accounts and copy paste everything you find there into a safe place. You can USB Flash Drive or External HarDisk and keep it safe, offline and away of your computer
 ![](/wallets/install windows/images/WelcomeTOYOurWAlletDoBAckUpOfYourAccount.jpg)
