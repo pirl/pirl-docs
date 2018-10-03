@@ -26,12 +26,10 @@ weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
-
 name = "<i class='fab fa-fw fa-gitlab'></i> Gitlab repo"
 identifier = "ds"
 url = "https://pirl.io/en/"
 weight = 9
-
 
 name = "<i class='fab fa-fw fa-gitlab'></i> Gitlab repo"
 identifier = "ds"
@@ -45,7 +43,6 @@ weight = 2
 languageName = "Français"
 
 [[Languages.fr.menu.shortcuts]]
-
 name = "<i class='fab fa-fw fa-gitlab'></i> Repo Gitlab"
 identifier = "ds"
 url = "https://pirl.io/efr"
