@@ -32,7 +32,7 @@ url = "https://git.pirl.io/community/pirl-docs"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class="fa fa-internet-explorer" aria-hidden="true"></i> Pirl Website"
+name = "<i class='fa fa-internet-explorer'></i> Pirl Website"
 identifier = "pirl"
 url = "https://pirl.io/en/"
 weight = 20
