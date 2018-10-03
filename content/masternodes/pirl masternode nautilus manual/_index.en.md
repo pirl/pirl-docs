@@ -1,7 +1,8 @@
 ---
 title: Staking Pirl Masternode Using Nautilus Wallet Manually
-weight: 5
-disableToc: true
+weight: 2
+pre: "<b>2. </b>"
+chapter: true
 ---
 
 ## Overview
