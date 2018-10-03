@@ -1,7 +1,7 @@
 ---
 title: Masternodes
-weight: 1
-pre: "<b>1. </b>"
+weight: 2
+pre: "<b>2. </b>"
 chapter: true
 ---
 
