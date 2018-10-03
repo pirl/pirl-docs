@@ -1,7 +1,8 @@
 ---
 title: Pirl Masternode Token Change
-weight: 5
-disableToc: true
+weight: 4
+pre: "<b>4. </b>"
+chapter: true
 ---
 
 ## Overview
