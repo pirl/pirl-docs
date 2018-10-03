@@ -1,7 +1,6 @@
 ---
 title: Staking Pirl Masternode From Hardware Wallet Using Web Wallet
 weight: 5
-disableToc: true
 ---
 
 ## Overview
@@ -12,10 +11,10 @@ This guide uses the one-click-masternode setup feature. This is an optional feat
 
 ## Prerequisites
 
-* **A VPS with minimum 4GB RAM and enough storage to run the masternode (minimum 20GB, recommended 60GB)**
-* **A JSON wallet address or a hardware wallet compatible with [https://wallet.pirl.io](https://wallet.pirl.io).  You may import your JSON wallet from Nautilus if you so choose.**
-* **A Poseidon account on [https://poseidon.pirl.io](https://poseidon.pirl.io)**
-* **20001 Pirl available in your wallet for a premium masternode, or 10001 Pirl for a content node.**
+* A VPS with minimum **4GB Total OS RAM minimum** (more is recommended), enough storage to run the masternode (**Minimum 20GB**, Recommended 60GB+), and a **Public IP** assigned at the network interface
+* A JSON wallet address or a hardware wallet compatible with [https://wallet.pirl.io](https://wallet.pirl.io).  You may import your JSON wallet from Nautilus if you so choose.
+* A Poseidon account on [https://poseidon.pirl.io](https://poseidon.pirl.io)
+* 20001 Pirl available in your wallet for a **premium masternode**, or 10001 Pirl for a **content node**.
 
 ## Poseidon Wallet Identity Verification
 
@@ -128,6 +127,8 @@ Please allow 30 minutes for the process to complete. You may click the **details
 If you prefer a manual setup rather than using the **One-Click MN Setup** Guide, follow the next steps.
 
 ## Manual Masternode Setup
+
+The instructions are intended for Redhat or CentOS based VPS but should work on most major Linux distributions. You may have the need to adjust the firewall instructions to match the software software running on your VPS.
 
 Login as root and update the system, then install dependencies:
 ```
@@ -307,4 +308,5 @@ Monitor the status of your masternode by checking the Poseidon Masternode Detail
 Author(s):
 _[Michael Ira Krufky](https://github.com/mkrufky) is a Senior Systems Engineer at Vimeo in New York.  He has been an active open source developer for years, contributing to projects such as [nodejs/nan](https://github.com/nodejs/nan), `video4linux`, `linux-dvb`, `linux-kernel`, `libdvbpsi` and his own digital video capture and streaming middleware solution, [dvbtee](https://github.com/mkrufky/libdvbtee)._
 
-Contributor():
+Contributor(s):
+_[PrimateCrypto](https://twitter.com/PrimateCrypto)_, _[masterdubs](https://twitter.com/mast3rdubs)_
