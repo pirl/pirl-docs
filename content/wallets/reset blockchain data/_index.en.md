@@ -1,7 +1,8 @@
 ---
 title: How To Reset Blockchain Data
-weight: 5
-disableToc: true
+weight: 3
+pre: "<b>3. </b>"
+chapter: true
 ---
 
 
