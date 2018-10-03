@@ -31,8 +31,6 @@ identifier = "ds"
 url = "https://pirl.io/en/"
 weight = 9
 
-name = "<i class='fab fa-fw fa-gitlab'></i> Gitlab repo"
-identifier = "ds"
 url = "https://git.pirl.io/community/pirl-docs"
 weight = 10
 
@@ -48,8 +46,5 @@ identifier = "ds"
 url = "https://pirl.io/efr"
 weight = 9
 
-
-name = "<i class='fab fa-fw fa-gitlab'></i> Repo Gitlab"
-identifier = "ds"
 url = "https://git.pirl.io/community/pirl-docs"
 weight = 10
