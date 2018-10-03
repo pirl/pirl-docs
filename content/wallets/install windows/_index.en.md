@@ -18,8 +18,8 @@ Nautilus is PIRL desktop wallet. Use it to keep your PIRL safe and secure, deplo
 
 This guide will explain how to download, register, and backup your:
 
-![](/wallets/images/Uvod.JPG)
-![](/wallets/images/)
+![](/wallets/install windows/images/Uvod.JPG)
+
 ## Prerequisites.
 
 For granting the success of this operation, you will need these requirements:
@@ -31,41 +31,44 @@ For granting the success of this operation, you will need these requirements:
 ## Action!
 
 ### As always, start with visiting our site and download your [Nautilus](https://pirl.io/en/nautilus-wallet/)
-![](/wallets/images/stahniAjedem.JPG)
+![](/wallets/install windows/images/stahniAjedem.JPG)
 ### Go for Windows version and wait till download will be done
-![](/wallets/images/chooseWindows.JPG)
-![](/wallets/images/FinishtheDownload.JPG)
+![](/wallets/install windows/images/chooseWindows.JPG)
+![](/wallets/install windows/images/FinishtheDownload.JPG)
 ### Go into your download folder and locate the zipped folder
 ### Unzip downloaded folder
-![](/wallets/images/UnzipExtractTheFolder.JPG)
+![](/wallets/install windows/images/UnzipExtractTheFolder.JPG)
 ### Dive in and find Nautilus Wallet application file and run the installation.
-![](/wallets/images/LocateNautilusApplication file and runit.JPG)
+![](/wallets/install windows/images/LocateNautilusApplication file and runit.JPG)
 ### Allow this installation in your Windows defender (Windows10)
-![](/wallets/images/IfWindowsDefenderPoPUp_RunTheProgramAnyway_TrustMe.JPG)
+![](/wallets/install windows/images/IfWindowsDefenderPoPUp_RunTheProgramAnyway_TrustMe.JPG)
 ### Allow Nautilus wallet to communicate in your network( but not at airports and stuff;     for your safety)
-![](/wallets/images/Grand Acces to Nauitullus app in your Local domain.JPG)
-![](/wallets/images/AllowNautilusInyourWIndowsFirewall.JPG)
+![](/wallets/install windows/images/Grand Acces to Nauitullus app in your Local domain.JPG)
+![](/wallets/install windows/images/AllowNautilusInyourWIndowsFirewall.JPG)
 ### When the installation begins, wait for download manager until he reaches the last Block. This will take a while.
-![](/wallets/images/waitFOrDownloadingBLOCK.JPG)
+![](/wallets/install windows/images/waitFOrDownloadingBLOCK.JPG)
 ### Create your Account by entering your password
-![](/wallets/images/AfterInstalationIsReadyYouwillbeinvitedtoCreatNewAccountByEnteringYourPassword.JPG)
+![](/wallets/install windows/images/AfterInstalationIsReadyYouwillbeinvitedtoCreatNewAccountByEnteringYourPassword.JPG)
 ### Repeat your password as a verification
-![](/wallets/images/RepeatYourPasswordAsAValidityCHeck.JPG)
+![](/wallets/install windows/images/RepeatYourPasswordAsAValidityCHeck.JPG)
 ### Read Nautilus instructions and make a note for yourself to create a backup of your wallet later
-![](/wallets/images/ReadInstructionsAndMakeANoteForYOurSElfToBackUpYourKeystore.JPG)
+![](/wallets/install windows/images/ReadInstructionsAndMakeANoteForYOurSElfToBackUpYourKeystore.JPG)
 ### That's it my friend. You are in.
-![](/wallets/images/FIRSTscreenInYOurWallet.JPG)
+![](//wallets/install windows/images/FIRSTscreenInYOurWallet.JPG)
 ### Don't forget to backup your wallet. Its the only way how to restore your wallet.
 ### Go to File/Backup/Accounts and copy paste everything you find there into a safe place. You can USB Flash Drive or External HarDisk and keep it safe, offline and away of your computer
-![](/wallets/images/WelcomeTOYOurWAlletDoBAckUpOfYourAccount.jpg)
+![](/wallets/install windows/images/WelcomeTOYOurWAlletDoBAckUpOfYourAccount.jpg)
 ### Go to File/Backup/Application data and do the same here.
 ### Congratulation. Now you are able to send some funds to your PirlApp and watch some kickass PirlTube contend!
 
 
 
 ---
+
 Author(s):
 
 Test.Object. 001 (Also know as Mickey Maler)
 
 Contributor():
+
+dptelecom
