@@ -1,7 +1,8 @@
 ---
 title: How to Backup Pirl Wallets
-weight: 5
-disableToc: true
+weight: 2
+pre: "<b>2. </b>"
+chapter: true
 ---
 
 ## Overview
