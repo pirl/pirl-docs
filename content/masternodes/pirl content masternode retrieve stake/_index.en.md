@@ -1,7 +1,8 @@
 ---
 title: Retrieve Pirl Content Masternode Stake
-weight: 5
-disableToc: true
+weight: 6
+pre: "<b>6. </b>"
+chapter: true
 ---
 
 ## Overview
