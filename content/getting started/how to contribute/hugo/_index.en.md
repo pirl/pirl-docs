@@ -1,10 +1,10 @@
 ---
-title: Links
+title: hugo
 weight: 8
 pre: "<b>7. </b>"
 chapter: true
 ---
 
-# Links
+# Hugo
 
 Coming soon, by Pirl Community Member
