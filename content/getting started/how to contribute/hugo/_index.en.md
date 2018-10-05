@@ -1,7 +1,7 @@
 ---
 title: hugo
 weight: 5
-pre: "<b>. </b>"
+pre: "<b>5. </b>"
 disableToc: true
 ---
 
