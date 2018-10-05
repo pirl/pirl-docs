@@ -9,9 +9,6 @@ chapter: true
 
 All notable changes to this project will be documented in this file.
 
-## Unreleased
-
-
 ## Version
 
 2018-06-20:
@@ -31,7 +28,10 @@ App Version: Pre Beta 1.0.2
 -fix list all videos
 
 ## Removed
+-
 
+## Unreleased
+-
 
 
 
