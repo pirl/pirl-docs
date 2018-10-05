@@ -1,10 +1,10 @@
 ---
-title: Links
-weight: 8
-pre: "<b>7. </b>"
+title: Changelog
+weight: 1
+pre: "<b>1. </b>"
 chapter: true
 ---
 
-# Links
+# Changelog
 
 Coming soon, by Pirl Community Member
