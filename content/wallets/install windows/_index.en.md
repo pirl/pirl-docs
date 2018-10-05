@@ -2,10 +2,10 @@
 title: Nautilus Wallet Windows Installation
 weight: 1
 pre: "<b>1. </b>"
-chapter: true
+disableToc: true
 ---
 
-# Nautilus Wallet Windows Installation
+
 
 Hello and welcome!
 

@@ -1,6 +1,8 @@
 ---
 title: Markdown Guide
-weight: 5
+weight: 3
+pre: "<b>3. </b>"
+disableToc: true
 ---
 
 ## Introduction

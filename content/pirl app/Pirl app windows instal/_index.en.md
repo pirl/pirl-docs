@@ -2,10 +2,10 @@
 title: PirlApp windows install
 weight: 1
 pre: "<b>1. </b>"
-chapter: true
+disableToc: true
 ---
 
-# Pirl app windows install
+
 
 Hello and welcome!
 

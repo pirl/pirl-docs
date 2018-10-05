@@ -1,6 +1,8 @@
 ---
 title: Getting Pirl for Writing Knowledge Base (KB) Articles
-weight: 5
+weight: 2
+pre: "<b>2. </b>"
+disableToc: true
 ---
 
 ## Introduction
