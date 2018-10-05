@@ -1,10 +1,10 @@
 ---
 title: hugo
-weight: 8
-pre: "<b>7. </b>"
-chapter: true
+weight: 5
+pre: "<b>. </b>"
+disableToc: true
 ---
 
-# Hugo
+
 
 Coming soon, by Pirl Community Member
