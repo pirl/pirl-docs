@@ -10,7 +10,7 @@ disableToc: true
 All notable changes to this project will be documented in this file.
 
 ## Version  
-2018-06-20:  
+2018-10-05:  
 Update and improvement of PirlTube from @Is_Nikolova  
 
 Windows:  
