@@ -9,8 +9,7 @@ chapter: true
 
 All notable changes to this project will be documented in this file.
 
-
-# Unreleased
+## Unreleased
 
 
 ## Version
@@ -25,16 +24,20 @@ App Version: Pre Beta 1.0.2
 
 ## Added
 
-
 -Add auto approve for upload and fix play video
 
 ## Changed
 
 -fix list all videos
 
-## Removed 
+## Removed
 
 
 
 
+---
+Author(s):
 
+dptelecom
+
+Contributor():
