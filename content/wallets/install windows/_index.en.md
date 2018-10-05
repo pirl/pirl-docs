@@ -5,7 +5,7 @@ pre: "<b>1. </b>"
 disableToc: true
 ---
 
-# Nautilus Wallet Windows Installation
+
 
 Hello and welcome!
 
