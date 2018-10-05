@@ -7,9 +7,9 @@ disableToc: true
 
 
 
-All notable changes to this project will be documented in this file.
+## All notable changes to this project will be documented in this file.
 
-## Version  
+## Version ```Pre Beta 1.0.2```  
 2018-10-05:  
 Update and improvement of PirlTube from @Is_Nikolova  
 
