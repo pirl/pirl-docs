@@ -2,42 +2,41 @@
 title: Changelog
 weight: 1
 pre: "<b>1. </b>"
-chapter: true
+disableToc: true
 ---
 
-# Changelog
+
 
 All notable changes to this project will be documented in this file.
 
-## Version
+## Version  
+2018-06-20:  
+Update and improvement of PirlTube from @Is_Nikolova  
 
-2018-06-20:
-Update and improvement of PirlTube from @Is Nikolova
-
-Windows:
+Windows:  
+App Version: Pre Beta 1.0.2  
+MacOs we are on:  
 App Version: Pre Beta 1.0.2
-MacOs we are on:
-App Version: Pre Beta 1.0.2
 
-## Added
+## Added  
 
--Add auto approve for upload and fix play video
+2018-10-05: Add auto approve for upload and fix play video.
 
-## Changed
+## Changed  
 
--fix list all videos
+2018-10-05: Fix list all videos.
 
-## Removed
+## Removed  
 -
 
-## Unreleased
+## Unreleased  
 -
 
 
 
 ---
-Author(s):
+Author(s):  
 
-dptelecom
+dptelecom  
 
 Contributor():
