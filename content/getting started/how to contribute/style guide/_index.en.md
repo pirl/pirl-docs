@@ -1,6 +1,8 @@
 ---
 title: Style Guide
-weight: 5
+weight: 4
+pre: "<b>4. </b>"
+disableToc: true
 ---
 
 ## Introduction
