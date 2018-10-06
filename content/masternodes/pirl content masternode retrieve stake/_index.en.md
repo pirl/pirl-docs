@@ -1,7 +1,7 @@
 ---
 title: Retrieve Pirl Content Masternode Stake
-weight: 6
-pre: "<b>6. </b>"
+weight: 7
+pre: "<b>7. </b>"
 chapter: true
 ---
 
