@@ -5,7 +5,7 @@ pre: "<b>4. </b>"
 disableToc: true
 ---
 
-# Wallets
+
 
 ![](/wallets/images/Pirl_wallets.jpg )
 
