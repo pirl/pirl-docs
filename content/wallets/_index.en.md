@@ -7,7 +7,7 @@ disableToc: true
 
 # Wallets
 
-![](/wallets/images/pirl wallets.jpg)
+![](/wallets/images/Pirl_wallets.jpg )
 
 
 [Download here the Pirl Nautilus Wallet-0.9.2 Linux](https://github.com/pirl/nautilus/releases/download/0.9.2/Pirl-Nautilus-Wallet-linux64-0-9-2.deb "Download here the Pirl Nautilus Wallet-0.9.2 Linux").
