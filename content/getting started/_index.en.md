@@ -6,7 +6,7 @@ disableToc: true
 ---
 
 
-![](/getting started/images/Pirl.jpgg)
+![](/getting started/images/Pirl.jpg)
 
 
 
