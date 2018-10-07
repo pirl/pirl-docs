@@ -5,6 +5,10 @@ pre: "<b>6. </b>"
 disableToc: true
 ---
 
+![](/pirl roundtable meeting/images/pirl_roundtable.jpg)
+
+
+
 ### Round table philosophy of PIRL
 
 We in PIRL believe that an active and loyal community is a healthy core of every successful blockchain based project. Thanks to your ideas and constructive critique we can improve, enhance, ameliorate. Thanks to the cardinality of active members we have around our self we can sense the feeling our community cares. At the roundtable, you have great opportunity to reach the developers, high to mid-range managers and mainly the CEO.
@@ -27,3 +31,4 @@ Author:
 _[Mickey Maler](https://twitter.com/MickeyMaler)_
 
 Contributor(s):
+dptelecom
