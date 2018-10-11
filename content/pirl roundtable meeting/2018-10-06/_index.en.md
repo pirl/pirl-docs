@@ -72,10 +72,9 @@ Farewell, MasterDubs and Fawkes.
 
 Sincerely, Mickey
 
-![Pirl Round Table #8 10/06/2018](https://youtu.be/VbRxs5aEM9c)
-[Pirl Round Table #8 10/06/2018](https://youtu.be/VbRxs5aEM9c "Pirl Round Table #8 10/06/2018")
 
-<iframe width="2309" height="1202" src="https://www.youtube.com/embed/VbRxs5aEM9c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="1309" height="802" src="https://www.youtube.com/embed/VbRxs5aEM9c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---
 Author(s):  
