@@ -5,7 +5,7 @@ pre: "<b>1. </b>"
 disableToc: true
 ---
 
-## Round Table 6.10.2018
+## Round Table 06.10.2018
 
 All non-question related content has been proved by Masterdubs and Fawkes
 Beginning:
