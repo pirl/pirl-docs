@@ -72,7 +72,7 @@ Farewell, MasterDubs and Fawkes.
 
 Sincerely, Mickey
 
-
+![Pirl Round Table #8 10/06/2018](https://youtu.be/VbRxs5aEM9c)
 
 
 
@@ -82,3 +82,4 @@ Author(s):
 Mickey 
 
 Contributor():
+dptelecom
