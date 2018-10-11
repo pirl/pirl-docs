@@ -144,8 +144,13 @@ Phatblinkie: Have you had any other side conversations with the ProgPoW devs?
 ```
 Dubs: Yes.  We don't want to implement as-is but improve parts it for our unique needs.
 
+
+<iframe width="1309" height="802" src="https://www.youtube.com/embed/sN2T6MJTgCE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ---
 Author(s):
 _[PrimateCrypto](https://twitter.com/PrimateCrypto)_
 
 Contributor(s):
+
+dptelecom
