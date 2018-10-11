@@ -2,10 +2,10 @@
 title: Mining
 weight: 4
 pre: "<b>3. </b>"
-chapter: true
+disableToc: true
 ---
 
-# Mining
+
 
 <iframe width="1309" height="802" src="https://www.youtube.com/embed/PhXsLhLuQE8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
