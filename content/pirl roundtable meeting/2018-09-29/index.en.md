@@ -143,9 +143,11 @@ Bye bye guys.
 
 
 Author(s):
+
 _[PrimateCrypto](https://twitter.com/PrimateCrypto)_
 
 Contributor(s):
+
 _[Test.Object. 001](https://twitter.com/MickeyMaler)_
 
 dptelecom
