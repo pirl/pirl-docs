@@ -137,13 +137,17 @@ Or Fat rabbit can upload a videos for us. Who wants FatRabbit to upload videos f
 
 Bye bye guys.
 
-
+<iframe width="1309" height="802" src="https://www.youtube.com/embed/j1a27ixTFgI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
 
 Author(s):
+
 _[PrimateCrypto](https://twitter.com/PrimateCrypto)_
 
 Contributor(s):
+
 _[Test.Object. 001](https://twitter.com/MickeyMaler)_
+
+dptelecom

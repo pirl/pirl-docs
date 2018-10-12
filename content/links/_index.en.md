@@ -11,9 +11,9 @@ disableToc: true
 
 #### [PirlDocs](https://docs.pirl.io/en/ "PirlDocs")
 
-#### [PirlPools](#### [PirlWebsite](https://pirl.io/en/ "PirlPools")
+#### [PirlPools](https://pirl.io/en/pools/ "PirlPools")
 
-#### [PirlDidscord](https://discord.gg/QYYkVRz "PirlDiscord")
+#### [PirlDiscord](https://discord.gg/QYYkVRz "PirlDiscord")
 
 #### [PirlPoseidon](https://poseidon.pirl.io/explorer/ "PirlPoseidon")
 

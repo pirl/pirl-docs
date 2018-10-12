@@ -5,7 +5,7 @@ pre: "<b>1. </b>"
 disableToc: true
 ---
 
-## Round Table 6.10.2018
+## Round Table 06.10.2018
 
 All non-question related content has been proved by Masterdubs and Fawkes
 Beginning:
@@ -74,7 +74,7 @@ Sincerely, Mickey
 
 
 
-
+<iframe width="1309" height="802" src="https://www.youtube.com/embed/VbRxs5aEM9c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ---
 Author(s):  
@@ -82,3 +82,5 @@ Author(s):
 Mickey 
 
 Contributor():
+
+dptelecom
