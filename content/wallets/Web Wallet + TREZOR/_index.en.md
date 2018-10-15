@@ -32,7 +32,7 @@ For granting the success of this operation, you will need these requirements:
 ### Connect your Trezor with PC (make sure you did that update)
 
 ### Go [here](https://wallet.pirl.io/)
-![](/wallets/Web Wallet + TREZOR/images/Wallet Page.JPG)
+![](/wallets/Web Wallet + TREZOR/images/Wallet_Page.JPG)
 ### The interface of this pages is similar to MyEther Wallet (MEW)
 
 ### Click on "hardware wallet"(text written in red inside the yellow box)
