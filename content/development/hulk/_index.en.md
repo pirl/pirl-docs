@@ -1,11 +1,11 @@
 ---
-title:  51% ATTACK & HULK
+title: ATTACK & HULK
 weight: 1
 pre: "<b>1. </b>"
 disableToc: true
 ---
 
-
+![](/development/images/hulk.jpg)
 
 Pirl Community!
 
