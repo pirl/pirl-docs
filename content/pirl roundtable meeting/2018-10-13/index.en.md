@@ -1,5 +1,5 @@
 ---
-title: Roundtable meeting 2018-10-13
+title: Roundtable 2018-10-13
 weight: 1
 pre: "<b>1. </b>"
 disableToc: true
