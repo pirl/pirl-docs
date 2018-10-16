@@ -1,14 +1,28 @@
 ---
-title: PirlApp
-weight: 6
-pre: "<b>5. </b>"
-chapter: true
+title: development
+weight: 9
+pre: "<b>8. </b>"
+disableToc: true
 ---
 
-# PirlApp
 
 
-PirlApp Portal is the user dashboard where PIRL Services are accessible.
+# 
 
 
-![](/pirl app/images/pirlapp17.jpg)
+
+
+
+
+
+
+
+
+
+
+---
+Author(s):
+
+dptelecom
+
+Contributor():
