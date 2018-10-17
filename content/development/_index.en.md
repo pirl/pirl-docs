@@ -7,6 +7,9 @@ disableToc: true
 
 ## Updates about development for Pirl
 
+![](/development/images/PirlApps.jpg)
+
+
 Updates about development for Pirl can be found on the next pages.
 
 #### 1.) [Core]({{< ref "/development/core" >}})
@@ -17,7 +20,7 @@ Updates about development for Pirl can be found on the next pages.
 
 
 
-![](/development/images/Pirl_Energy.gif)
+
 
 
 
