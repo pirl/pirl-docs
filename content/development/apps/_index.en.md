@@ -5,6 +5,10 @@ pre: "<b>4. </b>"
 disableToc: true
 ---
 
+
+![](/development/images/PirlApps.jpg)
+
+
 ## Updates about development for PirlApps
 
 Updates about development for PirlApps can be found on the next pages.
@@ -18,7 +22,7 @@ Updates about development for PirlApps can be found on the next pages.
 
 
 
-![](/development/images/Pirl_Energy.gif)
+
 
 
 
