@@ -13,7 +13,7 @@ Updates about development for Pirl can be found on the next pages.
 #### 2.) [Masternodes]({{< ref "/development/masternodes" >}})
 #### 3.) [Wallets]({{< ref "/development/wallets" >}})
 #### 4.) [Apps]({{< ref "/development/apps" >}})
-#### 5.) [Mining]({{< ref "/development/wallets" >}})
+
 
 
 
