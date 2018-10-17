@@ -9,6 +9,15 @@ disableToc: true
 
 Updates about development for PirlApps can be found on the next pages.
 
+#### 1.) [PirlApp]({{< ref "/development/apps/pirlapp" >}})
+#### 2.) [PirlApp changelog]({{< ref "/development/apps/pirlapp/changelog" >}})
+#### 3.) [PirlApp PirlTube]({{< ref "/development/apps/pirltube" >}})
+#### 4.) [PirlApp PirlTube changelog]({{< ref "/development/apps/pirltube/changelog" >}})
+
+
+
+
+
 ![](/development/images/Pirl_Energy.gif)
 
 
