@@ -9,7 +9,7 @@ disableToc: true
 
 Updates about development for PirlMasternodes an be found on the next pages.
 
-![](/development/images/Pirl_Energy.gif)
+![](/development/images/Pirl_Masternodes_network.jpg)
 
 
 
