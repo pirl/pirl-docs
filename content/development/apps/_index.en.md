@@ -1,13 +1,13 @@
 ---
-title: Wallets
-weight: 3
-pre: "<b>3. </b>"
+title: Apps
+weight: 4
+pre: "<b>4. </b>"
 disableToc: true
 ---
 
-## Updates about development for PirlWallets
+## Updates about development for PirlApps
 
-Updates about development for PirlWallets can be found on the next pages.
+Updates about development for PirlApps can be found on the next pages.
 
 ![](/development/images/Pirl_Energy.gif)
 
