@@ -1,7 +1,7 @@
 ---
-title: Changelog
-weight: 1
-pre: "<b>1. </b>"
+title: Changelog PirlTube
+weight: 2
+pre: "<b>2. </b>"
 disableToc: true
 ---
 
