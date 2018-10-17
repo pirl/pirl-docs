@@ -1,42 +1,30 @@
 ---
-title: Changelog PirlTube
-weight: 2
-pre: "<b>2. </b>"
+title: PirlTube
+weight: 1
+pre: "<b>1. </b>"
 disableToc: true
 ---
 
+## Updates about development for PirlTube
+Updates about development for PirlApp can be found on the next pages.
+
+![](/development/images/Pirl_Energy.gif)
 
 
-## All notable changes to this project will be documented in this file.
 
-## Version <span style="color:green">Pre Beta 1.0.2</span>
-2018-10-05:  
-Update and improvement of PirlTube from @Is_Nikolova  
 
-Windows:  
-App Version: Pre Beta 1.0.2  
-MacOs we are on:  
-App Version: Pre Beta 1.0.2
 
-## Added  
 
-2018-10-05: Add auto approve for upload and fix play video.
 
-## Changed  
 
-2018-10-05: Fix list all videos.
 
-## Removed  
--
 
-## Unreleased  
--
 
 
 
 ---
-Author(s):  
+Author(s):
 
-dptelecom  
+dptelecom
 
 Contributor():
