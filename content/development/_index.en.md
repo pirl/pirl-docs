@@ -20,23 +20,7 @@ Updates about development for Pirl can be found on the next pages.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
 Author(s):
 
 
@@ -47,5 +31,6 @@ Contributor():
 
 
 Fawkes thanks buddy for making the header-banner
+
 
 
