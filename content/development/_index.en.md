@@ -44,4 +44,4 @@ dptelecom
 
 Contributor():
 
-Fawkes thanks buddy for making the header-banner </p>
+Fawkes thanks buddy for making the header-banner</p>
