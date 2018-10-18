@@ -2,8 +2,8 @@
 title: Development
 weight: 9
 pre: "<b>8. </b>"
-disableToc: true
 chapter: true
+disableToc: true
 ---
 
 ![](/development/images/development.jpg)
@@ -37,8 +37,11 @@ Updates about development for Pirl can be found on the next pages.
 
 
 ---
+
 Author(s):
 
 dptelecom
 
 Contributor():
+
+Fawkes thanks buddy for making the header-banner 
