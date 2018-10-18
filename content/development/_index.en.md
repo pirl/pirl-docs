@@ -5,9 +5,7 @@ pre: "<b>8. </b>"
 disableToc: true
 ---
 
-an other is in the making for this 👇 by Fawkes
-
-![](/development/images/PirlApps.jpg)
+![](/development/images/development.jpg)
 
 
 ## Updates about development for Pirl
