@@ -6,7 +6,7 @@ disableToc: true
 ---
 
 
-<img src="content/development/images/poseidon1a.jpg" width="400">
+![](/development/images/poseidon.jpg)
 
 
 ## Updates about development for Poseidon
