@@ -12,7 +12,7 @@ disableToc: true
 
 Updates about development for Poseidon can be found on the next pages.
 
-#### 1.) [PPoseidon changelog]({{< ref "/development/masternodes/poseidon/changelog" >}})
+#### 1.) [Poseidon changelog]({{< ref "/development/masternodes/poseidon/changelog" >}})
 
 
 
