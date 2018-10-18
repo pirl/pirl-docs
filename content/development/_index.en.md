@@ -1,5 +1,5 @@
 ---
-title: Development
+rem title: Development
 weight: 9
 pre: "<b>8. </b>"
 disableToc: true
@@ -11,7 +11,7 @@ disableToc: true
 ## Updates about development for Pirl
 
 
-Updates about development for Pirl ![](/development/images/favicon.png) can be found on the next pages.
+Updates about development for Pirl can be found on the next pages.
 
 #### 1.) [Core]({{< ref "/development/core" >}})
 #### 2.) [Masternodes]({{< ref "/development/masternodes" >}})
