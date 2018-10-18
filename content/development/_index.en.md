@@ -11,7 +11,7 @@ disableToc: true
 ## Updates about development for Pirl
 
 
-Updates about development for Pirl ![](/hugo-theme-learn/static/images/favicon.png) can be found on the next pages.
+Updates about development for Pirl ![](/themes/hugo-theme-learn/static/images/favicon.png) can be found on the next pages.
 
 #### 1.) [Core]({{< ref "/development/core" >}})
 #### 2.) [Masternodes]({{< ref "/development/masternodes" >}})
