@@ -38,10 +38,10 @@ Updates about development for Pirl can be found on the next pages.
 
 ---
 
-<left>Author(s):
+<p align="left">Author(s):
 
 dptelecom
 
 Contributor():
 
-Fawkes thanks buddy for making the header-banner</left>
+Fawkes thanks buddy for making the header-banner </p>
