@@ -2,7 +2,6 @@
 title: Development
 weight: 9
 pre: "<b>8. </b>"
-disableToc: false
 ---
 
 ![](/development/images/development.jpg)
