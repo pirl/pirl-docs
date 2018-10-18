@@ -5,7 +5,7 @@ pre: "<b>1. </b>"
 disableToc: true
 ---
 
-![](/development/images/poseidon1a.jpgs=200)
+![](/development/images/poseidon1a.jpg s=200)
 
 
 ## Updates about development for Poseidon
