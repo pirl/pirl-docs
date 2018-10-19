@@ -16,13 +16,13 @@ Update and improvement of PirlTube from @Is_Nikolova
 Windows:
 
 
-App Version: ==Pre Beta 1.0.3==
+App Version: <span style="color:green">Pre Beta 1.0.3</span>
 
 
 MacOs:
 
 
-App Version: ==Pre Beta 1.0.3==
+App Version: <span style="color:green">Pre Beta 1.0.3</span>
 
  
 ## Added
@@ -92,13 +92,13 @@ Update and improvement of PirlTube from @Is_Nikolova
 Windows:  
 
 
-App Version: ==Pre Beta 1.0.2==  
+App Version: <span style="color:green">Pre Beta 1.0.2</span>
 
 
 MacOs:
 
 
-App Version: ==Pre Beta 1.0.2==
+App Version: <span style="color:green">Pre Beta 1.0.2</span>
 
 
 ## Added  
