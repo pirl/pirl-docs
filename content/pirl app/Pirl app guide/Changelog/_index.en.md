@@ -14,9 +14,16 @@ disableToc: true
 Update and improvement of PirlTube from @Is_Nikolova  
 
 Windows:
-App Version: Pre Beta 1.0.3
-MacOs we are on:
-App Version: Pre Beta 1.0.3
+
+
+App Version: ==Pre Beta 1.0.3==
+
+
+MacOs:
+
+
+App Version: ==Pre Beta 1.0.3==
+
  
 ## Added
 2018-10-07: Added text editor to description input at upload panel and edit panel.
@@ -83,9 +90,16 @@ App Version: Pre Beta 1.0.3
 Update and improvement of PirlTube from @Is_Nikolova  
 
 Windows:  
-App Version: Pre Beta 1.0.2  
-MacOs we are on:  
-App Version: Pre Beta 1.0.2
+
+
+App Version: ==Pre Beta 1.0.2==  
+
+
+MacOs:
+
+
+App Version: ==Pre Beta 1.0.2==
+
 
 ## Added  
 
