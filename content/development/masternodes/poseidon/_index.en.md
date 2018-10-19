@@ -11,7 +11,20 @@ disableToc: true
 
 ## Updates about development for Poseidon
 
-Updates about development for Poseidon can be found on the next pages.
+
+coming soon.
+
+
+## Poseidon
+
+[Poseidon](https://poseidon.pirl.io "Poseidon").
+
+
+[Poseidon Development](https://devexplorer.pirl.io/home "Poseidon Development").
+
+
+## Updates about development for Poseidon can be found on the next pages.
+
 
 #### 1.) [Poseidon changelog]({{< ref "/development/masternodes/poseidon/changelog" >}})
 
