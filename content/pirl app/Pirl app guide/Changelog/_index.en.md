@@ -5,9 +5,8 @@ pre: "<b>1. </b>"
 disableToc: true
 ---
 
-
-
 ## All notable changes to this project will be documented in this file.
+
 
 ## Version <span style="color:green">Pre Beta 1.0.3</span>
 
