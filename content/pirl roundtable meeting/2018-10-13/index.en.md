@@ -46,13 +46,10 @@ We will have a StarCraft tournament around 9 of November. So, come to join us. A
 Dubs said that he was good at Counterstrike 15 years back. Socal is a hard worker in PIRL backstage.
 
 
-
-
-
-
 Sincerely, Mickey
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qsqicV0O9D8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
