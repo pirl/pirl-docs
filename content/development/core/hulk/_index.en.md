@@ -1,7 +1,7 @@
 ---
 title: ATTACK & HULK
-weight: 1
-pre: "<b>1. </b>"
+weight: 2
+pre: "<b>2. </b>"
 disableToc: true
 ---
 

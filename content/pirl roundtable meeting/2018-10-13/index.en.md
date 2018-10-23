@@ -1,7 +1,7 @@
 ---
 title: Roundtable 2018-10-13
-weight: 1
-pre: "<b>1. </b>"
+weight: 2
+pre: "<b>2. </b>"
 disableToc: true
 ---
 
@@ -46,13 +46,10 @@ We will have a StarCraft tournament around 9 of November. So, come to join us. A
 Dubs said that he was good at Counterstrike 15 years back. Socal is a hard worker in PIRL backstage.
 
 
-
-
-
-
 Sincerely, Mickey
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QVUGjd8_HuE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
@@ -61,3 +58,5 @@ Author:
 _[Mickey Maler](https://twitter.com/MickeyMaler)_
 
 Contributor(s):
+
+Dptelecom

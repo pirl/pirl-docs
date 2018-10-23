@@ -1,7 +1,7 @@
 ---
 title: Roundtable 2018-09-22
-weight: 4
-pre: "<b>4. </b>"
+weight: 5
+pre: "<b>5. </b>"
 disableToc: true
 ---
 
@@ -145,7 +145,8 @@ Phatblinkie: Have you had any other side conversations with the ProgPoW devs?
 Dubs: Yes.  We don't want to implement as-is but improve parts it for our unique needs.
 
 
-<iframe width="1309" height="802" src="https://www.youtube.com/embed/sN2T6MJTgCE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/un5g4eChRBU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 
 ---
 Author(s):
