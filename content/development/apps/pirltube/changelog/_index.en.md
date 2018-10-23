@@ -1,5 +1,5 @@
 ---
-title: Changelog
+title: Changelog PirlTube
 weight: 1
 pre: "<b>1. </b>"
 disableToc: true
