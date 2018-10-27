@@ -1,7 +1,7 @@
 ---
 title: Services
-weight: 10
-pre: "<b>9. </b>"
+weight: 11
+pre: "<b>10. </b>"
 disableToc: true
 ---
 
@@ -9,7 +9,8 @@ disableToc: true
 
 #### [PirlServices](https://services.pirl.io "PirlServices ")
 
-<iframe src="https://services.pirl.io">
+<iframe width="600"
+    height="400" src="https://services.pirl.io">
 </iframe>
 
 
