@@ -11,7 +11,7 @@ disableToc: true
 </iframe>
 
 <iframe width="1968"
-    height="393" src="https://poseidon.pirl.io">
+    height="393" src="https://poseidon.pirl.io/">
 </iframe>
 
 
@@ -21,7 +21,6 @@ disableToc: true
 </iframe>
 
 
-https://discordapp.com/channels/368350413780418561/377270831694348319
 
 
 
