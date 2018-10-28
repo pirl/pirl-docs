@@ -8,7 +8,8 @@ disableToc: true
 ## All notable changes to this project will be documented in this file.
 
 
-Version <span style="color:green">Pre Beta 1.0.3</span>
+## Version <span style="color:green">Pre Beta 1.0.3-1</span>
+
 
 
 2018-10-12:
@@ -17,20 +18,19 @@ Version <span style="color:green">Pre Beta 1.0.3</span>
 Update and improvement of PirlTube from @Is_Nikolova
 
 
-Windows:  
+Windows:
 
 
-App Version: <span style="color:green">Pre Beta 1.0.3</span>
+App Version:<span style="color:green">re Beta 1.0.3-1</span>
 
 
 MacOs:
 
 
-App Version: <span style="color:green">Pre Beta 1.0.3</span>
-
+App Version:<span style="color:green">re Beta 1.0.3-1</span>
 
  
-## Added  
+## Added
 
 
 2018-10-07: Added text editor to description input at upload panel and edit panel.
@@ -69,10 +69,16 @@ App Version: <span style="color:green">Pre Beta 1.0.3</span>
 2018-10-23: Added back-forward buttons to layouts.
 
 
-2018-10-123: Added avatar to video-layout.
+2018-10-23: Added avatar to video-layout and route navigate to profile page.
 
 
-## Changed 
+2018-10-24: Added speed to video player.
+
+
+2018-10-27: Added "Space-bar" hot key for play/pause functionality.
+
+
+## Changed
 
 
 2018-10-08: Fixing tip functionality to display error in case “Wrong password!”.
@@ -84,18 +90,41 @@ App Version: <span style="color:green">Pre Beta 1.0.3</span>
 2018-10-18: Sorted listing of videos by date (first factor) and likes (second factor)
 
 
-## Removed  
+2018-10-25: Fixing overlapping of the language the middle of description.
+
+
+2018-10-25: Change "the subject sections to be click-able".
+
+
+2018-10-25: Fix thumbnail's size.
+
+
+2018-10-25: The new Suggestion function when watching a clip is scroll-able
+
+
+2018-10-26: Fixed full screen the top tool bar is hide.
+
+
+2018-10-27: Fixed bug with double upload same video.
+
+
+## Removed
 -
+
  
 ## Unreleased
 -
+
  
  
 
 
 
 ## Version <span style="color:green">Pre Beta 1.0.2</span>
+
 2018-10-05:  
+
+
 Update and improvement of PirlTube from @Is_Nikolova  
 
 Windows:  
