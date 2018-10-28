@@ -11,7 +11,7 @@ disableToc: true
 </iframe>
 
 <iframe width="600"
-    height="800" src="https://discordapp.com/channels/368350413780418561/377270831694348319">
+    height="800" src="https://twitter.com/PirlOfficial">
 </iframe>
 
 
