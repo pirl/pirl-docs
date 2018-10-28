@@ -11,11 +11,6 @@ disableToc: true
 </iframe>
 
 
-#### [PirlPoseidon](https://poseidon.pirl.io "PirlPoseidon ")
-<iframe width="1245"
-    height="400" src="https://poseidon.pirl.io">
-</iframe>
-
 #### [PirlNetwork](http://stats.pirl.io "PirlNetwork ")
 <iframe width="1968"
     height="393" src="http://stats.pirl.io">
