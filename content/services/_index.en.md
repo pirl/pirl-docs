@@ -14,11 +14,6 @@ disableToc: true
 </iframe>
 
 
-<iframe width="600"
-    height="800" src="https://services.pirl.io">
-</iframe>
-
-
 #### [PirlNeywork](http://stats.pirl.io "PirlNetwork ")
 
 
