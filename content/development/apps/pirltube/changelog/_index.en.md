@@ -21,13 +21,13 @@ Update and improvement of PirlTube from @Is_Nikolova
 Windows:
 
 
-App Version:<span style="color:green">re Beta 1.0.3-1</span>
+App Version:<span style="color:green">pre Beta 1.0.3-1</span>
 
 
 MacOs:
 
 
-App Version:<span style="color:green">re Beta 1.0.3-1</span>
+App Version:<span style="color:green">pre Beta 1.0.3-1</span>
 
  
 ## Added
