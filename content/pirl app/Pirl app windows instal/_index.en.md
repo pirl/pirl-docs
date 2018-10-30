@@ -24,7 +24,7 @@ This guide will explain how to download, setup and register your:
 For granting the success of this operation, you will need these requirements:
 
 * Internet connection
-* [Download here the PirlApp for Windows](https://drive.google.com/file/d/1teSDG-8GHxu06GchCCL87qM4dQdj2eJV/view?usp=sharing "PirlApp for Windows").
+* [Download here the PirlApp for Windows](https://drive.google.com/file/d/1imek14RSViFwXQ8ftcatrlx5CN4NeR2w/view?usp=sharing "PirlApp for Windows"). 1.0.3 
 * At least 0,25 PIRL (we will be sending 0,2 as an activation fee, required as a gas) at your [Nautilus](https://pirl.io/en/nautilus-wallet/) wallet, or any other wallet of your choice, even a wallet from exchange like [Cryptopia](https://www.cryptopia.co.nz).
 
 ## Action!
