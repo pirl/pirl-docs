@@ -25,7 +25,7 @@ This guide will explain how to download, register, and backup your:
 For granting the success of this operation, you will need these requirements:
 
 * Internet connection
-* [Download here the Nautilus Wallet](https://pirl.io/en/nautilus-wallet/#download).
+* Download here the Nautilus Wallet [Downloads]({{< ref "/Downloads" >}})
 * 10 Minutes of your time
 
 ## Action!
