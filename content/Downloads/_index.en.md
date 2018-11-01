@@ -5,11 +5,42 @@ pre: "<b>9. </b>"
 disableToc: true
 ---
 
-coming soon by a community member 
+
 
 #### [PirlWebsite](https://pirl.io/en/ "PirlWebsite")
 
 #### [PirlDocs](https://docs.pirl.io/en/ "PirlDocs")
+
+
+### PirlApp download:
+
+
+[Download here the PirlApp for MacOs](https://goo.gl/Scsie5 "PirlApp for MacOs").
+
+[Download here the PirlApp for Windows](https://goo.gl/auazM8 "PirlApp for Windows").
+
+
+### PirlWallets:
+
+[Download here the Pirl Nautilus Wallet-0.9.2 Linux](https://github.com/pirl/nautilus/releases/download/0.9.2/Pirl-Nautilus-Wallet-linux64-0-9-2.deb "Download here the Pirl Nautilus Wallet-0.9.2 Linux").
+
+
+[Download here the Pirl Nautilus Wallet-0.9.2 MacOs](https://github.com/pirl/nautilus/releases/download/0.9.2/Pirl-Nautilus-Wallet-0.9.2-mac.zip "Download here the Pirl Nautilus Wallet-0.9.2 MacOs").
+
+
+[Download here the Pirl Nautilus Wallet-0.9.2 Windows](https://github.com/pirl/nautilus/releases/download/0.9.2/Pirl-Nautilus-Wallet-0.9.2-win.zip "Download here the Pirl Nautilus Wallet-0.9.2 Windows").
+
+### EZminer:
+
+[Download and mine Pirl with ezMiner v2.0](https://pirl.io/blog/ezminer-v2/ "Download and mine Pirl with ezMiner v2.0").
+
+
+### Masternode v5 binary:
+
+
+[Masternode v5 binary](http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/ "Masternode v5 binary").
+
+
 
 
 
