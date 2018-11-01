@@ -118,7 +118,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-top: 1rem;
     position: relative;
     border: none;
-    background: #fff;
+    background: #74b559;
     border-radius: 4px;
 }
 .searchbox label {
