@@ -2,7 +2,7 @@
 title: PirlApp
 weight: 6
 pre: "<b>5. </b>"
-chapter: true
+disableToc: true
 ---
 
 # PirlApp
