@@ -53,7 +53,7 @@ EZminer Features:
 
 
 
-[Download and mine Pirl with ezMiner v2.0](https://pirl.io/blog/ezminer-v2/ "Download and mine Pirl with ezMiner v2.0").
+Download and mine Pirl with ezMiner v2.0 [Downloads]({{< ref "/Downloads" >}})
 
 
 

@@ -14,9 +14,12 @@ This guide will explain how you setup the:
 
 ## Prerequisites.
 
-[Download here the PirlApp for MacOs](https://drive.google.com/file/d/1K0pQ1nskpH8DmRS5LIdDbDE04ddLnEDV/view?usp=sharing "PirlApp for MacOs").
+Download here the PirlApp for MacOs:
+[Downloads]({{< ref "/Downloads" >}})
 
-[Download here the PirlApp for Windows](https://drive.google.com/drive/u/1/folders/13CUHTDr3bB0zBeWb0ebHEJ0H8TY8evR4 "PirlApp for Windows").
+
+Download here the PirlApp for Windows
+[Downloads]({{< ref "/Downloads" >}})
 
 ## Install the PirlApp.
 
