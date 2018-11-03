@@ -20,9 +20,9 @@ disableToc: true
 </iframe>
 
 
-
-<span style="color:red">* Note: the information showed on the http://pirltv.shareis.com website is not maintained by the PirlTeam so if the numbers are not right, the PirlTeam holds no responsibility to that.</span>
-
+{{% notice warning %}}
+The information showed on the http://pirltv.shareis.com website is not maintained by the PirlTeam so if the numbers are not right, the PirlTeam holds no responsibility to that
+{{% /notice %}}
 
 
 ---
