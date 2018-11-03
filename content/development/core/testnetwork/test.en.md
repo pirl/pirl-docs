@@ -31,6 +31,9 @@ Yours,
 <br>
 Pirl Team
 <br>
+ <A HREF = "https://pirl.io/en/">PirlWebsite</A>  <br>
+ <br>
+ <A HREF = "https://discord.gg/CeP2Y3R">PirlDiscord</A>  <br>
   </p>
 </div>
 
