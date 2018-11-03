@@ -9,7 +9,7 @@ disableToc: true
 
 
 
-Pirl Community!
+### Pirl Community!
 
 A 51% attack on the Pirl network was identified on 10/14/2018.
 
@@ -19,10 +19,18 @@ We are now just steps away from deploying our remedial actions to the Pirl Block
 How ? (by using the HULK)
 
 The network security solution we code named “Hulk” will now be tested on the PirlTestNetowrk
-if you want to participate in the future grow and security you can join in with you hash power:
 
 
+### if you want to participate in the future grow and security you can join in with you hash power:
 
+
+[PirlTestNetwork Pool](testnetpool.pirl.io "PirlTestNetwork Pool").
+
+
+## how to setup mining 
+
+
+[Mining]({{< ref "/mining" >}})
 
 
 
