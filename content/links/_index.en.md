@@ -22,7 +22,7 @@ disableToc: true
 ### if you want to participate in the future grow and security you can join in with you hash power:
 
 
-[PirlTestNetwork Pool](testnetpool.pirl.io "PirlTestNetwork Pool").
+### [PirlTestNetwork Pool](testnetpool.pirl.io "PirlTestNetwork Pool").
 
 
 ---
