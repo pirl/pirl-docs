@@ -33,6 +33,11 @@ The network security solution we code named “Hulk” will now be tested on the
 [Mining]({{< ref "/mining" >}})
 
 
+{{% notice warning %}}
+The testnetwork is not paying real Pirl because its a testnetwork keep this in mind!!!
+{{% /notice %}}
+
+
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
