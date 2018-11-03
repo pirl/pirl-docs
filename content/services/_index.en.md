@@ -20,8 +20,6 @@ disableToc: true
 </iframe>
 
 
-
-
 {{% notice warning %}}
 The information showed on the http://pirltv.shareis.com website is not maintained by the PirlTeam so if the numbers are not right, the PirlTeam holds no responsibility to that
 {{% /notice %}}
