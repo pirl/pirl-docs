@@ -19,7 +19,7 @@
       
     </ul>
     <br>
-  <A HREF = "https://docs.pirl.io/en/development/core/testnetwork/">Information about this test network</A>  <br>
+  <A HREF = "https://docs.pirl.io/en/development/core/testnetwork/">Information document about this test network</A>  <br>
   <br>
   We are extremely happy to have your support, reading the messages in discord have done a lot for the team motivation during the entire operation.
 <br>
@@ -29,11 +29,12 @@
  <br>
 Yours,
 <br>
-Pirl Team
+Pirl Team<br>
 <br>
- <A HREF = "https://pirl.io/en/">PirlWebsite</A>  <br>
+<br>
+ <A HREF = "https://pirl.io/en/">PirlWebsite</A><br>
  <br>
- <A HREF = "https://discord.gg/CeP2Y3R">PirlDiscord</A>  <br>
+ <A HREF = "https://discord.gg/CeP2Y3R">PirlDiscord</A><br>
   </p>
 </div>
 
