@@ -24,13 +24,13 @@ The network security solution we code named “Hulk” will now be tested on the
 ### if you want to participate in the future grow and security you can join in with you hash power:
 
 
-[PirlTestNetwork Pool](testnetpool.pirl.io "PirlTestNetwork Pool").
+### [PirlTestNetwork Pool](testnetpool.pirl.io "PirlTestNetwork Pool").
 
 
 ### how to setup mining 
 
 
-[Mining]({{< ref "/mining" >}})
+### [Mining]({{< ref "/mining" >}})
 
 
 {{% notice warning %}}
