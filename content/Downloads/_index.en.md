@@ -16,9 +16,9 @@ disableToc: true
 ### PirlApp download:
 
 
-[Download here the PirlApp for MacOs](https://goo.gl/Scsie5 "PirlApp for MacOs").
+[Download here the PirlApp for MacOs](https://goo.gl/auazM8 "PirlApp for MacOs").
 
-[Download here the PirlApp for Windows](https://goo.gl/auazM8 "PirlApp for Windows").
+[Download here the PirlApp for Windows](https://goo.gl/Scsie5 "PirlApp for Windows").
 
 
 ### PirlWallets:
