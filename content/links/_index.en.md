@@ -25,6 +25,10 @@ disableToc: true
 ### [PirlTestNetwork Pool](http://testnetpool.pirl.io/#/ "PirlTestNetwork Pool").
 
 
+### [PirlTestNetwork Stats](http://devstats.pirl.io/ "PirlTestNetwork Stats").
+
+
+
 ---
 Author(s):
 
