@@ -51,6 +51,8 @@ disableToc: true
 ### [PirlPool binary](https://github.com/pirl/pirl/releases "PirlPool binary")
 
 
+### PirlTestnetwork:
+### [Phoenix Windows miner 3.5d for testnetwork](/development/core/testnetwork/miner/PhoenixMiner_Pirl_testnetwork.zip "Phoenix Windows miner 3.5d for testnetwork").
 
 
 
