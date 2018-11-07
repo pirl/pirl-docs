@@ -1,52 +1,34 @@
 ---
-title: ATTACK & HULK
-weight: 2
-pre: "<b>2. </b>"
+title: Followup 51 percent attack
+weight: 4
+pre: "<b>4. </b>"
 disableToc: true
 ---
 
 ![](/development/images/hulk.jpg)
 
-Pirl Community!
+Dear Community,
 
-A 51% attack on the Pirl network was identified on 10/14/2018. As soon as it was discovered we conducted an investigation to verify the findings and asked exchanges to place their Pirl wallets into maintenance, until a more detailed analysis could be completed.
+As you are all aware the Pirl network suffered a 51% and Double Spend attack, which was mitigated shortly after it was discovered. However, during the week prior to discovery, the attacker managed to double spend 1,961,500 PIRL and deposit them across multiple exchanges, mainly Cryptopia.
 
-Once the attack was mitigated, we took the necessary steps to completely lock out the attackers and make sure that the exchange wallets were safe. We are now just steps away from deploying our remedial actions to the Pirl Blockchain, which will help prevent this kind of attack from happening in the future.
+Now that Cryptopia has concluded their audit, there are two paths forward to get the market reopened:
 
-How ? (by using the HULK)
+One) The exchange can adjust users’ account balances to account for the PIRL that was double spent on Cryptopia (thereby leading to a loss of funds for PIRL community members)
 
-The network security solution we code named “Hulk” will be deployed in 2 stages:
+Or Two) We can generate a one-time Superblock that will cover all Community members accounts AND recover all remaining PIRL in the Attackers addresses.
 
- 
+Even though the majority of the Dev Fund have not been spent, we still do not have enough to cover the 1,961,500 PIRL deficit caused by the attacker and forcing the community to pay for the attacker's actions is not an option. As such, the only viable option for us at this stage is to create the reimbursement coins with the fork that will recover the attacker's funds and help prevent future attacks of this type.
 
-Stage 1: Fork -
+We want to do this completely transparently and allow everyone to monitor the creation and transfer of the funds back to Cryptopia. The funds will be created in complete transparency through a superblock, which will zero the 825 000 Pirl found in attackers possession and add the 1,1 million PIRL that was already maliciously sold to the Pirl community on Cryptopia.
 
-Remediate the consequences of the attack and remove all artificially created PIRL while deploying Notary Smart Contracts both on the Pirl and Ethereum chains, adjust validation block count on exchanges, and the setting up of an O.M.S (Orphan Monitoring System) which will invalidate any node attempting an attack on the network.
+The 1,961,500 PIRL that was double spent has already impacted the market by being sold on Cryptopia, this Superblock will not be adding to inflation, it will actually lead to a deflation of the 825,000 PIRL that will be recovered from the attacker. 
 
- 
+To explain how this is not adding inflation, it should be added that due to the changes to the difficulty algorithm done with block 2,000,000, the intended blocktime of 13 seconds erroneously went from 13 seconds to 18 seconds since then. This difference in the blocktime after its implementation from 13s to 18s we have generated 142,734 blocks less than we would have. Which is 1,427,342 PIRL deflation over the period since block 2,000,000
 
-Stage 2: Masternode update -
+Pirl has met many challenges in the past year, we have overcome everything and not only survived but thrived with new technology and features development. 
+This is just another step on our rough journey, and we must make it, together as we always did.
 
-Pirl Masternodes will become a firewall against any bad actor. With this new code the masternode network will be an active participant in ensuring the authenticity of transactions on the Pirl Blockchain.
-
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-The information above is far from detailed but, in order to be safe until “Hulk” first step is implemented, we will keep the blueprints of our security private.
-
-We are extremely happy to have your support, reading the messages in discord have done a lot for the team motivation during the entire operation. We shouldn’t forget to mention Cryptopia and STEX as well for their fast and professional reaction which was also a critical factor for a successful outcome.
-
-This is just a quick update, more information will follow!
-
- 
-
-#PirlTogetherStrong
-
- 
-
-Yours,
-
-Pirl Team
+The PIRL Team
 
 
 ---
