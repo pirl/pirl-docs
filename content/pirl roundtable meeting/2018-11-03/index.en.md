@@ -1,39 +1,73 @@
 ---
-title: Roundtable 2018-10-27
-weight: 45
-pre: "<b>6. </b>"
+title: Roundtable 2018-11-03
+weight: 44
+pre: "<b>7. </b>"
 disableToc: true
 ---
 
-## Round Table 27.10.2018
+## Round Table 03.11.2018
 
-Status on Cryptopia:
-We are waiting for them to share something with us. It should be done during the next week. We don't control them, they are a third party for us, and we will do our best to finish this soon. Nobody will lose their coins.
-They are now under their audit and maintenance.
+This roundtable was very informational.
 
-Hoard voting:
-We have successfully done a Hoard voting for DEX listing, and now we are waiting for Hoard to announce the winners of this round. Its really good looking project and we hope they will deliver something good in the future. Good for us to be there. DEX should be open by the end of Q2 2019. We showed the power of this community, and we made a killing in those voting.
-
-Marketing:
-We have new members on our team, and we are preparing an excellent marketing show. We will use the powers of our members and our internal funds for doing the best for the PIRL. MinerAllen and Wracul is our new empowerment. We also schedule regular marketing meetings each week.
-
-Pirl company registration:
-We work on legal stuff right now and set down all the paperwork which needs to be done before going further. We also want to implement our Fiatgateway for crypto and bring the mass adoption to the people, to bring honesty into this world and make everything easy and fully transparent. So a lot of work to be done but we are on the right tracks now.
-
-PoR founder joined the meeting:
-Founder of PoR (proof of review) introduced his project and told us about possible cooperation in between this revolutionary consensus establish Algorithm and Pirl.
-Proof of Review Builds trust among developers, miners, and investors.
-PoR will be an industry standard in the future since the audits are critical feature to have in this crypto sphere.
-
-PUBG Tournament registration form is out, and you are welcome to join and enjoy some fun with us.
+Testing, Coding
 
 
+We will be ready with our internal testing by the start of next week. 
+We will also open the TestNet Pool, and you will be allowed to mine on it and test it with us. 
+Everybody is welcome to join us and contribute.
 
-Have a nice week.
-Sincerely Mickey
+
+We also finish our codding, and we are pleased that everything works as we want and we are now ready to get it to TestNet and after one week of testing on TestNet we will be able to try it on the main network and move forward.
+We are proud of our team, and their work since Pirl shows to the world hot the cryptor project should be handled.
+Pirl will be more secure and more valuable coin in the future.  
+We made another vital contribution to the blockchain technology. 
+Hulk implementation will make the difference.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/40JAwhalNXI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+Cryptopia will implement our fix when everything is adequately tested.
+We can provide you with a date Cryptopia reopens their wallets since this is their own business. 
+We keep positive communication in this investigation, and both parties do its maximum to solve this as soon as possible.
+Our case is not only to fix this problem but to provide a solution and prevention for the future.
+The fix will also adjust algorithm difficulty. 
+
+
+We spoke about it at our previous meeting.
+You can also be awaiting a few announcements next week. 
+Our primary focus is to do our work and report it afterward, but we want to keep you as much updated as we can.
+
+
+We have first people signed in for our upcoming PUBG Tournament.
+
+
+We have a new version of PirlApp and PirlTube. A lot of improvements and bugs has been sorted out.
+
+
+Content masternodes will be sorted out after we will solve security problems first. 
+
+
+We are sorry for the delay, but our focus is toward Pirl`s future for now. Everything will be sorted out afterward.
+Please, don't react to any false messages in our Discord. 
+Some fraud is trying to convince our community members to give him so pirl. So please, take note that Pirl Team will never offer you such a thing.
+
+
+We will officially announce our new team members to the world via Twitter. Stay tuned guys.
+ProgPow is history that caused us this little trouble and also put aside regular people who wanted to mine on their PCs. 
+So we will change this algorithm to a new one who will better represent our ideology about mining for everyone. 
+We will go back to our decentralized roots.
+
+
+We don't want to do a change; 
+we want to implement a solution. Read our block if you are interested. 
+It will also be an open source code since we want to do this as a contribution to the world. 
+Now its time for people to come to us and Copy/paste our code :). 
+It will be a *Proof of Chain.*
+Mickey`s erotic calendars were only an internal joke. 
+Don't make any purchases guys, 
+thank you.
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ljwgwJ6zKTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
