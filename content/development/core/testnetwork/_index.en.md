@@ -27,6 +27,9 @@ The network security solution we code named “Hulk” will now be tested on the
 ### [PirlTestNetwork Pool](http://testnetpool.pirl.io/#/ "PirlTestNetwork Pool").
 
 
+### [PirlTestNetwork Stats](http://devstats.pirl.io/ "PirlTestNetwork Stats").
+
+
 ### [Phoenix Windows miner 3.5d for testnetwork](/development/core/testnetwork/miner/PhoenixMiner_Pirl_testnetwork.zip "Phoenix Windows miner 3.5d for testnetwork").
 
 
