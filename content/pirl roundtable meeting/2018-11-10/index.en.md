@@ -1,43 +1,55 @@
 ---
-title: Roundtable 2018-11-03
-weight: 44
-pre: "<b>7. </b>"
+title: Roundtable 2018-11-10
+weight: 43
+pre: "<b>8. </b>"
 disableToc: true
 ---
 
-## Round Table 03.11.2018
+## Round Table 10.11.2018
 
-This roundtable was very informational.
-Testing, Coding
-We will be ready with our internal testing by the start of next week. We will also open the TestNet Pool, and you will be allowed to mine on it and test it with us. Everybody is welcome to join us and contribute.
-We also finish our coding, and we are pleased that everything works as we want and we are now ready to get it to TestNet and after one week of testing on TestNet we will be able to try it on the main network and move forward.
+Hello everybody, welcome to another episode of RoundTable.
+We have a few announcements to be made this week.
+The first of them is today, you can read him in our announcements channel.
+Monday or Tuesday will be our releasing days. We will be announcing and producing our documents and news to you, our community, in these two days of the week.
 
-We are proud of our team, and their work since Pirl shows to the world how the crypto project should be handled.
-Pirl will be more secure and more valuable coin in the future.  We made another vital contribution to the blockchain technology. Hulk implementation will make the difference.
+Tuesday, the node will be ready for you to download and use.
+Our Fork will be in the next ten days from now, so please, got ready, do your updates and wait for the big things to get happened:).
 
-Cryptopia will implement our fix when everything is adequately tested.
-We can provide you with a date Cryptopia reopens their wallets since this is their own business. We keep positive communication in this investigation, and both parties do its maximum to solve this as soon as possible.
-Our case is not only to fix this problem but to provide a solution and prevention for the future.
+Please, keep in mind, the Testnet pool does not pay real Pirl.
 
-The fix will also adjust algorithm difficulty. We spoke about it at our previous meeting.
+Content Masternode rewards: This is one of our highest priority right after we will be done with our 51% testing.
 
-You can also be awaiting a few announcements next week. Our primary focus is to do our work and report it afterward, but we want to keep you as much updated as we can.
+Our update will bring many securities enhancement and other improvements.
 
-We have first people signed in for our upcoming PUBG Tournament.
-We have a new version of PirlApp and PirlTube. A lot of improvements and bugs has been sorted out.
+If anybody wants to improve the PirlPool software, we can share the code and let you play with it, develop it and make it better. You are welcome to contact us.
 
-Content masternodes will be sorted out after we will solve security problems first. We are sorry for the delay, but our focus is toward Pirl's future for now. Everything will be sorted out afterward.
 
-Please be advised that there are scammers impersonating team members trying to convince you into a scam OTC deal. Pirl Team would never make such an offer to anyone. Don't catch the bait and stay safe.
 
-We will officially announce our new team members to the world via Twitter. Stay tuned guys.
+The hulk security update node will be brought to light on Tuesday, November 13th a mandatory update for all the Masternode and pool operators. After the node is made available everyone will have to be done with the node update by November 17th.
+The fork will take place at block 2442442 estimated to occur on November 20th based on current block time.
+Exchanges shall reopen shortly after successful fork and node update.
+Cryptopia will be opened after our Fork. We are in contact with all exchanges, and we are doing our best to make trading available again as soon as possible. We have also written confirmation from Cryptopia.
 
-ProgPow is history that caused us this little trouble and also put aside regular people who wanted to mine on their PCs. So we will change this algorithm to a new one who will better represent our ideology about mining for everyone. We will go back to our decentralized roots. We don't want to do a change; we want to implement a solution. Read our blog for more information if you are interested.
- Also, It will be an open source code since we want to do this as a contribution to the world. Now its time for people to come to us and Copy/paste our code :). It will be a "Proof of Chain."
+One-Click Masternodes DO NOT require any action! They will be updated automatically by Poseidon. The owners of a Manual setup Masternode need to upgrade their Masternode by installing the new binaries. We recommend that you install the new binaries as soon as possible.
 
-Mickey's erotic calendars were only an internal joke. Don't make any purchases guys, thank you.
+Our PirlTube has a new version, and we did a lot of fixes and updates. We are happy about how is testing and bug hunting going. We are far from the first beta version. There is still much room for this app to grow but we are happy how it works and looks. PirlTube is not our main product, but we are proud of it. Our main products are our entire ecosystem which will be providing the experience of decentralization for masses. We are for keep improving our ecosystem, security and making conform for our user and our community members.
 
-We will announce articles about attacks aftermaths and explain what exactly happened with all of this 51 stuff soon.
+Our primary goal is about making Pirl keep contributing to the blockchain technology and building a solid product. Our first shot was bringing multi-tired Masternode network using VPS to the blockchain, and we want to keep going.
+
+Please, everybody is allowed to go to our suggestion channel and leave our your recommendation and wishes there. We read it every day.
+
+About our Pools. You will need to update your nodes. Things will be working like they were used to do. Here is the Testnet pool link:https://github.com/phatblinkie/official-pirl-testnet-pool
+Please, don't mine into exchange wallet. It's a bad idea.
+Block time is about 13,000. 
+We are happy with this number. 
+Your calculation will be exact and precise.
+The monetary policy is based on block numbers, not time itself.
+
+Use these wallets please for  mining into: https://docs.pirl.io/en/wallets/
+
+Read our Docs; there is a lot of manuals and know-how how to do stuff. 
+Really much information there and also a possibility for you to contribute with your manuals, instructions. We are more than happy to reward such a helping behavior.
+
 
 
 
@@ -46,8 +58,7 @@ Sincerely Mickey
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ljwgwJ6zKTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k2bE71P1VCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
