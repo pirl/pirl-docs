@@ -14,7 +14,9 @@ Updates about development for PirlCorecan be found on the next pages.
 #### 2.) [51% attack on the Pirl network]({{< ref "/development/core/hulk" >}})
 #### 3.) [TestNetwork]({{< ref "/development/core/testnetwork" >}})
 #### 4.) [Attack Aftermath & Securing Funds]({{< ref "/development/core/Followup 51 percent attack" >}})
-rem #### 5.) [Hard Fork 2018-11-20]({{< ref "/masternodes/Fork 2018-11/" >}})
+#### 5.) [Hard Fork 2018-11-20]({{< ref "/development/core/Fork 2018-11" >}})
+
+
 
 ![](/development/images/Pirl_Energy.gif)
 
