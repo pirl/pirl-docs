@@ -81,7 +81,6 @@ We recommend that you install the new binaries as soon as possible.
 Binaries will be available [Downloads]({{< ref "/Downloads" >}})
 
  
-
 #PirlTogetherStrong
 
  
