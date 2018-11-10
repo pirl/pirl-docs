@@ -1,7 +1,7 @@
 ---
 title: Fork 2018-11
-weight: 8
-pre: "<b>8. </b>"
+weight: 5
+pre: "<b>5. </b>"
 disableToc: true
 ---
 
@@ -83,7 +83,6 @@ Binaries will be available [Downloads]({{< ref "/Downloads" >}})
  
 #PirlTogetherStrong
 
- 
 
 Yours,
 
