@@ -23,6 +23,7 @@ disableToc: true
 
 ### PirlWallets:
 
+
 ### [Download here the Pirl Nautilus Wallet-0.9.2 Linux](https://github.com/pirl/nautilus/releases/download/0.9.2/Pirl-Nautilus-Wallet-linux64-0-9-2.deb "Download here the Pirl Nautilus Wallet-0.9.2 Linux").
 
 
@@ -31,15 +32,22 @@ disableToc: true
 
 ### [Download here the Pirl Nautilus Wallet-0.9.2 Windows](https://github.com/pirl/nautilus/releases/download/0.9.2/Pirl-Nautilus-Wallet-0.9.2-win.zip "Download here the Pirl Nautilus Wallet-0.9.2 Windows").
 
+
 ### EZminer:
 
 ### [Download and mine Pirl with ezMiner v2.0](https://pirl.io/blog/ezminer-v2/ "Download and mine Pirl with ezMiner v2.0").
 
 
-### Masternode v5 binary:
+### Masternode binary:
 
 
 ### [Masternode v5 binary](http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/ "Masternode v5 binary").
+
+
+### <span style="color:green">Coming soon hulk-v1 binary:</span>
+
+
+###  <span style="color:green">[Masternode hulk-v1 binary](http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/ "Masternode hulk-v1 binary").</span>
 
 
 ### PirlPool software:
@@ -52,6 +60,8 @@ disableToc: true
 
 
 ### PirlTestnetwork:
+
+
 ### [Phoenix Windows miner 3.5d for testnetwork](/development/core/testnetwork/miner/PhoenixMiner_Pirl_testnetwork.zip "Phoenix Windows miner 3.5d for testnetwork").
 
 
