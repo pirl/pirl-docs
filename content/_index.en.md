@@ -23,5 +23,15 @@ Pirl is a community-centric blockchain platform, utilizing a globally distribute
 #### 8.) [Development]({{< ref "/development" >}})
 #### 9.) [Downloads]({{< ref "/Downloads" >}})
 #### 10.) [Services]({{< ref "/services" >}})
+#### 11.) [Newsletter signup]({{< ref "/mailing" >}})
+
+
+---
+Author(s):
+@Dptelecom
+
+
+Contributor(s):
+
 
 
