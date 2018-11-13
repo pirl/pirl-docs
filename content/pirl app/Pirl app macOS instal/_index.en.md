@@ -86,6 +86,6 @@ for Mac you have to put PirlApp in application folder or otherwise you get this 
 ---
 Author(s):
 
-dptelecom
+@dptelecom
 
 Contributor():
