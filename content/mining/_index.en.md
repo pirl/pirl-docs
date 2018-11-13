@@ -70,7 +70,7 @@ Download and mine Pirl with ezMiner v2.0 [Downloads]({{< ref "/Downloads" >}})
 ---
 Author(s):
 
-dptelecom
+@dptelecom
 
 Contributor(s):
 
