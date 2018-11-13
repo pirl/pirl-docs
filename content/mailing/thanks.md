@@ -4,7 +4,7 @@ hidden: true
 disableToc: true
 ---
 
-![](/mailing/images/Pirl_Energy.gif)
+![](/mailing/images/thanks.png)
 
 
 
