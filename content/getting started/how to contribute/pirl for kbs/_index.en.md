@@ -23,3 +23,15 @@ The PIRL philosophy focuses on involving community participation. We need lots o
 5. Once you submit the KB, contact same for payment.
 
 This is a community feedback oriented project. Feel free to contact @Dptelecom | Official PirlTeam#7828 in the [Pirl Discord](https://discord.gg/ZSAzcmn) should you have any questions or suggestions.
+
+
+
+
+
+
+---
+Author(s):
+@Dptelecom
+
+
+Contributor(s):
