@@ -26,6 +26,6 @@ Updates about development for PirlWallets can be found on the next pages.
 ---
 Author(s):
 
-dptelecom
+@dptelecom
 
 Contributor():
