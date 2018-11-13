@@ -1,5 +1,5 @@
 ---
-title: Thanks
+linkTitle: Thanks
 hidden: true
 disableToc: true
 ---
