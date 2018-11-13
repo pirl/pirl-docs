@@ -35,6 +35,6 @@ Updates about development for PirlCorecan be found on the next pages.
 ---
 Author(s):
 
-dptelecom
+@dptelecom
 
 Contributor():
