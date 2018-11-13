@@ -1,6 +1,6 @@
 ---
 title: Thanks
-hidden = true
+hidden: true
 disableToc: true
 ---
 
