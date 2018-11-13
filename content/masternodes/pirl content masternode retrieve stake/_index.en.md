@@ -60,7 +60,7 @@ For **Contract Address** fill in `0x6c042141C302C354509d2bff30EEFDEF24dE1047`. T
 
 ---
 Author(s):
-_dptelecom
+@Dptelecom
+
 
 Contributor(s):
-[PrimateCrypto](https://twitter.com/PrimateCrypto) credits for the orignal doc
