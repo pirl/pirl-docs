@@ -18,7 +18,7 @@ Running a PIRL masternode requires the use of a Virtual Private Server (VPS) wit
 
 
 
-## Manual Masternode Setup
+## Updating Pirl Masternode binary Manually
 
 The instructions are intended for Redhat or CentOS based VPS but should work on most major Linux distributions.
 
