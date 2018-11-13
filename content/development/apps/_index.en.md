@@ -39,6 +39,6 @@ Updates about development for PirlApps can be found on the next pages.
 ---
 Author(s):
 
-dptelecom
+@dptelecom
 
 Contributor():
