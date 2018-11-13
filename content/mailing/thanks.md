@@ -1,7 +1,7 @@
 ---
-Thanks
+title: Thanks
 
-disableToc: true
+disableToc: false
 ---
 
 ![](/mailing/images/Pirl_Energy.gif)
