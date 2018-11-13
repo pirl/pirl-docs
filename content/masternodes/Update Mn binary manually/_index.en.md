@@ -39,44 +39,44 @@ usermod -aG systemd-journal pirl
 
 Download the premium masternode binaries:
 ```
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/premium/pirl-v5-masternode-premium-beta
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/premium/marlin-v5-masternode-premium-beta
+wget http://storage.gra1.cloud.ovh.net/v1/AUTH_577a888f64e42d78dd8b1286de529ea3/masternode/premium/marlin-v5-masternode-premium-hulk
+wget http://storage.gra1.cloud.ovh.net/v1/AUTH_df35a110eed434dda7e0ad15aa928157/masternode/premium/marlin-v5-masternode-premium-hulk
 ```
 
 ...or the content node binaries:
 ```
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/content/pirl-v2-masternode-content-beta
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/content/marlin-v2-masternode-content-beta
+wget http://storage.gra1.cloud.ovh.net/v1/AUTH_61899054eff82b3e6abcd8232e5686cb/masternode/content/marlin-v5-masternode-content-hulk
+wget http://storage.gra1.cloud.ovh.net/v1/AUTH_75168eb673cad340a14e4d097b69cb1e/masternode/content/marlin-v5-masternode-content-hulk
 ```
 
 Mark them executable, and change the owner to `pirl:pirl`:
 
 For premium masternodes:
 ```
-chmod 755 pirl-v5-masternode-premium-beta
-chmod 755 marlin-v5-masternode-premium-beta
-chown pirl:pirl pirl-v5-masternode-premium-beta
-chown pirl:pirl marlin-v5-masternode-premium-beta
+chmod 755 pirl-linux-amd64-v5-masternode-premium-hulk
+chmod 755 marlin-marlin-v5-masternode-premium-hulk
+chown pirl:pirl pirl-linux-amd64-v5-masternode-premium-hulk
+chown pirl:pirl marlin-v5-masternode-premium-hulk
 ```
 
 For content nodes:
 ```
-chmod 755 pirl-v2-masternode-content-beta
-chmod 755 marlin-v2-masternode-content-beta
-chown pirl:pirl pirl-v2-masternode-content-beta
-chown pirl:pirl marlin-v2-masternode-content-beta
+chmod 755 pirl-linux-amd64-v5-masternode-content-hulk
+chmod 755 marlin-v5-masternode-content-hulk
+chown pirl:pirl pirl-linux-amd64-v5-masternode-content-hulk
+chown pirl:pirl marlin-v5-masternode-content-hulk
 ```
 
 Move the main binary to `/usr/sbin/pirl-geth`:
 
 For premium masternodes:
 ```
-mv pirl-v5-masternode-premium-beta /usr/sbin/pirl-geth
+mv pirl-linux-amd64-v5-masternode-premium-hulk /usr/sbin/pirl-geth
 ```
 
 For content nodes:
 ```
-mv pirl-v2-masternode-content-beta /usr/sbin/pirl-geth
+mv pirl-linux-amd64-v5-masternode-content-hulk /usr/sbin/pirl-geth
 ```
 
 
@@ -84,12 +84,12 @@ Move the marlin binary to `/usr/sbin/pirl-marlin`:
 
 For premium masternodes:
 ```
-mv marlin-v5-masternode-premium-beta /usr/sbin/pirl-marlin
+mv marlin-v5-masternode-premium-hulk /usr/sbin/pirl-marlin
 ```
 
 For content nodes:
 ```
-mv marlin-v2-masternode-content-beta /usr/sbin/pirl-marlin
+mv marlin-v5-masternode-content-hulk /usr/sbin/pirl-marlin
 ```
 
 
@@ -193,4 +193,4 @@ Author(s):
 
 
 Contributor(s):
-
+@Fawkes
