@@ -39,14 +39,14 @@ usermod -aG systemd-journal pirl
 
 Download the premium masternode binaries:
 ```
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/premium/pirl-v5-masternode-premium-beta
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/premium/marlin-v5-masternode-premium-beta
+wget https://git.pirl.io/community/pirl/uploads/7b62da3dc3ce36b97ad8a04ee6ed67a0/marlin-v5-masternode-premium-hulk
+wget https://git.pirl.io/community/pirl/uploads/f991222e04b2525cfb4a94a078f7247b/marlin-v5-masternode-premium-hulk
 ```
 
 ...or the content node binaries:
 ```
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/content/pirl-v2-masternode-content-beta
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/content/marlin-v2-masternode-content-beta
+wget https://git.pirl.io/community/pirl/uploads/2f5b3ad72e4a2d747ca3cfebb0715077/marlin-v5-masternode-content-hulk
+wget https://git.pirl.io/community/pirl/uploads/7b44acaa183a620bd1e57c1663ee9b72/marlin-v5-masternode-content-hulk
 ```
 
 Mark them executable, and change the owner to `pirl:pirl`:
