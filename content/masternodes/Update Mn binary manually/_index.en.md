@@ -54,7 +54,7 @@ Mark them executable, and change the owner to `pirl:pirl`:
 For premium masternodes:
 ```
 chmod 755 pirl-linux-amd64-v5-masternode-premium-hulk
-chmod 755 marlin-marlin-v5-masternode-premium-hulk
+chmod 755 marlin-v5-masternode-premium-hulk
 chown pirl:pirl pirl-linux-amd64-v5-masternode-premium-hulk
 chown pirl:pirl marlin-v5-masternode-premium-hulk
 ```
