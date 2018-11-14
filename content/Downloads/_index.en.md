@@ -56,7 +56,7 @@ disableToc: true
 ### [PirlPool software](https://github.com/sammy007/open-ethereum-pool "PirlPool software").
 
 
-### [PirlPool binary](https://github.com/pirl/pirl/releases "PirlPool binary")
+### [PirlPool binary](https://git.pirl.io/community/pirl/tags/pirl-linux-amd64-hulk-1_8_2 "PirlPool binary")
 
 
 ### PirlTestnetwork:
