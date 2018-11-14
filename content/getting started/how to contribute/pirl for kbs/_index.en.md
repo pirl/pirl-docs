@@ -19,7 +19,19 @@ The PIRL philosophy focuses on involving community participation. We need lots o
 3. Once you're ready to write, reference our [How to contribute]({{< ref "/getting started/how to contribute" >}}) guide to setup your working environment.
 4. Depending on your comfort level with GitLab:
   * You can either request the merging of your article yourself at https://docs.pirl.io
-  * You can contact @dptelecom in the [Pirl Discord](https://discord.gg/ZSAzcmn) with your article submission.
+  * You can contact @Dptelecom | Official PirlTeam#7828 in the [Pirl Discord](https://discord.gg/ZSAzcmn) with your article submission.
 5. Once you submit the KB, contact same for payment.
 
-This is a community feedback oriented project. Feel free to contact @dptelecom#7828 in the [Pirl Discord](https://discord.gg/ZSAzcmn) should you have any questions or suggestions.
+This is a community feedback oriented project. Feel free to contact @Dptelecom | Official PirlTeam#7828 in the [Pirl Discord](https://discord.gg/ZSAzcmn) should you have any questions or suggestions.
+
+
+
+
+
+
+---
+Author(s):
+@Dptelecom
+
+
+Contributor(s):

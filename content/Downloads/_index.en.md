@@ -44,10 +44,10 @@ disableToc: true
 ### [Masternode v5 binary](http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/ "Masternode v5 binary").
 
 
-### <span style="color:green">Coming soon hulk-v1 binary:</span>
+### <span style="color:green">NEW hulk-v1 binary:</span>
 
 
-###  <span style="color:green">[Masternode hulk-v1 binary](http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/ "Masternode hulk-v1 binary").</span>
+###  <span style="color:red">[Masternode hulk-v1 binary](https://git.pirl.io/community/pirl/tags/pirl-linux-amd64-hulk-1_8_2 "Masternode hulk-v1 binary").</span>
 
 
 ### PirlPool software:
@@ -69,6 +69,6 @@ disableToc: true
 ---
 Author(s):
 
-dptelecom
+@dptelecom
 
 Contributor():

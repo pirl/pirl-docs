@@ -53,3 +53,14 @@ Having all documentation conform to the same standards makes for easier use of t
 ## Credits
 
 * At the end of each document, the names of the authors is included as well as the names of all contributors.
+
+
+
+
+---
+Author(s):
+@Dptelecom
+
+
+Contributor(s):
+

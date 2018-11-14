@@ -27,6 +27,6 @@ Updates about development for PirlMasternodes an be found on the next pages.
 ---
 Author(s):
 
-dptelecom
+@dptelecom
 
 Contributor():

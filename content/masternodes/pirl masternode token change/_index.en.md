@@ -85,7 +85,7 @@ systemctl restart pirlmarlin
 ---
 Author(s):
 
-_dptelecom.
+@dptelecom.
 
 Contributor(s):
 

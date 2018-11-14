@@ -123,7 +123,7 @@ Monitor the status of your masternode by checking the Poseidon Masternode Detail
 
 ---
 Author(s):
-dptelecom
+@Dptelecom
+
 
 Contributor(s):
-

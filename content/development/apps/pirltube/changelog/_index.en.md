@@ -161,7 +161,7 @@ App Version: <span style="color:green">Pre Beta 1.0.2</span>
 ---
 Author(s):  
 
-dptelecom  
+@dptelecom  
 
 Contributor():
 
