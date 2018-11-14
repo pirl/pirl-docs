@@ -41,9 +41,6 @@ disableToc: true
 ### Masternode binary:
 
 
-### [Masternode v5 binary](http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/ "Masternode v5 binary").
-
-
 ### <span style="color:green">NEW hulk-v1 binary:</span>
 
 
