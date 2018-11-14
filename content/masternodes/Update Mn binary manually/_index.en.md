@@ -14,7 +14,7 @@ Running a PIRL masternode requires the use of a Virtual Private Server (VPS) wit
 
 * **A VPS with minimum 4GB Total OS RAM minimum (more is recommended), enough storage to run the masternode (Minimum 20GB, Recommended 60GB+), and a Public IP assigned at the network interface**
  - The official requirements are: 4GB RAM, 20GB space, 3TB transfer, public IPv4 IP. Once you order your VPS, you will receive its root credentials. The easiest path forward is to only use this VPS for your Pirl Masternode and give Poseidon your root credentials so it can manage and update your VPS.
-
+* NAT is not supported
 
 
 
@@ -25,7 +25,7 @@ The instructions are intended for Redhat or CentOS based VPS but should work on 
 
 Login as root and update the system, then install dependencies:
 ```
-yum update
+sudo yum update
 sudo yum install wget systemd -y
 ```
 
@@ -39,14 +39,14 @@ usermod -aG systemd-journal pirl
 
 Download the premium masternode binaries:
 ```
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/premium/pirl-v5-masternode-premium-hulk
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/premium/marlin-v5-masternode-premium-hulk
+wget https://git.pirl.io/community/pirl/uploads/7b62da3dc3ce36b97ad8a04ee6ed67a0/marlin-v5-masternode-premium-hulk
+wget https://git.pirl.io/community/pirl/uploads/f991222e04b2525cfb4a94a078f7247b/marlin-v5-masternode-premium-hulk
 ```
 
 ...or the content node binaries:
 ```
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/content/pirl-v5-masternode-content-hulk
-wget http://storage.gra1.cloud.ovh.net/v1/AUTH_8f059abdcba74107a430604cf1c257bb/masternode/content/marlin-v5-masternode-content-hulk
+wget https://git.pirl.io/community/pirl/uploads/2f5b3ad72e4a2d747ca3cfebb0715077/marlin-v5-masternode-content-hulk
+wget https://git.pirl.io/community/pirl/uploads/7b44acaa183a620bd1e57c1663ee9b72/marlin-v5-masternode-content-hulk
 ```
 
 Mark them executable, and change the owner to `pirl:pirl`:
