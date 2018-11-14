@@ -39,13 +39,13 @@ usermod -aG systemd-journal pirl
 
 Download the premium masternode binaries:
 ```
-wget https://git.pirl.io/community/pirl/uploads/7b62da3dc3ce36b97ad8a04ee6ed67a0/marlin-v5-masternode-premium-hulk
+wget https://git.pirl.io/community/pirl/uploads/8f3823838355d18b5d6d9b16129c2499/pirl-linux-amd64-v5-masternode-premium-hulk
 wget https://git.pirl.io/community/pirl/uploads/f991222e04b2525cfb4a94a078f7247b/marlin-v5-masternode-premium-hulk
 ```
 
 ...or the content node binaries:
 ```
-wget https://git.pirl.io/community/pirl/uploads/2f5b3ad72e4a2d747ca3cfebb0715077/marlin-v5-masternode-content-hulk
+wget https://git.pirl.io/community/pirl/uploads/9f6b22ff763e01353648202bb3718e74/pirl-linux-amd64-v5-masternode-content-hulk
 wget https://git.pirl.io/community/pirl/uploads/7b44acaa183a620bd1e57c1663ee9b72/marlin-v5-masternode-content-hulk
 ```
 
