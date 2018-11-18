@@ -85,14 +85,12 @@ Description=Pirl Node
 ;EnvironmentFile=/etc/pirlnode-env
 Environment=MASTERNODE=YoUR MaSTErNodE ToKEn GoES HeRE
 Environment=TOKEN=YoUR UsER ToKEn GoES HeRE
-
 Type=simple
 ExecStart=/usr/bin/pirl --ws --wsorigins=* --wsaddr=0.0.0.0 --rpc --rpcaddr=0.0.0.0 --rpccorsdomain="*"
 Restart=always
 ExecStartPre=/bin/sleep 5
 RestartSec=30s
 RemainAfterExit=no
-
 
 
 [Install]
@@ -114,8 +112,6 @@ Description=Marlin Master Node
 ; location of the file with the exported variables
 Environment=MASTERNODE=YoUR MaSTErNodE ToKEn GoES HeRE
 Environment=TOKEN=YoUR UsER ToKEn GoES HeRE
-
-
 Type=simple
 ExecStart=/usr/bin/marlin daemon
 Restart=always
