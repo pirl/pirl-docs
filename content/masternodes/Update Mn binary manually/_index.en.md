@@ -30,13 +30,6 @@ sudo yum install wget systemd -y
 ```
 
 
-
-Create a `pirl` user and add it to the `systemd-journal` group:
-```
-adduser pirl && passwd pirl
-usermod -aG systemd-journal pirl
-```
-
 Download the premium masternode binaries:
 ```
 wget https://git.pirl.io/community/pirl/uploads/8f3823838355d18b5d6d9b16129c2499/pirl-linux-amd64-v5-masternode-premium-hulk
@@ -49,21 +42,7 @@ wget https://git.pirl.io/community/pirl/uploads/9f6b22ff763e01353648202bb3718e74
 wget https://git.pirl.io/community/pirl/uploads/7b44acaa183a620bd1e57c1663ee9b72/marlin-v5-masternode-content-hulk
 ```
 
-Mark them executable, and change the owner to `pirl:pirl`:
 
-For premium masternodes:
-```
-chmod 755 pirl-linux-amd64-v5-masternode-premium-hulk
-chmod 755 marlin-v5-masternode-premium-hulk
-
-```
-
-For content nodes:
-```
-chmod 755 pirl-linux-amd64-v5-masternode-content-hulk
-chmod 755 marlin-v5-masternode-content-hulk
-
-```
 
 Move the main binary to `/usr/bin/pirl`:
 
@@ -138,7 +117,6 @@ Environment=TOKEN=YoUR UsER ToKEn GoES HeRE
 
 
 Type=simple
-
 ExecStart=/usr/bin/marlin daemon
 Restart=always
 ExecStartPre=/bin/sleep 5
@@ -161,6 +139,7 @@ systemctl restart pirl
 Enable and start the pirlmarlin service:
 ```
 systemctl enable marlin
+/usr/bin/marlin init
 systemctl start marlin
 ```
 
