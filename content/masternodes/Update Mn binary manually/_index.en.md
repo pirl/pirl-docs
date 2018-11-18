@@ -55,93 +55,95 @@ For premium masternodes:
 ```
 chmod 755 pirl-linux-amd64-v5-masternode-premium-hulk
 chmod 755 marlin-v5-masternode-premium-hulk
-chown pirl:pirl pirl-linux-amd64-v5-masternode-premium-hulk
-chown pirl:pirl marlin-v5-masternode-premium-hulk
+
 ```
 
 For content nodes:
 ```
 chmod 755 pirl-linux-amd64-v5-masternode-content-hulk
 chmod 755 marlin-v5-masternode-content-hulk
-chown pirl:pirl pirl-linux-amd64-v5-masternode-content-hulk
-chown pirl:pirl marlin-v5-masternode-content-hulk
+
 ```
 
-Move the main binary to `/usr/sbin/pirl-geth`:
+Move the main binary to `/usr/bin/pirl`:
 
 For premium masternodes:
 ```
-mv pirl-linux-amd64-v5-masternode-premium-hulk /usr/sbin/pirl-geth
+mv pirl-linux-amd64-v5-masternode-premium-hulk /usr/bin/pirl
 ```
 
 For content nodes:
 ```
-mv pirl-linux-amd64-v5-masternode-content-hulk /usr/sbin/pirl-geth
+mv pirl-linux-amd64-v5-masternode-content-hulk /usr/bin/pirl
 ```
 
 
-Move the marlin binary to `/usr/sbin/pirl-marlin`:
+Move the marlin binary to `/usr/bin/marlin`:
 
 For premium masternodes:
 ```
-mv marlin-v5-masternode-premium-hulk /usr/sbin/pirl-marlin
+mv marlin-v5-masternode-premium-hulk /usr/bin/marlin
 ```
 
 For content nodes:
 ```
-mv marlin-v5-masternode-content-hulk /usr/sbin/pirl-marlin
+mv marlin-v5-masternode-content-hulk /usr/bin/marlin
 ```
 
 
-Create a system service file for the geth service:
+Create a system service file for the pirl service:
 ```
-vi /etc/systemd/system/pirlnode.service
+vi /lib/systemd/system/pirl.service
 ```
 
 Press the `i` button to enter insertion mode, then add the following.  Be sure to add your own MASTERNODE and user TOKEN to the Environment under the `[Service]` section:
 ```
 [Unit]
-Description=Pirl Client -- masternode service
-After=network.target
+Description=Pirl Node
 
 [Service]
+; location of the file with the exported variables
+;EnvironmentFile=/etc/pirlnode-env
 Environment=MASTERNODE=YoUR MaSTErNodE ToKEn GoES HeRE
 Environment=TOKEN=YoUR UsER ToKEn GoES HeRE
 
-User=pirl
-Group=pirl
 Type=simple
+ExecStart=/usr/bin/pirl --ws --wsorigins=* --wsaddr=0.0.0.0 --rpc --rpcaddr=0.0.0.0 --rpccorsdomain="*"
 Restart=always
+ExecStartPre=/bin/sleep 5
 RestartSec=30s
-ExecStart=/usr/sbin/pirl-geth --rpc --ws
+RemainAfterExit=no
+
+
 
 [Install]
-WantedBy=default.target pirlmarlin.service
+WantedBy=multi-user.target
 ```
 
 
 Create a system service file for the marlin service:
 ```
-vi /etc/systemd/system/pirlmarlin.service
+vi /lib/systemd/system/marlin.service
 ```
 
 Press the `i` button to enter insertion mode, then add the following.  Be sure to add your own MASTERNODE and user TOKEN to the Environment under the `[Service]` section:
 ```
 [Unit]
-Description=Pirl Client -- marlin content service
-After=network.target pirlnode.service
+Description=Marlin Master Node
 
 [Service]
+; location of the file with the exported variables
 Environment=MASTERNODE=YoUR MaSTErNodE ToKEn GoES HeRE
 Environment=TOKEN=YoUR UsER ToKEn GoES HeRE
 
-User=pirl
-Group=pirl
+
 Type=simple
+
+ExecStart=/usr/bin/marlin daemon
 Restart=always
-RestartSec=30s
 ExecStartPre=/bin/sleep 5
-ExecStart=/usr/sbin/pirl-marlin daemon
+RestartSec=30s
+User=root
 
 [Install]
 WantedBy=default.target
@@ -189,8 +191,15 @@ Monitor the status of your masternode by checking the Poseidon Masternode Detail
 
 ---
 Author(s):
+
+
 @Dptelecom
 
 
 Contributor(s):
+
+
 @Fawkes
+
+
+@Phatblinkie
