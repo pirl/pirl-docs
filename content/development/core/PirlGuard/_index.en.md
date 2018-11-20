@@ -5,7 +5,7 @@ pre: "<b>6. </b>"
 disableToc: true
 ---
 
-![](/development/images/PirlGuard.png ")
+![](/development/images/PirlGuard.png)
 
 ## PirlGuard - Innovative Solution against 51% Attacks
 
