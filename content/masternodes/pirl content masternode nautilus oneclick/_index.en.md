@@ -22,7 +22,7 @@ This guide uses the one-click-masternode setup feature. This is an optional feat
 * **Nautilus wallet**
  - Nautilus is the official desktop wallet for Pirl.  You will need it in order to add and execute “Register Node” from the smart contract needed to run the Pirl masternode.  You can use the desktop wallet to create your Pirl wallet or you can use the web wallet at: https://wallet.pirl.io/.  Whichever method you choose to create your wallet, always make sure you save your UTC file, the password needed to decrypt the UTC file as well as your private key.  You can use your Nautilus created UTC file and password to extract your private key.  You can use your private key instead of the UTC file + Password to access your wallet and withdraw your funds in case of an emergency.
 * **10,001 Pirl available in your wallet for Content MN**
- - There’s no getting around it, you will need to somehow get one thousand PIRL into a wallet. You can mine Pirl by using one of the official pools available here: https://pirl.io/en/pools/. You can also buy Pirl on one of the Pirl exchanges. I recommend https://www.cryptopia.co.nz/ as a safe and reliable exchange. There is also the “OTC” (over the counter)
+ - There’s no getting around it, you will need to somehow get one ten thousand PIRL into a wallet. You can mine Pirl by using one of the official pools available here: https://pirl.io/en/pools/. You can also buy Pirl on one of the Pirl exchanges. I recommend https://www.cryptopia.co.nz/ as a safe and reliable exchange. There is also the “OTC” (over the counter)
 
 ## Poseidon Wallet Identity Verification
 
