@@ -59,7 +59,7 @@ the **JSON Interface field** needs to be populated with:
 for the Content Masternode it should look like this:
 
 
-![](/images/contentmn.jpg)
+![](/masternodes/images/contentmn.jpg)
 
 
 and for the premium it looks like this:
