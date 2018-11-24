@@ -7,13 +7,7 @@ title: "Pirl Docs"
 Welcome to the Pirl Documentation portal!  The content you see here is the result of numerous volunteer members from the [Pirl Community](https://discord.gg/ZSAzcmn).
 
 ### What Is Pirl? 
-<iframe width=“300"
-    height=“200" src="content/getting started/images/51__Attack_resistant2.png">
-</iframe>
-
-<iframe width=“300"
-    height=“200" ![](/getting started/images/51__Attack_resistant2.png)>
-</iframe>
+![](/getting started/images/Attack_resistant480_480.png)
 
 
 Pirl is a community-centric blockchain platform, utilizing a globally distributed, multi-tiered masternodes network. The goal is to spur an evolution of the crypto space through dedicated research and ongoing innovation.  Pirl further distinguishes itself from the competition by refusing to compromise its security or reputation in the interest of short term speculation.
