@@ -8,7 +8,7 @@ Welcome to the Pirl Documentation portal!  The content you see here is the resul
 
 ### What Is Pirl? 
 <iframe width=“300"
-    height=“200" src="https://docs.pirl.io/getting%20started/images/51__Attack_resistant2.png">
+    height=“200" src="/getting started/images/51__Attack_resistant2.png">
 </iframe>
 
 
