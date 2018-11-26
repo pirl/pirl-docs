@@ -54,7 +54,9 @@ EtherGem (EGEM)
 [EGEM website](https://egem.io) 
 
 
-<img src="/Press releases/images/egem1.png" class="float-left" />
+<img src="/Press releases/images/egem1.png" align="left">
+
+<p>This is some text. <img src="smiley.gif" alt="Smiley face" align="left"> This is some text.</p>
  
 #PirlTogetherStrong
 
