@@ -6,7 +6,9 @@ disableToc: true
 chapter: false
 ---
 
-![](/development/images/PirlGuard.png)
+![](/Press releases/images/pirlGuardsmall.png)
+
+
 
 ## Press releases
 But first in short what is PirlGuard
