@@ -3,12 +3,19 @@ title: Proof of review
 weight: 1
 pre: "<b>1. </b>"
 disableToc: true
-url: "/Press releases/images/Pirl-v1.pdf"
 ---
 
+<object data="/Press releases/images/Pirl-v1.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/Press releases/images/Pirl-v1.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 
-
+----------
+content/Press releases/images/Pirl-v1.pdf
+url: "/Press releases/images/Pirl-v1.pdf"
+----------
 
 
 
