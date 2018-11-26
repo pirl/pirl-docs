@@ -3,6 +3,7 @@ title: Press releases
 weight: 14
 pre: "<b>13. </b>"
 disableToc: true
+chapter: false
 ---
 
 ![](/development/images/PirlGuard.png)
@@ -49,7 +50,7 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 
 
 EtherGem (EGEM)
-![](/Press releases/images/egem.png)
+![](/Press releases/images/egem1.png)
 [EGEM website](https://egem.io) 
 
 
