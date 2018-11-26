@@ -40,7 +40,7 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 [Website:](https://pirl.io/en)
 
 
-### Press releases PirlGuard:
+### <span style="color:red">Press releases PirlGuard:</span>
 
 [CCN.com](https://www.ccn.com/pirlguard-innovative-solution-against-51-attacks) 
 
