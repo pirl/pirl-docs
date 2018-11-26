@@ -1,7 +1,7 @@
 ---
-title: Press releases
-weight: 14
-pre: "<b>13. </b>"
+title: Press releases PirlGuard
+weight: 1
+pre: "<b>1. </b>"
 disableToc: true
 ---
 
