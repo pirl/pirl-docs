@@ -11,7 +11,7 @@ disableToc: true
 ## Press releases
 
 
-#### 1.) PirlGuard at the press and other projects using the PirlGuard solution [PirlGuard]({{< ref "/Press releases/PirlGuard" >}})
+#### 1.) [PirlGuard at the press and other projects using the PirlGuard solution ]({{< ref "/Press releases/PirlGuard" >}})
 
 
 
