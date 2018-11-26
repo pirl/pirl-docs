@@ -52,7 +52,9 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 #### EtherGem (EGEM)
 
 
-<p> <img src="/Press releases/images/egem1.png" align="left"> </p> <br>
+<p><img src="/Press releases/images/egem1.png" align="left"></p><br>
+
+
 
 
 [EGEM website](https://egem.io) 
