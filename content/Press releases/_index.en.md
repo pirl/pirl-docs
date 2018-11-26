@@ -3,7 +3,6 @@ title: Press releases
 weight: 14
 pre: "<b>13. </b>"
 disableToc: true
-chapter: false
 ---
 
 ![](/Press releases/images/pirlGuardsmall.png)
@@ -14,7 +13,7 @@ chapter: false
 But first in short what is PirlGuard
 PirlGuard - Innovative Solution against 51% Attacks 
 
-you can read the whole Kb here [PirlGuard]({{< ref "/development/core/PirlGuard" >}})
+### you can read the whole Kb here [PirlGuard]({{< ref "/development/core/PirlGuard" >}})
 
 
 ### How PirlGuard works?
@@ -42,13 +41,14 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 [Website:](https://pirl.io/en)
 
 
-### Press releases:
+### Press releases PirlGuard:
 
 [CCN.com](https://www.ccn.com/pirlguard-innovative-solution-against-51-attacks) 
 
 
 
-### Other projects using the PirlGuard solution:
+
+### <span style="color:green">Other projects using the PirlGuard solution:</span>
 
 
 #### EtherGem (EGEM)  
@@ -68,8 +68,16 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 [EGEM website](https://egem.io) 
 
 
----------------
+*** here some text from the dev of egem ***
 
+
+coming soon
+
+
+<br>
+<br>
+<br>
+<br>
  
 #PirlTogetherStrong
 
