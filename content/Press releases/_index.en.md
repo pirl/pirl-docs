@@ -5,8 +5,7 @@ pre: "<b>13. </b>"
 disableToc: true
 ---
 
-![](/Press releases/images/pirlGuardsmall.png)
-
+![](/Press releases/images/pirlguard.png)
 
 
 ## Press releases
