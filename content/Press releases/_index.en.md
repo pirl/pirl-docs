@@ -1,7 +1,7 @@
 ---
 title: Press releases
-weight: 6
-pre: "<b>6. </b>"
+weight: 14
+pre: "<b>13. </b>"
 disableToc: true
 ---
 
@@ -9,10 +9,9 @@ disableToc: true
 
 ## Press releases
 But first in short what is PirlGuard
+PirlGuard - Innovative Solution against 51% Attacks 
 
-
-### PirlGuard - Innovative Solution against 51% Attacks 
-
+you can read the whole Kb here [PirlGuard]({{< ref "/development/core/PirlGuard" >}})
 
 
 ### How PirlGuard works?
@@ -23,16 +22,7 @@ In order to disrupt the mechanics behind 51% attack that allows an attacker to b
 
 ### PirlGuard System
 With the PirlGuard Protocol deployed the chances of an attack succeeding are vastly reduced. As we know once the attacker has created a longer chain through privately mining a separate chain they will then have to broadcast it to the network. Once the attacker opens their node for peering it will attempt to peer with rest of the nodes on the network, telling them that they are wrong. However, once this happens PirlGuard will drop the peer and penalize them by sentencing them to mine X amount of penalty blocks due to their un-peered mining. The amount of penalty blocks assigned depends on the amount of blocks that the malicious miner mined in private.
-
-
-![](/development/images/7.png)
-
-
 The PirlGuard security protocol greatly deters attackers from attempting malicious peering giving the main network a much needed boost in security. This new security mechanism reduces the chances to approximately 0.03%.
-
-
-But, this is not the only security measure we have prepared.
-
 
 
 ###  Open Source
@@ -45,6 +35,18 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 
 [Source Code:](https://git.pirl.io/community/pirl) 
 [Website:](https://pirl.io/en)
+
+
+### Press releases:
+
+[CCN.com](https://www.ccn.com/pirlguard-innovative-solution-against-51-attacks) 
+
+
+
+### Other projects using the PirlGuard solution:
+
+
+
 
 
 
