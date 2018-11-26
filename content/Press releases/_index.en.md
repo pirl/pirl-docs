@@ -49,10 +49,11 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 ### Other projects using the PirlGuard solution:
 
 
-#### EtherGem (EGEM)
+#### EtherGem (EGEM)  
 
 
-<p><img src="/Press releases/images/egem1.png" align="left"></p><br>
+
+<img src="/Press releases/images/egem1.png" align="left"><br>
 
 
 
@@ -60,10 +61,7 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 [EGEM website](https://egem.io) 
 
 
-
-
-
-
+---------------
 
  
 #PirlTogetherStrong
