@@ -19,6 +19,10 @@ disableToc: true
 
 #### [PirlNetwork](http://stats.pirl.io "PirlNetwork")
 
+
+#### [Pirl on Blockfolio](https://blockfolio.com "Pirl on Blockfolio")
+
+
 ### if you want to participate in the future grow and security you can join in with you hash power:
 
 

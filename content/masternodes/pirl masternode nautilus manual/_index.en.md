@@ -96,11 +96,6 @@ firewall-cmd --zone=public --add-port=30303/udp --permanent
 firewall-cmd  --reload
 ```
 
-Create a `pirl` user and add it to the `systemd-journal` group:
-```
-adduser pirl && passwd pirl
-usermod -aG systemd-journal pirl
-```
 
 Download the premium masternode binaries:
 ```
@@ -113,7 +108,6 @@ wget https://git.pirl.io/community/pirl/uploads/f991222e04b2525cfb4a94a078f7247b
 wget https://git.pirl.io/community/pirl/uploads/9f6b22ff763e01353648202bb3718e74/pirl-linux-amd64-v5-masternode-content-hulk
 wget https://git.pirl.io/community/pirl/uploads/7b44acaa183a620bd1e57c1663ee9b72/marlin-v5-masternode-content-hulk
 ```
-
 
 
 Move the main binary to `/usr/bin/pirl`:
@@ -139,6 +133,13 @@ mv marlin-v5-masternode-premium-hulk /usr/bin/marlin
 For content nodes:
 ```
 mv marlin-v5-masternode-content-hulk /usr/bin/marlin
+```
+
+To grant Permission :
+```
+chmod 0755 /usr/bin/pirl
+chmod 0755 /usr/bin/marlin
+
 ```
 
 
