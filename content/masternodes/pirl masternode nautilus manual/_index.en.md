@@ -109,13 +109,6 @@ wget https://git.pirl.io/community/pirl/uploads/9f6b22ff763e01353648202bb3718e74
 wget https://git.pirl.io/community/pirl/uploads/7b44acaa183a620bd1e57c1663ee9b72/marlin-v5-masternode-content-hulk
 ```
 
-To grant Permission :
-```
-chmod 755 chmod 0755 /usr/bin/pirl
-chmod 755 chmod 0755 /usr/bin/marlin
-
-```
-
 
 Move the main binary to `/usr/bin/pirl`:
 
@@ -140,6 +133,13 @@ mv marlin-v5-masternode-premium-hulk /usr/bin/marlin
 For content nodes:
 ```
 mv marlin-v5-masternode-content-hulk /usr/bin/marlin
+```
+
+To grant Permission :
+```
+chmod 0755 /usr/bin/pirl
+chmod 0755 /usr/bin/marlin
+
 ```
 
 
