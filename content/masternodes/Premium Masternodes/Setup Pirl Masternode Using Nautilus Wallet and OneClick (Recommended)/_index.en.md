@@ -1,5 +1,5 @@
 ---
-title: Setup Pirl Premium Masternode Using Nautilus Wallet and OneClick (Recommended)
+title: Setup Premium Masternode
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
