@@ -1,5 +1,5 @@
 ---
-title: Retrieve Pirl Masternode Stake
+title: Retrieve Masternode Stake
 weight: 2
 pre: "<b>2. </b>"
 chapter: true
