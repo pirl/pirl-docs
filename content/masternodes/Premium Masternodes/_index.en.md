@@ -5,7 +5,6 @@ pre: "<b>1. </b>"
 disableToc: true
 ---
 
-# Premium Masternodes
 
 ![](/masternodes/images/masternodes.jpg)
 
@@ -14,7 +13,11 @@ They provide network security by storing the blockchain data and relaying transa
 The premium masternodes will be additionally rewarded with
 % of the fees of Poseidon platform.
 
+
 #### 1.) [Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)]({{< ref "/masternodes/Premium Masternodes/Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)" >}})
+
+
+
 
 
 
