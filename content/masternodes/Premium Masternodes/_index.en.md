@@ -15,8 +15,7 @@ The premium masternodes will be additionally rewarded with
 
 
 #### 1.) [Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)]({{< ref "/masternodes/Premium Masternodes/Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)" >}})
-
-
+#### 2.) [Disabling Masternode and Retrieving Stake]({{< ref "/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
 
 
 
