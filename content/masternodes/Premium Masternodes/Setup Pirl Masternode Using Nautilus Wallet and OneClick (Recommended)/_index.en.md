@@ -1,5 +1,5 @@
 ---
-title: Staking Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)
+title: Setup Pirl Premium Masternode Using Nautilus Wallet and OneClick (Recommended)
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
