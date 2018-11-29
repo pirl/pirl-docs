@@ -10,7 +10,7 @@ chapter: true
 ![](/masternodes/images/masternodes.jpg)
 
 
-****Content Masternodes Will provide file storage for the publicly accessible media and data needed for dApps and the marketplace.
+**Content Masternodes** Will provide file storage for the publicly accessible media and data needed for dApps and the marketplace.
 
 
 
