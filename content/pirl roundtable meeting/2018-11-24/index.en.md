@@ -18,10 +18,10 @@ we are looking for a writer....
 Author:
 
 
-_[Mickey Maler](https://twitter.com/MickeyMaler)_
+@Dptelecom
 
 
 Contributor(s):
 
 
-Dptelecom
+
