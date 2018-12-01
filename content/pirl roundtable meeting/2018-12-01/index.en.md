@@ -1,26 +1,27 @@
 ---
-title: Roundtable 2018-11-24
-weight: 41
-pre: "<b>10. </b>"
+title: Roundtable 2018-12-01
+weight: 40
+pre: "<b>11. </b>"
 disableToc: true
 ---
 
-## Round Table 24.11.2018
+## Round Table 01.12.2018
 
-Coming soon .......
+coming soon from a community member?
+we are looking for a writer....
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RwxpC3-wuXE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nbJO3kUFO5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ---
 Author:
 
+@Dptelecom
 
-_[Mickey Maler](https://twitter.com/MickeyMaler)_
 
 
 Contributor(s):
 
 
-Dptelecom
+
