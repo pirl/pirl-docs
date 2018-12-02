@@ -73,7 +73,8 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 *** here some text from the dev of egem ***
 
 
-coming soon
+![](/Press releases/images/edgemdev.jpg)
+
 
 
 <br>
