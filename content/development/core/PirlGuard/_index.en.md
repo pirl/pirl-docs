@@ -9,6 +9,10 @@ disableToc: true
 
 ## PirlGuard - Innovative Solution against 51% Attacks
 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q-f01eFYlig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 Pirl block 2,442,442 is a historical event not only for Pirl but for blockchain security in general.
 
 
