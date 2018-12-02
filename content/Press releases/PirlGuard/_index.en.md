@@ -15,6 +15,12 @@ PirlGuard - Innovative Solution against 51% Attacks
 ### you can read the whole Kb here [PirlGuard]({{< ref "/development/core/PirlGuard" >}})
 
 
+#### You can also watch this video:
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q-f01eFYlig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ### How PirlGuard works?
 
 
