@@ -8,6 +8,9 @@ disableToc: true
 Everything related to Smart Contracts!
 
 
+#### 1.) [Create-token]({{< ref "/solidity/create-token" >}})
+
+
 
 
 ---
