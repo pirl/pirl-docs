@@ -1,6 +1,6 @@
 ---
 title: How To Create A Token
-weight: 3
+weight: 1
 pre: "<b>1. </b>"
 disableToc: true
 ---
