@@ -1,7 +1,7 @@
 ---
 title: Smart Contracts
 weight: 5
-pre: "<b>4. </b>"
+pre: "<b>12. </b>"
 disableToc: true
 ---
 

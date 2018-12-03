@@ -1,7 +1,7 @@
 ---
 title: How To Create A Token
 weight: 3
-pre: "<b>3. </b>"
+pre: "<b>1. </b>"
 disableToc: true
 ---
 ## The Coin
