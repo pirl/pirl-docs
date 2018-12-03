@@ -1,6 +1,6 @@
 ---
 title: Smart Contracts
-weight: 12
+weight: 13
 pre: "<b>12. </b>"
 disableToc: true
 ---
