@@ -73,7 +73,7 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 [EGEM website](https://egem.io) 
 
 
-### Here is the official announcement from the EDGEM lead dev Riddlez666 
+### Here is the official announcement from the EGEM lead dev Riddlez666 
 
 
 ![](/Press releases/images/edgemdev.jpg)
@@ -97,11 +97,9 @@ Pirl Team
 
 ---
 Author(s):  
-
-
-@dptelecom
+ The Pirl Team
 
 Contributor():
 
-
+@dptelecom
 
