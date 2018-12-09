@@ -32,8 +32,8 @@ Summary:
 Fawkes: askes community for questions
 
 
-Miner Allen: Brief discussion on ICO’s being a scam and distrust in crypto. 
-Allan talks about Pirls goal on educating the community.  
+masterdubs: Brief discussion on ICO’s being a scam and distrust in crypto. 
+masterdubs about Pirls goal on educating the community.  
 Fawkes talks about crypto being all about market place, exchanges and traders. 
 Which is not the intent of crypto. 
 It’s supposed to be a technology that has benefits. 
