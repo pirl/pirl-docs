@@ -48,7 +48,7 @@ Target market is the users
 masterdubs:  The short-term goals for PIRL are to finish the company then introduce PirlPay. T
 he goal is to make it easy to transfer fiat into PIRL. 
 Easy entry with benefits of use. 
-Trading from the market place or exchange to direct fiat. 
+Trading from the marketplace or exchange to direct fiat. 
 All about ease of use.
 
 
