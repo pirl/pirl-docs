@@ -82,26 +82,27 @@ This is the first core solution against a 51% attack.
 10:45 Fawkes: We will send “What to Mine” a message to update them.
 
 
-11:00 masterdubs: The PIRL coder team is George, ???, masterdubs, Fawkes,
-
-
 11:30 Fawkes: Were looking for front end people who have skills in user experience. 
 Maybe a Java script developer.
 The PIRL Guard is open source.
 
 
-12:30 masterdubs: You must mention PIRL if you use PIRL Guard.
-Fawkes: It’s the same as Ethereum code, were following the same license with PIRL Guard. Even if it’s free you must mention the source.
+12:30 masterdubs: You must mention PIRL if you use PirlGuard.  
+Fawkes: It’s the same as Ethereum code, were following the same license with PirlGuard. 
+Even if it’s free you must mention the source.
 
 
-13:30 masterdubs: Shares a insert link** showing the PIRL Team implementation in the code.
+13:30 masterdubs: Shares a  [link**](https://cdn.discordapp.com/attachments/369152392094285834/515922921735061505/Capture_decran_2018-11-24_a_17.13.16.png) showing the PIRLTeam implementation in the code.
 
 
 14:30 Fawkes: A good engineer can implement this into any system.
 
 
 15:00 masterdubs: Shares a screen shot of an attack. 
-LINK You must mine a lot of blocks it’s almost impossible now 😊   
+
+[LINK ](https://cdn.discordapp.com/attachments/369152392094285834/515923268113399849/Capture_decran_2018-11-13_a_14.png)
+
+You must mine a lot of blocks it’s almost impossible now 😊   
 Actually its way more as there is a penalty system in place as well so its way more than just mining blocks.
 
 
@@ -157,14 +158,14 @@ We hope to hear by the end of this year or early 2019.
 27:00 masterdubs: stats.pirl.io hasn’t been changed in a long time and isn’t completely accurate.  
 Our network hash-rate is great and it’s coming back to normal. 
 People like PIRL for what it is. Storage MN isn’t top priority now. 
-We want the company released, then PIRL Pay and PIRL Exchange is very important for mass adoption.  
+We want the company released, then PirlPay and PirlExchange is very important for mass adoption.  
 We want to improve our tools before making more. 
 The PIRL App will be our central hub but we need to continue to improver everything. 
 It’s an improvement period.
-First PIRL Pay, PIRL Exchange, PIRL Tube out of beta, The MN is now out of beta.
+First PirlPay, PirlExchange, PirlTube out of beta, The MN is now out of beta.
 
 
-30:00 Fawkes: We also must fix PIRL App on the user interface and user experience. 
+30:00 Fawkes: We also must fix PirlApp on the user interface and user experience. 
 We want ease of use, good user interface and user experience.
 
 
@@ -182,7 +183,9 @@ It’s dangerous for us to depend on them
 Just a one pager to attach to POISEDON. 
 It’s an opportunity to get some PIRL.
 Some coins haven’t been replying.
-Provides a document ******for document tier 3 verified.  Proof of Review.
+Provides a [document ](https://twitter.com/ProofOfReview/status/1066360795607588865)
+
+for document tier 3 verified.  Proof of Review.
 
 
 36:00 Fawkes: We passed all the tests.
