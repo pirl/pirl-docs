@@ -182,9 +182,9 @@ It’s dangerous for us to depend on them
 33:30 masterdubs: Maybe we can make a bounty for a person to create a calculator. 
 Just a one pager to attach to POISEDON. 
 It’s an opportunity to get some PIRL.
-Some coins haven’t been replying.
-Provides a [document ](https://twitter.com/ProofOfReview/status/1066360795607588865)
-
+Some coins haven’t been replying.  
+Provides a  
+[document ](https://twitter.com/ProofOfReview/status/1066360795607588865)  
 for document tier 3 verified.  Proof of Review.
 
 
