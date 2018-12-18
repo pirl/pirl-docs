@@ -1,15 +1,15 @@
 ---
-title: Roundtable 2018-12-15
-weight: 38
-pre: "<b>13. </b>"
+title: Roundtable 2018-12-22
+weight: 37
+pre: "<b>14. </b>"
 disableToc: true
 ---
 
-## Round Table 15.12.2018
+## Round Table 22.12.2018
 
 ﻿PIRL ROUNDTABLE MEETING SUMMARY
 
-Date: December 15, 2018
+Date: December 22, 2018
 
 Participants:
 
@@ -17,20 +17,18 @@ Participants:
 
 Meeting Agenda:
 
--  Complete transparency
+ - Last meeting this year with some special holiday surprises 
 
--  The idea of the round table meetings is
- direct communication with the PIRL community.
+![](/pirl roundtable meeting/images/pirl-Christmas512.png)
 
-Summary:
-
+![](/pirl roundtable meeting/images/pirl_roundtable.jpg)
 
 
 
+<iframe src="http://free.timeanddate.com/countdown/i6jva3yz/n1314/cf12/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/tatTime%20left%20to%20Pirl%20Round%20Table%20in/taca2d629/tptTime%20since%20Event%20started%20in/tpca2d629/mac000/mpc000/iso2018-12-22T17:00:00" allowTransparency="true" frameborder="0" width="279" height="74"></iframe>
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WwA4X0ZJTtM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -38,9 +36,7 @@ Summary:
 Author:
 
 
-@Numnah
-
-
+@Dptelecom
 
 
 
