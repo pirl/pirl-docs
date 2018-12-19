@@ -7,7 +7,10 @@ disableToc: true
 ## Poseidon register page
 
 
-![](/PirlCloud/images/Poseidon_registor.jpg)
+Right here we go than lets fill in the required fields  for an account registration.
+
+
+![](/PirlCloud/images/registration.jpg)
 
 
 
