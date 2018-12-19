@@ -7,9 +7,7 @@ disableToc: true
 ## Poseidon register page
 
 
-
-
-![](/PirlCloud/poseidon/images/Poseidon_registor.jpg)
+![](/PirlCloud/images/Poseidon_registor.jpg)
 
 
 
