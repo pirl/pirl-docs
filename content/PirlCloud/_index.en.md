@@ -5,7 +5,7 @@ pre: "<b>2. </b>"
 disableToc: true
 ---
 
-![](/poseidon/images/pirlclouddark.jpg)
+![](/PirlCloud/poseidon/images/pirlclouddark.jpg)
 
 
 
@@ -14,9 +14,7 @@ disableToc: true
 
 
 
-
-
-#### 1.) [Overview]({{< ref "/poseidon/overview" >}})
+#### 1.) [Overview]({{< ref "/PirlCloud/poseidon" >}})
 
 
 
