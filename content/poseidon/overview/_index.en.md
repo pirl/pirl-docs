@@ -23,17 +23,6 @@ or login to your account if you already got one:
 
 
 <p><img src="/poseidon/images/Poseidon_left.jpg" align="left"></p>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>  
-
 
 
 Go ahead to the next page to see how you create an account:
