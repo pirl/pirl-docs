@@ -22,7 +22,7 @@ If you look at the left side of the page you see the option to register for an a
 or login to your account if you already got one:
 
 
-![](/poseidon/images/Poseidon_left.jpg" align="left)
+![](/poseidon/images/Poseidon_left.jpg)
 
 
 Go ahead to the next page to see how you create an account:
