@@ -22,7 +22,13 @@ If you look at the left side of the page you see the option to register for an a
 or login to your account if you already got one:
 
 
-<img src="/poseidon/images/Poseidon_left.jpg" align="left"><br>  
+<img src="/poseidon/images/Poseidon_left.jpg" align="left"><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 go ahead to the next page to see how you create an account:
