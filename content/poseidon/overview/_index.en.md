@@ -22,7 +22,8 @@ If you look at the left side of the page you see the option to register for an a
 or login to your account if you already got one:
 
 
-<img src="/poseidon/images/Poseidon_left.jpg" align="left"><br>
+<p><img src="/poseidon/images/Poseidon_left.jpg" align="left"></p>
+<br>
 <br>
 <br>
 <br>
@@ -35,7 +36,7 @@ or login to your account if you already got one:
 
 
 
-go ahead to the next page to see how you create an account:
+Go ahead to the next page to see how you create an account:
 
 
 #### next page [Register]({{< ref "/poseidon/register" >}})
