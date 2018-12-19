@@ -1,7 +1,7 @@
 ---
-title: Staking Pirl Content Masternode Using Nautilus Wallet and OneClick (Recommended)
-weight: 2
-pre: "<b>2. </b>"
+title: Setup Content Masternode
+weight: 1
+pre: "<b>1. </b>"
 chapter: true
 ---
 

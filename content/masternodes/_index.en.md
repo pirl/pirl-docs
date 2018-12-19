@@ -16,6 +16,10 @@ chapter: true
 
 **Content Masternodes** Will provide file storage for the publicly accessible media and data needed for dApps and the marketplace.
 
+#### 1.) [Premium Masternodes]({{< ref "/masternodes/Premium Masternodes" >}})
+#### 2.) [Content Masternodes]({{< ref "/masternodes/Content Masternodes" >}})
+#### 3.) [Storage Masternodes]({{< ref "/masternodes/Storage Masternodes" >}})
+
 
 
 ---
