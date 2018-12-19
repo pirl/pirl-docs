@@ -4,12 +4,12 @@ weight: 2
 pre: "<b>2. </b>"
 disableToc: true
 ---
-## Poseidon staring page
+## Poseidon register page
 
 
-![](/poseidon/images/Poseidon_overview.jpg)
 
 
+![](/poseidon/images/Poseidon_registor.jpg)
 
 
 
