@@ -1,7 +1,7 @@
 ---
-title: Poseidon overview
-weight: 1
-pre: "<b>1. </b>"
+title: Poseidon register
+weight: 2
+pre: "<b>2. </b>"
 disableToc: true
 ---
 ## Poseidon staring page
