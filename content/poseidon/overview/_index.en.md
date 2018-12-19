@@ -28,7 +28,7 @@ or login to your account if you already got one:
 go ahead to the next page to see how you create an account:
 
 
-#### next page [Register]({{< ref "/poseidon/register/" >}})
+#### next page [Register]({{< ref "/poseidon/register" >}})
 
 
 
