@@ -5,7 +5,7 @@ pre: "<b>2. </b>"
 disableToc: true
 ---
 
-![](/PirlCloud/poseidon/images/pirlclouddark.jpg)
+![](/PirlCloud/images/pirlclouddark.jpg)
 
 
 
