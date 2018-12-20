@@ -1,13 +1,13 @@
 ---
 title: Masternodes
-weight: 15
-pre: "<b>14. </b>"
+weight: 2
+pre: "<b>2. </b>"
 chapter: true
 ---
 
 # Masternodes
 
-![](/masternodes/images/masternodes.jpg)
+![](/PirlCloud/masternodes/images/masternodes.jpg)
 
 **Premium Masternodes** are the top-tier masternodes in the ecosystem. They provide network security by storing the blockchain data and relaying transaction in the blockchain as well as serving as content and storage masternodes. The premium masternodes will be additionally rewarded with
 % of the fees of Poseidon platform.
@@ -16,9 +16,9 @@ chapter: true
 
 **Content Masternodes** Will provide file storage for the publicly accessible media and data needed for dApps and the marketplace.
 
-#### 1.) [Premium Masternodes]({{< ref "/masternodes/Premium Masternodes" >}})
-#### 2.) [Content Masternodes]({{< ref "/masternodes/Content Masternodes" >}})
-#### 3.) [Storage Masternodes]({{< ref "/masternodes/Storage Masternodes" >}})
+#### 1.) [Premium Masternodes]({{< ref "/PirlCloud/masternodes/Premium Masternodes" >}})
+#### 2.) [Content Masternodes]({{< ref "/PirlCloud/masternodes/Content Masternodes" >}})
+#### 3.) [Storage Masternodes]({{< ref "/PirlCloud/masternodes/Storage Masternodes" >}})
 
 
 
