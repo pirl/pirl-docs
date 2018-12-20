@@ -1,5 +1,5 @@
 ---
-title: Changelog Poseidon
+title: Poseidon Changelog
 weight: 10
 pre: "<b>10. </b>"
 disableToc: true
