@@ -30,8 +30,9 @@ either you chose to use:
 
 2 sms notification  
 
-after you made you choise you push next
-below  i show both options:
+After you made you choise you push next  
+below  i show both options
+first the Google Authenticator:
 
 
 ![](/PirlCloud/images/2fac_chose.jpg)
