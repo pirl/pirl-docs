@@ -7,7 +7,7 @@ chapter: true
 
 # Premium Masternodes
 
-![](/masternodes/images/masternodes.jpg)
+![](/PirlCloud/masternodes/images/masternodes.jpg)
 
 
 **Premium Masternodes** are the top-tier masternodes in the ecosystem. 
@@ -16,8 +16,8 @@ The premium masternodes will be additionally rewarded with
 % of the fees of Poseidon platform.
 
 
-#### 1.) [Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)]({{< ref "/masternodes/Premium Masternodes/Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)" >}})
-#### 2.) [Disabling Masternode and Retrieving Stake]({{< ref "/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
+#### 1.) [Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)" >}})
+#### 2.) [Disabling Masternode and Retrieving Stake]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
 
 
 
