@@ -1,7 +1,7 @@
 ---
 title: Apps
-weight: 4
-pre: "<b>4. </b>"
+weight: 3
+pre: "<b>3. </b>"
 disableToc: true
 ---
 
