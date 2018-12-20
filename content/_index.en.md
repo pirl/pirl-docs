@@ -19,7 +19,7 @@ Pirl is a community-centric blockchain platform, utilizing a globally distribute
 #### 2.) 
 #### 3.) [Mining]({{< ref "/mining" >}})
 #### 4.) [Wallets]({{< ref "/wallets" >}})
-#### 5.) [PirlApp]({{< ref "/pirl app" >}})
+#### 5.) 
 #### 6.) [Pirl Roundtable Meeting]({{< ref "/pirl roundtable meeting" >}})
 #### 7.) [Links]({{< ref "/links" >}})
 #### 8.) [Development]({{< ref "/development" >}})
