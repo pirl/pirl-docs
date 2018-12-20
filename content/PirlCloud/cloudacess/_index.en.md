@@ -1,5 +1,5 @@
 ---
-title: CloudAcess (IPFS)
+title: PirlIpfs Acess
 weight: 3
 pre: "<b>3. </b>"
 disableToc: true
@@ -8,7 +8,7 @@ disableToc: true
 ![](/PirlCloud/images/Pirl_IPFSsmall.png)
 
 
-## CloudAcess (IPFS)
+## PirlIpfs Acess
 
 
 
