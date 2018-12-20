@@ -4,7 +4,7 @@ weight: 3
 pre: "<b>3. </b>"
 disableToc: true
 ---
-## Poseidon first login
+## [Poseidon first login](https://poseidon.pirl.io)
 
 
 ### Nice we have the account created now we are going for the first time login,
@@ -32,7 +32,9 @@ disableToc: true
 
 ### After you made you choise you push next  
 ### below  i show both options
-### first the Google Authenticator:
+
+
+### 1 the Google Authenticator:
 
 
 ![](/PirlCloud/images/2fac_chose.jpg)
@@ -64,11 +66,21 @@ disableToc: true
 ![](/PirlCloud/images/logintoken.jpg)
 
 
+### 2 sms notification
+
+
+![](/PirlCloud/images/optionsms.jpg)
+
+
+### And now you fil in your phone number:
 
 
 
 
+![](/PirlCloud/images/phonenumber.jpg)
 
+
+### And............
 
 
 
