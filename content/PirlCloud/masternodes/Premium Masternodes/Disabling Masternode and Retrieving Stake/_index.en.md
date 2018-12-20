@@ -20,27 +20,27 @@ On the right side, the contract function menu will be shown.
 
 Select the **Disable Node** function, then the wallet associated with the contract and hit **Execute**
 
-![](/masternodes/images/disable-node.png)
+![](/PirlCloud/masternodes/images/disable-node.png)
 
 On the next screen, confirm you have enough **gas** for the transaction, enter your **UTC file password** and hit **Send Transaction**.
 
-![](/masternodes/images/disable-node2.png)
+![](/PirlCloud/masternodes/images/disable-node2.png)
 
 Allow 30-60 seconds before running the next step.
 
 Select the **Withdraw Stake** function, then the wallet associated with the contract and hit **Execute**
 
-![](/masternodes/images/withdraw-stake.png)
+![](/PirlCloud/masternodes/images/withdraw-stake.png)
 
 On the next screen, confirm you have enough **gas** for the transaction, enter your **UTC file password** and hit **Send Transaction**.
 
-![](/masternodes/images/disable-node2.png)
+![](/PirlCloud/masternodes/images/disable-node2.png)
 
 ### Not Enough gas
 
 Sometimes the wallet will be unable to automatically calculate the gas needed for a transaction and will automatically set it to 0. In this situation, you can manually adjust the gas by clicking on where it says 0 and write in your own amount.  A good amount of gas for this purpose is **121,000**.
 
-![](/masternodes/images/confirm-gas.png)
+![](/PirlCloud/masternodes/images/confirm-gas.png)
 
 ## Adding Masternode Contract in Nautilus
 
