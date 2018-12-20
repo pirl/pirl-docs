@@ -25,8 +25,8 @@ either you chose to use:
 
 
 1 Google Authenticator  
- * [Play store for Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
- * [App Store for Iphone](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)
+ * [Play store for Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)  
+ * [App Store for Iphone](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)  
 
 2 sms notification  
 
