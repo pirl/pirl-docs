@@ -24,7 +24,7 @@ At this page you have to make a decision which kind of two-factor authentication
 either you chose to use: 
 
 
-1 Google Authenticator 
+1 Google Authenticator  
  * [Play store for Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
  * [App Store for Iphone](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)
 
