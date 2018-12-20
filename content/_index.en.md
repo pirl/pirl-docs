@@ -16,10 +16,10 @@ Pirl is a community-centric blockchain platform, utilizing a globally distribute
 #### [PirlWebsite](https://pirl.io/en/ "PirlWebsite")
 #### [FAQ]({{< ref "/faq" >}})
 #### 1.) [Getting Started]({{< ref "/getting started" >}})
-#### 2.) 
+#### 2.) [PirlCloud]({{< ref "/PirlCloud" >}})
 #### 3.) [Mining]({{< ref "/mining" >}})
 #### 4.) [Wallets]({{< ref "/wallets" >}})
-#### 5.) 
+#### 5.) [Press releases]({{< ref "/Press releases" >}})
 #### 6.) [Pirl Roundtable Meeting]({{< ref "/pirl roundtable meeting" >}})
 #### 7.) [Links]({{< ref "/links" >}})
 #### 8.) [Development]({{< ref "/development" >}})
@@ -27,11 +27,15 @@ Pirl is a community-centric blockchain platform, utilizing a globally distribute
 #### 10.) [Services]({{< ref "/services" >}})
 #### 11.) [Newsletter signup]({{< ref "/mailing" >}})
 #### 12.) [Smart Contracts]({{< ref "/solidity" >}})
-#### 13.) [Press releases]({{< ref "/Press releases" >}})
+ 
+
+
 
 
 ---
 Author(s):
+
+
 @Dptelecom
 
 
