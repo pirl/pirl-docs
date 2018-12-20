@@ -38,6 +38,31 @@ first the Google Authenticator:
 ![](/PirlCloud/images/2fac_chose.jpg)
 
 
+Chose the first option and push the next button,
+you will get this page:
+
+
+![](/PirlCloud/images/qrcode.jpg)
+
+
+Scan the QR code with the Google Authenticator app,
+and in the app you will see Poseidon added like this:
+
+
+![](/PirlCloud/images/mobile.jpeg)
+
+Fill in the code to confirm the Google Authenticator setup.
+
+
+![](/PirlCloud/images/confirm.jpg)
+
+
+And now you the next time you want to login you must use the token after you fill in your credentials.
+
+
+![](/PirlCloud/images/logincred.jpg)
+![](/PirlCloud/images/logintoken.jpg)
+
 
 
 
