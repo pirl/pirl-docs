@@ -1,5 +1,5 @@
 ---
-title: Cloudacess (IPFS)
+title: CloudAcess (IPFS)
 weight: 2
 pre: "<b>2. </b>"
 disableToc: true
@@ -7,7 +7,7 @@ disableToc: true
 
 #                           ***Header pic comes here***
 
-## Cloudacess (IPFS)
+## CloudAcess (IPFS)
 
 
 
