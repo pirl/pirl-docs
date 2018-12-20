@@ -1,7 +1,7 @@
 ---
 title: Press releases
-weight: 14
-pre: "<b>13. </b>"
+weight: 6
+pre: "<b>5. </b>"
 disableToc: true
 ---
 
