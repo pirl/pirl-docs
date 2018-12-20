@@ -1,5 +1,5 @@
 ---
-title: PirlIpfs Acess
+title: Public storage
 weight: 3
 pre: "<b>3. </b>"
 disableToc: true
@@ -8,7 +8,7 @@ disableToc: true
 ![](/PirlCloud/images/Pirl_IPFSsmall.png)
 
 
-## PirlIpfs Acess
+## Public storage.
 
 
 
