@@ -4,16 +4,16 @@ weight: 2
 pre: "<b>2. </b>"
 disableToc: true
 ---
-
-![](/PirlCloud/images/pirlclouddark.jpg)
-
-
+![](/images_headers/cloudpowereddark.png)
 
 
 ## The PirlCloud
 
 
-Intro text comes here
+PirlCloud is a decentralized hosting solution that provides public storage and will soon offer encrypted private storage.  
+All utilizing our highly scalable enterprise class monetized masternode network.  
+PirlCloud will also enable decentralized DDoS protected web hosting with the integrated CDN distributed all around the globe.
+
 
 
 #### 1.) [Poseidon]({{< ref "/PirlCloud/poseidon" >}})
