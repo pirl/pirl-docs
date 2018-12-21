@@ -2,7 +2,7 @@
 title: PirlCloud
 weight: 2
 pre: "<b>2. </b>"
-disableToc: true
+chapter: true
 ---
 ![](/images_headers/cloudpowereddark.png)
 
