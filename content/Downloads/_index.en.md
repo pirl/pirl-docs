@@ -2,7 +2,7 @@
 title: Downloads
 weight: 10
 pre: "<b>9. </b>"
-chapter: false
+chapter: true
 ---
 ![](/images_headers/Downloads.png)
 
