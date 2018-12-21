@@ -418,7 +418,7 @@ color:#343434;
 #chapter {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     height: 100%;
     padding: 2rem 0;
 }
