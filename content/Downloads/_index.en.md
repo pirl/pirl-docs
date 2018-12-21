@@ -5,8 +5,8 @@ pre: "<b>9. </b>"
 disableToc: true
 ---
 
-![](/images/Downloads.png)
-themes/hugo-theme-learn/images/Downloads.png
+![](/images_headers/Downloads.png)
+
 
 #### [PirlWebsite](https://pirl.io/en/ "PirlWebsite")
 
