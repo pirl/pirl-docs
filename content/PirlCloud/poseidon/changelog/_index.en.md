@@ -2,9 +2,9 @@
 title: Poseidon Changelog
 weight: 10
 pre: "<b>10. </b>"
-disableToc: true
+chapter: true
 ---
-
+![](/images_headers/Poseidon.png)
 
 
 ## All notable changes to this project will be documented in this file.
