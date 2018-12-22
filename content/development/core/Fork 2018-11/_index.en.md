@@ -2,9 +2,8 @@
 title: Fork 2018-11
 weight: 5
 pre: "<b>5. </b>"
-disableToc: true
+chapter: true
 ---
-
 ![](/development/images/hardfork.png ")
 
 
