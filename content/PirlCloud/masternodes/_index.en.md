@@ -7,9 +7,10 @@ chapter: true
 ![](/images_headers/Masternodes.png)
 
 
-# Masternodes
-
 ![](/PirlCloud/masternodes/images/masternodes.jpg)
+
+## Masternodes
+
 
 **Premium Masternodes** are the top-tier masternodes in the ecosystem. They provide network security by storing the blockchain data and relaying transaction in the blockchain as well as serving as content and storage masternodes. The premium masternodes will be additionally rewarded with
 % of the fees of Poseidon platform.
