@@ -86,7 +86,16 @@ And now you fil in your phone number:
 ![](/PirlCloud/images/phonenumber.jpg)
 
 
-And............whoops .....this is not yet working...problem on the provider side. 
+Press next and you should have received an sms  with an Token,  
+this token you fill in here:
+
+
+![](/PirlCloud/images/2fa_notworking.jpg)
+
+
+{{% notice warning %}}
+😢 whoops .....this is not yet working...problem on the provider side 😢
+{{% /notice %}}
 
 
 
