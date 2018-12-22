@@ -96,11 +96,9 @@ Pirl Team
 
 ---
 Author(s):  
-
-
-@dptelecom
+ The Pirl Team
 
 Contributor():
 
-
+@dptelecom
 
