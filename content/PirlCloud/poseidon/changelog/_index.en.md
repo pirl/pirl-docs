@@ -7,17 +7,16 @@ chapter: true
 ![](/images_headers/Poseidon.png)
 
 
-## All notable changes to this project will be documented in this file.
+## All notable changes to this unique all-in-one platform will be documented in this file.
 
 
 
-## Version <span style="color:green">V2</span>
+##  <span style="color:green">Poseidon Version V2</span>
 
 
 
 ## Added  
 
-- DISABLE old login url / reset / ( accounts/login ) and set account/login as default  
 - 2FA ( google + sms )  
 - password reset  
 - login / logout / subscribe  
@@ -36,6 +35,8 @@ chapter: true
 ## Changed  
 
 
+- DISABLE old login url / reset / ( accounts/login ) and set account/login as default  
+
 
 ## Removed  
 -
@@ -48,6 +49,11 @@ chapter: true
 ---
 Author(s):  
 
-@dptelecom  
+
+[Masterdubs](https://git.pirl.io/masterdubs)
+
 
 Contributor():  
+
+
+@dptelecom 
