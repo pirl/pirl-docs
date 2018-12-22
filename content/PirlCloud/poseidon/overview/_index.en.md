@@ -2,8 +2,11 @@
 title: Poseidon overview
 weight: 1
 pre: "<b>1. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/Poseidon.png)
+
+
 ## Poseidon starting page.
 
 
