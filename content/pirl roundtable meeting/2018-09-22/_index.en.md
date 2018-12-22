@@ -2,8 +2,10 @@
 title: Roundtable 2018-09-22
 weight: 50
 pre: "<b>1. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/round_table.png)
+
 
 ## TL;DR ##
 The PIRL Marlin content masternode binaries are out for testing!
