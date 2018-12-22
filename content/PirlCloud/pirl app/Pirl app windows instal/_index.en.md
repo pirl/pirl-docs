@@ -2,8 +2,10 @@
 title: PirlApp windows install
 weight: 1
 pre: "<b>1. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/round_table.png <-----logo comes here soon
+
 
 ## Overview.
 
