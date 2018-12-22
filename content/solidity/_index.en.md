@@ -2,8 +2,11 @@
 title: Smart Contracts
 weight: 13
 pre: "<b>12. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/smartcontract.png)
+
+
 
 Everything related to Smart Contracts!
 
