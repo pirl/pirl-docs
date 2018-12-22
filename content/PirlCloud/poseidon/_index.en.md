@@ -33,7 +33,7 @@ Poseidon will grant users access to:
 
 #### 1.) [Overview]({{< ref "/PirlCloud/poseidon/overview" >}})
 #### 2.) [Register]({{< ref "/PirlCloud/poseidon/register" >}})
-#### 3.) [First Login]({{< ref "/PirlCloud/poseidon/login" >}})
+#### 3.) [First Login and setup Two-factor authentication]({{< ref "/PirlCloud/poseidon/login" >}})
 
 
 #### 10.) [Poseidon changelog]({{< ref "/PirlCloud/poseidon/changelog" >}})
