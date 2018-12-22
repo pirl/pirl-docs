@@ -69,7 +69,10 @@ And now you the next time you want to login you must use the token after you fil
 ![](/PirlCloud/images/logintoken.jpg)
 
 
-2) sms notification
+2) sms notification  
+{{% notice warning %}}
+😢 whoops .....this is not yet working...problem on the provider side 😢
+{{% /notice %}}
 
 
 ![](/PirlCloud/images/optionsms.jpg)
@@ -83,7 +86,7 @@ And now you fil in your phone number:
 ![](/PirlCloud/images/phonenumber.jpg)
 
 
-And............whoops .....this is not yet working...problem on the provider side 
+And............whoops .....this is not yet working...problem on the provider side. 
 
 
 
