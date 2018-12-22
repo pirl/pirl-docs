@@ -4,8 +4,7 @@ weight: 4
 pre: "<b>4. </b>"
 chapter: true
 ---
-![](/images_headers/round_table.png <-----logo comes here soon
-
+![](/images_headers/pirlapp.png)
 
 
 PirlApp Portal is the user dashboard where PIRL Services are accessible.
