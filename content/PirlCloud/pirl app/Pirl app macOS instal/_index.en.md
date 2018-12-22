@@ -2,8 +2,9 @@
 title: PirlApp macOS install
 weight: 2
 pre: "<b>2. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/round_table.png <-----logo comes here soon
 
 
 Coming soon, by Pirl Community Member
