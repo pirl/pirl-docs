@@ -28,14 +28,11 @@ or login to your account if you already got one:
 ![](/PirlCloud/images/Poseidon_left.jpg)
 
 
-Go ahead to the next page to see how you create an account:
+### Go ahead to the next page to see how you create an account:  
+### [next page Register]({{< ref "/PirlCloud/poseidon/register" >}})
 
 
-#### next page [Register]({{< ref "/PirlCloud/poseidon/register" >}})
-
-
-Or ahead to the this page to see how you login the first time to account and setup the Two-factor authentication :
-
+### Or ahead to the this page to see how you login the first time to account and setup the Two-factor authentication:  
 ### [First Login and setup Two-factor authentication]({{< ref "/PirlCloud/poseidon/login" >}})
 
 
