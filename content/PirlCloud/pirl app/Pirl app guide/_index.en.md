@@ -4,7 +4,7 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
-![](/images_headers/round_table.png <-----logo comes here soon
+![](/images_headers/pirlapp.png)
 
 
 ## Overview.
