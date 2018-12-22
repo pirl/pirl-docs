@@ -2,10 +2,10 @@
 title: Attack Aftermaths & Securing Funds
 weight: 4
 pre: "<b>4. </b>"
-disableToc: true
+chapter: true
 ---
-
 ![](/development/images/aftermath.png)
+
 
 ## Dear Community,
 
