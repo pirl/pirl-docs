@@ -2,11 +2,12 @@
 title: Public storage overview
 weight: 1
 pre: "<b>1. </b>"
-disableToc: true
+chapter: true
 ---
-
-
 ![](/PirlCloud/images/Pirl_IPFSsmall.png)
+
+
+
 
 
 ## Public storage overview starting page.
