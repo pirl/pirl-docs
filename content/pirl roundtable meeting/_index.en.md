@@ -2,11 +2,9 @@
 title: Pirl Roundtable Meeting
 weight: 7
 pre: "<b>6. </b>"
-disableToc: true
+chapter: true
 ---
-
-![](/pirl roundtable meeting/images/pirl_roundtable.jpg)
-
+![](/images_headers/round_table.png)
 
 
 ### Round table philosophy of PIRL
