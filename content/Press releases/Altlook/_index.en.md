@@ -2,8 +2,11 @@
 title: In Depth Review by the Altlook
 weight: 1
 pre: "<b>1. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/Pressreleases.png)
+
+
 
 <object data="/Press releases/images/PIRL_-_In_Depth_Review.pdf" type="application/pdf" width="1400px" height="1400px">
     <embed src="/Press releases/images/PIRL_-_In_Depth_Review.pdf">
