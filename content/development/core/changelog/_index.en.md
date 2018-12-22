@@ -2,9 +2,9 @@
 title: Changelog Core
 weight: 1
 pre: "<b>1. </b>"
-disableToc: true
+chapter: true
 ---
-
+![](/images_headers/development.png)
 
 
 ## All notable changes to this project will be documented in this file.

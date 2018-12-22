@@ -2,7 +2,7 @@
 title: Pirl Web Wallet + Trezor
 weight: 5
 pre: "<b>5. </b>"
-disableToc: true
+chapter: true
 ---
 
 ## Overview

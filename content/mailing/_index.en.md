@@ -2,8 +2,9 @@
 title: Newsletter signup
 weight: 12
 pre: "<b>11. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/Newsletter.png)
 
 
 ### Newsletter signup

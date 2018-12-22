@@ -2,8 +2,10 @@
 title: Mining
 weight: 4
 pre: "<b>3. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/Mining.png)
+
 
 ## Mining
 

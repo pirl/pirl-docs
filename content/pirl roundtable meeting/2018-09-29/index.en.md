@@ -2,8 +2,10 @@
 title: Roundtable 2018-09-29
 weight: 49
 pre: "<b>2. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/round_table.png)
+
 
 ## TL;DR ##
 PirlTube is released today for testing! You can use PirlApp to access it once it finishes compiling!

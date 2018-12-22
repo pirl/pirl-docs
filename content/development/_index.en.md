@@ -2,10 +2,9 @@
 title: Development
 weight: 9
 pre: "<b>8. </b>"
-disableToc: true
+chapter: true
 ---
-
-![](/development/images/development.jpg)
+![](/images_headers/development.png)
 
 
 ## Updates about development for Pirl
@@ -14,9 +13,8 @@ disableToc: true
 Updates about development for Pirl can be found on the next pages.
 
 #### 1.) [Core]({{< ref "/development/core" >}})
-#### 2.) [Masternodes]({{< ref "/development/masternodes" >}})
-#### 3.) [Wallets]({{< ref "/development/wallets" >}})
-#### 4.) [Apps]({{< ref "/development/apps" >}})
+#### 2.) [Wallets]({{< ref "/development/wallets" >}})
+
 
 
 
