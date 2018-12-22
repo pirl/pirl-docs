@@ -2,8 +2,10 @@
 title: Roundtable 2018-11-10
 weight: 43
 pre: "<b>8. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/round_table.png)
+
 
 ## Round Table 10.11.2018
 
