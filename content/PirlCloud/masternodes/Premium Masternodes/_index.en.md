@@ -4,6 +4,8 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
+![](/images_headers/Masternodes.png)
+
 
 # Premium Masternodes
 
