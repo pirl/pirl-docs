@@ -4,6 +4,8 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
+![](/images_headers/Masternodes.png)
+
 
 # Storage Masternodes
 
