@@ -7,6 +7,20 @@ chapter: true
 ![](/images_headers/Masternodes.png)
 
 
+{{% notice warning %}}
+💡  
+This page will soon be updated with our new:  
+🛠
+Poseidon Version V2 photos and guide  
+
+so keep in mind that photos here look different and things can work different   also
+
+Thank you for your patient
+
+
+{{% /notice %}}
+
+
 ## Overview
 
 Running a PIRL masternode requires the use of a Virtual Private Server (VPS) with a static public IP address directly assigned to an interface.
