@@ -34,6 +34,11 @@ Go ahead to the next page to see how you create an account:
 #### next page [Register]({{< ref "/PirlCloud/poseidon/register" >}})
 
 
+Or ahead to the this page to see how you login the first time to account and setup the Two-factor authentication :
+
+### [First Login and setup Two-factor authentication]({{< ref "/PirlCloud/poseidon/login" >}})
+
+
 
 ---
 Author(s):
