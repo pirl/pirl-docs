@@ -2,10 +2,9 @@
 title: Development
 weight: 9
 pre: "<b>8. </b>"
-disableToc: true
+chapter: true
 ---
-
-![](/development/images/development.jpg)
+![](/images_headers/development.png)
 
 
 ## Updates about development for Pirl
