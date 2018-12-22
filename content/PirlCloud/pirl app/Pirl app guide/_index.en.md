@@ -2,8 +2,9 @@
 title: PirlApp Guide
 weight: 3
 pre: "<b>3. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/round_table.png <-----logo comes here soon
 
 
 ## Overview.
