@@ -2,8 +2,10 @@
 title: Changelog
 weight: 1
 pre: "<b>1. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/round_table.png <-----logo comes here soon
+
 
 ## All notable changes to this project will be documented in this file.
 
