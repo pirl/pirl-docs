@@ -2,10 +2,8 @@
 title: Apps
 weight: 3
 pre: "<b>3. </b>"
-disableToc: true
+chapter: true
 ---
-
-
 ![](/development/images/PirlApps.jpg)
 
 
