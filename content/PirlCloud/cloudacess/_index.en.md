@@ -2,9 +2,8 @@
 title: Public storage
 weight: 3
 pre: "<b>3. </b>"
-disableToc: true
+chapter: true
 ---
-
 ![](/PirlCloud/images/Pirl_IPFSsmall.png)
 
 
