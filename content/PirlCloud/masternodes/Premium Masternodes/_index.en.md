@@ -7,9 +7,10 @@ chapter: true
 ![](/images_headers/Masternodes.png)
 
 
-# Premium Masternodes
-
 ![](/PirlCloud/masternodes/images/masternodes.jpg)
+
+
+## Premium Masternodes
 
 
 **Premium Masternodes** are the top-tier masternodes in the ecosystem. 
