@@ -4,6 +4,8 @@ weight: 2
 pre: "<b>2. </b>"
 chapter: true
 ---
+![](/images_headers/wallet.png)
+
 
 ## Overview
 This is a guide for best practices in backing up your Pirl wallets, and for keeping your Pirl safe and secure. 

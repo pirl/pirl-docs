@@ -2,9 +2,9 @@
 title: Wallets
 weight: 5
 pre: "<b>4. </b>"
-disableToc: true
+chapter: true
 ---
-
+![](/images_headers/wallet.png)
 
 
 ![](/wallets/images/Pirl_wallets.jpg )

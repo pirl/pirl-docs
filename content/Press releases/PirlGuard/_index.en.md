@@ -2,9 +2,8 @@
 title: Press releases PirlGuard
 weight: 3
 pre: "<b>3. </b>"
-disableToc: true
+chapter: true
 ---
-
 ![](/Press releases/images/pirlguard.png)
 
 

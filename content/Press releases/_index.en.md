@@ -1,12 +1,15 @@
 ---
 title: Press releases
-weight: 14
-pre: "<b>13. </b>"
-disableToc: true
+weight: 6
+pre: "<b>5. </b>"
+chapter: true
 ---
+![](/images_headers/Pressreleases.png)
 
 ![](/Press releases/images/pressrelease-image-1024x682.jpg)
 
+
+content
 
 ## Press releases
 

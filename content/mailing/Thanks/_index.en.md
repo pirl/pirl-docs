@@ -1,10 +1,9 @@
 ---
 linkTitle: Thanks
 hidden: true
-disableToc: true
+chapter: true
 ---
-
-![](/mailing/images/thanks.png)
+![](/images_headers/thanks.png)
 
 
 

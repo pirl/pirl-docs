@@ -2,8 +2,11 @@
 title: How To Create A Token
 weight: 1
 pre: "<b>1. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/smartcontract.png)
+
+
 ## The Coin
 We are going to create a digital token. Tokens in the Pirl ecosystem can represent any fungible tradable good: coins, loyalty points, gold certificates, IOUs, in-game items, etc. Since all tokens implement some basic features in a standard way, this also means that your token will be instantly compatible with the Pirl wallet and any other client or contract that uses the same standards.
 

@@ -2,10 +2,10 @@
 title: ATTACK & HULK
 weight: 2
 pre: "<b>2. </b>"
-disableToc: true
+chapter: true
 ---
-
 ![](/development/images/hulk.jpg)
+
 
 Pirl Community!
 
