@@ -2,8 +2,10 @@
 title: Wallets
 weight: 2
 pre: "<b>2. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/development.png)
+
 
 ## Updates about development for PirlWallets
 
