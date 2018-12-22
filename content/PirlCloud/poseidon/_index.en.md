@@ -2,12 +2,27 @@
 title: Poseidon
 weight: 1
 pre: "<b>1. </b>"
-disableToc: true
+chapter: true
 ---
+![](/images_headers/Poseidon.png)
 
-#                           ***Header pic comes here***
 
 ## The whole new Poseidon V2
+
+
+Poseidon is a unique all-in-one platform,  
+where, with a single point of entry,  
+a user can gain access to many of Pirl unique features and capabilities.  
+Poseidon will grant users access to:  
+
+• Blockchain Explorer  
+• Masternodes Control Panel  
+• 1-click Masternode installation  
+• Poseidon Wallet   
+• PirlCloud  
+• PirlMarket  
+• PirlPay   
+• And More  
 
 
 [Poseidon](https://poseidon.pirl.io "Poseidon").
