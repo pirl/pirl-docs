@@ -7,8 +7,6 @@ chapter: true
 ![](/images_headers/Masternodes.png)
 
 
-# Storage Masternodes
-
 ![](/PirlCloud/masternodes/images/masternodes.jpg)
 
 
