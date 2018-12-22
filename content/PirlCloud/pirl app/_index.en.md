@@ -4,7 +4,7 @@ weight: 4
 pre: "<b>4. </b>"
 chapter: true
 ---
-![](/images_headers/logo_come_here.png)
+![](/logo_comes_here.)
 
 
 
