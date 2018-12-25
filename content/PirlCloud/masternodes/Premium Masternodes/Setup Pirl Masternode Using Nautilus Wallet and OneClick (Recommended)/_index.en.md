@@ -7,15 +7,6 @@ chapter: true
 ![](/images_headers/Masternodes.png)
 
 
-{{% notice warning %}}
-💡  
-This page will soon be updated with our new:  
-Poseidon Version V2 photos and guide    
-so keep in mind that photos here look different and things can work different  
-Thank you for your patient  
-🛠  
-{{% /notice %}}
-
 
 ## Overview
 
@@ -147,7 +138,7 @@ the Tx hash validation field needs the txid (not block hash, see above!) of the 
 
 Hit **Save changes** and then you will see the next screen.
 
-![](//PirlCloud/images/one_click_setup.PNG)
+![](/PirlCloud/images/one_click_setup.PNG)
 
 
 
@@ -157,7 +148,7 @@ Hit **Save changes** and then you will see the next screen.
 Ensure that you know the public static IP address and `root` credentials before proceeding.
 
 
-![](//PirlCloud/images/one_click_setup.PNG)
+![](/PirlCloud/images/one_click_setup.PNG)
 
 
 we go and complete all fields.
@@ -169,7 +160,7 @@ content/PirlCloud/images/Done.PNG
 
 After returning to the **My Masternodes** screen, observe that the masternode's **Managed by Poseidon** field is set to `True`
 
-![](content/PirlCloud/images/managed.jpg)
+![](/PirlCloud/images/managed.jpg)
 
 Please allow 30 minutes for the process to complete. You may click the **details** button to monitor the status.
 
