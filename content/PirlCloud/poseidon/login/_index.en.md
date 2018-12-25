@@ -70,9 +70,6 @@ And now you the next time you want to login you must use the token after you fil
 
 
 2) sms notification  
-{{% notice warning %}}
-😢 whoops .....this is not yet working...problem on the provider side 😢
-{{% /notice %}}
 
 
 ![](/PirlCloud/images/optionsms.jpg)
@@ -87,17 +84,27 @@ And now you fil in your phone number:
 
 
 Press next and you should have received an sms  with an Token,  
+
+
+
+![](/PirlCloud/images/2fa_sms5.jpg)
+![](/PirlCloud/images/sms.jpeg)
+
+
 this token you fill in here:
 
 
-![](/PirlCloud/images/2fa_notworking.jpg)
+![](/PirlCloud/images/2fa_sms6.jpg)
 
 
-{{% notice warning %}}
-😢 whoops .....this is not yet working...problem on the provider side 😢
-{{% /notice %}}
+and then,  
+Welcome all done and setup:
 
 
+![](/PirlCloud/images/2fa_sms7.jpg)
+
+
+#### [Next page Poseidon unique all-in-one platform]({{< ref "/PirlCloud/poseidon/unique_platform" >}})
 
 
 ---
