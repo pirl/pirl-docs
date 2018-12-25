@@ -80,26 +80,7 @@ Use the txid on the left most side of your wallet transaction list on Poseidon**
 ![](https://cdn-images-1.medium.com/max/1600/0*1LTQiVdFomhRei6u.png)
 ![](https://cdn-images-1.medium.com/max/1600/0*bVaXgKomLeN0mEYQ.png)
 
-## Create Masternode Record in Poseidon
 
-Login to Poseidon and navigate to the page which adds a masternode located here:   
-https://poseidon.pirl.io/dashboard/masternodes/  
-and hit the:  
-
-![](/PirlCloud/images/redcrossadd.jpg)
-
-
-then you get this nice popup screen:
-
-![](/PirlCloud/images/redcrossadd.jpg)
-
-
-The Name can be anything you’d like.  
-The Wallet id is the address of your Nautilus wallet, the one which contains 20,000 Pirl at present.  
-And, remember, 
-the Tx hash validation field needs the txid (not block hash, see above!) of the transaction you send to your Poseidon wallet.
-
-**On the bottom of the screenshot above, you will have to select whether the MN is Premium (20K stake)**
 
 ## Nautilus Contract Execution
 
@@ -142,23 +123,53 @@ We do recommend logging into that server once to ensure the `root` credentials w
 It is not necessary to take any other actions on the server after that. 
 In fact, it's preferred that you don't make any other adjustments, at all.
 
-Now proceed to either the **One-Click Masternode Setup** or the. (One-Click is recommended)
+
+## Create Masternode in Poseidon
+
+Login to Poseidon and navigate to the page which adds a masternode located here:   
+https://poseidon.pirl.io/dashboard/masternodes/  
+and hit the:  
+
+![](/PirlCloud/images/redcrossadd.jpg)
+
+
+then you get this nice popup screen:
+
+![](/PirlCloud/images/Create_Masternode_Record_in_Poseidon.PNG)
+
+
+The Name can be anything you’d like.  
+The Masternode Wallet id is the address of your Nautilus wallet, the one which contains 20,000 Pirl at present.  
+And, remember, 
+the Tx hash validation field needs the txid (not block hash, see above!) of the transaction you send to your Poseidon wallet.
+
+**On the bottom of the screenshot above, you will have to select that the MN is Premium (20K stake)**
+
+Hit **Save changes** and then you will see the next screen.
+
+![](//PirlCloud/images/one_click_setup.PNG)
+
+
+
 
 ## One-Click Masternode Setup
 
 Ensure that you know the public static IP address and `root` credentials before proceeding.
 
-Login to Poseidon. On the left menu, choose Masternodes -> My Masternodes. You should see the following:
 
-![](https://cdn-images-1.medium.com/max/1000/1*N2NyFBXJgHqjaPA4nUw8qA.png)
+![](//PirlCloud/images/one_click_setup.PNG)
 
-Click the **One-Click MN Setup** button and complete all fields.
 
-![](https://cdn-images-1.medium.com/max/1000/1*crfDegFUCQo-tCHczi6GHQ.png)
+we go and complete all fields.
+ssh default is port: 22
+Hit **Save changes** and then you will see the next screen.
+content/PirlCloud/images/Done.PNG
+
+![](/PirlCloud/images/Done.PNG)
 
 After returning to the **My Masternodes** screen, observe that the masternode's **Managed by Poseidon** field is set to `True`
 
-![](https://cdn-images-1.medium.com/max/1000/1*wef5d-8ZNtHlQDwX5lAemw.png)
+![](content/PirlCloud/images/managed.jpg)
 
 Please allow 30 minutes for the process to complete. You may click the **details** button to monitor the status.
 
@@ -168,9 +179,12 @@ journalctl -f
 ```
 
 Once messages like the following are displayed, your masternode is now synchronized and contributing to the network.
-```
-########  masternode sending proof of activity for block 2051449 please check poseidon.pirl.io for details  #########
-```
+
+
+![](/PirlCloud/images/vps.jpg)
+
+
+
 
 ## Monitoring
 
@@ -179,9 +193,13 @@ We don't encourage active access on the server.  If, however, you wish to check 
 journalctl -f
 ```
 
-Monitor the status of your masternode by checking the Poseidon Masternode Details page. A functioning node should appear as follows, although the version may be different than what is shown in the screen shot below.
+Monitor the status of your masternode by checking the Poseidon Masternode Details page by clicking on the 🔍.   
+A functioning node should appear as follows:
 
-![](https://cdn-images-1.medium.com/max/800/1*PFDEiPPUfl1Q2qzc0YWFlQ.png)
+![](/PirlCloud/images/detailsmn.png)
+
+
+
 
 ---
 Author(s):
