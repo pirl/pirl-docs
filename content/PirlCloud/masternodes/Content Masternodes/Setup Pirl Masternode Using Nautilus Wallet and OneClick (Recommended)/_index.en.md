@@ -129,35 +129,6 @@ It is not necessary to take any other actions on the server after that.
 In fact, it's preferred that you don't make any other adjustments, at all.
 
 
-## Create Masternode in Poseidon
-
-Login to Poseidon and navigate to the page which adds a masternode located here:   
-https://poseidon.pirl.io/dashboard/masternodes/  
-and hit the:  
-
-![](/PirlCloud/images/redcrossadd.jpg)
-
-
-then you get this nice popup screen:
-
-![](/PirlCloud/images/Create_Masternode_Record_in_Poseidon.PNG)
-
-
-The Name can be anything you’d like.  
-The Masternode Wallet id is the address of your Nautilus wallet, the one which contains 10,000 Pirl at present.  
-And, remember, 
-the Tx hash validation field needs the txid (not block hash, see above!) of the transaction you send to your Poseidon wallet.
-
-**On the bottom of the screenshot above, you will have to select that the MN is ## Create/Launch CentOS Linux server
-
-Verify that the server meets the appropriate specifications as noted in the [Pirl Masternode Setup Tutorial](https://pirl.io/blog/1-pirl-masternode-setup-tutorial)
-
-The server must run the CentOS 7 Linux distribution if you plan to use the **One-Click Masternode Setup**.
-
-Record of the static public IP address of the server as well as the root password. 
-We do recommend logging into that server once to ensure the `root` credentials work. 
-It is not necessary to take any other actions on the server after that. 
-In fact, it's preferred that you don't make any other adjustments, at all.
 
 
 ## Create Masternode in Poseidon
