@@ -142,7 +142,7 @@ and hit the:
 
 then you get this nice popup screen:
 
-![](PirlCloud/images/Create_content_Masternode_Record_in_Poseidon.png)
+![](/PirlCloud/images/Create_content_Masternode_Record_in_Poseidon.png)
 
 
 The Name can be anything you’d like.  
