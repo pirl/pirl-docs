@@ -51,61 +51,73 @@ It's now done. Pirl is one of the most advanced Blockchain application out at th
 Now we have a stable ground to build DApps. 2019 will be about use cases.
 
 22:30 masterdubs:   
-We don't like to talk about the crypto markets. After this meeting you will know what we're thinking in terms of Pirl and the future. We want mass adoption. We don't control the market. We develop for the people.
+We don't like to talk about the crypto markets.  
+After this meeting you will know what we're thinking in terms of Pirl and the future.  
+We want mass adoption. We don't control the market.  
+We develop for the people.
 
-23:30 Fawkes: The next crypto cycle will be user's. The people who want privacy freedom of speech and security no single point of failure and no ddos attack.
-
+23:30 Fawkes:  
+The next crypto cycle will be user's.  
+The people who want privacy freedom of speech and security no single point of failure and no ddos attack.  
 Bring mass adoption. We’re not worried about prices.
 
-25:45 masterdubs: It's time for the first [bomb](https://pirltube.com/ipns/QmPq5wsJx28EJaGHHxkBzbRgufVK3scJey2oM886iUQ175/#/details/0xa4b9aa76b37558ce621b00716723ad2b04569cffc2b536bd0684823994ea1ead)!
+25:45 masterdubs:  
+It's time for the first [bomb](https://pirltube.com/ipns/QmPq5wsJx28EJaGHHxkBzbRgufVK3scJey2oM886iUQ175/#/details/0xa4b9aa76b37558ce621b00716723ad2b04569cffc2b536bd0684823994ea1ead)!  
+This will be scaled.  
+It’s a web-based version.
 
-This will be scaled. It’s a web-based version.
+27:45 Fawkes:  
+You're able to take a share links from the web view and view on PirlTube, you don't have to be signed in.  
+There is a button where you can pop the screen out and move the video to any location you want.  
+The web view also works in a mobile browser.  
+In the future it will come in a mobile application.  
+There will be bugs to clear out, this is only this first version.  
 
-27:45 Fawkes: You're able to take a share links from the web view and view on PirlTube, you don't have to be signed in. There is a button where you can pop the screen out and move the video to any location you want.
+30:30 masterdubs:  
+Reply's to the 404.  
+The reason for it is 404 is you're going to the root of the domain.  
+The domain isn't re-directed yet. This is normal, we will fix it soon.  
 
-The web view also works in a mobile browser.
+30:45 Fawkes:  
+The limitations to the web version of PirlTube you cannot upload.  
+You can launch and share videos.  
+The desktop application is the only way to upload content now this will change.  
+The limit for video content is currently 1 gig per video upload.  
+Currently all the content is checked out by the Pirl team.  
+This will be further developed.  
+We don't give out investment advices.  
+We develop!
 
-In the future it will come in a mobile application.
+33:30 MinerAllen:  
+We will censor manually for starters.  
+If there is bad content, the community can report it.
 
-There will be bugs to clear out, this is only this first version.
+33:45 Fawkes:  
+Later, we will be looking at AI solutions to help police censorship.  
 
-30:30 masterdubs: Reply's to the 404. The reason for it is 404 is you're going to the root of the domain. The domain isn't re-directed yet. This is normal, we will fix it soon.
+34:45 masterdubs:  
+Everybody can post content for free!
 
-30:45 Fawkes: The limitations to the web version of PirlTube you cannot upload. You can launch and share videos. The desktop application is the only way to upload content now this will change.
-
-The limit for video content is currently 1 gig per video upload.
-
-Currently all the content is checked out by the Pirl team. This will be further developed.
-
-We don't give out investment advices. We develop!
-
-33:30 MinerAllen: We will censor manually for starters. If there is bad content, the community can report it.
-
-33:45 Fawkes: Later, we will be looking at AI solutions to help police censorship.
-
-34:45 masterdubs:  Everybody can post content for free!
-
-35:00 Fawkes: The infrastructure has massive capability's.
-
-
-2 442 00 GB/m Bandwidth
-3256 GB RAM
-1628 CPU Cores
-16 280 GB storage space
-814 endpoints on 6 continents
+35:00 Fawkes:  
+The infrastructure has massive capability's.
 
 
-This is what we want to scale, also we want to bring more use cases to all business or personal.
+2 442 00 GB/m Bandwidth  
+3256 GB RAM  
+1628 CPU Cores  
+16 280 GB storage space  
+814 endpoints on 6 continents  
 
-There is no video overlay in PirlTube.
 
-There is a lot of possibilities with the GPU's but that's our secret.
+This is what we want to scale, also we want to bring more use cases to all business or personal.  
+There is no video overlay in PirlTube.  
+There is a lot of possibilities with the GPU's but that's our secret.  
 
-37:30 masterdubs: There is talk of changing the algorithm in the future. For now it will stay the same.  This is not top priority
-
-Right now, we're focusing on more use and more services.
-
-Our block time is stable as well as our difficulty.
+37:30 masterdubs:  
+There is talk of changing the algorithm in the future. For now it will stay the same.  
+This is not top priority.  
+Right now, we're focusing on more use and more services.  
+Our block time is stable as well as our difficulty.  
 
 38:30 Fakes: We will be looking into another algorithm, it's not out yet and it's not our priority. Our infrastructure with the endpoints and no point of failure it’s in comparison to Microsoft Azure (58 endpoints).  Were close to 900 endpoints.
 
