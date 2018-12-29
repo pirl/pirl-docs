@@ -29,17 +29,29 @@ Summary:
 
 Regular start of meeting banter.
 
-15:00 Fawkes: Thanks, the Pirl community.
+15:00 Fawkes:   
+Thanks, the Pirl community.
 
-16:30 masterdubs: Thanks, the community.  Asks the community for question.
+16:30 masterdubs:  
+Thanks, the community.  
+Asks the community for question.
 
-17:30 Fawkes: It was a rough year, although we did more than we had originally planned on doing. The road map is not time specific. We did many things on the map that we didn't plan. We have a [2018 project summary](https://medium.com/pirl/a-year-in-pirl-2018-project-summary-fb219a957074) that everybody must check out. We had some major challenges. We keep on getting stronger as time goes on.
+17:30 Fawkes:  
+It was a rough year, although we did more than we had originally planned on doing.  
+The road map is not time specific. We did many things on the map that we didn't plan.  
+We have a [2018 project summary](https://medium.com/pirl/a-year-in-pirl-2018-project-summary-fb219a957074) that everybody must check out.  
+We had some major challenges. We keep on getting stronger as time goes on.
 
-Right now, we're in the process of setting up Pirl as a company. The company will have to provide financial statements. Everything will be accounted for and transparent.
+Right now, we're in the process of setting up Pirl as a company.  
+The company will have to provide financial statements.  
+Everything will be accounted for and transparent.
 
-For 2018 the major goal was to prepare the infrastructure. It's now done. Pirl is one of the most advanced Blockchain application out at this time. Now we have a stable ground to build DApps. 2019 will be about use cases.
+For 2018 the major goal was to prepare the infrastructure.  
+It's now done. Pirl is one of the most advanced Blockchain application out at this time.  
+Now we have a stable ground to build DApps. 2019 will be about use cases.
 
-22:30 masterdubs:  We don't like to talk about the crypto markets. After this meeting you will know what we're thinking in terms of Pirl and the future. We want mass adoption. We don't control the market. We develop for the people.
+22:30 masterdubs:   
+We don't like to talk about the crypto markets. After this meeting you will know what we're thinking in terms of Pirl and the future. We want mass adoption. We don't control the market. We develop for the people.
 
 23:30 Fawkes: The next crypto cycle will be user's. The people who want privacy freedom of speech and security no single point of failure and no ddos attack.
 
