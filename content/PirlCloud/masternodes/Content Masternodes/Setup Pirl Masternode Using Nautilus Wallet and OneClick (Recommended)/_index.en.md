@@ -7,51 +7,40 @@ chapter: true
 ![](/images_headers/Masternodes.png)
 
 
-{{% notice warning %}}
-💡  
-This page will soon be updated with our new:  
-Poseidon Version V2 photos and guide    
-so keep in mind that photos here look different and things can work different  
-Thank you for your patient  
-🛠  
-{{% /notice %}}
-
-
 ## Overview
 
-Running a PIRL masternode requires the use of a Virtual Private Server (VPS) with a static public IP address directly assigned to an interface.
+Running a PIRL masternode requires the use of a Virtual 
+Private Server (VPS) with a static public IP address directly assigned to an interface.
 
-Once you have the funds in place, you send a small 1 PIRL transaction to your Poseidon wallet (your account will come with a wallet) to prove that you control the Nautilus wallet with the 10K PIRL capital for Content MN.  
-You use the txid from the 1 PIRL transaction as part of the masternode setup, 
-along with your Nautilus address. When the masternode is added, 
+Once you have the funds in place, 
+you send a small 1 PIRL transaction to your Poseidon wallet (your account will come with a wallet) to prove that you control the Nautilus wallet with the 10K PIRL capital for Content MN.  
+You use the txid from the 1 PIRL transaction as part of the masternode setup, along with your Nautilus address. 
+When the masternode is added, 
 you go back to your Nautilus wallet and add the masternode contract address in the “contracts” tab.  
-With the masternode contract address in place, you execute the node registration function.  
-At this point you can either manually install the PIRL masternode binary and configure the masternode and firewall on your dedicated server or VPS or you can utilize the Poseidon 1 click functionality which will automatically setup your server and keep it updated.
+With the masternode contract address in place, 
+you execute the node registration function.  
+At this point  you can utilize the Poseidon 1 click functionality which will automatically setup your server and keep it updated.
 
 This guide uses the one-click-masternode setup feature. 
-This is an optional feature for those that wish to have a more hands-off experience with the setup of their masternode. 
 This Poseidon feature automatically configures your CentOS7 linux server to be a Pirl Masternode. 
 Updates will be applied automatically. 
 All you have to do is monitor your server to ensure it stays operational. 
-This is as simple as rebooting the server, should it go offline.
+This is as simple as rebooting the server, should it go offline. 
+
 
 ## Prerequisites
 
 * **A VPS with minimum 4GB Total OS RAM minimum (more is recommended), enough storage to run the masternode (Minimum 20GB, Recommended 60GB+), and a Public IP assigned at the network interface**
- - The official requirements are: 4GB RAM, 20GB space, 3TB transfer, public IPv4 IP. Once you order your VPS, you will receive its root credentials. 
- - The easiest path forward is to only use this VPS for your Pirl Masternode and give Poseidon your root credentials so it can manage and update your VPS.
+ - The official requirements are: 4GB RAM, 20GB space, 3TB transfer, public IPv4 IP. Once you order your VPS, you will receive its root credentials. The easiest path forward is to only use this VPS for your Pirl Masternode and give Poseidon your root credentials so it can manage and update your VPS.
 * **A Poseidon account on [https://poseidon.pirl.io](https://poseidon.pirl.io)**
- - Navigate over to https://poseidon.pirl.io and register for an account.  
- - Keep in mind that you will be logging in with your username and not email.
+ - Navigate over to https://poseidon.pirl.io and register for an account.  Keep in mind that you will be logging in with your username and not email.
 * **Nautilus wallet**
- - Nautilus is the official desktop wallet for Pirl.  
- - You will need it in order to add and execute “Register Node” from the smart contract needed to run the Pirl masternode.  
- - You can use the desktop wallet to create your Pirl wallet or you can use the web wallet at: https://wallet.pirl.io/.  
+ - Nautilus is the official desktop wallet for Pirl.  You will need it in order to add and execute “Register Node” from the smart contract needed to run the Pirl masternode.  You can use the desktop wallet to create your Pirl wallet or you can use the web wallet at: https://wallet.pirl.io/.  
  - Whichever method you choose to create your wallet, always make sure you save your UTC file, 
  - the password needed to decrypt the UTC file as well as your private key.  
  - You can use your Nautilus created UTC file and password to extract your private key.  
  - You can use your private key instead of the UTC file + Password to access your wallet and withdraw your funds in case of an emergency.
-* **10,001 Pirl available in your wallet for Content MN**
+* **10,001 Pirl available in your wallet for Content Masternode**
  - There’s no getting around it, you will need to somehow get ten thousand PIRL into a wallet. 
  - You can mine Pirl by using one of the official pools available here: https://pirl.io/en/pools/. 
  - You can also buy Pirl on one of the Pirl exchanges. I recommend https://www.cryptopia.co.nz/ as a safe and reliable exchange. 
@@ -59,7 +48,7 @@ This is as simple as rebooting the server, should it go offline.
 
 ## Poseidon Wallet Identity Verification
 
-The first step in the masternode setup process is to send a transaction from your Nautilus wallet (you can also use the web wallet here if needed) to your Poseidon wallet located here: https://poseidon.pirl.io/accounts/wallet/.  
+The first step in the masternode setup process is to send a transaction from your Nautilus wallet (you can also use the web wallet here if needed) to your Poseidon wallet located here: https://poseidon.pirl.io/dashboard/accounting/wallet/.  
 This is just like sending Pirl to any other wallet, except in this case it’s your unique Poseidon wallet.  
 What this does is it proves to Poseidon that you control your Nautilus wallet.
 
@@ -75,11 +64,12 @@ You need to use the transaction hash (txid) for the masternode setup process to 
 There’s a very easy way to know which one is the txid.  
 The txid is on the left side of the general transaction list of your wallet.  
 Once you click on the txid itself, you will see the block hash displayed.  
-Do not use the block hash.  
+o not use the block hash.  
 Use the txid on the left most side of your wallet transaction list on Poseidon**
 
 ![](https://cdn-images-1.medium.com/max/1600/0*1LTQiVdFomhRei6u.png)
 ![](https://cdn-images-1.medium.com/max/1600/0*bVaXgKomLeN0mEYQ.png)
+
 
 ## Create Masternode Record in Poseidon
 
@@ -135,26 +125,86 @@ The server must run the CentOS 7 Linux distribution if you plan to use the **One
 
 Record of the static public IP address of the server as well as the root password. 
 We do recommend logging into that server once to ensure the `root` credentials work. 
-It is not necessary to take any other actions on the server after that. In fact, 
-it's preferred that you don't make any other adjustments, at all.
+It is not necessary to take any other actions on the server after that. 
+In fact, it's preferred that you don't make any other adjustments, at all.
 
-Now proceed to either the **One-Click Masternode Setup** (One-Click is recommended)
+
+## Create Masternode in Poseidon
+
+Login to Poseidon and navigate to the page which adds a masternode located here:   
+https://poseidon.pirl.io/dashboard/masternodes/  
+and hit the:  
+
+![](/PirlCloud/images/redcrossadd.jpg)
+
+
+then you get this nice popup screen:
+
+![](/PirlCloud/images/Create_Masternode_Record_in_Poseidon.PNG)
+
+
+The Name can be anything you’d like.  
+The Masternode Wallet id is the address of your Nautilus wallet, the one which contains 10,000 Pirl at present.  
+And, remember, 
+the Tx hash validation field needs the txid (not block hash, see above!) of the transaction you send to your Poseidon wallet.
+
+**On the bottom of the screenshot above, you will have to select that the MN is ## Create/Launch CentOS Linux server
+
+Verify that the server meets the appropriate specifications as noted in the [Pirl Masternode Setup Tutorial](https://pirl.io/blog/1-pirl-masternode-setup-tutorial)
+
+The server must run the CentOS 7 Linux distribution if you plan to use the **One-Click Masternode Setup**.
+
+Record of the static public IP address of the server as well as the root password. 
+We do recommend logging into that server once to ensure the `root` credentials work. 
+It is not necessary to take any other actions on the server after that. 
+In fact, it's preferred that you don't make any other adjustments, at all.
+
+
+## Create Masternode in Poseidon
+
+Login to Poseidon and navigate to the page which adds a masternode located here:   
+https://poseidon.pirl.io/dashboard/masternodes/  
+and hit the:  
+
+![](/PirlCloud/images/redcrossadd.jpg)
+
+
+then you get this nice popup screen:
+
+![](PirlCloud/images/Create_content_Masternode_Record_in_Poseidon.png)
+
+
+The Name can be anything you’d like.  
+The Masternode Wallet id is the address of your Nautilus wallet, the one which contains 10,000 Pirl at present.  
+And, remember, 
+the Tx hash validation field needs the txid (not block hash, see above!) of the transaction you send to your Poseidon wallet.
+
+**On the bottom of the screenshot above, you will have to select that the MN is Content (10K stake)**
+
+Hit **Save changes** and then you will see the next screen.
+
+![](/PirlCloud/images/one_click_setup.PNG)
+
+
 
 ## One-Click Masternode Setup
 
 Ensure that you know the public static IP address and `root` credentials before proceeding.
 
-Login to Poseidon. On the left menu, choose Masternodes -> My Masternodes. You should see the following:
 
-![](https://cdn-images-1.medium.com/max/1000/1*N2NyFBXJgHqjaPA4nUw8qA.png)
+![](/PirlCloud/images/one_click_setup.PNG)
 
-Click the **One-Click MN Setup** button and complete all fields.
 
-![](https://cdn-images-1.medium.com/max/1000/1*crfDegFUCQo-tCHczi6GHQ.png)
+we go and complete all fields.
+ssh default is port: 22
+Hit **Save changes** and then you will see the next screen.
+content/PirlCloud/images/Done.PNG
+
+![](/PirlCloud/images/Done.PNG)
 
 After returning to the **My Masternodes** screen, observe that the masternode's **Managed by Poseidon** field is set to `True`
 
-![](https://cdn-images-1.medium.com/max/1000/1*wef5d-8ZNtHlQDwX5lAemw.png)
+![](/PirlCloud/images/managed.jpg)
 
 Please allow 30 minutes for the process to complete. You may click the **details** button to monitor the status.
 
@@ -164,9 +214,12 @@ journalctl -f
 ```
 
 Once messages like the following are displayed, your masternode is now synchronized and contributing to the network.
-```
-########  masternode sending proof of activity for block 2051449 please check poseidon.pirl.io for details  #########
-```
+
+
+![](/PirlCloud/images/vps.jpg)
+
+
+
 
 ## Monitoring
 
@@ -175,10 +228,13 @@ We don't encourage active access on the server.  If, however, you wish to check 
 journalctl -f
 ```
 
-Monitor the status of your masternode by checking the Poseidon Masternode Details page. 
-A functioning node should appear as follows, although the version may be different than what is shown in the screen shot below.
+Monitor the status of your masternode by checking the Poseidon Masternode Details page by clicking on the 🔍.   
+A functioning node should appear as follows:
 
-![](https://cdn-images-1.medium.com/max/800/1*PFDEiPPUfl1Q2qzc0YWFlQ.png)
+![](/PirlCloud/images/detailsmn.png)
+
+
+
 
 ---
 Author(s):
