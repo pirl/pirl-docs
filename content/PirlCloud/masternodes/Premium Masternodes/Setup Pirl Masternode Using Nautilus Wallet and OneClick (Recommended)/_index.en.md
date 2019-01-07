@@ -11,7 +11,9 @@ chapter: true
 ## Overview
 
 Running a PIRL masternode requires the use of a Virtual 
-Private Server (VPS) with a static public IP address directly assigned to an interface.
+Private Server (VPS) with a static public IP address directly assigned to an interface.  
+*NAT (address translation) is not supported.*
+
 
 Once you have the funds in place, 
 you send a small 1 PIRL transaction to your Poseidon wallet (your account will come with a wallet) to prove that you control the Nautilus wallet with the 20K PIRL capital for Premium MN.  
@@ -31,7 +33,7 @@ This is as simple as rebooting the server, should it go offline.
 
 ## Prerequisites
 
-* **A VPS with minimum 4GB Total OS RAM minimum (more is recommended), enough storage to run the masternode (Minimum 20GB, Recommended 60GB+), and a Public IP assigned at the network interface**
+* **A VPS with minimum 4GB Total OS RAM minimum (more is recommended), enough storage to run the masternode (Minimum 20GB, Recommended 60GB+), and a static public IP address directly assigned to an interface.  NAT (address translation) is not supported.**
  - The official requirements are: 4GB RAM, 20GB space, 3TB transfer, public IPv4 IP. Once you order your VPS, you will receive its root credentials. The easiest path forward is to only use this VPS for your Pirl Masternode and give Poseidon your root credentials so it can manage and update your VPS.
 * **A Poseidon account on [https://poseidon.pirl.io](https://poseidon.pirl.io)**
  - Navigate over to https://poseidon.pirl.io and register for an account.  Keep in mind that you will be logging in with your username and not email.
