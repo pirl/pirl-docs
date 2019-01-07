@@ -65,11 +65,13 @@ This is as simple as rebooting the server, should it go offline.
 The first step in the masternode setup process is to send a transaction from your Nautilus wallet (you can also use the web wallet here if needed) to your Poseidon wallet located here: https://poseidon.pirl.io/dashboard/accounting/wallet/.  
 This is just like sending Pirl to any other wallet, except in this case it’s your unique Poseidon wallet.  
 What this does is it proves to Poseidon that you control your Nautilus wallet.
+Do not send anymore then 1 or .5 pirl to this address for verfication, this is not the address you will send the 20k pirls to. that comes later.
 
 Navigate over to https://poseidon.pirl.io/ and paste your Nautilus wallet address at the top.  
 This will show all transactions in and out of your Nautilus wallet.  
 The latest outgoing transaction will show that it’s going into the address of your Poseidon wallet.  
 To the very left of the page, the txid (i.e. transaction hash) will be displayed.  
+Or In the nautilus wallet you click once on the sent transaction and you see this Tx-id:
 Take and safe this txid and copy it because you’ll need it later.
 
 **VERY IMPORTANT: There are 2 hashes for every transaction.  
@@ -85,7 +87,7 @@ Use the txid on the left most side of your wallet transaction list on Poseidon**
 ![](https://cdn-images-1.medium.com/max/1600/0*bVaXgKomLeN0mEYQ.png)
 
 
-In nautilus you click once on the sent transaction and you see this Tx-id:
+In the nautilus wallet you click once on the sent transaction and you see this Tx-id:
 
 ![](/PirlCloud/images/txnautilus.png)
 
@@ -103,7 +105,13 @@ Once there, click on the **Watch Contract** button.
 
 ![](https://cdn-images-1.medium.com/max/1600/0*wZbZlfAdjrUuhr53.png)
 
-**Premium MN:** For **Contract Address** fill in `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. The **Contract Name** can be anything you’d like.  
+
+There are two contracts 1 for each type of node,
+the JSON is for all the Masternodes the same
+
+
+**Premium MN:** For **Contract Address** fill in `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. The **Contract Name** contract name for this is premium
+even though it can be anything you’d like.  
 And lastly, the **JSON Interface field** needs to be populated with:
 
 ```
