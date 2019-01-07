@@ -55,7 +55,7 @@ This is as simple as rebooting the server, should it go offline.
  - the password needed to decrypt the UTC file as well as your private key.  
  - You can use your Nautilus created UTC file and password to extract your private key.  
  - You can use your private key instead of the UTC file + Password to access your wallet and withdraw your funds in case of an emergency.
-* **10,001 Pirl available in your wallet for Premium MN**
+* **10,001 Pirl available in your wallet for Content MN**
  - There’s no getting around it, you will need to somehow get ten thousand PIRL into a wallet.
  - And 1 or 0,5 for gas to interact with the contract.
  - You can mine Pirl by using one of the official pools available here: https://pirl.io/en/pools/. 
@@ -141,7 +141,8 @@ Select the newly address Masternode contract and you will see available function
 Under available functions select **Node Registration** and select the wallet containing your 10,000 Pirl for Content MN. 
 Underneath that, fill in  **10,000 Pirl** for Content MN to send the stake to the contract.
 
-![](https://cdn-images-1.medium.com/max/1600/0*eiHNFfmkEcgv5Szo.png)
+![](/PirlCloud/images/10k.png)
+
 
 Once you hit **execute**, fill in your **UTC file password** and make sure you’re providing **at least 121,000 gas** for the transaction.
 
