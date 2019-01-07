@@ -32,10 +32,10 @@ When the masternode is added,
 you go back to your Nautilus wallet and add the masternode contract address in the “contracts” tab.  
 With the masternode contract address in place, 
 you execute the node registration function.  
-At this point  you can utilize the Poseidon 1 click functionality which will automatically setup your server and keep it updated.
+At this point  you can utilize the Poseidon one-click functionality which will automatically setup your server and keep it updated.
 
 This guide uses the one-click-masternode setup feature. 
-This Poseidon feature automatically configures your CentOS7 linux server to be a Pirl Masternode. 
+This Poseidon feature automatically configures your CentOS 7 linux server to be a Pirl Masternode. 
 Updates will be applied automatically. 
 All you have to do is monitor your server to ensure it stays operational. 
 This is as simple as rebooting the server, should it go offline. 
@@ -44,7 +44,7 @@ This is as simple as rebooting the server, should it go offline.
 ## Prerequisites
 
 * **A VPS with minimum 4GB Total OS RAM minimum (more is recommended), enough storage to run the masternode (Minimum 20GB, Recommended 60GB+), and a static public IP address directly assigned to an interface.  NAT (address translation) is not supported.**
- - The official requirements are: 4GB RAM, 20GB space, 3TB transfer, public IPv4 IP. Once you order your VPS, you will receive its root credentials. The easiest path forward is to only use this VPS for your Pirl Masternode and give Poseidon your root credentials so it can manage and update your VPS.
+ - The official MINIMUM requirements are: 4GB RAM, 20GB space, 3TB transfer, public IPv4 IP. Once you order your VPS, you will receive its root credentials. The easiest path forward is to only use this VPS for your Pirl Masternode and give Poseidon your root credentials so it can manage and update your VPS.
 * **A Poseidon account on [https://poseidon.pirl.io](https://poseidon.pirl.io)**
  - Navigate over to https://poseidon.pirl.io and register for an account.  Keep in mind that you will be logging in with your username and not email.
 * **Nautilus wallet**
@@ -227,10 +227,10 @@ A functioning node should appear as follows:
 Author(s):
 
 
-@Dptelecom
+The Pirl Team
 
 
 Contributor(s):
 
 
-
+@Dptelecom
