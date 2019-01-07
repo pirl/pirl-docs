@@ -54,10 +54,11 @@ This is as simple as rebooting the server, should it go offline.
  - You can use your Nautilus created UTC file and password to extract your private key.  
  - You can use your private key instead of the UTC file + Password to access your wallet and withdraw your funds in case of an emergency.
 * **20,001 Pirl available in your wallet for Premium MN**
- - There’s no getting around it, you will need to somehow get twenty thousand PIRL into a wallet. 
+ - There’s no getting around it, you will need to somehow get twenty thousand PIRL into a wallet.
+ - And 1 or 0,5 for gas to interact with the contract.
  - You can mine Pirl by using one of the official pools available here: https://pirl.io/en/pools/. 
  - You can also buy Pirl on one of the Pirl exchanges. I recommend https://www.cryptopia.co.nz/ as a safe and reliable exchange. 
- - There is also the “OTC” (over the counter)
+
 
 ## Poseidon Wallet Identity Verification
 
