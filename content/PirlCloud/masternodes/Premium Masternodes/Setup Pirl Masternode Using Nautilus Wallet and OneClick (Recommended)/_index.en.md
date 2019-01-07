@@ -209,6 +209,11 @@ We don't encourage active access on the server.  If, however, you wish to check 
 ```
 journalctl -f
 ```
+your masternode is contributing to the network if it looks like this:.
+
+
+![](/PirlCloud/images/vps.jpg)
+
 
 Monitor the status of your masternode by checking the Poseidon Masternode Details page by clicking on the 🔍.   
 A functioning node should appear as follows:
