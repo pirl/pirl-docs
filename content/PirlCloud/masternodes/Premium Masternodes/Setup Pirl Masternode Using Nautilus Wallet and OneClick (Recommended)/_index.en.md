@@ -48,7 +48,7 @@ This is as simple as rebooting the server, should it go offline.
 * **A Poseidon account on [https://poseidon.pirl.io](https://poseidon.pirl.io)**
  - Navigate over to https://poseidon.pirl.io and register for an account.  Keep in mind that you will be logging in with your username and not email.
 * **Nautilus wallet**
- - Nautilus is the official desktop wallet for Pirl.  You will need it in order to add and execute “Register Node” from the smart contract needed to run the Pirl masternode.  You can use the desktop wallet to create your Pirl wallet or you can use the web wallet at: https://wallet.pirl.io/.  
+ - Nautilus is the official desktop wallet for Pirl.  You will need it in order to add and execute “Register Node” from the smart contract needed to run the Pirl masternode.  You can use the desktop wallet to create your Pirl wallet [Downloads Nautilus]({{< ref "/Downloads" >}}) or you can use the web wallet at: https://wallet.pirl.io/.  
  - Whichever method you choose to create your wallet, always make sure you save your UTC file, 
  - the password needed to decrypt the UTC file as well as your private key.  
  - You can use your Nautilus created UTC file and password to extract your private key.  
