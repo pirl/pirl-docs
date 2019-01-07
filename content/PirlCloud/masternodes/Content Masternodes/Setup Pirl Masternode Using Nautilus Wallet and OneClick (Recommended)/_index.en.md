@@ -94,21 +94,6 @@ In the nautilus wallet you click once on the sent transaction and you see this T
 ![](/PirlCloud/images/txnautilus.png)
 
 
-
-
-## Create Masternode Record in Poseidon
-
-Login to Poseidon and navigate to the page which adds a masternode located here: https://poseidon.pirl.io/accounts/create-masternodes/
-
-![](https://cdn-images-1.medium.com/max/1600/0*LXUIRuqHwrNd4JBw.png)
-
-The Name can be anything you’d like.  The Wallet id is the address of your Nautilus wallet, 
-the one which contains 10,000 Pirl at present.  
-And remember, 
-the Tx hash validation field needs the txid (not block hash, see above!) of the transaction you send to your Poseidon wallet.
-
-**On the bottom of the screenshot above, you will have to select whether the MN Content (10K stake)**
-
 ## Nautilus Contract Execution
 
 Now that we have the hardest part out of the way, let’s move on Nautilus and adding the Pirl Masternode contract.
