@@ -85,6 +85,11 @@ Use the txid on the left most side of your wallet transaction list on Poseidon**
 ![](https://cdn-images-1.medium.com/max/1600/0*bVaXgKomLeN0mEYQ.png)
 
 
+In nautilus you click once on the sent transaction and you see this Tx-id:
+
+![](/PirlCloud/images/txnautilus.png)
+
+
 
 ## Nautilus Contract Execution
 
