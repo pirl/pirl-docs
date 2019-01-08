@@ -85,6 +85,36 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 <br>
 <br>
 <br>
+
+
+#### Musicoin ($MUSIC)  
+
+
+
+<img src="/Press releases/images/1_K9_5v4faD1vzkFno4NLBrA.png" align="left"><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+[Musicoin website](https://musicoin.org) 
+
+
+### Here is the official announcement
+
+
+
+[Musicoin medium(https://medium.com/@musicoin/defending-music-blockchain-and-its-core-value-47716ee03a18?fbclid=IwAR2m7K8RGPlQfKQ1gAWcTxGOj3HDIoRo43rCsDDtgkPr7F49sedpExLat5M)
+
+
+
+
+
+
  
 #PirlTogetherStrong
 
