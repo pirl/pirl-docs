@@ -1,7 +1,7 @@
 ---
 title: Send Pirl from Ether web wallet
-weight: 7
-pre: "<b>7. </b>"
+weight: 6
+pre: "<b>6. </b>"
 chapter: true
 ---
 ![](https://pirl.live/ipfs/QmbT59H33UqD1VH1sfbbcCcwUnEfXDauSrQPaE3XJkQ7GC)
