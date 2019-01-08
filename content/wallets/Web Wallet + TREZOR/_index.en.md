@@ -1,7 +1,7 @@
 ---
 title: Pirl Web Wallet + Trezor
-weight: 5
-pre: "<b>5. </b>"
+weight: 4
+pre: "<b>4. </b>"
 chapter: true
 ---
 
