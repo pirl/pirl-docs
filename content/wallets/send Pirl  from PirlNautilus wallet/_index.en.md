@@ -1,5 +1,5 @@
 ---
-title: Send one Pirl coin from you PirlNautilus wallet
+title: Send Pirl from Nautilus wallet
 weight: 5
 pre: "<b>5. </b>"
 chapter: true
