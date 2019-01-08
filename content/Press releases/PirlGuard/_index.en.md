@@ -85,6 +85,10 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 <br>
 <br>
 <br>
+
+
+
+
  
 #PirlTogetherStrong
 
