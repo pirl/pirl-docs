@@ -1,7 +1,7 @@
 ---
-title: How To send Pirl from Ether web wallet
-weight: 4
-pre: "<b>4. </b>"
+title: Send Pirl from Ether web wallet
+weight: 6
+pre: "<b>6. </b>"
 chapter: true
 ---
 ![](https://pirl.live/ipfs/QmbT59H33UqD1VH1sfbbcCcwUnEfXDauSrQPaE3XJkQ7GC)
@@ -61,8 +61,10 @@ numnah
 
 ---
 Author(s):
+
+
 @numnah
 
 
 Contributor(s):
-@numnah
+
