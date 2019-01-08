@@ -104,11 +104,12 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 [Musicoin website](https://musicoin.org) 
 
 
-### Here is the official announcement
+### Here is the official announcement from Musicoin:
 
 
+[Musicoin medium](https://medium.com/@musicoin/defending-music-blockchain-and-its-core-value-47716ee03a18?fbclid=IwAR2m7K8RGPlQfKQ1gAWcTxGOj3HDIoRo43rCsDDtgkPr7F49sedpExLat5M)
 
-[Musicoin medium(https://medium.com/@musicoin/defending-music-blockchain-and-its-core-value-47716ee03a18?fbclid=IwAR2m7K8RGPlQfKQ1gAWcTxGOj3HDIoRo43rCsDDtgkPr7F49sedpExLat5M)
+
 
 
 
