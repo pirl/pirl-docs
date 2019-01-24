@@ -14,6 +14,7 @@ chapter: true
 #### 3.) [Command-line-interface]({{< ref "/solidity/command-line-interface" >}})
 #### 4.) [Management-APIs]({{< ref "/solidity/management-api" >}})
 #### 5.) [Smart-ContractsI]({{< ref "/solidity/smart-contracts1" >}})
+#### 6.) [RPC Subscribtions]({{< ref "/solidity/rpc-sub" >}})
 
 
 
