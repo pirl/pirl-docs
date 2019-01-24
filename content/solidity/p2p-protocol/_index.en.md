@@ -1,5 +1,5 @@
 ---
-title: Management APIs
+title: P2P Protocol
 weight: 7
 pre: "<b>7. </b>"
 chapter: true
