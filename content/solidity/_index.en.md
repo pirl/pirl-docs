@@ -16,13 +16,17 @@ chapter: true
 #### 5.) [Smart-ContractsI]({{< ref "/solidity/smart-contracts1" >}})
 #### 6.) [RPC Subscribtions]({{< ref "/solidity/rpc-sub" >}})
 #### 7.) [P2P Protocol]({{< ref "/solidity/p2p-protocol" >}})
+#### 8.) [P2P Protocol]({{< ref "/solidity/install-win" >}})
+#### 9.) [P2P Protocol]({{< ref "/solidity/install-mac" >}})
+#### 10.) [P2P Protocol]({{< ref "/solidity/install-arch" >}})
 
 
 
 
 ---
 Author(s):
-@Fawkes
+
 
 
 Contributor(s):
+@Fawkes
