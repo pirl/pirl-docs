@@ -1,7 +1,7 @@
 ---
 title: test
-weight: 0
-pre: "<b>0. </b>"
+weight: 1
+pre: "<b>1. </b>"
 chapter: true
 ---
 
