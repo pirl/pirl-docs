@@ -16,9 +16,9 @@ chapter: true
 ### PirlApp download:
 
 
-### [Download here the PirlApp for MacOs](https://goo.gl/auazM8 "PirlApp for MacOs").
+### [Download here the PirlApp 1.0.3-2 for MacOs](https://pirl.live/ipfs/QmWytz95fF2P3ggn114X2oHzAaV5YbeSvMp9JNpkNbC924 "PirlApp for MacOs").
 
-### [Download here the PirlApp for Windows](https://goo.gl/Scsie5 "PirlApp for Windows").
+### [Download here the PirlApp 1.0.3-2 for Windows](https://pirl.live/ipfs/QmVGhBHrwqjMC9G2VTAGpdpGxrYdoSKhNTU7Yxp8PyJcKD "PirlApp for Windows").
 
 
 ### PirlWallets:
