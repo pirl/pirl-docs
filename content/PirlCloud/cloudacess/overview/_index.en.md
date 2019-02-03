@@ -1,5 +1,5 @@
 ---
-title: Public storage host/share content
+title: How host/share content
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
