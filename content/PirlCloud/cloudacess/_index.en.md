@@ -13,7 +13,7 @@ Description soon.....
 
 
 
-#### 1.) [Public storage host/share content]({{< ref "/PirlCloud/cloudacess/overview" >}})
+#### 1.) [How host/share content]({{< ref "/PirlCloud/cloudacess/overview" >}})
 #### 2.) 
 #### 3.) 
 
