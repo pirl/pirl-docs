@@ -4,21 +4,13 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-![](/PirlCloud/images/Pirl_IPFSsmall.png)
-
-
-
-
-
-## Public storage overview starting page.
-
 ![](https://pirl.live/ipfs/QmZxeShmMRwJuLmQTFuDTAUeBCauKvmZLJQWtnUhM7MoES)
 
 
 
 
 
-##Introduction
+## Introduction
 
 This Kb article will explain how to host content on PirlCloud. It will also explain how to share your content you have stored in PirlCloud. 
 
