@@ -15,7 +15,7 @@ At any time, you can run two masternode contract functions and retrieve your 10,
 
 **Open Nautilus** and navigate to the **Contract** tab located at the top right corner.
 
-You should see the masternode contract on the left side. I will have the address of `0x6c042141C302C354509d2bff30EEFDEF24dE1047`. Select this address.
+You should see the masternode contract on the left side. It will have the address of `0x6c042141C302C354509d2bff30EEFDEF24dE1047`. Select this address.
 (NOTE: If you don't have a contract showing in the **watch contract** section, you can add it as described in the next section.)
 
 On the right side, the contract function menu will be shown.
