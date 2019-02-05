@@ -1,5 +1,5 @@
 ---
-title: Pirl Node - Installing on Windows
+title: Pirl Node - Installing on Win.
 weight: 8
 pre: "<b>8. </b>"
 chapter: true
