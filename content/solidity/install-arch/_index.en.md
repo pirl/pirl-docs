@@ -1,5 +1,5 @@
 ---
-title: RPC Subscriptions
+title: Installing from source
 weight: 10
 pre: "<b>10. </b>"
 chapter: true
