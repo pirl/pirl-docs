@@ -16,9 +16,9 @@ chapter: true
 #### 5.) [Smart-ContractsI]({{< ref "/solidity/smart-contracts1" >}})
 #### 6.) [RPC Subscribtions]({{< ref "/solidity/rpc-sub" >}})
 #### 7.) [P2P Protocol]({{< ref "/solidity/p2p-protocol" >}})
-#### 8.) [P2P Protocol]({{< ref "/solidity/install-win" >}})
-#### 9.) [P2P Protocol]({{< ref "/solidity/install-mac" >}})
-#### 10.) [P2P Protocol]({{< ref "/solidity/install-arch" >}})
+#### 8.) [Pirl Node - Installing on Windows]({{< ref "/solidity/install-win" >}})
+#### 9.) [Pirl Node - Installing on Mac]({{< ref "/solidity/install-mac" >}})
+#### 10.) [Installing from source]({{< ref "/solidity/install-arch" >}})
 
 
 
