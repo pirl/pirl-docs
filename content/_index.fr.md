@@ -21,7 +21,7 @@ Pirl est une plate-forme blockchain centrée sur la communauté, utilisant un r�
 #### 7.) [Links]({{< ref "/links" >}})
 
 
-content/getting started/_index.fr.md
+
 
 
 ---
