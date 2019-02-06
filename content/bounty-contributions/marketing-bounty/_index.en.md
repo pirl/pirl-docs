@@ -5,6 +5,8 @@ pre: "<b>2. </b>"
 chapter: true
 ---
 
+![](/images_headers/marketing.png)
+
 ## Introduction
 
 ### Bounty Reward - 100 PIRL
