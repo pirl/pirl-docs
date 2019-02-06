@@ -27,7 +27,7 @@ We would like to turn this into a process and reward your contribution!
 
 ### How 
 
-- Make a copy or download the template: 
+- Make a copy or download the [template](https://docs.google.com/document/d/1LVEAML2oLC2eHee72cmlZ1T-yTH56anE6WBncbOd4kw/edit?usp=sharing) 
 
 - Fill In the details of your proposal!
 
