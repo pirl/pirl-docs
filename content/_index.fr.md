@@ -15,13 +15,13 @@ Pirl est une plate-forme blockchain centrée sur la communauté, utilisant un r�
 ### Contenu
 #### [PirlWebsite](https://pirl.io/en/ "PirlWebsite")
 #### [FAQ]({{< ref "/faq" >}})
+#### 1.) [Commencer]({{< ref "/pirl roundtable meeting" >}})
 
-
-#### 6.) [Pirl Roundtable Meeting]({{< ref "/pirl roundtable meeting" >}})
+#### 6.) [Pirl Table ronde]({{< ref "/pirl roundtable meeting" >}})
 #### 7.) [Links]({{< ref "/links" >}})
 
 
-
+content/getting started/_index.fr.md
 
 
 ---
