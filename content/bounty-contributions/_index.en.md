@@ -7,6 +7,8 @@ chapter: true
 
 ![](/images_headers/bounty.png)
 
+
+
  If you are an active part of the Pirl Community and would like to contribute to the project.
 
 
