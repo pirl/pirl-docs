@@ -19,6 +19,6 @@ mettez votre talent à profit, aidez-nous à grandir et à être récompensé!
 #### 2.) [Marketing-Bounty]({{< ref "/bounty-contributions/marketing-bounty" >}})
 
 
-  Pour les questions, veuillez [Rejoindre Discord] (https://discord.gg/3WXkUt9)
+Pour les questions, veuillez [Rejoindre Discord](https://discord.gg/3WXkUt9)
 
-  ! [] (https://pirl.live/ipfs/QmXNSTqEvXohUdLDhcXAApEbZq9uehAW4DY8TbermihLvb)
+![](https://pirl.live/ipfs/QmXNSTqEvXohUdLDhcXAApEbZq9uehAW4DY8TbermihLvb)
