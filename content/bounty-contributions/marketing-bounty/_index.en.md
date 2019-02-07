@@ -31,7 +31,7 @@ We would like to turn this into a process and reward your contribution!
 
 - Fill In the details of your proposal!
 
-- Contact @Fawkes on Discord to submit!
+- Contact @Fawkes on Discord to submit! [Join Discord](https://discord.gg/3WXkUt9)
 
 - Receive your bounty!
 

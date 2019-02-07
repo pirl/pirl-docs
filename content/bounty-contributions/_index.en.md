@@ -17,3 +17,7 @@ chapter: true
 
 #### 1.) [Article-Bounty]({{< ref "/bounty-contributions/article-bounty" >}})
 #### 2.) [Marketing-Bounty]({{< ref "/bounty-contributions/marketing-bounty" >}})
+
+ For Questions, please  [Join Discord](https://discord.gg/3WXkUt9)
+
+ ![](https://pirl.live/ipfs/QmXNSTqEvXohUdLDhcXAApEbZq9uehAW4DY8TbermihLvb)
