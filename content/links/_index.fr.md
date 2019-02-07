@@ -23,7 +23,8 @@ chapter: true
 #### [Pirl on Blockfolio](https://blockfolio.com "Pirl on Blockfolio")
 
 
-### if you want to participate in the future grow and security you can join in with you hash power:
+### Si vous souhaitez participer à la croissance et à la sécurité futures, vous pouvez vous associer à votre pouvoir de hachage:
+
 
 
 ### [PirlTestNetwork Pool](http://testnetpool.pirl.io/#/ "PirlTestNetwork Pool").
