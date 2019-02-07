@@ -7,6 +7,7 @@ chapter: true
 
 ![](/images_headers/marketing.png)
 
+
 ## Introduction
 
 ### Récompense de prime - 100 PIRL
@@ -27,11 +28,11 @@ Nous aimerions transformer cela en un processus et récompenser votre contributi
 
 ### Comment
 
-- Faites une copie ou téléchargez le [modèle] (https://docs.google.com/document/d/1LVEAML2oLC2eHee72cmlZ1T-yTH56anE6WBncbOd4kw/edit?usp=sharing).
+- Faites une copie ou téléchargez le [modèle](https://docs.google.com/document/d/1LVEAML2oLC2eHee72cmlZ1T-yTH56anE6WBncbOd4kw/edit?usp=sharing).
 
 - Remplissez les détails de votre proposition!
 
-- Contactez @Fawkes on Discord à soumettre! [Rejoindre Discord] (https://discord.gg/3WXkUt9)
+- Contactez @Fawkes on Discord à soumettre! [Rejoindre Discord](https://discord.gg/3WXkUt9)
 
 - Recevez votre prime!
 
