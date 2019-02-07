@@ -30,7 +30,7 @@ Nous aimerions récompenser votre contribution à la sensibilisation et à l’�
 
 - Ecrire un article relatif à Pirl
 
-- Contactez @Fawkes on Discord à soumettre! [Rejoindre Discord] (https://discord.gg/3WXkUt9)
+- Contactez @Fawkes on Discord à soumettre! [Rejoindre Discord](https://discord.gg/3WXkUt9)
 
 - Recevez votre prime!
 
