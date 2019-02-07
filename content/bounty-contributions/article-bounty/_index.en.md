@@ -30,7 +30,7 @@ We would like reward your contribution on raising awareness and educating people
 
 - Write an article related to Pirl
 
-- Contact @Fawkes on Discord to submit!
+- Contact @Fawkes on Discord to submit! [Join Discord](https://discord.gg/3WXkUt9)
 
 - Receive your bounty!
 
