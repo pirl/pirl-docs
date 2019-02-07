@@ -10,8 +10,8 @@ chapter: true
  If you are an active part of the Pirl Community and would like to contribute to the project.
 
 
-  We would like to welcome you to our Bounty & Contribution initiatives where you can both
- put your talent to user, help us grow and get rewarded for it!
+We would like to welcome you to our Bounty & Contribution initiatives where you can both
+put your talent to user, help us grow and get rewarded for it!
 
 ### Our currently open Bounty Campaigns:
 
