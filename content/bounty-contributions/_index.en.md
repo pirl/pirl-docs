@@ -21,3 +21,14 @@ chapter: true
  For Questions, please  [Join Discord](https://discord.gg/3WXkUt9)
 
  ![](https://pirl.live/ipfs/QmXNSTqEvXohUdLDhcXAApEbZq9uehAW4DY8TbermihLvb)
+ 
+ 
+ 
+ ---
+Author(s):  
+
+@Fawkes
+
+Contributor(s):  
+
+@Dptelecom
