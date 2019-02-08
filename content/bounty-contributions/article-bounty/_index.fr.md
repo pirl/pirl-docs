@@ -9,21 +9,12 @@ chapter: true
 ## Introduction
 
 
-Récompenses - 100 - 200 PIRL
+Récompenses - 100 - 200 PIRL  
 
-De nombreux talents en écriture se sont manifestés sur les terres de PIRL
-Partage de leurs écrits sur le projet et la technologie associée.
+De nombreux talents en écriture se sont manifestés sur les terres de PIRL  
+Partage de leurs écrits sur le projet et la technologie associée.  
 Nous aimerions récompenser votre contribution à la sensibilisation et à l’éducation des personnes intéressées par Pirl et tout ce qui a un rapport!
 
-
-### Récompense de prime - 100-200 PIRL
-
-
-De nombreux talents en écriture se sont manifestés sur les terres de Pirl.
-
-Partage de leurs écrits sur le projet et la technologie associée.
-
-Nous aimerions récompenser votre contribution à la sensibilisation et à l’éducation des personnes intéressées par Pirl et tout ce qui a un rapport!
 
 ## Exigences
 
