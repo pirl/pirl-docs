@@ -20,7 +20,7 @@ Pirl est une plate-forme blockchain centrée sur la communauté, utilisant un r�
 #### 6.) [Pirl Table ronde]({{< ref "/pirl roundtable meeting" >}})
 #### 7.) [Links]({{< ref "/links" >}})
 
-#### 13.) [Bounty & Contributions]({{< ref "/bounty-contributions" >}})
+#### 13.) [Une prime de contibution]({{< ref "/bounty-contributions" >}})
 
 
 
@@ -32,3 +32,6 @@ Author(s):
 
 
 Contributor(s):
+
+
+@ClaudioPirl
