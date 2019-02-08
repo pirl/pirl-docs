@@ -42,9 +42,11 @@ Détaillez la proposition autant que possible!
 ## Avertissement
 
 Pirl Team à le droit de désapprouver  
-- 1. Propositions avec détails insuffisants
-- 2. Propositions irréalistes
-- 3. Propositions qui ne sont pas soumises dans le format demandé 
+- 1. Propositions avec détails insuffisants  
+- 2. Propositions irréalistes  
+- 3. Propositions qui ne sont pas soumises dans le format demandé  
+
+
 
 
 
