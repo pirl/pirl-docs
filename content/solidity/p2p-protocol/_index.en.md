@@ -161,4 +161,14 @@ func msgHandler(peer *p2p.Peer, ws p2p.MsgReadWriter) error {
 	return nil
 }
 ```
+
+
+---
+Author(s):  
+
+@Fawkes
+
+Contributor(s):  
+
+@Dptelecom
    

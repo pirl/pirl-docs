@@ -172,3 +172,13 @@ COPYRIGHT:
    Copyright 2017-2019 PIRL Sprl
 
 ```
+
+
+---
+Author(s):  
+
+@Fawkes
+
+Contributor(s):  
+
+@Dptelecom

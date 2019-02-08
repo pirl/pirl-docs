@@ -67,3 +67,15 @@ Finally, the command to compile pirl node is:
 ```text
 C:\Users\xxx\src\github.com\pirl\pirl> go install -v ./cmd/...
 ```
+
+
+
+
+---
+Author(s):  
+
+@Fawkes
+
+Contributor(s):  
+
+@Dptelecom

@@ -33,3 +33,14 @@ xcode-select --install
 ```
 
 You can now run `build/bin/Pirl` to start your node.
+
+
+
+---
+Author(s):  
+
+@Fawkes
+
+Contributor(s):  
+
+@Dptelecom
