@@ -43,3 +43,13 @@ Pirl Team has the right to disapprove:
 -  Articles with incorrect information.
 
 -  Articles that do not comply with the requirements.
+
+
+---
+Author(s):  
+
+@Fawkes
+
+Contributor(s):  
+
+@Dptelecom
