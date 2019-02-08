@@ -20,3 +20,16 @@ Nous aimerions vous souhaiter la bienvenue à nos initiatives Bounty & Contribut
 Pour plus de questions, nous vous invitons à [Rejoindre discord](https://discord.gg/3WXkUt9)
 
 ![](https://pirl.live/ipfs/QmXNSTqEvXohUdLDhcXAApEbZq9uehAW4DY8TbermihLvb)
+
+
+---
+Author(s):
+
+
+@dptelecom
+
+
+Contributor():
+
+
+@ClaudioPirl
