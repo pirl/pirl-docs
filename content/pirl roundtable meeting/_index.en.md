@@ -18,7 +18,7 @@ Come to the Round Table where the voice of each community member has the same va
 * Discussing new implementation and innovations for our applications
 * Sharing the testing results and possible outcome for our Beta testing
 * Official announcements and community rewarding
-* Answering QaA
+* Answering Q
 * Sharing our ideas about a future evolvement
 
 For the people and their future; by the people. Join our [Discord channel](https://discord.gg/bBNjgWY) and let's get down to business.
