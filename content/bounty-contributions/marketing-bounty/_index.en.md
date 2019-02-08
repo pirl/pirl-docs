@@ -41,3 +41,15 @@ Pirl Team has the right to disapprove
 - 1. Proposals with Insufficient details 
 - 2. Unrealistic Proposals 
 - 3. Proposals which are not submitted in the requested format
+
+
+
+
+---
+Author(s):  
+
+@Fawkes
+
+Contributor(s):  
+
+@Dptelecom
