@@ -17,7 +17,8 @@ Grâce aux tables rondes que nous organisons tous les samedis après-midi à 11h
 Venez à la table ronde où la voix de chaque membre de la communauté a la même valeur et dites-nous quels sont vos souhaits futurs et vos doutes momentanés. Venez entendre nos commentaires sur votre récente contribution et laissez-nous vous récompenser pour votre travail d'initiative que nous avons tant apprécié et accueilli. 
 Nous sommes impatients de vous y rencontrer.  
 
-### Concentrer:
+### objectif:  
+
 * Discuter de nouvelles implémentations et innovations pour nos applications
 * Partage des résultats des tests et des résultats possibles pour nos tests bêta
 * Annonces officielles et communauté enrichissante
