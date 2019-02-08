@@ -835,3 +835,13 @@ If you want to add someone else's token, just go to the Contracts tab and click 
 
 You just learned how you can use Pirl to issue a token, that can represent anything you want. But what can you do with the tokens? You can use, for instance, the tokens to represent a share in a company or you can use a central committee to vote on when to issue new coins to control inflation. You can also use them to raise money for a cause, via a crowdsale. What will you build next?
 
+
+
+---
+Author(s):  
+
+@Fawkes
+
+Contributor(s):  
+
+@Dptelecom
