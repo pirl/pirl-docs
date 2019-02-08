@@ -8,17 +8,15 @@ chapter: true
 ![](/images_headers/bounty.png)
 
 Si vous êtes un membre actif de la communauté Pirl et souhaitez contribuer au projet.
+Nous aimerions vous souhaiter la bienvenue à nos initiatives Bounty & Contribution où vous pouvez mettre vos talent à profit, aidez-nous à grandir et à récompensé!
 
 
-Nous aimerions vous souhaiter la bienvenue à nos initiatives Bounty & Contribution où vous pouvez à la fois
-mettez votre talent à profit, aidez-nous à grandir et à être récompensé!
-
-### Nos campagnes de primes actuellement ouvertes:
+### NOS CAMPAGNES DE PRIMES ACTUELLEMENT OUVERTES:
 
 #### 1.) [Article-Bounty]({{< ref "/bounty-contributions/article-bounty" >}})
 #### 2.) [Marketing-Bounty]({{< ref "/bounty-contributions/marketing-bounty" >}})
 
 
-Pour les questions, veuillez [Rejoindre Discord](https://discord.gg/3WXkUt9)
+Pour plus de questions, nous vous invitons à [Rejoindre discord](https://discord.gg/3WXkUt9)
 
 ![](https://pirl.live/ipfs/QmXNSTqEvXohUdLDhcXAApEbZq9uehAW4DY8TbermihLvb)
