@@ -18,7 +18,7 @@ So let's start now.
 
 ## Your first citizen: the greeter
 
-The Greeter is an intelligent digital entity that lives on the blockchain and is able to have conversations with anyone who interacts with it, based on its input. It might not be a talker, but it’s a great listener. Here is its code:
+The Greeter is an intelligent digital entity that lives on the blockchain and is able to have conversations with anyone who interacts with it, based on its input. It might not be a talker, but itâ€™s a great listener. Here is its code:
 
 ```js
 contract mortal {
@@ -211,7 +211,7 @@ What is a coin? Coins are much more interesting and useful than they seem, they 
 
 You could do all those things by creating a centralized server, but using an Pirl token contract comes with some free functionalities: for one, it's a decentralized service and tokens can be still exchanged even if the original service goes down for any reason. The code can guarantee that no tokens will ever be created other than the ones set in the original code. Finally, by having each user hold their own token, this eliminates the scenarios where one single server break-in can result in the loss of funds from thousands of clients.
 
-You could create your own token on a different blockchain, but creating on Pirl is easier — so you can focus your energy on the innovation that will make your coin stand out - and it's more secure, as your security is provided by all the miners who are supporting the Pirl network. Finally, by creating your token in Pirl, your coin will be compatible with any other contract running on Pirl.
+You could create your own token on a different blockchain, but creating on Pirl is easier â€” so you can focus your energy on the innovation that will make your coin stand out - and it's more secure, as your security is provided by all the miners who are supporting the Pirl network. Finally, by creating your token in Pirl, your coin will be compatible with any other contract running on Pirl.
 
 ### The Code
 
@@ -248,7 +248,7 @@ In this example we declared the variable "coinBalanceOf" to be public, this will
 
     var tokenCompiled = eth.compile.solidity(tokenSource)
 
-Now let’s set up the contract, just like we did in the previous section. Change the "initial Supply" to the amount of non divisible tokens you want to create. If you want to have divisible units, you should do that on the user frontend but keep them represented in the minimun unit of account. 
+Now letâ€™s set up the contract, just like we did in the previous section. Change the "initial Supply" to the amount of non divisible tokens you want to create. If you want to have divisible units, you should do that on the user frontend but keep them represented in the minimun unit of account. 
 
     var supply = 10000;
     var tokenContract = web3.eth.contract(tokenCompiled.token.info.abiDefinition);
@@ -318,14 +318,14 @@ Right now this cryptocurrency is quite limited as there will only ever be 10,000
       }
     }
 
-You could modify this to anything else: maybe reward someone who finds a solution for a new puzzle, wins a game of chess, install a solar panel—as long as that can be somehow translated to a contract. Or maybe you want to create a central bank for your personal country, so you can keep track of hours worked, favours owed or control of property. In that case you might want to add a function to allow the bank to remotely freeze funds and destroy tokens if needed. 
+You could modify this to anything else: maybe reward someone who finds a solution for a new puzzle, wins a game of chess, install a solar panelâ€”as long as that can be somehow translated to a contract. Or maybe you want to create a central bank for your personal country, so you can keep track of hours worked, favours owed or control of property. In that case you might want to add a function to allow the bank to remotely freeze funds and destroy tokens if needed. 
 
 
 ### Register a name for your coin
 
 The commands mentioned only work because you have token javascript object instantiated on your local machine. If you send tokens to someone they won't be able to move them forward because they don't have the same object and wont know where to look for your contract or call its functions. In fact if you restart your console these objects will be deleted and the contracts you've been working on will be lost forever. So how do you instantiate the contract on a clean machine? 
 
-There are two ways. Let's start with the quick and dirty, providing your friends with a reference to your contract’s ABI:
+There are two ways. Let's start with the quick and dirty, providing your friends with a reference to your contractâ€™s ABI:
 
     token = eth.contract([{constant:false,inputs:[{name:'receiver',type:'address'},{name:'amount',type:'uint256'}],name:'sendCoin',outputs:[{name:'sufficient',type:'bool'}],type:'function'},{constant:true,inputs:[{name:'',type:'address'}],name:'coinBalanceOf',outputs:[{name:'',type:'uint256'}],type:'function'},{inputs:[{name:'supply',type:'uint256'}],type:'constructor'},{anonymous:false,inputs:[{indexed:false,name:'sender',type:'address'},{indexed:false,name:'receiver',type:'address'},{indexed:false,name:'amount',type:'uint256'}],name:'CoinTransfer',type:'event'}]).at('0x4a4ce7844735c4b6fc66392b200ab6fe007cfca8')
 
@@ -863,7 +863,7 @@ Then anyone who owns any of your tokens can vote on the proposals by doing this:
     democracy.vote.sendTransaction(proposalID, position, {from: eth.accounts[0], gas: 1000000});
 
 
-Unless you changed the basic parameters in the code, any proposal will have to be debated for at least a week until it can be executed. After that anyone—even a non-citizen—can demand the votes to be counted and the proposal to be executed. The votes are tallied and weighted at that moment and if the proposal is accepted then the ether is sent immediately and the proposal is archived. If the votes end in a tie or the minimum quorum hasn’t been reached, the voting is kept open until the stalemate is resolved. If it loses, then it's archived and cannot be voted again.
+Unless you changed the basic parameters in the code, any proposal will have to be debated for at least a week until it can be executed. After that anyoneâ€”even a non-citizenâ€”can demand the votes to be counted and the proposal to be executed. The votes are tallied and weighted at that moment and if the proposal is accepted then the ether is sent immediately and the proposal is archived. If the votes end in a tie or the minimum quorum hasnâ€™t been reached, the voting is kept open until the stalemate is resolved. If it loses, then it's archived and cannot be voted again.
 
     var proposalID = 1;
     democracy.executeProposal.sendTransaction(proposalID, {from: eth.accounts[0], gas: 1000000});
@@ -904,3 +904,13 @@ This all means that this tiny society you created could grow, get funding from t
 So what will your contract be? Will it be a country, a company, a non-profit group? What will your code do? 
 
 That's up to you.
+
+
+---
+Author(s):  
+
+@Fawkes
+
+Contributor(s):  
+
+@Dptelecom
