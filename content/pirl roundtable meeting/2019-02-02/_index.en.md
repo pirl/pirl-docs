@@ -13,7 +13,7 @@ chapter: true
 
 PIRL ROUNDTABLE MEETING SUMMARY
 
-Date: December 22, 2018
+Date:  2, 2, 2019
 
 Participants:
 
