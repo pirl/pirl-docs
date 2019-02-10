@@ -1,25 +1,53 @@
 ---
-title: PirlCloud
-weight: 2
-pre: "<b>2. </b>"
+title: Poseidon
+weight: 1
+pre: "<b>1. </b>"
 chapter: true
 ---
-![](/images_headers/cloudpowereddark.png)
+![](/images_headers/Poseidon.png)
 
 
-## The PirlCloud
-
-
-PirlCloud is a decentralized hosting solution that provides public storage and will soon offer encrypted private storage.  
-All utilizing our highly scalable enterprise class monetized masternode network.  
-PirlCloud will also enable decentralized DDoS protected web hosting with the integrated CDN distributed all around the globe.
+## Le tout nouveau Poséidon V2
 
 
 
-#### 1.) [Poseidon]({{< ref "/PirlCloud/poseidon" >}})
-#### 2.) [Masternodes]({{< ref "/PirlCloud/masternodes" >}})
-#### 3.) [Public storage]({{< ref "/PirlCloud/cloudacess" >}})
-#### 4.) [PirlApp]({{< ref "/PirlCloud/pirl app" >}})
+Poséidon est une plate-forme unique tout-en-un,
+avec un seul point d'entrée,
+un utilisateur peut accéder à de nombreuses fonctionnalités uniques de Pirl.
+Poséidon permettra aux utilisateurs d'accéder à:
+ 
+
+• Explorateur de chaînes de blocs
+• Panneau de configuration des masternodes
+• Installation en un seul clic de Masternode
+• Portefeuille Poséidon
+• PirlCloud
+• PirlMarket
+• PirlPay
+• Et plus
+
+  
+
+
+[Poseidon](https://poseidon.pirl.io "Poseidon").
+
+
+[Poseidon Development](https://devexplorer.pirl.io/home "Poseidon Development").
+
+
+#### 1.) [Vue d’ensemble]({{< ref "/PirlCloud/poseidon/overview" >}})
+#### 2.) [Registre]({{< ref "/PirlCloud/poseidon/register" >}})
+#### 3.) [Première connexion et configuration de l'authentification à deux facteurs]({{< ref "/PirlCloud/poseidon/login" >}})
+#### 4.) [Plate-forme unique tout-en-un de poseidon]({{< ref "/PirlCloud/poseidon/unique_platform" >}})
+
+#### 10.) [Poseidon changelog]({{< ref "/PirlCloud/poseidon/changelog" >}})
+
+
+
+
+
+
+
 
 
 
