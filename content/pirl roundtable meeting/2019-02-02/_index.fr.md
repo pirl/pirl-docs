@@ -8,257 +8,162 @@ chapter: true
 ![](/images_headers/round_table.png)
 
 
-## Round Table 02.02.2019
+## Table ronde 02.02.2019
 
 
-PIRL ROUNDTABLE MEETING SUMMARY
+RÉSUMÉ DE LA RÉUNION DE LA TABLE RONDE DE PIRL
 
-Date: December 22, 2018
+Date:  2, 2, 2019
 
 Participants:
 
-- The People
+Les gens
+Programme de la réunion:
 
-Meeting Agenda:
+Transparence totale
 
--  Complete transparency
+L’idée des tables rondes est une communication directe avec la communauté Pirl.
 
--  The idea of the round table meetings is
- direct communication with the Pirl community.
-
-
-Summary:
-
-7:00
+Résumé:
 
 
-Start of meeting banter.
+7h00
 
+Début de la réunion avec plaisanterie.
 
-8:00 Fawkes:
+8h00 Fawkes:
 
+Demande à la communauté des questions. Du côté de Pirl, cela a été une semaine de travail. Pas beaucoup de nouvelles choses à montrer. (Peut être)
 
-Asks community for questions.
-On the Pirl end it has been a week of work. Not many new things to show. (Maybe)
+En ce qui concerne l'échange, nous avons l'approbation du gouvernement. Nous allons nous incorporer avec cette approbation. Nous sommes très proches de la fin de la proposition.
 
+Une fois que nous serons approuvés, nous ferons une autre série d’applications pour les échanges. Une fois que toute la documentation est prête avec le statut juridique, il n’y a aucune raison pour que tout échange ne nous approuve pas. Nous avons un produit et une chaîne de travail.
 
-In terms of the exchange we have the government approval. We will be getting incorporated with this approval. We are very close to the end of the proposal.
+L'incorporation sera bientôt faite
 
-Once we’re approved we will do another round of applications to exchanges. After all the documentation is ready with legal status there is no reason any exchange should not approve of us. We have a product and a working chain.
+12h30 masterdubs:
 
+L’échange actuel à utiliser est Stex.com il est sûr, ne laissez pas votre argent sur les échanges. Nous avons également débloqué des pièces système, soyez prudents avec eux et avec tout autre échange. Gardez votre argent dans votre portefeuille.
 
-Incorporation will be done soon
+15h00 [0x1337]:
 
-12:30 masterdubs:
+PirlGuard est là, il est prêt, il ne nécessite aucun travail. PirlTube sera bientôt hors bêta. PirlCloud et Poséidon retiennent beaucoup l'attention de notre équipe. Il y a beaucoup à faire avec une très petite équipe.
 
+15h45 Fawkes:
 
-The current exchange to use is Stex.com it’s safe, don’t leave your money on the exchanges.
-We also unlocked system coin, be careful with them and any other exchange.
-Keep your money in your wallet.
+Nous nous engageons à getlab, nous nous classons numéro 7 sur 900 projets de cryptographie. Notre équipe de développement est petite. Beaucoup est encore en version bêta. Beaucoup de preuves de concepts sont en cours de construction. PirlTube a eu des mises à niveau massives et sera hors de la version bêta. PirlCloud est une preuve de notre réseau et de ses capacités. Nous vous l'avons donné non pas parce que c'est prêt, mais parce que vous faites partie de la communauté. Donc, nous testons et améliorons cela en tant que communauté. Cela aide à devenir un produit communautaire.
 
+17h30 masterdubs:
 
-
-15:00 [0x1337]:
-
-
-PirlGuard is there, it’s ready it doesn’t need any work.
-PirlTube will be out of beta very soon.
-PirlCloud and Poseidon are getting a lot of attention from our team. There is lots being done with a very small team.  
-
-15:45 Fawkes:
-
-
-We commit to getlab, we rank number 7 out of 900 crypto projects. Our dev team is small.
-Lots is still in beta. Lots of proof of concepts are being built. PirlTube has had some massive upgrades and will be out of beta.
-PirlCloud is a proof of our network and its capability’s. We gave it to you not because it’s ready but because your part of the community. So, we’re testing and making it better and better as a community. This helps it be a community product.
-
-17:30 masterdubs:
-
-
-This is a product for all of us. We get community feedback. We know what we need to improve.
-We’re a small team. We don’t have an ICO and we still develop.
-
+Ceci est un produit pour nous tous. Nous recevons les commentaires de la communauté. Nous savons ce que nous devons améliorer. Nous sommes une petite équipe. Nous n’avons pas d’ICO et nous continuons à nous développer.
 
 19:00 MinerAllen:
 
+Je suis vraiment impressionné par l’équipe Pirl et par ce qui se passe par rapport à certaines autres équipes de crypto sur le marché. Beaucoup échouent à cause du manque de financement. Notre équipe est dédiée à la crypto et ne s'enrichit pas rapidement.
 
-I’m really impressed with the Pirl team and what’s going on compared to some of the other crypto teams out there. Many are failing because of lack of funding. Our team is dedicated to Crypto and not getting rich quick.
+20h00 Fawkes:
 
-
-20:00 Fawkes:
-
-
-We get help from the community, numnah on the Docs and Nicolas on the website and other web development. As well MK with his support.
-
+Nous recevons de l'aide de la communauté, numnah sur les documents et Nicolas sur le site Web et d'autres développements Web. Aussi MK avec son soutien.
 
 20:30 [0x1337]
 
+Nous n’avons pas besoin d’une équipe de 100 hommes et 900 millions par mois. Les choses se font avec Pirl.
 
-We don’t need a 100-man team and 900 million per month. Things are getting done with Pirl.
+21h40 masterdubs:
 
+Si vous voulez dépenser beaucoup d’argent, c’est facile. Même si vous n'en avez pas besoin. L’argent peut aller vite, donc il faut parfois dire non, on ne peut pas faire ça. C’est important de survivre.
 
-21:40 masterdubs:
-
-
-If you want to spend lots of money, it’s easy. Even if you don’t need it. 
-Money can go fast so some time we have to say no we can’t do that. It’s important to survive.
-
-Pirltube has a lag because I haven’t deployed the update. I need to fix some problems. I will update it soon.
-PirlCloud will drive usage you will be able to host your website, your content and your CDN. 
-With that we can reach enterprise level. 
-We will be able to make contracts with them. 
-This will open up PirlPay with the fiat gateway. This will help the mainstream with adoption. 
-We want to reach outside the crypto community.
-
+Pirltube a un décalage car je n’ai pas déployé la mise à jour. J'ai besoin de résoudre certains problèmes. Je vais le mettre à jour bientôt. PirlCloud déterminera l'utilisation que vous ferez pour héberger votre site Web, votre contenu et votre CDN. Avec cela, nous pouvons atteindre des entreprise . Nous pourrons passer des contrats avec eux. Cela ouvrira PirlPay avec la passerelle Fiat. Cela aidera le grand public à adopter. Nous voulons atteindre en dehors de la communauté crypto.
 
 24:45 Phatblinie:
 
+Donc, cela peut être utile. Vous pouvez accéder à un site pour héberger votre site Web sur une chaîne décentralisée avec un back-end IPFS partagé avec des milliers de nœuds. Le fait d'avoir une passerelle fiat transforme les utilisateurs finaux qui ne connaissent rien à la blockchains Pirl en équivalent d'achat de crédit, afin qu'ils puissent commencer à faire ce qu'ils veulent faire sans avoir à s'inscrire sur un échange, acheter Pirl d'une autre manière ou de l'exploiter. Au lieu de cela, utilisez simplement leur carte de crédit.
 
-So, this can be helpful. 
-You can go to a site to host your website on a decentralized chain with an IPFS back end shared with thousands of nodes. 
-Being able to have a fiat gateway right there turns end users that don’t know anything about block chain turns Pirl into the equivalent to buying credit, so they can start doing what they want to do without having to signup on a exchange or buy Pirl some other way or mine it. Instead the just use their credit card.
+25h30 Fawkes:
 
+C'est une manière différente de faire des affaires. Il existe un marché conventionnel énorme pour des produits de ce type, mais pour ce qui est des marchés décentralisés, rien n’est proche du marché conventionnel. C'est une technologie intéressante qui peut être utilisée sur d'autres marchés que la crypto. Nous entrons dans une autre sphère d’affaires. C’est une bonne chose en raison des marchés baissiers, cela aide avec différentes sources de revenus pour  l’entreprise.
 
-25:30 Fawkes:
+26h40 masterdubs:
 
+La licence est une licence pour l'échange. Il peut convertir une crypto en fiat. L'entreprise ouvrira nos portes aux affaires.
 
-This is a different way to do business. There is a huge conventional market for stuff like this but in terms of decentralized markets nothing close to the conventional one. This is an interesting technology that can be used in other markets other than crypto. We’re entering a different business sphere.
-This is good because of the bear markets, this helps with different sources of income for the company.
+27h00 Fawkes:
 
+Plus d'informations seront bientôt disponibles sur une mise à jour de Pirl dans son ensemble, restez à l'écoute. Vous ne pouvez pas avoir le nom des fichiers sur IPFS, mais seulement le hachage. Bientôt, vous aurez un hash dédié où vous pourrez tout mettre. Sinon ce n'est pas possible.
+Un membre de la communauté peut créer un navigateur s'il le souhaite. Il existe des navigateurs opensource.
 
-26:40 masterdubs:
+28h30 Phat:
 
-
-The license is the license for the exchange. It can convert crypto to fiat.
-The company will open our doors for business.
-
-
-27:00 Fawkes:
-
-
-More information will come out soon on an update of Pirl as a whole, stay tuned.
-You can’t have the name of files on IPFS it’s only the Hash. Soon you will have a dedicated hash where you can put everything. Otherwise its not possible.  
-Someone from the community can make a browser if they want.
-There are opensource browsers.
-
-
-28:30 Phat:
-
-
-File extensions get lost in translation. There is a way to fix this problem in the future.
-IPNS is a kind of name server. You will get your own private hash and you will upload the folders.
-
+Les extensions de fichiers se perdent dans la traduction. Il existe un moyen de résoudre ce problème à l'avenir. IPNS est une sorte de serveur de noms. Vous obtiendrez votre propre hachage privé et vous téléchargerez les dossiers.
 
 29:00
 
+Le hachage de fin que vous utilisez aura l’extension de fichier. Cela le rendra meilleur.
 
-The ending hash you use will have the file extension on it. This will make it work a lot better.
-
-
-29:40 masterdubs:
-
-
-The road map is pretty much up to date. The roadmap isn’t fixed it’s always changing. We might update it a little bit.
-
+29:40 master dubs:
+La feuille de route est à peu près à jour. Elle n’est pas fixée, elle est en constante évolution. Nous pourrions la mettre à jour.
 
 31:11 MinerAllen:
 
-
-All the roundtables have been uploaded to PirlTube.  A lot of bugs were fixed this week on PirlTube.
-
+Toutes les tables rondes ont été téléchargées sur PirlTube. Beaucoup de bugs ont été corrigés cette semaine sur PirlTube.
 
 32:00 masterdubs:
 
+Nous avons commencé le codage de l'échange. Voici le premier projet. Il n’ya pas d’ICO, c’est juste que nous codons comme d’habitude. Le nom sera PirlEx.com. Je vais activer la crypto juste pour tester, après les tests, nous activerons la passerelle vers fiat. Cet échange sera le point central de l’API, c’est-à-dire que vous pourrez interagir avec lui, les services de conversion, etc. L'échange est construit à partir de zéro, nous espérons le construire rapidement en tant que f * ck. Notre objectif n’est pas de battre Binance, mais d’être sûr et fiable. Nous voulons créer un environnement convivial. De plus, quand un échange tombe, nous n’avons plus à nous inquiéter.
 
-We have started the exchange coding. Here is the first draft.
-There is no ICO, it’s just us coding as normal. The name will be PirlEx.com. I will enable crypto just to test, after the testing we will enable to the gateway to fiat. This exchange will be the central point with the api, this means you will be able to interact with it, conversion services and so. The exchange is built from scratch, we hope to build it fast as f*ck. Our goal isn’t to beat Binance, our goal is to be secure and to be reliable. We want to make a user-friendly environment. Also, when an exchange goes down we don’t have to worry anymore.
+34:00 Faweks:
 
-
-34:00 Fawkes:
-
-
-Always the case with Pirl, people keep on asking how we plan to beat YouTube with PirlTube? We don’t, the plan is to build a complete ecosystem and complete experience. So, when you are in the Pirl ecosystem you have Pirl to fiat exchange, video sharing platform, messaging systems, PirlCloud, content, blogs with no political censorship. We don’t want to beat anybody like amazon or Youtube. We just want to make a complete ecosystem for the Pirl users.
-
+Toujours le cas avec Pirl, les gens continuent à nous demander comment nous prévoyons de battre YouTube avec PirlTube? Nous ne le faisons pas, le plan est de construire un écosystème complet et une expérience complète. Ainsi, lorsque vous êtes dans l'écosystème  Pirl, vous avez l'échange  Pirl - Fiat, la plateforme de partage de vidéos, les systèmes de messagerie, PirlCloud, de contenu, les blogs sans censure politique. Nous ne voulons battre personne comme amazon ou youtube. Nous voulons simplement créer un écosystème complet pour les utilisateurs de Pirl.
 
 35:15 masterdubs:
 
-
-It will be a hybrid we don’t want to release to much detail. It will be used as an exchange but all Pirl services will revolve around. A bit like Coinbase. There will also be Pirl exchange where you trade and so on. You need both because you need the exchange to get the volume to be able to swap the coin.
-PirlExchange will support other coins. We need to pick some good coins. We don’t plan to put big fees either we don’t care about that, we also don’t want to list all the coins in the world. Other coins will be listed to get more volume.  
-This is a entry and a exit of the eco-system.
-Contributions for the docs are welcome. There is documentation on how to do documentation. Translating documentation is the next step.
-In term of security and our exchange we have Phat and MinerAllen who both have their security. We have a great team.
+Ce sera un hybride que nous ne voulons pas publier avec beaucoup de détails. Il sera utilisé en tant qu’échange, mais tous les services Pirl s’articuleront autour. Un peu comme Coinbase. Il y aura également un échange Pirl où vous négociez et ainsi de suite. Vous avez besoin des deux, car vous avez besoin de l'échange pour obtenir le volume nécessaire pour pouvoir échanger la pièce. PirlExchange prendra en charge d'autres pièces. Nous devons choisir de bonnes pièces. Nous ne prévoyons pas d’imposer de gros frais, nous ne nous soucions pas de cela, nous ne voulons pas non plus lister toutes les pièces du monde. D'autres pièces seront listées pour obtenir plus de volume.
+C'est une entrée et une sortie de l'éco-système. Les contributions pour les docs sont les bienvenues. Il y a de la documentation sur la façon de faire de la documentation. La traduction de la documentation est la prochaine étape. En termes de sécurité et d’échange, nous avons Phat et MinerAllen qui ont tous deux leur sécurité. Nous avons une grande équipe.
 
 
 45:30 Fawkes:
 
-
-There is no unbreakable system. There are good practices in security. There are a lot of people that can help us in and outside the team.
-
+Il n'y a pas de système incassable. Il existe de bonnes pratiques en matière de sécurité. Beaucoup de gens peuvent nous aider à l'intérieur et à l'extérieur de l’équipe.
 
 45:45 masterdubs:
 
-
-About the cold wallet, sometimes I prefer to say you will have you withdraw in 12 hrs people will know it from the start. But I prefer people unhappy and keep them secure rather than have a security breach then nobody is happy.
-
+À propos du portefeuille gelé, je préfère parfois dire que vous allez vous retirer dans 12 heures, les gens le sauront dès le départ. Mais je préfère les gens mécontents et les garder en sécurité plutôt que d'avoir une faille de sécurité, alors personne n'est heureux.
 
 46:00 [0x1337]
 
-
-We were approached by a researcher wanting money to attack our system. He talked about the 51 percent attack then a sybill attack. This attack wont work because of our MasterNode network, ddos is hated. Its very hard with Pirl because of our network.
-PirlGuard secures our network. It can be a platform for other networks. The Cybill attack didn’t work on our network because it’s very healthy and all the MasterNodes.
-Thanks for the attack and then telling us. Thanks for the free test.
-
+Un chercheur nous a demandé de l’argent pour attaquer notre système. Il a parlé de l'attaque de 51%, puis d'une attaque de sybill. Cette attaque ne fonctionnera pas à cause de notre réseau MasterNode, ddos est détesté. C'est très dur avec Pirl à cause de notre réseau. PirlGuard sécurise notre réseau. Ce peut être une plate-forme pour d'autres réseaux. L’attaque de Cybill n’a pas fonctionné sur notre réseau car elle est très saine avec tout les MasterNodes. Merci pour l'attaque et ensuite nous le dire. Merci pour le test gratuit.
 
 51:00 Fawkes:
 
-
-PirlGuard is now on 4 other chains.
-More talk of attacking.
-
+PirlGuard est maintenant sur 4 autres chaînes. Plus parler d’attaquer.
 
 52:00 masterdubs:
 
-
-Even if we have the best product in the world we will still be always updating being active rather than re active.
-
+Même si nous avons le meilleur produit au monde, nous resterons toujours à jour en étant actifs plutôt que réactifs.
 
 53:00 Fawkes:
 
-
-It’s always a race. All that matters is you trust the people behind the technology who handle it. We never want to say something is un hackable. You never know what will happen.
-51 percent attack on us was good as it shows how we can react when we need to.
-
+C'est toujours une course. Tout ce qui compte, c’est de faire confiance aux personnes qui gèrent la technologie derrière la technologie. Nous ne voulons jamais dire que quelque chose est impossible à pirater. Vous ne savez jamais ce qui va arriver. Une attaque  51% contre nous était bonne car cela montre comment nous pouvons réagir lorsque nous en avons besoin.
 
 54:00 [0x1337]
 
-
-Yes, it’s true nothing is un-hackable. With blockchain things are immutable so the goal is to tighten things up. We’ve done this, we will continue to-do this in the future. We have a good start.
-We’re proud of not only PirlGuard but also how many nodes we have and this comes from the Pirl community.
-
+Oui, c’est vrai que rien n’est impossible à pirater. Avec blockchain, les choses sont immuables, le but est donc de les resserrer. Nous avons fait cela, nous continuerons à le faire dans le futur. Nous avons un bon départ. Nous sommes fiers non seulement de PirlGuard, mais aussi du nombre de nœuds que nous avons et cela provient de la communauté Pirl.
 
 55:30 Fawkes:
 
+Presque chaque chaîne est attaquée en ce moment.
 
-Almost every chain is getting attacked right now.
+55h40 MinerAllen:
 
-
-55:40 MinerAllen:
-
-
-I saw this coming a while ago when a company dropped the stats on how much it would cost to 51 percent attack different POW coins.
-
+Je l'ai vu venir il y a quelque temps lorsqu'une entreprise a laissé tomber les statistiques sur le coût d'une attaque  51% des différentes pièces POW
 
 57:00 Fawkes:
 
+On estime à 3 à 5 millions le nombre sur cryptopia. 44% sont bloqués dans des nœuds. 200k Pirl sur stex.
 
-It’s estimated 3-5 million on cryptopia.
-44 percent locked up in nodes.
-200k Pirl on stex.
-
+Plus et moins,
 
 
-Over and out,
 
 Numnah
 
@@ -275,7 +180,7 @@ Author:
 
 Contributor(s):
 
-
-@Dptelecom
+@ClaudioPirl  
+@Dptelecom  
 
 
