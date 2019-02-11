@@ -147,7 +147,7 @@ Phatblinkie: Have you had any other side conversations with the ProgPoW devs?
 Dubs: Yes.  We don't want to implement as-is but improve parts it for our unique needs.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/un5g4eChRBU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://pirl.live/ipns/QmPq5wsJx28EJaGHHxkBzbRgufVK3scJey2oM886iUQ175/#/details/0x741afdbc4f982a12a788ed5b674c7598e769d51e72bc9ebb4cebc81ac57e2876" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ---
