@@ -22,7 +22,8 @@ chapter: true
 
 Running a PIRL masternode requires the use of a Virtual 
 Private Server (VPS) with a static public IP address directly assigned to an interface.  
-*NAT (address translation) is not supported.*
+*NAT (address translation) is not supported.*  
+And only have pirl running on the server, no other nodes or whatever cause it will cause conflict!!
 
 
 Once you have the funds in place, 
@@ -57,7 +58,7 @@ This is as simple as rebooting the server, should it go offline.
  - There’s no getting around it, you will need to somehow get twenty thousand PIRL into a wallet.
  - And 1 or 0,5 for gas to interact with the contract.
  - You can mine Pirl by using one of the official pools available here: https://pirl.io/en/pools/. 
- - You can also buy Pirl on one of the Pirl exchanges. I recommend https://www.cryptopia.co.nz/ as a safe and reliable exchange. 
+ - You can also buy Pirl on one of the Pirl exchanges. I recommend  https://www.stex.com as a safe and reliable exchange. 
 
 
 ## Poseidon Wallet Identity Verification
