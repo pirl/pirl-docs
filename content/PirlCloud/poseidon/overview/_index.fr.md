@@ -1,5 +1,5 @@
 ---
-title: Poseidon overview
+title: Poseidon vue d'ensemble
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
