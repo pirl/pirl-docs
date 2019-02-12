@@ -7,19 +7,19 @@ chapter: true
 ![](/images_headers/Poseidon.png)
 
 
-## Poseidon register page
+## Page de registre Poseidon
 
 
-Right here we go than lets fill in the required fields  for an account registration.
+remplissez les champs requis pour l'enregistrement d'un compte.
 
 
 ![](/PirlCloud/images/registration.jpg)
 
-You wil get a email confirming the account is created
+Vous recevrez un email confirmant la création du compte.
 
 
 
-#### [Next page First Login]({{< ref "/PirlCloud/poseidon/login" >}})
+#### [page suivante première connexionn]({{< ref "/PirlCloud/poseidon/login" >}})
 
 
 ---
@@ -29,5 +29,7 @@ Author(s):
 @Dptelecom
 
 
-Contributor(s):
+Contributor(s):  
+
+@ClaudioPirl
 
