@@ -7,37 +7,37 @@ chapter: true
 ![](/images_headers/Poseidon.png)
 
 
-## Poseidon starting page.
+## Poséidon page de départ.
 
 
-[On the first page of Poseidon](https://poseidon.pirl.io) we see a nice overview of all the running Masternodes,
-And the rewards they are making,
-and an overview about the locations where they are:
+Sur la première page de Poséidon](https://poseidon.pirl.io), nous voyons un bon aperçu de tous les masternodes en cours d’exécution,
+les récompenses qu'ils gagnent
+et un aperçu des lieux où ils se trouvent
 
 
 ![](/PirlCloud/images/Poseidon_overview.jpg)
 
 
-## Poseidon register for an account.
+## Poséidon créer un compte.
 
 
-If you look at the left side of the page you see the option to register for an account,
-or login to your account if you already got one:
+Si vous regardez sur le côté gauche de la page, vous voyez la possibilité de créer un compte,
+ou de vous connecter à votre compte  déjà existant:
 
 
 ![](/PirlCloud/images/Poseidon_left.jpg)
 
 
-## Go ahead to the next page to see how you create an account:
+## Allez à la page suivante pour voir comment créer un compte:
 
 
 [next page Register]({{< ref "/PirlCloud/poseidon/register" >}})
 
 
-## Or ahead to the this page to see how you login the first time to account and setup the Two-factor authentication:
+##Ou rendez-vous sur cette page pour voir comment  vous connecter pour la première fois et pour configurer l'authentification à deux facteurs:
 
 
-[First Login and setup Two-factor authentication]({{< ref "/PirlCloud/poseidon/login" >}})
+[la première fois et pour configurer l'authentification à deux facteurs]({{< ref "/PirlCloud/poseidon/login" >}})
 
 
 
@@ -48,5 +48,7 @@ Author(s):
 @Dptelecom
 
 
-Contributor(s):
+Contributor(s):  
+
+@ClaudioPirl
 
