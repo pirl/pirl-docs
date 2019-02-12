@@ -12,12 +12,14 @@ chapter: true
 ## Masternodes
 
 
-**Premium Masternodes** are the top-tier masternodes in the ecosystem. They provide network security by storing the blockchain data and relaying transaction in the blockchain as well as serving as content and storage masternodes. The premium masternodes will be additionally rewarded with
-% of the fees of Poseidon platform.
+**Premium Masternodes** Les masternodes Premium sont les masternodes de premier plan de l'écosystème.  
+Ils assurent la sécurité du réseau en stockant les données de la blockchains et en relayant les transactions dans la blockchains, tout en servant de masternodes de contenu et de stockage.  
+Les masternodes premium seront en outre récompensés avec % des frais de la plateforme Poséidon.
 
-**Storage Masternodes** will provide digital downloads for the marketplace, and will be used as a backup file server. Further they will be able to privately store data for dApps hosted on the PIRL platform.
+**Storage Masternodes** Les masternodes de stockage fourniront des téléchargements numériques pour le marché et seront utilisés comme serveur de fichiers de sauvegarde.  
+En outre, ils seront en mesure de stocker de manière privée les données d’applications hébergées sur la plate-forme PIRL.  
 
-**Content Masternodes** Will provide file storage for the publicly accessible media and data needed for dApps and the marketplace.
+**Content Masternodes** Les masternodes de contenu fourniront un stockage de fichiers pour les supports et les données accessibles au public nécessaires pour dApps et le marketplace.
 
 #### 1.) [Premium Masternodes]({{< ref "/PirlCloud/masternodes/Premium Masternodes" >}})
 #### 2.) [Content Masternodes]({{< ref "/PirlCloud/masternodes/Content Masternodes" >}})
@@ -26,8 +28,9 @@ chapter: true
 
 
 ---
-Author(s):
+Author(s):  
 @Dptelecom
 
 
-Contributor(s):
+Contributor(s):  
+@ClaudioPirl
