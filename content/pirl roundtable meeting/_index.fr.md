@@ -1,5 +1,5 @@
 ---
-title: Pirl Roundtable Meeting
+title: Pirl la table ronde réunion
 weight: 7
 pre: "<b>6. </b>"
 chapter: true
