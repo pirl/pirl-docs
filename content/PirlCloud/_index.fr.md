@@ -7,12 +7,14 @@ chapter: true
 ![](/images_headers/cloudpowereddark.png)
 
 
-## The PirlCloud
+## Le PirlCloud
 
 
-PirlCloud is a decentralized hosting solution that provides public storage and will soon offer encrypted private storage.  
-All utilizing our highly scalable enterprise class monetized masternode network.  
-PirlCloud will also enable decentralized DDoS protected web hosting with the integrated CDN distributed all around the globe.
+PirlCloud est une solution d'hébergement décentralisée qui fournit un stockage public et proposera bientôt un stockage privé crypté.
+
+Le tout utilisant notre réseau hautement évolutif de masternodes rémunérées de classe entreprise.
+PirlCloud va également permettre l’hébergement Web protégé DDoS décentralisé avec le CDN intégré distribué dans le monde entier.
+
 
 
 
@@ -30,4 +32,7 @@ Author(s):
 @Dptelecom
 
 
-Contributor(s):
+Contributor(s):  
+
+@ClaudioPirl
+
