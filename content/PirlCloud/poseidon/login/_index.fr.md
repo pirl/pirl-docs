@@ -1,5 +1,5 @@
 ---
-title: Poseidon first login and 2FA
+title: Poséidon première connexion
 weight: 3
 pre: "<b>3. </b>"
 chapter: true
@@ -7,34 +7,34 @@ chapter: true
 ![](/images_headers/Poseidon.png)
 
 
-## [Poseidon first login](https://poseidon.pirl.io)
+## [Poséidon première connexion](https://poseidon.pirl.io)
 
 
-Nice we have the account created now we are going for the first time login,
-we have a few steps to follow to complete our account
-fill in your credentials and push the next button:
+Bien que nous ayons le compte créé maintenant, nous allons pour la première fois nous connecter, 
+nous avons quelques étapes à suivre pour compléter notre compte, 
+remplissez vos identifiants et appuyez sur le bouton suivant:
 
 ![](/PirlCloud/images/poseidon_login.jpg)
 
 
-Next page you get the notification to enable two-factor authentication:
-click next and we can continue 
+La page suivante, vous recevez la notification pour activer l’authentification à deux facteurs: 
+cliquez sur Suivant pour continuer.
 
 ![](/PirlCloud/images/twofactor.jpg)
 
 
-At this page you have to make a decision which kind of two-factor authentication you prefer,
-either you chose to use: 
+Sur cette page, vous devez choisir le type d'authentification à deux facteurs que vous préférez.  
+SOIT:
 
 
 1) Google Authenticator  
 * [Play store for Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)  
 * [App Store for Iphone](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)  
 
-2) sms notification  
+2) notification sms  
 
-After you made you choise you push next  
-below  i show both options
+Après avoir choisi une des deux authentifications,  
+appuyez sur Next 
 
 
 1) the Google Authenticator:
@@ -43,39 +43,40 @@ below  i show both options
 ![](/PirlCloud/images/2fac_chose.jpg)
 
 
-Chose the first option and push the next button,
-you will get this page:
+Choisissez la première option et appuyez sur le bouton suivant,  
+vous obtiendrez cette page:  
 
 
 ![](/PirlCloud/images/qrcode.jpg)
 
 
-Scan the QR code with the Google Authenticator app,
-and in the app you will see Poseidon added like this:
+Scannez le QR code avec l'application Google Authenticator.  
+Dans l'application, vous verrez Poseidon ajouté comme ceci:
 
 
 ![](/PirlCloud/images/mobile.jpeg)
 
-Fill in the code to confirm the Google Authenticator setup.
+Entrez le code pour confirmer la configuration de Google Authenticator.
 
 
 ![](/PirlCloud/images/confirm.jpg)
 
 
-And now you the next time you want to login you must use the token after you fill in your credentials.
+Et maintenant la prochaine fois que vous voulez vous connecter,  
+vous devez utiliser le jeton après avoir rempli vos informations d’identification.
 
 
 ![](/PirlCloud/images/logincred.jpg)
 ![](/PirlCloud/images/logintoken.jpg)
 
 
-2) sms notification  
+2) notification sms  
 
 
 ![](/PirlCloud/images/optionsms.jpg)
 
 
-And now you fil in your phone number:
+Et maintenant vous remplissez votre numéro de téléphone:  
 
 
 
@@ -83,7 +84,7 @@ And now you fil in your phone number:
 ![](/PirlCloud/images/phonenumber.jpg)
 
 
-Press next and you should have received an sms  with an Token,  
+Appuyez Next et vous devriez avoir reçu un SMS avec un jeton,  
 
 
 
@@ -91,20 +92,21 @@ Press next and you should have received an sms  with an Token,
 ![](/PirlCloud/images/sms.jpeg)
 
 
-this token you fill in here:
+remplissez ici le jeton reçu:
 
 
 ![](/PirlCloud/images/2fa_sms6.jpg)
 
 
-and then,  
-Welcome all done and setup:
+et ensuite,
+Bienvenue dans la  configuration:  
+
 
 
 ![](/PirlCloud/images/2fa_sms7.jpg)
 
 
-#### [Next page Poseidon unique all-in-one platform]({{< ref "/PirlCloud/poseidon/unique_platform" >}})
+#### [Page suivante, plate-forme unique tout-en-un de poseidon]({{< ref "/PirlCloud/poseidon/unique_platform" >}})
 
 
 ---
@@ -114,5 +116,8 @@ Author(s):
 @Dptelecom
 
 
-Contributor(s):
+Contributor(s):  
+
+@ClaudioPirl
+
 
