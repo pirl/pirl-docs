@@ -1,5 +1,5 @@
 ---
-title: Poseidon Changelog
+title: Poseidon changements notables
 weight: 10
 pre: "<b>10. </b>"
 chapter: true
@@ -7,7 +7,7 @@ chapter: true
 ![](/images_headers/Poseidon.png)
 
 
-## All notable changes to this unique all-in-one platform will be documented in this file.
+## Tous les changements notables apportés à cette plate-forme unique tout-en-un seront documentés dans ce fichier.
 
 
 
@@ -15,27 +15,30 @@ chapter: true
 
 
 
-## Added  
-
-- 2FA ( google + sms )  
-- password reset  
-- login / logout / subscribe  
-- masternode detail view ( stats of report and payments + latest blocks )  
-- accounting ( with pending )  
-- list of last 30 days  
-- total pending money  
-- export masternodes payments as csv  
-- poseidon check when user add a one-click, I check the connection, if it's CentOS and if it's more or equal to version 7  
-- validator check if it's a correct tx if it's a correct address and if that's correct it check that this tx was sended to poseidon it check if it's a content or premium masternode ( for user point of view )  
-- error handling on masternode creation  
-- wallet ( withdraw )  
-- user can restart one-click  
+## Ajoutée  
 
 
-## Changed  
+- 2FA (google + sms)  
+- réinitialiser le mot de passe  
+- connexion / déconnexion / abonnement  
+- vue détaillée du masternode (statistiques du rapport et des paiements + derniers blocs)  
+- comptabilité (avec en attente)  
+- liste des 30 derniers jours  
+- argent total en attente  
+- Exporter les masternodes paiements en csv  
+- poseidon vérifier lorsque l’utilisateur ajoute en un clic, je vérifie la connexion, s’il s’agit de CentOS et si il est supérieur ou égal à la version 7  
+- le validateur vérifie s’il s’agit d’un bon envoi ,si il s’agit d’une adresse correcte ,si cet envoi a été envoyé à poseidon et vérifie si il s’agit d’un masternode de contenu ou premium (du point de vue de l'utilisateur)  
+- traitement des erreurs lors de la création de masternodes  
+- portefeuille (retirer)   
+- l'utilisateur peut redémarrer en un clic  
 
 
-- DISABLE old login url / reset / ( accounts/login ) and set account/login as default  
+
+## Modifié  
+
+
+- DESACTIVER l'ancienne URL de connexion / réinitialiser / (comptes / connexion) et définir le compte / la connexion par défaut  
+
 
 
 ## Removed  
@@ -57,3 +60,4 @@ Contributor():
 
 
 @dptelecom 
+@ClaudioPirl  
