@@ -1,5 +1,5 @@
 ---
-title: Unique all-in-one platform
+title: propre plate-forme unique
 weight: 4
 pre: "<b>4. </b>"
 chapter: true
@@ -7,18 +7,20 @@ chapter: true
 ![](/images_headers/Poseidon.png)
 
 
-## Welcome user on your own Poseidon unique all-in-one platform,    
-Here can you gain access to many of your Pirl unique features and capabilities.  
-here we will guide you trhough these features:  
+## Bienvenue utilisateur sur votre propre plate-forme unique tout-en-un Poseidon,    
+Ici, vous pourrez accéder à de nombreuses fonctionnalités Pirl.
+nous allons vous guider à travers celles-ci:  
+  
 
-• Blockchain Explorer  
-• Masternodes Control Panel  
-• 1-click Masternode installation  
-• Poseidon Wallet   
-• PirlCloud  
-• PirlMarket  
-• PirlPay   
-• And More  
+• Explorateur Blockchains 
+• Panneau de configuration des masternodes
+• Installation en un seul clic de Masternode
+• Portefeuille Poséidon
+• PirlCloud
+• PirlMarket
+• PirlPay
+• Et plus
+ 
 
 ![](/PirlCloud/images/poseidon_login.jpg)
 
@@ -40,5 +42,7 @@ Author(s):
 @Dptelecom
 
 
-Contributor(s):
+Contributor(s):  
+
+@ClaudioPirl
 
