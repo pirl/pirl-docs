@@ -139,7 +139,7 @@ Or Fat rabbit can upload a videos for us. Who wants FatRabbit to upload videos f
 
 Bye bye guys.
 
-<iframe width="560" height="315" src="https://pirl.live/ipns/QmPq5wsJx28EJaGHHxkBzbRgufVK3scJey2oM886iUQ175/#/details/0xe88f373079844a0daaa6aaa08657e4075b19240ad00faf4d18e54dec21656320" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://share.pirltube.com/content/video/0xe88f373079844a0daaa6aaa08657e4075b19240ad00faf4d18e54dec21656320" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
