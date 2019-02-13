@@ -35,7 +35,7 @@ Have a nice week.
 Sincerely Mickey
 
 
-<iframe width="560" height="315" src="https://pirl.live/ipns/QmPq5wsJx28EJaGHHxkBzbRgufVK3scJey2oM886iUQ175/#/details/0xe6a707ba6fd2b7a7e2afc07d9c559bcd1ee940ab328c72ed106116a7d88288eb" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://share.pirltube.com/content/video/0xe6a707ba6fd2b7a7e2afc07d9c559bcd1ee940ab328c72ed106116a7d88288eb" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
