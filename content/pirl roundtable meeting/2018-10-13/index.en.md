@@ -51,7 +51,7 @@ Dubs said that he was good at Counterstrike 15 years back. Socal is a hard worke
 Sincerely, Mickey
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QVUGjd8_HuE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://share.pirltube.com/content/video/0x963bbf3642cc0fe3a1b02386341ad4ed18373dfd7740a6033290fd9f0d56989f" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
