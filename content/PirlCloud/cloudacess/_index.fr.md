@@ -1,5 +1,5 @@
 ---
-title: Public storage
+title: Stockage public
 weight: 3
 pre: "<b>3. </b>"
 chapter: true
@@ -7,13 +7,14 @@ chapter: true
 ![](/PirlCloud/images/Pirl_IPFSsmall.png)
 
 
-## Public storage.
+## Stockage public.
 
-Description soon.....
+Description bientôt .....
 
 
 
-#### 1.) [How host/share content]({{< ref "/PirlCloud/cloudacess/overview" >}})
+
+#### 1.) [[Comment héberger / partager le contenu]({{< ref "/PirlCloud/cloudacess/overview" >}})
 #### 2.) 
 #### 3.) 
 
