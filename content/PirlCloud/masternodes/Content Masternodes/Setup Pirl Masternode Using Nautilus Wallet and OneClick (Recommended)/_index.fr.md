@@ -130,78 +130,103 @@ En dessous, remplissez  **10,000 Pirl** pour Content MN afin d’envoyer la mise
 ![](/PirlCloud/images/10k.png)
 
 
-Once you hit **execute**, fill in your **UTC file password** and make sure you’re providing **at least 121,000 gas** for the transaction.
+Une fois que vous avez  **exécuté**, entrez le mot de passe de votre **fichier UTC** et assurez-vous que vous fournissez **au moins 121 000 GAZ** pour la transaction.   
 
-This is a good time to get some coffee or tea and let everything sync.  3-5 minutes should do the trick.
-
-## Create/Launch CentOS Linux server
-
-Verify that the server meets the appropriate specifications as noted in the [Pirl Masternode Setup Tutorial](https://pirl.io/blog/1-pirl-masternode-setup-tutorial)
-
-The server must run the CentOS 7 Linux distribution if you plan to use the **One-Click Masternode Setup**.
-
-Record of the static public IP address of the server as well as the root password. 
-We do recommend logging into that server once to ensure the `root` credentials work. 
-It is not necessary to take any other actions on the server after that. 
-In fact, it's preferred that you don't make any other adjustments, at all.
+C'est un bon moment pour prendre un café ou un thé et laisser tout se synchroniser.  3-5 minutes devraient faire l’affaire.  
 
 
+## Créer / lancer un serveur Linux CentOS  
 
 
-## Create Masternode in Poseidon
+Vérifiez que le serveur répond aux spécifications appropriées indiquées dans  [Pirl Masternode Setup Tutorial](https://pirl.io/blog/1-pirl-masternode-setup-tutorial)
 
-Login to Poseidon and navigate to the page which adds a masternode located here:   
+si vous envisagez d’utiliser la configuration  **masternode en un clic**.  
+Le serveur doit exécuter la distribution Linux CentOS 7.  
+
+Enregistrement de l'adresse IP publique statique du serveur ainsi que du mot de passe root.  
+Nous vous recommandons de vous connecter une fois sur ce serveur pour vous assurer que les informations d’identification Root fonctionnent.  
+Il n'est pas nécessaire de faire d'autres actions sur le serveur après cela.  
+En fait, il est préférable de ne faire aucun autre ajustement.  
+
+
+## Créer un masternode sur Poseidon  
+
+Connectez-vous à Poseidon et accédez à la page qui ajoute un masternode situé ici:  
 https://poseidon.pirl.io/dashboard/masternodes/  
-and hit the:  
+et appuyez sur le:   
 
 ![](/PirlCloud/images/redcrossadd.jpg)
 
 
-then you get this nice popup screen:
+Une fois que vous avez  **exécuté**, entrez le mot de passe de votre **fichier UTC** et assurez-vous que vous fournissez **au moins 121 000 GAZ** pour la transaction.   
+
+C'est un bon moment pour prendre un café ou un thé et laisser tout se synchroniser.  3-5 minutes devraient faire l’affaire.  
+
+
+## Créer / lancer un serveur Linux CentOS  
+
+
+Vérifiez que le serveur répond aux spécifications appropriées indiquées dans  [Pirl Masternode Setup Tutorial](https://pirl.io/blog/1-pirl-masternode-setup-tutorial)
+
+si vous envisagez d’utiliser la configuration  **masternode en un clic**.  
+Le serveur doit exécuter la distribution Linux CentOS 7.  
+
+Enregistrement de l'adresse IP publique statique du serveur ainsi que du mot de passe root.  
+Nous vous recommandons de vous connecter une fois sur ce serveur pour vous assurer que les informations d’identification Root fonctionnent.  
+Il n'est pas nécessaire de faire d'autres actions sur le serveur après cela.  
+En fait, il est préférable de ne faire aucun autre ajustement.  
+
+
+## Créer un masternode sur Poseidon  
+
+Connectez-vous à Poseidon et accédez à la page qui ajoute un masternode situé ici:  
+https://poseidon.pirl.io/dashboard/masternodes/  
+
+et appuyez sur le:  
 
 ![](/PirlCloud/images/Create_content_Masternode_Record_in_Poseidon.png)
 
 
-The Name can be anything you’d like.  
-The Masternode Wallet id is the address of your Nautilus wallet, the one which contains 10,000 Pirl at present.  
-And, remember, 
-the Tx hash validation field needs the txid (not block hash, see above!) of the transaction you send to your Poseidon wallet.
+Le nom peut être ce que vous voulez.  
+Le numéro de portefeuille Masternode est l'adresse de votre portefeuille Nautilus, celui qui contient actuellement 10,000 Pirl Et rappelez-vous,  
+le champ de validation du hachage Tx a besoin du txid (pas du hachage de bloc voir ci-dessus!)  
+De la transaction que vous envoyez à votre portefeuille Poseidon.  
 
-**On the bottom of the screenshot above, you will have to select that the MN is Content (10K stake)**
+**Au bas de la capture d'écran ci-dessus, vous devrez sélectionner le MN comme Content (10K stake)**
 
-Hit **Save changes** and then you will see the next screen.
-
-![](/PirlCloud/images/one_click_setup.PNG)
-
-
-
-## One-Click Masternode Setup
-
-Ensure that you know the public static IP address and `root` credentials before proceeding.
-
+Appuyez **sur Enregistrer les modifications** pour afficher l'écran suivant.  
 
 ![](/PirlCloud/images/one_click_setup.PNG)
 
 
-we go and complete all fields.
-ssh default is port: 22
-Hit **Save changes** and then you will see the next screen.
-content/PirlCloud/images/Done.PNG
+
+## Configuration du masternode en un clic
+
+Assurez-vous de connaître l'adresse IP statique publique et les informations d'identification Root avant de poursuivre.  
+
+
+![](/PirlCloud/images/one_click_setup.PNG)
+
+
+nous allons compléter tous les champs.  
+ssh par défaut est le port: 22 Appuyez sur Enregistrer les modifications,  
+puis l'écran suivant s'affichera  
 
 ![](/PirlCloud/images/Done.PNG)
 
-After returning to the **My Masternodes** screen, observe that the masternode's **Managed by Poseidon** field is set to `True`
+Après être revenu à l'écran **My masternodes**, observez que le champ **Géré par Poseidon du masternode** est défini sur `True`  
 
 ![](/PirlCloud/images/managed.jpg)
 
-Please allow 30 minutes for the process to complete. You may click the **details** button to monitor the status.
+Veuillez prévoir 30 minutes pour que le processus se termine. Vous pouvez cliquer sur le bouton **Détails** pour surveiller le statut.  
 
-Watch the masternode process synchronize with the blockchain:
+Regardez le processus de masternode se synchroniser avec la blockchain:  
+
 ```
 journalctl -f
 ```
 
-Once messages like the following are displayed, your masternode is now synchronized and contributing to the network.
+Une fois que les messages suivants sont affichés, votre masternode est maintenant synchronisé et contribue au réseau.  
 
 
 ![](/PirlCloud/images/vps.jpg)
@@ -209,21 +234,20 @@ Once messages like the following are displayed, your masternode is now synchroni
 
 
 
-## Monitoring
+## Surveillance  
 
-We don't encourage active access on the server.  If, however, you wish to check the status, log into your server and issue the following command:
+Nous n’encourageons pas l’accès actif sur le serveur. Si, toutefois, vous souhaitez vérifier l'état, connectez-vous à votre serveur et exécutez la commande suivante:  
 ```
 journalctl -f
 ```
-
-your masternode is contributing to the network if it looks like this:.
+votre masternode contribue au réseau s'il ressemble à ceci:
 
 
 ![](/PirlCloud/images/vps.jpg)
 
 
-Monitor the status of your masternode by checking the Poseidon Masternode Details page by clicking on the 🔍.   
-A functioning node should appear as follows:
+Surveillez l’état de votre masternode en consultant la page Détails du masternode Poseidon en cliquant sur le bouton.  
+Un nœud en fonctionnement devrait apparaître de la façon suivante:  
 
 ![](/PirlCloud/images/detailsmn.png)
 
@@ -239,4 +263,5 @@ The Pirl Team
 Contributor(s):
 
 
-@Dptelecom
+@Dptelecom  
+@ClaudioPirl  
