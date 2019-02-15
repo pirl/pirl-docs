@@ -1,5 +1,5 @@
 ---
-title: How host/share content
+title: héberger du contenu
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
@@ -10,16 +10,18 @@ chapter: true
 
 
 
-## Introduction
+## introduction  
 
-This Kb article will explain how to host content on PirlCloud. It will also explain how to share your content you have stored in PirlCloud. 
+Cet article de Kb expliquera comment héberger du contenu sur PirlCloud.  
+Il vous expliquera également comment partager le contenu que vous avez stocké dans PirlCloud.  
 
-To access PirlCloud you will need a Poseidon account.
+Pour accéder à PirlCloud, vous devez disposer d'un compte Poseidon.  
+
 
 
 ![](https://pirl.live/ipfs/QmRVN8YRgXqHReg7Ns2645ZZDzUtopJK4YfuHAZD3PmhB8)
 
-1. Go to Poseidon.pirl.io
+1. Allez sur poseidon.pirl.io
 
 
 
@@ -29,19 +31,19 @@ To access PirlCloud you will need a Poseidon account.
 
 ![](https://pirl.live/ipfs/QmTTzzHtv8coyDbCqC9YLGm1HyPra2XMU4S1D4ahujTFvy)
 
-1. Log into Poseidon. (make sure you use your username)
-2. Password. Click next. 
+1. Connectez-vous à Poseidon. (assurez-vous d'utiliser votre nom d'utilisateur)
+2. Mot de passe. Cliquez sur Suivant.  
 
 ![](https://pirl.live/ipfs/QmNUrJ5Pz662kSLAzJXz1cJZ9j8H1JqxXCW5WikXrtRbNJ)
 
-1. Enter your 2Fa code 
-2. Next
+1. Entrez votre code 2A  
+2. Suivant  
 
 ![](https://pirl.live/ipfs/QmVG1rUMK1L5nnNGeWJJ7CNXiLu5kz4ATLeJapJRPAfZiw)
 
-1. Drag and drop any files into this space. 
-2. Once the files are uploaded they will appear in MY STORAGE
-3. Every file will be given HASH address. This address can be shared.
+1. Glissez et déposez tous les fichiers dans cet espace.   
+2. Une fois les fichiers téléchargés, ils apparaîtront dans MY STORAGE  
+3. Chaque fichier recevra l'adresse HASH. Cette adresse peut être partagée.  
 
 
 
@@ -61,11 +63,13 @@ To access PirlCloud you will need a Poseidon account.
 
 
 ---
-Author(s):
+Author(s):  
 
 
 @numnah
 
 
-Contributor(s):
+Contributor(s):  
+
+@dptelecom  
 
