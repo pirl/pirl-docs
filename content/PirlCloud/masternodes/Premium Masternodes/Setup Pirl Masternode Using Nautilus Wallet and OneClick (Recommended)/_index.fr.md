@@ -6,15 +6,14 @@ chapter: true
 ---
 ![](/images_headers/Masternodes.png)
 
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Poseidon Wallet Identity Verification](#poseidon-wallet-identity-verification)
-- [Nautilus Contract Execution](#nautilus-contract-execution)
-- [Create/Launch CentOS Linux server](#create-launch-centos-linux-server)
-- [Create Masternode in Poseidon](#create-masternode-in-poseidon)
-- [One-Click Masternode Setup](#one-click-masternode-setup)
-- [Monitoring](#monitoring)
-
+- [Vue d’ensemble](#vue-d-ensemble)
+- [Conditions préalables](#conditions-pr-alables)
+- [Vérification d'identité de portefeuille Poseidon](#v-rification-d-identit--de-portefeuille-poseidon)
+- [Exécution du contrat Nautilus](#ex-cution-du-contrat-nautilus)
+- [Créer / lancer un serveur Linux CentOS](#cr-er---lancer-un-serveur-linux-centos)
+- [Créer un masternode sur Poseidon](#cr-er-un-masternode-sur-poseidon)
+- [Configuration du masternode en un clic](#configuration-du-masternode-en-un-clic)
+- [Surveillance](#surveillance)  
 
 
 
@@ -134,16 +133,18 @@ Une fois que vous avez  **exécuté**, entrez le mot de passe de votre **fichier
 C'est un bon moment pour prendre un café ou un thé et laisser tout se synchroniser.  3-5 minutes devraient faire l’affaire.  
 
 
-## Create/Launch CentOS Linux server
+## Créer / lancer un serveur Linux CentOS  
 
-Verify that the server meets the appropriate specifications as noted in the [Pirl Masternode Setup Tutorial](https://pirl.io/blog/1-pirl-masternode-setup-tutorial)
 
-The server must run the CentOS 7 Linux distribution if you plan to use the **One-Click Masternode Setup**.
+Vérifiez que le serveur répond aux spécifications appropriées indiquées dans  [Pirl Masternode Setup Tutorial](https://pirl.io/blog/1-pirl-masternode-setup-tutorial)
 
-Record of the static public IP address of the server as well as the root password. 
-We do recommend logging into that server once to ensure the `root` credentials work. 
-It is not necessary to take any other actions on the server after that. 
-In fact, it's preferred that you don't make any other adjustments, at all.
+si vous envisagez d’utiliser la configuration  **masternode en un clic**.  
+Le serveur doit exécuter la distribution Linux CentOS 7.  
+
+Enregistrement de l'adresse IP publique statique du serveur ainsi que du mot de passe root.  
+Nous vous recommandons de vous connecter une fois sur ce serveur pour vous assurer que les informations d’identification Root fonctionnent.  
+Il n'est pas nécessaire de faire d'autres actions sur le serveur après cela.  
+En fait, il est préférable de ne faire aucun autre ajustement.  
 
 
 ## Créer un masternode sur Poseidon  
@@ -212,20 +213,21 @@ Une fois que les messages suivants sont affichés, votre masternode est maintena
 
 
 
-## Monitoring
+## Surveillance  
 
-We don't encourage active access on the server.  If, however, you wish to check the status, log into your server and issue the following command:
+Nous n’encourageons pas l’accès actif sur le serveur. Si, toutefois, vous souhaitez vérifier l'état, connectez-vous à votre serveur et exécutez la commande suivante:  
 ```
 journalctl -f
 ```
-your masternode is contributing to the network if it looks like this:.
+votre masternode contribue au réseau s'il ressemble à ceci:  
 
 
 ![](/PirlCloud/images/vps.jpg)
 
 
-Monitor the status of your masternode by checking the Poseidon Masternode Details page by clicking on the 🔍.   
-A functioning node should appear as follows:
+Surveillez l’état de votre masternode en consultant la page Détails du masternode Poseidon en cliquant sur le bouton.  
+Un nœud en fonctionnement devrait apparaître de la façon suivante:  
+
 
 ![](/PirlCloud/images/detailsmn.png)
 
@@ -242,4 +244,5 @@ The Pirl Team
 Contributor(s):
 
 
-@Dptelecom
+@Dptelecom  
+@ClaudioPirl
