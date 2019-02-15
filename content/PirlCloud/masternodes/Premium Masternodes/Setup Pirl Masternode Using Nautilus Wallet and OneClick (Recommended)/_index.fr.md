@@ -102,7 +102,7 @@ Maintenant nous avons la partie la plus difficile à résoudre, passons à Nauti
 
 ![](https://cdn-images-1.medium.com/max/1600/0*OW_7W9P_u0k7ZdmZ.png)
 
-Une fois là-bas, cliquez sur le bouton **Watch Contract**.
+Une fois là-bas, cliquez sur le bouton **Watch Contract**.  
 
 ![](https://cdn-images-1.medium.com/max/1600/0*wZbZlfAdjrUuhr53.png)
 
@@ -111,7 +111,8 @@ Il existe deux contrats 1 pour chaque type de noeud,
 le JSON est identique pour tous les Masternodes
 
 
-**Premium MN:** pour **l'adresse du contrat** renseignez `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. Le **nom du contrat** pour ce nom est premium même s'il peut être ce que vous voulez.
+**Premium MN:** pour **l'adresse du contrat** renseignez `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. 
+Le **nom du contrat** pour ce nom est premium même s'il peut être ce que vous voulez.
 Enfin,  
 **le champ Interface JSON** doit être renseigné avec:  
 
