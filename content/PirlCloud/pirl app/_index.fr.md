@@ -7,7 +7,7 @@ chapter: true
 ![](/images_headers/pirlapp.png)
 
 
-PirlApp Portal is the user dashboard where PIRL Services are accessible.
+PirlApp Portal est le tableau de bord de l'utilisateur où les services PIRL sont accessibles
 
 
 ![](/PirlCloud/pirl app/images/pirlapp17.jpg)
@@ -15,7 +15,7 @@ PirlApp Portal is the user dashboard where PIRL Services are accessible.
 
 
 ---
-Author(s):
+Author(s):  
 @Dptelecom
 
 
