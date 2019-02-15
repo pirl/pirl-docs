@@ -1,5 +1,5 @@
 ---
-title: PirlApp windows install
+title: PirlApp windows installer
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
@@ -7,9 +7,9 @@ chapter: true
 ![](/images_headers/pirlapp.png)
 
 
-## Overview.
+## Vue d'ensemble.  
 
-This guide will explain how to download, setup and register your:
+Ce guide explique comment télécharger, configurer et enregistrer l’application:  
 
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/pirlapp21.jpg)
 
