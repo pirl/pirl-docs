@@ -1,5 +1,5 @@
 ---
-title: Storage Masternodes
+title: Les masternodes de stockage 
 weight: 3
 pre: "<b>3. </b>"
 chapter: true
@@ -10,13 +10,13 @@ chapter: true
 ![](/PirlCloud/masternodes/images/masternodes.jpg)
 
 
-**Storage Masternodes** will provide digital downloads for the marketplace, and will be used as a backup file server. Further they will be able to privately store data for dApps hosted on the PIRL platform.
-
+**Les masternodes de stockage** fourniront des téléchargements numériques pour le marketplace et seront utilisés comme serveur de fichiers de sauvegarde.  
+En outre, ils seront en mesure de stocker de manière privée les données d’applications hébergées sur la plate-forme PIRL.
 
 
 
 ---
-Author(s):
+Author(s):  
 @Dptelecom
 
 
