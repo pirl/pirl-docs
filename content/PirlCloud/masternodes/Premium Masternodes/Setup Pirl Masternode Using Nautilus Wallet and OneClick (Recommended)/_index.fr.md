@@ -51,11 +51,11 @@ C’est aussi simple que de redémarrer le serveur, si celui-ci est déconnecté
  - le mot de passe nécessaire pour décrypter le fichier UTC ainsi que votre clé privée.   
  - Vous pouvez utiliser votre fichier UTC et votre mot de passe créés par Nautilus pour extraire votre clé privée.  
  - YVous pouvez utiliser votre clé privée au lieu du fichier UTC + Mot de passe pour accéder à votre portefeuille et retirer vos fonds en cas d’urgence.  
-* **20,001 Pirl available in your wallet for Premium MN**
- - There’s no getting around it, you will need to somehow get twenty thousand PIRL into a wallet.
- - And 1 or 0,5 for gas to interact with the contract.
- - You can mine Pirl by using one of the official pools available here: https://pirl.io/en/pools/. 
- - You can also buy Pirl on one of the Pirl exchanges. I recommend https://www.cryptopia.co.nz/ as a safe and reliable exchange. 
+* **20 001 Pirl disponibles dans votre portefeuille pour Premium MN**
+ - Il n’y a aucun moyen de s’en sortir, vous devrez d’une manière ou d’une autre placer vingt mille PIRL dans un portefeuille.  
+ - 1 ou 0,5 pour que le gaz interagisse avec le contrat.  
+ - Vous pouvez exploiter Pirl en utilisant l’un des pools officiels disponibles ici: https://pirl.io/en/pools/.  
+ - Vous pouvez également acheter Pirl sur l'un des échanges Pirl. Je recommande https://www.stex.com comme échange sûr et fiable. 
 
 
 ## Poseidon Wallet Identity Verification
