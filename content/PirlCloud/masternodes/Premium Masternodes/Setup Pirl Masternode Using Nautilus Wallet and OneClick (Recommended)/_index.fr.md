@@ -58,34 +58,38 @@ C’est aussi simple que de redémarrer le serveur, si celui-ci est déconnecté
  - Vous pouvez également acheter Pirl sur l'un des échanges Pirl. Je recommande https://www.stex.com comme échange sûr et fiable. 
 
 
-## Poseidon Wallet Identity Verification
+## Vérification d'identité de portefeuille Poseidon  
 
-The first step in the masternode setup process is to send a transaction from your Nautilus wallet (you can also use the web wallet here if needed) to your Poseidon wallet located here: https://poseidon.pirl.io/dashboard/accounting/wallet/.  
+La première étape du processus de configuration du masternode consiste à envoyer une transaction de votre portefeuille Nautilus (vous pouvez également utiliser le portefeuille Web ici si nécessaire) vers votre portefeuille Poseidon situé ici:  https://poseidon.pirl.io/dashboard/accounting/wallet/.  
 This is just like sending Pirl to any other wallet, except in this case it’s your unique Poseidon wallet.  
-What this does is it proves to Poseidon that you control your Nautilus wallet.
-Do not send anymore then 1 or .5 pirl to this address for verfication, this is not the address you will send the 20k pirls to. that comes later.
+C’est comme si vous envoyez Pirl dans n’importe quel autre portefeuille, sauf que c’est votre unique portefeuille Poseidon.  
+Cela prouve à Poseidon que vous contrôlez votre portefeuille Nautilus.  
+N'envoyez plus 1 ou .5 pirl à cette adresse pour vérification, ce n'est pas l'adresse à laquelle vous enverrez les 20 000 pirls.  
+cela vient plus tard.
 
-Navigate over to https://poseidon.pirl.io/ and paste your Nautilus wallet address at the top.  
-This will show all transactions in and out of your Nautilus wallet.  
-The latest outgoing transaction will show that it’s going into the address of your Poseidon wallet.  
-To the very left of the page, the txid (i.e. transaction hash) will be displayed.  
-Or In the nautilus wallet you click once on the sent transaction and you see this Tx-id:
-Take and safe this txid and copy it because you’ll need it later.
 
-**VERY IMPORTANT: There are 2 hashes for every transaction.  
-There is the transaction hash (txid) and the block hash.  
-You need to use the transaction hash (txid) for the masternode setup process to work.  
-There’s a very easy way to know which one is the txid.  
-The txid is on the left side of the general transaction list of your wallet.  
-Once you click on the txid itself, you will see the block hash displayed.  
-o not use the block hash.  
-Use the txid on the left most side of your wallet transaction list on Poseidon**
+Accédez à https://poseidon.pirl.io/ et collez votre adresse  portefeuille Nautilus en haut.  
+Ceci affichera toutes les transactions entrant et sortant de votre portefeuille Nautilus.  
+La dernière transaction sortante montrera qu’elle se connecte à l’adresse de votre portefeuille Poseidon.  
+Tout à gauche de la page, le txid (c'est-à-dire le hachage de transaction) sera affiché.  
+Ou Dans le portefeuille Nautilus, vous cliquez une fois sur la transaction envoyée et vous voyez ce Tx-id:  
+Prenez et sécurisez ce txid et copiez-le, car vous en aurez besoin plus tard.
+
+
+**TRES IMPORTANT: Il y a 2 hashes pour chaque transaction.  
+Il y a le hash de transaction (txid) et le hash de bloc.  
+Vous devez utiliser le hachage de transaction (txid) pour que le processus de configuration du masternode fonctionne.  
+Il existe un moyen très simple de savoir lequel est le txid.  
+Le txid se trouve à gauche de la liste des transactions générales de votre portefeuille.  
+Une fois que vous avez cliqué sur le txid lui-même, vous verrez le bloc hachage affiché.  
+Ne pas utiliser le hash du bloc.  
+Utilisez le txid situé du côté gauche de la liste des transactions de votre portefeuille sur Poseidon.**  
 
 ![](https://cdn-images-1.medium.com/max/1600/0*1LTQiVdFomhRei6u.png)
 ![](https://cdn-images-1.medium.com/max/1600/0*bVaXgKomLeN0mEYQ.png)
 
 
-In the nautilus wallet you click once on the sent transaction and you see this Tx-id:
+Dans le portefeuille Nautilus, vous cliquez une fois sur la transaction envoyée et vous voyez ce Tx-id:
 
 ![](/PirlCloud/images/txnautilus.png)
 
