@@ -39,18 +39,18 @@ Tout ce que vous avez à faire est de surveiller votre serveur pour s’assurer 
 C’est aussi simple que de redémarrer le serveur, si celui-ci est déconnecté
 
 
-## Prerequisites
+## Conditions préalables
 
-* **A VPS with minimum 4GB Total OS RAM minimum (more is recommended), enough storage to run the masternode (Minimum 20GB, Recommended 60GB+), and a static public IP address directly assigned to an interface.  NAT (address translation) is not supported.**
- - The official MINIMUM requirements are: 4GB RAM, 20GB space, 3TB transfer, public IPv4 IP. Once you order your VPS, you will receive its root credentials. The easiest path forward is to only use this VPS for your Pirl Masternode and give Poseidon your root credentials so it can manage and update your VPS.
-* **A Poseidon account on [https://poseidon.pirl.io](https://poseidon.pirl.io)**
- - Navigate over to https://poseidon.pirl.io and register for an account.  Keep in mind that you will be logging in with your username and not email.
-* **Nautilus wallet**
- - Nautilus is the official desktop wallet for Pirl.  You will need it in order to add and execute “Register Node” from the smart contract needed to run the Pirl masternode.  You can use the desktop wallet to create your Pirl wallet [Downloads Nautilus]({{< ref "/Downloads" >}}) or you can use the web wallet at: https://wallet.pirl.io/.  
- - Whichever method you choose to create your wallet, always make sure you save your UTC file, 
- - the password needed to decrypt the UTC file as well as your private key.  
- - You can use your Nautilus created UTC file and password to extract your private key.  
- - You can use your private key instead of the UTC file + Password to access your wallet and withdraw your funds in case of an emergency.
+* **Un VPS avec au moins 4 Go de mémoire RAM totale du système d'exploitation minimum (plus est recommandé), suffisamment de mémoire pour exécuter le masternode (minimum 20 Go, recommandé 60 Go +) et une adresse IP publique statique assignée directement à une interface. NAT (traduction d'adresse) n'est pas pris en charge.**
+ - Les exigences officielles MINIMUM sont: 4 GB de RAM, 20 GB d’espace, 3 TB de transfert, IPv4 IP public. Une fois que vous commandez votre VPS, vous recevrez ces informations d'identification Root. Le chemin le plus simple consiste à utiliser ce VPS uniquement pour votre Pirl Masternode et donner à Poseidon vos informations d'identification Root afin qu'il puisse gérer et mettre à jour votre VPS.  
+* **Un compte Poseidon sur  [https://poseidon.pirl.io](https://poseidon.pirl.io)**  
+ - Accédez à https://poseidon.pirl.io et créer un compte. Garder à l'esprit que vous vous connecterez avec votre nom d'utilisateur et non par email.  
+* **Portefeuille Nautilus**  
+ - Nautilus est le portefeuille de bureau officiel de Pirl. Vous en aurez besoin pour ajouter et exécuter «Register Node» à partir du contrat intelligent requis pour exécuter le masternode Pirl. Vous pouvez utiliser le portefeuille de bureau pour créer votre portefeuille Pirl [Downloads Nautilus]({{< ref "/Downloads" >}}) ou vous pouvez utiliser le portefeuille Web à l'adresse: https://wallet.pirl.io/.  
+ - Quelle que soit la méthode choisie pour créer votre portefeuille, veillez toujours à enregistrer votre fichier UTC.  
+ - le mot de passe nécessaire pour décrypter le fichier UTC ainsi que votre clé privée.   
+ - Vous pouvez utiliser votre fichier UTC et votre mot de passe créés par Nautilus pour extraire votre clé privée.  
+ - YVous pouvez utiliser votre clé privée au lieu du fichier UTC + Mot de passe pour accéder à votre portefeuille et retirer vos fonds en cas d’urgence.  
 * **20,001 Pirl available in your wallet for Premium MN**
  - There’s no getting around it, you will need to somehow get twenty thousand PIRL into a wallet.
  - And 1 or 0,5 for gas to interact with the contract.
