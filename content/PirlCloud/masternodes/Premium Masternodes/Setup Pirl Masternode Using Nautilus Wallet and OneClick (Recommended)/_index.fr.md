@@ -146,61 +146,65 @@ It is not necessary to take any other actions on the server after that.
 In fact, it's preferred that you don't make any other adjustments, at all.
 
 
-## Create Masternode in Poseidon
+## Créer un masternode sur Poseidon  
 
-Login to Poseidon and navigate to the page which adds a masternode located here:   
+Connectez-vous à Poseidon et accédez à la page qui ajoute un masternode situé ici:  
 https://poseidon.pirl.io/dashboard/masternodes/  
-and hit the:  
+et appuyez sur le:  
+ 
 
 ![](/PirlCloud/images/redcrossadd.jpg)
 
 
-then you get this nice popup screen:
+alors vous obtenez ce joli écran:  
 
 ![](/PirlCloud/images/Create_Masternode_Record_in_Poseidon.PNG)
 
 
-The Name can be anything you’d like.  
-The Masternode Wallet id is the address of your Nautilus wallet, the one which contains 20,000 Pirl at present.  
-And, remember, 
-the Tx hash validation field needs the txid (not block hash, see above!) of the transaction you send to your Poseidon wallet.
-
-**On the bottom of the screenshot above, you will have to select that the MN is Premium (20K stake)**
-
-Hit **Save changes** and then you will see the next screen.
-
-![](/PirlCloud/images/one_click_setup.PNG)
+Le nom peut être ce que vous voulez.  
+Le numéro de portefeuille Masternode est l'adresse de votre portefeuille Nautilus, celui qui contient actuellement 20 000 Pirl.  
+Et rappelez-vous,  
+le champ de validation du hachage Tx a besoin du txid (pas du hachage de bloc voir ci-dessus!)  
+De la transaction que vous envoyez à votre portefeuille Poseidon.  
 
 
+**Au bas de la capture d'écran ci-dessus, vous devrez sélectionner le MN comme Premium (20K stake)**  
 
-
-## One-Click Masternode Setup
-
-Ensure that you know the public static IP address and `root` credentials before proceeding.
-
+Appuyez **sur Enregistrer les modifications** pour afficher l'écran suivant.  
 
 ![](/PirlCloud/images/one_click_setup.PNG)
 
 
-we go and complete all fields.
-ssh default is port: 22
-Hit **Save changes** and then you will see the next screen.
-content/PirlCloud/images/Done.PNG
+
+
+## Configuration du masternode en un clic
+
+Assurez-vous de connaître l'adresse IP statique publique et les informations d'identification Root avant de poursuivre.  
+
+
+![](/PirlCloud/images/one_click_setup.PNG)
+
+
+nous allons compléter tous les champs.  
+ssh par défaut est le port: 22 Appuyez sur Enregistrer les modifications,  
+puis l'écran suivant s'affichera  
 
 ![](/PirlCloud/images/Done.PNG)
 
-After returning to the **My Masternodes** screen, observe that the masternode's **Managed by Poseidon** field is set to `True`
+
+Après être revenu à l'écran **My masternodes**, observez que le champ **Géré par Poseidon du masternode** est défini sur `True`  
 
 ![](/PirlCloud/images/managed.jpg)
 
-Please allow 30 minutes for the process to complete. You may click the **details** button to monitor the status.
+Veuillez prévoir 30 minutes pour que le processus se termine. Vous pouvez cliquer sur le bouton **Détails** pour surveiller le statut.  
 
-Watch the masternode process synchronize with the blockchain:
+Regardez le processus de masternode se synchroniser avec la blockchain:  
+
 ```
 journalctl -f
 ```
 
-Once messages like the following are displayed, your masternode is now synchronized and contributing to the network.
+Une fois que les messages suivants sont affichés, votre masternode est maintenant synchronisé et contribue au réseau.  
 
 
 ![](/PirlCloud/images/vps.jpg)
