@@ -13,14 +13,14 @@ Ce guide explique comment télécharger, configurer et enregistrer l’applicati
 
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/pirlapp21.jpg)
 
-## Prerequisites.
+## Conditions préalables.  
 
-For granting the success of this operation, you will need these requirements:
+Pour réussir cette opération, vous aurez besoin de ces conditions:  
 
-* Internet connection
-* Download here the PirlApp for Windows [Downloads]({{< ref "/Downloads" >}})
-* Download here the PirlApp for MAC [Downloads]({{< ref "/Downloads" >}})
-* At least 0,25 PIRL (we will be sending 0,2 as an activation fee, required as a gas) at your [Nautilus](https://pirl.io/en/nautilus-wallet/) wallet, or any other wallet of your choice, even a wallet from exchange like [Cryptopia](https://www.cryptopia.co.nz).
+* connexion Internet  
+* Téléchargez ici les téléchargements de PirlApp pour Windows [Downloads]({{< ref "/Downloads" >}})
+* Téléchargez ici les téléchargements de PirlApp pour MAC [Downloads]({{< ref "/Downloads" >}})
+* Au moins 0,25 PIRL (frais d'activation, requis sous forme de gaz) sur votre portefeuille Nautilus ou dans tout autre portefeuille de votre choix,[Nautilus](https://pirl.io/en/nautilus-wallet/)  même un portefeuille d'échange comme STEX. [Stex](https://www.stex.com).
 
 ## Action!
 
