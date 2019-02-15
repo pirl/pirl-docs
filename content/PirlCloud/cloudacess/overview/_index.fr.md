@@ -1,12 +1,10 @@
 ---
-title: héberger du contenu
+title: Comment héberger/partager le contenu
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
 ![](https://pirl.live/ipfs/QmZxeShmMRwJuLmQTFuDTAUeBCauKvmZLJQWtnUhM7MoES)
-
-
 
 
 
