@@ -24,21 +24,21 @@ Pour réussir cette opération, vous aurez besoin de ces conditions:
 
 ## Action!
 
-* GO to the location where you just downloaded installation package for PirlApp
-* Unzip/Extract downloaded package to your desired destination
+* Allez à l'emplacement où vous venez de télécharger le package d'installation pour PirlApp
+* Décompressez / extrayez le paquet téléchargé vers la destination souhaitée
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/unziped.PNG)
-* Take a look into downloaded unzipped folder and Search for PirApp.exe
+* Jetez un coup d'œil au dossier décompressé téléchargé et rechercher PirApp.exe
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/pirpAppInFile.PNG)
-* Create your account right on the first screen by writing down your Password
+* Créez votre compte directement sur le premier écran en écrivant votre mot de passe
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/writeDownYOurPasswprd.PNG)
-* Confirm password by rewriting him once more time and hit Create button
-* And Green Rectangle with an Key icon will pop up above an area where did you just put your password. Nice. This is your nameless Account
+* Confirmez le mot de passe en le réécrivant une fois de plus et cliquez sur le bouton Créer.
+* un rectangle vert avec une icône de clé apparaîtra au-dessus d'une zone où vous venez de mettre votre mot de passe. Super. Ceci est votre compte sans nom
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/JdemetoPojmenovat.JPG)
-* Click on the created account (don't click on create button again) and fill down your Account name (For example "IamKing" or "Mickey") and sign down by typing your Password again
+* Cliquez sur le compte créé (ne cliquez pas à nouveau sur le bouton Créer) et renseignez votre nom de compte (par exemple, «IamKing» ou «Mickey») et connectez-vous en saisissant votre mot de passe à nouveau.
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/creation_on_Accoun_name_+_password__hit_register.PNG)
-* If you write everything correctly, your account will be registered by your account name, but a red warning label will pop up in the lower section of your screen. Don't worry, its ok. This error only lets you know that you have no funds in your app and you are low on gas, which is a need for successful running
+* Si vous écrivez tout correctement, votre compte sera enregistré sous votre nom de compte, mais une étiquette d'avertissement rouge apparaîtra dans la partie inférieure de votre écran. Ne vous inquiétez pas, c’est OK. Cette erreur vous permet uniquement de savoir que votre application ne dispose pas de fonds et que vous manquez de GAZ, ce qui est nécessaire pour une exécution réussie
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/Low_gas_error_will_pop_out.PNG)
-* Click on the Copy Address button right next to your created account or  highlight it with Left mouse slide and use CTRL+C
+* Cliquez sur le bouton Copier l'adresse juste à côté du compte créé ou mettez-le en surbrillance avec le curseur de la souris gauche et utilisez CTRL + C
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/copyAdress.JPG)
 * Go into your Nautilus wallet (or any wallet you have some Pirl loaded in) and do a "registration" micro transaction
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/nautilusPlocha.JPG)
