@@ -1,5 +1,5 @@
 ---
-title: Setup Content Masternode
+title: Installation Content Masternode
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
@@ -7,114 +7,115 @@ chapter: true
 ![](/images_headers/Masternodes.png)
 
 
-
-- [Overview](#overview)
-- [Prerequisites](#prerequisites)
-- [Poseidon Wallet Identity Verification](#poseidon-wallet-identity-verification)
-- [Nautilus Contract Execution](#nautilus-contract-execution)
-- [Create/Launch CentOS Linux server](#create-launch-centos-linux-server)
-- [Create Masternode in Poseidon](#create-masternode-in-poseidon)
-- [One-Click Masternode Setup](#one-click-masternode-setup)
-- [Monitoring](#monitoring)
-
+- [Vue d’ensemble](#vue-d-ensemble)
+- [Conditions préalables](#conditions-pr-alables)
+- [Vérification d'identité de portefeuille Poseidon](#v-rification-d-identit--de-portefeuille-poseidon)
+- [Exécution du contrat Nautilus](#ex-cution-du-contrat-nautilus)
+- [Créer / lancer un serveur Linux CentOS](#cr-er---lancer-un-serveur-linux-centos)
+- [Créer un masternode sur Poseidon](#cr-er-un-masternode-sur-poseidon)
+- [Configuration du masternode en un clic](#configuration-du-masternode-en-un-clic)
+- [Surveillance](#surveillance)  
 
 
 
-## Overview
+## Vue d’ensemble
 
-Running a PIRL masternode requires the use of a Virtual 
-Private Server (VPS) with a static public IP address directly assigned to an interface.  
-*NAT (address translation) is not supported.*
-
-
-Once you have the funds in place, 
-you send a small 1 PIRL transaction to your Poseidon wallet (your account will come with a wallet) to prove that you control the Nautilus wallet with the 10K PIRL capital for Content MN.  
-You use the txid from the 1 PIRL transaction as part of the masternode setup, along with your Nautilus address. 
-When the masternode is added, 
-you go back to your Nautilus wallet and add the masternode contract address in the “contracts” tab.  
-With the masternode contract address in place, 
-you execute the node registration function.  
-At this point  you can utilize the Poseidon one-click functionality which will automatically setup your server and keep it updated.
-
-This guide uses the one-click-masternode setup feature. 
-This Poseidon feature automatically configures your CentOS 7 linux server to be a Pirl Masternode. 
-Updates will be applied automatically. 
-All you have to do is monitor your server to ensure it stays operational. 
-This is as simple as rebooting the server, should it go offline. 
+L'exécution d'un nœud  masternode PIRL nécessite l'utilisation d'un serveur privé virtuel (VPS) avec une adresse IP publique statique directement affectée à une interface.  
+*NAT (traduction d'adresse) n'est pas pris en charge*
 
 
-## Prerequisites
-
-* **A VPS with minimum 4GB Total OS RAM minimum (more is recommended), enough storage to run the masternode (Minimum 20GB, Recommended 60GB+), and a static public IP address directly assigned to an interface.  NAT (address translation) is not supported.**
- - The official MINIMUM requirements are: 4GB RAM, 20GB space, 3TB transfer, public IPv4 IP. Once you order your VPS, you will receive its root credentials. The easiest path forward is to only use this VPS for your Pirl Masternode and give Poseidon your root credentials so it can manage and update your VPS.
-* **A Poseidon account on [https://poseidon.pirl.io](https://poseidon.pirl.io)**
- - Navigate over to https://poseidon.pirl.io and register for an account.  Keep in mind that you will be logging in with your username and not email.
-* **Nautilus wallet**
- - Nautilus is the official desktop wallet for Pirl.  You will need it in order to add and execute “Register Node” from the smart contract needed to run the Pirl masternode.  You can use the desktop wallet to create your Pirl wallet [Downloads Nautilus]({{< ref "/Downloads" >}}) or you can use the web wallet at: https://wallet.pirl.io/.  
- - Whichever method you choose to create your wallet, always make sure you save your UTC file, 
- - the password needed to decrypt the UTC file as well as your private key.  
- - You can use your Nautilus created UTC file and password to extract your private key.  
- - You can use your private key instead of the UTC file + Password to access your wallet and withdraw your funds in case of an emergency.
-* **10,001 Pirl available in your wallet for Content MN**
- - There’s no getting around it, you will need to somehow get ten thousand PIRL into a wallet.
- - And 1 or 0,5 for gas to interact with the contract.
- - You can mine Pirl by using one of the official pools available here: https://pirl.io/en/pools/. 
- - You can also buy Pirl on one of the Pirl exchanges. I recommend https://www.cryptopia.co.nz/ as a safe and reliable exchange. 
+Avoir seulement pirl en cours d'exécution sur le serveur, pas d'autres nœuds ou quoi que ce soit, cela causerait un conflit !!  
+Une fois les fonds en place, vous envoyez une petite transaction 1 PIRL sur votre portefeuille Poseidon (votre compte sera accompagné d’un portefeuille) pour prouver que vous contrôlez le portefeuille Nautilus avec le capital de 10K PIRL pour Premium MN.  
+Vous utilisez l'identifiant txid de la transaction 1 PIRL dans la configuration du masternode, avec votre adresse Nautilus.  
+Lorsque le masternode est ajouté, vous retournez dans votre portefeuille Nautilus et ajoutez l'adresse du contrat du masternode dans l'onglet «contrats».  
+Avec l'adresse de contrat masternode en place, vous exécutez la fonction d'enregistrement de nœud.  
+À ce stade, vous pouvez utiliser la fonctionnalité One-Click de Poseidon pour configurer automatiquement votre serveur et le maintenir à jour.  
 
 
-## Poseidon Wallet Identity Verification
+Ce guide utilise la fonction de configuration en un seul clic.  
+Cette fonction Poseidon configure automatiquement votre serveur linux CentOS 7 pour qu’il soit un Masternode Pirl.  
+Les mises à jour seront appliquées automatiquement.  
+Tout ce que vous avez à faire est de surveiller votre serveur pour s’assurer qu’il reste opérationnel.  
+C’est aussi simple que de redémarrer le serveur, si celui-ci est déconnecté
 
-The first step in the masternode setup process is to send a transaction from your Nautilus wallet (you can also use the web wallet here if needed) to your Poseidon wallet located here: https://poseidon.pirl.io/dashboard/accounting/wallet/.  
+## Conditions préalables
+
+* **Un VPS avec au moins 4 Go de mémoire RAM totale du système d'exploitation minimum (plus est recommandé), suffisamment de mémoire pour exécuter le masternode (minimum 20 Go, recommandé 60 Go +) et une adresse IP publique statique assignée directement à une interface. NAT (traduction d'adresse) n'est pas pris en charge.**
+ - Les exigences officielles MINIMUM sont: 4 GB de RAM, 20 GB d’espace, 3 TB de transfert, IPv4 IP public. Une fois que vous commandez votre VPS, vous recevrez ces informations d'identification Root. Le chemin le plus simple consiste à utiliser ce VPS uniquement pour votre Pirl Masternode et donner à Poseidon vos informations d'identification Root afin qu'il puisse gérer et mettre à jour votre VPS.  
+* **Un compte Poseidon sur  [https://poseidon.pirl.io](https://poseidon.pirl.io)**  
+ - Accédez à https://poseidon.pirl.io et créer un compte. Garder à l'esprit que vous vous connecterez avec votre nom d'utilisateur et non par email.  
+* **Portefeuille Nautilus**  
+ - Nautilus est le portefeuille de bureau officiel de Pirl. Vous en aurez besoin pour ajouter et exécuter «Register Node» à partir du contrat intelligent requis pour exécuter le masternode Pirl. Vous pouvez utiliser le portefeuille de bureau pour créer votre portefeuille Pirl [Downloads Nautilus]({{< ref "/Downloads" >}}) ou vous pouvez utiliser le portefeuille Web à l'adresse: https://wallet.pirl.io/.  
+ - Quelle que soit la méthode choisie pour créer votre portefeuille, veillez toujours à enregistrer votre fichier UTC.  
+ - le mot de passe nécessaire pour décrypter le fichier UTC ainsi que votre clé privée.   
+ - Vous pouvez utiliser votre fichier UTC et votre mot de passe créés par Nautilus pour extraire votre clé privée.  
+ - YVous pouvez utiliser votre clé privée au lieu du fichier UTC + Mot de passe pour accéder à votre portefeuille et retirer vos fonds en cas d’urgence.  
+* **10 001 Pirl disponibles dans votre portefeuille pour Premium MN**
+ - Il n’y a aucun moyen de s’en sortir, vous devrez d’une manière ou d’une autre placer vingt mille PIRL dans un portefeuille.  
+ - 1 ou 0,5 pour que le gaz interagisse avec le contrat.  
+ - Vous pouvez exploiter Pirl en utilisant l’un des pools officiels disponibles ici: https://pirl.io/en/pools/.  
+ - Vous pouvez également acheter Pirl sur l'un des échanges Pirl. Je recommande https://www.stex.com comme échange sûr et fiable. 
+
+
+## Vérification d'identité de portefeuille Poseidon  
+
+La première étape du processus de configuration du masternode consiste à envoyer une transaction de votre portefeuille Nautilus (vous pouvez également utiliser le portefeuille Web ici si nécessaire) vers votre portefeuille Poseidon situé ici:  https://poseidon.pirl.io/dashboard/accounting/wallet/.  
 This is just like sending Pirl to any other wallet, except in this case it’s your unique Poseidon wallet.  
-What this does is it proves to Poseidon that you control your Nautilus wallet.
-Do not send anymore then 1 or .5 pirl to this address for verfication, this is not the address you will send the 10k pirls to. that comes later.
+C’est comme si vous envoyez Pirl dans n’importe quel autre portefeuille, sauf que c’est votre unique portefeuille Poseidon.  
+Cela prouve à Poseidon que vous contrôlez votre portefeuille Nautilus.  
+N'envoyez plus 1 ou .5 pirl à cette adresse pour vérification, ce n'est pas l'adresse à laquelle vous enverrez les 10 000 pirls.  
+cela vient plus tard.
 
-Navigate over to https://poseidon.pirl.io/ and paste your Nautilus wallet address at the top.  
-This will show all transactions in and out of your Nautilus wallet.  
-The latest outgoing transaction will show that it’s going into the address of your Poseidon wallet.  
-To the very left of the page, the txid (i.e. transaction hash) will be displayed.  
-Or In the nautilus wallet you click once on the sent transaction and you see this Tx-id:
-Take and safe this txid and copy it because you’ll need it later.
 
-**VERY IMPORTANT: There are 2 hashes for every transaction.  
-There is the transaction hash (txid) and the block hash.  
-You need to use the transaction hash (txid) for the masternode setup process to work.  
-There’s a very easy way to know which one is the txid.  
-The txid is on the left side of the general transaction list of your wallet.  
-Once you click on the txid itself, you will see the block hash displayed.  
-o not use the block hash.  
-Use the txid on the left most side of your wallet transaction list on Poseidon**
+Accédez à https://poseidon.pirl.io/ et collez votre adresse  portefeuille Nautilus en haut.  
+Ceci affichera toutes les transactions entrant et sortant de votre portefeuille Nautilus.  
+La dernière transaction sortante montrera qu’elle se connecte à l’adresse de votre portefeuille Poseidon.  
+Tout à gauche de la page, le txid (c'est-à-dire le hachage de transaction) sera affiché.  
+Ou Dans le portefeuille Nautilus, vous cliquez une fois sur la transaction envoyée et vous voyez ce Tx-id:  
+Prenez et sécurisez ce txid et copiez-le, car vous en aurez besoin plus tard.
+
+
+**TRES IMPORTANT: Il y a 2 hashes pour chaque transaction.  
+Il y a le hash de transaction (txid) et le hash de bloc.  
+Vous devez utiliser le hachage de transaction (txid) pour que le processus de configuration du masternode fonctionne.  
+Il existe un moyen très simple de savoir lequel est le txid.  
+Le txid se trouve à gauche de la liste des transactions générales de votre portefeuille.  
+Une fois que vous avez cliqué sur le txid lui-même, vous verrez le bloc hachage affiché.  
+Ne pas utiliser le hash du bloc.  
+Utilisez le txid situé du côté gauche de la liste des transactions de votre portefeuille sur Poseidon.**  
 
 ![](https://cdn-images-1.medium.com/max/1600/0*1LTQiVdFomhRei6u.png)
 ![](https://cdn-images-1.medium.com/max/1600/0*bVaXgKomLeN0mEYQ.png)
 
 
-In the nautilus wallet you click once on the sent transaction and you see this Tx-id:
+Dans le portefeuille Nautilus, vous cliquez une fois sur la transaction envoyée et vous voyez ce Tx-id:  
 
 ![](/PirlCloud/images/txnautilus.png)
 
 
 ## Nautilus Contract Execution
 
-Now that we have the hardest part out of the way, let’s move on Nautilus and adding the Pirl Masternode contract.
+## Exécution du contrat Nautilus  
 
-**Open Nautilus** and navigate to the **Contract** tab located at the top right corner.
+Maintenant nous avons la partie la plus difficile à résoudre, passons à Nautilus et ajoutons le contrat Pirl Masternode.  
+
+**Ouvrez Nautilus** et accédez à l'onglet **Contrat** situé dans le coin supérieur droit.  
 
 ![](https://cdn-images-1.medium.com/max/1600/0*OW_7W9P_u0k7ZdmZ.png)
 
-Once there, click on the **Watch Contract** button.
+Une fois là-bas, cliquez sur le bouton **Watch Contract**.  
 
 ![](https://cdn-images-1.medium.com/max/1600/0*wZbZlfAdjrUuhr53.png)
 
 
-There are two contracts 1 for each type of node,
-the JSON is for all the Masternodes the same
+Il existe deux contrats 1 pour chaque type de noeud,  
+le JSON est identique pour tous les Masternodes  
 
 
-**Content MN:** For **Contract Address** fill in `0x6c042141C302C354509d2bff30EEFDEF24dE1047`. 
-The **Contract Name** contract name for this is content
-even though it can be anything you’d like.   
-And lastly, the **JSON Interface field** needs to be populated with:
+**Content MN:** pour **l'adresse du contrat** renseignez `0x6c042141C302C354509d2bff30EEFDEF24dE1047`. 
+Le **nom du contrat** pour ce nom est content  
+même s'il peut être ce que vous voulez.     
+**le champ Interface JSON** doit être renseigné avec:  
 
 
 ```
@@ -122,9 +123,9 @@ And lastly, the **JSON Interface field** needs to be populated with:
 ```
 
 
-Select the newly address Masternode contract and you will see available functions for it as a dropdown menu on the right side under the **Write to Contract** heading. 
-Under available functions select **Node Registration** and select the wallet containing your 10,000 Pirl for Content MN. 
-Underneath that, fill in  **10,000 Pirl** for Content MN to send the stake to the contract.
+Sélectionnez le nouveau contrat Masternode et vous verrez les fonctions disponibles sous forme de menu déroulant à droite sous l'en-tête Write to Contract.  
+Sous Fonctions disponibles, sélectionnez **Node Registration** et sélectionnez le portefeuille contenant vos 10,000 Pirl pour Content MN. 
+En dessous, remplissez  **10,000 Pirl** pour Content MN afin d’envoyer la mise au contrat.  
 
 ![](/PirlCloud/images/10k.png)
 
