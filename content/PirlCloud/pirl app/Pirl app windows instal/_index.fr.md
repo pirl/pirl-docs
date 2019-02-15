@@ -40,32 +40,32 @@ Pour réussir cette opération, vous aurez besoin de ces conditions:
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/Low_gas_error_will_pop_out.PNG)
 * Cliquez sur le bouton Copier l'adresse juste à côté du compte créé ou mettez-le en surbrillance avec le curseur de la souris gauche et utilisez CTRL + C
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/copyAdress.JPG)
-* Go into your Nautilus wallet (or any wallet you have some Pirl loaded in) and do a "registration" micro transaction
+* Allez dans votre porte-monnaie Nautilus (ou dans tout autre porte-monnaie dans lequel vous avez du Pirl chargé) et effectuez une «Enregistrement» micro transaction
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/nautilusPlocha.JPG)
-* Manage to send PIRL into your wallet. I will show you how to do it from Nautilus Pirl Wallet. If you are in; hit Send
+* Gérer et envoyer PIRL dans votre portefeuille. Je vais vous montrer comment faire à partir de Nautilus Pirl Wallet. Si vous êtes dedans; appuyez sur Envoyer
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/InsideOfNautilus.JPG)
-* Use address you have copied for sending 0,2 PIRL from your Nautilus(or any) wallet into your PirlApp. Generate transaction and Send
+* Utilisez l'adresse que vous avez copiée pour envoyer 0,2 PIRL de votre portefeuille Nautilus (ou de tout autre portefeuille) dans votre PirlApp. Générer une transaction et envoyer
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/sentStartingFee.JPG)
 
-* Check if it is everything all right in your books and confirm with your password
+* Vérifiez si tout va bien dans vos livres et confirmez avec votre mot de passe
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/checkSend.JPG)
-* Everything will be done in a few minutes, so take a break and relax for a while in your chair
+* Tout sera fait dans quelques minutes, alors faites une pause et détendez-vous un moment sur votre chaise
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/Actual_status.JPG)
-* _* ...3 minutes later and few blocks higher... *_ Yes, right now you can go to your PirlApp and Get in
+* _*… 3 minutes plus tard et quelques pâtés de maisons plus haut… * Oui, vous pouvez maintenant accéder à votre PirlApp et entrer dedans
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/rocky.JPG)
-* Enter your Account and write down the Login name and password. Hit the Register button
+* Entrez sur votre compte ,notez le nom d'utilisateur et le mot de passe. Appuyez sur le bouton Enregistrer
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/creation_on_Accoun_name_+_password__hit_register.PNG)
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/almost.JPG)
-* Congratulation, you have just joined the future. Enjoy PirlTube and all that nasty stuff from PIRL which will be knocking on your browser soon!
+* Félicitations, vous venez de rejoindre le futur. Profitez de PirlTube et de tous ces trucs incroyable PIRL qui vont bientôt frapper à votre navigateur!
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/done.JPG)
 
 
 ---
 
-Author(s):
-
-Test.Object. 001 (Also know as Mickey Maler)
-
-Contributor():
+Author(s):  
 
 @dptelecom
+
+Contributor():  
+
+@ClaudioPirl
