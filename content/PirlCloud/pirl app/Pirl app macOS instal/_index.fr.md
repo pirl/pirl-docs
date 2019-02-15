@@ -1,5 +1,5 @@
 ---
-title: PirlApp macOS install
+title: PirlApp macOS installer
 weight: 2
 pre: "<b>2. </b>"
 chapter: true
@@ -7,59 +7,58 @@ chapter: true
 ![](/images_headers/pirlapp.png)
 
 
-Coming soon, by Pirl Community Member
 
-## Download:
-Download here the PirlApp for MacOs
+### Télécharger:
+Téléchargez ici  PirlApp pour MacOs
 [Downloads]({{< ref "/Downloads" >}})
 
-## Pirl app macOS install
+## Téléchargez ici PirlApp pour MacOs.   
 
-If your done downloading the PirlApp.dmg go to your download folder and find the PirlApp
+Si vous avez terminé de télécharger le fichier PirlApp.dmg,  
+allez dans votre dossier de téléchargement et recherchez le fichier PirlApp.  
 
 ![](/PirlCloud/pirl app/images/pirlappinstall1.jpg)
 
-There you will find *PirlApp.dmg*:
+Vous y trouverez  *PirlApp.dmg*:
 
 ![](/PirlCloud/pirl app/images/pirlappinstall2.jpg)
 
-**Double click** it to start the installation:
-When the installation starts you get this:
-
+**Double-cliquez** dessus pour lancer l'installation:  
+Lorsque l'installation commence, vous obtenez ceci:  
 
 ![](/PirlCloud/pirl app/images/pirlappinstall5.jpg)
 
-And next you get the *terms of the license*
-Press *Agree to install*
+Et ensuite vous obtenez les *termes de la licence*
+Appuyez sur  *Accepter pour installer*
 
 ![](/PirlCloud/pirl app/images/pirlappinstall3.jpg)
 
-next you see this:
-**Drag PirlApp to the Applications folder**
+Ensuite, vous voyez ceci:  
+**Dfaites glisser PirlApp dans le dossier Applications**  
 
 ![](/PirlCloud/pirl app/images/pirlappinstall6.jpg)
 
-Installation starts:
+L'installation commence:  
 
 ![](/PirlCloud/pirl app/images/pirlappinstall7.jpg)
 
-And your done!
-If you now open **Launchpad** you will find the PirlApp there:
+Et voilà !  
+Si vous ouvrez maintenant  **Launchpad** vous trouverez l'application PirlApp à cet emplacement:  
 
 ![](/PirlCloud/pirl app/images/pirlappinstall8.jpg)
 
 ![](/PirlCloud/pirl app/images/pirlappinstall9.jpg)
 
-Now you can open it and proceed to:
+vous trouverez l'application PirlApp à cet emplacement:  
 
-#### [PirlApp Guide]({{< ref "/PirlCloud/pirl app/Pirl app guide" >}})
-
-
-
-## Warning
+#### [PirlApp Guider]({{< ref "/PirlCloud/pirl app/Pirl app guide" >}})
 
 
-for Mac you have to put PirlApp in application folder or otherwise you get this error:
+
+## Attention
+
+
+pour Mac, vous devez mettre PirlApp dans le dossier de l'application ou sinon vous obtenez cette erreur:  
 
 ![](/PirlCloud/pirl app/images/java.jpg)
 
@@ -80,13 +79,11 @@ for Mac you have to put PirlApp in application folder or otherwise you get this 
 
 
 
-
-
-
-
 ---
-Author(s):
+Author(s):  
 
-@dptelecom
+@dptelecom  
 
-Contributor():
+Contributor():  
+
+@ClaudioPirl
