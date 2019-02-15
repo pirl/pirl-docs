@@ -1,5 +1,5 @@
 ---
-title: Setup Premium Masternode
+title: Installation Premium Masternode
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
@@ -18,27 +18,25 @@ chapter: true
 
 
 
-## Overview
+## Vue d’ensemble
 
-Running a PIRL masternode requires the use of a Virtual 
-Private Server (VPS) with a static public IP address directly assigned to an interface.  
-*NAT (address translation) is not supported.*
+L'exécution d'un nœud  masternode PIRL nécessite l'utilisation d'un serveur privé virtuel (VPS) avec une adresse IP publique statique directement affectée à une interface.  
+*NAT (traduction d'adresse) n'est pas pris en charge*
 
 
-Once you have the funds in place, 
-you send a small 1 PIRL transaction to your Poseidon wallet (your account will come with a wallet) to prove that you control the Nautilus wallet with the 20K PIRL capital for Premium MN.  
-You use the txid from the 1 PIRL transaction as part of the masternode setup, along with your Nautilus address. 
-When the masternode is added, 
-you go back to your Nautilus wallet and add the masternode contract address in the “contracts” tab.  
-With the masternode contract address in place, 
-you execute the node registration function.  
-At this point  you can utilize the Poseidon one-click functionality which will automatically setup your server and keep it updated.
+Avoir seulement pirl en cours d'exécution sur le serveur, pas d'autres nœuds ou quoi que ce soit, cela causerait un conflit !!  
+Une fois les fonds en place, vous envoyez une petite transaction 1 PIRL sur votre portefeuille Poseidon (votre compte sera accompagné d’un portefeuille) pour prouver que vous contrôlez le portefeuille Nautilus avec le capital de 20K PIRL pour Premium MN.  
+Vous utilisez l'identifiant txid de la transaction 1 PIRL dans la configuration du masternode, avec votre adresse Nautilus.  
+Lorsque le masternode est ajouté, vous retournez dans votre portefeuille Nautilus et ajoutez l'adresse du contrat du masternode dans l'onglet «contrats».  
+Avec l'adresse de contrat masternode en place, vous exécutez la fonction d'enregistrement de nœud.  
+À ce stade, vous pouvez utiliser la fonctionnalité One-Click de Poseidon pour configurer automatiquement votre serveur et le maintenir à jour.  
 
-This guide uses the one-click-masternode setup feature. 
-This Poseidon feature automatically configures your CentOS 7 linux server to be a Pirl Masternode. 
-Updates will be applied automatically. 
-All you have to do is monitor your server to ensure it stays operational. 
-This is as simple as rebooting the server, should it go offline. 
+
+Ce guide utilise la fonction de configuration en un seul clic.  
+Cette fonction Poseidon configure automatiquement votre serveur linux CentOS 7 pour qu’il soit un Masternode Pirl.  
+Les mises à jour seront appliquées automatiquement.  
+Tout ce que vous avez à faire est de surveiller votre serveur pour s’assurer qu’il reste opérationnel.  
+C’est aussi simple que de redémarrer le serveur, si celui-ci est déconnecté
 
 
 ## Prerequisites
