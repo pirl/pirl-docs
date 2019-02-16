@@ -7,13 +7,11 @@ chapter: true
 ![](/images_headers/pirlapp.png)
 
 
-Coming soon, by Pirl Community Member
-
-## Download:
+### Download:
 Download here the PirlApp for MacOs
 [Downloads]({{< ref "/Downloads" >}})
 
-## Pirl app macOS install
+### Pirl app macOS install
 
 If your done downloading the PirlApp.dmg go to your download folder and find the PirlApp
 

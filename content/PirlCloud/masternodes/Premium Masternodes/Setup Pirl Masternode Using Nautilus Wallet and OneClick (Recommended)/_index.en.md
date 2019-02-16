@@ -180,8 +180,7 @@ Ensure that you know the public static IP address and `root` credentials before 
 
 we go and complete all fields.
 ssh default is port: 22
-Hit **Save changes** and then you will see the next screen.
-content/PirlCloud/images/Done.PNG
+Hit **Save changes** and then you will see the next screen.  
 
 ![](/PirlCloud/images/Done.PNG)
 
