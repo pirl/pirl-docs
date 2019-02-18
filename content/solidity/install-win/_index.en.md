@@ -57,7 +57,7 @@ C:\Users\xxx> set "Path=%USERPROFILE%\bin;%Path%"
 C:\Users\xxx> setx GOPATH "%GOPATH%"
 C:\Users\xxx> setx Path "%Path%"
 C:\Users\xxx> mkdir src\github.com\pirl
-C:\Users\xxx> git clone https://github.com/pirl/pirl src\github.com\pirl\pirl
+C:\Users\xxx> git clone https://git.pirl.io/community/pirl src\git.pirl.io\community\pirl
 C:\Users\xxx> cd src\github.com\pirl\pirl
 C:\Users\xxx> go get -u -v golang.org/x/net/context
 ```
@@ -65,7 +65,7 @@ C:\Users\xxx> go get -u -v golang.org/x/net/context
 Finally, the command to compile pirl node is:
 
 ```text
-C:\Users\xxx\src\github.com\pirl\pirl> go install -v ./cmd/...
+C:\Users\xxx\src\git.pirl.io\community\pirl> go install -v ./cmd/...
 ```
 
 

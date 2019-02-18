@@ -11,7 +11,7 @@ chapter: true
 Clone the repository to a directory of your choosing:
 
 ```shell
-git clone https://github.com/pirl/pirl/
+git clone https://git.pirl.io/community/pirl
 ```
 
 Building `pirl` requires the Go compiler:

@@ -9,7 +9,7 @@ chapter: true
 
 Download and build pirl node
 ```shell
-git clone https://github.com/pirl/pirl
+git clone https://git.pirl.io/community/pirl
 cd pirl
 make pirl
 ```
