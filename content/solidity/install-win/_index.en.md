@@ -65,7 +65,7 @@ C:\Users\xxx> go get -u -v golang.org/x/net/context
 Finally, the command to compile pirl node is:
 
 ```text
-C:\Users\xxx\src\github.com\pirl\pirl> go install -v ./cmd/...
+C:\Users\xxx\src\git.pirl.io\community\pirl> go install -v ./cmd/...
 ```
 
 
