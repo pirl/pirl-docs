@@ -30,4 +30,4 @@ deploy:
   - scp -o StrictHostKeyChecking=no -r public_html/* "${SSH_USER_HOST_LOCATION}"
   - hash=`ssh "${SSH_USER_HOST}" marlin add -r -q "${FILE_LOCATION}" | tail -1`
   #- ssh "${SSH_USER_HOST}" marlin name publish --key=docs $hash
-  - ssh "${SSH_USER_HOST}" `peerid="QmYFJnwrwubWmZrAmAfFvF5UWAcSFs3CAWT4coguqeN2fB" && /usr/bin/marlin name publish $hash`
+  - ssh "${SSH_USER_HOST}" "peerid=QmYFJnwrwubWmZrAmAfFvF5UWAcSFs3CAWT4coguqeN2fB && marlin name publish $hash"
