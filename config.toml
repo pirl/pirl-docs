@@ -1,6 +1,6 @@
-baseURL = "/"
+#baseURL = "/"
 #baseURL="https://pirl.live/ipns/QmYFJnwrwubWmZrAmAfFvF5UWAcSFs3CAWT4coguqeN2fB/"
-#baseURL="https://docs.pirl.io"
+baseURL="https://docs.pirl.io"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
