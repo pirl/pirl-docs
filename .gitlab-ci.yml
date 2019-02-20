@@ -28,7 +28,7 @@ deploy:
   - eval $(ssh-agent -s)
   - bash -c 'ssh-add <(echo "$SSH_PRIVATE_KEY")'
   - scp -o StrictHostKeyChecking=no -r public_html/ "${SSH_USER_HOST_LOCATION}"
-  - hash=`ssh "${SSH_USER_HOST}"sudo marlin add -r -q "${SSH_LOCATION}" | tail -1`
-  - ssh "${SSH_USER_HOST}"sudo marlin name publish --key=docs $hash
+  - hash=`ssh "${SSH_USER_HOST}" sudo marlin add -r -q "${SSH_LOCATION}" | tail -1`
+  - ssh "${SSH_USER_HOST}" sudo marlin name publish --key=docs $hash
 
   
