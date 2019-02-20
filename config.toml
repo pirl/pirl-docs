@@ -1,4 +1,5 @@
-baseURL = "/"
+#baseURL = "/"
+baseURL="https://docs.pirl.io/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
