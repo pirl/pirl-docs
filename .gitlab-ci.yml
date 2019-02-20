@@ -29,5 +29,5 @@ deploy:
   - bash -c 'ssh-add <(echo "$SSH_PRIVATE_KEY")'
   - scp -o StrictHostKeyChecking=no -r public_html/* "${SSH_USER_HOST_LOCATION}"
   - hash=`ssh "${SSH_USER_HOST}" marlin add -r -q "${FILE_LOCATION}" | tail -1`
-  #- ssh "${SSH_USER_HOST}" marlin name publish --key=docs $hash
-  - ssh "${SSH_USER_HOST}" `marlin id -f"<id>" && marlin name publish $hash && echo $hash`
+  - ssh "${SSH_USER_HOST}" marlin name publish $hash
+  #- ssh "${SSH_USER_HOST}" `marlin id -f"<id>" && marlin name publish $hash && echo $hash`
