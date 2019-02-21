@@ -51,5 +51,5 @@ url = "https://git.pirl.io/community/pirl-docs"
 weight = 10
 
 staticDir:
-- "https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/static/"
+- /QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/static/
  
