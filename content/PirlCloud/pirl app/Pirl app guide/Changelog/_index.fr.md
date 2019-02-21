@@ -7,73 +7,75 @@ chapter: true
 ![](/images_headers/pirlapp.png)
 
 
-## All notable changes to this project will be documented in this file.
+## Tous les changements notables apportés à ce projet seront documentés dans ce fichier.  
 
 ## Version <span style="color:green">Pre Beta 1.0.3-2</span>
 
 2019-1-30:
-Update and improvement of PirlApp & PirlTube from @Is_Nikolova
+Mise à jour et amélioration de PirlApp & PirlTube de @Is_Nikolova  
 
 Windows:
 <span style="color:green">pre Beta 1.0.3-2</span>
 
-MacOs we are on:
+MacOs:
 <span style="color:green">pre Beta 1.0.3-2</span>
  
-## Added
+## Ajoutez
 
-2018-10-29: Added Channel links to search results.
+2018-10-29: Ajout de liens de chaîne aux résultats de recherche.  
 
-2018-10-30: Added progresses bars of video uploads.
+2018-10-30: Ajout de barres de progression pour le téléchargement de vidéos.  
 
-2018-11-02: Added button for cancel playing the next video.
+2018-11-02: Bouton ajouté pour annuler la lecture de la vidéo suivante.  
 
-2018-11-02: Added hide/show menu options of APP with 'alt' key.
+2018-11-02: Ajout des options de menu masquer / affichage de l’APP avec la touche ‘alt’.  
 
-2018-11-02: Added auto-updater.
+2018-11-02: Ajout de la mise à jour automatique.  
 
-2018-11-09: Added a dynamic listing of the videos.
+2018-11-09: Ajout d'une liste dynamique des vidéos.  
 
-2018-11-13: Added a listener for key-enter event for search button.
+2018-11-13: Ajout d'un auditeur pour la clef de saisie du bouton de recherche.  
 
-2018-11-19: Added reload button and update edit page.
+2018-11-19: Ajout du bouton de rechargement et de la mise à jour de la page de modification.  
 
-2018-12-06: Added new service compile/deploy smart contracts.
+2018-12-06: Ajout d'un nouveau service de compilation / déploiement de contrats intelligents.  
 
-2018-12-06: Added set new cookie and updated terms of use.
+2018-12-06: Ajout d'un nouveau cookie et mise à jour des conditions d’utilisation.  
 
-2018-12-22: Added share buttons in video details page.
+2018-12-22: Ajout de boutons de partage dans la page de détail de la vidéo.  
 
-2019-01-14: Added new function - watch smart contract.
+2019-01-14: Ajout d'une nouvelle fonction - Regardez le contrat intelligent.  
 
 
-## Changed
 
-2018-10-31: Update functionality with double-click for play/pause video and could be more smoothly.
+## Modifiez
 
-2018-10-31: Fixed the descriptions don't go behind the suggested videos.
+2018-10-31: La fonctionnalité de mise à jour avec double-clic pour lire / mettre en pause une vidéo pourrait être plus fluide.  
 
-2018-10-31: Fixed timeline of video style.
+2018-10-31: Correction des descriptions ne vont pas derrière les vidéos suggérées.  
 
-2018-11-01: Fixed marlin stop in windows.
+2018-10-31: Correction de la chronologie de la vidéo.  
 
-2018-11-02: Fixed problem with - text stays when reporting a bug.
+2018-11-01: Arrêt fixe de marlin dans windows.  
 
-2018-11-02: Put 'Most Popular' on top instead of starting category listings at the top.
+2018-11-02: Correction d'un problème avec - le texte reste en place lors du signalement d'un bug.  
 
-2018-11-02: Fixed audio control function previous version audio control has when click to slider, now when we move slider
-.
-2018-11-05: Fixed encoding problem with text of descriptions, tag or title.
+2018-11-02: Mettez ‘Les plus populaires’ en haut au lieu de commencer par les listes de catégories.  
 
-2018-11-06: Fixed bug with no fire events from left new suggestion videos.
+2018-11-02: Correction du contrôle audio de la version précédente lorsque vous cliquez sur le curseur, maintenant vous déplacez le curseur.   
 
-2018-11-06: Fixed balance update after tip and take confirmations.
+2018-11-05: Correction d'un problème d'encodage avec le texte des descriptions, des TAG ou des titres.  
 
-2019-01-21: Fixed unique user-name  register.
+2018-11-06: Correction d'un bug sans événement d'incendie provenant de nouvelles vidéos de suggestion.  
+
+2018-11-06: Correction de la mise à jour de la balance après le payement et les confirmations  
+
+2019-01-21: Enregistrement d'un nom d'utilisateur unique fixe.  
+
 
 -
  
-## Unreleased
+## Inédit
 -
 
 ## Version <span style="color:green">Pre Beta 1.0.3-1</span>
@@ -83,7 +85,7 @@ MacOs we are on:
 2018-10-12:
 
 
-Update and improvement of PirlTube from @Is_Nikolova
+Mise à jour et amélioration de PirlTube de @Is_Nikolova  
 
 
 Windows:
@@ -98,89 +100,66 @@ MacOs:
 App Version:<span style="color:green">pre Beta 1.0.3-1</span>
 
  
-## Added
+## Ajoutez
+
+2018-10-07: Ajout d'un éditeur de texte pour la saisie de description dans les panneaux de téléchargement et d’édition.  
+
+2018-10-07: Ajout du grec et du macédonien languages.json.  
+
+2018-10-08: Chargement d'une fonctionnalité de vignette personnalisée.  
+
+2018-10-08: Ajout de  vue pour PirlTube (présentation, page et liste vidéo dans vue).  
+
+2018-10-09: Fonctionnalité du contrat de mise à niveau.  
+
+2018-10-12: Ajouter un menu d'aide, changer de version.  
+
+2018-10-12: recherche vidéo par nom d'utilisateur   
+
+2018-10-12: Ajout de la fonctionnalité  clé unique de la vidéo copie et recherche par clé de fonctionnalité vidéo.  
+
+2018-10-17: Ajout du modèle MVC.  
+
+2018-10-18: Ajout d'une image de profil à la liste des vidéos et aux détails de la vidéo.  
+
+2018-10-19: Ajout de la pagination de la page de liste de vidéos.  
+
+2018-10-23: Ajout de boutons avant-arrière pour les mises en page.  
+
+2018-10-23: Ajout de l'avatar de la mise en page vidéo et au navigateur vers la page de profil.  
+
+2018-10-24: Vitesse ajoutée au lecteur vidéo.  
+
+2018-10-27: Ajout de la touche d'accès rapide «Barre d'espace» pour la fonctionnalité de lecture / pause.  
 
 
-2018-10-07: Added text editor to description input at upload panel and edit panel.
+
+## Modifiez  
+
+2018-10-08: Correction de la fonctionnalité de pointe pour afficher une erreur en cas «Mot de passe erroné!».  
+
+2018-10-10: Optimiser et corriger les messages d’erreur.  
+
+2018-10-18: Liste triée de vidéos par date (premier facteur) et j'aime (deuxième facteur)  
+
+2018-10-25: Correction du chevauchement de la langue au milieu de la description.  
+
+2018-10-25: Modifier «les sections sujet pour lesquelles il est possible de cliquer».  
+
+2018-10-25: Correction de la taille de la vignette.  
+
+2018-10-25: La nouvelle fonction Suggestion lorsque vous regardez un clip est défilable.  
+
+2018-10-26: Correction en plein écran, la barre d'outils supérieure est masquée.  
+
+2018-10-27: Correction d'un bug avec le double téléchargement de la même vidéo. 
 
 
-2018-10-07: Added Greek and Macedonian languages.json.
-
-
-2018-10-08: Uploading a custom thumbnail functionality.
-
-
-2018-10-08: Added guest view for PirlTube (layout, page and video listing in guest view).
-
-
-2018-10-09: Upgrade Tip contract functionality.
-
-
-2018-10-12: Add help menu, change version.
-
-
-2018-10-12: Add search video by user-name functionality.
-
-
-2018-10-12: Added copy video's unique key functionality and search by key of video functionality.
-
-
-2018-10-17: Added MVC pattern.
-
-
-2018-10-18: Added profile-image to list of videos and details video.
-
-
-2018-10-19: Added pagination of list videos page.
-
-
-2018-10-23: Added back-forward buttons to layouts.
-
-
-2018-10-23: Added avatar to video-layout and route navigate to profile page.
-
-
-2018-10-24: Added speed to video player.
-
-
-2018-10-27: Added "Space-bar" hot key for play/pause functionality.
-
-
-## Changed
-
-
-2018-10-08: Fixing tip functionality to display error in case “Wrong password!”.
-
-
-2018-10-10:Optimize and fix errors messages.
-
-
-2018-10-18: Sorted listing of videos by date (first factor) and likes (second factor)
-
-
-2018-10-25: Fixing overlapping of the language the middle of description.
-
-
-2018-10-25: Change "the subject sections to be click-able".
-
-
-2018-10-25: Fix thumbnail's size.
-
-
-2018-10-25: The new Suggestion function when watching a clip is scroll-able
-
-
-2018-10-26: Fixed full screen the top tool bar is hide.
-
-
-2018-10-27: Fixed bug with double upload same video.
-
-
-## Removed
+## Enlevez
 -
 
  
-## Unreleased
+## Inédit
 -
 
 
@@ -204,21 +183,16 @@ MacOs:
 App Version: <span style="color:green">Pre Beta 1.0.2</span>
 
 
-## Added  
+## Ajouté
 
+2018-10-05: Ajoutez l'approbation automatique pour le téléchargement et correction de la lecture vidéo.  
 
-2018-10-05: Add auto approve for upload and fix play video.
+## Modifiez
 
+2018-10-05: Correction de la liste de toutes les vidéos.  
 
-## Changed  
+## Enlevez
 
-2018-10-05: Fix list all videos.
-
-
-## Removed  
--
-
-## Unreleased  
 -
 
 
@@ -230,4 +204,5 @@ Author(s):
 
 Contributor():
 
-@Is_Nikolova
+@Is_Nikolova  
+@ClaudioPirl  
