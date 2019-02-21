@@ -9,8 +9,7 @@ theme = "hugo-theme-learn"
 #themesdir = "../.."
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
-staticDir:
-  /ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/images/
+
 [params]
   editURL = "https://git.pirl.io/community/pirl-docs/tree/master/content/"
   description = "Pirl documentations"
@@ -18,6 +17,8 @@ staticDir:
   showVisitedLinks = true
   disableBreadcrumb = true
   disableNextPrev = true
+  staticDir:
+  /ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/images/
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
