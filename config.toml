@@ -9,7 +9,8 @@ theme = "hugo-theme-learn"
 #themesdir = "../.."
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
-
+staticDir:
+  /ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/images/
 [params]
   editURL = "https://git.pirl.io/community/pirl-docs/tree/master/content/"
   description = "Pirl documentations"
@@ -26,7 +27,7 @@ home = [ "HTML", "RSS", "JSON"]
 title = "Pirl Documentation"
 weight = 1
 languageName = "English"
-baseURL = "https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
+
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-gitlab'></i> Gitlab repo"
@@ -44,7 +45,6 @@ weight = 20
 title = "Pirl Documentation"
 weight = 2
 languageName = "Français"
-baseURL = "https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
 
 [[Languages.fr.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-gitlab'></i> Repo Gitlab"
