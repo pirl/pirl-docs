@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="95c001bc-b05b-40be-a468-37bee60c2f29" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/content/bounty-contributions/article-bounty/_index.en.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/bounty-contributions/article-bounty/_index.en.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/shortcodes/imagesurls.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/shortcodes/imagesurls.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/shortcodes/imagesurls.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -65,12 +64,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/bounty-contributions/article-bounty/_index.en.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="90">
-                <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+                <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -128,8 +127,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
         <option value="$PROJECT_DIR$/config.toml" />
-        <option value="$PROJECT_DIR$/content/bounty-contributions/article-bounty/_index.en.md" />
         <option value="$PROJECT_DIR$/layouts/shortcodes/imagesurls.html" />
+        <option value="$PROJECT_DIR$/content/bounty-contributions/article-bounty/_index.en.md" />
       </list>
     </option>
   </component>
@@ -250,12 +249,12 @@
       <workItem from="1535966262597" duration="2519000" />
       <workItem from="1536007171540" duration="1169000" />
       <workItem from="1536332017276" duration="5357000" />
-      <workItem from="1550790895601" duration="1154000" />
+      <workItem from="1550790895601" duration="1218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10199000" />
+    <option name="totallyTimeSpent" value="10263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="466" y="23" width="1663" height="1010" extended-state="0" />
@@ -410,20 +409,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/bounty-contributions/article-bounty/_index.en.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/shortcodes/imagesurls.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/bounty-contributions/article-bounty/_index.en.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
