@@ -17,8 +17,7 @@ defaultContentLanguageInSubdir= true
   showVisitedLinks = true
   disableBreadcrumb = true
   disableNextPrev = true
-  staticDir:
-  /ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/images/
+  staticDir= "/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/images/"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
