@@ -4,6 +4,7 @@ baseURL="https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 canonifyURL= true
+relativeURLs = true
 
 title = "Pirl Documentation"
 theme = "hugo-theme-learn"
