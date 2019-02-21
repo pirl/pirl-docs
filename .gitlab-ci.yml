@@ -9,7 +9,7 @@ build:
   script:
   - hugo version
   - git submodule update --init --recursive
-  - hugo -d public_html -b=“https://docs.pirl.io
+  - hugo -d public_html -b="https://docs.pirl.io"
   artifacts:
     paths:
     - public_html
