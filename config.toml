@@ -26,6 +26,7 @@ home = [ "HTML", "RSS", "JSON"]
 title = "Pirl Documentation"
 weight = 1
 languageName = "English"
+baseURL = "https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-gitlab'></i> Gitlab repo"
@@ -43,6 +44,7 @@ weight = 20
 title = "Pirl Documentation"
 weight = 2
 languageName = "Français"
+baseURL = "https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
 
 [[Languages.fr.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-gitlab'></i> Repo Gitlab"
@@ -50,6 +52,4 @@ identifier = "ds"
 url = "https://git.pirl.io/community/pirl-docs"
 weight = 10
 
-staticDir:
-- /QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/static/
  
