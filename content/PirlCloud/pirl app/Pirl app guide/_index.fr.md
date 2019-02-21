@@ -7,84 +7,82 @@ chapter: true
 ![](/images_headers/pirlapp.png)
 
 
-## Overview.
+## Vue d'ensemble.  
 
-This guide will explain how you setup the:
+Ce guide explique comment  configurez:  
 
 ![](/PirlCloud/pirl app/images/pirlapp21.jpg)
 
-## Prerequisites.
+## Conditions préalables.
 
-Download here the PirlApp for MacOs:
+Téléchargez ici PirlApp pour MacOs:  
 [Downloads]({{< ref "/Downloads" >}})
 
 
-Download here the PirlApp for Windows
+Téléchargez ici  PirlApp pour Windows:  
 [Downloads]({{< ref "/Downloads" >}})
 
-## Install the PirlApp.
+## Installez  PirlApp.
 
-**Go to the folder where you downloaded the PirlApp**
+**Allez dans le dossier où vous avez téléchargé l'application PirlApp**
 
-guide on how to install PirlApp can be found here:
+guide sur la façon d'installer PirlApp ici:  
 
 #### 1.) [PirlApp Windows install]({{< ref "/PirlCloud/pirl app/Pirl app windows instal" >}})
 #### 2.) [PirlApp macOs install]({{< ref "/PirlCloud/pirl app/Pirl app macOS instal" >}})
 
 
-and run the  installer.
+lancez l’installateur.
 
-## Setup the PirlApp.
+## Ouvrez PirlApp:
 
-Open the PirlApp:
+L'écran d’accueil:  
 
 ![](/PirlCloud/pirl app/images/pirlapp2.jpg)
 
-The welcome sreen:
+L'écran d’accueil:
 
 ![](/PirlCloud/pirl app/images/pirlapp3.jpg)
 
 
-## Create the account for using the PirlApp.
+## Créez le compte pour utiliser PirlApp.
 
-Fill in a *password* you want to use (and write it down somewhere for your self)
+Entrez le mot de passe que vous souhaitez utiliser ( écrivez-le quelque part 
 
 ![](/PirlCloud/pirl app/images/pirlapp22.jpg)
 
-And hit *create*
+cliquez sur créer
 
 ![](/PirlCloud/pirl app/images/pirlapp15.jpg)
 
-## And now we get the following error at the bottom off the screen
+## Et maintenant nous avons l'erreur suivante au bas de l’écran
 
 ![](/PirlCloud/pirl app/images/pirlapp5.jpg)
 
 
-**This is normal don't worry!!**
-you get this because there are no funds at the wallet,
-to pay for the gas you need to activate the contract.
+**C’est normal ne vous inquiétez pas !!**
+vous l'obtenez parce qu'il n'y a pas d'argent dans le portefeuille pour payer le GAZ dont vous avez besoin pour activer le contrat.  
+et maintenant nous résolvons cela en envoyant un montant x au portefeuille. Dans cet exemple, nous envoyons 0,2 Pirl.  
 
-and now we cone fix this by sending an x amount to the wallet
-in this example we do 0.2 Pirl.
+La première étape consiste à copier l'adresse clé / portefeuille:  
 
-The first step is to copy the key/wallet address:
 
 ![](/PirlCloud/pirl app/images/pirlapp6.jpg)
 
 
-Now you  go to your wallet and transfer 0.2 or any other amount you want to the key/wallet address we just copied
+Maintenant, vous allez sur votre portefeuille et transférez 0,2 ou tout autre montant de votre choix à l'adresse clé / portefeuille que nous venons de copier.  
 
 ![](/PirlCloud/pirl app/images/pirlapp7.jpg)
 
 
-if you want to verify if the funds are in you can go to the  [explorer](https://devexplorer.pirl.io/home  "explorer")
+si vous voulez vérifier les fonds, vous pouvez aller dans   [l’explorateur](https://devexplorer.pirl.io/home  "l’explorateur")
 
-and fill in the same key/wallet address we just copied and you will see this:
+remplissez la même adresse  clé / portefeuille que nous venons de copier et vous verrez ceci:  
 
 ![](/PirlCloud/pirl app/images/pirlapp10.jpg)
 
 
-**now we wait until the funds are in:**
+**maintenant nous attendons  les fonds:**
 
 ![](/PirlCloud/pirl app/images/pirlapp11.jpg)
 
