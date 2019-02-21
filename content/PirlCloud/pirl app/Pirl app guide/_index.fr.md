@@ -87,37 +87,37 @@ remplissez la même adresse  clé / portefeuille que nous venons de copier et vo
 ![](/PirlCloud/pirl app/images/pirlapp11.jpg)
 
 
-## continue the creating of the account
+## continuer la création du compte
 
-we go back to the *PirlApp*
-**  DO NOT HIT CREATE AGAIN!!!**
-because this makes an extra key/wallet address
-and than it looks like this:
+nous revenons à  *PirlApp*
+**  NE PAS appuyer CREER ENCORE !!! **
+parce que cela crée une adresse clé / portefeuille supplémentaire et que cela ressemble à ceci:  
 
 ![](/PirlCloud/pirl app/images/pirlapp24.jpg)
 
 
-instead you press the first key/wallet address we want to activate,
-you also can see there are funds in now ;-)
+Au lieu de cela, vous appuyez sur la première adresse de portefeuille / clé que nous voulons activer,  
+vous pouvez également voir qu'il y a des fonds maintenant ;-)  
 
 ![](/PirlCloud/pirl app/images/pirlapp25.jpg)
 
 
 
-After you press it you will be prompted to fill in the Username and the password we created earlier:
+Après avoir appuyé sur cette touche, vous serez invité à saisir le nom d'utilisateur et le mot de passe créés précédemment:  
 
 ![](/PirlCloud/pirl app/images/pirlapp8.jpg)
 
 
-Press register and there we go we got enough gas to proceed now:
+Appuyez sur  registre et voilà, nous avons assez de GAS pour procéder maintenant:  
 
 ![](/PirlCloud/pirl app/images/pirlapp12.jpg)
 
-and then magic happens and we can go on:
+
+la magie opère et nous pouvons continuer:  
 
 ![](/PirlCloud/pirl app/images/pirlapp14.jpg)
 
-## Finally we now get this very sexy Dashboard and we are clear to go!!
+## Enfin, nous avons maintenant ce tableau de bord très sexy et nous sommes prêts à partir !!
 
 ![](/PirlCloud/pirl app/images/pirlapp17.jpg)
 
@@ -128,4 +128,6 @@ Author(s):
 
 @dptelecom
 
-Contributor():
+Contributor():  
+
+@ClaudioPirl
