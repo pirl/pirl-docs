@@ -18,6 +18,8 @@ defaultContentLanguageInSubdir= true
   showVisitedLinks = true
   disableBreadcrumb = true
   disableNextPrev = true
+  baseURL= "https://docs.pirl.io/"
+  
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
