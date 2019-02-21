@@ -6,7 +6,7 @@ disableToc: true
 ---
 
 
-![](/images/Pirl.jpg)
+![]({{.Site.BaseURL}}/images/Pirl.jpg)
 
 
 
