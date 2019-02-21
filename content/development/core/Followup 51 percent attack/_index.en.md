@@ -4,8 +4,7 @@ weight: 4
 pre: "<b>4. </b>"
 chapter: true
 ---
-![](/development/images/aftermath.png)
-
+{{< imagesurlsheaders "images_headers/aftermath.png"  >}}
 
 ## Dear Community,
 

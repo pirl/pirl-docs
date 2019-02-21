@@ -4,8 +4,7 @@ weight: 6
 pre: "<b>6. </b>"
 chapter: true
 ---
-![](/development/images/PirlGuard.png)
-
+{{< imagesurlsheaders "images_headers/PirlGuard.png"  >}}
 
 ## PirlGuard - Innovative Solution against 51% Attacks
 

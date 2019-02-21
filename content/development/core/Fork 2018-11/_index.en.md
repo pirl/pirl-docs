@@ -4,8 +4,8 @@ weight: 5
 pre: "<b>5. </b>"
 chapter: true
 ---
-![](/development/images/hardfork.png ")
 
+{{< imagesurlsheaders "images_headers/hardfork.png"  >}}
 
 ### Pirl Community!
 

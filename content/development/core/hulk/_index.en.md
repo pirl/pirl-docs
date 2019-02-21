@@ -4,8 +4,7 @@ weight: 2
 pre: "<b>2. </b>"
 chapter: true
 ---
-![](/development/images/hulk.jpg)
-
+{{< imagesurlsheaders "images_headers/hulk.png"  >}}
 
 Pirl Community!
 
