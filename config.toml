@@ -1,7 +1,8 @@
 baseURL="https://docs.pirl.io/"
-staticDir = "static/images/images_headers/"
+#staticDir = "static/images/images_headers/"
+staticDir = "static/images/"
 #baseURL= "https://docs.pirl.io/"
-#baseURL="https://docs.pirl.io/en"
+######baseURL="https://docs.pirl.io/en"
 #baseURL= "https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
 #baseURL = "/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
 languageCode = "en-US"
@@ -11,6 +12,7 @@ theme = "hugo-theme-learn"
 #themesdir = "../.."
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
+
 
 [params]
   editURL = "https://git.pirl.io/community/pirl-docs/tree/master/content/"
