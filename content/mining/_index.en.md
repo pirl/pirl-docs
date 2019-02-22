@@ -4,7 +4,7 @@ weight: 4
 pre: "<b>3. </b>"
 chapter: true
 ---
-![](/images_headers/Mining.png)
+![](/Mining.png)
 
 
 ## Mining
