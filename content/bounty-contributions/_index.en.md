@@ -4,8 +4,8 @@ weight: 14
 pre: "<b>13. </b>"
 chapter: true
 ---
+{{< imagesurlsheaders "images_headers/bounty.png"  >}}
 
-![](/images_headers/bounty.png)
 
 
 

@@ -4,7 +4,7 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-![](/images_headers/development.png)
+{{< imagesurlsheaders "images_headers/development.png"  >}}
 
 
 ## Updates about development for PirlCore
