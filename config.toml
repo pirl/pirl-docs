@@ -1,14 +1,18 @@
-#baseURL = "/"
-baseURL="https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
 #baseURL="https://docs.pirl.io/"
+#staticDir = "static/images/images_headers/"
+staticDir = "static/images/"
+#baseURL= "https://docs.pirl.io/"
+#baseURL="https://docs.pirl.io/en"
+baseURL= "https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
+#baseURL = "/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
-
 title = "Pirl Documentation"
 theme = "hugo-theme-learn"
 #themesdir = "../.."
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
+
 
 [params]
   editURL = "https://git.pirl.io/community/pirl-docs/tree/master/content/"
@@ -17,6 +21,8 @@ defaultContentLanguageInSubdir= true
   showVisitedLinks = true
   disableBreadcrumb = true
   disableNextPrev = true
+  #baseURL= "https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
+  
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -26,7 +32,6 @@ home = [ "HTML", "RSS", "JSON"]
 title = "Pirl Documentation"
 weight = 1
 languageName = "English"
-
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-gitlab'></i> Gitlab repo"
 identifier = "ds"
@@ -49,4 +54,5 @@ name = "<i class='fab fa-fw fa-gitlab'></i> Repo Gitlab"
 identifier = "ds"
 url = "https://git.pirl.io/community/pirl-docs"
 weight = 10
+
  

@@ -4,7 +4,7 @@ weight: 2
 pre: "<b>2. </b>"
 chapter: true
 ---
-![](/images_headers/development.png)
+{{< imagesurlsheaders "images_headers/development.png"  >}}
 
 
 ## Updates about development for PirlWallets
