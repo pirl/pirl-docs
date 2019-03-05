@@ -4,9 +4,9 @@ weight: 2
 pre: "<b>2. </b>"
 chapter: true
 ---
-![](/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/images_headers/cloudpowereddark.png)
+{{< imagesurlsheaders "images_headers/cloudpowereddark.png"  >}}
 
-
+{{< imagesurlsheaders "images_headers/cloudpowereddark.png"  >}}
 ## The PirlCloud
 
 
