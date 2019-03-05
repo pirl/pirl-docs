@@ -4,7 +4,7 @@ weight: 4
 pre: "<b>4. </b>"
 chapter: true
 ---
-![](/images_headers/Poseidon.png)
+{{< imagesurlsheaders "images_headers/Poseidon.png"  >}}
 
 
 ## Welcome user on your own Poseidon unique all-in-one platform,    

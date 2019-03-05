@@ -4,7 +4,7 @@ weight: 50
 pre: "<b>1. </b>"
 chapter: true
 ---
-![](/images_headers/round_table.png)
+{{< imagesurlsheaders "images_headers/round_table.png"  >}}
 
 
 ## TL;DR ##

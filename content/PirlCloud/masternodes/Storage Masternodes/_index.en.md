@@ -4,7 +4,7 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
-![](/images_headers/Masternodes.png)
+{{< imagesurlsheaders "images_headers/Masternodes.png"  >}}
 
 
 ![](/PirlCloud/masternodes/images/masternodes.jpg)

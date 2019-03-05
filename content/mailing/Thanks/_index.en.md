@@ -3,7 +3,7 @@ linkTitle: Thanks
 hidden: true
 chapter: true
 ---
-![](/images_headers/thanks.png)
+{{< imagesurlsheaders "images_headers/thanks.png"  >}}
 
 
 
