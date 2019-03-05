@@ -6,7 +6,7 @@ chapter: true
 ---
 {{< imagesurlsheaders "images_headers/cloudpowereddark.png"  >}}
 
-{{< imagesurlsheaders "images_headers/cloudpowereddark.png"  >}}
+
 ## The PirlCloud
 
 
