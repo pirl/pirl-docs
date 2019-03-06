@@ -11,7 +11,7 @@ chapter: true
 
 Updates about development for PirlWallets can be found on the next pages.
 
-![](/development/images/Pirl_Energy.gif)
+{{< imagesurlsheaders "cloud/Pirl_Energy.gif" >}}
 
 
 

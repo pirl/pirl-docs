@@ -17,7 +17,7 @@ With the help of Hugo, you can create, view, enhance inputs for Knowledge Base a
 
 This guide will explain how to download, setup and run Hugo and Hugo server:
 
-![](/getting started/how to contribute/hugo/images/Hugo.JPG)
+{{< imagesurlsheaders "cloud/Hugo.JPG" >}}
 
 ## Prerequisites
 

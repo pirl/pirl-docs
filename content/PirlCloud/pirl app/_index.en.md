@@ -10,7 +10,7 @@ chapter: true
 PirlApp Portal is the user dashboard where PIRL Services are accessible.
 
 
-![](/PirlCloud/pirl app/images/pirlapp17.jpg)
+{{< imagesurlsheaders "cloud/pirlapp17.jpg"  >}}
 
 
 

@@ -22,7 +22,7 @@ Updates about development for PirlCore can be found on the next pages.
 
 
 
-![](/development/images/Pirl_Energy.gif)
+{{< imagesurlsheaders "cloud/Pirl_Energy.gif" >}}
 
 
 
