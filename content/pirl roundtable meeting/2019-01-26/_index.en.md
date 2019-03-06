@@ -5,7 +5,7 @@ pre: "<b>17. </b>"
 chapter: true
 ---
 
-![](/images_headers/round_table.png)
+{{< imagesurlsheaders "images_headers/round_table.png"  >}}
 
 
 ## Round Table 26.01.2019

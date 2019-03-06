@@ -4,7 +4,7 @@ weight: 48
 pre: "<b>3. </b>"
 chapter: true
 ---
-![](/images_headers/round_table.png)
+{{< imagesurlsheaders "images_headers/round_table.png"  >}}
 
 
 ## Round Table 06.10.2018

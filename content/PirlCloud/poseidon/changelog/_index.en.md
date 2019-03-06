@@ -4,7 +4,7 @@ weight: 10
 pre: "<b>10. </b>"
 chapter: true
 ---
-![](/images_headers/Poseidon.png)
+{{< imagesurlsheaders "images_headers/Poseidon.png"  >}}
 
 
 ## All notable changes to this unique all-in-one platform will be documented in this file.

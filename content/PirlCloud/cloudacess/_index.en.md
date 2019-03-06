@@ -4,7 +4,7 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
-![](/PirlCloud/images/Pirl_IPFSsmall.png)
+{{< imagesurlsheaders "cloud/Pirl_IPFSsmall.png"  >}}
 
 
 ## Public storage.

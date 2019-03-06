@@ -4,7 +4,7 @@ weight: 5
 pre: "<b>5. </b>"
 chapter: true
 ---
-![](/images_headers/smartcontract.png)
+{{< imagesurlsheaders "images_headers/smartcontract.png"  >}}
 
 
 ## Introduction

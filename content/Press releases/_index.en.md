@@ -4,7 +4,7 @@ weight: 6
 pre: "<b>5. </b>"
 chapter: true
 ---
-![](/images_headers/Pressreleases.png)
+{{< imagesurlsheaders "images_headers/Pressreleases.png"  >}}
 
 ![](/Press releases/images/pressrelease-image-1024x682.jpg)
 
