@@ -90,7 +90,7 @@ Use the txid on the left most side of your wallet transaction list on Poseidon**
 
 In the nautilus wallet you click once on the sent transaction and you see this Tx-id:
 
-![](/PirlCloud/images/txnautilus.png)
+{{< imagesurlsheaders "cloud/txnautilus.png"  >}}
 
 
 
@@ -148,12 +148,12 @@ Login to Poseidon and navigate to the page which adds a masternode located here:
 https://poseidon.pirl.io/dashboard/masternodes/  
 and hit the:  
 
-![](/PirlCloud/images/redcrossadd.jpg)
+{{< imagesurlsheaders "cloud/redcrossadd.jpg"  >}}
 
 
 then you get this nice popup screen:
 
-![](/PirlCloud/images/Create_Masternode_Record_in_Poseidon.PNG)
+{{< imagesurlsheaders "cloud/Create_Masternode_Record_in_Poseidon.PNG"  >}}
 
 
 The Name can be anything you’d like.  
@@ -165,7 +165,7 @@ the Tx hash validation field needs the txid (not block hash, see above!) of the 
 
 Hit **Save changes** and then you will see the next screen.
 
-![](/PirlCloud/images/one_click_setup.PNG)
+{{< imagesurlsheaders "cloud/one_click_setup.PNG"  >}}
 
 
 
@@ -175,18 +175,18 @@ Hit **Save changes** and then you will see the next screen.
 Ensure that you know the public static IP address and `root` credentials before proceeding.
 
 
-![](/PirlCloud/images/one_click_setup.PNG)
+{{< imagesurlsheaders "cloud/one_click_setup.PNG"  >}}
 
 
 we go and complete all fields.
 ssh default is port: 22
 Hit **Save changes** and then you will see the next screen.  
 
-![](/PirlCloud/images/Done.PNG)
+{{< imagesurlsheaders "cloud/Done.PNG"  >}}
 
 After returning to the **My Masternodes** screen, observe that the masternode's **Managed by Poseidon** field is set to `True`
 
-![](/PirlCloud/images/managed.jpg)
+{{< imagesurlsheaders "cloud/managed.jpg"  >}}
 
 Please allow 30 minutes for the process to complete. You may click the **details** button to monitor the status.
 
@@ -198,7 +198,7 @@ journalctl -f
 Once messages like the following are displayed, your masternode is now synchronized and contributing to the network.
 
 
-![](/PirlCloud/images/vps.jpg)
+{{< imagesurlsheaders "cloud/vps.jpg"  >}}
 
 
 
@@ -212,13 +212,13 @@ journalctl -f
 your masternode is contributing to the network if it looks like this:.
 
 
-![](/PirlCloud/images/vps.jpg)
+{{< imagesurlsheaders "cloud/vps.jpg"  >}}
 
 
 Monitor the status of your masternode by checking the Poseidon Masternode Details page by clicking on the 🔍.   
 A functioning node should appear as follows:
 
-![](/PirlCloud/images/detailsmn.png)
+{{< imagesurlsheaders "cloud/detailsmn.png"  >}}
 
 
 

@@ -15,7 +15,7 @@ And the rewards they are making,
 and an overview about the locations where they are:
 
 
-![](/PirlCloud/images/Poseidon_overview.jpg)
+{{< imagesurlsheaders "cloud/Poseidon_overview.jpg"  >}}
 
 
 ## Poseidon register for an account.
@@ -25,7 +25,7 @@ If you look at the left side of the page you see the option to register for an a
 or login to your account if you already got one:
 
 
-![](/PirlCloud/images/Poseidon_left.jpg)
+{{< imagesurlsheaders "cloud/Poseidon_left.jpg"  >}}
 
 
 ## Go ahead to the next page to see how you create an account:

@@ -13,7 +13,7 @@ chapter: true
 Right here we go than lets fill in the required fields  for an account registration.
 
 
-![](/PirlCloud/images/registration.jpg)
+{{< imagesurlsheaders "cloud/registration.jpg"  >}}
 
 You wil get a email confirming the account is created
 
