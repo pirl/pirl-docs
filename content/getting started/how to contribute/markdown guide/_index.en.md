@@ -154,19 +154,19 @@ This is an [example link](http://example.com/ "With a Title"). It will still wor
 
 ### Images
 
-Linking images is just like links with a **!** exclamation point in front.
+Linking images is just like links with a shortcode {{< imagesurlsheaders "cloud/magic.gif" >}}
 
 ```
-* ![Magic]({{< imagesurlsheaders "cloud/$1" >}}?classes=shadow "Magic!")
+* {{< imagesurlsheaders "cloud/magic.gif" >}}
 ```
 
-* ![Magic]({{< imagesurlsheaders "cloud/$1" >}}?classes=shadow "Magic!")
+* {{< imagesurlsheaders "cloud/magic.gif" >}}
 
 ### Code
 
 There are two ways to distinguish code from text, one for inline use and one for blocks of code. To distinguish code `inline` put a set of back ticks around it. To do it as a block of text, put three back ticks at the tom and the bottom.
 
-![Code Block](/getting started/how to contribute/markdown guide/images/code.jpg)
+{{< imagesurlsheaders "cloud/code.jpg" >}}
 
 ```
 This is will be displayed a as a block of code.
@@ -177,5 +177,6 @@ More importantly, notice the back ticks at the top and bottom.
 Author:
 _[PrimateCrypto](https://twitter.com/PrimateCrypto)_
 
-Contributor(s):
-_[Mickey Maler](https://twitter.com/MickeyMaler)_
+Contributor(s):  
+
+@dptelecom
