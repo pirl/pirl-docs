@@ -9,7 +9,7 @@ chapter: true
 
 # Content Masternodes
 
-![](/PirlCloud/masternodes/images/masternodes.jpg)
+{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
 
 
 **Content Masternodes** Will provide file storage for the publicly accessible media and data needed for dApps and the marketplace.
