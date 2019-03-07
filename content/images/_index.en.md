@@ -1,9 +1,9 @@
 ---
-linkTitle: Thanks
+linkTitle: images
 hidden: true
 chapter: true
 ---
-{{< imagesurlsheaders "images_headers/thanks.png"  >}}
+
 
 
 
