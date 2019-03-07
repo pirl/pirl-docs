@@ -157,10 +157,10 @@ This is an [example link](http://example.com/ "With a Title"). It will still wor
 Linking images is just like links with a **!** exclamation point in front.
 
 ```
-* ![Magic](/getting started/how to contribute/images/magic.gif?classes=shadow "Magic!")
+* ![Magic]({{< imagesurlsheaders "cloud/$1" >}}?classes=shadow "Magic!")
 ```
 
-* ![Magic](/getting started/how to contribute/images/magic.gif?classes=shadow "Magic!")
+* ![Magic]({{< imagesurlsheaders "cloud/$1" >}}?classes=shadow "Magic!")
 
 ### Code
 

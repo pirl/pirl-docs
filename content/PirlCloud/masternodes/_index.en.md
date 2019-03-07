@@ -7,7 +7,7 @@ chapter: true
 {{< imagesurlsheaders "images_headers/Masternodes.png"  >}}
 
 
-![](/PirlCloud/masternodes/images/masternodes.jpg)
+{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
 
 ## Masternodes
 
