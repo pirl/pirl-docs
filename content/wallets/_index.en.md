@@ -6,8 +6,8 @@ chapter: true
 ---
 {{< imagesurlsheaders "images_headers/wallet.png"  >}}
 
+{{< imagesurlsheaders "cloud/Pirl_wallets.jpg" >}}
 
-![](/wallets/images/Pirl_wallets.jpg )
 
 
 Download here the Pirl Nautilus Wallet-0.9.2 Linux [Downloads]({{< ref "/Downloads" >}})
