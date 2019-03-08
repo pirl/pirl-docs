@@ -4,7 +4,11 @@ weight: 10
 pre: "<b>9. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/Downloads.png"  >}}
+=======
+![](/images_headers/Downloads.png)
+>>>>>>> local_version
 
 
 #### [PirlWebsite](https://pirl.io/en/ "PirlWebsite")

@@ -4,7 +4,11 @@ weight: 10
 pre: "<b>10. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/Poseidon.png"  >}}
+=======
+![](/images_headers/Poseidon.png)
+>>>>>>> local_version
 
 
 ## All notable changes to this unique all-in-one platform will be documented in this file.

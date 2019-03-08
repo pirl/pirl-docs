@@ -4,7 +4,11 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/Masternodes.png"  >}}
+=======
+![](/images_headers/Masternodes.png)
+>>>>>>> local_version
 
 
 
@@ -92,7 +96,11 @@ Use the txid on the left most side of your wallet transaction list on Poseidon**
 
 In the nautilus wallet you click once on the sent transaction and you see this Tx-id:
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/txnautilus.png"  >}}
+=======
+![](/PirlCloud/images/txnautilus.png)
+>>>>>>> local_version
 
 
 ## Nautilus Contract Execution
@@ -127,7 +135,11 @@ Select the newly address Masternode contract and you will see available function
 Under available functions select **Node Registration** and select the wallet containing your 10,000 Pirl for Content MN. 
 Underneath that, fill in  **10,000 Pirl** for Content MN to send the stake to the contract.
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/10k.png"  >}}
+=======
+![](/PirlCloud/images/10k.png)
+>>>>>>> local_version
 
 
 Once you hit **execute**, fill in your **UTC file password** and make sure you’re providing **at least 121,000 gas** for the transaction.
@@ -154,12 +166,20 @@ Login to Poseidon and navigate to the page which adds a masternode located here:
 https://poseidon.pirl.io/dashboard/masternodes/  
 and hit the:  
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/redcrossadd.jpg"  >}}
+=======
+![](/PirlCloud/images/redcrossadd.jpg)
+>>>>>>> local_version
 
 
 then you get this nice popup screen:
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/Create_content_Masternode_Record_in_Poseidon.png"  >}}
+=======
+![](/PirlCloud/images/Create_content_Masternode_Record_in_Poseidon.png)
+>>>>>>> local_version
 
 
 The Name can be anything you’d like.  
@@ -171,7 +191,11 @@ the Tx hash validation field needs the txid (not block hash, see above!) of the 
 
 Hit **Save changes** and then you will see the next screen.
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/one_click_setup.PNG"  >}}
+=======
+![](/PirlCloud/images/one_click_setup.PNG)
+>>>>>>> local_version
 
 
 
@@ -180,18 +204,30 @@ Hit **Save changes** and then you will see the next screen.
 Ensure that you know the public static IP address and `root` credentials before proceeding.
 
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/one_click_setup.PNG"  >}}
+=======
+![](/PirlCloud/images/one_click_setup.PNG)
+>>>>>>> local_version
 
 
 we go and complete all fields.
 ssh default is port: 22
 Hit **Save changes** and then you will see the next screen.  
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/Done.PNG"  >}}
 
 After returning to the **My Masternodes** screen, observe that the masternode's **Managed by Poseidon** field is set to `True`
 
 {{< imagesurlsheaders "cloud/managed.jpg"  >}}
+=======
+![](/PirlCloud/images/Done.PNG)
+
+After returning to the **My Masternodes** screen, observe that the masternode's **Managed by Poseidon** field is set to `True`
+
+![](/PirlCloud/images/managed.jpg)
+>>>>>>> local_version
 
 Please allow 30 minutes for the process to complete. You may click the **details** button to monitor the status.
 
@@ -203,7 +239,11 @@ journalctl -f
 Once messages like the following are displayed, your masternode is now synchronized and contributing to the network.
 
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/vps.jpg"  >}}
+=======
+![](/PirlCloud/images/vps.jpg)
+>>>>>>> local_version
 
 
 
@@ -218,13 +258,21 @@ journalctl -f
 your masternode is contributing to the network if it looks like this:.
 
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/vps.jpg"  >}}
+=======
+![](/PirlCloud/images/vps.jpg)
+>>>>>>> local_version
 
 
 Monitor the status of your masternode by checking the Poseidon Masternode Details page by clicking on the 🔍.   
 A functioning node should appear as follows:
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/detailsmn.png"  >}}
+=======
+![](/PirlCloud/images/detailsmn.png)
+>>>>>>> local_version
 
 
 

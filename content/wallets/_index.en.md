@@ -4,10 +4,17 @@ weight: 5
 pre: "<b>4. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/wallet.png"  >}}
 
 {{< imagesurlsheaders "cloud/Pirl_wallets.jpg" >}}
 
+=======
+![](/images_headers/wallet.png)
+
+
+![](/wallets/images/Pirl_wallets.jpg )
+>>>>>>> local_version
 
 
 Download here the Pirl Nautilus Wallet-0.9.2 Linux [Downloads]({{< ref "/Downloads" >}})

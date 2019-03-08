@@ -4,7 +4,11 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/testnetwork.png"  >}}
+=======
+![](/images_headers/testnetwork.png)
+>>>>>>> local_version
 
 
 
@@ -29,7 +33,11 @@ The network security solution we code named “Hulk” will now be tested on the
 ### [PirlTestNetwork Stats](http://devstats.pirl.io/ "PirlTestNetwork Stats").
 
 
+<<<<<<< HEAD
 
+=======
+### [Phoenix Windows miner 3.5d for testnetwork](/development/core/testnetwork/miner/PhoenixMiner_Pirl_testnetwork.zip "Phoenix Windows miner 3.5d for testnetwork").
+>>>>>>> local_version
 
 
 

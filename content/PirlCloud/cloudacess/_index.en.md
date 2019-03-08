@@ -4,7 +4,11 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/Pirl_IPFSsmall.png"  >}}
+=======
+![](/PirlCloud/images/Pirl_IPFSsmall.png)
+>>>>>>> local_version
 
 
 ## Public storage.

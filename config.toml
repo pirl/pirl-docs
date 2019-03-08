@@ -13,7 +13,10 @@ theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> local_version
 [params]
   editURL = "https://git.pirl.io/community/pirl-docs/tree/master/content/"
   description = "Pirl documentations"
@@ -21,9 +24,14 @@ defaultContentLanguageInSubdir= true
   showVisitedLinks = true
   disableBreadcrumb = true
   disableNextPrev = true
+<<<<<<< HEAD
   #baseURL= "https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/"
   
 
+=======
+#relativeURLs = "true"
+#canonifyURLs = "true"
+>>>>>>> local_version
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
@@ -54,5 +62,8 @@ name = "<i class='fab fa-fw fa-gitlab'></i> Repo Gitlab"
 identifier = "ds"
 url = "https://git.pirl.io/community/pirl-docs"
 weight = 10
+<<<<<<< HEAD
 
  
+=======
+>>>>>>> local_version

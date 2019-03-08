@@ -4,7 +4,11 @@ weight: 5
 pre: "<b>5. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/smartcontract.png"  >}}
+=======
+![](/images_headers/smartcontract.png)
+>>>>>>> local_version
 
 
 ## Introduction

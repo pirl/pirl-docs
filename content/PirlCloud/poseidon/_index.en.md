@@ -4,7 +4,11 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/Poseidon.png"  >}}
+=======
+![](/images_headers/Poseidon.png)
+>>>>>>> local_version
 
 
 ## The whole new Poseidon V2

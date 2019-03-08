@@ -4,12 +4,20 @@ weight: 2
 pre: "<b>2. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/Masternodes.png"  >}}
+=======
+![](/images_headers/Masternodes.png)
+>>>>>>> local_version
 
 
 # Content Masternodes
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/masternodes.jpg" >}}
+=======
+![](/PirlCloud/masternodes/images/masternodes.jpg)
+>>>>>>> local_version
 
 
 **Content Masternodes** Will provide file storage for the publicly accessible media and data needed for dApps and the marketplace.

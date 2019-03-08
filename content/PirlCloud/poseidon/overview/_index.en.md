@@ -4,7 +4,11 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/Poseidon.png"  >}}
+=======
+![](/images_headers/Poseidon.png)
+>>>>>>> local_version
 
 
 ## Poseidon starting page.
@@ -15,7 +19,11 @@ And the rewards they are making,
 and an overview about the locations where they are:
 
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/Poseidon_overview.jpg"  >}}
+=======
+![](/PirlCloud/images/Poseidon_overview.jpg)
+>>>>>>> local_version
 
 
 ## Poseidon register for an account.
@@ -25,7 +33,11 @@ If you look at the left side of the page you see the option to register for an a
 or login to your account if you already got one:
 
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/Poseidon_left.jpg"  >}}
+=======
+![](/PirlCloud/images/Poseidon_left.jpg)
+>>>>>>> local_version
 
 
 ## Go ahead to the next page to see how you create an account:
@@ -49,4 +61,7 @@ Author(s):
 
 
 Contributor(s):
+<<<<<<< HEAD
 
+=======
+>>>>>>> local_version
