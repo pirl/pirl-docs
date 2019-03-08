@@ -154,7 +154,7 @@ This is an [example link](http://example.com/ "With a Title"). It will still wor
 
 ### Images
 
-Linking images is just like links with a **!** exclamation point in front.
+Linking images is just like links with a shortcode {{< imagesurlsheaders "cloud/magic.gif" >}}
 
 ```
 * {{< imagesurlsheaders "cloud/magic.gif" >}}
@@ -177,5 +177,6 @@ More importantly, notice the back ticks at the top and bottom.
 Author:
 _[PrimateCrypto](https://twitter.com/PrimateCrypto)_
 
-Contributor(s):
-_[Mickey Maler](https://twitter.com/MickeyMaler)_
+Contributor(s):  
+
+@dptelecom

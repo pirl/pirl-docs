@@ -6,10 +6,9 @@ chapter: true
 ---
 {{< imagesurlsheaders "images_headers/Pressreleases.png"  >}}
 
-![](/Press releases/images/pressrelease-image-1024x682.jpg)
+{{< imagesurlsheaders "cloud/pressrelease-image-1024x682.jpg"  >}}
 
 
-content
 
 ## Press releases
 
