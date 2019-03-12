@@ -5,7 +5,11 @@ pre: "<b>13. </b>"
 chapter: true
 ---
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/bounty.png"  >}}
+=======
+![](/images_headers/bounty.png)
+>>>>>>> local_version
 
 Si vous êtes un membre actif de la communauté Pirl et souhaitez contribuer au projet.
 Nous aimerions vous souhaiter la bienvenue à nos initiatives Bounty & Contribution où vous pouvez mettre vos talent à profit, aidez-nous à grandir et à récompensé!

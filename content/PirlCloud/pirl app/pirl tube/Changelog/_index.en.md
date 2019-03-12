@@ -4,7 +4,11 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/pirltube.png"  >}}
+=======
+![](/images_headers/pirltube.png)
+>>>>>>> local_version
 
 
 ## All notable changes to this project will be documented in this file.

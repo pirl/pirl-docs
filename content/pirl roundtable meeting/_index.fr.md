@@ -4,7 +4,11 @@ weight: 7
 pre: "<b>6. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/round_table.png"  >}}
+=======
+![](/images_headers/round_table.png)
+>>>>>>> local_version
 
 ### Philosophie de la table ronde de PIRL
 

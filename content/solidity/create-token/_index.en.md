@@ -4,7 +4,11 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/smartcontract.png"  >}}
+=======
+![](/images_headers/smartcontract.png)
+>>>>>>> local_version
 
 
 ## The Coin
@@ -195,7 +199,11 @@ pragma solidity ^0.4.16;
 
 ## UNDERSTANDING THE CODE
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/1.jpg" >}}
+=======
+![](/solidity/create-token/images/1.jpg)
+>>>>>>> local_version
 
 
 So let's start with the basics. Open the Wallet app, go to the Contracts tab and then Deploy New Contract. On the Solidity Contract Source code text field, type the code below:
@@ -208,7 +216,11 @@ So let's start with the basics. Open the Wallet app, go to the Contracts tab and
 
 A mapping means an associative array, where you associate addresses with balances. The addresses are in the basic hexadecimal Pirl format, while the balances are integers, ranging from 0 to 115 quattuorvigintillion. If you don't know how much a quattuorvigintillion is, it's many vigintillions more than anything you are planning to use your tokens for. The public keyword, means that this variable will be accessible by anyone on the blockchain, meaning all balances are public (as they need to be, in order for clients to display them).
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/2.jpg" >}}
+=======
+![](/solidity/create-token/images/2.jpg)
+>>>>>>> local_version
 
 If you published your contract right away, it would work but wouldn't be very useful: it would be a contract that could query the balance of your coin for any address–but since you never created a single coin, every one of them would return 0. So we are going to create a few tokens on startup. Add this code before the last closing bracket, just under the mapping.. line.
 
@@ -228,7 +240,11 @@ The choice of 21 million was rather arbitrary, and you can change it to anything
 
 Take a look at the right column beside the contract and you'll see a drop-down list, written pick a contract. Select the "MyToken" contract and you'll see that now it shows a section called Constructor parameters. These are changeable parameters for your token, so you can reuse the same code and only change these variables in the future.
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/3.jpg" >}}
+=======
+![](/solidity/create-token/images/3.jpg)
+>>>>>>> local_version
 
 Right now you have a functional contract that created balances of tokens but since there isn't any function to move it, all it does is stay on the same account. So we are going to implement that now. Write the following code before the last bracket.
 
@@ -293,6 +309,7 @@ What are those @notice and @param comments, you might ask? That's Natspec an eme
 If you aren't there already, open the Pirl Wallet, go to the contracts tab and then click "deploy new contract".
 Now get the token source from above and paste it into the "Solidity source field". If the code compiles without any error, you should see a "pick a contract" drop-down list on the right. Get it and select the "MyToken" contract. On the right column, you'll see all the parameters you need to personalize your own token. You can tweak them as you please.
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/4.jpg" >}}
 
 Scroll to the end of the page and you'll see an estimate of the computation cost of that contract and you can select a fee on how much Pirl you are willing to pay for it. Any excess Pirl you don't spend will be returned to you so you can leave the default settings if you wish. Press "deploy", type your account password and wait a few seconds for your transaction to be picked up.
@@ -302,12 +319,27 @@ Scroll to the end of the page and you'll see an estimate of the computation cost
 You'll be redirected to the front page where you can see your transaction waiting for confirmations. Click the account and after no more than a minute you should see that your account will show that you have 100% of the shares you just created.  To send some to a few friends: select "send", and then choose which currency you want to send (Pirl or your newly created share), paste your friend's address on the "to" field and press "send".
 
 {{< imagesurlsheaders "cloud/6.jpg" >}}
+=======
+![](/solidity/create-token/images/4.jpg)
+
+Scroll to the end of the page and you'll see an estimate of the computation cost of that contract and you can select a fee on how much Pirl you are willing to pay for it. Any excess Pirl you don't spend will be returned to you so you can leave the default settings if you wish. Press "deploy", type your account password and wait a few seconds for your transaction to be picked up.
+
+![](/solidity/create-token/images/5.jpg)
+
+You'll be redirected to the front page where you can see your transaction waiting for confirmations. Click the account and after no more than a minute you should see that your account will show that you have 100% of the shares you just created.  To send some to a few friends: select "send", and then choose which currency you want to send (Pirl or your newly created share), paste your friend's address on the "to" field and press "send".
+
+![](/solidity/create-token/images/6.jpg)
+>>>>>>> local_version
 
 If you send it to a friend, they will not see anything in their wallet yet. This is because the wallet only tracks tokens it knows about, and you have to add these manually. Now go to the "Contracts" tab and you should see a link to your newly created contract. Click on it to go to its page. Since this is a very simple contract page there isn't much to do here, just click "copy address" and paste the contract address into a text editor, you'll need it shortly.
 
 To add a token to watch, go to the contracts page and then click "Watch Token". A pop-up will appear and you only need to paste the contract address. The token name, symbol and decimal number should be automatically filled but if it's not you can put anything you want (it will only affect how it displays on your wallet). Once you do this, you'll automatically be shown any balance you have of that token and you'll be able to send it to anyone else.
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/7.jpg" >}}
+=======
+![](/solidity/create-token/images/7.jpg)
+>>>>>>> local_version
 
 And now you have your own crypto token! Tokens by themselves can be useful as value exchange on local communities, ways to keep track of worked hours or other loyalty programs. But can we make a currency have an intrinsic value by making it useful?
 
@@ -477,7 +509,11 @@ The previous examples, of course, describe a contract with a single central buye
 
 Everytime, you make a transaction on Pirl you need to pay a fee to the miner of the block that will calculate the result of your smart contract. While this might change in the future, for the moment fees can only be paid in Pirl and therefore all users of your tokens need it. Tokens in accounts with a balance smaller than the fee are stuck until the owner can pay for the necessary fee. But in some use cases, you might not want your users to think about Pirl, blockchain or how to obtain Pirl, so one possible approach would have your coin automatically refill the user balance as soon as it detects the balance is dangerously low.
 
+<<<<<<< HEAD
 In order to do that, first you need to create a variable that will hold the threshold amount and a function to change it.
+=======
+In order to do that, first you need to create a variable that will hold the threshold amount and a function to change it. 
+>>>>>>> local_version
    uint minBalanceForAccounts;
 
     function setMinBalance(uint minimumBalanceInFinney) onlyOwner {
@@ -527,7 +563,11 @@ It's also possible to add a mathematical formula, so that anyone who can do math
 
 Of course, while calculating cubic roots can be hard for someone to do on their heads, they are very easy with a calculator, so this game could be easily broken by a computer. Also since the last winner can choose the next challenge, they could pick somPirling they know and therefore would not be a very fair game to other players. There are tasks that are easy for humans but hard for computers but they are usually very hard to code in simple scripts like these. Instead, a fairer system should be one that is very hard for a computer to do, but isn't very hard for a computer to verify. A great candidate would be to create a hash challenge where the challenger has to generate hashes from multiple numbers until they find one that is lower than a given difficulty.
 
+<<<<<<< HEAD
 This process was first proposed by Adam Back in 1997 as Hashcash and then was implemented in Bitcoin by Satoshi Nakamoto as Proof of work in 2008.
+=======
+This process was first proposed by Adam Back in 1997 as Hashcash and then was implemented in Bitcoin by Satoshi Nakamoto as Proof of work in 2008. 
+>>>>>>> local_version
 
 If you like Hashing as a form of random issuance of coins, you can still create your own Pirl based currency that has a proof of work issuance:
    bytes32 public currentChallenge;                         // The coin starts with a challenge
@@ -561,7 +601,11 @@ This process of trying to find the number that will give you a reward is what is
 
 ## FULL COIN CODE
 If you add all the advanced options, this is how the final code should look like:
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> local_version
     pragma solidity ^0.4.16;
 
     contract owned {
@@ -821,16 +865,27 @@ On the right side, under Write to Contract you'll see all the functions you can 
 Select the address where those new currencies will be created and then the amount (if you have decimals set at 2, then add 2 zeros after the amount, to create the correct quantity). On Execute from select the account that set as owner, leave the Pirl amount at zero and then press execute.
 
 After a few confirmations, the recipient balance will be updated to reflect the new amount. But your recipient wallet might not show it automatically: in order to be aware of custom tokens, the wallet must add them manually to a watch list. Copy your token address (at the admin page, press copy address) and send that to your recipient. If they haven't already they should go to the contracts tab, press Watch Token and then add the address there. Name, symbols and decimal amounts displayed can be customized by the end user, especially if they have other tokens with similar (or the same) name. The main icon is not changeable and users should pay attention to them when sending and receiving tokens to ensure they are dealing with the real deal and not some copycat token.
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> local_version
 ### Using your coin
 
 Once you've deployed your tokens, they will be added to your list of watched tokens, and the total balance will be shown on your account. In order to send tokens, just go to the Send tab and select an account that contains tokens. The tokens the account has will be listed just under Pirl. Select them and then type the amount of tokens you want to send.
 If you want to add someone else's token, just go to the Contracts tab and click Watch token. For example, to add the Pirl Vortex token to your watch list, just add the address 0x0489A975393A1cD0330740040141D702C35180cb
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/9.jpg" >}}
 
 
 
+=======
+![](/solidity/create-token/images/9.jpg)
+
+
+ 
+>>>>>>> local_version
 ### Now what?
 
 You just learned how you can use Pirl to issue a token, that can represent anything you want. But what can you do with the tokens? You can use, for instance, the tokens to represent a share in a company or you can use a central committee to vote on when to issue new coins to control inflation. You can also use them to raise money for a cause, via a crowdsale. What will you build next?
@@ -844,4 +899,8 @@ Author(s):
 
 Contributor(s):  
 
+<<<<<<< HEAD
 @Dptelecom
+=======
+@Dptelecom
+>>>>>>> local_version

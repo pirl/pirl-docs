@@ -4,7 +4,12 @@ weight: 4
 pre: "<b>4. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/aftermath.png"  >}}
+=======
+![](/development/images/aftermath.png)
+
+>>>>>>> local_version
 
 ## Dear Community,
 

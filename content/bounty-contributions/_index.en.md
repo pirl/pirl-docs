@@ -4,8 +4,13 @@ weight: 14
 pre: "<b>13. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/bounty.png"  >}}
 
+=======
+
+![](/images_headers/bounty.png)
+>>>>>>> local_version
 
 
 

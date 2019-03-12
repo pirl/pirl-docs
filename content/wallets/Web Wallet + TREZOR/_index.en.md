@@ -25,6 +25,7 @@ For granting the success of this operation, you will need these requirements:
 * Connect your Trezor with PC (make sure you did that update)
 
 * Go [here](https://wallet.pirl.io/)
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/Wallet_Page.JPG" >}}
 * The interface of this pages is similar to MyEther Wallet (MEW)
 
@@ -35,6 +36,18 @@ For granting the success of this operation, you will need these requirements:
 
 * The Trezor will generate 5 addresses for you. They are all yours. You can choose a one, or you can use them all as you please
 {{< imagesurlsheaders "cloud/address.JPG" >}}
+=======
+![](/wallets/Web Wallet + TREZOR/images/Wallet_Page.JPG)
+* The interface of this pages is similar to MyEther Wallet (MEW)
+
+* Click on "hardware wallet"(text written in red inside the yellow box)
+![](/wallets/Web Wallet + TREZOR/images/ClickOnHardwareWaller.JPG)
+* Interact with your Trezor and click out your pin
+![](/wallets/Web Wallet + TREZOR/images/interactWithTrezor.JPG)![](/wallets/Web Wallet + TREZOR/images/trezorPin.JPG)
+
+* The Trezor will generate 5 addresses for you. They are all yours. You can choose a one, or you can use them all as you please
+![](/wallets/Web Wallet + TREZOR/images/address.JPG)
+>>>>>>> local_version
 * Select one particular address and write the address down
 
 * Now you have PIRL Web wallet secured by Trezor. Until you have your Trezor in your safe possession and your recovery Seed somewhere out of sight (two copies at least, each of them on a different location), your coins are secured well.

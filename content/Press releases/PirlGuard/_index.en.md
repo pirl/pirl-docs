@@ -4,7 +4,11 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/pirlguard.png" >}}
+=======
+![](/Press releases/images/pirlguard.png)
+>>>>>>> local_version
 
 
 ## Press releases
@@ -59,7 +63,11 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 
 
 
+<<<<<<< HEAD
 <img src="cloud/egem1.png" align="left"><br>
+=======
+<img src="/Press releases/images/egem1.png" align="left"><br>
+>>>>>>> local_version
 <br>
 <br>
 <br>
@@ -75,10 +83,17 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 ### Here is the official announcement from the EGEM lead dev Riddlez666 
 
 
+<<<<<<< HEAD
 {{< imagesurlsheaders "cloud/edgemdev.jpg" >}}
 
 
 {{< imagesurlsheaders "cloud/egem4.jpg" >}}
+=======
+![](/Press releases/images/edgemdev.jpg)
+
+
+![](/Press releases/images/egem4.jpg)
+>>>>>>> local_version
 
 
 <br>

@@ -4,8 +4,12 @@ weight: 9
 pre: "<b>8. </b>"
 chapter: true
 ---
+<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/development.png"  >}}
 
+=======
+![](/images_headers/development.png)
+>>>>>>> local_version
 
 
 ## Updates about development for Pirl
