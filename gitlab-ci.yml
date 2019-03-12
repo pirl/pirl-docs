@@ -9,7 +9,11 @@ build:
   script:
   - hugo version
   - git submodule update --init --recursive
+<<<<<<< HEAD:gitlab-ci.yml
   - hugo --minify --cleanDestinationDir -d public_html
+=======
+  - hugo -d public_html
+>>>>>>> d49d04f53a32d8ee1bccf7afecc02f6249f091ab:.gitlab-ci.yml
   artifacts:
     paths:
     - public_html
