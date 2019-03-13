@@ -3,6 +3,7 @@ title: Public storage
 weight: 3
 pre: "<b>3. </b>"
 chapter: true
+---
 
 {{< imagesurlsheaders "cloud/Pirl_IPFSsmall.png"  >}}
 
@@ -10,7 +11,7 @@ chapter: true
 
 ## Public storage.
 
-Description soon.....
+Description soon.
 
 
 
