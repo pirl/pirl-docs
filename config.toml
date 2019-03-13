@@ -53,3 +53,9 @@ weight = 10
 #
 #
 #
+[[Languages.fr.menu.shortcuts]]
+name = "<i class='fab fa-safari' ></i> Pirl Website"
+identifier = "pirl"
+url = "https://pirl.io/fr/"
+weight = 20 
+
