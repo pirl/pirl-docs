@@ -5,11 +5,8 @@ pre: "<b>15. </b>"
 chapter: true
 ---
 
-<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/round_table.png"  >}}
-=======
-![](/images_headers/round_table.png)
->>>>>>> local_version
+
 
 
 ## Round Table 12.01.2019
@@ -67,7 +64,7 @@ Talks about PirlGuard and marketing it. It's open source and free for anyone. We
 
 
 Fun fact, around Ethereum classic the attacker refunded 100 k to the exchange.
-              
+
 
 6:30 Fawkes:
 
@@ -498,5 +495,3 @@ Contributor(s):
 
 
 @Dptelecom
-
-

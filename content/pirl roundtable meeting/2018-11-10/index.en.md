@@ -4,11 +4,9 @@ weight: 43
 pre: "<b>8. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/round_table.png"  >}}
-=======
-![](/images_headers/round_table.png)
->>>>>>> local_version
+
 
 
 ## Round Table 10.11.2018
@@ -46,14 +44,14 @@ Please, everybody is allowed to go to our suggestion channel and leave our your 
 
 About our Pools. You will need to update your nodes. Things will be working like they were used to do. Here is the Testnet pool link:https://github.com/phatblinkie/official-pirl-testnet-pool
 Please, don't mine into exchange wallet. It's a bad idea.
-Block time is about 13,000. 
-We are happy with this number. 
+Block time is about 13,000.
+We are happy with this number.
 Your calculation will be exact and precise.
 The monetary policy is based on block numbers, not time itself.
 
 Use these wallets please for  mining into: https://docs.pirl.io/en/wallets/
 
-Read our Docs; there is a lot of manuals and know-how how to do stuff. 
+Read our Docs; there is a lot of manuals and know-how how to do stuff.
 Really much information there and also a possibility for you to contribute with your manuals, instructions. We are more than happy to reward such a helping behavior.
 
 

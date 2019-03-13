@@ -4,11 +4,9 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/pirltube.png"  >}}
-=======
-![](/images_headers/pirltube.png)
->>>>>>> local_version
+
 
 
 ## All notable changes to this project will be documented in this file.
@@ -23,7 +21,7 @@ Windows:
 
 MacOs we are on:
 <span style="color:green">pre Beta 1.0.3-2</span>
- 
+
 ## Added
 
 2018-10-29: Added Channel links to search results.
@@ -75,7 +73,7 @@ MacOs we are on:
 
 2019-01-21: Fixed unique user-name  register.
 -
- 
+
 ## Unreleased
 -
 
@@ -101,7 +99,7 @@ MacOs:
 
 App Version:<span style="color:green">pre Beta 1.0.3-1</span>
 
- 
+
 ## Added
 
 
@@ -183,7 +181,7 @@ App Version:<span style="color:green">pre Beta 1.0.3-1</span>
 ## Removed
 -
 
- 
+
 ## Unreleased
 -
 

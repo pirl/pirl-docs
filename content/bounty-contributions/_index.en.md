@@ -4,13 +4,9 @@ weight: 14
 pre: "<b>13. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/bounty.png"  >}}
 
-=======
-
-![](/images_headers/bounty.png)
->>>>>>> local_version
 
 
 
@@ -28,9 +24,9 @@ put your talent to user, help us grow and get rewarded for it!
  For Questions, please  [Join Discord](https://discord.gg/3WXkUt9)
 
  ![](https://pirl.live/ipfs/QmXNSTqEvXohUdLDhcXAApEbZq9uehAW4DY8TbermihLvb)
- 
- 
- 
+
+
+
  ---
 Author(s):  
 

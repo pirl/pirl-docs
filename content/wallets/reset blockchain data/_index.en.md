@@ -4,11 +4,7 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/wallet.png"  >}}
-=======
-![](/images_headers/wallet.png)
->>>>>>> local_version
 
 
 ## Introduction
@@ -47,4 +43,3 @@ When you reopen the wallet, do note that it will have to download the blockchain
 ---
 Author(s):
 Bigchrome
-

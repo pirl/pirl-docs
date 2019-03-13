@@ -4,12 +4,9 @@ weight: 6
 pre: "<b>6. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
-{{< imagesurlsheaders "images_headers/pirlguard.png"  >}}
-=======
-![](/development/images/PirlGuard.png)
 
->>>>>>> local_version
+{{< imagesurlsheaders "images_headers/pirlguard.png"  >}}
+
 
 ## PirlGuard - Innovative Solution against 51% Attacks
 
@@ -23,11 +20,9 @@ Pirl block 2,442,442 is a historical event not only for Pirl but for blockchain 
 As most of the Pirl community is aware the Pirl Team been researching different ways to secure our blockchain against both ASICS and 51% attacks for several months, openly within our Discord and behind the scenes. During this time Pirl fell victim to a 51% attack along with many other blockchains.
 
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/1.png" >}}
-=======
-![](/development/images/1.png)
->>>>>>> local_version
+
 
 
 
@@ -52,11 +47,11 @@ Source: [CoinMonks](https://medium.com/coinmonks/what-is-a-51-attack-or-double-s
 Author: [Jimi.S](https://twitter.com/JimiSinnige)
 
 
-When a Bitcoin owner signs off on a transaction, it is put into a local pool of unconfirmed transactions. Miners select transactions from these pools to form a block of transactions. In order to add this block of transactions to the blockchain, 
-they need to find a solution to a very difficult mathematical problem. They try to find this solution using computational power. This is called hashing. 
-The more computational power a miner has, the better their chances are to find a solution before other miners find theirs. When a miner finds a solution, 
-it will be broadcasted (along with their block) to the other miners and they will only verify it if all transactions inside the block are valid according to the existing record of transactions on the blockchain. 
-Note that even a corrupted miner can never create a transaction for someone else because they would need the digital signature of that person in order to do that (their private key). 
+When a Bitcoin owner signs off on a transaction, it is put into a local pool of unconfirmed transactions. Miners select transactions from these pools to form a block of transactions. In order to add this block of transactions to the blockchain,
+they need to find a solution to a very difficult mathematical problem. They try to find this solution using computational power. This is called hashing.
+The more computational power a miner has, the better their chances are to find a solution before other miners find theirs. When a miner finds a solution,
+it will be broadcasted (along with their block) to the other miners and they will only verify it if all transactions inside the block are valid according to the existing record of transactions on the blockchain.
+Note that even a corrupted miner can never create a transaction for someone else because they would need the digital signature of that person in order to do that (their private key).
 Sending Bitcoin from someone else’s account is therefore simply impossible without access to the corresponding private key.
 
 
@@ -66,11 +61,9 @@ Sending Bitcoin from someone else’s account is therefore simply impossible wit
 Now pay attention. A malicious miner can however, try to reverse existing transactions. When a miner finds a solution, it is supposed to be broadcasted to all other miners so that they can verify it whereafter the block is added to the blockchain (the miners reach consensus). However, a corrupt miner can create an offspring of the blockchain by not broadcasting the solutions of his blocks to the rest of the network. There are now two versions of the blockchain.
 
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/2.png" >}}
-=======
-![](/development/images/2.png)
->>>>>>> local_version
+
 
 
 There are now two versions of the blockchain. The red blockchain can be considered in ‘stealth’ mode.
@@ -79,21 +72,16 @@ There are now two versions of the blockchain. The red blockchain can be consider
 One version that is being followed by the uncorrupted miners, and one that is being followed by the corrupted miner. The corrupted miner is now working on his own version of that blockchain and is not broadcasting it to the rest of the network. The rest of the network doesn’t pick up on this chain, because after all, it hasn’t been broadcasted. It is isolated to the rest of the network. The corrupted miner can now spend all his Bitcoins on the truthful version of the blockchain, the one that all the other miners are working on. Let’s say he spends it on a Lamborghini for example. On the truthful blockchain, his Bitcoins are now spent. Meanwhile, he does not include these transactions on his isolated version of the blockchain. On his isolated version of the blockchain, he still has those Bitcoins.
 
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/3.png" >}}
-=======
-![](/development/images/3.png)
->>>>>>> local_version
 
 
 Meanwhile, he is still picking up blocks and he verifies them all by himself on his isolated version of the blockchain. This is where all trouble starts… The blockchain is programmed to follow a model of democratic governance, aka the majority. The blockchain does this by always following the longest chain, after all, the majority of the miners add blocks to their version of the blockchain faster than the rest of the network (so; longest chain = majority). This is how the blockchain determines which version of its chain is the truth, and in turn what all balances of wallets are based on. A race has now started. Whoever has the most hashing power will add blocks to their version of the chain faster.
 
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/4.png" >}}
-=======
-![](/development/images/4.png)
->>>>>>> local_version
+
 
 
 ## A race — reversing existing transactions by broadcasting a new chain
@@ -102,24 +90,19 @@ Meanwhile, he is still picking up blocks and he verifies them all by himself on 
 The corrupted miner will now try to add blocks to his isolated blockchain faster than the other miners add blocks to their blockchain (the truthful one). As soon as the corrupted miner creates a longer blockchain, he suddenly broadcasts this version of the blockchain to the rest of the network. The rest of the network will now detect that this (corrupt) version of the blockchain is actually longer than the one they were working on, and the protocol forces them to switch to this chain.
 
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/5.png" >}}
-=======
-![](/development/images/5.png)
->>>>>>> local_version
 
 
 The corrupted blockchain is now considered the truthful blockchain, and all transactions that are not included on this chain will be reversed immediately. The attacker has spent his Bitcoins on a Lamborghini before, but this transaction was not included in his stealth chain, the chain that is now in control, and so he is now once again in control of those Bitcoins. He is able to spend them again.
 
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/6.png" >}}
-=======
-![](/development/images/6.png)
->>>>>>> local_version
 
 
-*This is a double-spend attack.* 
+
+*This is a double-spend attack.*
 It is commonly referred to as a 51% attack because the malicious miner will require more hashing power than the rest of the network combined (thus 51% of the hashing power) in order to add blocks to his version of the blockchain faster, eventually allowing him to build a longer chain.
 
 
@@ -145,11 +128,8 @@ In order to disrupt the mechanics behind 51% attack that allows an attacker to b
 With the PirlGuard Protocol deployed the chances of an attack succeeding are vastly reduced. As we know once the attacker has created a longer chain through privately mining a separate chain they will then have to broadcast it to the network. Once the attacker opens their node for peering it will attempt to peer with rest of the nodes on the network, telling them that they are wrong. However, once this happens PirlGuard will drop the peer and penalize them by sentencing them to mine X amount of penalty blocks due to their un-peered mining. The amount of penalty blocks assigned depends on the amount of blocks that the malicious miner mined in private.
 
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/7.png" >}}
-=======
-![](/development/images/7.png)
->>>>>>> local_version
 
 
 The PirlGuard security protocol greatly deters attackers from attempting malicious peering giving the main network a much needed boost in security. This new security mechanism reduces the chances to approximately 0.03%.
@@ -184,14 +164,14 @@ The PirlGuard Security Protocol will be added to our open source library along w
 At Pirl we are developing to revolutionize and streamline blockchain technology for the entire blockchain industry. This means our code will be available to anyone to study, educate, test, modify or apply towards their own blockchain network security against future 51% attacks.
 
 
-[Source Code:](https://git.pirl.io/community/pirl) 
+[Source Code:](https://git.pirl.io/community/pirl)
 [Website:](https://pirl.io/en)
 
 
 
 
 
- 
+
 #PirlTogetherStrong
 
 

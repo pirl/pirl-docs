@@ -5,11 +5,9 @@ pre: "<b>2. </b>"
 chapter: true
 ---
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/marketing.png"  >}}
-=======
-![](/images_headers/marketing.png)
->>>>>>> local_version
+
 
 ## Introduction
 
@@ -19,7 +17,7 @@ A major part of the Pirl marketing is relaying on the team and the community.
 
 We have identified a lot of fresh and thoughtful ideas coming from the Pirlians!
 
-We would like to turn this into a process and reward your contribution! 
+We would like to turn this into a process and reward your contribution!
 
 ## Requirements
 
@@ -29,9 +27,9 @@ We would like to turn this into a process and reward your contribution!
 
 - Use common sense! Keep it realistic!
 
-### How 
+### How
 
-- Make a copy or download the [template](https://docs.google.com/document/d/1LVEAML2oLC2eHee72cmlZ1T-yTH56anE6WBncbOd4kw/edit?usp=sharing) 
+- Make a copy or download the [template](https://docs.google.com/document/d/1LVEAML2oLC2eHee72cmlZ1T-yTH56anE6WBncbOd4kw/edit?usp=sharing)
 
 - Fill In the details of your proposal!
 
@@ -41,9 +39,9 @@ We would like to turn this into a process and reward your contribution!
 
 ## Disclaimer
 
-Pirl Team has the right to disapprove 
-- 1. Proposals with Insufficient details 
-- 2. Unrealistic Proposals 
+Pirl Team has the right to disapprove
+- 1. Proposals with Insufficient details
+- 2. Unrealistic Proposals
 - 3. Proposals which are not submitted in the requested format
 
 

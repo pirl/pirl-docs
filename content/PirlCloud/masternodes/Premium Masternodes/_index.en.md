@@ -4,24 +4,19 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/Masternodes.png"  >}}
 
 
 {{< imagesurlsheaders "cloud/masternodes.jpg" >}}
-=======
-![](/images_headers/Masternodes.png)
 
-
-![](/PirlCloud/masternodes/images/masternodes.jpg)
->>>>>>> local_version
 
 
 ## Premium Masternodes
 
 
-**Premium Masternodes** are the top-tier masternodes in the ecosystem. 
-They provide network security by storing the blockchain data and relaying transaction in the blockchain as well as serving as content and storage masternodes. 
+**Premium Masternodes** are the top-tier masternodes in the ecosystem.
+They provide network security by storing the blockchain data and relaying transaction in the blockchain as well as serving as content and storage masternodes.
 The premium masternodes will be additionally rewarded with
 % of the fees of Poseidon platform.
 

@@ -5,11 +5,9 @@ pre: "<b>2. </b>"
 chapter: true
 ---
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/marketing.png"  >}}
-=======
-![](/images_headers/marketing.png)
->>>>>>> local_version
+
 
 
 ## Introduction
@@ -27,8 +25,8 @@ Nous aimerions transformer cela en un  processus  et récompenser votre contribu
 Détaillez la proposition autant que possible!
 
 - Inclure les budgets  
-- N’oubliez pas, 
-  nous sommes dans un marché baissier et nous n’avons aucun ICO. Les propositions pouvant être réalisées avec vos propres moyen ou avec le budget PIRL seront privilégiées! 
+- N’oubliez pas,
+  nous sommes dans un marché baissier et nous n’avons aucun ICO. Les propositions pouvant être réalisées avec vos propres moyen ou avec le budget PIRL seront privilégiées!
 -Utiliser le bon sens! Rester réaliste!
 
 ### Comment
@@ -63,4 +61,3 @@ Contributor():
 
 
 @ClaudioPirl
-

@@ -4,11 +4,9 @@ weight: 5
 pre: "<b>5. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/smartcontract.png"  >}}
-=======
-![](/images_headers/smartcontract.png)
->>>>>>> local_version
+
 
 
 ## Introduction
@@ -39,7 +37,7 @@ contract mortal {
 contract greeter is mortal {
     /* define variable greeting of the type string */
     string greeting;
-    
+
     /* this runs when the contract is executed */
     function greeter(string _greeting) public {
         greeting = _greeting;
@@ -68,7 +66,7 @@ If you have it installed, it should output something like this:
 
     ['Solidity' ]
 
-If instead the command returns an error, then you need to install it. 
+If instead the command returns an error, then you need to install it.
 
 #### Using an online compiler
 
@@ -111,7 +109,7 @@ If you have the SolC Solidity Compiler installed,  you need now reformat by remo
     mkdir cpp-Pirl/build
     cd cpp-Pirl/build
     cmake -DJSONRPC=OFF -DMINER=OFF -DETHKEY=OFF -DSERPENT=OFF -DGUI=OFF -DTESTS=OFF -DJSCONSOLE=OFF ..
-    make -j4 
+    make -j4
     make install
     which solc
 
@@ -128,7 +126,7 @@ Now type again:
 If you now have solC installed, then congratulations, you can keep reading. If you don't, then go to our [forums](http://forum.Pirl.org) or [subreddit](http://www.reddit.com/r/Pirl) and berate us on failing to make the process easier.
 
 
-### Compiling your contract 
+### Compiling your contract
 
 
 If you have the compiler installed, you need now reformat your contract by removing line-breaks so it fits into a string variable [(there are some online tools that will do this)](http://www.textfixer.com/tools/remove-line-breaks.php):
@@ -189,9 +187,9 @@ Replace _greeterAddress_ with your contract's address.
 **Tip: if the solidity compiler isn't properly installed in your machine, you can get the ABI from the online compiler. To do so, use the code below carefully replacing _greeterCompiled.greeter.info.abiDefinition_  with the abi from your compiler.**
 
 
-### Cleaning up after yourself: 
+### Cleaning up after yourself:
 
-You must be very excited to have your first contract live, but this excitement wears off sometimes, when the owners go on to write further contracts, leading to the unpleasant sight of abandoned contracts on the blockchain. In the future, blockchain rent might be implemented in order to increase the scalability of the blockchain but for now, be a good citizen and humanely put down your abandoned bots. 
+You must be very excited to have your first contract live, but this excitement wears off sometimes, when the owners go on to write further contracts, leading to the unpleasant sight of abandoned contracts on the blockchain. In the future, blockchain rent might be implemented in order to increase the scalability of the blockchain but for now, be a good citizen and humanely put down your abandoned bots.
 
 Unlike last time we will not be making a call as we wish to change something on the blockchain. This requires a transaction be sent to the network and a fee to be paid for the changes made. The suicide is subsidized by the network so it will cost much less than a usual transaction.
 
@@ -201,7 +199,7 @@ You can verify that the deed is done simply seeing if this returns 0:
 
     eth.getCode(greeter.contractAddress)
 
-Notice that every contract has to implement its own kill clause. In this particular case only the account that created the contract can kill it. 
+Notice that every contract has to implement its own kill clause. In this particular case only the account that created the contract can kill it.
 
 If you don't add any kill clause it could potentially live forever (or at least until the frontier contracts are all wiped) independently of you and any earthly borders, so before you put it live check what your local laws say about it, including any possible limitation on technology export, restrictions on speech and maybe any legislation on the civil rights of sentient digital beings. Treat your bots humanely.
 
@@ -209,9 +207,9 @@ If you don't add any kill clause it could potentially live forever (or at least 
 
 
 
-## The Coin 
+## The Coin
 
-What is a coin? Coins are much more interesting and useful than they seem, they are in essence just a tradeable token, but can become much more, depending on how you use them. Its value depends on what you do with it: a token can be used to control access (**an entrance ticket**), can be used for voting rights in an organization (**a share**), can be placeholders for an asset held by a third party (**a certificate of ownership**) or even be simply used as an exchange of value within a community (**a currency**). 
+What is a coin? Coins are much more interesting and useful than they seem, they are in essence just a tradeable token, but can become much more, depending on how you use them. Its value depends on what you do with it: a token can be used to control access (**an entrance ticket**), can be used for voting rights in an organization (**a share**), can be placeholders for an asset held by a third party (**a certificate of ownership**) or even be simply used as an exchange of value within a community (**a currency**).
 
 You could do all those things by creating a centralized server, but using an Pirl token contract comes with some free functionalities: for one, it's a decentralized service and tokens can be still exchanged even if the original service goes down for any reason. The code can guarantee that no tokens will ever be created other than the ones set in the original code. Finally, by having each user hold their own token, this eliminates the scenarios where one single server break-in can result in the loss of funds from thousands of clients.
 
@@ -220,16 +218,16 @@ You could create your own token on a different blockchain, but creating on Pirl 
 ### The Code
 
 This is the code for the contract we're building:
- 
-    contract token { 
+
+    contract token {
         mapping (address => uint) public coinBalanceOf;
         event CoinTransfer(address sender, address receiver, uint amount);
-      
+
       /* Initializes contract with initial supply tokens to the creator of the contract */
       function token(uint supply) {
             coinBalanceOf[msg.sender] = supply;
         }
-      
+
       /* Very simple trade function */
         function sendCoin(address receiver, uint amount) returns(bool sufficient) {
             if (coinBalanceOf[msg.sender] < amount) return false;
@@ -252,15 +250,15 @@ In this example we declared the variable "coinBalanceOf" to be public, this will
 
     var tokenCompiled = eth.compile.solidity(tokenSource)
 
-Now let’s set up the contract, just like we did in the previous section. Change the "initial Supply" to the amount of non divisible tokens you want to create. If you want to have divisible units, you should do that on the user frontend but keep them represented in the minimun unit of account. 
+Now let’s set up the contract, just like we did in the previous section. Change the "initial Supply" to the amount of non divisible tokens you want to create. If you want to have divisible units, you should do that on the user frontend but keep them represented in the minimun unit of account.
 
     var supply = 10000;
     var tokenContract = web3.eth.contract(tokenCompiled.token.info.abiDefinition);
     var token = tokenContract.new(
       supply,
       {
-        from:web3.eth.accounts[0], 
-        data:tokenCompiled.token.code, 
+        from:web3.eth.accounts[0],
+        data:tokenCompiled.token.code,
         gas: 1000000
       }, function(e, contract){
         if(!e) {
@@ -283,7 +281,7 @@ If everything worked correctly, you should be able to check your own balance wit
 
     token.coinBalanceOf(eth.accounts[0]) + " tokens"
 
-It should have all the 10 000 tokens that were created once the contract was published. Since there is not any other defined way for new coins to be issued, these are all that will ever exist. 
+It should have all the 10 000 tokens that were created once the contract was published. Since there is not any other defined way for new coins to be issued, these are all that will ever exist.
 
 You can set up a **Watcher** to react whenever anyone sends a coin using your contract. Here's how you do it:
 
@@ -322,12 +320,12 @@ Right now this cryptocurrency is quite limited as there will only ever be 10,000
       }
     }
 
-You could modify this to anything else: maybe reward someone who finds a solution for a new puzzle, wins a game of chess, install a solar panel—as long as that can be somehow translated to a contract. Or maybe you want to create a central bank for your personal country, so you can keep track of hours worked, favours owed or control of property. In that case you might want to add a function to allow the bank to remotely freeze funds and destroy tokens if needed. 
+You could modify this to anything else: maybe reward someone who finds a solution for a new puzzle, wins a game of chess, install a solar panel—as long as that can be somehow translated to a contract. Or maybe you want to create a central bank for your personal country, so you can keep track of hours worked, favours owed or control of property. In that case you might want to add a function to allow the bank to remotely freeze funds and destroy tokens if needed.
 
 
 ### Register a name for your coin
 
-The commands mentioned only work because you have token javascript object instantiated on your local machine. If you send tokens to someone they won't be able to move them forward because they don't have the same object and wont know where to look for your contract or call its functions. In fact if you restart your console these objects will be deleted and the contracts you've been working on will be lost forever. So how do you instantiate the contract on a clean machine? 
+The commands mentioned only work because you have token javascript object instantiated on your local machine. If you send tokens to someone they won't be able to move them forward because they don't have the same object and wont know where to look for your contract or call its functions. In fact if you restart your console these objects will be deleted and the contracts you've been working on will be lost forever. So how do you instantiate the contract on a clean machine?
 
 There are two ways. Let's start with the quick and dirty, providing your friends with a reference to your contract’s ABI:
 
@@ -367,7 +365,7 @@ Wait a little bit for that transaction to be picked up too and test it:
 
     registrar.addr("MyFirstCoin")
 
-You can send a transaction to anyone or any contract by name instead of account simply by typing 
+You can send a transaction to anyone or any contract by name instead of account simply by typing
 
     eth.sendTransaction({from: eth.accounts[0], to: registrar.addr("MyFirstCoin"), value: web3.toWei(1, "ether")})
 
@@ -379,7 +377,7 @@ This should now return your token address, meaning that now the previous code to
 
 This also means that the owner of the coin can update the coin by pointing the registrar to the new contract. This would, of course, require the coin holders trust the owner set at  registrar.owner("MyFirstCoin")
 
-### Learn More 
+### Learn More
 
 * [Meta coin standard](https://github.com/Pirl/wiki/wiki/Standardized_Contract_APIs) is a proposed standardization of function names for coin and token contracts, to allow them to be automatically added to other Pirl contract that utilizes trading, like exchanges or escrow.
 
@@ -396,24 +394,24 @@ In a crowdfunding prizes are usually given. This would require you to get everyo
 ### The code
 
 The way this particular crowdsale contract works is that you set an exchange rate for your token and then the donors will immediately get a proportional amount of tokens in exchange of their ether. You will also choose a funding goal and a deadline: once that deadline is over you can ping the contract and if the goal was reached it will send the ether raised to you, otherwise it goes back to the donors. Donors keep their tokens even if the project doesn't reach its goal, as a proof that they helped.
-    
-    
+
+
     contract token { mapping (address => uint) public coinBalanceOf; function token() {}  function sendCoin(address receiver, uint amount) returns(bool sufficient) {  } }
-    
+
     contract Crowdsale {
-        
+
         address public beneficiary;
         uint public fundingGoal; uint public amountRaised; uint public deadline; uint public price;
         token public tokenReward;   
         Funder[] public funders;
         event FundTransfer(address backer, uint amount, bool isContribution);
-        
+
         /* data structure to hold information about campaign contributors */
         struct Funder {
             address addr;
             uint amount;
         }
-        
+
         /*  at initialization, setup the owner */
         function Crowdsale(address _beneficiary, uint _fundingGoal, uint _duration, uint _price, token _reward) {
             beneficiary = _beneficiary;
@@ -422,7 +420,7 @@ The way this particular crowdsale contract works is that you set an exchange rat
             price = _price;
             tokenReward = token(_reward);
         }   
-        
+
         /* The function without name is the default function that is called whenever anyone sends funds to a contract */
         function () {
             uint amount = msg.value;
@@ -431,7 +429,7 @@ The way this particular crowdsale contract works is that you set an exchange rat
             tokenReward.sendCoin(msg.sender, amount / price);
             FundTransfer(msg.sender, amount, true);
         }
-            
+
         modifier afterDeadline() { if (now >= deadline) _ }
 
         /* checks if the goal or time limit has been reached and ends the campaign */
@@ -473,14 +471,14 @@ You know the drill: if you are using the solC compiler,[remove line breaks](http
 
     var crowdsaleContract = web3.eth.contract(crowdsaleCompiled.Crowdsale.info.abiDefinition);
     var crowdsale = crowdsaleContract.new(
-      _beneficiary, 
-      _fundingGoal, 
-      _duration, 
-      _price, 
+      _beneficiary,
+      _fundingGoal,
+      _duration,
+      _price,
       _reward,
       {
-        from:web3.eth.accounts[0], 
-        data:crowdsaleCompiled.Crowdsale.code, 
+        from:web3.eth.accounts[0],
+        data:crowdsaleCompiled.Crowdsale.code,
         gas: 1000000
       }, function(e, contract){
         if(!e) {
@@ -498,7 +496,7 @@ You know the drill: if you are using the solC compiler,[remove line breaks](http
 
 Wait up to thirty seconds and you'll see a message like this:
 
-    Contract mined! address: 0xdaa24d02bad7e9d6a80106db164bad9399a0423e 
+    Contract mined! address: 0xdaa24d02bad7e9d6a80106db164bad9399a0423e
 
 If you received that alert then your code should be online. You can always double check by doing this:
 
@@ -520,12 +518,12 @@ You want to be alerted whenever your crowdsale receives new funds, so paste this
 
     var event = crowdsale.FundTransfer({}, '', function(error, result){
       if (!error)
-        
+
         if (result.args.isContribution) {
             console.log("\n New backer! Received " + web3.fromWei(result.args.amount, "ether") + " ether from " + result.args.backer  )
 
             console.log( "\n The current funding at " +( 100 *  crowdsale.amountRaised.call() / crowdsale.fundingGoal.call()) + "% of its goals. Funders have contributed a total of " + web3.fromWei(crowdsale.amountRaised.call(), "ether") + " ether.");
-                  
+
             var timeleft = Math.floor(Date.now() / 1000)-crowdsale.deadline();
             if (timeleft>3600) {  console.log("Deadline has passed, " + Math.floor(timeleft/3600) + " hours ago")
             } else if (timeleft>0) {  console.log("Deadline has passed, " + Math.floor(timeleft/60) + " minutes ago")
@@ -539,7 +537,7 @@ You want to be alerted whenever your crowdsale receives new funds, so paste this
 
     });
 
-      
+
 
 
 ### Register the contract
@@ -550,9 +548,9 @@ You are now set. Anyone can now contribute by simply sending ether to the crowds
 
 Check if that's available and register:
 
-    registrar.addr(name) 
+    registrar.addr(name)
     registrar.reserve.sendTransaction(name, {from: eth.accounts[0]});
- 
+
 Wait for the previous transaction to be picked up and then:
 
     registrar.setAddress.sendTransaction(name, crowdsale.address, true,{from: eth.accounts[0]});
@@ -561,7 +559,7 @@ Wait for the previous transaction to be picked up and then:
 ### Contribute to the crowdsale
 
 Contributing to the crowdsale is very simple, it doesn't even require instantiating the contract. This is because the crowdsale responds to simple ether deposits, so anyone that sends ether to the crowdsale will automatically receive a reward.
-Anyone can contribute to it by simply executing this command: 
+Anyone can contribute to it by simply executing this command:
 
     var amount = web3.toWei(5, "ether") // decide how much to contribute
 
@@ -573,7 +571,7 @@ Alternatively, if you want someone else to send it, they can even use the name r
     eth.sendTransaction({from: eth.accounts[0], to: registrar.addr("mycrowdsale"), value: amount, gas: 500000})
 
 
-Now wait a minute for the blocks to pickup and you can check if the contract received the ether by doing any of these commands: 
+Now wait a minute for the blocks to pickup and you can check if the contract received the ether by doing any of these commands:
 
     web3.fromWei(crowdsale.amountRaised.call(), "ether") + " ether"
     token.coinBalanceOf.call(eth.accounts[0]) + " tokens"
@@ -619,21 +617,21 @@ Take a moment to dream about the revolutionary possibilities this would allow, a
 
 ### The Code
 
-    
+
 
 
     contract token { mapping (address => uint) public coinBalanceOf;   function token() { }   function sendCoin(address receiver, uint amount) returns(bool sufficient) {  } }
 
 
     contract Democracy {
-    
+
         uint public minimumQuorum;
         uint public debatingPeriod;
         token public voterShare;
         address public founder;
         Proposal[] public proposals;
         uint public numProposals;
-        
+
         event ProposalAdded(uint proposalID, address recipient, uint amount, bytes32 data, string description);
         event Voted(uint proposalID, int position, address voter);
         event ProposalTallied(uint proposalID, int result, uint quorum, bool active);
@@ -648,20 +646,20 @@ Take a moment to dream about the revolutionary possibilities this would allow, a
             Vote[] votes;
             mapping (address => bool) voted;
         }
-        
+
         struct Vote {
             int position;
             address voter;
         }
-        
+
         function Democracy(token _voterShareAddress, uint _minimumQuorum, uint _debatingPeriod) {
             founder = msg.sender;  
             voterShare = token(_voterShareAddress);
             minimumQuorum = _minimumQuorum || 10;
             debatingPeriod = _debatingPeriod * 1 minutes || 30 days;
         }
-    
-        
+
+
         function newProposal(address _recipient, uint _amount, bytes32 _data, string _description) returns (uint proposalID) {
             if (voterShare.coinBalanceOf(msg.sender)>0) {
                 proposalID = proposals.length++;
@@ -676,7 +674,7 @@ Take a moment to dream about the revolutionary possibilities this would allow, a
                 numProposals = proposalID+1;
             }
         }
-        
+
         function vote(uint _proposalID, int _position) returns (uint voteID){
             if (voterShare.coinBalanceOf(msg.sender)>0 && (_position >= -1 || _position <= 1 )) {
                 Proposal p = proposals[_proposalID];
@@ -687,7 +685,7 @@ Take a moment to dream about the revolutionary possibilities this would allow, a
                 Voted(_proposalID,  _position, msg.sender);
             }
         }
-        
+
         function executeProposal(uint _proposalID) returns (int result) {
             Proposal p = proposals[_proposalID];
             /* Check if debating period is over */
@@ -696,7 +694,7 @@ Take a moment to dream about the revolutionary possibilities this would allow, a
                 /* tally the votes */
                 for (uint i = 0; i <  p.votes.length; ++i) {
                     Vote v = p.votes[i];
-                    uint voteWeight = voterShare.coinBalanceOf(v.voter); 
+                    uint voteWeight = voterShare.coinBalanceOf(v.voter);
                     quorum += voteWeight;
                     result += int(voteWeight) * v.position;
                 }
@@ -730,18 +728,18 @@ So open your console and let's get ready to finally put your country online. Fir
     var _debatingPeriod = 60; // debating period, in minutes;
 
 With these default parameters anyone with any tokens can make a proposal on how to spend the organization's money. The proposal has 1 hour to be debated and it will pass if it has at least votes from at least 0.1% of the total tokens and has more support than rejections. Pick those parameters with care, as you won't be able to change them in the future.
-    
+
     var daoCompiled = eth.compile.solidity('contract token { mapping (address => uint) public coinBalanceOf; function token() { } function sendCoin(address receiver, uint amount) returns(bool sufficient) { } } contract Democracy { uint public minimumQuorum; uint public debatingPeriod; token public voterShare; address public founder; Proposal[] public proposals; uint public numProposals; event ProposalAdded(uint proposalID, address recipient, uint amount, bytes32 data, string description); event Voted(uint proposalID, int position, address voter); event ProposalTallied(uint proposalID, int result, uint quorum, bool active); struct Proposal { address recipient; uint amount; bytes32 data; string description; uint creationDate; bool active; Vote[] votes; mapping (address => bool) voted; } struct Vote { int position; address voter; } function Democracy(token _voterShareAddress, uint _minimumQuorum, uint _debatingPeriod) { founder = msg.sender; voterShare = token(_voterShareAddress); minimumQuorum = _minimumQuorum || 10; debatingPeriod = _debatingPeriod * 1 minutes || 30 days; } function newProposal(address _recipient, uint _amount, bytes32 _data, string _description) returns (uint proposalID) { if (voterShare.coinBalanceOf(msg.sender)>0) { proposalID = proposals.length++; Proposal p = proposals[proposalID]; p.recipient = _recipient; p.amount = _amount; p.data = _data; p.description = _description; p.creationDate = now; p.active = true; ProposalAdded(proposalID, _recipient, _amount, _data, _description); numProposals = proposalID+1; } else { return 0; } } function vote(uint _proposalID, int _position) returns (uint voteID){ if (voterShare.coinBalanceOf(msg.sender)>0 && (_position >= -1 || _position <= 1 )) { Proposal p = proposals[_proposalID]; if (p.voted[msg.sender] == true) return; voteID = p.votes.length++; Vote v = p.votes[voteID]; v.position = _position; v.voter = msg.sender; p.voted[msg.sender] = true; Voted(_proposalID, _position, msg.sender); } else { return 0; } } function executeProposal(uint _proposalID) returns (int result) { Proposal p = proposals[_proposalID]; /* Check if debating period is over */ if (now > (p.creationDate + debatingPeriod) && p.active){ uint quorum = 0; /* tally the votes */ for (uint i = 0; i < p.votes.length; ++i) { Vote v = p.votes[i]; uint voteWeight = voterShare.coinBalanceOf(v.voter); quorum += voteWeight; result += int(voteWeight) * v.position; } /* execute result */ if (quorum > minimumQuorum && result > 0 ) { p.recipient.call.value(p.amount)(p.data); p.active = false; } else if (quorum > minimumQuorum && result < 0) { p.active = false; } } ProposalTallied(_proposalID, result, quorum, p.active); } }');
 
     var democracyContract = web3.eth.contract(daoCompiled.Democracy.info.abiDefinition);
-    
+
     var democracy = democracyContract.new(
-        _voterShareAddress, 
-        _minimumQuorum, 
-        _debatingPeriod, 
+        _voterShareAddress,
+        _minimumQuorum,
+        _debatingPeriod,
         {
-          from:web3.eth.accounts[0], 
-          data:daoCompiled.Democracy.code, 
+          from:web3.eth.accounts[0],
+          data:daoCompiled.Democracy.code,
           gas: 3000000
         }, function(e, contract){
           if(!e) {
@@ -758,13 +756,13 @@ With these default parameters anyone with any tokens can make a proposal on how 
         })
 
 
-Wait a minute until the miners pick it up. It will cost you about 850k Gas. Once that is picked up, it's time to instantiate it and set it up, by pointing it to the correct address of the token contract you created previously. 
+Wait a minute until the miners pick it up. It will cost you about 850k Gas. Once that is picked up, it's time to instantiate it and set it up, by pointing it to the correct address of the token contract you created previously.
 
 If everything worked out, you can take a look at the whole organization by executing this string:
 
     "This organization has " +  democracy.numProposals() + " proposals and uses the token at the address " + democracy.voterShare() ;
 
-If everything is setup then your DAO should return a proposal count of 0 and an address marked as the "founder". While there are still no proposals, the founder of the DAO can change the address of the token to anything it wants. 
+If everything is setup then your DAO should return a proposal count of 0 and an address marked as the "founder". While there are still no proposals, the founder of the DAO can change the address of the token to anything it wants.
 
 ### Register your organization name
 
@@ -790,12 +788,12 @@ Wait for the previous transactions to be picked up and then:
     var eventVote = democracy.Voted({}, '', function(error, result){
       if (!error)
         var opinion = "";
-        if (result.args.position > 0) { 
-          opinion = "in favor" 
-        } else if (result.args.position < 0) { 
-          opinion = "against" 
-        } else { 
-          opinion = "abstaining" 
+        if (result.args.position > 0) {
+          opinion = "in favor"
+        } else if (result.args.position < 0) {
+          opinion = "against"
+        } else {
+          opinion = "abstaining"
         }
 
         console.log("Vote on Proposal #"+ result.args.proposalID +"!\n " + result.args.voter + " is " + opinion )
@@ -803,12 +801,12 @@ Wait for the previous transactions to be picked up and then:
     var eventTally = democracy.ProposalTallied({}, '', function(error, result){
       if (!error)
         var totalCount = "";
-        if (result.args.result > 1) { 
-          totalCount = "passed" 
-        } else if (result.args.result < 1) { 
-          totalCount = "rejected" 
-        } else { 
-          totalCount = "a tie" 
+        if (result.args.result > 1) {
+          totalCount = "passed"
+        } else if (result.args.result < 1) {
+          totalCount = "rejected"
+        } else {
+          totalCount = "a tie"
         }
         console.log("Votes counted on Proposal #"+ result.args.proposalID +"!\n With a total of " + Math.abs(result.args.result) + " out of " + result.args.quorum + ", proposal is " + totalCount + ". Proposal is " + (result.args.active? " still on the floor" : "archived") )
     });
@@ -820,7 +818,7 @@ After you are satisfied with what you want, it's time to get all that ether you 
 
     eth.sendTransaction({from: eth.accounts[1], to: democracy.address, value: web3.toWei(100, "ether")})
 
-This should take only a minute and your country is ready for business! Now, as a first priority, your organisation needs a nice logo, but unless you are a designer, you have no idea how to do that. For the sake of argument let's say you find that your friend Bob is a great designer who's willing to do it for only 10 ethers, so you want to propose to hire him. 
+This should take only a minute and your country is ready for business! Now, as a first priority, your organisation needs a nice logo, but unless you are a designer, you have no idea how to do that. For the sake of argument let's say you find that your friend Bob is a great designer who's willing to do it for only 10 ethers, so you want to propose to hire him.
 
     recipient = registrar.addr("bob");
     amount =  web3.toWei(10, "ether");
@@ -836,14 +834,14 @@ After a minute, anyone can check the proposal recipient and amount by executing 
 
 Unlike most governments, your country's government is completely transparent and easily programmable. As a small demonstration here's a snippet of code that goes through all the current proposals and prints what they are and for whom:
 
-       
+
 
     function checkAllProposals() {
         console.log("Country Balance: " + web3.fromWei( eth.getBalance(democracy.address), "ether") );
-        for (i = 0; i< (Number(democracy.numProposals())); i++ ) { 
-            var p = democracy.proposals(i); 
+        for (i = 0; i< (Number(democracy.numProposals())); i++ ) {
+            var p = democracy.proposals(i);
             var timeleft = Math.floor(((Math.floor(Date.now() / 1000)) - Number(p[4]) - Number(democracy.debatingPeriod()))/60);  
-            console.log("Proposal #" + i + " Send " + web3.fromWei( p[1], "ether") + " ether to address " + p[0].substring(2,6) + " for "+ p[3] + ".\t Deadline:"+ Math.abs(Math.floor(timeleft)) + (timeleft>0?" minutes ago ":" minutes left ") + (p[5]? " Active":" Archived") ); 
+            console.log("Proposal #" + i + " Send " + web3.fromWei( p[1], "ether") + " ether to address " + p[0].substring(2,6) + " for "+ p[3] + ".\t Deadline:"+ Math.abs(Math.floor(timeleft)) + (timeleft>0?" minutes ago ":" minutes left ") + (p[5]? " Active":" Archived") );
         }
     }
 
@@ -851,7 +849,7 @@ Unlike most governments, your country's government is completely transparent and
 
 A concerned citizen could easily write a bot that periodically pings the blockchain and then publicizes any new proposals that were put forth, guaranteeing total transparency.
 
-Now of course you want other people to be able to vote on your proposals. You can check the crowdsale tutorial on the best way to register your contract app so that all the user needs is a name, but for now let's use the easier version. Anyone should be able to instantiate a local copy of your country in their computer by using this giant command: 
+Now of course you want other people to be able to vote on your proposals. You can check the crowdsale tutorial on the best way to register your contract app so that all the user needs is a name, but for now let's use the easier version. Anyone should be able to instantiate a local copy of your country in their computer by using this giant command:
 
 
     democracy = eth.contract( [{ constant: true, inputs: [{ name: '', type: 'uint256' } ], name: 'proposals', outputs: [{ name: 'recipient', type: 'address' }, { name: 'amount', type: 'uint256' }, { name: 'data', type: 'bytes32' }, { name: 'descriptionHash', type: 'bytes32' }, { name: 'creationDate', type: 'uint256' }, { name: 'numVotes', type: 'uint256' }, { name: 'quorum', type: 'uint256' }, { name: 'active', type: 'bool' } ], type: 'function' }, { constant: false, inputs: [{ name: '_proposalID', type: 'uint256' } ], name: 'executeProposal', outputs: [{ name: 'result', type: 'uint256' } ], type: 'function' }, { constant: true, inputs: [ ], name: 'debatingPeriod', outputs: [{ name: '', type: 'uint256' } ], type: 'function' }, { constant: true, inputs: [ ], name: 'numProposals', outputs: [{ name: '', type: 'uint256' } ], type: 'function' }, { constant: true, inputs: [ ], name: 'founder', outputs: [{ name: '', type: 'address' } ], type: 'function' }, { constant: false, inputs: [{ name: '_proposalID', type: 'uint256' }, { name: '_position', type: 'int256' } ], name: 'vote', outputs: [{ name: 'voteID', type: 'uint256' } ], type: 'function' }, { constant: false, inputs: [{ name: '_voterShareAddress', type: 'address' } ], name: 'setup', outputs: [ ], type: 'function' }, { constant: false, inputs: [{ name: '_recipient', type: 'address' }, { name: '_amount', type: 'uint256' }, { name: '_data', type: 'bytes32' }, { name: '_descriptionHash', type: 'bytes32' } ], name: 'newProposal', outputs: [{ name: 'proposalID', type: 'uint256' } ], type: 'function' }, { constant: true, inputs: [ ], name: 'minimumQuorum', outputs: [{ name: '', type: 'uint256' } ], type: 'function' }, { inputs: [ ], type: 'constructor' } ] ).at(registrar.addr('MyPersonalCountry'))
@@ -883,9 +881,9 @@ If the proposal passed then you should be able to see Bob's ethers arriving on h
 
 ### Let's go exploring!
 
-You have reached the end of this tutorial, but it's just the beginning of a great adventure. Look back and see how much you accomplished: you created a living, talking robot, your own cryptocurrency, raised funds through a trustless crowdfunding and used it to kickstart your own personal democratic organization. 
+You have reached the end of this tutorial, but it's just the beginning of a great adventure. Look back and see how much you accomplished: you created a living, talking robot, your own cryptocurrency, raised funds through a trustless crowdfunding and used it to kickstart your own personal democratic organization.
 
-For the sake of simplicity, we only used the democratic organization you created to send ether around, the native currency of Pirl. While that might be good enough for some, this is only scratching the surface of what can be done. In the Pirl network contracts have all the same rights as any normal user, meaning that your organization could do any of the transactions that you executed coming from your own accounts. 
+For the sake of simplicity, we only used the democratic organization you created to send ether around, the native currency of Pirl. While that might be good enough for some, this is only scratching the surface of what can be done. In the Pirl network contracts have all the same rights as any normal user, meaning that your organization could do any of the transactions that you executed coming from your own accounts.
 
 
 ### What could happen next?
@@ -896,16 +894,16 @@ For the sake of simplicity, we only used the democratic organization you created
 
 * Your DAO could own its own name on the name registrar, and then change where it's redirecting in order to update itself if the token holders approved.
 
-* The organization could hold not only ethers, but any kind of other coin created on Pirl, including assets whose value are tied to the bitcoin or dollar. 
+* The organization could hold not only ethers, but any kind of other coin created on Pirl, including assets whose value are tied to the bitcoin or dollar.
 
-* The DAO could be programmed to allow a proposal with multiple transactions, some scheduled to the future. 
+* The DAO could be programmed to allow a proposal with multiple transactions, some scheduled to the future.
 It could also own shares of other DAO's, meaning it could vote on larger organization or be a part of a federation of DAO's.
 
 * The Token Contract could be reprogrammed to hold ether or to hold other tokens and distribute it to the token holders. This would link the value of the token to the value of other assets, so paying dividends could be accomplished by simply moving funds to the token address.
 
 This all means that this tiny society you created could grow, get funding from third parties, pay recurrent salaries, own any kind of crypto-assets and even use crowdsales to fund its activities. All with full transparency, complete accountability and complete immunity from any human interference. While the network lives the contracts will execute exactly the code they were created to execute, without any exception, forever.
 
-So what will your contract be? Will it be a country, a company, a non-profit group? What will your code do? 
+So what will your contract be? Will it be a country, a company, a non-profit group? What will your code do?
 
 That's up to you.
 

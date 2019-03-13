@@ -4,11 +4,8 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/testnetwork.png"  >}}
-=======
-![](/images_headers/testnetwork.png)
->>>>>>> local_version
 
 
 
@@ -16,7 +13,7 @@ chapter: true
 
 A 51% attack on the Pirl network was identified on 10/14/2018.
 
-Once the attack was mitigated, we took the necessary steps to completely lock out the attackers and make sure that the exchange wallets were safe. 
+Once the attack was mitigated, we took the necessary steps to completely lock out the attackers and make sure that the exchange wallets were safe.
 We are now just steps away from deploying our remedial actions to the Pirl Blockchain, which will help prevent this kind of attack from happening in the future.
 
 How ? (by using the HULK)
@@ -33,15 +30,9 @@ The network security solution we code named “Hulk” will now be tested on the
 ### [PirlTestNetwork Stats](http://devstats.pirl.io/ "PirlTestNetwork Stats").
 
 
-<<<<<<< HEAD
-
-=======
-### [Phoenix Windows miner 3.5d for testnetwork](/development/core/testnetwork/miner/PhoenixMiner_Pirl_testnetwork.zip "Phoenix Windows miner 3.5d for testnetwork").
->>>>>>> local_version
 
 
-
-### how to setup mining 
+### how to setup mining
 
 
 ### [Mining]({{< ref "/mining" >}})
@@ -62,11 +53,11 @@ We are extremely happy to have your support, reading the messages in discord hav
 
 This is just a quick update, more information will follow!
 
- 
+
 
 #PirlTogetherStrong
 
- 
+
 
 Yours,
 

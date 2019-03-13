@@ -5,11 +5,8 @@ pre: "<b>18. </b>"
 chapter: true
 ---
 
-<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/round_table.png"  >}}
-=======
-![](/images_headers/round_table.png)
->>>>>>> local_version
+
 
 
 ## Round Table 02.02.2019
@@ -104,22 +101,22 @@ We don’t need a 100-man team and 900 million per month. Things are getting don
 21:40 masterdubs:
 
 
-If you want to spend lots of money, it’s easy. Even if you don’t need it. 
+If you want to spend lots of money, it’s easy. Even if you don’t need it.
 Money can go fast so some time we have to say no we can’t do that. It’s important to survive.
 
 Pirltube has a lag because I haven’t deployed the update. I need to fix some problems. I will update it soon.
-PirlCloud will drive usage you will be able to host your website, your content and your CDN. 
-With that we can reach enterprise level. 
-We will be able to make contracts with them. 
-This will open up PirlPay with the fiat gateway. This will help the mainstream with adoption. 
+PirlCloud will drive usage you will be able to host your website, your content and your CDN.
+With that we can reach enterprise level.
+We will be able to make contracts with them.
+This will open up PirlPay with the fiat gateway. This will help the mainstream with adoption.
 We want to reach outside the crypto community.
 
 
 24:45 Phatblinie:
 
 
-So, this can be helpful. 
-You can go to a site to host your website on a decentralized chain with an IPFS back end shared with thousands of nodes. 
+So, this can be helpful.
+You can go to a site to host your website on a decentralized chain with an IPFS back end shared with thousands of nodes.
 Being able to have a fiat gateway right there turns end users that don’t know anything about block chain turns Pirl into the equivalent to buying credit, so they can start doing what they want to do without having to signup on a exchange or buy Pirl some other way or mine it. Instead the just use their credit card.
 
 
@@ -281,5 +278,3 @@ Contributor(s):
 
 
 @Dptelecom
-
-

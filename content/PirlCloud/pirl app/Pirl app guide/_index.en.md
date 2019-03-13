@@ -4,22 +4,18 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/pirlapp.png"  >}}
-=======
-![](/images_headers/pirlapp.png)
->>>>>>> local_version
+
 
 
 ## Overview.
 
 This guide will explain how you setup the:
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlapp21.jpg"  >}}
-=======
-![](/PirlCloud/pirl app/images/pirlapp21.jpg)
->>>>>>> local_version
+
 
 ## Prerequisites.
 
@@ -46,26 +42,20 @@ and run the  installer.
 
 Open the PirlApp:
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlapp2.jpg"  >}}
 
 The welcome sreen:
 
 {{< imagesurlsheaders "cloud/pirlapp3.jpg"  >}}
-=======
-![](/PirlCloud/pirl app/images/pirlapp2.jpg)
 
-The welcome sreen:
-
-![](/PirlCloud/pirl app/images/pirlapp3.jpg)
->>>>>>> local_version
 
 
 ## Create the account for using the PirlApp.
 
 Fill in a *password* you want to use (and write it down somewhere for your self)
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlapp22.jpg"  >}}
 
 And hit *create*
@@ -75,17 +65,6 @@ And hit *create*
 ## And now we get the following error at the bottom off the screen
 
 {{< imagesurlsheaders "cloud/pirlapp5.jpg"  >}}
-=======
-![](/PirlCloud/pirl app/images/pirlapp22.jpg)
-
-And hit *create*
-
-![](/PirlCloud/pirl app/images/pirlapp15.jpg)
-
-## And now we get the following error at the bottom off the screen
-
-![](/PirlCloud/pirl app/images/pirlapp5.jpg)
->>>>>>> local_version
 
 
 **This is normal don't worry!!**
@@ -97,40 +76,32 @@ in this example we do 0.2 Pirl.
 
 The first step is to copy the key/wallet address:
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlapp6.jpg"  >}}
-=======
-![](/PirlCloud/pirl app/images/pirlapp6.jpg)
->>>>>>> local_version
+
 
 
 Now you  go to your wallet and transfer 0.2 or any other amount you want to the key/wallet address we just copied
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlapp7.jpg"  >}}
-=======
-![](/PirlCloud/pirl app/images/pirlapp7.jpg)
->>>>>>> local_version
+
 
 
 if you want to verify if the funds are in you can go to the  [explorer](https://devexplorer.pirl.io/home  "explorer")
 
 and fill in the same key/wallet address we just copied and you will see this:
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlapp10.jpg"  >}}
-=======
-![](/PirlCloud/pirl app/images/pirlapp10.jpg)
->>>>>>> local_version
+
 
 
 **now we wait until the funds are in:**
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlapp11.jpg"  >}}
-=======
-![](/PirlCloud/pirl app/images/pirlapp11.jpg)
->>>>>>> local_version
+
 
 
 ## continue the creating of the account
@@ -140,36 +111,29 @@ we go back to the *PirlApp*
 because this makes an extra key/wallet address
 and than it looks like this:
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlapp24.jpg"  >}}
-=======
-![](/PirlCloud/pirl app/images/pirlapp24.jpg)
->>>>>>> local_version
+
 
 
 instead you press the first key/wallet address we want to activate,
 you also can see there are funds in now ;-)
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlapp25.jpg"  >}}
-=======
-![](/PirlCloud/pirl app/images/pirlapp25.jpg)
->>>>>>> local_version
+
 
 
 
 After you press it you will be prompted to fill in the Username and the password we created earlier:
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlapp8.jpg"  >}}
-=======
-![](/PirlCloud/pirl app/images/pirlapp8.jpg)
->>>>>>> local_version
 
 
 Press register and there we go we got enough gas to proceed now:
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlapp12.jpg"  >}}
 
 and then magic happens and we can go on:
@@ -179,17 +143,7 @@ and then magic happens and we can go on:
 ## Finally we now get this very sexy Dashboard and we are clear to go!!
 
 {{< imagesurlsheaders "cloud/pirlapp17.jpg"  >}}
-=======
-![](/PirlCloud/pirl app/images/pirlapp12.jpg)
 
-and then magic happens and we can go on:
-
-![](/PirlCloud/pirl app/images/pirlapp14.jpg)
-
-## Finally we now get this very sexy Dashboard and we are clear to go!!
-
-![](/PirlCloud/pirl app/images/pirlapp17.jpg)
->>>>>>> local_version
 
 
 

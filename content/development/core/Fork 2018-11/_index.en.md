@@ -4,13 +4,10 @@ weight: 5
 pre: "<b>5. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 
 {{< imagesurlsheaders "images_headers/hardfork.png"  >}}
-=======
-![](/development/images/hardfork.png ")
 
->>>>>>> local_version
 
 ### Pirl Community!
 
@@ -84,7 +81,7 @@ We recommend that you install the new binaries as soon as possible.
 
 Binaries will be available [Downloads]({{< ref "/Downloads" >}})
 
- 
+
 #PirlTogetherStrong
 
 
