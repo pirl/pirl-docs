@@ -4,16 +4,14 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/pirlguard.png" >}}
-=======
-![](/Press releases/images/pirlguard.png)
->>>>>>> local_version
+
 
 
 ## Press releases
 But first in short what is PirlGuard
-PirlGuard - Innovative Solution against 51% Attacks 
+PirlGuard - Innovative Solution against 51% Attacks
 
 ### you can read the whole Kb here [PirlGuard]({{< ref "/development/core/PirlGuard" >}})
 
@@ -51,7 +49,7 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 
 ### <span style="color:red">Press releases PirlGuard:</span>
 
-[CCN.com](https://www.ccn.com/pirlguard-innovative-solution-against-51-attacks) 
+[CCN.com](https://www.ccn.com/pirlguard-innovative-solution-against-51-attacks)
 
 
 
@@ -63,11 +61,9 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 
 
 
-<<<<<<< HEAD
+
 <img src="cloud/egem1.png" align="left"><br>
-=======
-<img src="/Press releases/images/egem1.png" align="left"><br>
->>>>>>> local_version
+
 <br>
 <br>
 <br>
@@ -77,23 +73,18 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 <br>
 <br>
 
-[EGEM website](https://egem.io) 
+[EGEM website](https://egem.io)
 
 
-### Here is the official announcement from the EGEM lead dev Riddlez666 
+### Here is the official announcement from the EGEM lead dev Riddlez666
 
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/edgemdev.jpg" >}}
 
 
 {{< imagesurlsheaders "cloud/egem4.jpg" >}}
-=======
-![](/Press releases/images/edgemdev.jpg)
 
-
-![](/Press releases/images/egem4.jpg)
->>>>>>> local_version
 
 
 <br>
@@ -104,7 +95,7 @@ At Pirl we are developing to revolutionize and streamline blockchain technology 
 
 
 
- 
+
 #PirlTogetherStrong
 
 
@@ -120,4 +111,3 @@ Author(s):
 Contributor():
 
 @dptelecom
-

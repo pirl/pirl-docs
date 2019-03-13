@@ -15,11 +15,9 @@ Below you'll find some examples of how to use markdown along with our recommenda
 
 Below is an example document using markdown. This document will be rendered by the software to display as described.
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/sample.jpg" >}}
-=======
-![Sample](/getting started/how to contribute/markdown guide/images/sample.jpg)
->>>>>>> local_version
+
 
 ## Basic Markdown Guide
 
@@ -158,7 +156,7 @@ This is an [example link](http://example.com/ "With a Title"). It will still wor
 
 ### Images
 
-<<<<<<< HEAD
+
 Linking images is just like links with a shortcode {{< imagesurlsheaders "cloud/magic.gif" >}}
 
 ```
@@ -166,25 +164,15 @@ Linking images is just like links with a shortcode {{< imagesurlsheaders "cloud/
 ```
 
 * {{< imagesurlsheaders "cloud/magic.gif" >}}
-=======
-Linking images is just like links with a **!** exclamation point in front.
 
-```
-* ![Magic](/getting started/how to contribute/images/magic.gif?classes=shadow "Magic!")
-```
-
-* ![Magic](/getting started/how to contribute/images/magic.gif?classes=shadow "Magic!")
->>>>>>> local_version
 
 ### Code
 
 There are two ways to distinguish code from text, one for inline use and one for blocks of code. To distinguish code `inline` put a set of back ticks around it. To do it as a block of text, put three back ticks at the tom and the bottom.
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/code.jpg" >}}
-=======
-![Code Block](/getting started/how to contribute/markdown guide/images/code.jpg)
->>>>>>> local_version
+
 
 ```
 This is will be displayed a as a block of code.
@@ -195,11 +183,7 @@ More importantly, notice the back ticks at the top and bottom.
 Author:
 _[PrimateCrypto](https://twitter.com/PrimateCrypto)_
 
-<<<<<<< HEAD
+
 Contributor(s):  
 
 @dptelecom
-=======
-Contributor(s):
-_[Mickey Maler](https://twitter.com/MickeyMaler)_
->>>>>>> local_version

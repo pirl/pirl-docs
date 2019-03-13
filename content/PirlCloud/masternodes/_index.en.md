@@ -4,17 +4,12 @@ weight: 2
 pre: "<b>2. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/Masternodes.png"  >}}
 
 
 {{< imagesurlsheaders "cloud/masternodes.jpg" >}}
-=======
-![](/images_headers/Masternodes.png)
 
-
-![](/PirlCloud/masternodes/images/masternodes.jpg)
->>>>>>> local_version
 
 ## Masternodes
 

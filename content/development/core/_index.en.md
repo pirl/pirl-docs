@@ -4,11 +4,9 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/development.png"  >}}
-=======
-![](/images_headers/development.png)
->>>>>>> local_version
+
 
 
 ## Updates about development for PirlCore
@@ -26,11 +24,9 @@ Updates about development for PirlCore can be found on the next pages.
 
 
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "cloud/Pirl_Energy.gif" >}}
-=======
-![](/development/images/Pirl_Energy.gif)
->>>>>>> local_version
+
 
 
 

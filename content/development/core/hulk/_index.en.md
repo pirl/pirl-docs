@@ -4,12 +4,8 @@ weight: 2
 pre: "<b>2. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
 {{< imagesurlsheaders "images_headers/hulk.jpg"  >}}
-=======
-![](/development/images/hulk.jpg)
 
->>>>>>> local_version
 
 Pirl Community!
 
@@ -21,13 +17,13 @@ How ? (by using the HULK)
 
 The network security solution we code named “Hulk” will be deployed in 2 stages:
 
- 
+
 
 Stage 1: Fork -
 
 Remediate the consequences of the attack and remove all artificially created PIRL while deploying Notary Smart Contracts both on the Pirl and Ethereum chains, adjust validation block count on exchanges, and the setting up of an O.M.S (Orphan Monitoring System) which will invalidate any node attempting an attack on the network.
 
- 
+
 
 Stage 2: Masternode update -
 
@@ -42,11 +38,11 @@ We are extremely happy to have your support, reading the messages in discord hav
 
 This is just a quick update, more information will follow!
 
- 
+
 
 #PirlTogetherStrong
 
- 
+
 
 Yours,
 

@@ -5,11 +5,9 @@ pre: "<b>16. </b>"
 chapter: true
 ---
 
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/round_table.png"  >}}
-=======
-![](/images_headers/round_table.png)
->>>>>>> local_version
+
 
 
 ## Round Table 19.01.2019
@@ -180,5 +178,3 @@ Contributor(s):
 
 
 @Dptelecom
-
-

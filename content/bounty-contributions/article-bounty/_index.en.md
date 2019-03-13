@@ -4,11 +4,9 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/article.png"  >}}
-=======
-![](/images_headers/article.png)
->>>>>>> local_version
+
 
 ## Introduction
 
@@ -18,7 +16,7 @@ Many writing talents have being showing around the Pirl lands.
 
 Sharing their written pieces about the project and its related technology.
 
-We would like reward your contribution on raising awareness and educating people interested in Pirl and anything related! 
+We would like reward your contribution on raising awareness and educating people interested in Pirl and anything related!
 
 ## Requirements
 
@@ -30,7 +28,7 @@ We would like reward your contribution on raising awareness and educating people
 
 - Any language articles accepted
 
-## How 
+## How
 
 - Write an article related to Pirl
 

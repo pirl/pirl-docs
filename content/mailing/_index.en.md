@@ -4,11 +4,9 @@ weight: 12
 pre: "<b>11. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/Newsletter.png"  >}}
-=======
-![](/images_headers/Newsletter.png)
->>>>>>> local_version
+
 
 
 ### Newsletter signup

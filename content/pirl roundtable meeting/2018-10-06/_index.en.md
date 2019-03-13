@@ -4,11 +4,9 @@ weight: 48
 pre: "<b>3. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/round_table.png"  >}}
-=======
-![](/images_headers/round_table.png)
->>>>>>> local_version
+
 
 
 ## Round Table 06.10.2018
@@ -60,14 +58,14 @@ Need to say that we got some improvements in our technical doc this week.  We ar
 
 Pirltube for Linux is not what we are focusing right now. We will try to improve the windows and the Mac version first. Then we will take our steps to Linux, so you have to wait just a little bit longer for it.
 
-I am also glad that a lot of videos has been uploaded on Pirltube so far and we are glad that everything is as we expected. Results of  Pirltubes tests was really good. Please, take note that there is no more admin proof check available on PirlTube, so your videos are automatically approved. We changed away how the thing worked a little bit. If you find some bad content, you can sing it for a ban of course. We will also add the Terms of youse for our applications briefly. 
+I am also glad that a lot of videos has been uploaded on Pirltube so far and we are glad that everything is as we expected. Results of  Pirltubes tests was really good. Please, take note that there is no more admin proof check available on PirlTube, so your videos are automatically approved. We changed away how the thing worked a little bit. If you find some bad content, you can sing it for a ban of course. We will also add the Terms of youse for our applications briefly.
 
-Btw, PIRL logo is publicly shareable content so don't hesitate to use it if you want or need it. It's ok in our books. You have our blessings :) 
+Btw, PIRL logo is publicly shareable content so don't hesitate to use it if you want or need it. It's ok in our books. You have our blessings :)
 
 Q: optimistic Corn: Any plans to add 4K support later?
-A: 4K is good, so yeah, we will be improving in this manner to become the better and better, but 4k is sometimes a wasting of bandwidth, to be honest. But don't worry guys, one step after another:) Our focus is for 1090  resolution which is perfect and sharp. 
+A: 4K is good, so yeah, we will be improving in this manner to become the better and better, but 4k is sometimes a wasting of bandwidth, to be honest. But don't worry guys, one step after another:) Our focus is for 1090  resolution which is perfect and sharp.
 
-Our designer Max has got some really cool designs for our T-shirts. Pirltube logo motive, pirlstorage logo motive, all you ask :) 
+Our designer Max has got some really cool designs for our T-shirts. Pirltube logo motive, pirlstorage logo motive, all you ask :)
 
 Team healthy thanked dptelecome who did a really excellent job for the team, and he is very active and productive member these days. He is always in contact with the community and nonstop working. Thank you very much, buddy! Welcome to the team.
 
@@ -86,7 +84,7 @@ Sincerely, Mickey
 ---
 Author(s):  
 
-Mickey 
+Mickey
 
 Contributor():
 

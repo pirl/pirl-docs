@@ -4,20 +4,13 @@ weight: 6
 pre: "<b>5. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/Pressreleases.png"  >}}
 
 {{< imagesurlsheaders "cloud/pressrelease-image-1024x682.jpg"  >}}
 
 
-=======
-![](/images_headers/Pressreleases.png)
 
-![](/Press releases/images/pressrelease-image-1024x682.jpg)
-
-
-content
->>>>>>> local_version
 
 ## Press releases
 
@@ -37,6 +30,3 @@ Author(s):
 @dptelecom
 
 Contributor():
-
-
-

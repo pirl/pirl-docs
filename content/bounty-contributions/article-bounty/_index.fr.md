@@ -4,11 +4,9 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-<<<<<<< HEAD
+
 {{< imagesurlsheaders "images_headers/article.png"  >}}
-=======
-![](/images_headers/article.png)
->>>>>>> local_version
+
 
 ## Introduction
 
@@ -23,10 +21,10 @@ Nous aimerions récompenser votre contribution à la sensibilisation et à l’�
 ## Exigences
 
 
-- Les articles doivent faire plus de 200 mots 
-- Les articles doivent être publiés sur un média tiers - Blog/ Support / Site Web / Steemit 
+- Les articles doivent faire plus de 200 mots
+- Les articles doivent être publiés sur un média tiers - Blog/ Support / Site Web / Steemit
 - Tout sujet accepté tant qu’il est lié à la technologie de la blockchain Pirl
-- Toutes les langues sont acceptées 
+- Toutes les langues sont acceptées
 
 ## Comment
 
