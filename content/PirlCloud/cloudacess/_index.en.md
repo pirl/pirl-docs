@@ -10,7 +10,7 @@ chapter: true
 
 ## Public storage.
 
-Description soon.....
+Description soon.
 
 
 
