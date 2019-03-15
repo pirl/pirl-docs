@@ -5,7 +5,7 @@ pre: "<b>1. </b>"
 chapter: true
 ---
 
-{{< imagesurlsheaders "images_headers/pirlapp.png"  >}}
+{{< imagesurlsheaders "images_headers/pirlapp.png" >}}
 
 
 
@@ -14,7 +14,7 @@ chapter: true
 This guide will explain how to download, setup and register your:
 
 
-{{< imagesurlsheaders "cloud/pirlapp21.jpg"  >}}
+{{< imagesurlsheaders "cloud/pirlapp21.jpg" >}}
 
 
 ## Prerequisites.
@@ -59,7 +59,7 @@ For granting the success of this operation, you will need these requirements:
 * _* ...3 minutes later and few blocks higher... *_ Yes, right now you can go to your PirlApp and Get in
 {{< imagesurlsheaders "cloud/rocky.JPG"  >}}
 * Enter your Account and write down the Login name and password. Hit the Register button
-![](/PirlCloud/pirl app/Pirl app windows instal/images/creation_on_Accoun_name_+_password__hit_register.PNG)
+{{< imagesurlsheaders "cloud/creation_on_Accoun_name_+_password__hit_register.PNG" >}}
 {{< imagesurlsheaders "cloud/almost.JPG"  >}}
 * Congratulation, you have just joined the future. Enjoy PirlTube and all that nasty stuff from PIRL which will be knocking on your browser soon!
 {{< imagesurlsheaders "cloud/done.JPG"  >}}

@@ -5,7 +5,7 @@ pre: "<b>3. </b>"
 chapter: true
 ---
 
-{{< imagesurlsheaders "cloud/Pirl_IPFSsmall.png"  >}}
+{{< imagesurlsheaders "images_headers/Pirl_IPFSsmall.png" >}}
 
 
 

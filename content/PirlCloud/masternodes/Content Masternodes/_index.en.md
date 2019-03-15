@@ -5,7 +5,7 @@ pre: "<b>2. </b>"
 chapter: true
 ---
 
-{{< imagesurlsheaders "images_headers/Masternodes.png"  >}}
+{{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
 
 
@@ -21,7 +21,6 @@ chapter: true
 
 #### 1.) [Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)]({{< ref "/PirlCloud/masternodes/Content Masternodes/Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)" >}})
 #### 2.) [Disabling Masternode and Retrieving Stake]({{< ref "/PirlCloud/masternodes/Content Masternodes/Disabling Masternode and Retrieving Stake" >}})
-
 
 
 ---

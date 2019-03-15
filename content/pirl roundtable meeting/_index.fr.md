@@ -1,11 +1,11 @@
 ---
-title: Pirl Roundtable Meeting
+title: Pirl la table ronde réunion
 weight: 7
 pre: "<b>6. </b>"
 chapter: true
 ---
 
-{{< imagesurlsheaders "images_headers/round_table.png"  >}}
+{{< imagesurlsheaders "images_headers/round_table.png" >}}
 
 
 ### Philosophie de la table ronde de PIRL

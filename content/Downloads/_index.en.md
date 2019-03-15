@@ -5,7 +5,7 @@ pre: "<b>9. </b>"
 chapter: true
 ---
 
-{{< imagesurlsheaders "images_headers/Downloads.png"  >}}
+{{< imagesurlsheaders "images_headers/Downloads.png" >}}
 
 
 

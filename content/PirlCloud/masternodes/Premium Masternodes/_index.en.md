@@ -5,7 +5,7 @@ pre: "<b>1. </b>"
 chapter: true
 ---
 
-{{< imagesurlsheaders "images_headers/Masternodes.png"  >}}
+{{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
 
 {{< imagesurlsheaders "cloud/masternodes.jpg" >}}
@@ -23,7 +23,6 @@ The premium masternodes will be additionally rewarded with
 
 #### 1.) [Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)" >}})
 #### 2.) [Disabling Masternode and Retrieving Stake]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
-
 
 
 ---

@@ -5,7 +5,7 @@ pre: "<b>3. </b>"
 chapter: true
 ---
 
-{{< imagesurlsheaders "images_headers/Masternodes.png"  >}}
+{{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
 
 {{< imagesurlsheaders "cloud/masternodes.jpg" >}}
