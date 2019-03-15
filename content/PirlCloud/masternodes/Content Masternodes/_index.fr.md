@@ -4,12 +4,12 @@ weight: 2
 pre: "<b>2. </b>"
 chapter: true
 ---
-![](/images_headers/Masternodes.png)
+{{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
 
 # Les masternodes de contenu  
 
-![](/PirlCloud/masternodes/images/masternodes.jpg)
+{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
 
 
 **Les masternodes de contenu** fourniront un stockage de fichiers pour les supports et les données accessibles au public nécessaires pour dApps et le marketplace.  

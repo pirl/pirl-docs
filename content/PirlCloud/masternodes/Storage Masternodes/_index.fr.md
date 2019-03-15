@@ -1,13 +1,13 @@
 ---
-title: Les masternodes de stockage 
+title: Les masternodes de stockage
 weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
-![](/images_headers/Masternodes.png)
+{{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
 
-![](/PirlCloud/masternodes/images/masternodes.jpg)
+{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
 
 
 **Les masternodes de stockage** fourniront des téléchargements numériques pour le marketplace et seront utilisés comme serveur de fichiers de sauvegarde.  

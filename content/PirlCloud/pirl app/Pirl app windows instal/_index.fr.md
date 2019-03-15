@@ -4,7 +4,7 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-![](/images_headers/pirlapp.png)
+{{< imagesurlsheaders "images_headers/pirlapp.png" >}}
 
 
 ## Vue d'ensemble.  

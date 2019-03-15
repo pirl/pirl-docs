@@ -4,10 +4,10 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-![](/images_headers/Masternodes.png)
+{{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
 
-![](/PirlCloud/masternodes/images/masternodes.jpg)
+{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
 
 
 ## Premium Masternodes  

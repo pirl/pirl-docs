@@ -4,7 +4,7 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-![](/images_headers/Poseidon.png)
+{{< imagesurlsheaders "images_headers/Poseidon.png" >}}
 
 
 ## Le tout nouveau Poséidon V2
@@ -15,7 +15,7 @@ Poséidon est une plate-forme unique tout-en-un,
 avec un seul point d'entrée,
 un utilisateur peut accéder à de nombreuses fonctionnalités uniques de Pirl.
 Poséidon permettra aux utilisateurs d'accéder à:
- 
+
 
 • Explorateur de chaînes de blocs
 • Panneau de configuration des masternodes
@@ -26,7 +26,7 @@ Poséidon permettra aux utilisateurs d'accéder à:
 • PirlPay
 • Et plus
 
-  
+
 
 
 [Poseidon](https://poseidon.pirl.io "Poseidon").

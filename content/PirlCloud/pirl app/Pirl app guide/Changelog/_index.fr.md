@@ -4,7 +4,7 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-![](/images_headers/pirlapp.png)
+{{< imagesurlsheaders "images_headers/pirlapp.png" >}}
 
 
 ## Tous les changements notables apportés à ce projet seront documentés dans ce fichier.  
@@ -19,7 +19,7 @@ Windows:
 
 MacOs:
 <span style="color:green">pre Beta 1.0.3-2</span>
- 
+
 ## Ajoutez
 
 2018-10-29: Ajout de liens de chaîne aux résultats de recherche.  
@@ -74,7 +74,7 @@ MacOs:
 
 
 -
- 
+
 ## Inédit
 -
 
@@ -99,7 +99,7 @@ MacOs:
 
 App Version:<span style="color:green">pre Beta 1.0.3-1</span>
 
- 
+
 ## Ajoutez
 
 2018-10-07: Ajout d'un éditeur de texte pour la saisie de description dans les panneaux de téléchargement et d’édition.  
@@ -152,13 +152,13 @@ App Version:<span style="color:green">pre Beta 1.0.3-1</span>
 
 2018-10-26: Correction en plein écran, la barre d'outils supérieure est masquée.  
 
-2018-10-27: Correction d'un bug avec le double téléchargement de la même vidéo. 
+2018-10-27: Correction d'un bug avec le double téléchargement de la même vidéo.
 
 
 ## Enlevez
 -
 
- 
+
 ## Inédit
 -
 

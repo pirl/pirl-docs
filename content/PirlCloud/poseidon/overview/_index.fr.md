@@ -4,7 +4,7 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-![](/images_headers/Poseidon.png)
+{{< imagesurlsheaders "images_headers/Poseidon.png" >}}
 
 
 ## Poséidon page de départ.
@@ -15,7 +15,7 @@ les récompenses qu'ils gagnent
 et un aperçu des lieux où ils se trouvent
 
 
-![](/PirlCloud/images/Poseidon_overview.jpg)
+{{< imagesurlsheaders "cloud/Poseidon_overview.jpg" >}}
 
 
 ## Poséidon créer un compte.
@@ -25,7 +25,7 @@ Si vous regardez sur le côté gauche de la page, vous voyez la possibilité de 
 ou de vous connecter à votre compte  déjà existant:
 
 
-![](/PirlCloud/images/Poseidon_left.jpg)
+{{< imagesurlsheaders "cloud/Poseidon_left.jpg" >}}
 
 
 ## Allez à la page suivante pour voir comment créer un compte:
@@ -51,4 +51,3 @@ Author(s):
 Contributor(s):  
 
 @ClaudioPirl
-

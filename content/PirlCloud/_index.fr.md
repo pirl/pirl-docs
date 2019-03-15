@@ -4,7 +4,7 @@ weight: 2
 pre: "<b>2. </b>"
 chapter: true
 ---
-![](/images_headers/cloudpowereddark.png)
+{{< imagesurlsheaders "images_headers/cloudpowereddark.png" >}}
 
 
 ## Le PirlCloud
@@ -35,4 +35,3 @@ Author(s):
 Contributor(s):  
 
 @ClaudioPirl
-

@@ -4,15 +4,15 @@ weight: 4
 pre: "<b>4. </b>"
 chapter: true
 ---
-![](/images_headers/Poseidon.png)
+{{< imagesurlsheaders "images_headers/Poseidon.png" >}}
 
 
 ## Bienvenue utilisateur sur votre propre plate-forme unique tout-en-un Poseidon,    
 Ici, vous pourrez accéder à de nombreuses fonctionnalités Pirl.
 nous allons vous guider à travers celles-ci:  
-  
 
-• Explorateur Blockchains 
+
+• Explorateur Blockchains
 • Panneau de configuration des masternodes
 • Installation en un seul clic de Masternode
 • Portefeuille Poséidon
@@ -20,9 +20,9 @@ nous allons vous guider à travers celles-ci:
 • PirlMarket
 • PirlPay
 • Et plus
- 
 
-![](/PirlCloud/images/poseidon_login.jpg)
+
+{{< imagesurlsheaders "cloud/poseidon_login.jpg" >}}
 
 
 
@@ -45,4 +45,3 @@ Author(s):
 Contributor(s):  
 
 @ClaudioPirl
-

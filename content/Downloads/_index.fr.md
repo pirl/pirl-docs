@@ -4,7 +4,7 @@ weight: 10
 pre: "<b>9. </b>"
 chapter: true
 ---
-![](/images_headers/Downloads.png)
+{{< imagesurlsheaders "images_headers/Downloads.png" >}}
 
 
 #### [PirlWebsite](https://pirl.io/en/ "PirlWebsite")
@@ -62,7 +62,7 @@ chapter: true
 ### [Phoenix Windows miner 3.5d for testnetwork](/development/core/testnetwork/miner/PhoenixMiner_Pirl_testnetwork.zip "Phoenix Windows miner 3.5d for testnetwork").
 
 
-### Google Authenticator for the two-factor authentication 
+### Google Authenticator for the two-factor authentication
 ### * [Play store for Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)  
 ### * [App Store for Iphone](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)  
 

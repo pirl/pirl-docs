@@ -4,7 +4,7 @@ weight: 4
 pre: "<b>3. </b>"
 chapter: true
 ---
-![](/images_headers/Mining.png)
+{{< imagesurlsheaders "images_headers/Mining.png" >}}
 
 
 ## minière
@@ -77,5 +77,3 @@ Author(s):
 Contributor(s):  
 
 @ClaudioPirl  
-
-

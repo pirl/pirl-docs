@@ -4,7 +4,7 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
-![](/images_headers/Masternodes.png)
+{{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
 - [Vue d’ensemble](#vue-d-ensemble)
 - [Conditions préalables](#conditions-pr-alables)
@@ -54,7 +54,7 @@ C’est aussi simple que de redémarrer le serveur, si celui-ci est déconnecté
  - Il n’y a aucun moyen de s’en sortir, vous devrez d’une manière ou d’une autre placer vingt mille PIRL dans un portefeuille.  
  - 1 ou 0,5 pour que le gaz interagisse avec le contrat.  
  - Vous pouvez exploiter Pirl en utilisant l’un des pools officiels disponibles ici: https://pirl.io/en/pools/.  
- - Vous pouvez également acheter Pirl sur l'un des échanges Pirl. Je recommande https://www.stex.com comme échange sûr et fiable. 
+ - Vous pouvez également acheter Pirl sur l'un des échanges Pirl. Je recommande https://www.stex.com comme échange sûr et fiable.
 
 
 ## Vérification d'identité de portefeuille Poseidon  
@@ -90,7 +90,7 @@ Utilisez le txid situé du côté gauche de la liste des transactions de votre p
 
 Dans le portefeuille Nautilus, vous cliquez une fois sur la transaction envoyée et vous voyez ce Tx-id:
 
-![](/PirlCloud/images/txnautilus.png)
+{{< imagesurlsheaders "cloud/txnautilus.png" >}}
 
 
 
@@ -111,7 +111,7 @@ Il existe deux contrats 1 pour chaque type de noeud,
 le JSON est identique pour tous les Masternodes
 
 
-**Premium MN:** pour **l'adresse du contrat** renseignez `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. 
+**Premium MN:** pour **l'adresse du contrat** renseignez `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`.
 Le **nom du contrat** pour ce nom est premium même s'il peut être ce que vous voulez.
 Enfin,  
 **le champ Interface JSON** doit être renseigné avec:  
@@ -153,14 +153,14 @@ En fait, il est préférable de ne faire aucun autre ajustement.
 Connectez-vous à Poseidon et accédez à la page qui ajoute un masternode situé ici:  
 https://poseidon.pirl.io/dashboard/masternodes/  
 et appuyez sur le:  
- 
 
-![](/PirlCloud/images/redcrossadd.jpg)
+
+{{< imagesurlsheaders "cloud/redcrossadd.jpg" >}}
 
 
 alors vous obtenez ce joli écran:  
 
-![](/PirlCloud/images/Create_Masternode_Record_in_Poseidon.PNG)
+{{< imagesurlsheaders "cloud/Create_Masternode_Record_in_Poseidon.PNG" >}}
 
 
 Le nom peut être ce que vous voulez.  
@@ -174,7 +174,7 @@ De la transaction que vous envoyez à votre portefeuille Poseidon.
 
 Appuyez **sur Enregistrer les modifications** pour afficher l'écran suivant.  
 
-![](/PirlCloud/images/one_click_setup.PNG)
+{{< imagesurlsheaders "cloud/one_click_setup.PNG" >}}
 
 
 
@@ -184,19 +184,19 @@ Appuyez **sur Enregistrer les modifications** pour afficher l'écran suivant.
 Assurez-vous de connaître l'adresse IP statique publique et les informations d'identification Root avant de poursuivre.  
 
 
-![](/PirlCloud/images/one_click_setup.PNG)
+{{< imagesurlsheaders "cloud/one_click_setup.PNG" >}}
 
 
 nous allons compléter tous les champs.  
 ssh par défaut est le port: 22 Appuyez sur Enregistrer les modifications,  
 puis l'écran suivant s'affichera  
 
-![](/PirlCloud/images/Done.PNG)
+{{< imagesurlsheaders "cloud/Done.PNG" >}}
 
 
 Après être revenu à l'écran **My masternodes**, observez que le champ **Géré par Poseidon du masternode** est défini sur `True`  
 
-![](/PirlCloud/images/managed.jpg)
+{{< imagesurlsheaders "cloud/managed.jpg" >}}
 
 Veuillez prévoir 30 minutes pour que le processus se termine. Vous pouvez cliquer sur le bouton **Détails** pour surveiller le statut.  
 
@@ -209,7 +209,7 @@ journalctl -f
 Une fois que les messages suivants sont affichés, votre masternode est maintenant synchronisé et contribue au réseau.  
 
 
-![](/PirlCloud/images/vps.jpg)
+{{< imagesurlsheaders "cloud/vps.jpg" >}}
 
 
 
@@ -223,14 +223,14 @@ journalctl -f
 votre masternode contribue au réseau s'il ressemble à ceci:  
 
 
-![](/PirlCloud/images/vps.jpg)
+{{< imagesurlsheaders "cloud/vps.jpg" >}}
 
 
 Surveillez l’état de votre masternode en consultant la page Détails du masternode Poseidon en cliquant sur le bouton.  
 Un nœud en fonctionnement devrait apparaître de la façon suivante:  
 
 
-![](/PirlCloud/images/detailsmn.png)
+{{< imagesurlsheaders "cloud/detailsmn.png" >}}
 
 
 

@@ -5,7 +5,7 @@ pre: "<b>18. </b>"
 chapter: true
 ---
 
-![](/images_headers/round_table.png)
+{{< imagesurlsheaders "images_headers/round_table.png" >}}
 
 
 ## Table ronde 02.02.2019
@@ -182,5 +182,3 @@ Contributor(s):
 
 @ClaudioPirl  
 @Dptelecom  
-
-

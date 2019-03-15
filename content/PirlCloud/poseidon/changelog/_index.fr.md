@@ -4,7 +4,7 @@ weight: 10
 pre: "<b>10. </b>"
 chapter: true
 ---
-![](/images_headers/Poseidon.png)
+{{< imagesurlsheaders "images_headers/Poseidon.png" >}}
 
 
 ## Tous les changements notables apportés à cette plate-forme unique tout-en-un seront documentés dans ce fichier.
@@ -59,5 +59,5 @@ Author(s):
 Contributor():  
 
 
-@dptelecom 
+@dptelecom
 @ClaudioPirl  

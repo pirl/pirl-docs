@@ -4,14 +4,14 @@ weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
-![](/images_headers/pirlapp.png)
+{{< imagesurlsheaders "images_headers/pirlapp.png" >}}
 
 
 ## Vue d'ensemble.  
 
 Ce guide explique comment  configurez:  
 
-![](/PirlCloud/pirl app/images/pirlapp21.jpg)
+{{< imagesurlsheaders "cloud/pirlapp21.jpg" >}}
 
 ## Conditions préalables.
 
@@ -38,26 +38,26 @@ lancez l’installateur.
 
 L'écran d’accueil:  
 
-![](/PirlCloud/pirl app/images/pirlapp2.jpg)
+{{< imagesurlsheaders "cloud/pirlapp2.jpg" >}}
 
 L'écran d’accueil:
 
-![](/PirlCloud/pirl app/images/pirlapp3.jpg)
+{{< imagesurlsheaders "cloud/pirlapp3.jpg" >}}
 
 
 ## Créez le compte pour utiliser PirlApp.
 
-Entrez le mot de passe que vous souhaitez utiliser ( écrivez-le quelque part 
+Entrez le mot de passe que vous souhaitez utiliser ( écrivez-le quelque part
 
-![](/PirlCloud/pirl app/images/pirlapp22.jpg)
+{{< imagesurlsheaders "cloud/pirlapp22.jpg" >}}
 
 cliquez sur créer
 
-![](/PirlCloud/pirl app/images/pirlapp15.jpg)
+{{< imagesurlsheaders "cloud/pirlapp15.jpg" >}}
 
 ## Et maintenant nous avons l'erreur suivante au bas de l’écran
 
-![](/PirlCloud/pirl app/images/pirlapp5.jpg)
+{{< imagesurlsheaders "cloud/pirlapp5.jpg" >}}
 
 
 **C’est normal ne vous inquiétez pas !!**
@@ -67,24 +67,24 @@ et maintenant nous résolvons cela en envoyant un montant x au portefeuille. Dan
 La première étape consiste à copier l'adresse clé / portefeuille:  
 
 
-![](/PirlCloud/pirl app/images/pirlapp6.jpg)
+{{< imagesurlsheaders "cloud/pirlapp6.jpg" >}}
 
 
 Maintenant, vous allez sur votre portefeuille et transférez 0,2 ou tout autre montant de votre choix à l'adresse clé / portefeuille que nous venons de copier.  
 
-![](/PirlCloud/pirl app/images/pirlapp7.jpg)
+{{< imagesurlsheaders "cloud/pirlapp7.jpg" >}}
 
 
 si vous voulez vérifier les fonds, vous pouvez aller dans   [l’explorateur](https://devexplorer.pirl.io/home  "l’explorateur")
 
 remplissez la même adresse  clé / portefeuille que nous venons de copier et vous verrez ceci:  
 
-![](/PirlCloud/pirl app/images/pirlapp10.jpg)
+{{< imagesurlsheaders "cloud/pirlapp10.jpg" >}}
 
 
 **maintenant nous attendons  les fonds:**
 
-![](/PirlCloud/pirl app/images/pirlapp11.jpg)
+{{< imagesurlsheaders "cloud/pirlapp11.jpg" >}}
 
 
 ## continuer la création du compte
@@ -93,33 +93,33 @@ nous revenons à  *PirlApp*
 **  NE PAS appuyer CREER ENCORE !!! **
 parce que cela crée une adresse clé / portefeuille supplémentaire et que cela ressemble à ceci:  
 
-![](/PirlCloud/pirl app/images/pirlapp24.jpg)
+{{< imagesurlsheaders "cloud/pirlapp24.jpg" >}}
 
 
 Au lieu de cela, vous appuyez sur la première adresse de portefeuille / clé que nous voulons activer,  
 vous pouvez également voir qu'il y a des fonds maintenant ;-)  
 
-![](/PirlCloud/pirl app/images/pirlapp25.jpg)
+{{< imagesurlsheaders "cloud/pirlapp25.jpg" >}}
 
 
 
 Après avoir appuyé sur cette touche, vous serez invité à saisir le nom d'utilisateur et le mot de passe créés précédemment:  
 
-![](/PirlCloud/pirl app/images/pirlapp8.jpg)
+{{< imagesurlsheaders "cloud/pirlapp8.jpg" >}}
 
 
 Appuyez sur  registre et voilà, nous avons assez de GAS pour procéder maintenant:  
 
-![](/PirlCloud/pirl app/images/pirlapp12.jpg)
+{{< imagesurlsheaders "cloud/pirlapp12.jpg" >}}
 
 
 la magie opère et nous pouvons continuer:  
 
-![](/PirlCloud/pirl app/images/pirlapp14.jpg)
+{{< imagesurlsheaders "cloud/pirlapp14.jpg" >}}
 
 ## Enfin, nous avons maintenant ce tableau de bord très sexy et nous sommes prêts à partir !!
 
-![](/PirlCloud/pirl app/images/pirlapp17.jpg)
+{{< imagesurlsheaders "cloud/pirlapp17.jpg" >}}
 
 
 

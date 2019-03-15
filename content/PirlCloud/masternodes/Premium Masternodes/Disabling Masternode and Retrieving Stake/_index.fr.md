@@ -4,7 +4,7 @@ weight: 2
 pre: "<b>2. </b>"
 chapter: true
 ---
-![](/images_headers/Masternodes.png)
+{{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
 
 ## Vue d'ensemble
@@ -24,23 +24,23 @@ Sélectionnez la fonction **Disable Node**, puis le portefeuille associé au con
 
 
 
-![](/PirlCloud/masternodes/images/disable-node.png)
+{{< imagesurlsheaders "cloud/disable-node.png)" >}}
 
 
-Sur l'écran suivant, confirmez que vous avez assez de **GAZ** pour la transaction, entrez votre mot de passe du **fichier UTC** et cliquez **sur Envoyer la transactionOn** 
+Sur l'écran suivant, confirmez que vous avez assez de **GAZ** pour la transaction, entrez votre mot de passe du **fichier UTC** et cliquez **sur Envoyer la transactionOn**
 
-![](/PirlCloud/masternodes/images/disable-node2.png)
+{{< imagesurlsheaders "cloud/disable-node2.png)" >}}
 
 Attendez 30 à 60 secondes avant d'exécuter l'étape suivante.  
 Sélectionnez la fonction **Withdraw Stake**, puis le portefeuille associé au contrat et cliquez sur **Execute**.  
 
 
 
-![](/PirlCloud/masternodes/images/withdraw-stake.png)
+{{< imagesurlsheaders "cloud/withdraw-stake.png)" >}}
 
 Sur l'écran suivant, confirmez que vous avez assez de **GAZ** pour la transaction, entrez votre mot de passe du **fichier UTC** et cliquez sur Envoyer la transaction
 
-![](/PirlCloud/masternodes/images/disable-node2.png)
+{{< imagesurlsheaders "cloud/disable-node2.png)" >}}
 
 ### Pas assez de gaz  
 
@@ -48,7 +48,7 @@ Parfois, le portefeuille ne pourra pas calculer automatiquement le gaz nécessai
 vous pouvez ajuster manuellement le gaz en cliquant où il est indiqué 0 et écrivez votre propre montant.  
 Une bonne quantité de gaz à cette fin est de **121 000**  
 
-![](/PirlCloud/masternodes/images/confirm-gas.png)
+{{< imagesurlsheaders "cloud/confirm-gas.png)" >}}
 
 ## Ajout de contrat  masternode dans Nautilus  
 
