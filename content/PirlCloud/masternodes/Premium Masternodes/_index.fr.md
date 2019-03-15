@@ -24,7 +24,6 @@ En outre, ils seront en mesure de stocker de manière privée les données d’a
 #### 2.) [Disabling Masternode and Retrieving Stake]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
 
 
-
 ---
 Author(s):
 @Dptelecom

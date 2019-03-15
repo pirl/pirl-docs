@@ -25,7 +25,6 @@ The premium masternodes will be additionally rewarded with
 #### 2.) [Disabling Masternode and Retrieving Stake]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
 
 
-
 ---
 Author(s):
 @Dptelecom

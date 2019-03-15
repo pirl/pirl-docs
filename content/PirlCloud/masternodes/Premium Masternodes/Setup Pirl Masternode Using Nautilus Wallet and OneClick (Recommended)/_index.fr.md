@@ -160,7 +160,7 @@ et appuyez sur le:
 
 alors vous obtenez ce joli écran:  
 
-{{< imagesurlsheaders "cloud/Create_Masternode_Record_in_Poseidon.PNG" >}}
+{{< imagesurlsheaders "cloud/Create_Masternode_Record_in_Poseidon.png" >}}
 
 
 Le nom peut être ce que vous voulez.  

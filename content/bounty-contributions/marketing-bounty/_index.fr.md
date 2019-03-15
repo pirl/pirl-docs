@@ -6,7 +6,7 @@ chapter: true
 ---
 
 
-{{< imagesurlsheaders "cloud/marketing.png" >}}
+{{< imagesurlsheaders "images_headers/marketing.png" >}}
 
 
 

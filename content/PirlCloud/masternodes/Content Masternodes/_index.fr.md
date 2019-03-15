@@ -15,8 +15,8 @@ chapter: true
 **Les masternodes de contenu** fourniront un stockage de fichiers pour les supports et les données accessibles au public nécessaires pour dApps et le marketplace.  
 
 
-#### 1.) [configuration du mot de passe pirl avec le portefeuille Nautilus en un clic]({{< ref "/PirlCloud/masternodes/Content Masternodes/Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)" >}})
-#### 2.) [désactiver le masternode et récupérer la mise]({{< ref "/PirlCloud/masternodes/Content Masternodes/Disabling Masternode and Retrieving Stake" >}})
+#### 1.) [Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)]({{< ref "/PirlCloud/masternodes/Content Masternodes/Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)" >}})
+#### 2.) [Disabling Masternode and Retrieving Stake]({{< ref "/PirlCloud/masternodes/Content Masternodes/Disabling Masternode and Retrieving Stake" >}})
 
 
 

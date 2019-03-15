@@ -119,7 +119,7 @@ la magie opère et nous pouvons continuer:
 
 ## Enfin, nous avons maintenant ce tableau de bord très sexy et nous sommes prêts à partir !!
 
-{{< imagesurlsheaders "cloud/pirlapp17.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlapp17.jpg" >}}  
 
 
 

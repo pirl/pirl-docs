@@ -23,7 +23,6 @@ chapter: true
 #### 2.) [Disabling Masternode and Retrieving Stake]({{< ref "/PirlCloud/masternodes/Content Masternodes/Disabling Masternode and Retrieving Stake" >}})
 
 
-
 ---
 Author(s):
 @Dptelecom
