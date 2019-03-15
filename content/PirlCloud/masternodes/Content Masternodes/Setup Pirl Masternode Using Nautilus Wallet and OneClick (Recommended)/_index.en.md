@@ -95,7 +95,7 @@ Use the txid on the left most side of your wallet transaction list on Poseidon**
 In the nautilus wallet you click once on the sent transaction and you see this Tx-id:
 
 
-{{< imagesurlsheaders "cloud/txnautilus.png"  >}}
+{{< imagesurlsheaders "cloud/txnautilus.png" >}}
 
 
 
@@ -132,7 +132,7 @@ Under available functions select **Node Registration** and select the wallet con
 Underneath that, fill in  **10,000 Pirl** for Content MN to send the stake to the contract.
 
 
-{{< imagesurlsheaders "cloud/10k.png"  >}}
+{{< imagesurlsheaders "cloud/10k.png" >}}
 
 
 
@@ -161,14 +161,14 @@ https://poseidon.pirl.io/dashboard/masternodes/
 and hit the:  
 
 
-{{< imagesurlsheaders "cloud/redcrossadd.jpg"  >}}
+{{< imagesurlsheaders "cloud/redcrossadd.jpg" >}}
 
 
 
 then you get this nice popup screen:
 
 
-{{< imagesurlsheaders "cloud/Create_content_Masternode_Record_in_Poseidon.png"  >}}
+{{< imagesurlsheaders "cloud/Create_content_Masternode_Record_in_Poseidon.png" >}}
 
 
 
@@ -182,7 +182,7 @@ the Tx hash validation field needs the txid (not block hash, see above!) of the 
 Hit **Save changes** and then you will see the next screen.
 
 
-{{< imagesurlsheaders "cloud/one_click_setup.PNG"  >}}
+{{< imagesurlsheaders "cloud/one_click_setup.PNG" >}}
 
 
 
@@ -193,7 +193,7 @@ Ensure that you know the public static IP address and `root` credentials before 
 
 
 
-{{< imagesurlsheaders "cloud/one_click_setup.PNG"  >}}
+{{< imagesurlsheaders "cloud/one_click_setup.PNG" >}}
 
 
 
@@ -202,11 +202,11 @@ ssh default is port: 22
 Hit **Save changes** and then you will see the next screen.  
 
 
-{{< imagesurlsheaders "cloud/Done.PNG"  >}}
+{{< imagesurlsheaders "cloud/Done.PNG" >}}
 
 After returning to the **My Masternodes** screen, observe that the masternode's **Managed by Poseidon** field is set to `True`
 
-{{< imagesurlsheaders "cloud/managed.jpg"  >}}
+{{< imagesurlsheaders "cloud/managed.jpg" >}}
 
 
 Please allow 30 minutes for the process to complete. You may click the **details** button to monitor the status.
@@ -220,7 +220,7 @@ Once messages like the following are displayed, your masternode is now synchroni
 
 
 
-{{< imagesurlsheaders "cloud/vps.jpg"  >}}
+{{< imagesurlsheaders "cloud/vps.jpg" >}}
 
 
 
@@ -237,7 +237,7 @@ your masternode is contributing to the network if it looks like this:.
 
 
 
-{{< imagesurlsheaders "cloud/vps.jpg"  >}}
+{{< imagesurlsheaders "cloud/vps.jpg" >}}
 
 
 
@@ -245,7 +245,7 @@ Monitor the status of your masternode by checking the Poseidon Masternode Detail
 A functioning node should appear as follows:
 
 
-{{< imagesurlsheaders "cloud/detailsmn.png"  >}}
+{{< imagesurlsheaders "cloud/detailsmn.png" >}}
 
 
 
