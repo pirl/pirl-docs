@@ -57,7 +57,7 @@ weight = 10
 name = "<i class='fab fa-safari' ></i> Pirl Website"
 identifier = "pirl"
 url = "https://pirl.io/fr/"
-weight = 20 
+weight = 20
 
 
 
@@ -78,5 +78,3 @@ name = "<i class='fab fa-safari' ></i> Pirl Website"
 identifier = "pirl"
 url = "https://pirl.io/es"
 weight = 20
-
- 
