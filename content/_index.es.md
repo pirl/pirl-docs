@@ -16,21 +16,22 @@ Pirl se distingue más de la competencia al negarse a comprometer su seguridad o
 
 ### Contents
 #### [PirlWebsite](https://pirl.io/en/ "PirlWebsite")
-#### [FAQ]*  
+#### [FAQ]({{< ref "/faq" >}})  
 
-#### 1.) [Getting Started]*
+#### 1.) [Empezando]({{< ref "/getting started" >}})
 #### 2.) [PirlCloud]*
-#### 3.) [Mining]*
+#### 3.) [Minería]({{< ref "/mining" >}})
 #### 4.) [Wallets]*
 #### 5.) [Press releases]*
-#### 6.) [Pirl Roundtable Meeting]*
-#### 7.) [Links]*
-#### 8.) [Development]*
-#### 9.) [Downloads]*
+#### 6.) [Reunión de Mesa Redonda de Pirl]({{< ref "/pirl roundtable meeting" >}})
+#### 7.) [Enlaces]({{< ref "/links" >}})
+#### 8.) [Desarrollo]({{< ref "/development" >}})
+#### 9.) [Descargas]({{< ref "/Downloads" >}})
 #### 10.) [Services]*
-#### 11.) [Newsletter signup]*
-#### 12.) [Technical Documentation]*
-#### 13.) [Bounty & Contributions]*
+#### 11.) [nscríbase al Boletín]({{< ref "/mailing" >}})
+#### 12.) [Documentación técnica]({{< ref "/solidity" >}})
+#### 13.) [Recompensas]({{< ref "/bounty-contributions" >}})
+
 
 
 
