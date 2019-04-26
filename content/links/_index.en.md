@@ -21,6 +21,8 @@ chapter: true
 
 #### [PirlNetwork](http://stats.pirl.io "PirlNetwork")
 
+#### [🇧🇪 Pirl Team Pool 🇲🇺](https://pool.pirl.network/)
+
 
 #### [Pirl on Blockfolio](https://blockfolio.com "Pirl on Blockfolio")
 
@@ -28,7 +30,7 @@ chapter: true
 ### if you want to participate in the future grow and security you can join in with you hash power:
 
 
-### [PirlTestNetwork Pool](http://testnetpool.pirl.io/#/ "PirlTestNetwork Pool").
+### [PirlTestNetwork Pool](------------).
 
 
 ### [PirlTestNetwork Stats](http://devstats.pirl.io/ "PirlTestNetwork Stats").
