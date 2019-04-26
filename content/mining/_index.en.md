@@ -61,7 +61,10 @@ EZminer Features:
 Download and mine Pirl with ezMiner v2.0 [Downloads]({{< ref "/Downloads" >}})
 
 
+#### [🇧🇪 Pirl Team Pool 🇲🇺](https://pool.pirl.network/)  
 
+
+    
 
 
 

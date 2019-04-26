@@ -61,6 +61,11 @@ Características de EZminer:
 Descarga y extrae Pirl con ezMiner v2.0 [Downloads]({{< ref "/Downloads" >}})
 
 
+#### [🇧🇪 Pirl Team Pool 🇲🇺](https://pool.pirl.network/)  
+
+
+
+
 
 
 

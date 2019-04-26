@@ -21,6 +21,8 @@ chapter: true
 
 #### [Red de Pirl](http://stats.pirl.io "PirlNetwork")
 
+#### [🇧🇪 Pirl Team Pool 🇲🇺](https://pool.pirl.network/)
+
 
 #### [Pirl on Blockfolio](https://blockfolio.com "Pirl on Blockfolio")
 
