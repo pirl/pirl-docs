@@ -19,6 +19,12 @@ https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/masternodes/content/p
 https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/masternodes/premium/pirl-linux-amd64-premium  
 
 
+## Update with script from @phatblinkie if not want to do it all Manual:
+
+https://github.com/phatblinkie/mn_installer
+
+
+
 ## The update process:
 
 Stop the  pirlnode service:
@@ -89,24 +95,6 @@ reboot
 ```
 
 
-
-Enable and start the pirlnode service:
-
-```
-systemctl daemon-reload
-systemctl enable pirl
-systemctl restart pirl
-```
-
-
-Enable and start the pirlmarlin service:
-
-```
-systemctl enable marlin /usr/bin/marlin init
-systemctl start marlin
-```
-
-
 Watch the masternode process synchronize with the blockchain:
 ```
 journalctl -f
@@ -140,12 +128,31 @@ export TOKEN=zfzefezfzefzecfzegregkgeorgoerbvnijv <<<---YOUR TOKEN GOES HERE
 
 
 ```
+
+that step above can also be done,
+if you have this file /etc/pirlnode-env,
+you can do:  
+```
+. /etc/pirlnode-env && export MASTERNODE TOKEN
+
+```
+
+
 - And then remove the database:  
 
 ```
 pirl removedb
 
 ```
+
+or the last resort way:  
+
+```
+rm -rf /root/.pirl
+
+```
+
+
 
 Kind regards,  
 PirlTeam.  
