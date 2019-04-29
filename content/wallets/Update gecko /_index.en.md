@@ -29,10 +29,22 @@ Nautilus wallet update is there:
 
 {{% notice warning %}}
 If the wallet not synchronise you want to remove the old chain-data like it says here:  
+[Reset blockchain data]({{< ref "/wallets/reset blockchain data" >}})
 {{% /notice %}}  
 
 
-[Reset blockchain data]({{< ref "/wallets/reset blockchain data" >}})
+
+
+
+
+{{% notice warning %}}
+This will be the last update we roll out for Nautilus.  
+We advice to switch to the  
+[PirlApp]({{< ref "/PirlCloud/pirl app" >}})
+
+{{% /notice %}}
+
+
 
 
 Kind regards,  
