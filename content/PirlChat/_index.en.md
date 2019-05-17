@@ -5,7 +5,8 @@ pre: "<b>14. </b>"
 chapter: true
 ---
 
-{{< imagesurlsheaders "images_headers/pirlchat.png" >}}
+{{< imagesurlsheaders "images_headers/pirlchat.png"  >}}
+
 
 
 
@@ -28,7 +29,7 @@ Open PirlChat.
 
 The welcome screen
 
-{{< imagesurlsheaders "cloud/pirlchat1.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat1.jpg"  >}}
 
 Here you can also:
 
@@ -45,17 +46,18 @@ Click "CREATE A NEW ACCOUNT"
 You will be redirected to the second screen where you will receive a unique combination of 24 words called "Seed Phrase" the seed phrase is your private key make sure you write them down and never lose or share them.
 Losing your seed phrase is like loosing your account and its balance. If for any reason you need to reinstall your PirlChat, or move it to a new device you will need the seed phrase in order to recover your account.
 
-{{< imagesurlsheaders "cloud/pirlchat2.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat2.jpg"  >}}
 
-{{< imagesurlsheaders "cloud/pirlchat3.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat3.jpg"  >}}
 
 Once you have stored safely your seed phrase you can tick the box and click "Continue"
 
-{{< imagesurlsheaders "cloud/pirlchat4.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat4.jpg"  >}}
 
 In order to confirm you have safely backed up your seed phrase you will be asked to enter 3 randomly selected numbers.
 
-{{< imagesurlsheaders "cloud/pirlchat5.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat5.jpg"  >}}
+
 
 Voila! Your PirlChat Account is created!
 
@@ -65,7 +67,7 @@ Voila! Your PirlChat Account is created!
 
 Now you will have to add funds in order to start chatting.
 
-{{< imagesurlsheaders "cloud/pirlchat6.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat6.jpg"  >}}
 
 If you are a Pirl holder you can fund your account by simply sending a small amount of PIRL to your newly created PirlChat Account Address.
 
@@ -76,7 +78,7 @@ For Details Visit:
 
 ### User Settings
 
-{{< imagesurlsheaders "cloud/pirlchat7.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat7.jpg"  >}}
 
 In the User Settings you can:
 
@@ -87,26 +89,26 @@ In the User Settings you can:
 - Clear Data: Reseting the application to its initial state
 - Select connection point to the blockchain
 
-{{< imagesurlsheaders "cloud/pirlchat8.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat8.jpg"  >}}
 
 ### Adding Contacts
 
 You can add contacts by entering their PirlChat Public Address or by scanning their QR code.
 
-{{< imagesurlsheaders "cloud/pirlchat9.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat9.jpg"  >}}
 
 You can visualize your QR code by clicking the menu and then over your public key.
 
-{{< imagesurlsheaders "cloud/pirlchat10.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat10.jpg"  >}}
 
-{{< imagesurlsheaders "cloud/pirlchat11.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat11.jpg"  >}}
 
 ### Deleting App Data (App Reset)
 
 In settings menu -> Click "Clear Data"
 
 
-{{< imagesurlsheaders "cloud/pirlchat15.jpg" >}}
+{{< imagesurlsheaders "cloud/pirlchat15.jpg"  >}}
 
 On the pop-up input write "DELETE" and click "Clear -> You will be sent back to "Welcome" screen with your app data erased.
 
