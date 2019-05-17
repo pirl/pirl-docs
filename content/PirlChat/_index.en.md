@@ -5,8 +5,7 @@ pre: "<b>14. </b>"
 chapter: true
 ---
 
-{{< imagesurlsheaders "images_headers/pirlchat.png"  >}}
-
+![](https://pirl.live/ipfs/Qmf9USzmQDxTzbMzRj3gW6sHnDHPUH1WttYSwsaLwG1orT)  
 
 
 
@@ -29,7 +28,8 @@ Open PirlChat.
 
 The welcome screen
 
-{{< imagesurlsheaders "cloud/pirlchat1.jpg"  >}}
+![](https://pirl.live/ipfs/QmR3G65HgbuzieKTZP76dusgDMHzGRVkfwQEFJzuWYXjHW)
+
 
 Here you can also:
 
@@ -46,18 +46,17 @@ Click "CREATE A NEW ACCOUNT"
 You will be redirected to the second screen where you will receive a unique combination of 24 words called "Seed Phrase" the seed phrase is your private key make sure you write them down and never lose or share them.
 Losing your seed phrase is like loosing your account and its balance. If for any reason you need to reinstall your PirlChat, or move it to a new device you will need the seed phrase in order to recover your account.
 
-{{< imagesurlsheaders "cloud/pirlchat2.jpg"  >}}
+![](https://pirl.live/ipfs/QmNWMTELhsyHvkRGWu8RigjgrCchKNuJfCgue4gzq26Qaf)  
 
-{{< imagesurlsheaders "cloud/pirlchat3.jpg"  >}}
 
-Once you have stored safely your seed phrase you can tick the box and click "Continue"
+![](https://pirl.live/ipfs/QmNWMTELhsyHvkRGWu8RigjgrCchKNuJfCgue4gzq26Qaf)  
 
-{{< imagesurlsheaders "cloud/pirlchat4.jpg"  >}}
+Once you have stored safely your seed phrase you can tick the box and click "Continue"  
 
-In order to confirm you have safely backed up your seed phrase you will be asked to enter 3 randomly selected numbers.
+![](https://pirl.live/ipfs/QmZiLjri6BZbfoAqMZvu6zif7nVNCDFYu3WLtqWbSor3dk)  
+In order to confirm you have safely backed up your seed phrase you will be asked to enter 3 randomly selected numbers.  
 
-{{< imagesurlsheaders "cloud/pirlchat5.jpg"  >}}
-
+![](https://pirl.live/ipfs/QmRW1f3SeLznBQHVynoGeKgixqZohZ4rwZvw9o4ZxJ5e7P)  
 
 Voila! Your PirlChat Account is created!
 
@@ -67,18 +66,19 @@ Voila! Your PirlChat Account is created!
 
 Now you will have to add funds in order to start chatting.
 
-{{< imagesurlsheaders "cloud/pirlchat6.jpg"  >}}
+![](https://pirl.live/ipfs/QmXQRo9qEWJ5ZsnPBP2pMg5f4hd2mygvtyASRp6aDZyuNG)  
 
-If you are a Pirl holder you can fund your account by simply sending a small amount of PIRL to your newly created PirlChat Account Address.
+If you are a Pirl holder you can fund your account by simply sending a small amount of PIRL to your newly created PirlChat Account Address.  
 
-If you are new to Pirl we have created a faucet where you can receive initial funding.
+If you are new to Pirl we have created a faucet where you can receive initial funding.  
 
-For Details Visit:
+For Details Visit:  
 
 
 ### User Settings
 
-{{< imagesurlsheaders "cloud/pirlchat7.jpg"  >}}
+
+![](https://pirl.live/ipfs/QmfHcrADm2hBofMbwb2G9sJcgfw3toD2yKHp6QjWTZLLag)  
 
 In the User Settings you can:
 
@@ -89,26 +89,26 @@ In the User Settings you can:
 - Clear Data: Reseting the application to its initial state
 - Select connection point to the blockchain
 
-{{< imagesurlsheaders "cloud/pirlchat8.jpg"  >}}
+![](https://pirl.live/ipfs/QmbLkaB79KJPmKctbLrUe31XuSPyQB4Tb94U5DNLRKXyxp)  
 
 ### Adding Contacts
 
 You can add contacts by entering their PirlChat Public Address or by scanning their QR code.
 
-{{< imagesurlsheaders "cloud/pirlchat9.jpg"  >}}
+![](https://pirl.live/ipfs/QmS8RC1a7mDBoZgWWFzeYkqGLtWGb18AcahT5gaGsEEQvx)  
 
-You can visualize your QR code by clicking the menu and then over your public key.
+You can visualize your QR code by clicking the menu and then over your public key.  
 
-{{< imagesurlsheaders "cloud/pirlchat10.jpg"  >}}
+![](https://pirl.live/ipfs/QmUsfzLbptF8hpYr84TrviriCmGQVszfmgFWSdpMAPcLdi)  
 
-{{< imagesurlsheaders "cloud/pirlchat11.jpg"  >}}
+![](https://pirl.live/ipfs/QmdZnLP5Q17dofvLVF1RAfP7HwLNhBtiRyCkPqpHwNNS13)  
 
 ### Deleting App Data (App Reset)
 
 In settings menu -> Click "Clear Data"
 
 
-{{< imagesurlsheaders "cloud/pirlchat15.jpg"  >}}
+![](https://pirl.live/ipfs/QmfJVDYVG7r7pFjHq99hXspaRe2GXpqLq4KVC5SCKZiL6M)  
 
 On the pop-up input write "DELETE" and click "Clear -> You will be sent back to "Welcome" screen with your app data erased.
 
