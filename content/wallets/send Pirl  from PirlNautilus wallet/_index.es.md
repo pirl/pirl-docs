@@ -7,21 +7,21 @@ chapter: true
 ![](https://pirl.live/ipfs/QmbT59H33UqD1VH1sfbbcCcwUnEfXDauSrQPaE3XJkQ7GC)
 
 
-## Introducción
+## Introducci&oacute;n
 
 
 
-ï »¿Este [PirlDoc] (https://docs.pirl.io/en/) explica cómo enviar una moneda Pirl de su billetera PirlNautilus a una dirección de billetera PirlPoseidon.
+ï »¿Este [PirlDoc] (https://docs.pirl.io/en/) explica c&oacute;mo enviar una moneda Pirl de su billetera PirlNautilus a una direcci&oacute;n de billetera PirlPoseidon.
 
 ## Nota
 
 
 Puede enviar sus monedas a una billetera de hardware [Trezor] (https://pirl.io/en/blog/pirl-trezor) o a [myetherwallet] (https://wallet.pirl.io/).
-Solo asegúrese de enviar sus monedas a una billetera o intercambio que acepte Pirl.
+Solo aseg&uacute;rese de enviar sus monedas a una billetera o intercambio que acepte Pirl.
 ** Nunca almacene sus monedas en un intercambio. **
 
-Todas las fotos de este artículo se alojan en la propiedad de Pirls![] (Https://pirl.live/ipfs/QmS42TAndn2RmtEtYLqAiv6dfnW6om6PPA1xn6Si2dxSG5)
-Si desea obtener más información, haga clic en este [IPFS] (https://docs.pirl.io/en/pirlcloud/cloudacess/overview/).
+Todas las fotos de este art&iacute;culo se alojan en la propiedad de Pirls![] (Https://pirl.live/ipfs/QmS42TAndn2RmtEtYLqAiv6dfnW6om6PPA1xn6Si2dxSG5)
+Si desea obtener más informaci&oacute;n, haga clic en este [IPFS] (https://docs.pirl.io/en/pirlcloud/cloudacess/overview/).
 
 
 ## Cómo enviar de billetera PirlNautilus a la billetera que usted elija.
@@ -30,12 +30,12 @@ Abra su billetera PirlNautilus.
 
 ![https://pirl.live/ipfs/QmNfQfHW5RhtPejTpwRR7iAzAHw18iNLFFM8ptURu9hiqW](https://pirl.live/ipfs/QmNfQfHW5RhtPejTpwRR7iAzAHw18iNLFFM8ptURu9hiqW)
 
-1. Haga clic en el botón Enviar.
+1. Haga clic en el bot&oacute;n Enviar.
 
 ![https://pirl.live/ipfs/QmS6LsrUrB4k3GjBwVzaLfLJjVjs2CrJh6eqLuMEJa4JoX](https://pirl.live/ipfs/QmS6LsrUrB4k3GjBwVzaLfLJjVjs2CrJh6eqLuMEJa4JoX)
 
 
-1. Ingrese la dirección de billetera a la que desea enviar el Pirl.
+1. Ingrese la direcci&oacute;n de billetera a la que desea enviar el Pirl.
 
 
 2. Ingrese la cantidad de Pirl que desea enviar.
@@ -45,7 +45,7 @@ Abra su billetera PirlNautilus.
 
 ![https://pirl.live/ipfs/QmVXUSzxY4BHvUYNFPYN1QPGJFJYdr3JnqzEV9DrtY96wd](https://pirl.live/ipfs/QmVXUSzxY4BHvUYNFPYN1QPGJFJYdr3JnqzEV9DrtY96wd)  
 
-1. Ingrese la contraseña de su cuenta.
+1. Ingrese la contrase&ntilde;a de su cuenta.
 
 
 2. Haga clic en enviar.
@@ -56,7 +56,7 @@ Abra su billetera PirlNautilus.
 1. Regrese a la cuenta de billetera principal y espere 12 confirmaciones.
 
 
-2. ¡Hecho! Pirl envió.
+2. ¡Hecho! Pirl enviado.
 
 
 
