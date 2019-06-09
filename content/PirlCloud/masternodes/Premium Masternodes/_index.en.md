@@ -23,7 +23,8 @@ The premium masternodes will be additionally rewarded with
 
 #### 1.) [Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)" >}})
 #### 2.) [Disabling Masternode and Retrieving Stake]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
-
+#### 3.) [Update to 1.8.27-gecko]({{< ref "//PirlCloud/masternodes/Premium Masternodes/Update gecko" >}})  
+#### 4.) [Update to 1.8.27-damocles]({{< ref "//PirlCloud/masternodes/Premium Masternodes/Update damocles" >}})  
 
 ---
 Author(s):
