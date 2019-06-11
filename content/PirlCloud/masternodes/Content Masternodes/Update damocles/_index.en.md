@@ -64,13 +64,13 @@ wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1
 Move the main binary to /usr/bin/pirl For premium masternodes:  
 
 ```
-mv pirl-linux-amd64-premium /usr/bin/pirl
+mv masternode-premium-1.8.27-damocles /usr/bin/pirl
 
 ```
 
 For content nodes:  
 ```
-mv pirl-linux-amd64-content /usr/bin/pirl
+mv masternode-content-1.8.27-damocles /usr/bin/pirl
 
 ```
 
