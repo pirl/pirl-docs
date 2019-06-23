@@ -10,10 +10,10 @@ chapter: true
 
 
 ## La moneda
-Vamos a crear un token digital. Los tokens en el ecosistema de Pirl pueden representar cualquier bien comerciable fungible: monedas, puntos de lealtad, certificados de oro, IOU, elementos del juego, etc. Dado que todos los tokens implementan algunas caracter�sticas b�sicas de manera est�ndar, esto tambi�n significa que su token ser� instant�neo. compatible con la billetera Pirl y cualquier otro cliente o contrato que utilice los mismos est�ndares.
+Vamos a crear un token digital. Los tokens en el ecosistema de Pirl pueden representar cualquier bien comerciable fungible: monedas, puntos de lealtad, certificados de oro, IOU, elementos del juego, etc. Dado que todos los tokens implementan algunas caracter&iacute;sticas b&aacute;sicas de manera est&aacute;ndar, esto tambi&eacute;n significa que su token ser&aacute; instant&aacute;neo. compatible con la billetera Pirl y cualquier otro cliente o contrato que utilice los mismos est&aacute;ndares.
 
-### TOKEN M�NIMO VIABLE
-El contrato de token est�ndar puede ser bastante complejo. Pero en esencia un token muy b�sico se reduce a esto:
+### TOKEN M&Iacute;NIMO VIABLE
+El contrato de token est&aacute;ndar puede ser bastante complejo. Pero en esencia un token muy b&aacute;sico se reduce a esto:
 
     contract MyToken {
     /* This creates an array with all balances */
@@ -37,9 +37,9 @@ El contrato de token est�ndar puede ser bastante complejo. Pero en esencia un 
 
 
 
-### EL C�DIGO
+### EL C&Oacute;DIGO
 
-Pero si solo desea copiar y pegar un c�digo m�s completo, use esto:
+Pero si solo desea copiar y pegar un c&oacute;digo m&aacute;s completo, use esto:
 solidez del pragma ^ 0.4.16;
 
     interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) public; }
@@ -195,14 +195,14 @@ solidez del pragma ^ 0.4.16;
 
 
 
-## ENTENDIENDO EL C�DIGO
+## ENTENDIENDO EL C&Oacute;DIGO
 
 
 {{< imagesurlsheaders "cloud/1.jpg" >}}
 
 
 
-As� que vamos a empezar con lo b�sico. Abra la aplicaci�n Wallet, vaya a la pesta�a Contratos y luego Despliegue Nuevo Contrato. En el campo de texto del c�digo fuente del contrato de solidaridad, escriba el c�digo a continuaci�n:
+As&iacute; que vamos a empezar con lo b&aacute;sico. Abra la aplicaci&oacute;n Wallet, vaya a la pesta&ntilde;a Contratos y luego Despliegue Nuevo Contrato. En el campo de texto del c&oacute;digo fuente del contrato de solidaridad, escriba el c&oacute;digo a continuaci&oacute;n:
 
     contract MyToken {
         /* This creates an array with all balances */
@@ -210,29 +210,29 @@ As� que vamos a empezar con lo b�sico. Abra la aplicaci�n Wallet, vaya a l
     }
 
 
-Una asignaci�n significa una matriz asociativa, donde se asocian las direcciones con los saldos. Las direcciones est�n en el formato hexadecimal b�sico de Pirl, mientras que las balanzas son enteros, que van de 0 a 115 quattuorvigintillion. Si no sabes cu�nto es un quattuorvigintillion, es mucho m�s que nada para lo que planeas usar tus tokens. La palabra clave p�blica significa que esta variable ser� accesible para cualquiera en la cadena de bloques, lo que significa que todos los saldos son p�blicos (como deben ser, para que los clientes los muestren).
+Una asignaci&oacute;n significa una matriz asociativa, donde se asocian las direcciones con los saldos. Las direcciones est&aacute;n en el formato hexadecimal b&aacute;sico de Pirl, mientras que las balanzas son enteros, que van de 0 a 115 quattuorvigintillion. Si no sabes cu&aacute;nto es un quattuorvigintillion, es mucho m&aacute;s que nada para lo que planeas usar tus tokens. La palabra clave p&uacute;blica significa que esta variable ser&aacute; accesible para cualquiera en la cadena de bloques, lo que significa que todos los saldos son p&uacute;blicos (como deben ser, para que los clientes los muestren).
 
 
 {{< imagesurlsheaders "cloud/2.jpg" >}}
 
 
-Si publicara su contrato de inmediato, funcionar�a pero no ser�a muy �til: ser�a un contrato que podr�a consultar el saldo de su moneda para cualquier direcci�n, pero como nunca cre� una sola moneda, cada una de ellas devolver�a 0. Entonces, vamos a crear algunos tokens al inicio. Agregue este c�digo antes del �ltimo corchete de cierre, justo debajo de la l�nea de mapeo.
+Si publicara su contrato de inmediato, funcionar&iacute;a pero no ser&iacute;a muy &uacute;til: ser&iacute;a un contrato que podr&iacute;a consultar el saldo de su moneda para cualquier direcci&oacute;n, pero como nunca cre&oacute; una sola moneda, cada una de ellas devolver&iacute;a 0. Entonces, vamos a crear algunos tokens al inicio. Agregue este c&oacute;digo antes del &uacute;ltimo corchete de cierre, justo debajo de la l&iacute;nea de mapeo.
 
     function MyToken() {
         balanceOf[msg.sender] = 21000000;
     }
 
 
-Observe que la funci�n MyToken tiene el mismo nombre que el contrato MyToken. Esto es muy importante y si cambia el nombre de uno, tambi�n tiene que cambiar el nombre del otro: esta es una funci�n especial de inicio que se ejecuta solo una vez y solo cuando el contrato se carga por primera vez en la red. Esta funci�n establecer� el saldo de msg.sender, el usuario que implement� el contrato, con un saldo de 21 millones.
+Observe que la funci&oacute;n MyToken tiene el mismo nombre que el contrato MyToken. Esto es muy importante y si cambia el nombre de uno, tambi&eacute;n tiene que cambiar el nombre del otro: esta es una funci&oacute;n especial de inicio que se ejecuta solo una vez y solo cuando el contrato se carga por primera vez en la red. Esta funci&oacute;n establecer&aacute; el saldo de msg.sender, el usuario que implement&aacute; el contrato, con un saldo de 21 millones.
 
-La elecci�n de 21 millones fue bastante arbitraria, y puede cambiarlo a cualquier cosa que desee en el c�digo, pero hay una mejor manera: en su lugar, proporci�nelo como un par�metro para la funci�n, como esto:
+La elecci&oacute;n de 21 millones fue bastante arbitraria, y puede cambiarlo a cualquier cosa que desee en el c&oacute;digo, pero hay una mejor manera: en su lugar, proporci&oacute;nelo como un par&aacute;metro para la funci&oacute;n, como esto:
 
     function MyToken(uint256 initialSupply) public {
         balanceOf[msg.sender] = initialSupply;
     }
 
 
-Mire la columna derecha al lado del contrato y ver� una lista desplegable, elija un contrato por escrito. Seleccione el contrato "MyToken" y ver� que ahora muestra una secci�n llamada Par�metros del constructor. Estos son par�metros modificables para su token, por lo que puede reutilizar el mismo c�digo y solo cambiar estas variables en el futuro.
+Mire la columna derecha al lado del contrato y ver&aacute; una lista desplegable, elija un contrato por escrito. Seleccione el contrato "MyToken" y ver&aacute; que ahora muestra una secci&oacute;n llamada Par&aacute;metros del constructor. Estos son par&aacute;metros modificables para su token, por lo que puede reutilizar el mismo c&oacute;digo y solo cambiar estas variables en el futuro.
 
 
 {{< imagesurlsheaders "cloud/3.jpg" >}}
