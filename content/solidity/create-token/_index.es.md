@@ -238,7 +238,7 @@ Mire la columna derecha al lado del contrato y ver&aacute; una lista desplegable
 {{< imagesurlsheaders "cloud/3.jpg" >}}
 
 
-Ahora mismo tiene un contrato funcional que cre� saldos de tokens, pero como no hay ninguna funci�n para moverlo, todo lo que hace es permanecer en la misma cuenta. As� que vamos a implementar eso ahora. Escriba el siguiente c�digo antes del �ltimo corchete.
+Ahora mismo tiene un contrato funcional que cre&oacute; saldos de tokens, pero como no hay ninguna funci&oacute;n para moverlo, todo lo que hace es permanecer en la misma cuenta. As&iacute; que vamos a implementar eso ahora. Escriba el siguiente c&oacute;digo antes del &uacute;ltimo corchete.
 
       /* Send coins */
     function transfer(address _to, uint256 _value) {
@@ -248,9 +248,9 @@ Ahora mismo tiene un contrato funcional que cre� saldos de tokens, pero como n
     }
 
 
-Esta es una funci�n muy sencilla: tiene un destinatario y un valor como par�metro y cada vez que alguien lo llama, restar� el _valor de su saldo y lo agregar� al _para equilibrar. De inmediato hay un problema obvio: �qu� sucede si la persona desea enviar m�s de lo que posee? Dado que no queremos manejar la deuda en este contrato en particular, simplemente haremos un chequeo r�pido y, si el remitente no tiene fondos suficientes, la ejecuci�n del contrato simplemente se detendr�. Tambi�n es para verificar desbordamientos, para evitar tener un n�mero tan grande que vuelva a ser cero.
+Esta es una funci&oacute;n muy sencilla: tiene un destinatario y un valor como par&aacute;metro y cada vez que alguien lo llama, restar&aacute; el _valor de su saldo y lo agregar&aacute; al _para equilibrar. De inmediato hay un problema obvio: Aqu&iacute; sucede si la persona desea enviar m&aacute;s de lo que posee? Dado que no queremos manejar la deuda en este contrato en particular, simplemente haremos un chequeo r&aacute;pido y, si el remitente no tiene fondos suficientes, la ejecuci&oacute;n del contrato simplemente se detendr&aacute;. Tambi&eacute;n es para verificar desbordamientos, para evitar tener un n&uacute;mero tan grande que vuelva a ser cero.
 
-Para detener la ejecuci�n de un contrato a mitad de la ejecuci�n, puede devolverlo o lanzarlo. El primero costar� menos combustible, pero puede ser m�s doloroso ya que se mantendr�n los cambios que haya hecho en el contrato hasta el momento. Por otro lado, 'lanzar' cancelar� toda la ejecuci�n del contrato, revertir� cualquier cambio que la transacci�n haya podido realizar y el remitente perder� todo el Pirl que envi� por el gas. Pero como la Cartera puede detectar que se lanzar� un contrato, siempre muestra una alerta, por lo tanto, evita que se gaste ning�n Pirl.
+Para detener la ejecuci&oacute;n de un contrato a mitad de la ejecuci&oacute;n, puede devolverlo o lanzarlo. El primero costar&aacute; menos combustible, pero puede ser m&aacute;s doloroso ya que se mantendr&aacute;n los cambios que haya hecho en el contrato hasta el momento. Por otro lado, 'lanzar' cancelar&aacute; toda la ejecuci&oacute;n del contrato, revertir&aacute; cualquier cambio que la transacci&oacute;n haya podido realizar y el remitente perder&aacute; todo el Pirl que envi&oacute; por el gas. Pero como la Cartera puede detectar que se lanzar&aacute; un contrato, siempre muestra una alerta, por lo tanto, evita que se gaste ning&uacute;n Pirl.
 
     function transfer(address _to, uint256 _value) {
         /* Check if sender has balance and for overflows */
@@ -262,14 +262,14 @@ Para detener la ejecuci�n de un contrato a mitad de la ejecuci�n, puede devo
     }
 
 
-Ahora todo lo que falta es tener informaci�n b�sica sobre el contrato. En un futuro cercano, esto puede ser manejado por un registro de token, pero por ahora los agregaremos directamente al contrato:
+Ahora todo lo que falta es tener informaci&oacute;n b&aacute;sica sobre el contrato. En un futuro cercano, esto puede ser manejado por un registro de token, pero por ahora los agregaremos directamente al contrato:
 
 string public name;
 string public symbol;
 uint8 public decimals;
 
 
-Y ahora actualizamos la funci�n de constructor para permitir que todas esas variables se configuren al inicio:
+Y ahora actualizamos la funci&oacute;n de constructor para permitir que todas esas variables se configuren al inicio:
 
         /* Initializes contract with initial supply tokens to the creator of the contract */
     function MyToken(uint256 initialSupply, string tokenName, string tokenSymbol, uint8 decimalUnits) {
@@ -280,7 +280,7 @@ Y ahora actualizamos la funci�n de constructor para permitir que todas esas va
     }
 
 
-Finalmente, ahora necesitamos algunos eventos llamados "Eventos". Estas son funciones especiales y vac�as a las que llama para ayudar a los clientes como Pirl Wallet a realizar un seguimiento de las actividades que se realizan en el contrato. Los eventos deben comenzar con una letra may�scula. Agregue esta l�nea al comienzo del contrato para declarar el evento:
+Finalmente, ahora necesitamos algunos eventos llamados "Eventos". Estas son funciones especiales y vac&iacute;as a las que llama para ayudar a los clientes como Pirl Wallet a realizar un seguimiento de las actividades que se realizan en el contrato. Los eventos deben comenzar con una letra may&uacute;scula. Agregue esta l&iacute;nea al comienzo del contrato para declarar el evento:
 
     event Transfer(address indexed from, address indexed to, uint256 value);
 
@@ -290,48 +290,48 @@ Y luego solo necesita agregar estas dos l�neas dentro de la funci�n "transfe
          Transfer(msg.sender, _to, _value);
 
 
-Y ahora tu token est� listo!
+Y ahora tu token est&aacute; listo!
 
-### �NOTADO LOS COMENTARIOS?
+### NOTADO LOS COMENTARIOS?
 
-�Cu�les son esos comentarios de @notice y @param, podr�as preguntar? Es Natspec, un est�ndar emergente para una especificaci�n de lenguaje natural, que permite a las billeteras mostrar al usuario una descripci�n en lenguaje natural de lo que el contrato est� por hacer. Aunque actualmente no es compatible con muchas carteras, esto cambiar� en el futuro, por lo que es bueno estar preparado.
+Cu&aacute;les son esos comentarios de @notice y @param, podr&iacute;as preguntar? Es Natspec, un est&aacute;ndar emergente para una especificaci&oacute;n de lenguaje natural, que permite a las billeteras mostrar al usuario una descripci&oacute;n en lenguaje natural de lo que el contrato est&aacute; por hacer. Aunque actualmente no es compatible con muchas carteras, esto cambiar&aacute; en el futuro, por lo que es bueno estar preparado.
 
-# C�MO DESPLEGAR
+# C&Oacute;MO DESPLEGAR
 
-Si a�n no est� all�, abra la cartera de Pirl, vaya a la pesta�a de contratos y luego haga clic en "desplegar nuevo contrato".
-Ahora obtenga la fuente de token desde arriba y p�guela en el "Campo de fuente de solidez". Si el c�digo se compila sin ning�n error, deber�a ver una lista desplegable de "elija un contrato" a la derecha. Cons�guelo y selecciona el contrato "MyToken". En la columna de la derecha, ver� todos los par�metros que necesita para personalizar su propio token. Puedes modificarlos como quieras.
+Si a&uacute;n no est&aacute; all&aacute;, abra la cartera de Pirl, vaya a la pesta&tilde;a de contratos y luego haga clic en "desplegar nuevo contrato".
+Ahora obtenga la fuente de token desde arriba y p&aacute;guela en el "Campo de fuente de solidez". Si el c&oacute;digo se compila sin ning&uacute;n error, deber&iacute;a ver una lista desplegable de "elija un contrato" a la derecha. Cons&iacute;guelo y selecciona el contrato "MyToken". En la columna de la derecha, ver&aacute; todos los par&aacute;metros que necesita para personalizar su propio token. Puedes modificarlos como quieras.
 
 
 {{< imagesurlsheaders "cloud/4.jpg" >}}
 
-Despl�cese hasta el final de la p�gina y ver� una estimaci�n del costo de c�mputo de ese contrato y puede seleccionar una tarifa por la cantidad que Pirl est� dispuesto a pagar. Se le devolver� cualquier Pirl sobrante que no gaste, por lo que puede dejar la configuraci�n predeterminada si lo desea. Presione "desplegar", ingrese la contrase�a de su cuenta y espere unos segundos para que su transacci�n sea recogida.
+Despl&aacute;cese hasta el final de la p&aacute;gina y ver&aacute; una estimaci&oacute;n del costo de c&oacute;mputo de ese contrato y puede seleccionar una tarifa por la cantidad que Pirl est&aacute; dispuesto a pagar. Se le devolver&aacute; cualquier Pirl sobrante que no gaste, por lo que puede dejar la configuraci&oacute;n predeterminada si lo desea. Presione "desplegar", ingrese la contrase&ntilde;a de su cuenta y espere unos segundos para que su transacci&oacute;n sea recogida.
 
 {{< imagesurlsheaders "cloud/5.jpg" >}}
 
-Ser� redirigido a la p�gina principal donde podr� ver su transacci�n en espera de confirmaci�n. Haga clic en la cuenta y despu�s de no m�s de un minuto deber�a ver que su cuenta mostrar� que tiene el 100% de las acciones que acaba de crear. Para enviar algunos a unos pocos amigos: seleccione "enviar" y luego elija la moneda que desea enviar (Pirl o su recurso compartido reci�n creado), pegue la direcci�n de su amigo en el campo "a" y presione "enviar".
+Ser&aacute; redirigido a la p&aacute;gina principal donde podr&aacute; ver su transacci&oacute;n en espera de confirmaci&oacute;n. Haga clic en la cuenta y despu&eacute;s de no m&aacute;s de un minuto deber&iacute;a ver que su cuenta mostrar&aacute; que tiene el 100% de las acciones que acaba de crear. Para enviar algunos a unos pocos amigos: seleccione "enviar" y luego elija la moneda que desea enviar (Pirl o su recurso compartido reci&eacute;n creado), pegue la direcci&oacute;n de su amigo en el campo "a" y presione "enviar".
 
 {{< imagesurlsheaders "cloud/6.jpg" >}}
 
 
-Si lo env�as a un amigo, a�n no ver�n nada en su billetera. Esto se debe a que la billetera solo rastrea los tokens que conoce, y usted debe agregarlos manualmente. Ahora vaya a la pesta�a "Contratos" y deber�a ver un enlace a su contrato reci�n creado. Haz click en �l para ir a su p�gina. Ya que esta es una p�gina de contrato muy simple, no hay mucho que hacer aqu�, simplemente haga clic en "copiar direcci�n" y pegue la direcci�n del contrato en un editor de texto, lo necesitar� en breve.
+Si lo env&iacute;as a un amigo, a&uacute;n no ver&aacute;n nada en su billetera. Esto se debe a que la billetera solo rastrea los tokens que conoce, y usted debe agregarlos manualmente. Ahora vaya a la pesta&ntilde;a "Contratos" y deber&iacute;a ver un enlace a su contrato reci&eacute;n creado. Haz click en &eacute;l para ir a su p&aacute;gina. Ya que esta es una p&aacute;gina de contrato muy simple, no hay mucho que hacer aqu&iacute;, simplemente haga clic en "copiar direcci&oacute;n" y pegue la direcci&oacute;n del contrato en un editor de texto, lo necesitar&aacute; en breve.
 
-Para agregar un token para ver, vaya a la p�gina de contratos y luego haga clic en "Watch Token". Aparecer� una ventana emergente y solo deber� pegar la direcci�n del contrato. El nombre del token, el s�mbolo y el n�mero decimal deben llenarse autom�ticamente, pero si no es as�, puede poner lo que quiera (solo afectar� la forma en que se muestra en su billetera). Una vez que haga esto, autom�ticamente se le mostrar� el saldo que tenga de ese token y podr� enviarlo a cualquier otra persona.
+Para agregar un token para ver, vaya a la p&aacute;gina de contratos y luego haga clic en "Watch Token". Aparecer&aacute; una ventana emergente y solo deber&aacute; pegar la direcci&oacute;n del contrato. El nombre del token, el s&iacute;mbolo y el n&uacute;mero decimal deben llenarse autom&oacute;ticamente, pero si no es as&iacute;, puede poner lo que quiera (solo afectar&aacute; la forma en que se muestra en su billetera). Una vez que haga esto, autom&aacute;ticamente se le mostrar&aacute; el saldo que tenga de ese token y podr&aacute; enviarlo a cualquier otra persona.
 
 
 {{< imagesurlsheaders "cloud/7.jpg" >}}
 
 
-�Y ahora tienes tu propio token criptogr�fico! Los tokens por s� mismos pueden ser �tiles como intercambio de valor en las comunidades locales, formas de realizar un seguimiento de las horas trabajadas u otros programas de lealtad. �Pero podemos hacer que una moneda tenga un valor intr�nseco al hacerla �til?
+Y ahora tienes tu propio token criptogr&aacute;fico! Los tokens por s&iacute; mismos pueden ser &uacute;tiles como intercambio de valor en las comunidades locales, formas de realizar un seguimiento de las horas trabajadas u otros programas de lealtad. Pero podemos hacer que una moneda tenga un valor intr&iacute;nseco al hacerla &uacute;til?
 
 ### Mejora tu token
 
-Puedes implementar todo tu token criptogr�fico sin tocar una l�nea de c�digo, pero la verdadera magia sucede cuando comienzas a personalizarlo. Las siguientes secciones ser�n sugerencias sobre las funciones que puede agregar a su token para que se ajuste a sus necesidades.
+Puedes implementar todo tu token criptogr&aacute;fico sin tocar una l&iacute;nea de c&oacute;digo, pero la verdadera magia sucede cuando comienzas a personalizarlo. Las siguientes secciones ser&aacute;n sugerencias sobre las funciones que puede agregar a su token para que se ajuste a sus necesidades.
 
-### M�S FUNCIONES B�SICAS
+### M&Aacute;S FUNCIONES B&Aacute;SICAS
 
-Notar� que hay algunas funciones m�s en su contrato de token b�sico, como aprobar, enviar desde y otros. Estas funciones est�n ah� para que su token interact�e con otros contratos: si desea, por ejemplo, vender tokens a un intercambio descentralizado, solo enviarlos a una direcci�n no ser� suficiente, ya que el intercambio no ser� consciente de los tokens nuevos o qui�n los envi�. ellos, porque los contratos no pueden suscribirse a eventos solo para llamadas de funci�n. Por lo tanto, para los contratos, primero debe aprobar una cantidad de tokens que pueden mover de su cuenta y luego hacerles un ping para informarles que deben hacer lo suyo, o hacer las dos acciones en una, con approveAndCall.
+Notar&aacute; que hay algunas funciones m&aacute;s en su contrato de token b&aacute;sico, como aprobar, enviar desde y otros. Estas funciones &aacute; ah&iacute; para que su token interact&uacute;e con otros contratos: si desea, por ejemplo, vender tokens a un intercambio descentralizado, solo enviarlos a una direcci&oacute;n no ser&aacute; suficiente, ya que el intercambio no ser&aacute; consciente de los tokens nuevos o qui&eacute;n los envi&oacute;. ellos, porque los contratos no pueden suscribirse a eventos solo para llamadas de funci&oacute;n. Por lo tanto, para los contratos, primero debe aprobar una cantidad de tokens que pueden mover de su cuenta y luego hacerles un ping para informarles que deben hacer lo suyo, o hacer las dos acciones en una, con approveAndCall.
 
-Debido a que muchas de estas funciones tienen que reimplementar la transferencia de tokens, tiene sentido cambiarlas a una funci�n interna, que solo puede ser llamada por el propio contrato:
+Debido a que muchas de estas funciones tienen que reimplementar la transferencia de tokens, tiene sentido cambiarlas a una funci&oacute;n interna, que solo puede ser llamada por el propio contrato:
 
     /* Internal transfer, can only be called by this contract */
      function _transfer(address _from, address _to, uint _value) internal {
@@ -346,17 +346,17 @@ Debido a que muchas de estas funciones tienen que reimplementar la transferencia
     }
 
 
-Ahora todas sus funciones que resultan en la transferencia de monedas, pueden hacer sus propios cheques y luego transferir la llamada con los par�metros correctos. Tenga en cuenta que esta funci�n mover� las monedas de cualquier cuenta a cualquier otra, sin requerir el permiso de nadie para hacerlo: es por eso que es una funci�n interna, solo llamada por el contrato: si agrega cualquier funci�n llam�ndola, aseg�rese de que verifique correctamente si el la persona que llama debe tener permiso para mover esos.
+Ahora todas sus funciones que resultan en la transferencia de monedas, pueden hacer sus propios cheques y luego transferir la llamada con los par&aacute;metros correctos. Tenga en cuenta que esta funci&oacute;n mover&aacute; las monedas de cualquier cuenta a cualquier otra, sin requerir el permiso de nadie para hacerlo: es por eso que es una funci&oacute;n interna, solo llamada por el contrato: si agrega cualquier funci&oacute;n llam&aacute;ndola, aseg&uacute;rese de que verifique correctamente si el la persona que llama debe tener permiso para mover esos.
 
 ### ADMINISTRADOR CENTRALIZADO
 
-Todos los dapps est�n completamente descentralizados por defecto, pero eso no significa que no puedan tener alg�n tipo de administrador central, si as� lo desean. Tal vez desee la posibilidad de acu�ar m�s monedas, tal vez quiera prohibir que algunas personas usen su moneda. Puedes agregar cualquiera de esas caracter�sticas, pero el problema es que solo puedes agregarlas al principio, por lo que todos los poseedores del token siempre conocer�n exactamente las reglas del juego antes de que decidan poseer una.
+Todos los dapps est&aacute;n completamente descentralizados por defecto, pero eso no significa que no puedan tener alg&uacute;n tipo de administrador central, si as&iacute; lo desean. Tal vez desee la posibilidad de acu&ntilde;ar m&aacute;s monedas, tal vez quiera prohibir que algunas personas usen su moneda. Puedes agregar cualquiera de esas caracter&aacute;sticas, pero el problema es que solo puedes agregarlas al principio, por lo que todos los poseedores del token siempre conocer&aacute;n exactamente las reglas del juego antes de que decidan poseer una.
 
-Para que eso suceda, necesitas un controlador central de moneda. Esta podr�a ser una cuenta simple, pero tambi�n podr�a ser un contrato y, por lo tanto, la decisi�n de crear m�s tokens depender� del contrato: si es una organizaci�n democr�tica la que est� en condiciones de votar, o tal vez sea solo una forma de limitar la Poder del propietario del token.
+Para que eso suceda, necesitas un controlador central de moneda. Esta podr&iacute;a ser una cuenta simple, pero tambi&eacute;n podr&iacute;a ser un contrato y, por lo tanto, la decisi&oacute;n de crear m&aacute;s tokens depender&aacute; del contrato: si es una organizaci&oacute;n democr&aacute;tica la que est&aacute; en condiciones de votar, o tal vez sea solo una forma de limitar la Poder del propietario del token.
 
-Para ello aprenderemos una propiedad muy �til de los contratos: la herencia. La herencia permite que un contrato adquiera propiedades de un contrato principal, sin tener que redefinirlas todas. Esto hace que el c�digo sea m�s limpio y m�s f�cil de reutilizar. Agregue este c�digo a la primera l�nea de su c�digo, antes del contrato MyToken {.
-���contrato de propiedad
-��������direccion propietario publico;
+Para ello aprenderemos una propiedad muy &uacute;til de los contratos: la herencia. La herencia permite que un contrato adquiera propiedades de un contrato principal, sin tener que redefinirlas todas. Esto hace que el c&oacute;digo sea m&aacute;s limpio y m&aacute;s f&aacute;cil de reutilizar. Agregue este c&oacute;digo a la primera l&iacute;nea de su c&oacute;digo, antes del contrato MyToken {.
+  contrato de propiedad
+       direccion propietario publico;
 
         function owned() {
             owner = msg.sender;
@@ -373,12 +373,12 @@ Para ello aprenderemos una propiedad muy �til de los contratos: la herencia. L
     }
 
 
-Esto crea un contrato muy b�sico que no hace nada, excepto definir algunas funciones gen�ricas sobre un contrato que puede ser "propiedad". Ahora el siguiente paso es agregar el texto que pertenece a su contrato:
-��� el contrato MyToken es propiedad
-�������� / * El resto del contrato como de costumbre * /
+Esto crea un contrato muy b&aacute;sico que no hace nada, excepto definir algunas funciones gen&eacute;ricas sobre un contrato que puede ser "propiedad". Ahora el siguiente paso es agregar el texto que pertenece a su contrato:
+    el contrato MyToken es propiedad
+         / * El resto del contrato como de costumbre * /
 
 
-Esto significa que todas las funciones dentro de MyToken ahora pueden acceder al propietario variable y al modificador onlyOwner. El contrato tambi�n obtiene una funci�n para transferir la propiedad. Dado que puede ser interesante establecer el propietario del contrato al inicio, tambi�n puede agregar esto a la funci�n de constructor:
+Esto significa que todas las funciones dentro de MyToken ahora pueden acceder al propietario variable y al modificador onlyOwner. El contrato tambi&eacute;n obtiene una funci&oacute;n para transferir la propiedad. Dado que puede ser interesante establecer el propietario del contrato al inicio, tambi&eacute;n puede agregar esto a la funci&oacute;n de constructor:
 
       function MyToken(
         uint256 initialSupply,
@@ -392,11 +392,11 @@ Esto significa que todas las funciones dentro de MyToken ahora pueden acceder al
 
 
 ### MENTA CENTRAL
-Supongamos que quieres que cambie la cantidad de monedas en circulaci�n. Este es el caso cuando sus tokens realmente representan un activo fuera de la cadena de bloques (como certificados de oro o monedas del gobierno) y desea que el inventario virtual refleje el real. Este tambi�n podr�a ser el caso cuando los tenedores de divisas esperan cierto control del precio del token y desean emitir o eliminar tokens de la circulaci�n.
+Supongamos que quieres que cambie la cantidad de monedas en circulaci&oacute;n. Este es el caso cuando sus tokens realmente representan un activo fuera de la cadena de bloques (como certificados de oro o monedas del gobierno) y desea que el inventario virtual refleje el real. Este tambi&eacute;n podr&iacute;a ser el caso cuando los tenedores de divisas esperan cierto control del precio del token y desean emitir o eliminar tokens de la circulaci&oacute;n.
 
-Primero, necesitamos agregar una variable para almacenar el totalSupply y asignarlo a nuestra funci�n de constructor.
-��� contrato MyToken {
-�������� uint256 public totalSupply;
+Primero, necesitamos agregar una variable para almacenar el totalSupply y asignarlo a nuestra funci&oacute;n de constructor.
+    contrato MyToken {
+         uint256 public totalSupply;
 
         function MyToken(...) {
             totalSupply = initialSupply;
@@ -406,7 +406,7 @@ Primero, necesitamos agregar una variable para almacenar el totalSupply y asigna
     }
 
 
-Ahora agreguemos una nueva funci�n finalmente que permitir� al propietario crear nuevos tokens:
+Ahora agreguemos una nueva funci&oacute;n finalmente que permitir&aacute; al propietario crear nuevos tokens:
 
     function mintToken(address target, uint256 mintedAmount) onlyOwner {
         balanceOf[target] += mintedAmount;
@@ -416,14 +416,14 @@ Ahora agreguemos una nueva funci�n finalmente que permitir� al propietario c
     }
 
 
-Observe el modificador onlyOwner al final del nombre de la funci�n. Esto significa que esta funci�n se reescribir� en la compilaci�n para heredar el c�digo del modificador onlyOwner que hab�amos definido anteriormente. El c�digo de esta funci�n se insertar� donde haya un subrayado en la funci�n modificadora, lo que significa que la cuenta que se establece como el propietario solo puede llamar a esta funci�n en particular. Simplemente agregue esto a un contrato con un modificador de propietario y podr� crear m�s monedas.
+Observe el modificador onlyOwner al final del nombre de la funci&oacute;n. Esto significa que esta funci&oacute;n se reescribir&aacute; en la compilaci&oacute;n para heredar el c&oacute;digo del modificador onlyOwner que hab&iacute;amos definido anteriormente. El c&oacute;digo de esta funci&oacute;n se insertar&aacute; donde haya un subrayado en la funci&oacute;n modificadora, lo que significa que la cuenta que se establece como el propietario solo puede llamar a esta funci&oacute;n en particular. Simplemente agregue esto a un contrato con un modificador de propietario y podr&aacute; crear m&aacute;s monedas.
 
 ### CONGELAMIENTO DE ACTIVOS
 
-Dependiendo de su caso de uso, es posible que tenga que tener algunos obst�culos regulatorios sobre qui�n puede y qui�n no puede usar sus fichas. Para que eso suceda, puede agregar un par�metro que permita al propietario del contrato congelar o descongelar activos.
-Agregue esta variable y funcione en cualquier lugar dentro del contrato. Puede ubicarlos en cualquier lugar, pero para una buena pr�ctica, le recomendamos que coloque los mapeos con los otros mapeos y los eventos con los otros eventos.
-���mapeo (address => bool) public frozenAccount;
-����evento FrozenFunds (direcci�n de destino, bool frozen);
+Dependiendo de su caso de uso, es posible que tenga que tener algunos obst&aacute;culos regulatorios sobre qui&eacute;n puede y qui&eacute;n no puede usar sus fichas. Para que eso suceda, puede agregar un par&aacute;metro que permita al propietario del contrato congelar o descongelar activos.
+Agregue esta variable y funcione en cualquier lugar dentro del contrato. Puede ubicarlos en cualquier lugar, pero para una buena pr&aacute;ctica, le recomendamos que coloque los mapeos con los otros mapeos y los eventos con los otros eventos.
+   mapeo (address => bool) public frozenAccount;
+    evento FrozenFunds (direcci�n de destino, bool frozen);
 
     function freezeAccount(address target, bool freeze) onlyOwner {
         frozenAccount[target] = freeze;
@@ -431,22 +431,22 @@ Agregue esta variable y funcione en cualquier lugar dentro del contrato. Puede u
     }
 
 
-Con este c�digo, todas las cuentas se descongelan de forma predeterminada, pero el propietario puede establecer cualquiera de ellas en el estado de congelaci�n llamando a la cuenta de Freeze. Desafortunadamente, la congelaci�n no tiene un efecto pr�ctico porque no hemos agregado nada a la funci�n de transferencia. Estamos cambiando eso ahora:
+Con este c&oacute;digo, todas las cuentas se descongelan de forma predeterminada, pero el propietario puede establecer cualquiera de ellas en el estado de congelaci&oacute;n llamando a la cuenta de Freeze. Desafortunadamente, la congelaci&oacute;n no tiene un efecto pr&aacute;ctico porque no hemos agregado nada a la funci�n de transferencia. Estamos cambiando eso ahora:
 
     function transfer(address _to, uint256 _value) {
         require(!frozenAccount[msg.sender]);
 
 
-Ahora, cualquier cuenta que est� congelada seguir� teniendo sus fondos intactos, pero no podr� moverlos. Todas las cuentas se descongelan de forma predeterminada hasta que las congele, pero puede revertir f�cilmente ese comportamiento en una lista blanca donde debe aprobar manualmente cada cuenta. Simplemente cambie el nombre de frozenAccount por la cuenta aprobada y cambie la �ltima l�nea a:
+Ahora, cualquier cuenta que est&aacute; congelada seguir&aacute; teniendo sus fondos intactos, pero no podr&aacute; moverlos. Todas las cuentas se descongelan de forma predeterminada hasta que las congele, pero puede revertir f&aacute;cilmente ese comportamiento en una lista blanca donde debe aprobar manualmente cada cuenta. Simplemente cambie el nombre de frozenAccount por la cuenta aprobada y cambie la &uacute;ltima l&iacute;nea a:
        require(approvedAccount[msg.sender]);
 
 
-### VENTA Y COMPRA AUTOM�TICA
+### VENTA Y COMPRA AUTOM&Aacute;TICA
 
-Hasta ahora, ha confiado en la utilidad y la confianza para valorar su token. Pero si lo desea, puede hacer que el valor del token sea respaldado por Pirl (u otros tokens) creando un fondo que los venda y compre autom�ticamente al valor de mercado.
+Hasta ahora, ha confiado en la utilidad y la confianza para valorar su token. Pero si lo desea, puede hacer que el valor del token sea respaldado por Pirl (u otros tokens) creando un fondo que los venda y compre autom&aacute;ticamente al valor de mercado.
 Primero, fijemos el precio para comprar y vender:
-��� uint256 public sellPrice;
-���� uint256 public buyPrice;
+    uint256 public sellPrice;
+     uint256 public buyPrice;
 
     function setPrices(uint256 newSellPrice, uint256 newBuyPrice) onlyOwner {
         sellPrice = newSellPrice;
@@ -454,7 +454,7 @@ Primero, fijemos el precio para comprar y vender:
     }
 
 
-Esto es aceptable para un precio que no cambia muy a menudo, ya que cada nuevo cambio de precio requerir� que usted ejecute una transacci�n y gaste un poco de Pirl. Si desea tener un precio flotante constante, le recomendamos que investigue fuentes de datos est�ndar.
+Esto es aceptable para un precio que no cambia muy a menudo, ya que cada nuevo cambio de precio requerir&aacute; que usted ejecute una transacci&oacute;n y gaste un poco de Pirl. Si desea tener un precio flotante constante, le recomendamos que investigue fuentes de datos est&aacute;ndar.
 El siguiente paso es hacer las funciones de compra y venta:
 
     function buy() payable returns (uint amount){
@@ -477,22 +477,22 @@ El siguiente paso es hacer las funciones de compra y venta:
     }
 
 
-Tenga en cuenta que esto no crear� nuevos tokens sino que cambiar� el saldo que posee el contrato. El contrato puede tener sus propios tokens y Pirl y el propietario del contrato, mientras que puede establecer precios o, en algunos casos, crear nuevos tokens (si corresponde) no puede tocar los tokens del banco o Pirl. La �nica forma en que este contrato puede mover fondos es mediante la venta y la compra.
+Tenga en cuenta que esto no crear&aacute; nuevos tokens sino que cambiar&aacute; el saldo que posee el contrato. El contrato puede tener sus propios tokens y Pirl y el propietario del contrato, mientras que puede establecer precios o, en algunos casos, crear nuevos tokens (si corresponde) no puede tocar los tokens del banco o Pirl. La &uacute;nica forma en que este contrato puede mover fondos es mediante la venta y la compra.
 
-Nota Los "precios" de compra y venta no se establecen en Pirl, pero s� en la moneda m�nima del sistema (equivalente al centavo en el euro y el d�lar, o el Satoshi en Bitcoin). One Pirl es 1000000000000000000 wei. As� que cuando establezca los precios para su token en Pirl, agregue 18 ceros al final.
+Nota Los "precios" de compra y venta no se establecen en Pirl, pero s&iacute; en la moneda m&iacute;nima del sistema (equivalente al centavo en el euro y el d&oacute;lar, o el Satoshi en Bitcoin). One Pirl es 1000000000000000000 wei. As&iacute; que cuando establezca los precios para su token en Pirl, agregue 18 ceros al final.
 
-Al crear el contrato, env�ele Pirl suficiente para que pueda volver a comprar todas las fichas en el mercado, de lo contrario, su contrato ser� insolvente y sus usuarios no podr�n vender sus fichas.
+Al crear el contrato, env&iacute;ele Pirl suficiente para que pueda volver a comprar todas las fichas en el mercado, de lo contrario, su contrato ser&aacute; insolvente y sus usuarios no podr&aacute;n vender sus fichas.
 
-Los ejemplos anteriores, por supuesto, describen un contrato con un solo comprador y vendedor central, un contrato mucho m�s interesante permitir�a un mercado donde cualquier persona puede ofrecer precios diferentes, o tal vez cargar�a los precios directamente de una fuente externa.
+Los ejemplos anteriores, por supuesto, describen un contrato con un solo comprador y vendedor central, un contrato mucho m&aacute;s interesante permitir&iacute;a un mercado donde cualquier persona puede ofrecer precios diferentes, o tal vez cargar�a los precios directamente de una fuente externa.
 
-### RECARGA AUTOM�TICA
+### RECARGA AUTOM&Aacute;TICA
 
-Cada vez que realice una transacci�n en Pirl, deber� pagar una tarifa al minero del bloque que calcular� el resultado de su contrato inteligente. Si bien esto podr�a cambiar en el futuro, por el momento, las tarifas solo se pueden pagar en Pirl y, por lo tanto, todos los usuarios de sus tokens lo necesitan. Las fichas en cuentas con un saldo menor que la tarifa se atascan hasta que el propietario pueda pagar la tarifa necesaria. Pero en algunos casos de uso, es posible que no desee que sus usuarios piensen en Pirl, blockchain o en c�mo obtener Pirl, por lo que un posible enfoque har�a que su moneda recargue autom�ticamente el saldo del usuario tan pronto como detecte que el saldo es peligrosamente bajo.
+Cada vez que realice una transacci&oacute;n en Pirl, deber&aacute; pagar una tarifa al minero del bloque que calcular&aacute; el resultado de su contrato inteligente. Si bien esto podr�a cambiar en el futuro, por el momento, las tarifas solo se pueden pagar en Pirl y, por lo tanto, todos los usuarios de sus tokens lo necesitan. Las fichas en cuentas con un saldo menor que la tarifa se atascan hasta que el propietario pueda pagar la tarifa necesaria. Pero en algunos casos de uso, es posible que no desee que sus usuarios piensen en Pirl, blockchain o en c&oacute;mo obtener Pirl, por lo que un posible enfoque har&iacute;a que su moneda recargue autom&aacute;ticamente el saldo del usuario tan pronto como detecte que el saldo es peligrosamente bajo.
 
 
-Para hacer eso, primero debe crear una variable que contendr� la cantidad de umbral y una funci�n para cambiarla.
+Para hacer eso, primero debe crear una variable que contendr&aacute; la cantidad de umbral y una funci&oacute;n para cambiarla.
 
-���uint minBalanceForAccounts;
+   uint minBalanceForAccounts;
 
     function setMinBalance(uint minimumBalanceInFinney) onlyOwner {
          minBalanceForAccounts = minimumBalanceInFinney * 1 finney;
@@ -518,19 +518,19 @@ Tambi�n puede cambiarlo para que el remitente pague la tarifa al destinatario:
     }
 
 
-Esto asegurar� que ninguna cuenta que reciba el token tenga menos del Pirl necesario para pagar las tarifas.
+Esto asegurar&aacute; que ninguna cuenta que reciba el token tenga menos del Pirl necesario para pagar las tarifas.
 
 ### PRUEBA DE TRABAJO
 
-Hay algunas maneras de vincular su suministro de moneda a una f�rmula matem�tica. Una de las formas m�s simples ser�a convertirla en una "miner�a combinada" con Pirl, lo que significa que cualquier persona que encuentre un bloqueo en Pirl tambi�n recibir� una recompensa de su moneda, dado que cualquiera llama a la funci�n de recompensa en ese bloque. Puede hacerlo utilizando la palabra clave especial coinbase que se refiere al minero que encuentra el bloque.
+Hay algunas maneras de vincular su suministro de moneda a una f&oacute;rmula matem&aacute;tica. Una de las formas m&aacute;s simples ser&iacute;a convertirla en una "miner�a combinada" con Pirl, lo que significa que cualquier persona que encuentre un bloqueo en Pirl tambi&eacute;n recibir&aacute; una recompensa de su moneda, dado que cualquiera llama a la funci&oacute;n de recompensa en ese bloque. Puede hacerlo utilizando la palabra clave especial coinbase que se refiere al minero que encuentra el bloque.
 
     function giveBlockReward() {
         balanceOf[block.coinbase] += 1;
     }
 
 
-Tambi�n es posible agregar una f�rmula matem�tica, de modo que cualquier persona que pueda hacer matem�ticas pueda ganar una recompensa. En este siguiente ejemplo, tiene que calcular la ra�z c�bica del desaf�o actual para obtener un punto y el derecho de establecer el siguiente desaf�o:
-��� uint currentChallenge = 1; // �Puedes averiguar la ra�z c�bica de este n�mero?
+Tambi&eacute;n es posible agregar una f&oacute;rmula matem&aacute;tica, de modo que cualquier persona que pueda hacer matem&aacute;ticas pueda ganar una recompensa. En este siguiente ejemplo, tiene que calcular la ra&iacute;z c&uacute;bica del desaf&iacute;o actual para obtener un punto y el derecho de establecer el siguiente desaf&iacute;o:
+    uint currentChallenge = 1; //  Puedes averiguar la ra&iacute;z c&uacute;bica de este n&uacute;mero?
 
     function rewardMathGeniuses(uint answerToCurrentReward, uint nextChallenge) {
         require(answerToCurrentReward**3 == currentChallenge); // If answer is wrong do not continue
@@ -539,16 +539,16 @@ Tambi�n es posible agregar una f�rmula matem�tica, de modo que cualquier p
     }
 
 
-Por supuesto, si bien el c�lculo de las ra�ces c�bicas puede ser dif�cil para alguien, es muy f�cil con una calculadora, por lo que este juego podr�a romperse f�cilmente con una computadora. Adem�s, dado que el �ltimo ganador puede elegir el pr�ximo desaf�o, podr�an elegir a otros que saben y por lo tanto no ser�an un juego muy justo para otros jugadores. Hay tareas que son f�ciles para los humanos pero dif�ciles para las computadoras, pero generalmente son muy dif�ciles de codificar en scripts simples como estos. En cambio, un sistema m�s justo deber�a ser uno que sea muy dif�cil de hacer para una computadora, pero que no sea muy dif�cil de verificar para una computadora. Un gran candidato ser�a crear un desaf�o de hash en el que el retador tenga que generar hashes a partir de m�ltiples n�meros hasta que encuentre uno que sea m�s bajo que una dificultad dada.
+Por supuesto, si bien el c&aacute;lculo de las ra&iacute;ces c&uacute;bicas puede ser dif&iacute;cil para alguien, es muy f&aacute;cil con una calculadora, por lo que este juego podr&iacute;a romperse f&aacute;cilmente con una computadora. Adem&aacute;s, dado que el &uacute;ltimo ganador puede elegir el pr&oacute;ximo desaf&iacute;o, podr&iacute;an elegir a otros que saben y por lo tanto no ser&iacute;an un juego muy justo para otros jugadores. Hay tareas que son f&aacute;ciles para los humanos pero dif&iacute;ciles para las computadoras, pero generalmente son muy dif&iacute;ciles de codificar en scripts simples como estos. En cambio, un sistema m&aacute;s justo deber�a ser uno que sea muy dif&iacute;cil de hacer para una computadora, pero que no sea muy dif&iacute;cil de verificar para una computadora. Un gran candidato ser&iacute;a crear un desaf&iacute;o de hash en el que el retador tenga que generar hashes a partir de m&uacute;ltiples n&uacute;meros hasta que encuentre uno que sea m&aacute;s bajo que una dificultad dada.
 
 
 Este proceso fue propuesto por primera vez por Adam Back en 1997 como Hashcash y luego implementado en Bitcoin por Satoshi Nakamoto como Prueba de trabajo en 2008.
 
 
-Si le gusta el Hashing como una forma de emisi�n aleatoria de monedas, a�n puede crear su propia moneda basada en Pirl que tenga una prueba de emisi�n de trabajo:
-���bytes32 public currentChallenge; // La moneda comienza con un desaf�o.
-����uint public timeOfLastProof; // Variable para realizar un seguimiento de cu�ndo se dieron las recompensas
-����dificultad p�blica uint = 10 ** 32; // La dificultad comienza razonablemente baja
+Si le gusta el Hashing como una forma de emisi&oacute;n aleatoria de monedas, a&uacute;n puede crear su propia moneda basada en Pirl que tenga una prueba de emisi�n de trabajo:
+   bytes32 public currentChallenge; // La moneda comienza con un desaf&iacute;o.
+    uint public timeOfLastProof; // Variable para realizar un seguimiento de cu&aacute;ndo se dieron las recompensas
+    dificultad p&uacute;blica uint = 10 ** 32; // La dificultad comienza razonablemente baja
 
     function proofOfWork(uint nonce){
         bytes8 n = bytes8(sha3(nonce, currentChallenge));    // Generate a random hash based on input
@@ -565,18 +565,18 @@ Si le gusta el Hashing como una forma de emisi�n aleatoria de monedas, a�n p
     }
 
 
-Tambi�n cambie la funci�n Constructor (la que tiene el mismo nombre que el contrato, que se llama en la primera carga) para agregar esta l�nea, para que el ajuste de dificultad no se vuelva loco:
-���timeOfLastProof = ahora;
+Tambi&eacute;n cambie la funci&oacute;n Constructor (la que tiene el mismo nombre que el contrato, que se llama en la primera carga) para agregar esta l&iacute;nea, para que el ajuste de dificultad no se vuelva loco:
+   timeOfLastProof = ahora;
 
 
-Una vez que el contrato est� en l�nea, seleccione la funci�n "Prueba de trabajo", agregue su n�mero favorito en el campo de nonce e intente ejecutarlo. Si la ventana de confirmaci�n muestra una advertencia roja que dice "No se pueden ejecutar los datos", retroceda y elija otro n�mero hasta que encuentre uno que permita que la transacci�n avance: este proceso es aleatorio. Si encuentra una, se le otorgar� 1 token por cada minuto que haya pasado desde la �ltima recompensa, y luego la dificultad del desaf�o se ajustar� hacia arriba o hacia abajo para alcanzar un promedio de 10 minutos por recompensa.
+Una vez que el contrato est&aacute; en l&iacute;nea, seleccione la funci&oacute;n "Prueba de trabajo", agregue su n&uacute;mero favorito en el campo de nonce e intente ejecutarlo. Si la ventana de confirmaci&oacute;n muestra una advertencia roja que dice "No se pueden ejecutar los datos", retroceda y elija otro n&uacute;mero hasta que encuentre uno que permita que la transacci&oacute;n avance: este proceso es aleatorio. Si encuentra una, se le otorgar&aacute; 1 token por cada minuto que haya pasado desde la &uacute;ltima recompensa, y luego la dificultad del desaf&iacute;o se ajustar&aacute; hacia arriba o hacia abajo para alcanzar un promedio de 10 minutos por recompensa.
 
-Este proceso de tratar de encontrar el n�mero que le dar� una recompensa es lo que se llama extracci�n: si la dificultad aumenta, puede ser muy dif�cil encontrar un n�mero de la suerte, pero siempre ser� f�cil verificar que haya encontrado uno.
+Este proceso de tratar de encontrar el n&uacute;mero que le dar&aacute; una recompensa es lo que se llama extracci&oacute;n: si la dificultad aumenta, puede ser muy dif&iacute;cil encontrar un n&uacute;mero de la suerte, pero siempre ser&aacute; f&aacute;cil verificar que haya encontrado uno.
 
 ### Moneda mejorada
 
 ## CODIGO MONEDA COMPLETA
-Si agrega todas las opciones avanzadas, as� es como deber�a verse el c�digo final:
+Si agrega todas las opciones avanzadas, as&iacute; es como deber&iacute;a verse el c&oacute;digo final:
 
     pragma solidity ^0.4.16;
 
@@ -750,7 +750,7 @@ Si agrega todas las opciones avanzadas, as� es como deber�a verse el c�dig
 }
 
 /******************************************/
-/*       TOKEN AVANZADO COMIENZA AQU�      */
+/*       TOKEN AVANZADO COMIENZA AQU&Iacute;      */
 /******************************************/
 
     contract MyAdvancedToken is owned, TokenERC20 {
@@ -827,21 +827,21 @@ Si agrega todas las opciones avanzadas, as� es como deber�a verse el c�dig
 
 ## DESPLIEGUE
 
-Despl�cese hacia abajo y ver� un costo estimado para la implementaci�n. Si lo desea, puede cambiar el control deslizante para establecer una tarifa m�s peque�a, pero si el precio est� muy por debajo de la tasa promedio del mercado, su transacci�n podr�a tardar m�s en recuperarse. Haga clic en Implementar y escriba su contrase�a. Despu�s de unos segundos, ser� redirigido al tablero de mandos y en �ltimas transacciones ver� una l�nea que dice "creando contrato". Espere unos segundos para que alguien elija su transacci�n y luego ver� un rect�ngulo azul lento que representa cu�ntos otros nodos han visto su transacci�n y los han confirmado. Cuantas m�s confirmaciones tenga, m�s seguridad tendr� de que su c�digo ha sido implementado.
+Despl&aacute;cese hacia abajo y ver&aacute; un costo estimado para la implementaci&oacute;n. Si lo desea, puede cambiar el control deslizante para establecer una tarifa m&aacute;s peque&atilde;a, pero si el precio est&aacute; muy por debajo de la tasa promedio del mercado, su transacci&oacute;n podr&iacute;a tardar m&aacute;s en recuperarse. Haga clic en Implementar y escriba su contrase&atilde;a. Despu&eacute;s de unos segundos, ser&aacute; redirigido al tablero de mandos y en &uacute;ltimas transacciones ver&aacute; una l&iacute;nea que dice "creando contrato". Espere unos segundos para que alguien elija su transacci&oacute;n y luego ver&aacute; un rect&aacute;ngulo azul lento que representa cu&aacute;ntos otros nodos han visto su transacci&oacute;n y los han confirmado. Cuantas m&aacute;s confirmaciones tenga, m&aacute;s seguridad tendr&aacute; de que su c&oacute;digo ha sido implementado.
 
-Haga clic en el enlace que dice la p�gina de administraci�n y se le llevar� al panel de control del banco central m�s sencillo del mundo, donde puede hacer lo que quiera con su moneda reci�n creada.
+Haga clic en el enlace que dice la p&aacute;gina de administraci&oacute;n y se le llevar&aacute; al panel de control del banco central m&aacute;s sencillo del mundo, donde puede hacer lo que quiera con su moneda reci&oacute;n creada.
 
-En el lado izquierdo, debajo de Leer desde el contrato, tiene todas las opciones y funciones que puede usar para leer la informaci�n del contrato, de forma gratuita. Si su token tiene un propietario, mostrar� su direcci�n aqu�. Copie esa direcci�n y p�guela en el Saldo de y le mostrar� el saldo de cualquier cuenta (el saldo tambi�n se muestra autom�ticamente en cualquier p�gina de la cuenta que tenga tokens).
-En el lado derecho, debajo de Escribir en contrato, ver� todas las funciones que puede usar para alterar o cambiar la cadena de bloques de cualquier manera. Estos costar�n gas. Si cre� un contrato que le permite acu�ar nuevas monedas, debe tener una funci�n llamada "Mint Token". Selecci�nalo
+En el lado izquierdo, debajo de Leer desde el contrato, tiene todas las opciones y funciones que puede usar para leer la informaci&oacute;n del contrato, de forma gratuita. Si su token tiene un propietario, mostrar&aacute; su direcci&oacute;n aqu&iacute;. Copie esa direcci&oacute;n y p&eacute;guela en el Saldo de y le mostrar&aacute; el saldo de cualquier cuenta (el saldo tambi&eacute;n se muestra autom&aacute;ticamente en cualquier p&aacute;gina de la cuenta que tenga tokens).
+En el lado derecho, debajo de Escribir en contrato, ver&aacute; todas las funciones que puede usar para alterar o cambiar la cadena de bloques de cualquier manera. Estos costar&aacute;n gas. Si cre&oacute; un contrato que le permite acu&atilde;ar nuevas monedas, debe tener una funci&oacute;n llamada "Mint Token". Selecci&oacute;nalo
 
-Seleccione la direcci�n donde se crear�n esas nuevas monedas y luego la cantidad (si tiene decimales establecidos en 2, agregue 2 ceros despu�s de la cantidad para crear la cantidad correcta). En Ejecutar desde seleccione la cuenta que se estableci� como propietario, deje la cantidad de Pirl en cero y luego presione ejecutar.
+Seleccione la direcci&oacute;n donde se crearn esas nuevas monedas y luego la cantidad (si tiene decimales establecidos en 2, agregue 2 ceros despu&eacute;s de la cantidad para crear la cantidad correcta). En Ejecutar desde seleccione la cuenta que se estableci&oacute; como propietario, deje la cantidad de Pirl en cero y luego presione ejecutar.
 
-Despu�s de algunas confirmaciones, el saldo del destinatario se actualizar� para reflejar la nueva cantidad. Pero es posible que la billetera del destinatario no se muestre autom�ticamente: para estar al tanto de tokens personalizados, la billetera debe agregarlos manualmente a una lista de vigilancia. Copie su direcci�n de token (en la p�gina de administraci�n, presione copiar direcci�n) y env�ela a su destinatario. Si a�n no lo han hecho, deben ir a la pesta�a de contratos, presionar Watch Token y luego agregar la direcci�n all�. El usuario final puede personalizar el nombre, los s�mbolos y las cantidades decimales que se muestran, especialmente si tienen otros tokens con un nombre similar (o el mismo). El icono principal no es modificable y los usuarios deben prestarles atenci�n al enviar y recibir tokens para asegurarse de que est�n tratando con el trato real y no con un token de imitaci�n.
+Despu&eacute;s de algunas confirmaciones, el saldo del destinatario se actualizar&aacute; para reflejar la nueva cantidad. Pero es posible que la billetera del destinatario no se muestre autom&aacute;ticamente: para estar al tanto de tokens personalizados, la billetera debe agregarlos manualmente a una lista de vigilancia. Copie su direcci&oacute;n de token (en la p&aacute;gina de administraci&oacute;n, presione copiar direcci&oacute;n) y env&iacute;ela a su destinatario. Si a&uacute;n no lo han hecho, deben ir a la pesta&atilde;a de contratos, presionar Watch Token y luego agregar la direcci&oacute;n all&aacute;. El usuario final puede personalizar el nombre, los s&iacute;mbolos y las cantidades decimales que se muestran, especialmente si tienen otros tokens con un nombre similar (o el mismo). El icono principal no es modificable y los usuarios deben prestarles atenci&oacute;n al enviar y recibir tokens para asegurarse de que est&aacute;n tratando con el trato real y no con un token de imitaci&oacute;n.
 
 ### Usando tu moneda
 
-Una vez que haya implementado sus tokens, se agregar�n a su lista de tokens vistos, y el saldo total se mostrar� en su cuenta. Para enviar tokens, simplemente vaya a la pesta�a Enviar y seleccione una cuenta que contenga tokens. Los tokens que tiene la cuenta aparecer�n justo debajo de Pirl. Selecci�nalos y luego escribe la cantidad de tokens que deseas enviar.
-Si desea agregar el token de otra persona, simplemente vaya a la pesta�a Contratos y haga clic en Ver token. Por ejemplo, para agregar el token de Pirl Vortex a su lista de vigilancia, solo agregue la direcci�n 0x0489A975393A1cD0330740040141D702C35180cb
+Una vez que haya implementado sus tokens, se agregar&aacute;n a su lista de tokens vistos, y el saldo total se mostrar&aacute; en su cuenta. Para enviar tokens, simplemente vaya a la pesta&atilde;a Enviar y seleccione una cuenta que contenga tokens. Los tokens que tiene la cuenta aparecer&aacute;n justo debajo de Pirl. Selecci&oacute;nalos y luego escribe la cantidad de tokens que deseas enviar.
+Si desea agregar el token de otra persona, simplemente vaya a la pesta&atilde;a Contratos y haga clic en Ver token. Por ejemplo, para agregar el token de Pirl Vortex a su lista de vigilancia, solo agregue la direcci&oacute;n 0x0489A975393A1cD0330740040141D702C35180cb
 
 
 {{< imagesurlsheaders "cloud/9.jpg" >}}
@@ -849,9 +849,9 @@ Si desea agregar el token de otra persona, simplemente vaya a la pesta�a Contr
 
 
 
-### �Ahora que?
+### Ahora que?
 
-Acaba de aprender c�mo puede usar Pirl para emitir un token, que puede representar lo que quiera. �Pero qu� puedes hacer con los tokens? Puede usar, por ejemplo, los tokens para representar una participaci�n en una empresa o puede usar un comit� central para votar cu�ndo emitir nuevas monedas para controlar la inflaci�n. Tambi�n puede usarlos para recaudar dinero para una causa, a trav�s de una venta colectiva. �Qu� vas a construir a continuaci�n?
+Acaba de aprender c&oacute;mo puede usar Pirl para emitir un token, que puede representar lo que quiera. Pero qu&eacute; puedes hacer con los tokens? Puede usar, por ejemplo, los tokens para representar una participaci&oacute;n en una empresa o puede usar un comit&eacute; central para votar cu&aacute;ndo emitir nuevas monedas para controlar la inflaci&oacute;n. Tambi&eacute;n puede usarlos para recaudar dinero para una causa, a trav&eacute;s de una venta colectiva. Qu&eacute; vas a construir a continuaci&oacute;n?
 
 
 
