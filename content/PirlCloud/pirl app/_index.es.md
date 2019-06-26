@@ -9,7 +9,7 @@ chapter: true
 
 
 
-PirlApp Portal is the user dashboard where PIRL Services are accessible.
+PirlApp Portal es el panel de control del usuario donde se puede acceder a los servicios de PIRL.
 
 
 
@@ -19,8 +19,9 @@ PirlApp Portal is the user dashboard where PIRL Services are accessible.
 
 
 ---
-Author(s):
+Autor(s): 
+
 @Dptelecom
 
 
-Contributor(s):
+Contribuyente(s):
