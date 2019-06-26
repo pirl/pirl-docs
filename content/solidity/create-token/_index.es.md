@@ -285,7 +285,7 @@ Finalmente, ahora necesitamos algunos eventos llamados "Eventos". Estas son func
     event Transfer(address indexed from, address indexed to, uint256 value);
 
 
-Y luego solo necesita agregar estas dos l�neas dentro de la funci�n "transferir":
+Y luego solo necesita agregar estas dos l&iacute;neas dentro de la funci&oacute;n "transferir":
          /* Notify anyone listening that this transfer took place */
          Transfer(msg.sender, _to, _value);
 
@@ -423,7 +423,7 @@ Observe el modificador onlyOwner al final del nombre de la funci&oacute;n. Esto 
 Dependiendo de su caso de uso, es posible que tenga que tener algunos obst&aacute;culos regulatorios sobre qui&eacute;n puede y qui&eacute;n no puede usar sus fichas. Para que eso suceda, puede agregar un par&aacute;metro que permita al propietario del contrato congelar o descongelar activos.
 Agregue esta variable y funcione en cualquier lugar dentro del contrato. Puede ubicarlos en cualquier lugar, pero para una buena pr&aacute;ctica, le recomendamos que coloque los mapeos con los otros mapeos y los eventos con los otros eventos.
    mapeo (address => bool) public frozenAccount;
-    evento FrozenFunds (direcci�n de destino, bool frozen);
+    evento FrozenFunds (direcci&oacute;n de destino, bool frozen);
 
     function freezeAccount(address target, bool freeze) onlyOwner {
         frozenAccount[target] = freeze;
@@ -431,7 +431,7 @@ Agregue esta variable y funcione en cualquier lugar dentro del contrato. Puede u
     }
 
 
-Con este c&oacute;digo, todas las cuentas se descongelan de forma predeterminada, pero el propietario puede establecer cualquiera de ellas en el estado de congelaci&oacute;n llamando a la cuenta de Freeze. Desafortunadamente, la congelaci&oacute;n no tiene un efecto pr&aacute;ctico porque no hemos agregado nada a la funci�n de transferencia. Estamos cambiando eso ahora:
+Con este c&oacute;digo, todas las cuentas se descongelan de forma predeterminada, pero el propietario puede establecer cualquiera de ellas en el estado de congelaci&oacute;n llamando a la cuenta de Freeze. Desafortunadamente, la congelaci&oacute;n no tiene un efecto pr&aacute;ctico porque no hemos agregado nada a la funci&oacute;n de transferencia. Estamos cambiando eso ahora:
 
     function transfer(address _to, uint256 _value) {
         require(!frozenAccount[msg.sender]);
@@ -483,7 +483,7 @@ Nota Los "precios" de compra y venta no se establecen en Pirl, pero s&iacute; en
 
 Al crear el contrato, env&iacute;ele Pirl suficiente para que pueda volver a comprar todas las fichas en el mercado, de lo contrario, su contrato ser&aacute; insolvente y sus usuarios no podr&aacute;n vender sus fichas.
 
-Los ejemplos anteriores, por supuesto, describen un contrato con un solo comprador y vendedor central, un contrato mucho m&aacute;s interesante permitir&iacute;a un mercado donde cualquier persona puede ofrecer precios diferentes, o tal vez cargar�a los precios directamente de una fuente externa.
+Los ejemplos anteriores, por supuesto, describen un contrato con un solo comprador y vendedor central, un contrato mucho m&aacute;s interesante permitir&iacute;a un mercado donde cualquier persona puede ofrecer precios diferentes, o tal vez cargar&iacute;a los precios directamente de una fuente externa.
 
 ### RECARGA AUTOM&Aacute;TICA
 
@@ -500,15 +500,15 @@ Para hacer eso, primero debe crear una variable que contendr&aacute; la cantidad
 
 
 Luego, agregue esta l�nea a la funci�n de transferencia para que el remitente sea reembolsado:
-��� / * Enviar monedas * /
-���� transferencia de funciones (direcci�n _to, uint256 _valor) {
-�������� ...
-�������� if (msg.sender.balance <minBalanceForAccounts)
-������������ sell ((minBalanceForAccounts - msg.sender.balance) / sellPrice);
-���� }
+   / * Enviar monedas * /
+     transferencia de funciones (direcci�n _to, uint256 _valor) {
+         ...
+         if (msg.sender.balance <minBalanceForAccounts)
+             sell ((minBalanceForAccounts - msg.sender.balance) / sellPrice);
+     }
 
 
-Tambi�n puede cambiarlo para que el remitente pague la tarifa al destinatario:
+Tambi&eacute;n puede cambiarlo para que el remitente pague la tarifa al destinatario:
 
      /* Send coins */
      function transfer(address _to, uint256 _value) {
@@ -522,7 +522,7 @@ Esto asegurar&aacute; que ninguna cuenta que reciba el token tenga menos del Pir
 
 ### PRUEBA DE TRABAJO
 
-Hay algunas maneras de vincular su suministro de moneda a una f&oacute;rmula matem&aacute;tica. Una de las formas m&aacute;s simples ser&iacute;a convertirla en una "miner�a combinada" con Pirl, lo que significa que cualquier persona que encuentre un bloqueo en Pirl tambi&eacute;n recibir&aacute; una recompensa de su moneda, dado que cualquiera llama a la funci&oacute;n de recompensa en ese bloque. Puede hacerlo utilizando la palabra clave especial coinbase que se refiere al minero que encuentra el bloque.
+Hay algunas maneras de vincular su suministro de moneda a una f&oacute;rmula matem&aacute;tica. Una de las formas m&aacute;s simples ser&iacute;a convertirla en una "miner&iacute;a combinada" con Pirl, lo que significa que cualquier persona que encuentre un bloqueo en Pirl tambi&eacute;n recibir&aacute; una recompensa de su moneda, dado que cualquiera llama a la funci&oacute;n de recompensa en ese bloque. Puede hacerlo utilizando la palabra clave especial coinbase que se refiere al minero que encuentra el bloque.
 
     function giveBlockReward() {
         balanceOf[block.coinbase] += 1;
@@ -539,13 +539,13 @@ Tambi&eacute;n es posible agregar una f&oacute;rmula matem&aacute;tica, de modo 
     }
 
 
-Por supuesto, si bien el c&aacute;lculo de las ra&iacute;ces c&uacute;bicas puede ser dif&iacute;cil para alguien, es muy f&aacute;cil con una calculadora, por lo que este juego podr&iacute;a romperse f&aacute;cilmente con una computadora. Adem&aacute;s, dado que el &uacute;ltimo ganador puede elegir el pr&oacute;ximo desaf&iacute;o, podr&iacute;an elegir a otros que saben y por lo tanto no ser&iacute;an un juego muy justo para otros jugadores. Hay tareas que son f&aacute;ciles para los humanos pero dif&iacute;ciles para las computadoras, pero generalmente son muy dif&iacute;ciles de codificar en scripts simples como estos. En cambio, un sistema m&aacute;s justo deber�a ser uno que sea muy dif&iacute;cil de hacer para una computadora, pero que no sea muy dif&iacute;cil de verificar para una computadora. Un gran candidato ser&iacute;a crear un desaf&iacute;o de hash en el que el retador tenga que generar hashes a partir de m&uacute;ltiples n&uacute;meros hasta que encuentre uno que sea m&aacute;s bajo que una dificultad dada.
+Por supuesto, si bien el c&aacute;lculo de las ra&iacute;ces c&uacute;bicas puede ser dif&iacute;cil para alguien, es muy f&aacute;cil con una calculadora, por lo que este juego podr&iacute;a romperse f&aacute;cilmente con una computadora. Adem&aacute;s, dado que el &uacute;ltimo ganador puede elegir el pr&oacute;ximo desaf&iacute;o, podr&iacute;an elegir a otros que saben y por lo tanto no ser&iacute;an un juego muy justo para otros jugadores. Hay tareas que son f&aacute;ciles para los humanos pero dif&iacute;ciles para las computadoras, pero generalmente son muy dif&iacute;ciles de codificar en scripts simples como estos. En cambio, un sistema m&aacute;s justo deber&iacute;a ser uno que sea muy dif&iacute;cil de hacer para una computadora, pero que no sea muy dif&iacute;cil de verificar para una computadora. Un gran candidato ser&iacute;a crear un desaf&iacute;o de hash en el que el retador tenga que generar hashes a partir de m&uacute;ltiples n&uacute;meros hasta que encuentre uno que sea m&aacute;s bajo que una dificultad dada.
 
 
 Este proceso fue propuesto por primera vez por Adam Back en 1997 como Hashcash y luego implementado en Bitcoin por Satoshi Nakamoto como Prueba de trabajo en 2008.
 
 
-Si le gusta el Hashing como una forma de emisi&oacute;n aleatoria de monedas, a&uacute;n puede crear su propia moneda basada en Pirl que tenga una prueba de emisi�n de trabajo:
+Si le gusta el Hashing como una forma de emisi&oacute;n aleatoria de monedas, a&uacute;n puede crear su propia moneda basada en Pirl que tenga una prueba de emisi&oacute;n de trabajo:
    bytes32 public currentChallenge; // La moneda comienza con un desaf&iacute;o.
     uint public timeOfLastProof; // Variable para realizar un seguimiento de cu&aacute;ndo se dieron las recompensas
     dificultad p&uacute;blica uint = 10 ** 32; // La dificultad comienza razonablemente baja

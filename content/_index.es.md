@@ -19,24 +19,20 @@ Pirl se distingue más de la competencia al negarse a comprometer su seguridad o
 #### [FAQ]({{< ref "/faq" >}})  
 
 #### 1.) [Empezando]({{< ref "/getting started" >}})
-#### 2.) [PirlCloud]*
+#### 2.) [NubePirl]({{< ref "/PirlCloud" >}})
 #### 3.) [Minería]({{< ref "/mining" >}})
-#### 4.) [Wallets]*
-#### 5.) [Press releases]*
+#### 4.) [Billeteras]({{< ref "/wallets" >}})
+#### 5.) [Comunicados de prensa]({{< ref "/Press releases" >}})
 #### 6.) [Reunión de Mesa Redonda de Pirl]({{< ref "/pirl roundtable meeting" >}})
 #### 7.) [Enlaces]({{< ref "/links" >}})
 #### 8.) [Desarrollo]({{< ref "/development" >}})
 #### 9.) [Descargas]({{< ref "/Downloads" >}})
-#### 10.) [Services]*
-#### 11.) [nscríbase al Boletín]({{< ref "/mailing" >}})
+#### 10.) [Servicios]({{< ref "/services" >}})
 #### 12.) [Documentación técnica]({{< ref "/solidity" >}})
 #### 13.) [Recompensas]({{< ref "/bounty-contributions" >}})
 
 
 
-
-*esperando la traducción,  
-De un miembro de la comunidad
 
 
 
