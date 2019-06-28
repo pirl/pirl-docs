@@ -30,7 +30,7 @@ Inicie sesión como root y actualice el sistema, luego instale las dependencias:
 
 Detener el servicio pirlnode:
 
-`` `
+```
 systemctl stop pirl
 
 ```
@@ -61,14 +61,14 @@ wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1
 ```
 
 
-Mueve el binario principal a /usr/bin/pirl para masternodos premium: 
+Mueve el binario principal a /usr/bin/pirl para masternodos premium:
 
 ```
 mv masternode-premium-1.8.27-damocles /usr/bin/pirl
 
 ```
 
-Para los nodos de contenido: 
+Para los nodos de contenido:
 ```
 mv masternode-content-1.8.27-damocles /usr/bin/pirl
 
@@ -113,13 +113,14 @@ Vigilancia
 No recomendamos el acceso activo en el servidor. Sin embargo, si desea verificar el estado, inicie sesión en su servidor y ejecute el siguiente comando:
 ```
 journalctl -f
+
 ```
 
 Controle el estado de su masternode consultando la página de detalles de Poseidon Masternode. Un nodo en funcionamiento debería aparecer como sigue, aunque la versión puede ser diferente de la que se muestra en la captura de pantalla a continuación.
 
 {{% notice warning %}}
 En caso de que la sincronización no funcione, siga estos pasos para eliminar la base de datos:
-{{% /notice %}} 
+{{% /notice %}}
 
 - Primero exportar los tokens:
 
@@ -133,6 +134,7 @@ export TOKEN=zfzefezfzefzecfzegregkgeorgoerbvnijv <<<---YOUR TOKEN GOES HERE
 ese paso anterior también se puede hacer,
 Si tiene este archivo / etc / pirlnode-env,
 tu puedes hacer:  
+
 ```
 . /etc/pirlnode-env && export MASTERNODE TOKEN
 
