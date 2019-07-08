@@ -22,16 +22,16 @@ chapter: true
 
 ## Overview
 
-Running a PIRL masternode requires the use of a Virtual
+Running a PIRL masternode requires the use of a Virtual  
 Private Server (VPS) with a static public IP address directly assigned to an interface.  
 __*NAT (address translation) is not supported.*__  
 One should only have Pirl running on the server, any other nodes or anything else will cause a conflict!
 
 This guide uses the one-click-masternode setup feature.
 This Poseidon feature automatically configures your CentOS 7 linux server to be a Pirl Masternode.
-Updates will be applied automatically.
-All you have to do is monitor your server to ensure it stays operational.
-This is as simple as rebooting the server, should it go offline.
+Updates will be applied automatically.  
+All you have to do is monitor your server to ensure it stays operational.  
+This is as simple as rebooting the server, should it go offline.  
 
 
 ## Prerequisites
