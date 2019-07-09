@@ -37,11 +37,11 @@ Wenn eine andere Person diesen Schlüssel hat, kann diese Person ohne Kennwort a
 Das macht diese Speichermethode zur einfachsten, zugleich auch zur unsichersten Variante.
 
 #### Speichern des privaten Schlüssels als Paper Wallet oder Keystore Datei
-Es wird normalerweise empfohlen eine verschlüsselte Datei (keystore) zu verwenden. Du solltst jedoch ein Paper Wallet ausdrucken und diesen Schlüssel Offline an einem sicheren Ort aufbewahren.
+Es wird normalerweise empfohlen eine verschlüsselte Datei (keystore) zu verwenden. Du solltest jedoch ein Paper Wallet ausdrucken und diesen Schlüssel Offline an einem sicheren Ort aufbewahren.
 
 Auf https://wallet.pirl.io gibt es eine nützliche Funktionen, mit denen du deine Wallet Informationen entweder als Keystore-Datei (JSON/UTC) speichern kannst, oder die Möglichkeit dein Paper Wallet als PDF zu speichern, sowie es direkt auf Papier zu drucken.
 
-Clicke einfach auf das "View Wallet Info" Tab:
+Klicke einfach auf das "View Wallet Info" Tab:
 {{< imagesurlsheaders "cloud/main_pirl_wallet_page_view_wallet_highlight.png" >}}
 
 Gebe deine Wallet Daten in dem Format ein, in dem sie vorliegen:
