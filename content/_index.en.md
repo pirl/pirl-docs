@@ -6,7 +6,7 @@ title: "Pirl Docs"
 
 Welcome to the Pirl Documentation portal!  The content you see here is the result of numerous volunteer members from the [Pirl Community](https://discord.gg/ZSAzcmn).
 
-### What Is Pirl?
+### What Is Pirl? 
 
 
 
@@ -28,7 +28,7 @@ Pirl is a community-centric blockchain platform, utilizing a globally distribute
 #### 11.) [Newsletter signup]({{< ref "/mailing" >}})
 #### 12.) [Technical Documentation]({{< ref "/solidity" >}})
 #### 13.) [Bounty & Contributions]({{< ref "/bounty-contributions" >}})
-
+ 
 
 
 
@@ -41,3 +41,6 @@ Author(s):
 
 
 Contributor(s):
+
+
+
