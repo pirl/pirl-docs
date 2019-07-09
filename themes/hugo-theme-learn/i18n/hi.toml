@@ -1,26 +1,26 @@
 [Search-placeholder]
-other = "Search..."
+other = "खोजे..."
 
 [Clear-History]
-other = "Clear History"
+other = "इतिहास मिटाएँ"
 
 [Attachments-label]
-other = "Attachments"
+other = "संलग्नंक (अटैचमेंट)"
 
 [title-404]
-other = "Error"
+other = "त्रुटि"
 
 [message-404]
-other = "Woops. Looks like this page doesn't exist ¯\\_(ツ)_/¯."
+other = "यह पृष्ठ अभि अनुपलब्ध है!"
 
 [Go-to-homepage]
-other = "Go to homepage"
+other = "मुख्य पृष्ठ पर जाऐ"
 
 [Edit-this-page]
-other = "Edit this page"
+other = "यह पृष्ठ संपादित करें"
 
 [Shortcuts-Title]
-other = "More"
+other = "अधिक सामग्री दिखाएं"
 
 [Expand-title]
-other = "Expand me..."
+other = "विस्तार करे..."
