@@ -181,7 +181,7 @@ More importantly, notice the back ticks at the top and bottom.
 
 ---
 Author:
-_[PrimateCrypto](https://twitter.com/PrimateCrypto)_
+@PrimateCrypto
 
 
 Contributor(s):  
