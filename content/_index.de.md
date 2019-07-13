@@ -14,6 +14,7 @@ Pirl ist eine Community-basierte Blockchain Plattform, die ein global verteiltes
 
 ### Inhalte
 #### 1.) [Erste Schritte]({{< ref "/getting started" >}})
+#### 4.) [Wallets]({{< ref "/wallets" >}})
 #### 9.) [Downloads]({{< ref "/Downloads" >}})
 
 
