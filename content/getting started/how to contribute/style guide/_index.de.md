@@ -5,54 +5,54 @@ pre: "<b>4. </b>"
 disableToc: true
 ---
 
-## Introduction
+## Einleitung
 
-Having all documentation conform to the same standards makes for easier use of the documentation over time.  The best time to decide on conventions is before writing is done. If you stumble on something that's not addressed here, make sure you bring it up to the community so a decision can be made on how best to address it.
+Die Konformität der Dokumentation mit den gleichen Standards erleichtert die Verwendung der Dokumentation im Laufe der Zeit. Die beste Zeit um Konventionen zu beschließen ist, bevor das Schreiben angefangen wird. Wenn du auf etwas stößt was hier nicht beschrieben wird, berichte es der Community, damit eine Entscheidung getroffen wird wie es am besten umgesetzt werden kann.
 
-## Hugo Naming Convention
+## Hugo Namen Konvention
 
-* Each KB article has its own images directory within
-* All file system directory names are in all lower case
-* For file system directory name use key works instead of every word of the title
+* Jeder KB Artikel hat ein eigenes Bilderverzeichnis
+* Alle Dateisystemverzeichnisnamen werden in Kleinbuchstaben angegeben
+* Verwende für den Namen des Dateisystemverzeichnisses Schlüsselworte anstelle jedes Wortes des Titels
 
-## Titles and Headings
+## Titel und Überschriften
 
-* The title of the page is within the **title:** field of the document. Don't include the title again in the start of the document.
-* Each Major, non-connective, word of the Title is Capitalized
-* Each document starts with an **Introduction** or a **Description** section which explains the background behind the document.
-* Headings start at the ## level.
-* Use headings starting with ### to further separate smaller sections within bigger ones for ease of viewing.
-* Each document contains a **Summary** or **TL;DR** section which summarizes the steps for advanced users.
+* Der Titel der Seite befindet sich im Feld **title:** des Dokuments. Füge den Titel nicht erneut am Anfang des Dokuments ein.
+* Jedes wichtige, nicht verbindende Wort des Titels wird in Großbuchstaben geschrieben.
+* Jedes Dokument beginnt mit einem Abschnitt **Einleitung** oder **Beschreibung**, in dem der Hintergrund des Dokuments erläutert wird.
+* Überschriften beginnen mit der Ebene ##.
+* Verwende Überschriften die mit ### beginnen, um kleinere Abschnitte zur besseren Anzeige in größere Abschnitte zu unterteilen.
+* Jedes Dokument enthält einen Abschnitt **Zusammenfassung** oder **TL;DR**, in dem die Schritte für fortgeschrittene Benutzer zusammengefasst sind.
 
-## General Guidelines
+## Generelle Richtlinien
 
-* Try to use as few words as possible while remaining descriptive.
-* Assume the audience doesn't know all the background you do. Be specific and don't omit important information.
-* For actions, put key words in bold (ex: Open Chrome, select the **address** field at the top and fill in **www.pirl.io**)
-* Use as many screenshots as possible to visually assist your information
-* Put important information in **bold**
-* Use triple code tags to distinguish terminal commands, text editor contents and code blocks
-* Use single code tags to distinguish anything you find needs to stand out
-* Use blockquotes for notes and comments
+* Versuche so wenig Wörter wie möglich zu verwenden, während du beschreibend bleibst.
+* Angenommen das Publikum kennt nicht den gesamten Hintergrund den du beschreibst. Arbeite genau und lasse keine wichtigen Informationen aus. (Beginners Mind)
+* Bei Aktionen werden Schlüsselwörter fett gedruckt. (z.B. Chrome öffnen, das Feld **Adresse** oben auswählen und **www.pirl.io** einfügen)
+* Verwende so viele Screenshots wie möglich, um die Informationen visuell zu unterstützen.
+* Gib wichtige Informationen in **Fettdruck** ein.
+* Verwende dreifach Backticks um Terminalbefehle, Texteditorinhalte und Codeblöcke zu unterscheiden.
+* Verwende einzelne Tags um Elemente herausstechend zu unterscheiden.
+* Verwende Blockzitate für Notizen und Kommentare.
 
-## Grammar and Spelling
+## Grammatik und Rechtschreibung
 
-* Use Oxford commas
-* American English spelling is used for variant words.
+* Verwende Oxford Kommas
+* Die amerikanische Rechtschreibung wird für abweichende Wörter verwendet.
 
-## Table of Contents
+## Inhaltsverzeichnis
 
-* A TOC is recommended for documents longer than 2 computer screen lengths.
+* Ein Inhaltsverzeichnis wird für Dokumente empfohlen die länger als 2 Bildschirmlängen sind.
 
 ## Links
 
-* If referencing the wiki itself, always include the link for ease of use
-* Use good descriptions for you links in general
-* When in doubt, link it
+* Wenn du die Docs mit sich selbst verlinkst, gebe zur Vereinfachung immer den Link an.
+* Verwende gute Beschreibungen für die Links.
+* Wenn Zweifel sind, verlinke es.
 
 ## Credits
 
-* At the end of each document, the names of the authors is included as well as the names of all contributors.
+* Am Ende jedes Dokuments stehen die Namen der Autoren sowie die Namen aller Mitwirkenden.
 
 
 
@@ -63,4 +63,4 @@ Author(s):
 
 
 Contributor(s):
-
+@packetflow

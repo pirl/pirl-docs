@@ -7,51 +7,51 @@ disableToc: true
 
 
 
-Hello and welcome!
+Hallo und Willkommen!
 
-This manual will show you how to run Hugo and Hugo server directly from your command line!
+Dieses Handbuch zeigt dir, wie du Hugo und den Hugo-Server direkt von der Kommandozeile aus starten kannst!
 
-With the help of Hugo, you can create, view, enhance inputs for Knowledge Base and contribute to PIRL community.
+Mit Hilfe von Hugo kannst Du Artikel für die Knowledge Base erstellen, anzeigen, verbessern und etwas zur PIRL-Community beitragen.
 
-## Overview
+## Überblick
 
-This guide will explain how to download, setup and run Hugo and Hugo server:
+In diesem Handbuch wird erklärt wie Hugo und der Hugo-Server heruntergeladen, eingerichtet und ausgeführt wird:
 
 
 {{< imagesurlsheaders "cloud/Hugo.JPG" >}}
 
 
-## Prerequisites
+## Voraussetzungen
 
-For granting the success of this operation, you will need these requirements:
+Um den Erfolg dieser Operation zu gewährleisten benötigst du folgende Voraussetzungen:
 
-* Internet connection
-* [Download the latest version of Hugo binary (> 0.25) for your OS](https://github.com/gohugoio/hugo/releases)
-* Download the pirl-docs repo from here: [Pirl-docs](https://git.pirl.io/community/pirl-docs)
-* Web browser of your choice and some power of will
+* Internetverbindung
+* [Download der letzten Version der Hugo Startdatei (> 0.25) für dein Betriebsystem](https://github.com/gohugoio/hugo/releases)
+* Lade das pirl-docs Repo von hier herunter: [Pirl-docs](https://git.pirl.io/community/pirl-docs)
+* Den Web-Browser deiner Wahl und ein wenig Willenskraft
 
-## Action!
+## Und los!
 
 
 ### 1) Mac iOS
-If you are a Mac user, install Hugo with one strong, simple command.
+Wenn du ein Mac Benutzer bist installiere Hugo mit einem einzigen einfachen Befehl.
 
-Command:
+Kommando:
 brew install Hugo
 
-Follow installation guide [here](https://gohugo.io/getting-started/quick-start/)
+Folge der Installationsanleitung [hier](https://gohugo.io/getting-started/quick-start/)
 
 ### 2) Windows OS
-* If you use a Windows as I do, simply download the latest version of [Hugo](https://github.com/gohugoio/hugo/releases) for Windows if you haven't done it yet.
-* Download most recent [PIRL docs file depository](https://git.pirl.io/community/pirl-docs) if you haven't done it yet. Unzip/extract both of these two folders.
-* Then go into Hugo folder and copy everything you will find there.
-* Jump to the PIRL docs folder and past all HUGO files there and rewrite files if needed.
-* Then press Search button nearby the main Windows start button in the left down corner (standardly it is here :) )
-* Write a CMD in the empty line and hit Enter.
-* Now you can see exactly what do I need to write every time I want to run Hugo server and write down some KnowledgeBase (KB) article.
-* First I need to locate my destination (in this case it is a Disk D and some further folders). Then I will make my move toward the Hugo folder.
+* Wenn du Windows verwendest, lade einfach die neueste Version von [Hugo](https://github.com/gohugoio/hugo/releases) für Windows herunter, wenn du es noch nicht getan hast.
+* Ebenso musst du das neueste [PIRL docs file depository](https://git.pirl.io/community/pirl-docs) Repo herunterladen, wenn du es noch nicht getan hast. Entpacken/extrahieren diese beiden Ordner.
+* Dann gehe in den Hugo-Ordner und kopiere alles, was du dort finden kannst.
+* Wechsele in den Ordner pirl-docs und füge dort alle HUGO Dateien ein und überschreibe alte Dateien mit den aktuelleren.
+* Drücke dann die Suchtaste in der Nähe der Windows-Startleiste, meistens in der linken unteren Ecke (normalerweise ist sie hier :)).
+* Schreibe *cmd* in die leere Zeile und drücke die Eingabetaste.
+* Jetzt kannst du genau sehen was ich jedes Mal schreiben muss, um den Hugo Server auszuführen und um einen KnowledgeBase(KB) Artikel zu schreiben.
+* Zuerst muss ich meinen Ziel Ordner finden (In diesem Fall ist es Laufwerk D:\ und einige weitere Ordner). Dann gehe ich zum Hauptverzeichnis des Repositorys wo auch die Hugo Startdatei liegt.
 
-Commands in CMD:
+Kommandos im CMD:
 
 1. C:\Users\YourComputername>D:
 2. D:\>cd D:\PIRL\HUGO\pirl-docs-master\pirl-docs-master
@@ -65,25 +65,25 @@ Commands in CMD:
 
 ### 3) Linux OS
 
-I have created two possible ways for downloading, installation and running Hugo. Pick what is more OK for you.
+Wir haben zwei Möglichkeiten zum Herunterladen, Installieren und Ausführen von Hugo erstellt. Wählen aus, was für dich in Ordnung ist.
 
-#### a) Install by the package manager
+#### a) Installation durch den Paketmanager
 
-* Type in the command:
+* Gebe die Befehl ein:
 ```
 wget https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Linux-32bit.deb
 sudo dpkg -i hugo_0.49_Linux-32bit.deb
 ```
 
-#### b) Alternatively, install via a shell script and then use another script for comfortable repetitive Startup
-* Installation script
+#### b) Alternativ kannst du die Installation über ein Shell-Skript durchführen und anschließend ein anderes Skript für einen komfortablen, wiederholten Start verwenden
+* Installationsskript
 
 ```
 #!/bin/bash
 wget https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Linux-64bit.tar.gz
 tar -xf hugo_0.49_Linux-64bit.tar.gz
 ```
-* Repetitive Startup script
+* Wiederholtes Startskript
 
 ```
 #!/bin/bash
@@ -94,14 +94,14 @@ pkill -f hugo.sh
 ./hugo.sh server
 ```
 ********************
-## Checking in the Web browser
+## Im Web-Browser überprüfen
 
-When your installation is done, start the web browser and type in:
+Starte nach Abschluss der Installation den Webbrowser und gebe folgendes ein:
 ```
 http://localhost:1313
 ```
-* Welcome in the Matrix. Now you can edit or create new index files and help us create another studding knowledge based articles.
-* For doing so, pick the text editor which suit your needs. I prefer [Atom](https://atom.io/). Its really easy to use and its also GitLab user friendly.
+* Willkommen in der Matrix. Jetzt kannst du Indexdateien bearbeiten oder Neue erstellen und uns dabei helfen, weitere wissensbasierte Artikel zu erstellen.
+* Wähle dazu den Texteditor der deinen Anforderungen am besten entspricht. Ich bevorzuge [Visual Studio Code] (https://code.visualstudio.com/). Es ist sehr einfach zu bedienen und bringt auch eine Git Intergration mit sich neben vielen anderen brauchbaren Plugins.
 
 --------
 
@@ -109,3 +109,4 @@ Author:
 _[Mickey Maler](https://twitter.com/MickeyMaler)_
 
 Contributor(s):
+@packetflow

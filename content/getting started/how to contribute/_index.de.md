@@ -7,7 +7,7 @@ disableToc: true
 
 Die Pirl Docs Website läuft auf der Hugo Plattform. Um zu beginnen musst du das in Schritt 2 verlinkte Gitlab klonen.
 
-1. Downloade die letzte Version des [Hugo binary (> 0.54)](https://gohugo.io/getting-started/installing/) für dein Betriebssystem (Windows, Linux, Mac)
+1. Downloade die letzte Version des [Hugo binary (> 0.55.6)](https://gohugo.io/getting-started/installing/) für dein Betriebssystem (Windows, Linux, Mac)
 * Klone das pirl-docs Repo von hier: [Pirl-docs](https://git.pirl.io/community/pirl-docs)
 * Starte den "hugo server" in dem Verzeichnis pirl-docs
 * Benutze den [Style Guide]({{< ref "/getting started/how to contribute/style guide" >}})
@@ -24,3 +24,4 @@ Author(s):
 
 
 Contributor(s):
+@packetflow

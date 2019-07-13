@@ -42,12 +42,14 @@ chapter: true
 
 ### Masternode Files
 
-
+##### Premium Node
 #### [pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/e9d8c3e0871021932981c6f453b5d5ac/pirl-masternode-premium-1.8.27-damocles "pirl-masternode-premium-1.8.27-damocles")
 
+##### Content Node
 #### [pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cabf01995e4a7484c2de5b05dad49f86/pirl-masternode-content-1.8.27-damocles "pirl-masternode-content-1.8.27-damocles")
 
-#### <span>[marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0 "marlin-1.8.27-damocles2.0").</span>
+##### Premium and Content Node
+#### [marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0 "marlin-1.8.27-damocles2.0")
 
 
 ### PirlPool Software:

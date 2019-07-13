@@ -9,9 +9,9 @@ disableToc: true
 
 Um etwas für die PIRL Dokumentation beizutragen must du ["markdown"](https://daringfireball.net/projects/markdown/syntax) benutzen. Markdown ist eine von vielen Möglichkeiten um Dokumentationen zu erstellen. Es ist wahrscheinlich nicht das Beste aber auch nicht das Schlimmste. Der Einstieg in einen konsistenten Dokumentationszyklus ist einfach.
 
-Im Folgenden findest du einige Beispiele für die Verwendung von Markdown sowie unsere Empfehlungen und Best Practices. Bitte verwende unsere Empfehlungen wenn du eine PIRL Dokumentation erstellst, damit es gut mit dem Rest des Inhalts zusammenpasst. Also schaue dir auf jeden Fall den [Style Guide]({{< ref "/getting started/how to contribute/style guide" >}}) an für zusätzliche Richtlinien zur Formatierung von Inhalten.
+Im Folgenden findest du einige Beispiele für die Verwendung von Markdown, sowie unsere Empfehlungen und Best Practices. Bitte verwende unsere Empfehlungen wenn du eine PIRL Dokumentation erstellst, damit es gut mit dem Rest des Inhalts zusammenpasst. Also schaue dir auf jeden Fall den [Style Guide]({{< ref "/getting started/how to contribute/style guide" >}}) an für zusätzliche Richtlinien zur Formatierung von Inhalten.
 
-## Beipsiel Markdown Dokument
+## Beispiel Markdown Dokument
 
 Unten findest du ein Beispieldokument mit Markdown. Dieses Dokument wird von der Software so gerendert, dass es wie beschrieben angezeigt wird.
 
@@ -181,7 +181,7 @@ Das Verknüpfen von Bildern ist wie das Verknüpfen mit einem Kurzcode {{< image
 
 ### Code
 
-Es gibt zwei Möglichkeiten Code von Text zu unterscheiden. Eine für die Inline-Funktion und eine für Codeblöcke. Um den Code `inline` zu unterscheiden, setze Backticks um den Code. Um dies als Textblock darzustellen, setze drei hintere Backticks oben und unten.
+Es gibt zwei Möglichkeiten Code von Text zu unterscheiden. Eine für die Inline-Funktion und eine für Codeblöcke. Um den Code `inline` zu unterscheiden, setze Backticks um den Code. Um dies als Textblock darzustellen, setze drei Backticks oben und unten.
 
 
 {{< imagesurlsheaders "cloud/code.jpg" >}}
@@ -194,13 +194,6 @@ Beachte vor allem die Backticks oben und unten.
 
 ---
 Author:
-
-@PrimateCrypto
-
-
+@packetflow
 
 Contributor(s):  
-
-@dptelecom
-
-@packetflow

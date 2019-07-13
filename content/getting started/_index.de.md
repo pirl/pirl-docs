@@ -6,9 +6,9 @@ disableToc: true
 ---
 
 ### WAS IST PIRL?
-PIRL ist ein Community-basiertes Projekt, was die ersten Ethash-basierten Masternodes in das Blockchain Ökosystem eingeführt hat. Das Projekt kombiniert modernste Technologien um die erste vollständige dApps Hosting-Plattform zu entwickeln.
+PIRL ist ein Community-basiertes Projekt, was die ersten Ethash-basierten Masternodes in das Blockchain Ecosystem eingeführt hat. Das Projekt kombiniert modernste Technologien um die erste vollständige dApps Hosting-Plattform zu entwickeln.
 
-PIRL ist eine Ethereum-basierte Blockchain die darauf abzielt, die Zugänglichkeit von Kryptowährungen und verwandten Technologien zu verbessern. Um eine Evolution der Krypto-Welt durch Forschung, Innovation und Engagement vorantreiben.
+PIRL ist eine Ethereum-basierte Blockchain, die darauf abzielt die Zugänglichkeit von Kryptowährungen und verwandten Technologien zu verbessern. Um eine Evolution der Krypto-Welt durch Forschung, Innovation und Engagement vorantreiben.
 
 PIRLs Ziele basieren auf der Idee der Poseidon Plattform, einem Ort der durch einen einzigen Einstiegspunkt den Prozess vereinfacht und eine intuitivere Erfahrung für alle ermöglicht. Verschiedene zukünftige Funktionen dienen für eine dezentrale Speicherung von Dateien, der Kommunikation und Unterhaltung oder auch einem durch Escrow geschützten Handel.
 
@@ -23,9 +23,7 @@ Ein mehrschichtiges Masternode Netzwerk legt die Grundlage für diesen Prozess u
 
 ---
 Author(s):
-
 @Dptelecom
 
 Contributor():
-
 @packetflow
