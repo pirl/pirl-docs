@@ -15,9 +15,7 @@ Im Folgenden findest du einige Beispiele für die Verwendung von Markdown, sowie
 
 Unten findest du ein Beispieldokument mit Markdown. Dieses Dokument wird von der Software so übersetzt, dass es wie beschrieben angezeigt wird.
 
-
 {{< imagesurlsheaders "cloud/sample.jpg" >}}
-
 
 ## Basis Markdown Anleitung
 
@@ -79,8 +77,8 @@ Um etwas zu zitieren verwende das Größer-als-Zeichen > und mache dein Zitat!
 >**Handbuch zu diesem Artikel**: Sie müssen diesen Artikel von vorne nach hinten lesen um eine Offenbarung zu erhalten. So funktioniert doch die Literatur, oder?
 (Es sei denn es ist eine Bedienungsanleitung. In diesem Fall liest sie niemand)
 
-
 ### Tabelle
+
 Mit ein paar Markdown Anweisungen kannst du ganz einfach eine Tabelle mit verschiedener Anzahl Zeilen oder Spalten erstellen. Im Grunde werden die Spalten einfach durch eine Pipe ```|``` getrennt.
 
 Diese ```| :-------------   | :-------------   |``` Zeile pro Spalte, nach der Überschrift, darf nicht fehlen.
@@ -101,7 +99,7 @@ Hier sind zwei Beispiele:
 | :-------------   | :-------------   |
 | Erstes Element   | Zweites Element  |
 | Erstes Element   | Zweites Element  |
-|<a href="http://lmgtfy.com/?q=Wie%20erstelle%20ich%20Markdown%20Tabellen%20mit%20Atom&s=g" target="_blank">Wie erstelle ich Markdown Tabellen mit Atom</a>|<a href="http://lmgtfy.com/?q=Wie%20erstelle%20ich%20Markdown%20Tabellen%20mit%20VS%20Code&s=g" target="_blank">Wie erstelle ich Markdown Tabellen mit VS Code</a> | 
+[Wie erstelle ich Markdown Tabellen mit Atom](http://lmgtfy.com/?q=Wie%20erstelle%20ich%20Markdown%20Tabellen%20mit%20Atom&s=g)|[Wie erstelle ich Markdown Tabellen mit VS Code](http://lmgtfy.com/?q=Wie%20erstelle%20ich%20Markdown%20Tabellen%20mit%20VS%20Code&s=g)
 
 ```
 |[Homepage](https://pirl.io/){:target="_blank"}|[White Paper](https://storage.gra1.cloud.ovh.net/v1/AUTH_33a0c4ac73cf4d88a243480c275be8ac/pirl/pirl-whitepaper.pdf)| [Twitter](https://twitter.com/PirlOfficial)  |
@@ -110,8 +108,6 @@ Hier sind zwei Beispiele:
 ```
 |[Homepage](https://pirl.io/)|[White Paper](https://storage.gra1.cloud.ovh.net/v1/AUTH_33a0c4ac73cf4d88a243480c275be8ac/pirl/pirl-whitepaper.pdf)| [Twitter](https://twitter.com/PirlOfficial)  |
 |:------------- |:-------------:| -----:|
-
-
 
 ### Listen
 
@@ -161,7 +157,7 @@ Sortierte Listen werden erstellt indem **1.** für das Suchelement verwendet wir
 + Das ist der Zweite
   + Zweite Sache
 + Das ist der Dritte
-    + Dritte Sache
+  + Dritte Sache
 
 ### Links
 
@@ -177,20 +173,17 @@ Dies ist ein [Beispiel Link](http://example.com/ "Mit einem Titel"). Es wird auc
 
 Das Verknüpfen von Bildern ist wie das Verknüpfen mit einem Kurzcode {{< imagesurlsheaders "cloud/magic.gif" >}}
 
-```
+```link
 * {{< imagesurlsheaders "cloud/magic.gif" >}}
 ```
 
-* {{< imagesurlsheaders "cloud/magic.gif" >}}
-
++ {{< imagesurlsheaders "cloud/magic.gif" >}}
 
 ### Code
 
 Es gibt zwei Möglichkeiten Code von Text zu unterscheiden. Eine für die Inline-Funktion und eine für Codeblöcke. Um den Code `inline` zu unterscheiden, setze 3 Backticks um den Code. Um dies als Textblock darzustellen, setze 3 Backticks oben und unten.
 
-
 {{< imagesurlsheaders "cloud/code.jpg" >}}
-
 
 ```
 Dies wird als Codeblock angezeigt.

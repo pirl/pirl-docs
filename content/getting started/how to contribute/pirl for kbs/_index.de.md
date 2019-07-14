@@ -24,15 +24,9 @@ Die PIRL Philosophie konzentriert sich auf die Beteiligung der Community. Wir br
 
 Dies ist ein Community-Feedback orientiertes Projekt. Fühle dich frei @Dptelecom | Official PirlTeam#7828 im [Pirl Discord](https://discord.gg/ZSAzcmn) zu kontaktieren, solltest Du eine Frage oder Ideen haben.
 
-
-
-
-
-
 ---
 Author(s):
 @Dptelecom
-
 
 Contributor(s):
 @packetflow

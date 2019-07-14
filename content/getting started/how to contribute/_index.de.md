@@ -14,14 +14,9 @@ Die Pirl Docs Website läuft auf der Hugo Plattform. Um zu beginnen musst du das
 * Benutze den [Markdown Guide]({{< ref "/getting started/how to contribute/markdown guide" >}})
 * Die Ergebnisse werden nicht weniger sein als ...{{< imagesurlsheaders "cloud/magic.gif" >}}
 
-
-
-
-
 ---
 Author(s):
 @Dptelecom
-
 
 Contributor(s):
 @packetflow

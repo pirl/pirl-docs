@@ -54,13 +54,9 @@ Die Konformität der Dokumentation mit den gleichen Standards erleichtert die Ve
 
 * Am Ende jedes Dokuments stehen die Namen der Autoren sowie die Namen aller Mitwirkenden.
 
-
-
-
 ---
 Author(s):
 @Dptelecom
-
 
 Contributor(s):
 @packetflow
