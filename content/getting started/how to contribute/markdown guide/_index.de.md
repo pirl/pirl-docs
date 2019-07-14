@@ -9,11 +9,11 @@ disableToc: true
 
 Um etwas für die PIRL Dokumentation beizutragen must du ["markdown"](https://daringfireball.net/projects/markdown/syntax) benutzen. Markdown ist eine von vielen Möglichkeiten um Dokumentationen zu erstellen. Es ist wahrscheinlich nicht das Beste aber auch nicht das Schlimmste. Der Einstieg in einen konsistenten Dokumentationszyklus ist einfach.
 
-Im Folgenden findest du einige Beispiele für die Verwendung von Markdown, sowie unsere Empfehlungen und Best Practices. Bitte verwende unsere Empfehlungen wenn du eine PIRL Dokumentation erstellst, damit es gut mit dem Rest des Inhalts zusammenpasst. Also schaue dir auf jeden Fall den [Style Guide]({{< ref "/getting started/how to contribute/style guide" >}}) an für zusätzliche Richtlinien zur Formatierung von Inhalten.
+Im Folgenden findest du einige Beispiele für die Verwendung von Markdown, sowie unsere Empfehlungen und Best Practices (bewährte Methoden). Bitte verwende unsere Empfehlungen wenn du eine PIRL Dokumentation erstellst, damit es gut mit dem Rest des Inhalts zusammenpasst. Also schaue dir auf jeden Fall den [Style Guide]({{< ref "/getting started/how to contribute/style guide" >}}) an für zusätzliche Richtlinien zur Formatierung von Inhalten.
 
 ## Beispiel Markdown Dokument
 
-Unten findest du ein Beispieldokument mit Markdown. Dieses Dokument wird von der Software so gerendert, dass es wie beschrieben angezeigt wird.
+Unten findest du ein Beispieldokument mit Markdown. Dieses Dokument wird von der Software so übersetzt, dass es wie beschrieben angezeigt wird.
 
 
 {{< imagesurlsheaders "cloud/sample.jpg" >}}
@@ -49,7 +49,7 @@ weight: 5
 
 ### Betonung
 
-Schreibe ein Wort in Sternchen um Text zu *kursiv* zu schreiben. Um es **fett** zu marklieren, nutze doppelte Sternchen. Verwende zwei Tilden **~~** um Text durchzustreichen.
+Schreibe ein Wort in Sternchen um Text *kursiv* zu schreiben. Um Text **fett** zu markieren, nutze doppelte Sternchen. Verwende zwei Tilden **~~** um Text durchzustreichen.
 
 ```
 *Dieser Text wird kursiv gedruckt*
@@ -71,7 +71,7 @@ _**Was ist mit fett kursiv**_
 
 ### Zitate
 
-Um etwas zu zitieren verwende eine rechte spitze Klammer > Und mache dein Zitat!
+Um etwas zu zitieren verwende das Größer-als-Zeichen > und mache dein Zitat!
 ```
 >**Handbuch zu diesem Artikel**: Sie müssen diesen Artikel von vorne nach hinten lesen um eine Offenbarung zu erhalten. So funktioniert doch die Literatur, oder?
 (Es sei denn es ist eine Bedienungsanleitung. In diesem Fall liest sie niemand)
@@ -81,8 +81,11 @@ Um etwas zu zitieren verwende eine rechte spitze Klammer > Und mache dein Zitat!
 
 
 ### Tabelle
-Wenn du eine einfache Tabelle im Atom Texteditor erstellen möchtest, dann kannst du einfach die Zeit für eine neue "Tabelle" verringern und die Eingabetaste drücken. Wenn du mit Notepad++ schreibst, gut, 
-dann wünsche ich aufrichtiges Beileid :) Aber indem du diese Symbole aufschreibst, kannst du einzelne Zeilen und Spalten erstellen.
+Mit ein paar Markdown Anweisungen kannst du ganz einfach eine Tabelle mit verschiedener Anzahl Zeilen oder Spalten erstellen. Im Grunde werden die Spalten einfach durch eine Pipe ```|``` getrennt.
+
+Diese ```| :-------------   | :-------------   |``` Zeile pro Spalte, nach der Überschrift, darf nicht fehlen.
+
+Die aktuell am meisten benutzen Editoren besitzen auch Features oder Plugins um die Arbeit mit Tabellen zu erleichertern.
 
 Hier sind zwei Beispiele:
 
@@ -91,15 +94,17 @@ Hier sind zwei Beispiele:
 | Überschrift Eins | Überschrift Zwei |
 | :-------------   | :-------------   |
 | Erstes Element   | Zweites Element  |
+| Erstes Element   | Zweites Element  |
+| Helfer Link      | Helfer Link  |
 ```
 | Überschrift Eins | Überschrift Zwei |
 | :-------------   | :-------------   |
 | Erstes Element   | Zweites Element  |
-
-
+| Erstes Element   | Zweites Element  |
+|<a href="http://lmgtfy.com/?q=Wie%20erstelle%20ich%20Markdown%20Tabellen%20mit%20Atom&s=g" target="_blank">Wie erstelle ich Markdown Tabellen mit Atom</a>|<a href="http://lmgtfy.com/?q=Wie%20erstelle%20ich%20Markdown%20Tabellen%20mit%20VS%20Code&s=g" target="_blank">Wie erstelle ich Markdown Tabellen mit VS Code</a> | 
 
 ```
-|[Homepage](https://pirl.io/)|[White Paper](https://storage.gra1.cloud.ovh.net/v1/AUTH_33a0c4ac73cf4d88a243480c275be8ac/pirl/pirl-whitepaper.pdf)| [Twitter](https://twitter.com/PirlOfficial)  |
+|[Homepage](https://pirl.io/){:target="_blank"}|[White Paper](https://storage.gra1.cloud.ovh.net/v1/AUTH_33a0c4ac73cf4d88a243480c275be8ac/pirl/pirl-whitepaper.pdf)| [Twitter](https://twitter.com/PirlOfficial)  |
 |:------------- |:-------------:| -----:|
 
 ```
@@ -136,9 +141,9 @@ Sortierte Listen werden erstellt indem **1.** für das Suchelement verwendet wir
     + Dritte Sache
 ```
 
-1. First
-2. Second
-3. Third
+1. Erstes
+2. Zweites
+3. Drittes
 
 + Satoshi
 + Vitalik
@@ -181,7 +186,7 @@ Das Verknüpfen von Bildern ist wie das Verknüpfen mit einem Kurzcode {{< image
 
 ### Code
 
-Es gibt zwei Möglichkeiten Code von Text zu unterscheiden. Eine für die Inline-Funktion und eine für Codeblöcke. Um den Code `inline` zu unterscheiden, setze Backticks um den Code. Um dies als Textblock darzustellen, setze drei Backticks oben und unten.
+Es gibt zwei Möglichkeiten Code von Text zu unterscheiden. Eine für die Inline-Funktion und eine für Codeblöcke. Um den Code `inline` zu unterscheiden, setze 3 Backticks um den Code. Um dies als Textblock darzustellen, setze 3 Backticks oben und unten.
 
 
 {{< imagesurlsheaders "cloud/code.jpg" >}}
@@ -196,4 +201,4 @@ Beachte vor allem die Backticks oben und unten.
 Author:
 @packetflow
 
-Contributor(s):  
+Contributor(s):

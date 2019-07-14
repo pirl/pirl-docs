@@ -19,6 +19,10 @@ defaultContentLanguageInSubdir= true
   disableBreadcrumb = true
   disableNextPrev = true
 #
+# all docs external links open in new browser tab
+[blackfriday]
+   hrefTargetBlank = true
+#
 #
 [outputs]
 home = [ "HTML", "RSS", "JSON"]

@@ -81,8 +81,11 @@ To quote something, use a right sharp bracket >And do your quote!
 
 
 ### Table
-If you want to create a simple table in Atom text editor, you can simply time down "table" and hit an Enter! If you are writing in notepad, well,
-then I wish sincere condolences :) But by writing down those symbols, you can create a single rows and columns.
+With a few Markdown instructions you can easily create a table with a different number of rows or columns. Basically the columns are simply separated by a pipe ```|```.
+
+This ```| :-------------   | :-------------   |``` line per column after the heading must not be missing.
+
+The currently most used editors also have features or plugins to make working with spreadsheets easier.
 
 Here you have two examples:
 
@@ -91,11 +94,14 @@ Here you have two examples:
 | Header One     | Header Two     |
 | :------------- | :------------- |
 | Item One       | Item Two       |
+| Item One       | Item Two       |
+| Helper Link    | Helper Link    |
 ```
 | Header One     | Header Two     |
 | :------------- | :------------- |
 | Item One       | Item Two       |
-
+| Item One       | Item Two       |
+|<a href="https://lmgtfy.com/?q=how%20to%20make%20markdown%20tables%20with%20atom%20editor&s=g" target="_blank">Search How To Make Tables with Atom</a>|<a href="https://lmgtfy.com/?q=how%20to%20make%20markdown%20tables%20with%20visual%20studio%20code&s=g" target="_blank">Search How To Make Tables with VS Code</a> | 
 
 
 ```

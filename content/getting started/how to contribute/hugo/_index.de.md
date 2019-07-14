@@ -9,7 +9,7 @@ disableToc: true
 
 Hallo und Willkommen!
 
-Dieses Handbuch zeigt dir, wie du Hugo und den Hugo-Server direkt von der Kommandozeile aus starten kannst!
+Dieses Handbuch zeigt dir, wie du Hugo und den Hugo-Server direkt von der Kommandozeile aus starten kannst.
 
 Mit Hilfe von Hugo kannst Du Artikel für die Knowledge Base erstellen, anzeigen, verbessern und etwas zur PIRL-Community beitragen.
 
@@ -25,7 +25,7 @@ In diesem Handbuch wird erklärt wie Hugo und der Hugo-Server heruntergeladen, e
 
 Um den Erfolg dieser Operation zu gewährleisten benötigst du folgende Voraussetzungen:
 
-* Internetverbindung
+* Eine funktionierende Internetverbindung
 * [Download der letzten Version der Hugo Startdatei (> 0.25) für dein Betriebsystem](https://github.com/gohugoio/hugo/releases)
 * Lade das pirl-docs Repo von hier herunter: [Pirl-docs](https://git.pirl.io/community/pirl-docs)
 * Den Web-Browser deiner Wahl und ein wenig Willenskraft
@@ -37,13 +37,15 @@ Um den Erfolg dieser Operation zu gewährleisten benötigst du folgende Vorausse
 Wenn du ein Mac Benutzer bist installiere Hugo mit einem einzigen einfachen Befehl.
 
 Kommando:
+```
 brew install Hugo
+```
 
 Folge der Installationsanleitung [hier](https://gohugo.io/getting-started/quick-start/)
 
 ### 2) Windows OS
 * Wenn du Windows verwendest, lade einfach die neueste Version von [Hugo](https://github.com/gohugoio/hugo/releases) für Windows herunter, wenn du es noch nicht getan hast.
-* Ebenso musst du das neueste [PIRL docs file depository](https://git.pirl.io/community/pirl-docs) Repo herunterladen, wenn du es noch nicht getan hast. Entpacken/extrahieren diese beiden Ordner.
+* Ebenso musst du das neueste [PIRL docs file depository](https://git.pirl.io/community/pirl-docs) Repo herunterladen, wenn du es noch nicht getan hast. Entpacke und extrahiere diese beiden Ordner.
 * Dann gehe in den Hugo-Ordner und kopiere alles, was du dort finden kannst.
 * Wechsele in den Ordner pirl-docs und füge dort alle HUGO Dateien ein und überschreibe alte Dateien mit den aktuelleren.
 * Drücke dann die Suchtaste in der Nähe der Windows-Startleiste, meistens in der linken unteren Ecke (normalerweise ist sie hier :)).

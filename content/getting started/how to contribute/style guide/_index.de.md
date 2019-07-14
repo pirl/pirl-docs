@@ -27,7 +27,7 @@ Die Konformität der Dokumentation mit den gleichen Standards erleichtert die Ve
 ## Generelle Richtlinien
 
 * Versuche so wenig Wörter wie möglich zu verwenden, während du beschreibend bleibst.
-* Angenommen das Publikum kennt nicht den gesamten Hintergrund den du beschreibst. Arbeite genau und lasse keine wichtigen Informationen aus. (Beginners Mind)
+* Nimm an das Publikum kennt nicht den gesamten Hintergrund den du beschreibst (Beginners Mind). Arbeite genau und lasse keine wichtigen Informationen aus.
 * Bei Aktionen werden Schlüsselwörter fett gedruckt. (z.B. Chrome öffnen, das Feld **Adresse** oben auswählen und **www.pirl.io** einfügen)
 * Verwende so viele Screenshots wie möglich, um die Informationen visuell zu unterstützen.
 * Gib wichtige Informationen in **Fettdruck** ein.
@@ -37,7 +37,7 @@ Die Konformität der Dokumentation mit den gleichen Standards erleichtert die Ve
 
 ## Grammatik und Rechtschreibung
 
-* Verwende Oxford Kommas
+* Verwende Oxford Kommas.
 * Die amerikanische Rechtschreibung wird für abweichende Wörter verwendet.
 
 ## Inhaltsverzeichnis
