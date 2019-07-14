@@ -1,6 +1,6 @@
 ---
 title: Commencer
-weight: 2
+weight: 1
 pre: "<b>1. </b>"
 disableToc: true
 ---
