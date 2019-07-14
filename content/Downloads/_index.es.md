@@ -43,10 +43,14 @@ chapter: true
 ### Binarios de Masternodos:
 
 
-### <span style="color:green">NEW hulk-v1 binary:</span>
+##### Premium Node
+#### [1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)
 
+##### Content Node
+#### [1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)
 
-###  <span style="color:red">[Masternode hulk-v1 binary](https://git.pirl.io/community/pirl/tags/pirl-linux-amd64-hulk-1_8_2 "Masternode hulk-v1 binary").</span>
+##### Premium and Content Node
+#### [1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)
 
 
 ### PirlPool software:
@@ -61,8 +65,7 @@ chapter: true
 ### Red de Pruebas Pirl:
 
 
-### [Minero Phoenix 3.5d para Windows para red de prueba](/development/core/testnetwork/miner/PhoenixMiner_Pirl_testnetwork.zip "Phoenix Windows miner 3.5d for testnetwork").
-
+### [PhoenixMiner 4.2c: fastest Ethereum/Ethash miner with lowest devfee (Win/Linux)](https://bitcointalk.org/index.php?topic=2647654.0)
 
 ### Google Autentificador para la autentificación de dos factores
 ### * [Play store para Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)  
