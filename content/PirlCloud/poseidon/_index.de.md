@@ -25,7 +25,7 @@ Poseidon gewährt Benutzern Zugriff auf:
 
 [Poseidon](https://poseidon.pirl.io "Poseidon").
 
-[Poseidon Development](https://devexplorer.pirl.io/home "Poseidon Development").
+[Poseidon Entwicklung](https://devexplorer.pirl.io/home "Poseidon Entwicklung").
 
 #### 1.) [Überblick]({{< ref "/PirlCloud/poseidon/overview" >}})
 
