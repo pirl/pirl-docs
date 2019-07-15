@@ -23,7 +23,9 @@ Ein mehrschichtiges Masternode Netzwerk legt die Grundlage für diesen Prozess u
 
 ---
 Author(s):
+
 @Dptelecom
 
 Contributor():
+
 @packetflow

@@ -7,53 +7,41 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Poseidon.png"  >}}
 
+## Der ganz neue Poseidon V2
 
+Poseidon ist eine einzigartige All-in-One-Plattform,
+mit einem einzigen Einstiegspunkt.
+Ein Benutzer kann auf viele der einzigartigen Funktionen und Fähigkeiten von Pirl zugreifen.
+Poseidon gewährt Benutzern Zugriff auf:
 
-## The whole new Poseidon V2
-
-
-Poseidon is a unique all-in-one platform,  
-where, with a single point of entry,  
-a user can gain access to many of Pirl unique features and capabilities.  
-Poseidon will grant users access to:  
-
-• Blockchain Explorer  
-• Masternodes Control Panel  
-• 1-click Masternode installation  
-• Poseidon Wallet   
-• PirlCloud  
-• PirlMarket  
-• PirlPay   
-• And More  
-
++ Blockchain Explorer  
++ Masternodes Control Panel  
++ 1-click Masternode Installation  
++ Poseidon Wallet
++ PirlCloud  
++ PirlMarket  
++ PirlPay
++ Und mehr
 
 [Poseidon](https://poseidon.pirl.io "Poseidon").
 
-
 [Poseidon Development](https://devexplorer.pirl.io/home "Poseidon Development").
 
+#### 1.) [Überblick]({{< ref "/PirlCloud/poseidon/overview" >}})
 
-#### 1.) [Overview]({{< ref "/PirlCloud/poseidon/overview" >}})
-#### 2.) [Register]({{< ref "/PirlCloud/poseidon/register" >}})
-#### 3.) [First Login and setup Two-factor authentication]({{< ref "/PirlCloud/poseidon/login" >}})
-#### 4.) [Poseidon unique all-in-one platform]({{< ref "/PirlCloud/poseidon/unique_platform" >}})
+#### 2.) [Registrieren]({{< ref "/PirlCloud/poseidon/register" >}})
 
-#### 10.) [Poseidon changelog]({{< ref "/PirlCloud/poseidon/changelog" >}})
+#### 3.) [Erste Anmeldung und Einrichtung der Zwei-Faktor-Authentifizierung]({{< ref "/PirlCloud/poseidon/login" >}})
 
+#### 4.) [Poseidon als einzigartige All-in-OnePlattform]({{< ref "/PirlCloud/poseidon/unique_platform" >}})
 
-
-
-
-
-
-
-
+#### 10.) [Poseidon Änderungsprotokoll]({{< ref "/PirlCloud/poseidon/changelog" >}})
 
 ---
 Author(s):
 
-
 @Dptelecom
 
-
 Contributor(s):
+
+@packetflow
