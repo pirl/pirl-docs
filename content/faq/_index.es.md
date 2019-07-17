@@ -1,6 +1,6 @@
 ---
 title: Preguntas más frecuentes
-weight: 1
+weight: -1
 disableToc: true
 ---
 

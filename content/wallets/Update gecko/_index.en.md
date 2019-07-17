@@ -38,7 +38,7 @@ If the wallet not synchronise you want to remove the old chain-data like it says
 
 
 {{% notice warning %}}
-This will be the last update we roll out for Nautilus.  
+This Nautilus will be deprecated.  
 We advice to switch to the  
 [PirlApp]({{< ref "/PirlCloud/pirl app" >}})
 

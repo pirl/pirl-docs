@@ -21,7 +21,14 @@ chapter: true
 ### [Download here the PirlApp 1.0.3-2 for Windows](https://pirl.live/ipfs/QmVGhBHrwqjMC9G2VTAGpdpGxrYdoSKhNTU7Yxp8PyJcKD "PirlApp for Windows").
 
 
-### PirlWallets:
+### PirlWallets:  
+
+{{% notice warning %}}
+This Nautilus will be deprecated.  
+We advice to switch to the  
+[PirlApp]({{< ref "/PirlCloud/pirl app" >}})
+
+{{% /notice %}}
 
 
 ### [Download here the Pirl Nautilus Wallet-0.9.2 Linux](https://github.com/pirl/nautilus/releases/download/0.9.2/Pirl-Nautilus-Wallet-linux64-0-9-2.deb "Download here the Pirl Nautilus Wallet-0.9.2 Linux").
@@ -41,10 +48,14 @@ chapter: true
 ### Masternode binary:
 
 
-### <span style="color:green">NEW hulk-v1 binary:</span>
+##### Premium Node
+#### [1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)
 
+##### Content Node
+#### [1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)
 
-###  <span style="color:red">[Masternode hulk-v1 binary](https://git.pirl.io/community/pirl/tags/pirl-linux-amd64-hulk-1_8_2 "Masternode hulk-v1 binary").</span>
+##### Premium and Content Node
+#### [1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)
 
 
 ### PirlPool software:
@@ -59,8 +70,7 @@ chapter: true
 ### PirlTestnetwork:
 
 
-### [Phoenix Windows miner 3.5d for testnetwork](/development/core/testnetwork/miner/PhoenixMiner_Pirl_testnetwork.zip "Phoenix Windows miner 3.5d for testnetwork").
-
+### [PhoenixMiner 4.2c: fastest Ethereum/Ethash miner with lowest devfee (Win/Linux)](https://bitcointalk.org/index.php?topic=2647654.0)
 
 ### Google Authenticator for the two-factor authentication
 ### * [Play store for Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)  

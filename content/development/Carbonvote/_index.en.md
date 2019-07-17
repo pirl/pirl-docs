@@ -67,7 +67,7 @@ select the utc you want to use make sure there is at least enough in the wallet 
 
 Fill in your *Password* and hit *SUBMIT*    ![](https://pirl.live/ipfs/Qmezp1Aqex56ji21gYox1xeo6txyLZGsBxhe4q5yXoUQ6P)  
 
-At the bootem of the website you will see the TX-Hash   ![](https://pirl.live/ipfs/QmbMM2JGgbiFPZGGaaqxLG3ic9xLFuUzqYBxAKp2b2Agu6)  
+At the bottom of the website you will see the TX-Hash   ![](https://pirl.live/ipfs/QmbMM2JGgbiFPZGGaaqxLG3ic9xLFuUzqYBxAKp2b2Agu6)  
 
 Done you did first vote and can now continue with the other wallets you maybe have.
 
