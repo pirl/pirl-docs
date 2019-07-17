@@ -1,11 +1,12 @@
 ---
-title:Conséquences d'attaque et sécurisation des fonds
+title: Conséquences d'attaque et sécurisation des fonds
 weight: 4
 pre: "<b>4. </b>"
 chapter: true
 ---
 
 {{< imagesurlsheaders "images_headers/aftermath.png"  >}}
+
 
 
 ## Chère communauté,
@@ -26,7 +27,7 @@ Il existe deux voies pour la réouverture du marché:
 
 Ou
 
-###2) Nous pouvons générer un superblock unique qui couvrira tous les comptes des membres de la communauté ET récupérera tous les PIRL restants dans les adresses des attaquants.
+### 2) Nous pouvons générer un superblock unique qui couvrira tous les comptes des membres de la communauté ET récupérera tous les PIRL restants dans les adresses des attaquants.
 
 
 Même si la majorité du fonds de développement n’a pas été dépensée,

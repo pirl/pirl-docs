@@ -1,5 +1,5 @@
 ---
-title:Guide Markdown
+title: Guide Markdown
 weight: 3
 pre: "<b>3. </b>"
 disableToc: true

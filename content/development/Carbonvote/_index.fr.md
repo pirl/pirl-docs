@@ -7,13 +7,14 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/development.png" >}}
 
-- [Aperçu du mécanisme Carbonvote](#overview-carbonvote-mechanism)
-- [Conditions préalables](#prerequisites)
-- [Comment votez ? deux options:](#how-do-you-vote?-two-options-)
-  * [Votez sur le site [https://pirlvote.com/#/](https://pirlvote.com/#/)](#vote-on-the-website--https---pirlvotecom-----https---pirlvotecom----)
-  * [Votez avec vos portefeuilles Pirl](#vote-with-these-pirl-wallets)
-  * [1 ) Option 1](#1---option-1)
-  * [2 ) Option 2](#2---option-2)
+* [Aperçu du mécanisme Carbonvote](#aper-u-du-m-canisme-carbonvote)
+* [Conditions préalables](#conditions-pr-alables)
+* [Comment votez ? deux options:](#comment-votez---deux-options-)
+  + [Votez sur le site [https://pirlvote.com/#/](https://pirlvote.com/#/)](#votez-sur-le-site--https---pirlvotecom-----https---pirlvotecom----)
+  + [Votez avec ces portefeuilles Pirl](#votez-avec-ces-portefeuilles-pirl)
+  + [1 ) Option 1](#1---option-1)
+  + [2 ) Option 2](#2---option-2)
+- [ensemble plus fort.](#ensemble-plus-fort)
 
 ## Aperçu du mécanisme Carbonvote
 
@@ -50,7 +51,7 @@ Sur l'écran suivant, vous verrez ceci
 
 Appuyez sur le fichier choisi pour télécharger votre fichier keystore![](https://pirl.live/ipfs/QmaA9KDPV4TA2Z2FDd5WVRCLESkXDznB1xbCDnLjuL8y2N)  
 
-Si vous êtes un utilisateur du portefeuille Nautilus, vos fichiers de clés sont normalement ici pour trouver: 
+Si vous êtes un utilisateur du portefeuille Nautilus, vos fichiers de clés sont normalement ici pour trouver:
 Windows keystore  
 ![](https://pirl.live/ipfs/Qmbgngc8SFTPXA6i2E8sh4XDXozCKQCU4gRnm5Fw3AWEep)  
 MacOs keystore  
