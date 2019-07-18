@@ -1,5 +1,5 @@
 ---
-title: Poseidon first login and 2FA
+title: Poseidon Erster Login und 2FA
 weight: 3
 pre: "<b>3. </b>"
 chapter: true
