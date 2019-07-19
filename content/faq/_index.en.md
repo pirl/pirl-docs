@@ -20,9 +20,9 @@ disableToc: true
 
 > Time between blocks : 13 sec
 
-> Total block reward : 10 PIRL
+> Total block reward : 9 PIRL
 
-> PIRL Miner reward : 6 PIRL / block
+> PIRL Miner reward : 5 PIRL / block
 
 > Masternodes : 3 PIRL / block
 
