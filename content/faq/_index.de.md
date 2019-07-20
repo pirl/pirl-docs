@@ -4,67 +4,89 @@ weight: -1
 disableToc: true
 ---
 
-### What is PIRL?
-> Pirl is a 3-layered Masternode network blockchain that harnesses the power of Smart Contracts, EVM, Web3 and service masternode networks to provide decentralized storage and immutable (read: unchangeable -secure) content. The main goal of the project is to improve the functionality and performance of Decentralized applications and set new standards for user experience and to provide a real use for blockchain technology. PIRL is using the already laid technological foundation to develop a unique all-in-one platform with easy-to-use features for file storage, communication, entertainment and p2p marketplace trading.
+### Was ist PIRL?
 
-### How does PIRL innovate?
-> The Pirl team has developed the first masternode capable of working on a DAG structured Ethash blockchain. In addition to this, Pirl brings with it a unique 3-layered Masternode service which offers a number of unique functionalities for its users. The infrastructure developed by the Pirl team brings the most complete DApp hosting solution developed to date to the table and offers dramatically improved performance and endless possibilities for developers and users alike.
+> Pirl ist eine Blockchain mit einem 3-Layer Masternode Netzwerk und der Kraft von Smart Contracts, EVM, Web3 und nutzt für die Masternodes Services um dezentralen Speicher und unveränderlichen (lesend: unveränderlich-sicheren) Inhalt bereitzustellen. Das Hauptziel des Projekts besteht darin, die Funktionalität und Leistung von dezentralen Anwendungen zu verbessern, neue Standards für das Benutzererlebnis zu setzen und die Blockchain-Technologie real zu nutzen. PIRL nutzt die bereits geschaffene technologische Grundlage um eine einzigartige All-in-One-Plattform mit benutzerfreundlichen Funktionen für Dateispeicherung, Kommunikation, Unterhaltung und P2P-Handel zu entwickeln.
 
-### What are the benefits of hosting a DApp on PIRL?
-> The currently available platforms for DApps leave a lot to be desired. Not only have these networks proved slow and expensive to use in practice, they are severely limited in their utility because they only support the transfer and processing of text data. This means that they all rely on centralized storage for DApps data. We can do better.
+### Wie erschafft PIRL Innovationen?
 
-> By introducing a network of IPFS (InterPlanetary File System) masternodes, Pirl is able to host completely decentralised apps without centralized storage. This means high volumes of data processed and stored with high efficiency, zero duplication, and with extreme resilience. Natural disasters? Systems offline? Consolidation of control of the internet? Let’s say no to all of that.
+> Das Pirl Team hat als erstes Masternodes entwickelt, welche in der Lage sind mit einer DAG-strukturierten Ethash-Blockchain zu arbeiten. Darüber hinaus bringt Pirl ein einzigartiges 3-Layer Masternode Netzwerk mit, was seinen Benutzern eine Reihe einzigartiger Funktionen bietet. Die vom Pirl Team entwickelte Infrastruktur bietet eine umfassende dApp Hosting-Lösung, enorme Leistung und endlose Möglichkeiten für Entwickler und Benutzer.
 
-### What are PIRL's coin specifications?
-> Algorithm: Dagger
+### Welche Vorteile bietet das Hosten einer dApp mit PIRL?
 
-> Time between blocks : 13 sec
+> Die derzeit verfügbaren Plattformen für dApps lassen zu wünschen übrig. Die Netzwerke haben sich in der Praxis nicht nur als langsam und teuer erwiesen, sondern sind auch in ihrer Nützlichkeit stark eingeschränkt, da sie nur die Übertragung und Verarbeitung von Textdaten unterstützen. Dies bedeutet, dass sie auf einen zentralen Speicher für dApps-Daten angewiesen sind. Wir können es besser machen.
 
-> Total block reward : 9 PIRL
+> Durch die Einführung eines Masternodes Netzwerkes mit IPFS (InterPlanetary File System), kann Pirl vollständig dezentrale Apps ohne zentrale Speicherung hosten. Dies bedeutet, dass große Datenmengen mit hoher Effizienz, Duplizierung und dadurch mit extremer Ausfallsicherheit verarbeitet und gespeichert werden können. Naturkatastrophen? Systeme offline? Konsolidierung der Kontrolle über das Internet? Lasst uns all das ablehnen.
 
-> PIRL Miner reward : 5 PIRL / block
+### Wie sind die Spezifikationen von PIRL?
 
-> Masternodes : 3 PIRL / block
+> Algorithmus: Dagger
 
-> Dev fund : 1 PIRL / block
+> Zeit zwischen Blöcken : 13 sec
 
-> The future Block reward distribution can be found in [PIRL Monetary Policy](https://pirl.io/en/monetary-policy)!
+> Gesammter Block Reward : 9 PIRL
 
-### What is a PIRL masternode?
-> Masternodes are a series of servers that underpin a blockchain’s network. They are responsible for enabling specific services that cannot be accomplished by miners using a Proof of Work system alone.
+> PIRL Miner Reward : 5 PIRL / Block
 
-> Much like with Proof of Stake, masternodes rely on “staking” (or locking up) a certain amount of the currency within the currency’s network.  Masternodes protect blockchains from network attacks in much the same way as traditional proof of stake algorithms. It’s expensive to accumulate enough currency to create a masternode, and prohibitively expensive to accumulate enough currency to have a monopoly on the entire masternode network. This cost of operation also helps to keep operators honest and invested in the future of the coin, incentivising them to properly maintain their masternodes.
+> Masternodes : 3 PIRL / Block
 
-> Once it is live, the masternode accommodates a unique series of functions.  For Pirl, these functions include Content Storage, Communication, Entertainment products, and P2P market trading.
+> Dev Fund : 1 PIRL / Block
 
-### What is the 3-layer PIRL masternode network?
-> Pirl will run 3 separate Masternode types. Each of these serves a different purpose. Premium masternodes encompass the features of both of the other masternodes, while also supporting aspects of the Pirl Network such as peering, and consensus.
+> Die zukünftige Reward Verteilung findest du in der [PIRL Monetary Policy](https://pirl.io/en/monetary-policy)!
 
-> Storage Masternodes provide digital downloads for the marketplace, and can be used as a backup file server for individuals and organizations.
+### Was ist eine PIRL Masternode?
 
-> Content Masternodes provide publicly accessible file storage for the media needed for dApps and the marketplace to function.
+> Masternodes sind eine Reihe von Servern die das Netzwerk der PIRL Blockchain unterstützen. Sie sind dafür zuständig bestimmte Dienste im Netzwerk zu ermöglichen, die Miner mit einem Proof-of-Work System allein nicht ausführen können.
 
-> For more information see the PIRL whitepaper
+> Ähnlich wie beim Proof-of-Stake basieren Masternodes darauf einen bestimmten Betrag der Währung innerhalb des Währungsnetzwerks zu „sperren“ (Collateral). Masternodes schützen die Blockchain vor Netzwerkangriffen auf die gleiche Weise wie herkömmliche Proof-of-Stake Algorithmen. Es ist teuer genügend PIRL anzusammeln um eine Masternode zu erstellen und relativ unerschwinglich so viel PIRL anzusammeln, um ein Monopol über das gesamte Masternode Netzwerk zu erhalten. Diese Betriebskosten tragen auch dazu bei, dass die Betreiber ehrlich bleiben und in die Zukunft von PIRL investieren und Anreize erhalten ihre Masternodes ordnungsgemäß zu warten.
 
-### What will be traded on the PIRL masterplace?
-> The possibilities for the market are nearly endless. You will be able to buy and sell almost any product or service (provided it’s legal, of course!).
+> Sobald sie live ist, bietet eine Masternode eine einzigartige Reihe von Funktionen. Für Pirl umfassen diese Funktionen Content Storage, Kommunikation, Unterhaltungsprodukte und P2P-Handel über den Marktplatz.
 
-> The marketplace will also allow dApps, smart contract developers, and artists to sell their intellectual property.
+### Was ist das 3-Layer PIRL Masternode Netzwerk?
 
-### How will the PIRL marketplace protect traders?
-> Trades in the marketplace will be protected through escrow smart-contracts, which enable trustless transactions with no risk of loss to the parties involved. Assigned moderators will also be able to verify that everything is running smoothly.
+> Pirl hat 3 verschiedene Masternode-Typen. Jede von diesen dient einem anderen Zweck. Premium Masternodes umfassen die Funktionen der Content und Stortage Masternodes und unterstützen ebenso andere Aspekte des Pirl Netzwerkes wie das Client Peering und den Consensus.
 
-### What is PirlPoseidon?
-> Poseidon is an all-in-one platform that gives users access to all of Pirl’s unique features and capabilities in one web location.
+> Storage Masternodes bieten digitale Downloads für den Marktplatz und können als Backup-Dateiserver für Einzelpersonen und Organisationen verwendet werden.
 
-### What is PirlTube?
-> PirlTube is the distributed video sharing hosted on the Pirl masternode networks and backed up via smart contracts to the blockchain.
+> Content Masternodes bieten öffentlich zugänglichen Dateispeicher für Medien, welche für die Funktionsfähigkeit von dApps und des Marktplatzes erforderlich sind.
 
-### What is the PIRL max supply?
-> The maximum supply of Pirl is approximately 157,000,000 coins. See the Pirl Monetary Policy for more information: [PIRL Monetary Policy](https://pirl.io/en/monetary-policy)
+> Für mehr Informationen schaue in das [PIRL Whitepaper](https://storage.gra1.cloud.ovh.net/v1/AUTH_33a0c4ac73cf4d88a243480c275be8ac/pirl/pirl-whitepaper.pdf)
 
-### Did PIRL have an ICO or a premine?
-> Absolutely not. Pirl strives to not be considered security by broadly avoiding actions which may lead to confusing that distinction.
+### Was wird auf dem PIRL Marktplatz gehandelt?
 
-### Will PIRL ever change from Proof of Work (PoW) to Proof of Stake (PoS)?
-> The main PIRL chain will forever remain PoW.  Side chains may utilize the benefits of PoS where it makes sense for the design.
+> Die Möglichkeiten für den Marktplatz sind nahezu unbegrenzt. Du kannst nahezu jedes Produkt oder jede Dienstleistung kaufen und verkaufen (vorausgesetzt, es ist legal!).
+
+> Auf dem Marktplatz können dApp (verteilte Applikationen), Smart Contract Entwickler und Künstler ihr geistiges Eigentum verkaufen.
+
+### Wie wird der PIRL Marktplatz Händler schützen?
+
+> Geschäfte auf dem Marktplatz werden durch Treuhand Smart-Contracts geschützt, die vertrauenswürdige Transaktionen ohne Verlustrisiko für die beteiligten Parteien ermöglichen. Zugewiesene Moderatoren werden auch in der Lage sein zu überprüfen ob alles reibungslos funktioniert.
+
+### Was ist PirlPoseidon?
+
+> [Poseidon](https://poseidon.pirl.io/) ist eine All-in-One-Plattform, mit der Benutzer auf alle einzigartigen Funktionen und Fähigkeiten von Pirl über ein einziges Web-Interface zugreifen können.
+
+### Was ist PirlTube?
+
+> [PirlTube] (https://pirltube.com) ist eine verteilte Video-Plattform, die über Pirl Masternodes gehostet und über Smart Contracts in der Blockchain gesichert wird.
+
+### Was ist der PIRL Max Supply?
+
+> Die maximale Versorgnung von Pirl beträgt ca. 157.000.000 PIRL. Weitere Informationen findest du in der: [PIRL Monetary Policy](https://pirl.io/en/monetary-policy)
+
+### Hatte PIRL einen ICO oder ein Premine?
+
+> Absolut nicht. Pirl ist bestrebt Handlungen weitgehend zu vermeiden, die zu einer Verwechslung dieser Unterscheidung führen.
+
+### Wird PIRL jemals von Proof-of-Work (PoW) zu Proof-of-Stake (PoS) wechseln?
+
+> Die PIRL Blockchain bleibt für immer POW. Sidechains können die Vorteile von PoS nutzen, wenn dies für das Design sinnvoll ist.
+
+ ---
+ Author(s):
+
+ @Dptelecom
+
+ Contributor(s):
+
+ @packetflow
