@@ -9,7 +9,7 @@ chapter: true
 
 ## Alle wichtigen Änderungen an dieser einzigartigen All-in-One Plattform werden in dieser Datei dokumentiert
 
-## Poseidon Version V2
+## Poseidon Version 2
 
 ## Hinzugefügt  
 
@@ -32,9 +32,11 @@ chapter: true
 - Deaktivierung alte login URL / reset / ( accounts/login ) und setze account/login als Voreinstellung
 
 ## Entfernt
+
 -
 
 ## Unveröffentlicht
+
 -
 
 ---
