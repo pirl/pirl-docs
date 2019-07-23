@@ -20,7 +20,7 @@ disableToc: true
 
 ### Quelles sont les spécifications de la pièce de monnaie PIRL?
 
-> Algorithme: Dague
+> Algorithme: Dagger Hashimoto
 
 > Temps entre les blocs: 13 sec
 

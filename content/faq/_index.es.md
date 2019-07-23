@@ -20,7 +20,7 @@ disableToc: true
 
 ### ¿Cuáles son las especificaciones de la moneda de PIRL?
 
-> Algoritmo: Daga
+> Algoritmo: Dagger Hashimoto
 
 > Tiempo entre bloques: 13 seg.
 

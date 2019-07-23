@@ -20,7 +20,7 @@ disableToc: true
 
 ### What are PIRL's coin specifications?
 
-> Algorithm: Dagger
+> Algorithm: Dagger Hashimoto
 
 > Time between blocks : 13 sec
 
