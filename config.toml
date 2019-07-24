@@ -18,6 +18,7 @@ defaultContentLanguageInSubdir= true
   showVisitedLinks = true
   disableBreadcrumb = true
   disableNextPrev = true
+  include_toc = true
 #
 # all docs external links open in new browser tab
 [blackfriday]

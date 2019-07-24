@@ -23,7 +23,7 @@ chapter: true
 - Masternode Auszahlungen als CSV exportieren
 - Poseidon prüft wenn der User eine One-Click Installation durchführt, ist es CentOS und ist die Version größer als 7
 - überprüfe ist es eine richtige TX ID, ist es eine richtige Adresse und wenn das richtig ist, prüfe ob mit dieser TX ID zum Poseidon gesendet wurde, prüfe ob es eine Content oder Premium Masternode ist (Aus Benutzersicht)
-- Fehler bei der Erstellung von Masternode behoben
+- Fehler bei der Erstellung von Masternodes behoben
 - Wallet ( Auszahlung )  
 - Benutzer kann One-Click neu starten
 

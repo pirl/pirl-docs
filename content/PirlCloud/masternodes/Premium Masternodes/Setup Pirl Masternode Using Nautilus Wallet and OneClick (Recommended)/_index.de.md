@@ -3,10 +3,10 @@ title: Setup Premium Masternode
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
+
 ---
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
-
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
@@ -16,9 +16,6 @@ chapter: true
 - [Create Masternode in Poseidon](#create-masternode-in-poseidon)
 - [One-Click Masternode Setup](#one-click-masternode-setup)
 - [Monitoring](#monitoring)
-
-
-
 
 ## Overview
 
@@ -32,7 +29,6 @@ This Poseidon feature automatically configures your CentOS 7 linux server to be 
 Updates will be applied automatically.
 All you have to do is monitor your server to ensure it stays operational.
 This is as simple as rebooting the server, should it go offline.
-
 
 ## Prerequisites
 
@@ -49,13 +45,11 @@ This is as simple as rebooting the server, should it go offline.
  - Whichever method you choose to create your wallet, always make sure you save your UTC file and password!
  - Warning: UTC Passwords cannot be recovered, make sure you remember it or write it down!
 
-
 * **20,001 Pirl available in your wallet for Premium MN**
  - There’s no getting around it, you will need to somehow get twenty thousand PIRL into a wallet.
  - And 1 or 0,5 for gas to interact with the contract.
  - You can mine Pirl by using one of the official pools available here: https://pirl.io/en/pools/.
  - You can also buy Pirl on one of the Pirl exchanges. I recommend  https://www.stex.com as a safe and reliable exchange.
-
 
 ## Poseidon Wallet Identity Verification
 
@@ -67,18 +61,13 @@ This is as simple as rebooting the server, should it go offline.
 
 - The first row of the transaction block displays the transaction hash. You will need this transaction hash later during the setup in order to verify the link between your masternode and your poseidon wallet.
 
-
 ![](https://i.imgur.com/tAWr8Ua.png)
 
 **Note:Do not send anymore then 1 or .5 pirl to this address for verfication, this is NOT the address you will send the 20k pirls to. that comes later.**
 
-
 If you are using nautilus wallet you can click once on the last sent transaction and you see the Transaction Hash(Later asked in Masternode TX Hash field):
 
 {{< imagesurlsheaders "cloud/txnautilus.png" >}}
-
-
-
 
 ## Nautilus Contract Execution
 
@@ -99,7 +88,6 @@ If you are using nautilus wallet you can click once on the last sent transaction
 ```
 [{"constant":false,"inputs":[],"name":"nodeRegistration","outputs":[{"name":"paid","type":"bool"}],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeAddress","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"moderators","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"nodes","outputs":[{"name":"pirlAddress","type":"address"},{"name":"nodeStake","type":"uint256"},{"name":"nodeHash","type":"bytes20"},{"name":"stakeLocked","type":"bool"},{"name":"nodeEnabled","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"disableNodeRegistration","outputs":[{"name":"disabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"nodeCost","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getStakeLockedStatus","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"nodeCount","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_admin","type":"address"}],"name":"setAdmin","outputs":[{"name":"set","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"enableNode","outputs":[{"name":"enabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"nodeRegistrationEnabled","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"disableNode","outputs":[{"name":"disabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"withdrawStake","outputs":[{"name":"withdrawn","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"nodeAddresses","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeEnabledStatus","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeStake","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"enableNodeRegistration","outputs":[{"name":"enabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeHash","outputs":[{"name":"","type":"bytes20"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"nodeFee","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"admin","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeRegistered","type":"bool"},{"indexed":false,"name":"_dateRegistered","type":"uint256"}],"name":"MasterNodeRegistered","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeDisabled","type":"bool"},{"indexed":false,"name":"_dateDisabled","type":"uint256"}],"name":"MasterNodeDisabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeEnabled","type":"bool"},{"indexed":false,"name":"_dateEnabled","type":"uint256"}],"name":"MasterNodeEnabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodePaid","type":"bool"},{"indexed":false,"name":"_datePaid","type":"uint256"}],"name":"MasterNodeRewarded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_stakeWithdrawn","type":"bool"},{"indexed":false,"name":"_dateWithdrawn","type":"uint256"}],"name":"StakeWithdrawn","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":false,"name":"_dateEnabled","type":"uint256"},{"indexed":true,"name":"_registrationEnabled","type":"bool"}],"name":"MasterNodeRegistrationEnabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":false,"name":"_dateDisabled","type":"uint256"},{"indexed":true,"name":"_registrationDisabled","type":"bool"}],"name":"MasterNodeRegistrationDisabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":true,"name":"_admin","type":"address"},{"indexed":true,"name":"_adminSet","type":"bool"}],"name":"SetAdmin","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":true,"name":"_newOwner","type":"address"},{"indexed":true,"name":"_ownerChanged","type":"bool"}],"name":"TransferOwnership","type":"event"}]
 ```
-
 
 - In the Contract section -> Select the contract that you just added and you will see the available functions as a dropdown menu on the right side under the **Write to Contract** heading.
 
@@ -125,21 +113,16 @@ Note: We do recommend logging into that server once to ensure the `root` credent
 It is not necessary to take any other actions on the server after that.
 In fact, it's preferred that you don't make any other adjustments, at all.
 
-
 ## Create Masternode in Poseidon
 
 - Login to Poseidon and navigate to the page which adds a masternode located here: https://poseidon.pirl.io/dashboard/masternodes/  
 - Hit the plus button located at the right side of the page:  
 
-
 ![](https://i.imgur.com/N0rUi7z.jpg)
 
 - Create Masternode pop-up will appear
 
-
 {{< imagesurlsheaders "cloud/Create_Masternode_Record_in_Poseidon.PNG" >}}
-
-
 
 - Name the masternoder with name of your choice.
 
@@ -151,32 +134,21 @@ In fact, it's preferred that you don't make any other adjustments, at all.
 
 Hit **Save changes** and then you will see the next screen.
 
-
 {{< imagesurlsheaders "cloud/one_click_setup.PNG" >}}
-
-
-
-
 
 ## One-Click Masternode Setup
 
 - Ensure that you know the public static IP address and `root` credentials before proceeding.
 
-
-
 {{< imagesurlsheaders "cloud/one_click_setup.PNG" >}}
 
-
-
 - Complete the fields -> SSH default is port: 22 Hit **Save changes** and then you will see the next screen.  
-
 
 {{< imagesurlsheaders "cloud/Done.PNG" >}}
 
 - After returning to the **My Masternodes** screen, observe that the masternode's **Managed by Poseidon** field is set to `True`
 
 {{< imagesurlsheaders "cloud/managed.jpg" >}}
-
 
 - Please allow 30 minutes for the process to complete. You may click the **details** button to monitor the status.
 
@@ -187,12 +159,7 @@ journalctl -f
 
 - Once messages like the following are displayed, your masternode is now synchronized and contributing to the network.
 
-
-
 {{< imagesurlsheaders "cloud/vps.jpg" >}}
-
-
-
 
 ## Monitoring
 
@@ -202,30 +169,18 @@ journalctl -f
 ```
 your masternode is contributing to the network if it looks like this:.
 
-
-
 {{< imagesurlsheaders "cloud/vps.jpg" >}}
 
-
-
-Monitor the status of your masternode by checking the Poseidon Masternode Details page by clicking on the 🔍.   
+Monitor the status of your masternode by checking the Poseidon Masternode Details page by clicking on the 🔍.
 A functioning node should appear as follows:
 
-
 {{< imagesurlsheaders "cloud/detailsmn.png" >}}
-
-
-
-
 
 ---
 Author(s):
 
-
 The Pirl Team
 
-
 Contributor(s):
-
 
 @Dptelecom

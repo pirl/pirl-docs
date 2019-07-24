@@ -1,7 +1,7 @@
 ---
 title: FAQ
 weight: -1
-disableToc: true
+disableToc: false
 ---
 
 ### Qu'est-ce que PIRL?

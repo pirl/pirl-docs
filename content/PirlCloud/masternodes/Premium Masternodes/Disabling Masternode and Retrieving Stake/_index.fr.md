@@ -6,7 +6,6 @@ chapter: true
 ---
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-
 ## Vue d'ensemble
 
 À tout moment, vous pouvez exécuter deux fonctions de contrat en masternode et récupérer votre mise de 20 000 PIRL dans votre portefeuille.  
@@ -22,10 +21,7 @@ Sur le côté droit, le menu de la fonction de contrat sera affiché.
 
 Sélectionnez la fonction **Disable Node**, puis le portefeuille associé au contrat et cliquez sur **Execute**.  
 
-
-
 {{< imagesurlsheaders "cloud/disable-node.png" >}}
-
 
 Sur l'écran suivant, confirmez que vous avez assez de **GAZ** pour la transaction, entrez votre mot de passe du **fichier UTC** et cliquez **sur Envoyer la transactionOn**
 
@@ -33,8 +29,6 @@ Sur l'écran suivant, confirmez que vous avez assez de **GAZ** pour la transacti
 
 Attendez 30 à 60 secondes avant d'exécuter l'étape suivante.  
 Sélectionnez la fonction **Withdraw Stake**, puis le portefeuille associé au contrat et cliquez sur **Execute**.  
-
-
 
 {{< imagesurlsheaders "cloud/withdraw-stake.png" >}}
 
@@ -68,11 +62,10 @@ Le **Le nom du contrat** peut être ce que vous voulez. Enfin, le champ **Interf
 
 ```
 
-
-
 ---
 Author(s):  
 
 @dptelecom  
 @claudiopirl  
+
 Contributor(s):

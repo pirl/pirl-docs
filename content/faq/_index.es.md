@@ -1,7 +1,7 @@
 ---
 title: Preguntas más frecuentes
 weight: -1
-disableToc: true
+disableToc: false
 ---
 
 ### ¿Qué es PIRL?

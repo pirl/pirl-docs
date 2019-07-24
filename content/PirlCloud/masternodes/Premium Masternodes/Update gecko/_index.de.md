@@ -7,23 +7,22 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-## Manual Masternode Update to 1.8.27-gecko  
-The instructions are intended for Redhat or CentOS based VPS but should work on most major Linux distributions.   
+## Manual Masternode Update to 1.8.27-gecko
+
+The instructions are intended for Redhat or CentOS based VPS but should work on most major Linux distributions.
 You may have the need to adjust the firewall instructions to match the software software running on your VPS.  
 Login as root and update the system, then install dependencies:
 
-## Binary:   
+## Binary:
+
 (marlin now the same for both types)  
 https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/marlin/marlin-masternode-gecko1_8_27
 https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/masternodes/content/pirl-linux-amd64-content
 https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/masternodes/premium/pirl-linux-amd64-premium  
 
-
 ## Update with script from @phatblinkie if not want to do it all Manual:
 
 https://github.com/phatblinkie/mn_installer
-
-
 
 ## The update process:
 
@@ -41,10 +40,8 @@ systemctl stop marlin
 
 ```
 
-
-
-
 ### Download the premium masternode binaries:
+
 ```
 wget https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/masternodes/premium/pirl-linux-amd64-premium
 wget https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/marlin/marlin-masternode-gecko1_8_27
@@ -58,7 +55,6 @@ wget https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/masternodes/cont
 wget https://storage.googleapis.com/pirl-node/pirl-1.8.27-gecko/marlin/marlin-masternode-gecko1_8_27
 
 ```
-
 
 Move the main binary to /usr/bin/pirl For premium masternodes:  
 
@@ -88,12 +84,11 @@ chmod 0755 /usr/bin/marlin
 
 ```
 
-
 ### Now reboot the vps.
+
 ```
 reboot
 ```
-
 
 Watch the masternode process synchronize with the blockchain:
 ```
@@ -137,7 +132,6 @@ you can do:
 
 ```
 
-
 - And then remove the database:  
 
 ```
@@ -152,19 +146,14 @@ rm -rf /root/.pirl
 
 ```
 
-
-
 Kind regards,  
 PirlTeam.  
 
 ---
 Author(s):
 
-
 The Pirl Team
 
-
 Contributor(s):
-
 
 @Dptelecom
