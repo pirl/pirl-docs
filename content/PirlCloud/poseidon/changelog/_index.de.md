@@ -1,5 +1,5 @@
 ---
-title: Poseidon Changelog
+title: Poseidon Änderungsprotokoll
 weight: 10
 pre: "<b>10. </b>"
 chapter: true
@@ -7,55 +7,44 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Poseidon.png"  >}}
 
+## Alle wichtigen Änderungen an dieser einzigartigen All-in-One Plattform werden in dieser Datei dokumentiert
 
+## Poseidon Version 2
 
-## All notable changes to this unique all-in-one platform will be documented in this file.
+## Hinzugefügt  
 
-
-
-##  <span style="color:green">Poseidon Version V2</span>
-
-
-
-## Added  
-
-- 2FA ( google + sms )  
-- password reset  
+- 2FA ( Google + SMS )  
+- Passwort zurücksetzen
 - login / logout / subscribe  
-- masternode detail view ( stats of report and payments + latest blocks )  
-- accounting ( with pending )  
-- list of last 30 days  
-- total pending money  
-- export masternodes payments as csv  
-- poseidon check when user add a one-click, I check the connection, if it's CentOS and if it's more or equal to version 7  
-- validator check if it's a correct tx if it's a correct address and if that's correct it check that this tx was sended to poseidon it check if it's a content or premium masternode ( for user point of view )  
-- error handling on masternode creation  
-- wallet ( withdraw )  
-- user can restart one-click  
+- Masternode Detailansicht ( Statistiken, Berichte und Zahlungen + neueste Blöcke )  
+- Accounting ( mit ausstehenden Zahlungen )  
+- Liste Rewards der letzten 30 Tage
+- Insgesamt ausstehende Zahlungen
+- Masternode Auszahlungen als CSV exportieren
+- Poseidon prüft wenn der User eine One-Click Installation durchführt, ist es CentOS und ist die Version größer als 7
+- überprüfe ist es eine richtige TX ID, ist es eine richtige Adresse und wenn das richtig ist, prüfe ob mit dieser TX ID zum Poseidon gesendet wurde, prüfe ob es eine Content oder Premium Masternode ist (Aus Benutzersicht)
+- Fehler bei der Erstellung von Masternodes behoben
+- Wallet ( Auszahlung )  
+- Benutzer kann One-Click neu starten
 
+## Geändert  
 
-## Changed  
+- Deaktivierung alte login URL / reset / ( accounts/login ) und setze account/login als Voreinstellung
 
+## Entfernt
 
-- DISABLE old login url / reset / ( accounts/login ) and set account/login as default  
-
-
-## Removed  
 -
 
-## Unreleased  
+## Unveröffentlicht
+
 -
-
-
 
 ---
 Author(s):  
 
-
 [Masterdubs](https://git.pirl.io/masterdubs)
-
 
 Contributor():  
 
-
 @dptelecom
+@packetflow

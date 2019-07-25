@@ -1,5 +1,5 @@
 ---
-title: Poseidon overview
+title: Poseidon Überblick
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
@@ -7,50 +7,31 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Poseidon.png"  >}}
 
+## Poseidon Startseite
 
-
-## Poseidon starting page.
-
-
-[On the first page of Poseidon](https://poseidon.pirl.io) we see a nice overview of all the running Masternodes,
-And the rewards they are making,
-and an overview about the locations where they are:
-
+[Auf der ersten Seite von Poseidon](https://poseidon.pirl.io) sehen wir eine  Übersicht aller laufenden Masternodes, die Block-Rewards die sie im Durchschnitt erhalten und eine Übersicht über die Standorte an denen sie sich befinden:
 
 {{< imagesurlsheaders "cloud/Poseidon_overview.jpg"  >}}
 
+## Poseidon Registrierung für ein Konto
 
-
-## Poseidon register for an account.
-
-
-If you look at the left side of the page you see the option to register for an account,
-or login to your account if you already got one:
-
-
+Wenn du auf die linke Seite schaust, gibt es die Option sich für ein Konto zu registrieren. Oder du meldest dich bei deinem existierendem Konto an, wenn es bereits eines gibt:
 
 {{< imagesurlsheaders "cloud/Poseidon_left.jpg"  >}}
 
+## Fahre mit der nächsten Seite fort, um zu sehen wie ein Konto erstellt wird
 
+[Nächste Seite - Registrierung]({{< ref "/PirlCloud/poseidon/register" >}})
 
-## Go ahead to the next page to see how you create an account:
+## Oder gehe auf diese Seite um zu erfahren, wie du dich zum ersten Mal anmeldest, um dann die Zwei-Faktor-Authentifizierung einzurichten
 
-
-[next page Register]({{< ref "/PirlCloud/poseidon/register" >}})
-
-
-## Or ahead to the this page to see how you login the first time to account and setup the Two-factor authentication:
-
-
-[First Login and setup Two-factor authentication]({{< ref "/PirlCloud/poseidon/login" >}})
-
-
+[Nächste Seite - Erste Anmeldung und Einrichtung der Zwei-Faktor-Authentifizierung]({{< ref "/PirlCloud/poseidon/login" >}})
 
 ---
 Author(s):
 
-
 @Dptelecom
 
-
 Contributor(s):
+
+@packetflow

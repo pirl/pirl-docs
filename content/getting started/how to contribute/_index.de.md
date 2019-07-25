@@ -16,7 +16,9 @@ Die Pirl Docs Website läuft auf der Hugo Plattform. Um zu beginnen musst du das
 
 ---
 Author(s):
+
 @Dptelecom
 
 Contributor(s):
+
 @packetflow

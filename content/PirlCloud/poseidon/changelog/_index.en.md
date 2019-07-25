@@ -7,15 +7,9 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Poseidon.png"  >}}
 
-
-
 ## All notable changes to this unique all-in-one platform will be documented in this file.
 
-
-
-##  <span style="color:green">Poseidon Version V2</span>
-
-
+## Poseidon Version 2
 
 ## Added  
 
@@ -33,29 +27,23 @@ chapter: true
 - wallet ( withdraw )  
 - user can restart one-click  
 
-
 ## Changed  
-
 
 - DISABLE old login url / reset / ( accounts/login ) and set account/login as default  
 
+## Removed
 
-## Removed  
 -
 
-## Unreleased  
+## Unreleased
+
 -
-
-
 
 ---
 Author(s):  
 
-
 [Masterdubs](https://git.pirl.io/masterdubs)
 
-
 Contributor():  
-
 
 @dptelecom

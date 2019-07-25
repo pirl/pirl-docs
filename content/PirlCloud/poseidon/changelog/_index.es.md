@@ -7,15 +7,9 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Poseidon.png"  >}}
 
-
-
 ## Todos los cambios notables en esta plataforma única todo en uno se documentarán en este archivo.
 
-
-
-##  <span style="color:green">Poseidon Version V2</span>
-
-
+## Poseidon Version 2
 
 ## Adicionado
 
@@ -33,29 +27,23 @@ chapter: true
 - billetera (retirar)
 - El usuario puede reiniciar con un clic
 
-
 ## Cambiado
-
 
 - DESACTIVAR la URL de inicio de sesión anterior / restablecer / (cuentas / inicio de sesión) y configurar la cuenta / inicio de sesión como predeterminado
 
-
 ## Eliminado
+
 -
 
-## no publicado 
+## no publicado
+
 -
-
-
 
 ---
 Autor(s):  
 
-
 [Masterdubs](https://git.pirl.io/masterdubs)
 
-
 Contribuyente(s):  
-
 
 @dptelecom
