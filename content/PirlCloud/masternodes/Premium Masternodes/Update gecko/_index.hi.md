@@ -3,6 +3,7 @@ title: मैनुअल अपडेट टु 1.8.27-gecko
 weight: 3
 pre: "<b>3. </b>"
 chapter: true
+hidden: true
 ---
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}

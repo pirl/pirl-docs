@@ -1,30 +1,29 @@
 ---
 title: Actualización Manual a 1.8.27-damocles
-weight: 4
-pre: "<b>4. </b>"
+weight: 3
+pre: "<b>3. </b>"
 chapter: true
 ---
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
 ## Actualización de Masternode manual a 1.8.27-damocles
+
 Las instrucciones están destinadas a los VPS basados en Redhat o CentOS, pero deberían funcionar en la mayoría de las principales distribuciones de Linux.
 Es posible que tenga que ajustar las instrucciones del firewall para que coincidan con el software que se ejecuta en su VPS.
 Inicie sesión como root y actualice el sistema, luego instale las dependencias:
 
 ## Binario:
+
 (Marlin ahora igual para ambos tipos)
 [git.pirl.io tags/1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)  
 [marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0)  
 [pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles)  
 [pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)   
 
-
 ## Actualice con el Script de @phatblinkie si no Quiere Hacerlo todo Manual:
 
 [phatblinkie/mn_installer](https://github.com/phatblinkie/mn_installer)
-
-
 
 ## El Proceso de Actualización:
 
@@ -44,8 +43,8 @@ systemctl stop marlin
 
 stop
 
-
 ### Descarga los Binarios de Masternodo Premium:
+
 ```
 wget https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles
 wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0
@@ -59,7 +58,6 @@ wget https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572
 wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0
 
 ```
-
 
 Mueve el binario principal a /usr/bin/pirl para masternodos premium:
 
@@ -89,12 +87,11 @@ chmod 0755 /usr/bin/marlin
 
 ```
 
-
 ### Ahora Reinicie el Vps.
+
 ```
 reboot
 ```
-
 
 Mira cómo se sincroniza el proceso de masternodo con la cadena de bloques:
 ```
@@ -140,7 +137,6 @@ tu puedes hacer:
 
 ```
 
-
 - Y luego quitar la base de datos:  
 
 ```
@@ -155,19 +151,14 @@ rm -rf /root/.pirl
 
 ```
 
-
-
 Saludos cordiales,
 Equipo Pirl.  
 
 ---
 Autor(s):
 
-
 The Pirl Team
 
-
 Contribuyente(s):
-
 
 @Dptelecom

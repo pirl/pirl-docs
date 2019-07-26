@@ -1,30 +1,29 @@
 ---
 title: मैनुअल अपडेट टु 1.8.27-damocles
-weight: 4
-pre: "<b>4. </b>"
+weight: 3
+pre: "<b>3. </b>"
 chapter: true
 ---
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-## मैनुअल मास्टरनोड अपडेट टु 1.8.27-damocles  
+## मैनुअल मास्टरनोड अपडेट टु 1.8.27-damocles
+
 निर्देश Redhat या CentOS आधारित VPS के लिए अभिप्रेत हैं, लेकिन अधिकांश प्रमुख लिनक्स वितरण पर काम करना चाहिए।   
 आपको अपने VPS पर चल रहे सॉफ़्टवेयर सॉफ़्टवेयर से मेल खाने के लिए फ़ायरवॉल निर्देशों को समायोजित करने की आवश्यकता हो सकती है।  
 रूट के रूप में लॉगिन करें और सिस्टम को अपडेट करें, फिर निर्भरताएं स्थापित करें:
 
-## बाइनरी:   
+## बाइनरी:
+
 (मार्लिन अब दोनों प्रकारों के लिए समान है)  
 [git.pirl.io tags/1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)  
 [marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0)  
 [pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles)  
-[pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)   
-
+[pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)
 
 ## अगर आप मैनुअल अपडेट नहीं करना चाहते हैं तो आप @phatblinkie की स्क्रिप्ट का उपयोग कर सकते है:
 
 [phatblinkie/mn_installer](https://github.com/phatblinkie/mn_installer)
-
-
 
 ## अपडेट करने की प्रक्रिया:
 
@@ -42,10 +41,8 @@ systemctl stop marlin
 
 ```
 
-
-
-
 ### प्रीमियम मास्टरनोड बायनेरी डाउनलोड करें:
+
 ```
 wget https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles
 wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0
@@ -59,7 +56,6 @@ wget https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572
 wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0
 
 ```
-
 
 प्रीमियम मास्टरनोड्स के लिए मुख्य बाइनरी को /usr/bin/pirl पर ले जाएं:  
 
@@ -151,19 +147,14 @@ rm -rf /root/.pirl
 
 ```
 
-
-
 Kind regards,  
 PirlTeam.  
 
 ---
 Author(s):
 
-
 The Pirl Team
 
-
 Contributor(s):
-
 
 @Dptelecom

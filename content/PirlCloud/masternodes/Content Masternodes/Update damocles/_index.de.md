@@ -1,30 +1,27 @@
 ---
 title: Manual Update to 1.8.27-damocles
-weight: 4
-pre: "<b>4. </b>"
+weight: 3
+pre: "<b>3. </b>"
 chapter: true
 ---
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-## Manual Masternode Update to 1.8.27-damocles  
+## Manual Masternode Update to 1.8.27-damocles
 The instructions are intended for Redhat or CentOS based VPS but should work on most major Linux distributions.   
 You may have the need to adjust the firewall instructions to match the software software running on your VPS.  
 Login as root and update the system, then install dependencies:
 
-## Binary:   
+## Binary:
 (marlin now the same for both types)  
 [git.pirl.io tags/1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)  
 [marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0)  
 [pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles)  
 [pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)   
 
-
 ## Update with script from @phatblinkie if not want to do it all Manual:
 
 [phatblinkie/mn_installer](https://github.com/phatblinkie/mn_installer)
-
-
 
 ## The update process:
 
@@ -42,10 +39,8 @@ systemctl stop marlin
 
 ```
 
-
-
-
 ### Download the premium masternode binaries:
+
 ```
 wget https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles
 wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0
@@ -59,7 +54,6 @@ wget https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572
 wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0
 
 ```
-
 
 Move the main binary to /usr/bin/pirl For premium masternodes:  
 
@@ -89,8 +83,8 @@ chmod 0755 /usr/bin/marlin
 
 ```
 
-
 ### Now reboot the vps.
+
 ```
 reboot
 ```
@@ -138,7 +132,6 @@ you can do:
 
 ```
 
-
 - And then remove the database:  
 
 ```
@@ -153,19 +146,14 @@ rm -rf /root/.pirl
 
 ```
 
-
-
 Kind regards,  
 PirlTeam.  
 
 ---
 Author(s):
 
-
 The Pirl Team
 
-
 Contributor(s):
-
 
 @Dptelecom

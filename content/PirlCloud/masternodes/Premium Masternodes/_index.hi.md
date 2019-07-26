@@ -20,8 +20,7 @@ chapter: true
 
 #### 1.) [नॉटिलस वॉलेट और वन क्लिक (अनुशंसित) का उपयोग करके प्रिल मास्टरनोड सेट अप करे]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)" >}})
 #### 2.) [मास्टरनोड को निष्क्रिय करना और स्टेक को पुनः प्राप्त करना]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
-#### 3.) [अपडेट करें 1.8.27-gecko]({{< ref "//PirlCloud/masternodes/Premium Masternodes/Update gecko" >}})  
-#### 4.) [अपडेट करें 1.8.27-damocles]({{< ref "//PirlCloud/masternodes/Premium Masternodes/Update damocles" >}})  
+#### 3.) [अपडेट करें 1.8.27-damocles]({{< ref "//PirlCloud/masternodes/Premium Masternodes/Update damocles" >}})  
 
 ---
 Author(s):

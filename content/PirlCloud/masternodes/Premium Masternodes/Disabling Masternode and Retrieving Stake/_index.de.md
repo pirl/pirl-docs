@@ -1,5 +1,5 @@
 ---
-title: Retrieve Masternode Stake
+title: Zurückerhalten des Masternode Stakes
 weight: 2
 pre: "<b>2. </b>"
 chapter: true
@@ -7,11 +7,11 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-## Overview
+## Überblick
 
 At any time, you can run two masternode contract functions and retrieve your 20,000 PIRL stake back into your wallet.
 
-## Disabling Masternode and Retrieving Stake
+## Masternode deaktivieren und Stake zurückerhalten
 
 **Open Nautilus** and navigate to the **Contract** tab located at the top right corner.
 

@@ -20,6 +20,8 @@ Los masternodes premium serán recompensados adicionalmente con
 
 #### 2.) [Desactivación de Masternodo y Recuperación de juego]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
 
+#### 3.) [Update to 1.8.27-damocles]({{< ref "//PirlCloud/masternodes/Premium Masternodes/Update damocles" >}})
+
 ---
 Autor(s):
 

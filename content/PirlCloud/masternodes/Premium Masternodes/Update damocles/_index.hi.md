@@ -1,7 +1,7 @@
 ---
 title: मैनुअल अपडेट टु 1.8.27-damocles
-weight: 4
-pre: "<b>4. </b>"
+weight: 3
+pre: "<b>3. </b>"
 chapter: true
 ---
 
