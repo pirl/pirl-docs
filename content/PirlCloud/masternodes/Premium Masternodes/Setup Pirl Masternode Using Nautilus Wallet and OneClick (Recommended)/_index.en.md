@@ -16,12 +16,12 @@ chapter: true
 - [One-Click Masternode Setup](#one-click-masternode-setup)
 - [Monitoring](#monitoring)
 
-
 ## Overview
 
-Running a PIRL masternode requires the use of a Virtual
-Private Server (VPS) with a static public IP address directly assigned to an interface.  
-__*NAT (address translation) is not supported.*__  
+Running a PIRL masternode requires the use of a Virtual Private Server (VPS) with a static public IP address directly assigned to an interface.
+
+__*NAT (address translation) is not supported.*__
+
 One should only have Pirl running on the server, any other nodes or anything else will cause a conflict!
 
 This guide uses the one-click-masternode setup feature.
@@ -32,24 +32,28 @@ This is as simple as rebooting the server, should it go offline.
 
 ## Prerequisites
 
-* **A VPS with minimum 4GB Total OS RAM minimum (more is recommended), enough storage to run the masternode (Minimum 20GB, Recommended 60GB+), and a static public IP address directly assigned to an interface.  NAT (address translation) is not supported.**
+* **A VPS (CentOS 7 Linux) with minimum 4GB Total OS RAM minimum (more is recommended), enough storage to run the masternode (Minimum 20GB, Recommended 60GB+), and a static public IP address directly assigned to an interface.  NAT (address translation) is not supported.**
 
  - The official MINIMUM requirements are: 4GB RAM, 20GB space, 3TB transfer, public IPv4 IP.
 
  - Once you order your VPS, you will receive its root credentials. The easiest path forward is to only use this VPS for your Pirl Masternode and give Poseidon your root credentials so it can manage and update your VPS.
 
 * **A Poseidon account on [https://poseidon.pirl.io](https://poseidon.pirl.io)**
+
  - Navigate over to https://poseidon.pirl.io and register for an account.  Keep in mind that you will be logging in with your **USERNAME** and not email.
+
 * **Nautilus wallet**
+
  - Nautilus is the official desktop wallet for Pirl.  You will need it in order to add and execute “Register Node” from the smart contract needed to run the Pirl masternode.  You can use the desktop wallet to create your Pirl wallet [Downloads Nautilus]({{< ref "/Downloads" >}}) or you can use the web wallet at: https://wallet.pirl.io/.  
  - Whichever method you choose to create your wallet, always make sure you save your UTC file and password!
  - Warning: UTC Passwords cannot be recovered, make sure you remember it or write it down!
 
 * **20,001 Pirl available in your wallet for Premium MN**
+
  - There’s no getting around it, you will need to somehow get twenty thousand PIRL into a wallet.
  - And 1 or 0,5 for gas to interact with the contract.
  - You can mine Pirl by using one of the official pools available here: https://pirl.io/en/pools/.
- - You can also buy Pirl on one of the Pirl exchanges. I recommend  https://www.stex.com as a safe and reliable exchange.
+ - You can also buy Pirl on one of the Pirl exchanges. I recommend [https://www.stex.com](https://app.stex.com/de/trade/pair/BTC/PIRL/1D) as a safe and reliable exchange.
 
 ## Poseidon Wallet Identity Verification
 
@@ -63,7 +67,7 @@ This is as simple as rebooting the server, should it go offline.
 
 ![](https://i.imgur.com/tAWr8Ua.png)
 
-**Note:Do not send anymore then 1 or .5 pirl to this address for verfication, this is NOT the address you will send the 20k pirls to. that comes later.**
+> **Note:** Do not send anymore then 1 or 0.5 Pirl to this address for verfication, this is NOT the address you will send the 20k pirls to. That comes later.
 
 If you are using nautilus wallet you can click once on the last sent transaction and you see the Transaction Hash(Later asked in Masternode TX Hash field):
 

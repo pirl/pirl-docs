@@ -4,6 +4,10 @@ weight: -1
 disableToc: false
 ---
 
+<!--
+{{% toc %}}
+-->
+
 ### Was ist PIRL?
 
 > Pirl ist eine Blockchain mit einem 3-Layer Masternode Netzwerk und der Kraft von Smart Contracts, EVM sowie Web3 und nutzt Masternode Services um dezentralen Speicher und unveränderlichen (lesend: unveränderlich-sicheren) Inhalt bereitzustellen. Das Hauptziel des Projekts besteht darin, die Funktionalität und Leistung von dezentralen Anwendungen zu verbessern, neue Standards für das Benutzererlebnis zu setzen und die Blockchain-Technologie real zu nutzen. PIRL nutzt die bereits geschaffene technologische Grundlage um eine einzigartige All-in-One-Plattform mit benutzerfreundlichen Funktionen für Dateispeicherung, Kommunikation, Unterhaltung und P2P-Handel zu entwickeln.

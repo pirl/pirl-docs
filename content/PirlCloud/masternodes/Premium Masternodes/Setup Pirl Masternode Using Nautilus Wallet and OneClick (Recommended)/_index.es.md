@@ -19,8 +19,10 @@ chapter: true
 ## Visión general
 
 Ejecutar un masternode PIRL requiere el uso de un Virtual
-Servidor privado (VPS) con una dirección IP pública estática asignada directamente a una interfaz.
-*NAT (traducción de direcciones) no es compatible.*
+Servidor privado (VPS) (CentOS 7 Linux) con una dirección IP pública estática asignada directamente a una interfaz.
+
+**NAT (traducción de direcciones) no es compatible.**
+
 ¡Y solo tienen pirl ejecutándose en el servidor, no hay otros nodos o cualquier causa que cause conflicto!
 
 Una vez que tenga los fondos en su lugar,
@@ -41,20 +43,27 @@ Esto es tan simple como reiniciar el servidor, si se desconecta.
 ## Prerrequisitos
 
 * **Un VPS con un mínimo de 4 GB de RAM en el SO total (se recomienda más), suficiente almacenamiento para ejecutar el masternode (Mínimo de 20 GB, 60 GB + recomendado) y una dirección IP pública estática asignada directamente a una interfaz. NAT (traducción de direcciones) no es compatible.**
+
  - Los requisitos MÍNIMOS oficiales son: 4 GB de RAM, espacio de 20 GB, transferencia de 3 TB, IPv4 pública. Una vez que ordene su VPS, recibirá sus credenciales de raíz. El camino más fácil para avanzar es utilizar este VPS solo para su Pirl Masternode y darle a Poseidon sus credenciales de raíz para que pueda administrar y actualizar su VPS.
+
 * **Una cuenta de Poseidon en [https://poseidon.pirl.io](https://poseidon.pirl.io)**
+
  - Navegue hasta https://poseidon.pirl.io y regístrese para obtener una cuenta. Tenga en cuenta que iniciará sesión con su nombre de usuario y no con el correo electrónico.
+
 * **Cartera Nautilus**
+
  - Nautilus es la billetera de escritorio oficial de Pirl. Lo necesitará para agregar y ejecutar el "Registro de nodo" del contrato inteligente necesario para ejecutar el Ptern masternode. Puede usar la billetera de escritorio para crear su billetera Pirl [Descargas Nautilus]({{<ref "/Downloads">}}) o puede usar la billetera web en: https://wallet.pirl.io/.
  - Sea cual sea el método que elija para crear su billetera, asegúrese siempre de guardar su archivo UTC,
  - la contraseña necesaria para descifrar el archivo UTC, así como su clave privada.
  - Puede usar su archivo UTC creado por Nautilus y su contraseña para extraer su clave privada.
  - Puede usar su clave privada en lugar del archivo UTC + Contraseña para acceder a su billetera y retirar sus fondos en caso de una emergencia.
-* ** 20,001 Pirl disponibles en su billetera para Premium MN **
+
+* **20,001 Pirl disponibles en su billetera para Premium MN**
+
  - No hay forma de evitarlo, de alguna manera necesitarás veinte mil PIRL en una billetera.
  - Y 1 o 0,5 para que el gas interactúe con el contrato.
  - Puedes explotar Pirl utilizando uno de los grupos oficiales disponibles aquí: https://pirl.io/en/pools/.
- - También puedes comprar Pirl en uno de los intercambios de Pirl. Recomiendo https://www.stex.com como un intercambio seguro y confiable.
+ - También puedes comprar Pirl en uno de los intercambios de Pirl. Recomiendo [https://www.stex.com](https://app.stex.com/de/trade/pair/BTC/PIRL/1D) como un intercambio seguro y confiable.
 
 ## Verificación de Identidad Monedero Poseidon
 
