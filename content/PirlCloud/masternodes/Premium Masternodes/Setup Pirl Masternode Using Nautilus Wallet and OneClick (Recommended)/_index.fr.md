@@ -17,9 +17,9 @@ chapter: true
 
 ## Vue d’ensemble
 
-L'exécution d'un nœud  masternode PIRL nécessite l'utilisation d'un serveur privé virtuel (VPS) avec une adresse IP publique statique directement affectée à une interface. 
+L'exécution d'un nœud  masternode PIRL nécessite l'utilisation d'un serveur privé virtuel (VPS) avec une adresse IP publique statique directement affectée à une interface.
 
-**NAT (traduction d'adresse) n'est pas pris en charge**
+> **NAT (traduction d'adresse) n'est pas pris en charge**
 
 Avoir seulement pirl en cours d'exécution sur le serveur, pas d'autres nœuds ou quoi que ce soit, cela causerait un conflit !!  
 Une fois les fonds en place, vous envoyez une petite transaction 1 PIRL sur votre portefeuille Poseidon (votre compte sera accompagné d’un portefeuille) pour prouver que vous contrôlez le portefeuille Nautilus avec le capital de 20K PIRL pour Premium MN.  
@@ -132,10 +132,10 @@ Vérifiez que le serveur répond aux spécifications appropriées indiquées dan
 si vous envisagez d’utiliser la configuration  **masternode en un clic**.  
 Le serveur doit exécuter la distribution Linux CentOS 7.  
 
-Enregistrement de l'adresse IP publique statique du serveur ainsi que du mot de passe root.  
-Nous vous recommandons de vous connecter une fois sur ce serveur pour vous assurer que les informations d’identification Root fonctionnent.  
-Il n'est pas nécessaire de faire d'autres actions sur le serveur après cela.  
-En fait, il est préférable de ne faire aucun autre ajustement.  
+> **Note** Enregistrement de l'adresse IP publique statique du serveur ainsi que du mot de passe root.  
+> Nous vous recommandons de vous connecter une fois sur ce serveur pour vous assurer que les informations d’identification Root fonctionnent.  
+> Il n'est pas nécessaire de faire d'autres actions sur le serveur après cela.  
+> En fait, il est préférable de ne faire aucun autre ajustement.  
 
 ## Créer un masternode sur Poseidon  
 
@@ -191,10 +191,12 @@ Une fois que les messages suivants sont affichés, votre masternode est maintena
 
 ## Surveillance  
 
-Nous n’encourageons pas l’accès actif sur le serveur. Si, toutefois, vous souhaitez vérifier l'état, connectez-vous à votre serveur et exécutez la commande suivante:  
+Nous n’encourageons pas l’accès actif sur le serveur. Si, toutefois, vous souhaitez vérifier l'état, connectez-vous à votre serveur et exécutez la commande suivante:
+
 ```
 journalctl -f
 ```
+
 votre masternode contribue au réseau s'il ressemble à ceci:  
 
 {{< imagesurlsheaders "cloud/vps.jpg" >}}

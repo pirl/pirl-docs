@@ -9,52 +9,53 @@ chapter: true
 
 ## Überblick
 
-At any time, you can run two masternode contract functions and retrieve your 20,000 PIRL stake back into your wallet.
+Du kannst zu jeder Zeit zwei Masternode Smart Contract Funktionen ausführen und deinen Stake von 20.000 PIRL in dein Wallet zurückerhalten.
 
-## Masternode deaktivieren und Stake zurückerhalten
+## Masternode deaktivieren und Stake zurückerhalten (Nautilus)
 
-**Open Nautilus** and navigate to the **Contract** tab located at the top right corner.
+**Öffne Nautilus** und navigiere zum **Contract** Tab in der oberen rechten Ecke.
 
-You should see the masternode contract on the left side. It will have the address of `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. Select this address.
-(NOTE: If you don't have a contract showing in the **watch contract** section, you can add it as described in the next section.)
+Du solltest den Masternode Contract auf der linken Seite sehen. Er hat die Adresse `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. Selektiere die Adresse.
 
-On the right side, the contract function menu will be shown.
+> **NOTIZ** Wenn der Contract bei dir unter **Watch Contract** nicht angezeigt wird, unten wird noch mal gezeigt wie er hinzugefügt wird.
 
-Select the **Disable Node** function, then the wallet associated with the contract and hit **Execute**
+Auf der rechten Seite werden die Contract Funktionen angezeigt.
 
-{{< imagesurlsheaders "cloud/disable-node.png" >}}
+Wähle die **Disable Node** Funktion aus, dann das Wallet, was in dem Contract als Masternode eingetragen ist und drücke **Execute**
 
-On the next screen, confirm you have enough **gas** for the transaction, enter your **UTC file password** and hit **Send Transaction**.
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node.png" >}}</div></div>
 
-{{< imagesurlsheaders "cloud/disable-node2.png" >}}
+Stelle auf der nächsten Seite sicher das genug **Gas** für die Transaktion eingestellt ist, gebe dein **UTC-Datei Password** ein und drücke auf  **Send Transaction**.
 
-Allow 30-60 seconds before running the next step.
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node2.png" >}}</div></div>
 
-Select the **Withdraw Stake** function, then the wallet associated with the contract and hit **Execute**
+Warte 30-60 Sekunden bevor du den nächsten Schritt ausführst.
 
-{{< imagesurlsheaders "cloud/withdraw-stake.png" >}}
+Selektiere die **Withdraw Stake** Funktion, dann das Wallet, was in dem Contract als Masternode eingetragen ist und drücke **Execute**
 
-On the next screen, confirm you have enough **gas** for the transaction, enter your **UTC file password** and hit **Send Transaction**.
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/withdraw-stake.png" >}}</div></div>
 
-{{< imagesurlsheaders "cloud/disable-node2.png" >}}
+Stelle auf der nächsten Seite sicher das genug **Gas** für die Transaktion eingestellt ist, gebe dein **UTC-Datei Password** ein und drücke auf  **Send Transaction**.
 
-### Not Enough gas
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node2.png" >}}</div></div>
 
-Sometimes the wallet will be unable to automatically calculate the gas needed for a transaction and will automatically set it to 0. In this situation, you can manually adjust the gas by clicking on where it says 0 and write in your own amount.  A good amount of gas for this purpose is **121,000**.
+### Nicht genug Gas
 
-{{< imagesurlsheaders "cloud/confirm-gas.png" >}}
+Manchmal kann das Wallet das für eine Transaktion benötigte Gas nicht automatisch berechnen und setzt es automatisch auf 0. In diesem Fall kannst du das Gas manuell anpassen, indem du auf die Stelle mit der Aufschrift 0 klickst und einen Betrag eingibst. Eine gute Menge an Gas für diesen Zweck ist **121.000**.
 
-## Adding Masternode Contract in Nautilus
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/confirm-gas.png" >}}</div></div>
 
-**Open Nautilus** and navigate to the **Contract** tab located at the top right corner.
+## Masternode Contract in Nautilus hinzufügen
+
+**Öffne Nautilus** und navigiere um **Contract** Tab in der oberen rechten Ecke.
 
 ![](https://cdn-images-1.medium.com/max/1600/0*OW_7W9P_u0k7ZdmZ.png)
 
-Once there, click on the **Watch Contract** button.
+Sobald da, klicke auf den **Watch Contract** Button.
 
 ![](https://cdn-images-1.medium.com/max/1600/0*wZbZlfAdjrUuhr53.png)
 
-For **Contract Address** fill in `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. The **Contract Name** can be anything you’d like.  And lastly, the **JSON Interface field** needs to be populated with:
+Als **Contract Address** trage ein `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. Und den **Contract Name** für Premium Nodes, dies ist ein beliebiger String um diesen Contract zu identifizieren. Und zuletzt muss das **JSON Interface** Feld mit folgendem Inhalt gefüllt werden:
 
 ```
 [{"constant":false,"inputs":[],"name":"nodeRegistration","outputs":[{"name":"paid","type":"bool"}],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeAddress","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"moderators","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"nodes","outputs":[{"name":"pirlAddress","type":"address"},{"name":"nodeStake","type":"uint256"},{"name":"nodeHash","type":"bytes20"},{"name":"stakeLocked","type":"bool"},{"name":"nodeEnabled","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"disableNodeRegistration","outputs":[{"name":"disabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"nodeCost","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getStakeLockedStatus","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"nodeCount","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_admin","type":"address"}],"name":"setAdmin","outputs":[{"name":"set","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"enableNode","outputs":[{"name":"enabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"nodeRegistrationEnabled","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"disableNode","outputs":[{"name":"disabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"withdrawStake","outputs":[{"name":"withdrawn","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"nodeAddresses","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeEnabledStatus","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeStake","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"enableNodeRegistration","outputs":[{"name":"enabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeHash","outputs":[{"name":"","type":"bytes20"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"nodeFee","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"admin","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeRegistered","type":"bool"},{"indexed":false,"name":"_dateRegistered","type":"uint256"}],"name":"MasterNodeRegistered","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeDisabled","type":"bool"},{"indexed":false,"name":"_dateDisabled","type":"uint256"}],"name":"MasterNodeDisabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeEnabled","type":"bool"},{"indexed":false,"name":"_dateEnabled","type":"uint256"}],"name":"MasterNodeEnabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodePaid","type":"bool"},{"indexed":false,"name":"_datePaid","type":"uint256"}],"name":"MasterNodeRewarded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_stakeWithdrawn","type":"bool"},{"indexed":false,"name":"_dateWithdrawn","type":"uint256"}],"name":"StakeWithdrawn","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":false,"name":"_dateEnabled","type":"uint256"},{"indexed":true,"name":"_registrationEnabled","type":"bool"}],"name":"MasterNodeRegistrationEnabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":false,"name":"_dateDisabled","type":"uint256"},{"indexed":true,"name":"_registrationDisabled","type":"bool"}],"name":"MasterNodeRegistrationDisabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":true,"name":"_admin","type":"address"},{"indexed":true,"name":"_adminSet","type":"bool"}],"name":"SetAdmin","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":true,"name":"_newOwner","type":"address"},{"indexed":true,"name":"_ownerChanged","type":"bool"}],"name":"TransferOwnership","type":"event"}]

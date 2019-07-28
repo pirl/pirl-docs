@@ -20,7 +20,7 @@ chapter: true
 
 Zum Betreiben einer PIRL Masternode muss ein Virtual Private Server (VPS) mit einer statischen öffentlichen IP-Adresse verwendet werden, die einer Schnittstelle direkt   zugewiesen ist.
 
-__*NAT (Adressübersetzung) ist nicht unterstützt.*__
+> __*NAT (Adressübersetzung) ist nicht unterstützt.*__
 
 Man sollte nur Pirl auf dem Server laufen lassen, andere Nodes oder irgendetwas können Konflikte verursachen!
 In diesem Handbuch wird die Einrichtung der Masternode mit der One-Click Installation verwendet.
@@ -43,7 +43,7 @@ Dies alles ist einfach, wie zum Beispiel ein Neustart des Servers, sollte dieser
 
 * **Nautilus Wallet**
 
- - Nautilus ist das offizielle Desktop Wallet für Pirl. Du benötigst es um die Funktion "Register Node" im Smart Contract auszuführen, was zum Registrieren und erfolgreichem Ausführen der Pirl Masternode erforderlich ist. Du kannst das Desktop Wallet verwenden um eine Pirl Adresse zu erstellen [Downloads Nautilus]({{< ref "/Downloads" >}}) oder du kannst das Web Wallet nutzen: https://wallet.pirl.io/.
+ - Nautilus ist das offizielle Desktop Wallet für Pirl. Du benötigst es um die Funktion "Register Node" im Smart Contract auszuführen, was zum Registrieren und erfolgreichem Ausführen der Pirl Masternode erforderlich ist. Du kannst das Desktop Wallet verwenden um eine Pirl Adresse zu erstellen [Downloads Nautilus]({{< ref "/Downloads" >}}), sowie [PirlApp]({{< ref "/PirlCloud\pirl app" >}}) oder du kannst das Web Wallet nutzen: https://wallet.pirl.io/.
  - Unabhängig von der Methode mit der du dein Wallet erstellst, sichere immer die UTC-Datei und das Kennwort!
  - Warnung: UTC Passwörter können nicht wiederhergestellt werden. Denken daran sich dieses zu merken, oder schreibe es auf!
 
@@ -57,17 +57,17 @@ Dies alles ist einfach, wie zum Beispiel ein Neustart des Servers, sollte dieser
 
 ## Poseidon Wallet Identitätsprüfung
 
-- Navigiere zu https://poseidon.pirl.io/ und login -> Navigiere zum Poseidon Wallet https://poseidon.pirl.io/dashboard/accounting/wallet/ und kopiere deine einzigartige Poseidon Wallet Addresse.
+- Navigiere zu https://poseidon.pirl.io/ und login -> Navigiere zum Poseidon Wallet https://poseidon.pirl.io/dashboard/accounting/wallet/ und kopiere deine persönliche Poseidon Wallet Addresse.
 
 - Öffne dein Nautilus oder Web Wallet (Was auch immer du wählst und wo dein Stake gehalten werden soll) und sende 0.5 PIRL zu der Poseidon Wallet Address die im Schritt hiervor kopiert wurde.
 
-- Sobald die Transaktion zur Bestätigung gesendet ist, navigiere zu https://explorer.pirl.network/ und füge deine Adresse in die Suchleiste. Die Suche zeigt dein Wallet und die entsprechende Transaktion an. -> Suchen die letzte Transaktion mit 0,5 PIRL von deinem Wallet zur Poseidon Wallet Adresse.
+- Sobald die Transaktion zur Bestätigung gesendet ist, navigiere zu https://explorer.pirl.network/ und füge deine Adresse in die Suchleiste. Die Suche zeigt dein Wallet und die entsprechende Transaktion an. -> Suche die letzte Transaktion mit 0.5 PIRL von deinem Wallet zur Poseidon Wallet Adresse.
 
 - Die erste Zeile des Transaktions-Blocks zeigt den Transaktions-Hash. Du brauchst diesen Hash-Wert später im Setup, um die Beziehung zwischen deinem Wallet mit dem Masternode Stake und dem Poseidon Wallet herzustellen.
 
 ![](https://i.imgur.com/tAWr8Ua.png)
 
-> **Notiz:** Sende nicht mehr als 1 or 0.5 Pirl zur Verfifizierung an diese Adresse, dies ist NICHT die Adresse wo die 20000 Pirl hingesendet werden sollen, das kommt später.
+> **Notiz** Sende nicht mehr als 1 or 0.5 PIRL zur Verfifizierung an diese Adresse, dies ist NICHT die Adresse wo die 20000 PIRL hingesendet werden sollen, das kommt später.
 
 Wenn du das Nautilus Wallet verwendest und auf die zuletzt gesendete Transaktion klickst, dann wird der Transaktions-Hash ebenfalls angezeigt. (Wird später noch mal gebraucht im Masternode TX-Hash Feld von Poseidon):
 
@@ -85,98 +85,101 @@ Wenn du das Nautilus Wallet verwendest und auf die zuletzt gesendete Transaktion
 
 **In diesem Formular musst du ausfüllen:**
 
-- **Premium MN:** Als **Contract Address** füge ein `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. Der **Contract Name** für Premium Nodes, dies ist ein beliebiger String um diesen Contract zu identifizieren.
+- **Premium MN:** Als **Contract Address** füge ein `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. Und den **Contract Name** für Premium Nodes, dies ist ein beliebiger String um diesen Contract zu identifizieren.
 
-- Und zuletzt, das **JSON Interface Feld** muss mit folgendem Inhalt gefüllt werden:
+- Und zuletzt muss das **JSON Interface** Feld mit folgendem Inhalt gefüllt werden:
 
 ```
 [{"constant":false,"inputs":[],"name":"nodeRegistration","outputs":[{"name":"paid","type":"bool"}],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeAddress","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"moderators","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"}],"name":"nodes","outputs":[{"name":"pirlAddress","type":"address"},{"name":"nodeStake","type":"uint256"},{"name":"nodeHash","type":"bytes20"},{"name":"stakeLocked","type":"bool"},{"name":"nodeEnabled","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"disableNodeRegistration","outputs":[{"name":"disabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"nodeCost","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getStakeLockedStatus","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"nodeCount","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"_admin","type":"address"}],"name":"setAdmin","outputs":[{"name":"set","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"enableNode","outputs":[{"name":"enabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"nodeRegistrationEnabled","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"disableNode","outputs":[{"name":"disabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[],"name":"withdrawStake","outputs":[{"name":"withdrawn","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"uint256"}],"name":"nodeAddresses","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeEnabledStatus","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeStake","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"enableNodeRegistration","outputs":[{"name":"enabled","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[{"name":"_pirlAddress","type":"address"}],"name":"getNodeHash","outputs":[{"name":"","type":"bytes20"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"nodeFee","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"admin","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"payable":true,"stateMutability":"payable","type":"fallback"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeRegistered","type":"bool"},{"indexed":false,"name":"_dateRegistered","type":"uint256"}],"name":"MasterNodeRegistered","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeDisabled","type":"bool"},{"indexed":false,"name":"_dateDisabled","type":"uint256"}],"name":"MasterNodeDisabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodeEnabled","type":"bool"},{"indexed":false,"name":"_dateEnabled","type":"uint256"}],"name":"MasterNodeEnabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_nodePaid","type":"bool"},{"indexed":false,"name":"_datePaid","type":"uint256"}],"name":"MasterNodeRewarded","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_pirlAddress","type":"address"},{"indexed":true,"name":"_nodeHash","type":"bytes20"},{"indexed":true,"name":"_stakeWithdrawn","type":"bool"},{"indexed":false,"name":"_dateWithdrawn","type":"uint256"}],"name":"StakeWithdrawn","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":false,"name":"_dateEnabled","type":"uint256"},{"indexed":true,"name":"_registrationEnabled","type":"bool"}],"name":"MasterNodeRegistrationEnabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":false,"name":"_dateDisabled","type":"uint256"},{"indexed":true,"name":"_registrationDisabled","type":"bool"}],"name":"MasterNodeRegistrationDisabled","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":true,"name":"_admin","type":"address"},{"indexed":true,"name":"_adminSet","type":"bool"}],"name":"SetAdmin","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_invoker","type":"address"},{"indexed":true,"name":"_newOwner","type":"address"},{"indexed":true,"name":"_ownerChanged","type":"bool"}],"name":"TransferOwnership","type":"event"}]
 ```
 
-- In the Contract section -> Select the contract that you just added and you will see the available functions as a dropdown menu on the right side under the **Write to Contract** heading.
+- Im Contract Teil -> Wähle den Contract aus den du gerade hinzugefügt hast und du siehst die verfügbaren Funktionen im Dropdown Menü auf der linken Seite unter der Überschrift **Write to Contract**.
 
-- Under available functions select **Node Registration** and select the wallet containing your 20,000 Pirl for Premium MN.
-Underneath that, fill in **20,000 Pirl** for Premium MN to send the stake to the contract.
+- Unter den verfügbaren Funktionen wähle **Node Registration** und selektiere das Wallet, was die 20,000 PRIL für eine for Premium Masternode beinhaltet.
+Gebe darunter **20000** PIRL für Premium Masternode ein, um den Stake an den Smart Contract zu senden.
 
 ![](https://cdn-images-1.medium.com/max/1600/0*eiHNFfmkEcgv5Szo.png)
 
-- After selecting the wallet that contains the stake and select function **Node Registration** click **execute**, fill in your **UTC file password** and make sure you’re providing **at least 121,000 gas** for the transaction.
+- Nachdem das Wallet mit dem Einsatz ausgewählt und die Funktion "Node Registration" ausgewählt wurde, klicke auf "Execute", gebe das UTC-Datei Paasswort ein und stelle sicher, dass **mindestens 121.000 Gas** bereitgestellt sind für die Transaktion.
 
-This is a good time to get some coffee or tea and let everything sync.  3-5 minutes should do the trick.
+Dies ist ein guter Zeitpunkt um einen Kaffee oder Tee zu trinken und alles synchronisieren zu lassen. 3-5 Minuten sollten den Trick machen.
 
-## Create/Launch CentOS Linux server
+## Erstelle/Starte CentOS Linux Server
 
-Verify that the server meets the appropriate specifications as noted in the:  
-[Prerequisites](#prerequisites)  
+Stellen Sie sicher, dass der Server die entsprechenden Spezifikationen erfüllt, wie in dem folgenden Abschnitt angegeben:
+[Voraussetzungen](#prerequisites)  
 
-- The server must run the CentOS 7 Linux distribution if you plan to use the **One-Click Masternode Setup**.
+- Auf dem Server muss die CentOS 7 Linux Distribution ausgeführt werden, wenn geplant ist das **One-Click Masternode Setup** zu nutzen.
 
-- Record of the static public IP address of the server as well as the root password.
+- Notiz der statischen öffentlichen IP-Adresse des Servers sowie das Root Passwort.
 
-Note: We do recommend logging into that server once to ensure the `root` credentials work.
-It is not necessary to take any other actions on the server after that.
-In fact, it's preferred that you don't make any other adjustments, at all.
+> **Notiz** Es wird empfohlen sich einmal an diesem Server anzumelden, um sicherzustellen dass die Anmeldeinformationen für `root` funktionieren.
+> Danach müssen keine weiteren Aktionen auf dem Server ausgeführt werden.
+> Tatsächlich wird es bevorzugt, dass überhaupt keine anderen Anpassungen vorgenommen werden.
 
-## Create Masternode in Poseidon
+## Erstelle eine Masternode in Poseidon
 
-- Login to Poseidon and navigate to the page which adds a masternode located here: https://poseidon.pirl.io/dashboard/masternodes/  
-- Hit the plus button located at the right side of the page:  
+- Melde dich bei Poseidon an und navigiere zu der Seite, mit der Masternodes hinzugefügt werden können: https://poseidon.pirl.io/dashboard/masternodes/  
+- Drücke den **+** Button rechts auf der Seite:
 
 ![](https://i.imgur.com/N0rUi7z.jpg)
 
-- Create Masternode pop-up will appear
+- Das **ADD Masternode** Pop-Up taucht auf
 
 {{< imagesurlsheaders "cloud/Create_Masternode_Record_in_Poseidon.PNG" >}}
 
-- Name the masternoder with name of your choice.
+- Gebe der Masternode einen Namen deiner Wahl.
 
-- The Masternode Wallet id is the address of your Nautilus wallet, the one which contains 20,000 Pirl at present.
+- Die Masternode Wallet ID ist die Adresse aus deinem Nautilus Wallet, das Wallet was die **20000 PIRL** zum aktuellen Zeitpunkt im Smart Contract beinhaltet.
 
-- Masternode TX hash - The transaction hash we saved earlier on at **Poseidon Wallet Identity Verification** step if the guide.
+- Masternode TX Hash - Den Transaktions-Hash, den wir eben schon notiert haben im **Poseidon Wallet Identitätsprüfung** Schritt der Anleitung.
 
-**On the bottom of the screenshot above, you will have to select that the MN is Premium (20K stake)**
+**Am unteren Rand des Screenshots oben musst du auswählen, dass es eine Premium Masternode ist (20K Stake)**
 
-Hit **Save changes** and then you will see the next screen.
+Klicke **Save changes** und dann wirst du den nächsten Bildschirm sehen.
 
 {{< imagesurlsheaders "cloud/one_click_setup.PNG" >}}
 
 ## One-Click Masternode Setup
 
-- Ensure that you know the public static IP address and `root` credentials before proceeding.
+- Stelle sicher dass du die öffentliche statische IP-Adresse und die `root` Anmeldeinformationen zur Hand hast, bevor es weitergeht.
 
 {{< imagesurlsheaders "cloud/one_click_setup.PNG" >}}
 
-- Complete the fields -> SSH default is port: 22 Hit **Save changes** and then you will see the next screen.  
+- Fülle die Felder aus -> SSH voreingesteller Port ist: 22 Drücke **Save changes** und dann wirst du den nächsten Bildschirm sehen.
 
 {{< imagesurlsheaders "cloud/Done.PNG" >}}
 
-- After returning to the **My Masternodes** screen, observe that the masternode's **Managed by Poseidon** field is set to `True`
+- Nachdem du zum Bildschirm **My Masternodes** zurückgekehrt bist, stelle sicher, dass das Feld **Managed by Poseidon** der Masternode auf `True` gesetzt ist.
 
 {{< imagesurlsheaders "cloud/managed.jpg" >}}
 
-- Please allow 30 minutes for the process to complete. You may click the **details** button to monitor the status.
+- Warte bitte 30 Minuten bis der Vorgang abgeschlossen ist. Du könnest auf die Schaltfläche **Details** klicken um den Status zu überwachen.
 
-- Watch the masternode process synchronize with the blockchain:
+- Schaue auf dem Linux Server wie sich der Masternode Prozess mit der Blockchain synchronisiert:
+
 ```
 journalctl -f
 ```
 
-- Once messages like the following are displayed, your masternode is now synchronized and contributing to the network.
+- Sobald Nachrichten wie die folgenden angezeigt werden, ist die Masternode erfolgreich mit der Blockchain synchronisiert und arbeitet im Netzwerk.
 
 {{< imagesurlsheaders "cloud/vps.jpg" >}}
 
 ## Monitoring
 
-We don't encourage active access on the server.  If, however, you wish to check the status, log into your server and issue the following command:
+Wir empfehlen keinen aktiven Zugriff auf den Server. Wenn du jedoch den Status überprüfen möchtest, melde dich bei deinem Server an und gebe folgenden Befehl ein:
+
 ```
 journalctl -f
 ```
-your masternode is contributing to the network if it looks like this:.
+
+Deine Masternode arbeitet richtig im Netzwerk mit, wenn es so aussieht:.
 
 {{< imagesurlsheaders "cloud/vps.jpg" >}}
 
 Überwache den Status der Masternode, indem du auf die Poseidon Seite mit den Masternode Details klickst 🔍.
-A functioning node should appear as follows:
+Eine funktionierende Node sollte wie folgt aussehen:
 
 {{< imagesurlsheaders "cloud/detailsmn.png" >}}
 

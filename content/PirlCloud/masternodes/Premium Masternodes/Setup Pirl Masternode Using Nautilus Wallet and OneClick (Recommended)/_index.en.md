@@ -20,7 +20,7 @@ chapter: true
 
 Running a PIRL masternode requires the use of a Virtual Private Server (VPS) with a static public IP address directly assigned to an interface.
 
-__*NAT (address translation) is not supported.*__
+> __*NAT (address translation) is not supported.*__
 
 One should only have Pirl running on the server, any other nodes or anything else will cause a conflict!
 
@@ -67,7 +67,7 @@ This is as simple as rebooting the server, should it go offline.
 
 ![](https://i.imgur.com/tAWr8Ua.png)
 
-> **Note:** Do not send anymore then 1 or 0.5 Pirl to this address for verfication, this is NOT the address you will send the 20k pirls to. That comes later.
+> **Note** Do not send anymore then 1 or 0.5 Pirl to this address for verfication, this is NOT the address you will send the 20k pirls to. That comes later.
 
 If you are using nautilus wallet you can click once on the last sent transaction and you see the Transaction Hash(Later asked in Masternode TX Hash field):
 
@@ -113,9 +113,9 @@ Verify that the server meets the appropriate specifications as noted in the:
 
 - Record of the static public IP address of the server as well as the root password.
 
-Note: We do recommend logging into that server once to ensure the `root` credentials work.
-It is not necessary to take any other actions on the server after that.
-In fact, it's preferred that you don't make any other adjustments, at all.
+> **Note** We do recommend logging into that server once to ensure the `root` credentials work.
+> It is not necessary to take any other actions on the server after that.
+> In fact, it's preferred that you don't make any other adjustments, at all.
 
 ## Create Masternode in Poseidon
 
@@ -128,11 +128,11 @@ In fact, it's preferred that you don't make any other adjustments, at all.
 
 {{< imagesurlsheaders "cloud/Create_Masternode_Record_in_Poseidon.PNG" >}}
 
-- Name the masternoder with name of your choice.
+- Name the masternode with name of your choice.
 
 - The Masternode Wallet id is the address of your Nautilus wallet, the one which contains 20,000 Pirl at present.
 
-- Masternode TX hash - The transaction hash we saved earlier on at **Poseidon Wallet Identity Verification** step if the guide.
+- Masternode TX hash - The transaction hash we saved earlier on at **Poseidon Wallet Identity Verification** step of the guide.
 
 **On the bottom of the screenshot above, you will have to select that the MN is Premium (20K stake)**
 
@@ -168,9 +168,11 @@ journalctl -f
 ## Monitoring
 
 We don't encourage active access on the server.  If, however, you wish to check the status, log into your server and issue the following command:
+
 ```
 journalctl -f
 ```
+
 your masternode is contributing to the network if it looks like this:.
 
 {{< imagesurlsheaders "cloud/vps.jpg" >}}

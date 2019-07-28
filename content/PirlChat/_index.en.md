@@ -71,7 +71,7 @@ For Details Visit:
 In the User Settings you can:
 
 - Setup an Avatar: Simply copy the URL to your chosen graphic and paste it in the Avatar URL Field.
-- Choose a Username: Simply entere your selected username in the field.
+- Choose a Username: Simply enter your selected username in the field.
 - Choose a Theme: Light or Dark
 - Choose your notification preferences
 - Clear Data: Reseting the application to its initial state

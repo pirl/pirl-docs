@@ -7,19 +7,13 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
+**Storage Masternodes** stellen digitale Downloads über den Marktplatz bereit und werden als Backup-Dateiserver verwendet. Darüber hinaus werden sie in der Lage sein, private Daten für auf der PIRL Plattform gehostete dApps zu speichern.
 
-{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
-
-
-
-**Storage Masternodes** will provide digital downloads for the marketplace, and will be used as a backup file server. Further they will be able to privately store data for dApps hosted on the PIRL platform.
-
-
-
+<div align="center"><div style="width:50%;">{{< imagesurlsheaders "cloud/masternodes.jpg" >}} </div>></div>
 
 ---
 Author(s):
-@Dptelecom
 
+@Dptelecom
 
 Contributor(s):

@@ -11,11 +11,17 @@ Willkommen auf dem Pirl Dokumentations Portal! Der Inhalt den du hier siehst, is
 Pirl ist eine Community-basierte Blockchain Plattform, die ein global verteiltes und mehrstufiges Masternode Netzwerk verwendet. Ziel ist es, durch gezielte Forschung und ständige Innovationen eine Weiterentwicklung der Crypto-Welt voranzutreiben. Pirl unterscheidet sich weiter von der Konkurrenz, indem es sich weigert seine Sicherheit oder seinen Ruf im Interesse kurzfristiger Spekulationen zu gefährden.
 
 ### Inhalte
+
 #### [PirlWebsite](https://pirl.io/en/ "PirlWebsite")
+
 #### [FAQ]({{< ref "/faq" >}})
+
 #### 1.) [Erste Schritte]({{< ref "/getting started" >}})
+
 #### 2.) [PirlCloud]({{< ref "/PirlCloud" >}})
+
 #### 4.) [Wallets]({{< ref "/wallets" >}})
+
 #### 9.) [Downloads]({{< ref "/Downloads" >}})
 
 

@@ -7,41 +7,41 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-## Manual Masternode Update to 1.8.27-damocles
+## Manuelles Masternode Update auf 1.8.27-damocles
 
-The instructions are intended for Redhat or CentOS based VPS but should work on most major Linux distributions.   
-You may have the need to adjust the firewall instructions to match the software software running on your VPS.  
-Login as root and update the system, then install dependencies:
+Die Anweisungen sind für RedHat oder CentOS-basierte VPS gedacht, sollten jedoch auf den meisten wichtigen Linux Distributionen funktionieren.
+Möglicherweise müssen die Firewall-Anweisungen angepasst werden, um sie an die auf deinem VPS ausgeführte Software anzupassen.
+Melden dich als root an und aktualisiere das System. Installiere dann die Abhängigkeiten:
 
-## Binary:
+## Binaries:
 
-(marlin now the same for both types)  
+(marlin ist nun gleich für beide Node Typen)  
 [git.pirl.io tags/1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)  
 [marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0)  
 [pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles)  
-[pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)   
+[pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)
 
-## Update with script from @phatblinkie if not want to do it all Manual:
+## Update mit dem Skript von @phatblinkie wenn Du nicht alles von Hand machen möchtest:
 
 [phatblinkie/mn_installer](https://github.com/phatblinkie/mn_installer)
 
-## The update process:
+## Der Update Prozess:
 
-Stop the  pirlnode service:
+Stoppe den Pirl Node Service:
 
 ```
 systemctl stop pirl
 
 ```
 
-and stop the pirlmarlin service:
+Und stoppe den Pirl Marlin Node Service:
 
 ```
 systemctl stop marlin
 
 ```
 
-### Download the premium masternode binaries:
+Download die letzten Premium Masternode Binaries:
 
 ```
 wget https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles
@@ -49,7 +49,7 @@ wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1
 
 ```
 
-### Download the content node binaries:
+Download die letzten Content Masternode Binaries:
 
 ```
 wget https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles
@@ -57,27 +57,28 @@ wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1
 
 ```
 
-Move the main binary to /usr/bin/pirl For premium masternodes:  
+Verschiebe die Hauptbinärdatei nach /usr/bin/pirl für Premium Masternodes:  
 
 ```
 mv masternode-premium-1.8.27-damocles /usr/bin/pirl
 
 ```
 
-For content nodes:  
+Für Content Nodes:
+
 ```
 mv masternode-content-1.8.27-damocles /usr/bin/pirl
 
 ```
 
-Move the marlin binary to /usr/bin/marlin  For premium masternodes and content nodes:  
+Verschiebe die marlin Datei nach /usr/bin/marlin für Premium and Content Masternodes:  
 
 ```
 mv marlin-1.8.27-damocles2.0 /usr/bin/marlin
 
 ```
 
-To grant Permission :
+Setze die richtigen Berechtigungen:
 
 ```
 chmod 0755 /usr/bin/pirl
@@ -85,32 +86,33 @@ chmod 0755 /usr/bin/marlin
 
 ```
 
-### Now reboot the vps.
+Starte nun den VPS neu
 
 ```
 reboot
 ```
 
-Watch the masternode process synchronize with the blockchain:
+Schaue dem Masternode Prozess beim synchornisieren mit der Blockchain zu:
+
 ```
 journalctl -f
-
 ```
 
-Once messages like the following are displayed, your masternode is now synchronized and contributing to the network.
+Sobald Nachrichten wie die folgenden angezeigt werden, ist die Masternode jetzt synchronisiert und trägt zum Netzwerk bei.
 
 ```
   ########  masternode sending proof of activity to poseidon for block  3934695  please check poseidon.pirl.io for details  //  marlin-1.8.27-damocles2.0 #########
-
 ```
 
-Monitoring
-We don’t encourage active access on the server. If, however, you wish to check the status, log into your server and issue the following command:  
+## Monitoring
+
+Wir empfehlen keinen aktiven Zugriff auf den Server. Wenn du jedoch den Status überprüfen möchtest, melden dich an deinem Server an und gebe den folgenden Befehl ein:
+
 ```
 journalctl -f
 ```
 
-Monitor the status of your masternode by checking the Poseidon Masternode Details page. A functioning node should appear as follows, although the version may be different than what is shown in the screen shot below.
+Überwache den Status deiner Masternode, indem du die Poseidon Seite mit den Masternode Details aufrufst. Eine funktionierende Node sollte wie folgt aussehen, es ist möglich das die Version von der in der Abbildung unten gezeigten Version abweicht.
 
 {{% notice warning %}}
 In case synchronisation does not work follow these steps to remove the database:
@@ -128,6 +130,7 @@ export TOKEN=zfzefezfzefzecfzegregkgeorgoerbvnijv <<<---YOUR TOKEN GOES HERE
 that step above can also be done,
 if you have this file /etc/pirlnode-env,
 you can do:  
+
 ```
 . /etc/pirlnode-env && export MASTERNODE TOKEN
 
@@ -158,3 +161,4 @@ The Pirl Team
 Contributor(s):
 
 @Dptelecom
+@packetflow

@@ -6,18 +6,14 @@ chapter: true
 ---
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-
 {{< imagesurlsheaders "cloud/masternodes.jpg" >}}
-
 
 **Les masternodes de stockage** fourniront des téléchargements numériques pour le marketplace et seront utilisés comme serveur de fichiers de sauvegarde.  
 En outre, ils seront en mesure de stocker de manière privée les données d’applications hébergées sur la plate-forme PIRL.
 
-
-
 ---
 Author(s):  
-@Dptelecom
 
+@Dptelecom
 
 Contributor(s):

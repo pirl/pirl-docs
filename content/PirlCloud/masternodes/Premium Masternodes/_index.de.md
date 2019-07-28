@@ -7,8 +7,6 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
-
 ## Premium Masternodes
 
 **Premium Masternodes** sind die Top-Tier Masternodes im Pirl Ecosystem. Sie bieten Netzwerksicherheit indem sie die Blockchain-Daten speichern und Transaktionen in der Blockchain weiterleiten, ebenso dienen die Nodes als Content und Storage Masternodes. Die Premium Masternodes werden zusätzlich mit % der Gebühren der Poseidon-Plattform belohnt.
@@ -18,6 +16,8 @@ chapter: true
 #### 2.) [Masternode deaktivieren und Stake zurückerhalten]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
 
 #### 3.) [Update auf 1.8.27-damocles]({{< ref "//PirlCloud/masternodes/Premium Masternodes/Update damocles" >}})
+
+<div align="center"><div style="width:50%;">{{< imagesurlsheaders "cloud/masternodes.jpg" >}} </div>></div>
 
 ---
 Author(s):

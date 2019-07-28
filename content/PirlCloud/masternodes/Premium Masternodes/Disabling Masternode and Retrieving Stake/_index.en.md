@@ -11,38 +11,39 @@ chapter: true
 
 At any time, you can run two masternode contract functions and retrieve your 20,000 PIRL stake back into your wallet.
 
-## Disabling Masternode and Retrieving Stake
+## Disabling Masternode and Retrieving Stake  (Nautilus)
 
 **Open Nautilus** and navigate to the **Contract** tab located at the top right corner.
 
 You should see the masternode contract on the left side. It will have the address of `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. Select this address.
-(NOTE: If you don't have a contract showing in the **watch contract** section, you can add it as described in the next section.)
+
+> **NOTE** If you don't have a contract showing in the **watch contract** section, you can add it as described in the next section.
 
 On the right side, the contract function menu will be shown.
 
 Select the **Disable Node** function, then the wallet associated with the contract and hit **Execute**
 
-{{< imagesurlsheaders "cloud/disable-node.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node.png" >}}</div></div>
 
 On the next screen, confirm you have enough **gas** for the transaction, enter your **UTC file password** and hit **Send Transaction**.
 
-{{< imagesurlsheaders "cloud/disable-node2.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node2.png" >}}</div></div>
 
 Allow 30-60 seconds before running the next step.
 
 Select the **Withdraw Stake** function, then the wallet associated with the contract and hit **Execute**
 
-{{< imagesurlsheaders "cloud/withdraw-stake.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/withdraw-stake.png" >}}</div></div>
 
 On the next screen, confirm you have enough **gas** for the transaction, enter your **UTC file password** and hit **Send Transaction**.
 
-{{< imagesurlsheaders "cloud/disable-node2.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node2.png" >}}</div></div>
 
 ### Not Enough gas
 
 Sometimes the wallet will be unable to automatically calculate the gas needed for a transaction and will automatically set it to 0. In this situation, you can manually adjust the gas by clicking on where it says 0 and write in your own amount.  A good amount of gas for this purpose is **121,000**.
 
-{{< imagesurlsheaders "cloud/confirm-gas.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/confirm-gas.png" >}}</div></div>
 
 ## Adding Masternode Contract in Nautilus
 

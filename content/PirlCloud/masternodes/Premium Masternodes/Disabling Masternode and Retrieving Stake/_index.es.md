@@ -11,38 +11,39 @@ chapter: true
 
 En cualquier momento, puede ejecutar dos funciones de contrato de masternode y recuperar su participación de 20,000 PIRL en su billetera.
 
-## Desactivación de Masternode y recuperación de juego
+## Desactivación de Masternode y recuperación de juego  (Nautilus)
 
 ** Abra Nautilus ** y navegue a la pestaña ** Contrato ** ubicada en la esquina superior derecha.
 
 Debería ver el contrato de masternode en el lado izquierdo. Tendrá la dirección de `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. Seleccione esta dirección.
-(NOTA: Si no tiene un contrato que se muestre en la sección **ver contrato**, puede agregarlo como se describe en la siguiente sección).
+
+> **NOTA** Si no tiene un contrato que se muestre en la sección **ver contrato**, puede agregarlo como se describe en la siguiente sección
 
 En el lado derecho, se mostrará el menú de función de contrato.
 
 Seleccione la función **Deshabilitar nodo**, luego la cartera asociada con el contrato y presione **Ejecutar**
 
-{{< imagesurlsheaders "cloud/disable-node.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node.png" >}}</div></div>
 
 En la siguiente pantalla, confirme que tiene suficiente ** gas ** para la transacción, ingrese su ** contraseña UTC **y presione ** Enviar transacción**.
 
-{{< imagesurlsheaders "cloud/disable-node2.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node2.png" >}}</div></div>
 
 Espere 30-60 segundos antes de ejecutar el siguiente paso.
 
 Seleccione la función **Withdraw Stake**, luego la billetera asociada con el contrato y pulse **Ejecutar**
 
-{{< imagesurlsheaders "cloud/withdraw-stake.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/withdraw-stake.png" >}}</div></div>
 
 En la siguiente pantalla, confirme que tiene suficiente **gas** para la transacción, ingrese su **contraseña UTC** y presione **Enviar transacción**.
 
-{{< imagesurlsheaders "cloud/disable-node2.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node2.png" >}}</div></div>
 
 ### No hay suficiente gas
 
 A veces, la billetera no podrá calcular automáticamente el gas necesario para una transacción y se establecerá automáticamente en 0. En esta situación, puede ajustar manualmente el gas haciendo clic en el punto donde dice 0 y escriba su propia cantidad. Una buena cantidad de gas para este propósito es **121,000**.
 
-{{< imagesurlsheaders "cloud/confirm-gas.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/confirm-gas.png" >}}</div></div>
 
 ## Agregando el Contrato Masternode en Nautilus
 

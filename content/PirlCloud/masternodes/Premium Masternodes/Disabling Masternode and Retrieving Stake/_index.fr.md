@@ -10,31 +10,32 @@ chapter: true
 
 À tout moment, vous pouvez exécuter deux fonctions de contrat en masternode et récupérer votre mise de 20 000 PIRL dans votre portefeuille.  
 
-## Désactivation du masternode et récupération de la participation  
+## Désactivation du masternode et récupération de la participation (Nautilus)
 
 **Ouvrez Nautilus** et accédez à l'onglet **Contrat** situé dans le coin supérieur droit.  
 
 Vous devriez voir le contrat de masternode sur le côté gauche. Il aura l'adresse de  `0x256b2b26Fe8eCAd201103946F8C603b401cE16EC`. Sélectionnez cette adresse.  
-(REMARQUE: si aucun contrat n’est affiché dans la section relative au contrat, vous pouvez l’ajouter comme décrit dans la section suivante.)  
+
+> **REMARQUE** si aucun contrat n’est affiché dans la section relative au contrat, vous pouvez l’ajouter comme décrit dans la section suivante
 
 Sur le côté droit, le menu de la fonction de contrat sera affiché.  
 
 Sélectionnez la fonction **Disable Node**, puis le portefeuille associé au contrat et cliquez sur **Execute**.  
 
-{{< imagesurlsheaders "cloud/disable-node.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node.png" >}}</div></div>
 
 Sur l'écran suivant, confirmez que vous avez assez de **GAZ** pour la transaction, entrez votre mot de passe du **fichier UTC** et cliquez **sur Envoyer la transactionOn**
 
-{{< imagesurlsheaders "cloud/disable-node2.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node2.png" >}}</div></div>
 
 Attendez 30 à 60 secondes avant d'exécuter l'étape suivante.  
 Sélectionnez la fonction **Withdraw Stake**, puis le portefeuille associé au contrat et cliquez sur **Execute**.  
 
-{{< imagesurlsheaders "cloud/withdraw-stake.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/withdraw-stake.png" >}}</div></div>
 
 Sur l'écran suivant, confirmez que vous avez assez de **GAZ** pour la transaction, entrez votre mot de passe du **fichier UTC** et cliquez sur Envoyer la transaction
 
-{{< imagesurlsheaders "cloud/disable-node2.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/disable-node2.png" >}}</div></div>
 
 ### Pas assez de gaz  
 
@@ -42,7 +43,7 @@ Parfois, le portefeuille ne pourra pas calculer automatiquement le gaz nécessai
 vous pouvez ajuster manuellement le gaz en cliquant où il est indiqué 0 et écrivez votre propre montant.  
 Une bonne quantité de gaz à cette fin est de **121 000**  
 
-{{< imagesurlsheaders "cloud/confirm-gas.png" >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "cloud/confirm-gas.png" >}}</div></div>
 
 ## Ajout de contrat  masternode dans Nautilus  
 

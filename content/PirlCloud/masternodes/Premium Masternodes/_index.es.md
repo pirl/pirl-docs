@@ -7,8 +7,6 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
-
 ## Masternodos Premium
 
 ** Masternodos Premium ** son los masternodes de primer nivel en el ecosistema.
@@ -21,6 +19,8 @@ Los masternodes premium serán recompensados adicionalmente con
 #### 2.) [Desactivación de Masternodo y Recuperación de juego]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
 
 #### 3.) [Update to 1.8.27-damocles]({{< ref "//PirlCloud/masternodes/Premium Masternodes/Update damocles" >}})
+
+<div align="center"><div style="width:50%;">{{< imagesurlsheaders "cloud/masternodes.jpg" >}} </div>></div>
 
 ---
 Autor(s):
