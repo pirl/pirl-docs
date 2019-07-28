@@ -1,5 +1,5 @@
 ---
-title: Manual Update to 1.8.27-damocles
+title: Manuelles Update auf 1.8.27-damocles
 weight: 3
 pre: "<b>3. </b>"
 chapter: true
@@ -11,9 +11,9 @@ chapter: true
 
 Die Anweisungen sind für RedHat oder CentOS-basierte VPS gedacht, sollten jedoch auf den meisten wichtigen Linux Distributionen funktionieren.
 Möglicherweise müssen die Firewall-Anweisungen angepasst werden, um sie an die auf deinem VPS ausgeführte Software anzupassen.
-Melden dich als root an und aktualisiere das System. Installiere dann die Abhängigkeiten:
+Melden dich als `root` an und aktualisiere das System. Installiere dann die Abhängigkeiten:
 
-## Binaries:
+## Binärdateien:
 
 (marlin ist nun gleich für beide Node Typen)  
 [git.pirl.io tags/1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)  
@@ -21,7 +21,7 @@ Melden dich als root an und aktualisiere das System. Installiere dann die Abhän
 [pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles)  
 [pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)
 
-## Update mit dem Skript von @phatblinkie wenn Du nicht alles von Hand machen möchtest:
+## Update mit dem Skript von @phatblinkie wenn du nicht alles von Hand machen möchtest:
 
 [phatblinkie/mn_installer](https://github.com/phatblinkie/mn_installer)
 
@@ -31,14 +31,12 @@ Stoppe den Pirl Node Service:
 
 ```
 systemctl stop pirl
-
 ```
 
 Und stoppe den Pirl Marlin Node Service:
 
 ```
 systemctl stop marlin
-
 ```
 
 Download die letzten Premium Masternode Binaries:
@@ -46,7 +44,6 @@ Download die letzten Premium Masternode Binaries:
 ```
 wget https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles
 wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0
-
 ```
 
 Download die letzten Content Masternode Binaries:
@@ -54,28 +51,24 @@ Download die letzten Content Masternode Binaries:
 ```
 wget https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles
 wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0
-
 ```
 
 Verschiebe die Hauptbinärdatei nach /usr/bin/pirl für Premium Masternodes:  
 
 ```
 mv masternode-premium-1.8.27-damocles /usr/bin/pirl
-
 ```
 
 Für Content Nodes:
 
 ```
 mv masternode-content-1.8.27-damocles /usr/bin/pirl
-
 ```
 
 Verschiebe die marlin Datei nach /usr/bin/marlin für Premium and Content Masternodes:  
 
 ```
 mv marlin-1.8.27-damocles2.0 /usr/bin/marlin
-
 ```
 
 Setze die richtigen Berechtigungen:
@@ -83,7 +76,6 @@ Setze die richtigen Berechtigungen:
 ```
 chmod 0755 /usr/bin/pirl
 chmod 0755 /usr/bin/marlin
-
 ```
 
 Starte nun den VPS neu
@@ -114,40 +106,38 @@ journalctl -f
 
 Überwache den Status deiner Masternode, indem du die Poseidon Seite mit den Masternode Details aufrufst. Eine funktionierende Node sollte wie folgt aussehen, es ist möglich das die Version von der in der Abbildung unten gezeigten Version abweicht.
 
+{{< imagesurlsheaders "cloud/detailsmn.png" >}}
+
 {{% notice warning %}}
-In case synchronisation does not work follow these steps to remove the database:
+Falls die Synchronisation nicht funktioniert, gehe die Schritte unten durch um die Datenbank zu entfernen:
 {{% /notice %}}  
 
-- First export the tokens:
+- Als erstes exportiere die Token:
 
 ```
-export MASTERNODE=fzeffz-zefzef-zefze-zefze-zefzef-zefzef <<<---YOUR TOKEN GOES HERE
-export TOKEN=zfzefezfzefzecfzegregkgeorgoerbvnijv <<<---YOUR TOKEN GOES HERE
-
+export MASTERNODE=fzeffz-zefzef-zefze-zefze-zefzef-zefzef <<<---DEIN TOKEN STEHT HIER
+export TOKEN=zfzefezfzefzecfzegregkgeorgoerbvnijv <<<---DEIN TOKEN STEHT HIER
 
 ```
 
-that step above can also be done,
-if you have this file /etc/pirlnode-env,
-you can do:  
+Der Schritrt oben kann auch wie folgt ausgeführt werden,
+wenn du diese Datei hast /etc/pirlnode-env,
+kannst du einfach:  
 
 ```
 . /etc/pirlnode-env && export MASTERNODE TOKEN
-
 ```
 
-- And then remove the database:  
+- Und dann lösche die Datenbank  
 
 ```
 pirl removedb
-
 ```
 
-or the last resort way:  
+oder die letzte Möglichkeit:  
 
 ```
 rm -rf /root/.pirl
-
 ```
 
 Kind regards,  

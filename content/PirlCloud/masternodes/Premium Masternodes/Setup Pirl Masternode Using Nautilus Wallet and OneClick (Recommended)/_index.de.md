@@ -24,14 +24,14 @@ Zum Betreiben einer PIRL Masternode muss ein Virtual Private Server (VPS) mit ei
 
 Man sollte nur Pirl auf dem Server laufen lassen, andere Nodes oder irgendetwas können Konflikte verursachen!
 In diesem Handbuch wird die Einrichtung der Masternode mit der One-Click Installation verwendet.
-Diese Poseidon Funktion konfiguriert deinen CentOS 7 Linux Server automatisch als Pirl-Masternode.
+Diese Poseidon Funktion konfiguriert deinen CentOS 7 Linux Server automatisch als Pirl Masternode.
 Updates werden automatisch angewendet.
 Du musst lediglich den Server überwachen, um sicherzustellen dass er betriebsbereit bleibt.
 Dies alles ist einfach, wie zum Beispiel ein Neustart des Servers, sollte dieser offline gehen.
 
 ## Voraussetzungen
 
-* **Ein VPS (CentOS 7 Linux) mit minimum 4GB RAM (mehr wird empfohlen), genügend Speicher um die Masternode auszuführen (mindestens 20 GB, empfohlen 60 GB +), eine statische öffentliche IP-Adresse, die direkt einer Schnittstelle zugewiesen ist.  NAT (Adressübersetzung) ist nicht unterstützt.**
+* **Ein VPS (CentOS 7 Linux) mit minimum 4GB RAM (mehr wird empfohlen), genügend Speicher um die Masternode auszuführen (mindestens 20 GB, empfohlen 60 GB+), eine statische öffentliche IP-Adresse, die direkt einer Schnittstelle zugewiesen ist.  NAT (Adressübersetzung) ist nicht unterstützt.**
 
  - Die offiziellen MINIMAL Anforderungen sind: 4GB RAM, 20GB Speicherplatz, 3TB Datenvolumen, öffentliche IPv4 Adresse.
 
