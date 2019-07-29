@@ -7,7 +7,6 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/round_table.png" >}}
 
-
 ### Philosophie de la table ronde de PIRL
 
 Nous, PIRL, pensons qu'une communauté active et loyale est un élément essentiel de tout projet basé sur la blockchain. Grâce à vos idées et à vos critiques constructives, nous pouvons nous améliorer.  
@@ -18,7 +17,7 @@ Grâce aux tables rondes que nous organisons tous les samedis après-midi à 11h
 Venez à la table ronde où la voix de chaque membre de la communauté a la même valeur et dites-nous quels sont vos souhaits futurs et vos doutes momentanés. Venez entendre nos commentaires sur votre récente contribution et laissez-nous vous récompenser pour votre travail d'initiative que nous avons tant apprécié et accueilli.  
 Nous sommes impatients de vous y rencontrer.
 
-### Objectifs:  
+### Objectifs
 
 * Discuter de nouvelles implémentations et innovations pour nos applications
 * Partage des résultats des tests et des résultats possibles pour nos tests bêta
@@ -28,10 +27,11 @@ Nous sommes impatients de vous y rencontrer.
 
 Pour le peuple et son avenir; par les gens. Rejoignez notre [canal Discord] (https://discord.gg/bBNjgWY) et passons aux choses sérieuses.
 
-
 ---
-Auteur:  
+Auteur:
+
 @dptelecom
 
-Contributeur (s):  
+Contributeur (s):
+
 @ClaudioPirl

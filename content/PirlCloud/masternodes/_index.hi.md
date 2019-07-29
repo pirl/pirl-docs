@@ -7,12 +7,7 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-
-{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
-
-
 ## मास्टरनोड्स
-
 
 **प्रीमियम मास्टरनोड्स** पारिस्थितिकी तंत्र में शीर्ष स्तरीय मास्टरनोड्स हैं। प्रीमियम मास्टरनोड्स ब्लॉकचेन डेटा को संग्रहीत करना और ब्लॉकचैन में लेनदेन को रिले करने के साथ-साथ कंटेंट और स्टोरेज मास्टरनोड की भुमीका अदा करते है और नेटवर्क सुरक्षा प्रदान करते हैं। प्रीमियम मास्टरनोड्स को पोस्याडॉन प्लेटफ़ॉर्म की फीस के कुछ प्रतिशत से अतिरिक्त रूप से पुरस्कृत किया जाएगा।
 
@@ -24,11 +19,11 @@ chapter: true
 #### 2.) [स्टोरेज मास्टर्नोड्स]({{< ref "/PirlCloud/masternodes/Content Masternodes" >}})
 #### 3.) [कंटेंट मास्टर्नोड्स]({{< ref "/PirlCloud/masternodes/Storage Masternodes" >}})
 
-
+<div align="center"><div style="width:50%;">{{< imagesurlsheaders "cloud/masternodes.jpg" >}} </div>></div>
 
 ---
 Author(s):
-@Dptelecom
 
+@Dptelecom
 
 Contributor(s):

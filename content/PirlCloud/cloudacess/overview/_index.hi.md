@@ -4,27 +4,19 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
+
 ![](https://pirl.live/ipfs/QmZxeShmMRwJuLmQTFuDTAUeBCauKvmZLJQWtnUhM7MoES)
-
-
-
 
 
 ## परिचय
 
 यह Kb लेख प्रिलक्लाउड पर कंटेंट को होस्ट करने का तरीका बताएगा और यह भी बताएगा कि आप अपना कंटेंट जो की प्रिलक्लाउड पर संग्रहीत है उसे कैसे सभ लोगे के साथ साझा कर सकते है।
 
-प्रिलक्लाउड का उपयोग करने के लिए आपके पास पोस्याडॉन खाता होना चाहिए।
-
+प्रिलक्लाउड का उपयोग करने के लिए आपके पास पोस्याडॉन खाता होना चाहिए [Poseidon-Account]({{< ref "/pirlcloud/poseidon/overview" >}})।
 
 ![](https://pirl.live/ipfs/QmRVN8YRgXqHReg7Ns2645ZZDzUtopJK4YfuHAZD3PmhB8)
 
-1. Poseidon.pirl.io पर जाएं
-
-
-
-
-
+1. https://poseidon.pirl.io पर जाएं
 
 ![](https://pirl.live/ipfs/QmTTzzHtv8coyDbCqC9YLGm1HyPra2XMU4S1D4ahujTFvy)
 
@@ -42,28 +34,9 @@ chapter: true
 2. फाइलें अपलोड होने के बाद वे माय स्टोरेज में दिखाई देंगी।
 3. हर फाइल को हैश एड्रेस दिया जाएगा। यह एड्रेस आप किसी के भी साथ साझा कर सकता है।
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 Author(s):
 
-
 @numnah
-
 
 Contributor(s):

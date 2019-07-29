@@ -6,7 +6,6 @@ chapter: true
 ---
 {{< imagesurlsheaders "images_headers/pirlapp.png" >}}
 
-
 ## Tous les changements notables apportés à ce projet seront documentés dans ce fichier.  
 
 ## Version <span style="color:green">Pre Beta 1.0.3-2</span>
@@ -46,8 +45,6 @@ MacOs:
 
 2019-01-14: Ajout d'une nouvelle fonction - Regardez le contrat intelligent.  
 
-
-
 ## Modifiez
 
 2018-10-31: La fonctionnalité de mise à jour avec double-clic pour lire / mettre en pause une vidéo pourrait être plus fluide.  
@@ -72,33 +69,25 @@ MacOs:
 
 2019-01-21: Enregistrement d'un nom d'utilisateur unique fixe.  
 
-
 -
 
 ## Inédit
+
 -
 
 ## Version <span style="color:green">Pre Beta 1.0.3-1</span>
 
-
-
 2018-10-12:
-
 
 Mise à jour et amélioration de PirlTube de @Is_Nikolova  
 
-
 Windows:
 
-
 App Version:<span style="color:green">pre Beta 1.0.3-1</span>
-
 
 MacOs:
 
-
 App Version:<span style="color:green">pre Beta 1.0.3-1</span>
-
 
 ## Ajoutez
 
@@ -114,7 +103,7 @@ App Version:<span style="color:green">pre Beta 1.0.3-1</span>
 
 2018-10-12: Ajouter un menu d'aide, changer de version.  
 
-2018-10-12: recherche vidéo par nom d'utilisateur   
+2018-10-12: recherche vidéo par nom d'utilisateur
 
 2018-10-12: Ajout de la fonctionnalité  clé unique de la vidéo copie et recherche par clé de fonctionnalité vidéo.  
 
@@ -132,9 +121,7 @@ App Version:<span style="color:green">pre Beta 1.0.3-1</span>
 
 2018-10-27: Ajout de la touche d'accès rapide «Barre d'espace» pour la fonctionnalité de lecture / pause.  
 
-
-
-## Modifiez  
+## Modifiez
 
 2018-10-08: Correction de la fonctionnalité de pointe pour afficher une erreur en cas «Mot de passe erroné!».  
 
@@ -154,34 +141,27 @@ App Version:<span style="color:green">pre Beta 1.0.3-1</span>
 
 2018-10-27: Correction d'un bug avec le double téléchargement de la même vidéo.
 
-
 ## Enlevez
--
 
+-
 
 ## Inédit
--
 
+-
 
 ## Version <span style="color:green">Pre Beta 1.0.2</span>
 
 2018-10-05:  
 
-
 Update and improvement of PirlTube from @Is_Nikolova  
-
 
 Windows:  
 
-
 App Version: <span style="color:green">Pre Beta 1.0.2</span>
-
 
 MacOs:
 
-
 App Version: <span style="color:green">Pre Beta 1.0.2</span>
-
 
 ## Ajouté
 
@@ -194,8 +174,6 @@ App Version: <span style="color:green">Pre Beta 1.0.2</span>
 ## Enlevez
 
 -
-
-
 
 ---
 Author(s):  

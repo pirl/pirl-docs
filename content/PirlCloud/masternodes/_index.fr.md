@@ -6,8 +6,6 @@ chapter: true
 ---
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
-
 ## Masternodes
 
 **Premium Masternodes** Les masternodes Premium sont les masternodes de premier plan de l'écosystème.  
@@ -23,6 +21,8 @@ Les masternodes premium seront en outre récompensés avec % des frais de la pla
 #### 2.) [Content Masternodes]({{< ref "/PirlCloud/masternodes/Content Masternodes" >}})
 
 #### 3.) [Storage Masternodes]({{< ref "/PirlCloud/masternodes/Storage Masternodes" >}})
+
+<div align="center"><div style="width:50%;">{{< imagesurlsheaders "cloud/masternodes.jpg" >}} </div>></div>
 
 ---
 Author(s):  

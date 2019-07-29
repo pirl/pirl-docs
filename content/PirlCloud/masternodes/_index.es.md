@@ -7,8 +7,6 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
-
 ## Masternodos
 
 **Masternodos Premium** Son los masternodos de primer nivel en el ecosistema. Proporcionan seguridad de la red almacenando los datos de la cadena de bloques y transmitiendo la transacción en la cadena de bloques, además de servir como contenido y almacenamiento de datos. Los masternodos premium serán recompensados adicionalmente con % de los honorarios de la plataforma Poseidon.
@@ -23,6 +21,7 @@ chapter: true
 
 #### 3.) [Masternodos de Almacenamiento]({{< ref "/PirlCloud/masternodes/Storage Masternodes" >}})
 
+<div align="center"><div style="width:50%;">{{< imagesurlsheaders "cloud/masternodes.jpg" >}} </div>></div>
 
 ---
 Autor(s):

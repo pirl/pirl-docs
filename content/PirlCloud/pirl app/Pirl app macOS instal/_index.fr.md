@@ -6,9 +6,8 @@ chapter: true
 ---
 {{< imagesurlsheaders "images_headers/pirlapp.png" >}}
 
+### Télécharger
 
-
-### Télécharger:
 Téléchargez ici  PirlApp pour MacOs
 [Downloads]({{< ref "/Downloads" >}})
 
@@ -53,31 +52,11 @@ vous trouverez l'application PirlApp à cet emplacement:
 
 #### [PirlApp Guider]({{< ref "/PirlCloud/pirl app/Pirl app guide" >}})
 
-
-
 ## Attention
-
 
 pour Mac, vous devez mettre PirlApp dans le dossier de l'application ou sinon vous obtenez cette erreur:  
 
 {{< imagesurlsheaders "cloud/java.jpg" >}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 Author(s):  

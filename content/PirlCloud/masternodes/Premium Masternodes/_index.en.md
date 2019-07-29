@@ -7,8 +7,6 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
-
 ## Premium Masternodes
 
 **Premium Masternodes** are the top-tier masternodes in the ecosystem.
@@ -20,9 +18,9 @@ The premium masternodes will be additionally rewarded with
 
 #### 2.) [Disabling Masternode and Retrieving Stake]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Disabling Masternode and Retrieving Stake" >}})
 
-#### 3.) [Update to 1.8.27-gecko]({{< ref "//PirlCloud/masternodes/Premium Masternodes/Update gecko" >}})
+#### 3.) [Update to 1.8.27-damocles]({{< ref "//PirlCloud/masternodes/Premium Masternodes/Update damocles" >}})
 
-#### 4.) [Update to 1.8.27-damocles]({{< ref "//PirlCloud/masternodes/Premium Masternodes/Update damocles" >}})
+<div align="center"><div style="width:50%;">{{< imagesurlsheaders "cloud/masternodes.jpg" >}} </div>></div>
 
 ---
 Author(s):

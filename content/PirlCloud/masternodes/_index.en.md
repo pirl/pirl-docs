@@ -7,8 +7,6 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-{{< imagesurlsheaders "cloud/masternodes.jpg" >}}
-
 ## Masternodes
 
 **Premium Masternodes** are the top-tier masternodes in the ecosystem. They provide network security by storing the blockchain data and relaying transaction in the blockchain as well as serving as content and storage masternodes. The premium masternodes will be additionally rewarded with
@@ -23,6 +21,8 @@ chapter: true
 #### 2.) [Content Masternodes]({{< ref "/PirlCloud/masternodes/Content Masternodes" >}})
 
 #### 3.) [Storage Masternodes]({{< ref "/PirlCloud/masternodes/Storage Masternodes" >}})
+
+<div align="center"><div style="width:50%;">{{< imagesurlsheaders "cloud/masternodes.jpg" >}} </div>></div>
 
 ---
 Author(s):

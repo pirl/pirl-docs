@@ -5,7 +5,7 @@ pre: "<b>2. </b>"
 chapter: true
 ---
 
-{{< imagesurlsheaders "images_headers/cloudpowereddark.png"  >}}
+<div align="center"><div style="width:55%;">{{< imagesurlsheaders "images_headers/cloudpowereddark.png" >}}</div></div>
 
 ## The PirlCloud
 

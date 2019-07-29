@@ -7,15 +7,11 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/pirlapp.png" >}}
 
-
-
 ## अवलोकन.
 
 यह मार्गदर्शिका बताएगी कि कैसे डाउनलोड करें, सेटअप करें और अपना पंजीकरण करें:
 
-
 {{< imagesurlsheaders "cloud/pirlapp21.jpg" >}}
-
 
 ## पूर्वापेक्षा.
 
@@ -32,39 +28,65 @@ chapter: true
 * डाउनलोड किए हुए पैकेज को आपकी मन चाही जगह पर अनज़िप/एक्सट्रेक्ट करे।
 
 {{< imagesurlsheaders "cloud/unziped.PNG"  >}}
+
 * डाउनलोड करके अनज़िप किए गए फ़ोल्डर में एक नज़र डालें और PirApp.exe खोजें
+
 {{< imagesurlsheaders "cloud/pirpAppInFile.PNG"  >}}
+
 * पहली स्क्रीन पर अपना खाता बनाएं और पासवर्ड लिखकर रखे।
+
 {{< imagesurlsheaders "cloud/writeDownYOurPasswprd.PNG"  >}}
+
 * पासवर्ड को एक बार फिर से लिखकर कन्फर्म करें और क्रिएट बटन को हिट करें
 * जहा आपने अभी पासवर्ड डाला था उस  क्षेत्र के ऊपर एक पॉअप आयेगा जो आपको आपका नामहीन खाता दीखायेगा।
+
 {{< imagesurlsheaders "cloud/JdemetoPojmenovat.JPG"  >}}
+
 * बनाए गए खाते पर क्लिक करें (फिर से क्रियेट बटन पर क्लिक न करें) और अपना खाता नाम भरें (उदाहरण के लिए “किंग“ या “मिकी“) और फिर से अपना पासवर्ड टाइप करके साइन इन करें।
+
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/creation_on_Accoun_name_+_password__hit_register.PNG)
+
 * यदि आप सब कुछ सही लिखते हैं, तो आपका खाता आपके खाते के नाम से पंजीकृत होगा, लेकिन एक लाल चेतावनी लेबल आपकी स्क्रीन के निचले हिस्से में पॉप अप होगा। चिंता मत करो, ठीक है। यह त्रुटि आपको केवल यह बताती है कि आपके ऐप में कोई धनराशि नहीं है और आप गैस पर कम हैं, जो कि एक की आवश्यकता है।
+
 {{< imagesurlsheaders "cloud/Low_gas_error_will_pop_out.PNG"  >}}
+
 * अपने बनाए हुए खाते के ठीक बगल में स्थित कॉपी एड्रेस बटन पर क्लिक करें या लेफ्ट माउस स्लाइड कर के हाइलाइट करें और CTRL+C का उपयोग करें
+
 {{< imagesurlsheaders "cloud/copyAdress.JPG"  >}}
+
 * अपने नॉटिलस वॉलेट (या किसी भी वॉलेट जिस में आपके पास कुछ प्रिल है) में जाएं और “पंजीकरण“ करें
+
 {{< imagesurlsheaders "cloud/nautilusPlocha.JPG"  >}}
+
 * अपने वॉलेट में प्रिल भेजने का प्रबंधन करें। मैं आपको दिखाऊंगा कि यह कैसे करना है नॉटिलस प्रिल वॉलेट से। यदि आप नॉटिलस वॉलेट में हैं; हिट सेंड।
+
 {{< imagesurlsheaders "cloud/InsideOfNautilus.JPG"  >}}
+
 * अपने नॉटिलस (या किसी भी) वॉलेट से 0,2 प्रिल अपने प्रिलएप में भेजने के लिए आपके द्वारा कॉपी किए गए एड्रेस का उपयोग करें। ट्रांसेक्शन जनरेट  करे और सेन्ड करे।
+
 {{< imagesurlsheaders "cloud/sentStartingFee.JPG"  >}}
 
 * जांचें कि सब कुछ ठीक है और फिर आपका पासवर्ड डालकर पुष्टि करे।
+
 {{< imagesurlsheaders "cloud/checkSend.JPG"  >}}
+
 * कुछ ही मिनटों में सब कुछ हो जाएगा, एक ब्रेक लें और थोड़ी देर आराम करें।
+
 {{< imagesurlsheaders "cloud/Actual_status.JPG"  >}}
+
 * _* ...3 मिनट बाद और कुछ ब्लॉक्स के बाद... *_ हां, अभी आप अपने प्रिलएप पर जा सकते हैं।
+
 {{< imagesurlsheaders "cloud/rocky.JPG"  >}}
+
 * लॉगिन नाम और पासवर्ड डालकर अपना खाता दर्ज करें और रजिस्टर बटन दबाऐ।
+
 {{< imagesurlsheaders "cloud/creation_on_Accoun_name_+_password__hit_register.PNG" >}}
+
 {{< imagesurlsheaders "cloud/almost.JPG"  >}}
+
 * बधाई हो, अभ आप प्रिलट्यूब का आनंद ले सकते है और उन सभी चिजो का जो प्रिल के व्दारा जल्द ही आपके ब्राउज़र पर दस्तक देगा!
+
 {{< imagesurlsheaders "cloud/done.JPG"  >}}
-
-
 
 ---
 

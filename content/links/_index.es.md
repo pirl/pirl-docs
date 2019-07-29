@@ -7,8 +7,6 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/links.png"  >}}
 
-
-
 #### [Sitio web de Pirl](https://pirl.io/en/ "PirlWebsite")
 
 #### [Documentación sobre Pirl](https://docs.pirl.io/en/ "PirlDocs")
@@ -21,21 +19,15 @@ chapter: true
 
 #### [Red de Pirl](http://stats.pirl.io "PirlNetwork")
 
-#### [🇧🇪 Pirl Team Pool 🇲🇺](https://pool.pirl.network/)
-
+#### [🇧🇪 Pirl Team Pool](https://pool.pirl.network/)
 
 #### [Pirl on Blockfolio](https://blockfolio.com "Pirl on Blockfolio")
 
+### Si desea participar en el crecimiento y la seguridad del futuro, puede unirse con su poder hash
 
-### Si desea participar en el crecimiento y la seguridad del futuro, puede unirse con su poder hash:
+### [Piscina de Red de Pruebas de Pirl](http://testnetpool.pirl.io/#/ "PirlTestNetwork Pool")
 
-
-### [Piscina de Red de Pruebas de Pirl](http://testnetpool.pirl.io/#/ "PirlTestNetwork Pool").
-
-
-### [Estadísticas de Red de Prueba Pirl](http://devstats.pirl.io/ "PirlTestNetwork Stats").
-
-
+### [Estadísticas de Red de Prueba Pirl](http://devstats.pirl.io/ "PirlTestNetwork Stats")
 
 ---
 Autor(s):

@@ -4,27 +4,18 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
+
 ![](https://pirl.live/ipfs/QmZxeShmMRwJuLmQTFuDTAUeBCauKvmZLJQWtnUhM7MoES)
-
-
-
-
 
 ## Introduction
 
 This Kb article will explain how to host content on PirlCloud. It will also explain how to share your content you have stored in PirlCloud.
 
-To access PirlCloud you will need a Poseidon account.
-
+To access PirlCloud you will need a [Poseidon account]({{< ref "/pirlcloud/poseidon/overview" >}}).
 
 ![](https://pirl.live/ipfs/QmRVN8YRgXqHReg7Ns2645ZZDzUtopJK4YfuHAZD3PmhB8)
 
-1. Go to Poseidon.pirl.io
-
-
-
-
-
+1. Go to https://poseidon.pirl.io
 
 ![](https://pirl.live/ipfs/QmTTzzHtv8coyDbCqC9YLGm1HyPra2XMU4S1D4ahujTFvy)
 
@@ -42,28 +33,9 @@ To access PirlCloud you will need a Poseidon account.
 2. Once the files are uploaded they will appear in MY STORAGE
 3. Every file will be given HASH address. This address can be shared.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 Author(s):
 
-
 @numnah
-
 
 Contributor(s):
