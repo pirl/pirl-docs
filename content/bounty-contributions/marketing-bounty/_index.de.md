@@ -5,9 +5,7 @@ pre: "<b>2. </b>"
 chapter: true
 ---
 
-
 {{< imagesurlsheaders "images_headers/marketing.png" >}}
-
 
 ## Introduction
 
@@ -40,12 +38,12 @@ We would like to turn this into a process and reward your contribution!
 ## Disclaimer
 
 Pirl Team has the right to disapprove
+
 - 1. Proposals with Insufficient details
+
 - 2. Unrealistic Proposals
+
 - 3. Proposals which are not submitted in the requested format
-
-
-
 
 ---
 Author(s):  
