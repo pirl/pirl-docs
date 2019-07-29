@@ -4,27 +4,18 @@ weight: 1
 pre: "<b>1. </b>"
 chapter: true
 ---
+
 ![](https://pirl.live/ipfs/QmZxeShmMRwJuLmQTFuDTAUeBCauKvmZLJQWtnUhM7MoES)
-
-
-
-
 
 ## Introducción
 
 Este artículo de Kb explicará cómo alojar contenido en NubePirl. También le explicará cómo compartir su contenido que ha almacenado en la NubePirl.
 
-Para acceder a la NubePirl necesitará una cuenta de Poseidon.
-
+Para acceder a la NubePirl necesitará una cuenta de [Poseidon]({{< ref "/pirlcloud/poseidon/overview" >}}).
 
 ![](https://pirl.live/ipfs/QmRVN8YRgXqHReg7Ns2645ZZDzUtopJK4YfuHAZD3PmhB8)
 
-1. Ir a Poseidon.pirl.io
-
-
-
-
-
+1. Ir a https://poseidon.pirl.io
 
 ![](https://pirl.live/ipfs/QmTTzzHtv8coyDbCqC9YLGm1HyPra2XMU4S1D4ahujTFvy)
 
@@ -42,28 +33,9 @@ Para acceder a la NubePirl necesitará una cuenta de Poseidon.
 2. Una vez que se carguen los archivos, aparecerán en MI ALMACENAMIENTO
 3. Cada archivo recibirá una dirección HASH. Esta dirección puede ser compartida.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 Autor(s):
 
-
 @numnah
-
 
 Contribuyente(s):

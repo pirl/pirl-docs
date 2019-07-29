@@ -7,8 +7,6 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/links.png"  >}}
 
-
-
 #### [PirlWebsite](https://pirl.io/en/ "PirlWebsite")
 
 #### [PirlDocs](https://docs.pirl.io/en/ "PirlDocs")
@@ -21,21 +19,15 @@ chapter: true
 
 #### [PirlNetwork](http://stats.pirl.io "PirlNetwork")
 
-#### [🇧🇪 Pirl Team Pool 🇲🇺](https://pool.pirl.network/)
-
+#### [🇧🇪 Pirl Team Pool](https://pool.pirl.network/)
 
 #### [Pirl on Blockfolio](https://blockfolio.com "Pirl on Blockfolio")
 
-
-### if you want to participate in the future grow and security you can join in with you hash power:
-
+### if you want to participate in the future grow and security you can join in with you hash power
 
 ### [PirlTestNetwork Pool](------------).
 
-
 ### [PirlTestNetwork Stats](http://devstats.pirl.io/ "PirlTestNetwork Stats").
-
-
 
 ---
 Author(s):

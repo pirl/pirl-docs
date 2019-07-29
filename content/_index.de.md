@@ -20,10 +20,27 @@ Pirl ist eine Community-basierte Blockchain Plattform, die ein global verteiltes
 
 #### 2.) [PirlCloud]({{< ref "/PirlCloud" >}})
 
+#### 3.) [Mining]({{< ref "/mining" >}})
+
 #### 4.) [Wallets]({{< ref "/wallets" >}})
+
+#### 5.) [Press Releases]({{< ref "/Press releases" >}})
+
+#### 6.) [Pirl Roundtable Meeting]({{< ref "/pirl roundtable meeting" >}})
+
+#### 7.) [Links]({{< ref "/links" >}})
+
+#### 8.) [Development]({{< ref "/development" >}})
 
 #### 9.) [Downloads]({{< ref "/Downloads" >}})
 
+#### 10.) [Services]({{< ref "/services" >}})
+
+#### 11.) [Newsletter signup]({{< ref "/mailing" >}})
+
+#### 12.) [Technische Dokumentation]({{< ref "/solidity" >}})
+
+#### 13.) [Bounty & Contributions]({{< ref "/bounty-contributions" >}})
 
 ---
 Author(s):

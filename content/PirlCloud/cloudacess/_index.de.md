@@ -11,7 +11,7 @@ chapter: true
 
 Beschreibung demnächst.
 
-#### 1.) [How host/share content]({{< ref "/PirlCloud/cloudacess/overview" >}})
+#### 1.) [Wie Inhalt Bereitstellen/Teilen]({{< ref "/PirlCloud/cloudacess/overview" >}})
 
 #### 2.)
 
