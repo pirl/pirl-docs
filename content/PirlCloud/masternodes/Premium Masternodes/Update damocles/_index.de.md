@@ -7,25 +7,31 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-## Manuelles Masternode Update auf 1.8.27-damocles
+# Manuelles Masternode Update auf 1.8.27-damocles
+
+{{% toc %}}
 
 Die Anweisungen sind für RedHat oder CentOS-basierte VPS gedacht, sollten jedoch auf den meisten wichtigen Linux Distributionen funktionieren.
 Möglicherweise müssen die Firewall-Anweisungen angepasst werden, um sie an die auf deinem VPS ausgeführte Software anzupassen.
 Melden dich als `root` an und aktualisiere das System. Installiere dann die Abhängigkeiten:
 
-## Binärdateien:
+## Binärdateien
 
-(marlin ist nun gleich für beide Node Typen)  
-[git.pirl.io tags/1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)  
-[marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0)  
-[pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles)  
+(marlin ist nun gleich für beide Node Typen)
+
+[git.pirl.io tags/1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)
+
+[marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0)
+
+[pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles)
+
 [pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)
 
-## Update mit dem Skript von @phatblinkie wenn du nicht alles von Hand machen möchtest:
+## Update mit dem Skript von @phatblinkie wenn du nicht alles von Hand machen möchtest
 
 [phatblinkie/mn_installer](https://github.com/phatblinkie/mn_installer)
 
-## Der Update Prozess:
+## Der Update Prozess
 
 Stoppe den Pirl Node Service:
 
@@ -96,7 +102,7 @@ Sobald Nachrichten wie die folgenden angezeigt werden, ist die Masternode jetzt 
   ########  masternode sending proof of activity to poseidon for block  3934695  please check poseidon.pirl.io for details  //  marlin-1.8.27-damocles2.0 #########
 ```
 
-## Monitoring
+# Monitoring
 
 Wir empfehlen keinen aktiven Zugriff auf den Server. Wenn du jedoch den Status überprüfen möchtest, melden dich an deinem Server an und gebe den folgenden Befehl ein:
 

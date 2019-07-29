@@ -20,8 +20,10 @@ chapter: true
 ## Overview
 
 Running a PIRL masternode requires the use of a Virtual  
-Private Server (VPS) with a static public IP address directly assigned to an interface.  
-__*NAT (address translation) is not supported.*__  
+Private Server (VPS) with a static public IP address directly assigned to an interface.
+
+> __*NAT (address translation) is not supported.*__
+
 One should only have Pirl running on the server, any other nodes or anything else will cause a conflict!
 
 This guide uses the one-click-masternode setup feature.
@@ -64,13 +66,13 @@ This is as simple as rebooting the server, should it go offline.
 
  ![](https://i.imgur.com/tAWr8Ua.png)
 
- **Note:Do not send anymore then 1 or .5 pirl to this address for verfication, this is NOT the address you will send the 10k pirls to. that comes later.**
+> **Note** Do not send anymore then 1 or 0.5 Pirl to this address for verfication, this is NOT the address you will send the 10k pirls to. That comes later.
 
  If you are using nautilus wallet you can click once on the last sent transaction and you see the Transaction Hash(Later asked in Masternode TX Hash field):
 
  {{< imagesurlsheaders "cloud/txnautilus.png" >}}
 
- ## Nautilus Contract Execution
+## Nautilus Contract Execution
 
  - **Open Nautilus** and navigate to the **Contract** tab located at the top right corner.
 
@@ -111,9 +113,9 @@ Verify that the server meets the appropriate specifications as noted in the:
 
 - Record of the static public IP address of the server as well as the root password.  
 
-Note: We do recommend logging into that server once to ensure the `root` credentials work.
-It is not necessary to take any other actions on the server after that.
-In fact, it's preferred that you don't make any other adjustments, at all.
+> **Note** We do recommend logging into that server once to ensure the `root` credentials work.
+> It is not necessary to take any other actions on the server after that.
+> In fact, it's preferred that you don't make any other adjustments, at all.
 
 ## Create Masternode in Poseidon
 

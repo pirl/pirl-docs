@@ -7,25 +7,31 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-## Manual Masternode Update to 1.8.27-damocles
+# Manual Masternode Update to 1.8.27-damocles
 
-The instructions are intended for Redhat or CentOS based VPS but should work on most major Linux distributions.   
+{{% toc %}}
+
+The instructions are intended for Redhat or CentOS based VPS but should work on most major Linux distributions.
 You may have the need to adjust the firewall instructions to match the software software running on your VPS.  
 Login as root and update the system, then install dependencies:
 
-## Binary:
+## Binary
 
-(marlin now the same for both types)  
-[git.pirl.io tags/1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)  
-[marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0)  
-[pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles)  
-[pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)   
+(marlin now the same for both types)
 
-## Update with script from @phatblinkie if not want to do it all Manual:
+[git.pirl.io tags/1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)
+
+[marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0)
+
+[pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles)
+
+[pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)
+
+## Update with script from @phatblinkie if not want to do it all Manual
 
 [phatblinkie/mn_installer](https://github.com/phatblinkie/mn_installer)
 
-## The update process:
+## The update process
 
 Stop the  pirlnode service:
 
@@ -39,14 +45,14 @@ and stop the pirlmarlin service:
 systemctl stop marlin
 ```
 
-### Download the premium masternode binaries:
+Download the premium masternode binaries
 
 ```
 wget https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles
 wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0
 ```
 
-### Download the content node binaries:
+Download the content node binaries:
 
 ```
 wget https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles
@@ -78,7 +84,7 @@ chmod 0755 /usr/bin/pirl
 chmod 0755 /usr/bin/marlin
 ```
 
-### Now reboot the vps.
+Now reboot the vps.
 
 ```
 reboot
@@ -101,6 +107,8 @@ We don’t encourage active access on the server. If, however, you wish to check
 ```
 journalctl -f
 ```
+
+# Monitoring
 
 Monitor the status of your masternode by checking the Poseidon Masternode Details page. A functioning node should appear as follows, although the version may be different than what is shown in the screen shot below.
 

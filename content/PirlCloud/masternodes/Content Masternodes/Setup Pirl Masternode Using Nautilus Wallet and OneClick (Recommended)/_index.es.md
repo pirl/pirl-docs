@@ -20,7 +20,9 @@ chapter: true
 
 Ejecutar un masternode PIRL requiere el uso de un Virtual
 Servidor privado (VPS) con una dirección IP pública estática asignada directamente a una interfaz.
-* NAT (traducción de direcciones) no es compatible. *
+
+> *NAT (traducción de direcciones) no es compatible.*
+
 ¡Y solo tienen pirl ejecutándose en el servidor, no hay otros nodos o cualquier causa que cause conflicto!
 
 Una vez que tenga los fondos en su lugar,
@@ -126,10 +128,10 @@ Verifique que el servidor cumpla con las especificaciones apropiadas como se ind
 
 El servidor debe ejecutar la distribución CentOS 7 de Linux si planea usar la configuración **Masternode de un solo clic**.
 
-Registro de la dirección IP pública estática del servidor, así como la contraseña de root.
-Recomendamos iniciar sesión en ese servidor una vez para asegurar que las credenciales de `root` funcionen.
-No es necesario realizar ninguna otra acción en el servidor después de eso.
-De hecho, es preferible que no haga ningún otro ajuste, en absoluto.
+> **Note** Registro de la dirección IP pública estática del servidor, así como la contraseña de root.
+> Recomendamos iniciar sesión en ese servidor una vez para asegurar que las credenciales de `root` funcionen.
+> No es necesario realizar ninguna otra acción en el servidor después de eso.
+> De hecho, es preferible que no haga ningún otro ajuste, en absoluto.
 
 ## Crear Masternodo en Poseidon
 

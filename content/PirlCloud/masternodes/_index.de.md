@@ -13,7 +13,7 @@ chapter: true
 
 **Storage Masternodes** stellen digitale Downloads für den Markt bereit und werden als Backup-Dateiserver verwendet. Darüber hinaus kann man private Daten für auf der PIRL-Plattform gehostete dApps speichern.
 
-**Content Masternodes** bieten Dateispeicher für die öffentlich zugänglichen Medien und Daten, die für dApps und den Markt benötigt werden.
+**Content Masternodes** bieten Dateispeicher für die öffentlich zugänglichen Medien und Daten, die für dApps und den Marktplatz benötigt werden.
 
 #### 1.) [Premium Masternodes]({{< ref "/PirlCloud/masternodes/Premium Masternodes" >}})
 

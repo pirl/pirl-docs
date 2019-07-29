@@ -7,21 +7,27 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Masternodes.png" >}}
 
-## मैनुअल मास्टरनोड अपडेट टु 1.8.27-damocles
+# मैनुअल मास्टरनोड अपडेट टु 1.8.27-damocles
+
+{{% toc %}}
 
 निर्देश Redhat या CentOS आधारित VPS के लिए अभिप्रेत हैं, लेकिन अधिकांश प्रमुख लिनक्स वितरण पर काम करना चाहिए।   
 आपको अपने VPS पर चल रहे सॉफ़्टवेयर सॉफ़्टवेयर से मेल खाने के लिए फ़ायरवॉल निर्देशों को समायोजित करने की आवश्यकता हो सकती है।  
 रूट के रूप में लॉगिन करें और सिस्टम को अपडेट करें, फिर निर्भरताएं स्थापित करें:
 
-## बाइनरी:
+## बाइनरी
 
-(मार्लिन अब दोनों प्रकारों के लिए समान है)  
-[git.pirl.io tags/1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)  
-[marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0)  
-[pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles)  
-[pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)   
+(मार्लिन अब दोनों प्रकारों के लिए समान है)
 
-## अगर आप मैनुअल अपडेट नहीं करना चाहते हैं तो आप @phatblinkie की स्क्रिप्ट का उपयोग कर सकते है:
+[git.pirl.io tags/1.8.27-damocles](https://git.pirl.io/community/pirl/tags/1.8.27-damocles)
+
+[marlin-1.8.27-damocles2.0](https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0)
+
+[pirl-masternode-premium-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles)
+
+[pirl-masternode-content-1.8.27-damocles](https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles)
+
+## अगर आप मैनुअल अपडेट नहीं करना चाहते हैं तो आप @phatblinkie की स्क्रिप्ट का उपयोग कर सकते है
 
 [phatblinkie/mn_installer](https://github.com/phatblinkie/mn_installer)
 
@@ -39,14 +45,14 @@ systemctl stop pirl
 systemctl stop marlin
 ```
 
-### प्रीमियम मास्टरनोड बायनेरी डाउनलोड करें:
+प्रीमियम मास्टरनोड बायनेरी डाउनलोड करें:
 
 ```
 wget https://git.pirl.io/community/pirl/uploads/11320f624dade87c08d0fabb960cebca/pirl-masternode-premium-1.8.27-damocles
 wget https://git.pirl.io/community/pirl/uploads/5ae5dee5a3c99f4dba35b630778c1fd1/marlin-1.8.27-damocles2.0
 ```
 
-### कंटेंट मास्टरनोड बायनेरी डाउनलोड करें:
+कंटेंट मास्टरनोड बायनेरी डाउनलोड करें:
 
 ```
 wget https://git.pirl.io/community/pirl/uploads/cd403e61991ce375f5474a8509472572/pirl-masternode-content-1.8.27-damocles
@@ -78,7 +84,7 @@ chmod 0755 /usr/bin/pirl
 chmod 0755 /usr/bin/marlin
 ```
 
-### अब vps को रिबूट करें.
+अब vps को रिबूट करें.
 
 ```
 reboot
@@ -96,7 +102,7 @@ journalctl -f
   ########  masternode sending proof of activity to poseidon for block  3934695  please check poseidon.pirl.io for details  //  marlin-1.8.27-damocles2.0 #########
 ```
 
-निगरानी (मोनेटरींग)
+# निगरानी (मोनेटरींग)
 हम सर्वर पर एैकटीव ऐकसेस को प्रोत्साहित नहीं करते हैं। फिर भी आप स्थिति की जाँच करना चाहते हैं, तो अपने सर्वर में लॉग इन करें और निम्नलिखित आदेश जारी करें:
 
 ```
