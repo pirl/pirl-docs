@@ -5,20 +5,15 @@ pre: "<b>2. </b>"
 chapter: true
 ---
 
-
 {{< imagesurlsheaders "images_headers/marketing.png" >}}
-
-
 
 ## Introduction
 
 ### Récompense - 100 PIRL
 
-
 Une partie importante du marketing de PIRL est reliée à l'équipe et à la communauté.  
 Nous avons identifié beaucoup de bonnes idées venant des Pirlians!  
-Nous aimerions transformer cela en un  processus  et récompenser votre contribution!   
-
+Nous aimerions transformer cela en un  processus  et récompenser votre contribution!
 
 ## Exigences
 
@@ -44,20 +39,15 @@ Détaillez la proposition autant que possible!
 ## Avertissement
 
 Pirl Team à le droit de désapprouver  
-- 1. Propositions avec détails insuffisants  
+- 1. Propositions avec détails insuffisants
 - 2. Propositions irréalistes  
 - 3. Propositions qui ne sont pas soumises dans le format demandé  
-
-
 
 ---
 Author(s):
 
-
 @dptelecom
 
-
 Contributor():
-
 
 @ClaudioPirl

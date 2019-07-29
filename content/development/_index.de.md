@@ -1,5 +1,5 @@
 ---
-title: Development
+title: Entwicklung
 weight: 9
 pre: "<b>8. </b>"
 chapter: true
@@ -7,11 +7,12 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/development.png"  >}}
 
-## Updates about development for Pirl
+## Aktualisierungen über die Entwicklung von Pirl
 
 Updates about development for Pirl can be found on the next pages.
 
 #### 1.) [Core]({{< ref "/development/core" >}})
+
 #### 2.) [Wallets]({{< ref "/development/wallets" >}})
 
 ---

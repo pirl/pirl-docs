@@ -7,27 +7,11 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/development.png"  >}}
 
-
-
 ## Actualizaciones de Desarrollo para Billeteras de Pirl
 
 Las actualizaciones de desarrollo para Billeteras de Pirl se pueden encontrar en las siguientes páginas.
 
-
 {{< imagesurlsheaders "cloud/Pirl_Energy.gif" >}}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 Autor(s):

@@ -43,7 +43,7 @@ Dies alles ist einfach, wie zum Beispiel ein Neustart des Servers, sollte dieser
 
 * **Nautilus Wallet**
 
- - Nautilus ist das offizielle Desktop Wallet für Pirl. Du benötigst es um die Funktion "Register Node" im Smart Contract auszuführen, was zum Registrieren und erfolgreichem Ausführen der Pirl Masternode erforderlich ist. Du kannst das Desktop Wallet verwenden um eine Pirl Adresse zu erstellen [Downloads Nautilus]({{< ref "/Downloads" >}}), sowie [PirlApp]({{< ref "/PirlCloud\pirl app" >}}) oder du kannst das Web Wallet nutzen: https://wallet.pirl.io/.
+ - Nautilus ist das offizielle Desktop Wallet für Pirl. Du benötigst es um die Funktion "Register Node" im Smart Contract auszuführen, was zum Registrieren und erfolgreichem Ausführen der Pirl Masternode erforderlich ist. Du kannst das Desktop Wallet verwenden um eine Pirl Adresse zu erstellen [Downloads Nautilus]({{< ref "/Downloads" >}}) oder du kannst das Web Wallet nutzen: https://wallet.pirl.io/.
  - Unabhängig von der Methode mit der du dein Wallet erstellst, sichere immer die UTC-Datei und das Kennwort!
  - Warnung: UTC Passwörter können nicht wiederhergestellt werden. Denken daran sich dieses zu merken, oder schreibe es auf!
 

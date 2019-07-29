@@ -5,9 +5,7 @@ pre: "<b>2. </b>"
 chapter: true
 ---
 
-
 {{< imagesurlsheaders "images_headers/marketing.png" >}}
-
 
 ## Introducción
 
@@ -41,14 +39,11 @@ Una parte importante del marketing de Pirl es la retransmisión en el equipo y l
 
 El Equipo Pirl tiene el derecho de desaprobar:
 
--  Artículos de baja calidad.
+- Artículos de baja calidad.
 
--  Artículos con información incorrecta.
+- Artículos con información incorrecta.
 
--  Artículos que no cumplan con los requisitos.
-
-
-
+- Artículos que no cumplan con los requisitos.
 
 ---
 Autor(s):  
