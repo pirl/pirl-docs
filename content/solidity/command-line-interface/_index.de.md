@@ -1,10 +1,9 @@
 ---
-title: Command Line Interface
+title: Kommandozeilen Interface
 weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
-
 
 ```
 $ Pirl help
@@ -172,7 +171,6 @@ COPYRIGHT:
    Copyright 2017-2019 PIRL Sprl
 
 ```
-
 
 ---
 Author(s):  

@@ -5,7 +5,6 @@ pre: "<b>3. </b>"
 chapter: true
 ---
 
-
 ```
 $ Pirl help
 NAME:
@@ -172,7 +171,6 @@ COPYRIGHT:
    Copyright 2017-2019 PIRL Sprl
 
 ```
-
 
 ---
 Author(s):  

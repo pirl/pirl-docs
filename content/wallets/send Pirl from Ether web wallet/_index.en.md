@@ -16,39 +16,36 @@ All the photos in this article are being hosted on Pirls own ![](https://pirl.li
 
 ## How to send Pirl from Ether web wallet
 
-1.	Go to https://wallet.pirl.io/ .If you haven’t created a wallet already click [here](). If you have created a wallet using the private key function and want to learn how to send a Pirl coin continue.
+1. Go to https://wallet.pirl.io/ .If you haven’t created a wallet already click [here](). If you have created a wallet using the private key function and want to learn how to send a Pirl coin continue.
 
 ![](https://pirl.live/ipfs/QmRNgN47YY4LUUQzAu5yoE4DciDLvpt2snBe2bc8z2zFs5)
 
-1.	Click Send Ether & Tokens.
+1. Click Send Ether & Tokens.
 
 ![](https://pirl.live/ipfs/QmNeTzoA8wMYohZUbYqSzwjwL5pvKKyrgWCyVsTn3ZQzWe)
 
-1.	Click on the Private key option.
+1. Click on the Private key option.
 
 ![](https://pirl.live/ipfs/QmY93K7uGcfiDkDcn2px7qFiWdCcYSDDD4drp8t11CixzP)
 
-
-1.	Enter your private key that you have safely stored.
-2.	Click Unlock.
-
+1. Enter your private key that you have safely stored.
+2. Click Unlock.
 
 ![](https://pirl.live/ipfs/QmPh4BFWMg6nhaZLj6EBzAuBFK3VCvLEQJyZcH1dNMFrdi)
 
 **On this page please note on the right-hand side; your account address, account balance and transaction history.**
 
-1.	Enter the address you want to send the Pirl to
-2.	Enter the amount of Pirl you want to send
-3.	Click Generate Transaction
+1. Enter the address you want to send the Pirl to
+2. Enter the amount of Pirl you want to send
+3. Click Generate Transaction
 
 ![](https://pirl.live/ipfs/QmdPNXDCaWsLzgq2aZgMCj6HVBNKHvj7avynECQPokpzLo)
 
-
-1.	Click Send transaction
+1. Click Send transaction
 
 ![](https://pirl.live/ipfs/QmdiUL55pfBjQgzEfLohafBcpc6DdVVdz3GADaiXWKUhmb)
 
-1.	Click Yes, I am sure! Make transaction (If you have made a mistake this is your last chance click NO, get me out of here!)
+1. Click Yes, I am sure! Make transaction (If you have made a mistake this is your last chance click NO, get me out of here!)
 That’s it You can check Pirl Poseidon to see your transaction history.
 
 Mission Complete!
@@ -57,14 +54,9 @@ Over and out,
 
 numnah
 
-
-
 ---
 Author(s):
 
-
 @numnah
 
-
 Contributor(s):
-

@@ -9,7 +9,6 @@ chapter: true
 
 This guide will explain how to create and enter the most secure Pirl wallet on the Earth:
 
-
 ## Prerequisites
 
 For granting the success of this operation, you will need these requirements:
@@ -19,7 +18,6 @@ For granting the success of this operation, you will need these requirements:
 * This Firmware update will be carried out by Trezor.io/wallet web interface Don't worry. The update is only a few minor steps. You can do with the help of a guide and approx. 3 minutes of your time
 * Recommendation: Use antivirus like Kaspersky or another (full version if possible) cause Hardware Wallet + Antivirus = Win
 
-
 ## Steps
 
 * Connect your Trezor with PC (make sure you did that update)
@@ -27,24 +25,30 @@ For granting the success of this operation, you will need these requirements:
 * Go [here](https://wallet.pirl.io/)
 
 {{< imagesurlsheaders "cloud/Wallet_Page.JPG" >}}
+
 * The interface of this pages is similar to MyEther Wallet (MEW)
 
 * Click on "hardware wallet"(text written in red inside the yellow box)
+
 {{< imagesurlsheaders "cloud/ClickOnHardwareWaller.JPG" >}}
+
 * Interact with your Trezor and click out your pin
-{{< imagesurlsheaders "cloud/interactWithTrezor.JPG" >}}{{< imagesurlsheaders "cloud/trezorPin.JPG" >}}
+
+{{< imagesurlsheaders "cloud/interactWithTrezor.JPG" >}}
+{{< imagesurlsheaders "cloud/trezorPin.JPG" >}}
 
 * The Trezor will generate 5 addresses for you. They are all yours. You can choose a one, or you can use them all as you please
+
 {{< imagesurlsheaders "cloud/address.JPG" >}}
 
 * Select one particular address and write the address down
 
 * Now you have PIRL Web wallet secured by Trezor. Until you have your Trezor in your safe possession and your recovery Seed somewhere out of sight (two copies at least, each of them on a different location), your coins are secured well.
 
-
 --------
 
 Author:
-_[Mickey Maler](https://twitter.com/MickeyMaler)_
+
+@Dptelecom
 
 Contributor(s):

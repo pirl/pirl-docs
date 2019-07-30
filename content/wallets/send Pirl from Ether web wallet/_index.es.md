@@ -16,22 +16,20 @@ Todas las fotos de este artículo se alojan en propiedad de Pirls![](https://pir
 
 ## Cómo enviar Pirl desde la billetera web
 
-1.	Vaya a https://wallet.pirl.io/. Si aún no ha creado una billetera, haga clic en [aquí] (). Si ha creado una billetera con la función de clave privada y desea aprender cómo enviar una moneda de Pirl, continúe.
+1. Vaya a https://wallet.pirl.io/. Si aún no ha creado una billetera, haga clic en [aquí] (). Si ha creado una billetera con la función de clave privada y desea aprender cómo enviar una moneda de Pirl, continúe.
 
 ![](https://pirl.live/ipfs/QmRNgN47YY4LUUQzAu5yoE4DciDLvpt2snBe2bc8z2zFs5)
 
-1.	Haga clic en Enviar éter y fichas.
+1. Haga clic en Enviar éter y fichas.
 
 ![](https://pirl.live/ipfs/QmNeTzoA8wMYohZUbYqSzwjwL5pvKKyrgWCyVsTn3ZQzWe)
 
-1.	Haga clic en la opción de clave privada.
+1. Haga clic en la opción de clave privada.
 
 ![](https://pirl.live/ipfs/QmY93K7uGcfiDkDcn2px7qFiWdCcYSDDD4drp8t11CixzP)
 
-
 1. Ingrese su clave privada que haya guardado de manera segura.
 2. Haga clic en Desbloquear.
-
 
 ![](https://pirl.live/ipfs/QmPh4BFWMg6nhaZLj6EBzAuBFK3VCvLEQJyZcH1dNMFrdi)
 
@@ -42,7 +40,6 @@ Todas las fotos de este artículo se alojan en propiedad de Pirls![](https://pir
 3. Haga clic en Generar transacción
 
 ![](https://pirl.live/ipfs/QmdPNXDCaWsLzgq2aZgMCj6HVBNKHvj7avynECQPokpzLo)
-
 
 1. Haga clic en enviar transacción
 
@@ -57,14 +54,9 @@ Por encima y por fuera,
 
 numnah
 
-
-
 ---
 Autor(s):
 
-
 @numnah
 
-
 Contribuyente(s):
-

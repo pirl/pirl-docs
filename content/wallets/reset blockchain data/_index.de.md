@@ -1,45 +1,59 @@
 ---
-title: How To Reset Blockchain Data
+title: Zurücksetzen Blockchain Daten
 weight: 3
 pre: "<b>3. </b>"
 chapter: true
 ---
+
 {{< imagesurlsheaders "images_headers/wallet.png"  >}}
 
+## Einleitung
 
-## Introduction
-This guide covers resetting blockchain data, i.e. deleting and re-syncing the PIRL Nautilus wallet chaindata.
-The most likely situation requiring this is that your Pirl wallet is stuck loading or will not sync.
-If this is the case, follow the follow guide to resolve the issue.
+Dieses Handbuch behandelt das Zurücksetzen der Blockchain Daten, bedeutet löschen und das erneute Synchronisieren des PIRL Nautilus Wallet.
+Die wahrscheinlichste Situation in der dies erforderlich ist besteht darin, dass dein Pirl Wallet nicht mehr richtig geladen wird oder nicht synchronisiert werden kann.
+Befolge in diesem Fall die folgenden Anweisungen, um das Problem zu beheben.
 
-## Important note
-NB: Before attempting this process, you should make a backup of your keystore data/PIRL wallet. A guide on how to do this is available here: [How to Backup Pirl Wallets](https://docs.pirl.io/en/wallets/backup-pirl-wallets/)
+## Wichtiger Hinweis
 
-## Deleting the blockchain data
-After ensuring you have backed up your keystore/wallet data securely, the remainder of the process is straight-forward, and goes as follows:
+{{% notice warning %}}
 
- * **Close Pirl Nautilus wallet**
- * **Locate & Delete Pirl chaindata**
- * **Re-Open Pirl chaindata**
+Bevor dieser Vorgang ausführt wird, sollte ein Backup der Keystore Daten des PIRL Wallets erstellt werden. Eine Anleitung dazu findest du hier:
+[Wie man ein Backup des Pirl Wallets erstellt]({{< ref "/wallets/backup pirl wallets" >}})
 
-### Locating the data
-On Windows, this data is located at:
+{{% /notice %}}
+
+## Löschen der Blockchain Daten
+
+Nachdem sichergestellt ist, dass die Keystore Wallet-Daten gesichert sind, ist der Rest des Vorgangs unkompliziert und läuft wie folgt ab:
+
+ * **Schließe das Pirl Nautilus Wallet**
+ * **Lokalisiere & Lösche im Pirl Ordner den chaindata folder**
+ * **Öffnen des Pirl Wallet**
+
+### Lokalisierung der Daten
+
+Unter Windows sind die Daten hier:
 
 `C:\Users\*YourUsername*\AppData\Roaming\Pirl\pirl`
 
-On Linux, it's located at:
+Bei Linux findest du sie hier:
 
 `~/.pirl`
 
-On MacOS X, it's located at:
+Und auf MacOS X ist es hier:
 
 `~/Library/Pirl`
 
-## Summary
-Your blockchain data should now be reset, which will typically resolve most wallet-related issues.
-When you reopen the wallet, do note that it will have to download the blockchain data again, which may take some time.
+## Zusammenfassung
 
+Die Blockchain Daten sollten jetzt zurückgesetzt sein, wodurch in der Regel die meisten Probleme im Zusammenhang mit dem Wallet behoben werden.
+Beachte beim erneuten Öffnen des Wallets, dass die Blockchain Daten erneut heruntergeladen werden müssen, was einige Zeit in Anspruch nehmen kann.
 
 ---
 Author(s):
-Bigchrome
+
+@dptelecom
+
+Contributor(s):
+
+@packetflow

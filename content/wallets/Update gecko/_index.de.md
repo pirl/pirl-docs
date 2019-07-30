@@ -1,5 +1,5 @@
 ---
-title: Wallet update to 1.8.27-gecko
+title: Wallet Update auf 1.8.27-gecko
 weight: 7
 pre: "<b>7. </b>"
 chapter: true
