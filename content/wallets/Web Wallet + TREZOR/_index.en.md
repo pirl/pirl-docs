@@ -16,7 +16,10 @@ For granting the success of this operation, you will need these requirements:
 * Web explorer of your choice and an internet connection
 * Trezor Hardware wallet with the latest [Firmware update](https://blog.trezor.io/trezor-one-firmware-update-1-6-3-73894c0506d) and latest Bridge Firmware (your web browser will do this for you) update in your hand
 * This Firmware update will be carried out by Trezor.io/wallet web interface Don't worry. The update is only a few minor steps. You can do with the help of a guide and approx. 3 minutes of your time
-* Recommendation: Use antivirus like Kaspersky or another (full version if possible) cause Hardware Wallet + Antivirus = Win
+
+{{% notice info %}}
+Use antivirus like Kaspersky or another (full version if possible) cause Hardware Wallet + Antivirus = Win
+{{% /notice %}}
 
 ## Steps
 
@@ -45,7 +48,7 @@ For granting the success of this operation, you will need these requirements:
 
 * Now you have PIRL Web wallet secured by Trezor. Until you have your Trezor in your safe possession and your recovery Seed somewhere out of sight (two copies at least, each of them on a different location), your coins are secured well.
 
---------
+---
 
 Author:
 
