@@ -4,58 +4,45 @@ weight: 7
 pre: "<b>7. </b>"
 chapter: true
 ---
-![](https://pirl.live/ipfs/QmbT59H33UqD1VH1sfbbcCcwUnEfXDauSrQPaE3XJkQ7GC)
+
+{{< imagesurlsheaders "images_headers/wallet.png" >}}
 
 ## Update
 
-Nautilus wallet update is there:
+Wenn ein Nautilus Wallet Update verfügbar ist:
 
-- if you open the the app accept the message to update to the new version:
-
+- Wenn Nautilus geöffnet wird folgt eine Nachricht das ein Update verfügbar ist:
 
 ![](https://cdn.discordapp.com/attachments/368370088430272513/571836285048586240/Screen_Shot_2019-04-28_at_01.04.08.jpg)
 
-
-- After the update allow incoming network connection.
-
+- Erlaube eingehende Verbindungen nach dem Update
 
 ![](https://cdn.discordapp.com/attachments/368370088430272513/571836362140155911/Screen_Shot_2019-04-28_at_01.04.42.jpg)
 
-
-- And after synchronisation the wallet is ready to use!
+- Und nach der Synchronisation ist das Wallet fertig zum nutzen!
 
 ![](https://cdn.discordapp.com/attachments/368370088430272513/571836436974665739/Screen_Shot_2019-04-28_at_01.06.51.jpg)
 
-
 {{% notice warning %}}
-If the wallet not synchronise you want to remove the old chain-data like it says here:  
-[Reset blockchain data]({{< ref "/wallets/reset blockchain data" >}})
+Wenn das Wallet sich nicht synchronisieren möchte entferne die alten Blockchain Daten wenn es welche gibt:
+[Zurücksetzen Blockchain Daten]({{< ref "/wallets/reset blockchain data" >}})
 {{% /notice %}}  
 
-
-
-
-
-
 {{% notice warning %}}
-This Nautilus will be deprecated.  
-We advice to switch to the  
+Nautilus wird nicht mehr weiterentwickelt.
+Wir empfehlen umzusteigen auf
 [PirlApp]({{< ref "/PirlCloud/pirl app" >}})
 
 {{% /notice %}}
 
-
-
-
 Kind regards,  
 PirlTeam  
-
 
 ---
 Author(s):
 
-
 @Dptelecom
 
-
 Contributor(s):
+
+@packetflow
