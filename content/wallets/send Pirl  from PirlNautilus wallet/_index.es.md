@@ -5,19 +5,25 @@ pre: "<b>5. </b>"
 chapter: true
 ---
 
-![](https://pirl.live/ipfs/QmbT59H33UqD1VH1sfbbcCcwUnEfXDauSrQPaE3XJkQ7GC)
+{{< imagesurlsheaders "images_headers/wallet.png" >}}
 
 ## Introducci&oacute;n
 
-� ��Este [PirlDoc] (https://docs.pirl.io/en/) explica c&oacute;mo enviar una moneda Pirl de su billetera PirlNautilus a una direcci&oacute;n de billetera PirlPoseidon.
+Este articulo en [PirlDoc] (https://docs.pirl.io/en/) explica c&oacute;mo enviar una moneda Pirl de su billetera PirlNautilus a una direcci&oacute;n de billetera PirlPoseidon.
 
 ## Nota
 
-Puede enviar sus monedas a una billetera de hardware [Trezor] (https://pirl.io/en/blog/pirl-trezor) o a [myetherwallet] (https://wallet.pirl.io/).
+Puede enviar sus monedas a una billetera de hardware [Trezor] (https://pirl.io/en/blog/pirl-trezor) o a [MyPirlWallet] (https://wallet.pirl.io/).
 Solo aseg&uacute;rese de enviar sus monedas a una billetera o intercambio que acepte Pirl.
-** Nunca almacene sus monedas en un intercambio. **
 
-Todas las fotos de este art&iacute;culo se alojan en la propiedad de Pirls![] (Https://pirl.live/ipfs/QmS42TAndn2RmtEtYLqAiv6dfnW6om6PPA1xn6Si2dxSG5)
+{{% notice warning %}}
+Nunca almacene sus monedas en un intercambio.
+{{% /notice %}}
+
+Todas las fotos de este art&iacute;culo se alojan en la propiedad de Pirls:
+
+<img src="https://pirl.live/ipfs/QmS42TAndn2RmtEtYLqAiv6dfnW6om6PPA1xn6Si2dxSG5" style="width:45%;">
+
 Si desea obtener m�s informaci&oacute;n, haga clic en este [IPFS] (https://docs.pirl.io/en/pirlcloud/cloudacess/overview/).
 
 ## C�mo enviar de billetera PirlNautilus a la billetera que usted elija

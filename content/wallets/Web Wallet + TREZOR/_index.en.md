@@ -5,6 +5,8 @@ pre: "<b>4. </b>"
 chapter: true
 ---
 
+{{< imagesurlsheaders "images_headers/wallet.png" >}}
+
 ## Overview
 
 This guide will explain how to create and enter the most secure Pirl wallet on the Earth:

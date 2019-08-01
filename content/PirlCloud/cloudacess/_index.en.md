@@ -7,7 +7,7 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Pirl_IPFSsmall.png" >}}
 
-## Public storage.
+## Public storage
 
 Description soon.
 

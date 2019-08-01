@@ -5,9 +5,11 @@ pre: "<b>4. </b>"
 chapter: true
 ---
 
+{{< imagesurlsheaders "images_headers/wallet.png" >}}
+
 ## Einleitung
 
-In diesem Handbuch wird erklärt wie man die sicherste Pirl Wallet der Welt erstellen kann:
+In diesem Handbuch wird erklärt wie man das aktuell sicherste Pirl Wallet der Welt erstellen kann:
 
 ## Voraussetzungen
 
@@ -25,7 +27,7 @@ Nutze ein Antivirus wie zum Beispiel Kaspersky (Am besten in der Vollversion) we
 
 * Verbinde den Trezor mit deinem PC (Stelle sicher du hast das Update durchgeführt)
 
-* Gehe [hier](https://wallet.pirl.io/)
+* Gehe auf das [Web Wallet](https://wallet.pirl.io/)
 
 {{< imagesurlsheaders "cloud/Wallet_Page.JPG" >}}
 

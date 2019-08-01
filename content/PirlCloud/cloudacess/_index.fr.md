@@ -6,7 +6,7 @@ chapter: true
 ---
 {{< imagesurlsheaders "images_headers/Pirl_IPFSsmall.png" >}}
 
-## Stockage public.
+## Stockage public
 
 Description bientôt .....
 

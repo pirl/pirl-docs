@@ -7,7 +7,7 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Pirl_IPFSsmall.png" >}}
 
-## Öffentlicher Speicher.
+## Öffentlicher Speicher
 
 Beschreibung demnächst.
 

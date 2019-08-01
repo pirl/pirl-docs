@@ -5,6 +5,8 @@ pre: "<b>4. </b>"
 chapter: true
 ---
 
+{{< imagesurlsheaders "images_headers/wallet.png" >}}
+
 ## Visión general
 
 Esta guía explicará cómo crear e ingresar a la billetera Pirl más segura en la Tierra:

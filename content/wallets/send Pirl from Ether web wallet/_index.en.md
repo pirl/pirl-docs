@@ -4,15 +4,16 @@ weight: 6
 pre: "<b>6. </b>"
 chapter: true
 ---
-![](https://pirl.live/ipfs/QmbT59H33UqD1VH1sfbbcCcwUnEfXDauSrQPaE3XJkQ7GC)
+
+{{< imagesurlsheaders "images_headers/wallet.png" >}}
 
 ## Introduction
 
-This Kb article will explain how to send Pirl from your Ether wallet to another address of your choosing. There are many ways to access your Ether wallet. View with address only, Meta mask/mist, Ledger wallet, TREZOR, Keystore JSON File, Mnemonic Phrase and **Private key**. We will be Accessing our wallet through the **Private key** option for this article. **Please note this option is not the most secure way to store your Pirl coins and therefore is not recommended.** wallet.pirl.io does not hold your keys for you. We cannot access accounts, recover keys, reset passwords, nor reverse transactions. Protect your keys & always check that you are on correct URL. You are responsible for your security.
+This Kb article will explain how to send Pirl from your Ether wallet to another address of your choosing. There are many ways to access your Ether wallet. View with address only, Meta mask/mist, Ledger wallet, TREZOR, Keystore JSON File, Mnemonic Phrase and **Private key**. We will be Accessing our wallet through the **Private key** option for this article. **Please note this option is not the most secure way to store your Pirl coins and therefore is not recommended.** [MyPirlWallet](https://wallet.pirl.io) does not hold your keys for you. We cannot access accounts, recover keys, reset passwords, nor reverse transactions. Protect your keys & always check that you are on correct URL. 
 
-## Note
-
-All the photos in this article are being hosted on Pirls own ![](https://pirl.live/ipfs/QmS42TAndn2RmtEtYLqAiv6dfnW6om6PPA1xn6Si2dxSG5) If you want to learn more, please click this [link](https://docs.pirl.io/en/pirlcloud/cloudacess/overview/).
+{{% notice info %}}
+You are responsible for your security.
+{{% /notice %}}
 
 ## How to send Pirl from Ether web wallet
 
@@ -33,7 +34,11 @@ All the photos in this article are being hosted on Pirls own ![](https://pirl.li
 
 ![](https://pirl.live/ipfs/QmPh4BFWMg6nhaZLj6EBzAuBFK3VCvLEQJyZcH1dNMFrdi)
 
-**On this page please note on the right-hand side; your account address, account balance and transaction history.**
+{{% notice info %}}
+
+On this page please note on the right-hand side, your account address, account balance and transaction history.
+
+{{% /notice %}}
 
 1. Enter the address you want to send the Pirl to
 2. Enter the amount of Pirl you want to send
@@ -46,7 +51,19 @@ All the photos in this article are being hosted on Pirls own ![](https://pirl.li
 ![](https://pirl.live/ipfs/QmdiUL55pfBjQgzEfLohafBcpc6DdVVdz3GADaiXWKUhmb)
 
 1. Click Yes, I am sure! Make transaction (If you have made a mistake this is your last chance click NO, get me out of here!)
-That’s it You can check Pirl Poseidon to see your transaction history.
+That’s it.
+
+Check your transaction via [PirlExplorer](https://explorer.pirl.network/)
+
+{{% notice info %}}
+
+All the photos in this article are being hosted on Pirls own:
+
+{{% /notice %}}
+
+<img src="https://pirl.live/ipfs/QmS42TAndn2RmtEtYLqAiv6dfnW6om6PPA1xn6Si2dxSG5" style="width:45%;">
+
+If you want to learn more, please click [PirlCloud](https://docs.pirl.io/en/pirlcloud/cloudacess/overview/).
 
 Mission Complete!
 
