@@ -8,9 +8,18 @@ chapter: true
 {{< imagesurlsheaders "images_headers/services_1.png"  >}}
 
 #### [PirlServices](https://services.pirl.io "PirlServices")
+
+PirlServices gives you a dashboard for the availability status of different systems in the Pirl Ecosystem.
+
+{{% notice info %}}
+Under Maintenance
+{{% /notice %}}
+
+<!--
 <iframe width="600"
     height="800" src="https://services.pirl.io">
 </iframe>
+-->
 
 ---
 Author(s):

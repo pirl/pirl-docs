@@ -14,12 +14,11 @@ PIRLs Ziele basieren unter anderem auf der Idee der Poseidon Plattform, einem Or
 
 Ein mehrschichtiges Masternode Netzwerk legt die Grundlage für diesen Prozess und die weiteren Konzepte von dezentraler Währung. Anwendungen und Governance werden dieses auf eine höhere Ebene heben.
 
-###  WAS IST PIRL NICHT?
+### WAS IST PIRL NICHT?
+
 * PIRL IST KEIN TOKEN
 * PIRL HATTE KEIN ICO
 * PIRL IST NICHT ETHEREUM
-
-
 
 ---
 Author(s):

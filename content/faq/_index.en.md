@@ -82,7 +82,35 @@ disableToc: false
 
 > The main PIRL chain will forever remain PoW.  Side chains may utilize the benefits of PoS where it makes sense for the design.
 
+### Are there any VPS recommendations?
+
+> We do not give any specific recommendations, one is the [minimum requirements]({{< ref "/PirlCloud/masternodes/Premium Masternodes/Setup Pirl Masternode Using Nautilus Wallet and OneClick (Recommended)" >}}) should be met. There are a lots of good larger [VPS](https://en.wikipedia.org/wiki/Virtual_private_server) provider out there and also good smaller ones.
+>
+> It is always good to have as many different providers in different areas of the world as possible, for creating the maximum redundancy for the network.
+>
+> The current distributuion can be checked on [PirlPoseidon](https://poseidon.pirl.io/) at the bottom of the start page.
+>
+> Some VPS providers let you choose the geographic destination for your [VPS](https://en.wikipedia.org/wiki/Virtual_private_server) installation, which is a nice feature to spread the locations within the same provider. If you have a local provider in your country, fine, support them! If you feel that we need to list additional provider let us know!
+>
+> We would like to do on additional recommendation:
+
+<div align="center"><div style="width:55%;">
+
+{{% notice info %}}
+Distribute the [VPS](https://en.wikipedia.org/wiki/Virtual_private_server) geographically
+{{% /notice %}}  
+
+| [VPS Provider Comparison](https://lmgtfy.com/?q=vps+provider+comparison) | |
+| :---------------------------- | :---------------------------- |
+| https://www.vultr.com/        | https://www.digitalocean.com/ |
+| https://www.ovh.com/          | https://www.linode.com/       |
+| https://www.time4vps.com/     | https://www.hetzner.de/       |
+| https://www.contabo.de/       | https://www.mvps.net/         |
+
+</div>
+</div>
  ---
+
  Author(s):
 
  @Dptelecom

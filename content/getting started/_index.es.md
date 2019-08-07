@@ -4,7 +4,8 @@ weight: 1
 pre: "<b>1. </b>"
 disableToc: true
 ---
-### ¿QUÉ ES PIRL?  
+
+### ¿QUÉ ES PIRL?
 
 PIRL es un proyecto comunitario que presenta el primer Masternode basado en Ethash en el ecosistema de la cadena de bloques.  
 Los proyectos combinan tecnologías de vanguardia para realizar la primera plataforma de alojamiento completo de DApps.  
@@ -17,12 +18,6 @@ comunicaciones, entretenimiento y transacciones en custodia.
 
 Una red masternode multinivel sentará las bases de este proceso al llevar los conceptos de dinero descentralizado,  
 aplicaciones y gobierno a un nuevo nivel.  
-
-
-
-
-
-
 
 ---
 Autor(s):

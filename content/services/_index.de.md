@@ -9,9 +9,17 @@ chapter: true
 
 #### [PirlServices](https://services.pirl.io "PirlServices")
 
+PirlServices bietet ein Dashboard für den Verfügbarkeitsstatus verschiedener Systeme im Pirl Ecosystem.
+
+{{% notice info %}}
+Under Maintenance
+{{% /notice %}}
+
+<!--
 <iframe width="600"
     height="800" src="https://services.pirl.io">
 </iframe>
+-->
 
 ---
 Author(s):
@@ -19,3 +27,5 @@ Author(s):
 @dptelecom
 
 Contributor():
+
+@packetflow

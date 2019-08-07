@@ -7,133 +7,86 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Poseidon.png"  >}}
 
+## [Poseidon Erster Login](https://poseidon.pirl.io)
 
+Sehr gut, wir haben einen Account erstellt und jetzt melden wir uns zum ersten Mal an.
+Wir müssen wenige Schritte ausführen um unser Konto zu vervollständigen.
 
-## [Poseidon first login](https://poseidon.pirl.io)
+Gib deine Anmeldeinformationen ein und drücke den **Next** Button.
 
+<div align="center"><div style="width:65%;">{{< imagesurlsheaders "cloud/poseidon_login.jpg" >}}</div></div>
 
-Nice we have the account created now we are going for the first time login,
-we have a few steps to follow to complete our account
-fill in your credentials and push the next button:
+Auf der nächsten Seite folgt eine Benachrichtigung um die Zwei-Faktor Authentifizierung zu aktivieren.
 
+Klicke auf **Next** und wir können fortfahren.
 
-{{< imagesurlsheaders "cloud/poseidon_login.jpg"  >}}
+<div align="center"><div style="width:65%;">{{< imagesurlsheaders "cloud/twofactor.jpg" >}}</div></div>
 
+Auf dieser Seite muss eine Entscheidung getroffen werden, welche Art der Zwei-Faktor-Authentifizierung bevorzugt wird.
+Eine der Möglichkeiten kann ausgewählt werden.
 
+1) Google Authenticator
 
-Next page you get the notification to enable two-factor authentication:
-click next and we can continue
+> [Play Store für Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
+> 
+> [App Store für iPhone](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)  
 
+2) SMS Benachrichtigung  
 
-{{< imagesurlsheaders "cloud/twofactor.jpg"  >}}
+Nachdem du dich entschieden hast, drücke auf **Next**.
 
+Hier zeigen wir beide Möglichkeiten.
 
+1) Der Google Authenticator
 
-At this page you have to make a decision which kind of two-factor authentication you prefer,
-either you chose to use:
+<div align="center"><div style="width:65%;">{{< imagesurlsheaders "cloud/2fac_chose.jpg" >}}</div></div>
 
+Wähle die erste Option und drücke den **Next** Button.
 
-1) Google Authenticator  
-* [Play store for Android](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)  
-* [App Store for Iphone](https://itunes.apple.com/us/app/google-authenticator/id388497605?mt=8)  
+Dann kommst du zu folgender Seite:
 
-2) sms notification  
+<div align="center"><div style="width:65%;">{{< imagesurlsheaders "cloud/qrcode.jpg" >}}</div></div>
 
-After you made you choise you push next  
-below  i show both options
-
-
-1) the Google Authenticator:
-
-
-
-{{< imagesurlsheaders "cloud/2fac_chose.jpg"  >}}
-
-
-
-Chose the first option and push the next button,
-you will get this page:
-
-
-
-{{< imagesurlsheaders "cloud/qrcode.jpg"  >}}
-
-
-Scan the QR code with the Google Authenticator app,
-and in the app you will see Poseidon added like this:
-
-
+Scanne den QR Code mit deiner Google Authenticator App,
+und sie zeigt dir das Poseidon hinzugefügt wurde:
 
 {{< imagesurlsheaders "cloud/mobile.jpeg"  >}}
 
+Geben den Code ein um die Einrichtung mit dem Google Authenticator zu bestätigen.
 
-Fill in the code to confirm the Google Authenticator setup.
+<div align="center"><div style="width:65%;">{{< imagesurlsheaders "cloud/confirm.jpg" >}}</div></div>
 
-
-
-{{< imagesurlsheaders "cloud/confirm.jpg"  >}}
-
-
-
-And now you the next time you want to login you must use the token after you fill in your credentials.
-
-
+Und ab jetzt, wenn du dich das nächste Mal anmelden möchtest, muss nachdem die Anmeldeinformationen eingegeben wurden, auch der aktuelle Token eingetragen werden.
 
 {{< imagesurlsheaders "cloud/logincred.jpg"  >}}
 {{< imagesurlsheaders "cloud/logintoken.jpg"  >}}
 
+2) SMS Benachrichtigung
 
+<div align="center"><div style="width:65%;">{{< imagesurlsheaders "cloud/optionsms.jpg" >}}</div></div>
 
-2) sms notification  
+Und jetzt gebe deine Telefonnummer ein:
 
+<div align="center"><div style="width:65%;">{{< imagesurlsheaders "cloud/phonenumber.jpg" >}}</div></div>
 
+Klicke auf **Next** und du solltest einen Token via SMS erhalten haben.
 
-{{< imagesurlsheaders "cloud/optionsms.jpg"  >}}
+<div align="center"><div style="width:65%;">{{< imagesurlsheaders "cloud/2fa_sms5.jpg" >}}</div></div>
+<div align="center"><div style="width:65%;">{{< imagesurlsheaders "cloud/sms.jpeg" >}}</div></div>
 
+Den Token trage hier ein:
 
+<div align="center"><div style="width:65%;">{{< imagesurlsheaders "cloud/2fa_sms6.jpg" >}}</div></div>
 
-And now you fil in your phone number:
+Und jetzt, alles fertig und nichts weiter zu tun.
 
-
-
-
-
-{{< imagesurlsheaders "cloud/phonenumber.jpg"  >}}
-
-
-
-Press next and you should have received an sms  with an Token,  
-
-
-
-
-{{< imagesurlsheaders "cloud/2fa_sms5.jpg"  >}}
-{{< imagesurlsheaders "cloud/sms.jpeg"  >}}
-
-
-
-this token you fill in here:
-
-
-{{< imagesurlsheaders "cloud/2fa_sms6.jpg"  >}}
-
-
-
-and then,  
-Welcome all done and setup:
-
-
-{{< imagesurlsheaders "cloud/2fa_sms7.jpg"  >}}
-
+<div align="center"><div style="width:90%;">{{< imagesurlsheaders "cloud/2fa_sms7.jpg" >}}</div></div>
 
 #### [Next page Poseidon unique all-in-one platform]({{< ref "/PirlCloud/poseidon/unique_platform" >}})
-
 
 ---
 Author(s):
 
-
 @Dptelecom
-
 
 Contributor(s):

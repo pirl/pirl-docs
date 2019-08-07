@@ -13,25 +13,17 @@ chapter: true
 This Nautilus will be deprecated.  
 We advice to switch to the  
 [PirlApp]({{< ref "/PirlCloud/pirl app" >}})
-
 {{% /notice %}}
-
 
 Descarga aquí la Billetera Nautilus de Pirl-0.9.2 Linux [Downloads]({{< ref "/Downloads" >}})
 
-
 Descarga aquí la Billetera Nautilus de Pirl-0.9.2 MacOs [Downloads]({{< ref "/Downloads" >}})
 
-
 Descarga aquí la Billetera Nautilus de Pirl-0.9.2 Windows [Downloads]({{< ref "/Downloads" >}})
-
-
-
 
 ---
 Autor(s):
 
 @Dptelecom
-
 
 Contribuyente(s):

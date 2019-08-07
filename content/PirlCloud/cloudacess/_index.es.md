@@ -7,7 +7,7 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/Pirl_IPFSsmall.png" >}}
 
-## Almacenamiento Publico.
+## Almacenamiento Publico
 
 Descripción pronto.
 

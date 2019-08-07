@@ -5,46 +5,57 @@ pre: "<b>4. </b>"
 chapter: true
 ---
 
-## Overview
+{{< imagesurlsheaders "images_headers/wallet.png" >}}
 
-This guide will explain how to create and enter the most secure Pirl wallet on the Earth:
+## Einleitung
 
+In diesem Handbuch wird erklärt wie man das aktuell sicherste Pirl Wallet der Welt erstellen kann:
 
-## Prerequisites
+## Voraussetzungen
 
-For granting the success of this operation, you will need these requirements:
+Um den Erfolg dieser Operation zu gewährleisten benötigen man folgende Voraussetzungen:
 
-* Web explorer of your choice and an internet connection
-* Trezor Hardware wallet with the latest [Firmware update](https://blog.trezor.io/trezor-one-firmware-update-1-6-3-73894c0506d) and latest Bridge Firmware (your web browser will do this for you) update in your hand
-* This Firmware update will be carried out by Trezor.io/wallet web interface Don't worry. The update is only a few minor steps. You can do with the help of a guide and approx. 3 minutes of your time
-* Recommendation: Use antivirus like Kaspersky or another (full version if possible) cause Hardware Wallet + Antivirus = Win
+* Web Explorer deiner Wahl und eine Internetverbindung
+* Trezor Hardware Wallet mit dem letzten [Firmware update](https://blog.trezor.io/trezor-one-firmware-update-1-6-3-73894c0506d) und der letzten Bridge Firmware (dein Web Browser wird das für dich erledigen)
+* Dieses Firmware Update wird über die Trezor.io/Wallet Weboberfläche ausgeführt. Keine Sorge, das Update ist in wenigen Schritten erledigt. Du kannst das mit der Anleitung und 3 Minuten deines Lebens schaffen.
 
+{{% notice info %}}
+Nutze ein Antivirus wie zum Beispiel Kaspersky (Am besten in der Vollversion) weil ein Hardware Wallet + Antivirus = Win
+{{% /notice %}}
 
-## Steps
+## Schritte
 
-* Connect your Trezor with PC (make sure you did that update)
+* Verbinde den Trezor mit deinem PC (Stelle sicher du hast das Update durchgeführt)
 
-* Go [here](https://wallet.pirl.io/)
+* Gehe auf das [Web Wallet](https://wallet.pirl.io/)
 
 {{< imagesurlsheaders "cloud/Wallet_Page.JPG" >}}
-* The interface of this pages is similar to MyEther Wallet (MEW)
 
-* Click on "hardware wallet"(text written in red inside the yellow box)
+* Das Interface diese Seite ist ähnlich wie MyEtherWallet (MEW)
+
+* Klicke auf "hardware wallet" (siehe das Gelb eingekreiste)
+
 {{< imagesurlsheaders "cloud/ClickOnHardwareWaller.JPG" >}}
-* Interact with your Trezor and click out your pin
-{{< imagesurlsheaders "cloud/interactWithTrezor.JPG" >}}{{< imagesurlsheaders "cloud/trezorPin.JPG" >}}
 
-* The Trezor will generate 5 addresses for you. They are all yours. You can choose a one, or you can use them all as you please
+* Interagiere mit deinem Trezor und checke deinen PIN
+
+{{< imagesurlsheaders "cloud/interactWithTrezor.JPG" >}}
+{{< imagesurlsheaders "cloud/trezorPin.JPG" >}}
+
+* Der Trezor generiert 5 Adressen. Sie gehören alle dir und du kannst eine auswählen oder alle verwenden, wie du möchstest.
+
 {{< imagesurlsheaders "cloud/address.JPG" >}}
 
-* Select one particular address and write the address down
+* Wählen eine bestimmte Adresse und notiere diese Adresse
 
-* Now you have PIRL Web wallet secured by Trezor. Until you have your Trezor in your safe possession and your recovery Seed somewhere out of sight (two copies at least, each of them on a different location), your coins are secured well.
+* Jetzt hast du ein PIRL Web Wallet mit Trezor gesichert. Solange du deinen Trezor sicher und vielleicht auch außerhalb deiner Sichtweite hast, und mindestens zwei Exemplare, jedes an einem anderen Ort, sind deine Münzen gut gesichert.
 
-
---------
+---
 
 Author:
-_[Mickey Maler](https://twitter.com/MickeyMaler)_
+
+@Dptelecom
 
 Contributor(s):
+
+@packetflow

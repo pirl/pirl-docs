@@ -6,17 +6,13 @@ chapter: true
 ---
 {{< imagesurlsheaders "images_headers/wallet.png"  >}}
 
-
-
-## Überblick.
+## Überblick
 
 In diesem Handbuch wird erklärt wie du es herunterladen, verwenden und sichern kannst:
 
-
 {{< imagesurlsheaders "cloud/Uvod.JPG" >}}
 
-
-## Voraussetzungen.
+## Voraussetzungen
 
 Um den Erfolg dieses Vorganges zu gewährleisten benötigst du diese Voraussetzungen:
 
@@ -36,28 +32,46 @@ Um den Erfolg dieses Vorganges zu gewährleisten benötigst du diese Voraussetzu
 * Entpacke die Datei
 {{< imagesurlsheaders "cloud/UnzipExtractTheFolder.JPG" >}}
 * Tauchen ein, suche die Nautilus Wallet Anwendungsdatei und führe diese aus.
+
 {{< imagesurlsheaders "cloud/LocateNautilusApplication_file_and_runit.JPG" >}}
+
 * Erlaube diese Anwendung in deinem Windows Defender (Windows10)
+
 {{< imagesurlsheaders "cloud/IfWindowsDefenderPoPUp_RunTheProgramAnyway_TrustMe.JPG" >}}
+
 * Erlaube dem Nautilus Wallet in deinem Netzwerk zu kommunizieren (aber nicht an Flughäfen und so weiter; zu deiner Sicherheit)
+
 {{< imagesurlsheaders "cloud/LocateNautilusApplication_file_and_runit.JPG" >}}
 {{< imagesurlsheaders "cloud/AllowNautilusInyourWIndowsFirewall.JPG" >}}
+
 * Wenn die Installation beginnt, warte bis der Download-Manager den letzten Block erreicht hat. Dies wird eine Weile dauern.
+
 {{< imagesurlsheaders "cloud/waitFOrDownloadingBLOCK.JPG" >}}
+
 * Erstellen dein Konto indem du ein Passwort eingibst
+
 {{< imagesurlsheaders "cloud/AfterInstalationIsReadyYouwillbeinvitedtoCreatNewAccountByEnteringYourPassword.JPG" >}}
+
 * Wiederhole das Passwort zur Bestätigung
+
 {{< imagesurlsheaders "cloud/RepeatYourPasswordAsAValidityCHeck.JPG" >}}
+
 * Lese die Nautilus Anleitung und mache dir eine Notiz um später ein Backup des Wallets zu erstellen
+
 {{< imagesurlsheaders "cloud/ReadInstructionsAndMakeANoteForYOurSElfToBackUpYourKeystore.JPG" >}}
+
 * Das ist es mein Freund. Du bist drin.
+
 {{< imagesurlsheaders "cloud/FIRSTscreenInYOurWallet.JPG" >}}
+
 * Vergesse nicht dein Wallet zu sichern. Nur so kannst Du dein Wallet wiederherstellen wenn etwas unerwartetes passiert.
 * Gehe über das Menü zu Datei/Backup/Konten und kopiere alles was du dort findest an einem sicheren Ort. Du kannst einen USB-Stick oder eine externe Festplatte verwenden und diese sicher, am besten Offline und von deinem Computer entfernt aufbewahren
-{{< imagesurlsheaders "cloud/WelcomeTOYOurWAlletDoBAckUpOfYourAccount.jpg" >}}
-* Gehen im Menü über Datei/Backup/Anwendungsdaten und sichere auch die Dateien.
-### Fertig.
 
+{{< imagesurlsheaders "cloud/WelcomeTOYOurWAlletDoBAckUpOfYourAccount.jpg" >}}
+
+* Gehen im Menü über Datei/Backup/Anwendungsdaten und sichere auch die Dateien.
+
+### Fertig
 
 ---
 

@@ -13,25 +13,17 @@ chapter: true
 This Nautilus will be deprecated.  
 We advice to switch to the  
 [PirlApp]({{< ref "/PirlCloud/pirl app" >}})
-
 {{% /notice %}}
-
 
 Download here the Pirl Nautilus Wallet-0.9.2 Linux [Downloads]({{< ref "/Downloads" >}})
 
-
 Download here the Pirl Nautilus Wallet-0.9.2 MacOs [Downloads]({{< ref "/Downloads" >}})
 
-
 Download here the Pirl Nautilus Wallet-0.9.2 Windows [Downloads]({{< ref "/Downloads" >}})
-
-
-
 
 ---
 Author(s):
 
 @Dptelecom
-
 
 Contributor(s):
