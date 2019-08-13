@@ -92,7 +92,7 @@ disableToc: false
 >
 > Some VPS providers let you choose the geographic destination for your [VPS](https://en.wikipedia.org/wiki/Virtual_private_server) installation, which is a nice feature to spread the locations within the same provider. If you have a local provider in your country, fine, support them! If you feel that we need to list additional provider let us know!
 >
-> We would like to do on additional recommendation:
+> We would like to do an additional recommendation:
 
 <div align="center"><div style="width:55%;">
 
@@ -111,8 +111,10 @@ Distribute the [VPS](https://en.wikipedia.org/wiki/Virtual_private_server) geogr
 </div>
  ---
 
- Author(s):
+Author(s):
 
- @Dptelecom
+@Dptelecom
 
- Contributor(s):
+Contributor(s):
+
+@packetflow
