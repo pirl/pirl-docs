@@ -1,5 +1,5 @@
 ---
-title: Marketing Proposal Bounty
+title: Marketing Vorschlag Bounty
 weight: 2
 pre: "<b>2. </b>"
 chapter: true
@@ -7,43 +7,43 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/marketing.png" >}}
 
-## Introduction
+## Einleitung
 
-### Bounty Reward - 100 PIRL
+### Bounty Belohnung - 100 PIRL
 
-A major part of the Pirl marketing is relaying on the team and the community.
+Ein großer Teil des Pirl Marketings hängt vom Team aber auch der Community ab.
 
-We have identified a lot of fresh and thoughtful ideas coming from the Pirlians!
+Wir haben bereits viele frische und zum nachdenken anregende Ideen der Pirlians erhalten!
 
-We would like to turn this into a process and reward your contribution!
+Daraus möchten wir einen Prozess machen und Beiträge belohnen!
 
-## Requirements
+## Anforderungen
 
-- Detail the proposal as much as possible!
+- So viele Details wie möglich zum deinem Vorschlag!
 
-- Include budgets - Do not forget, we are in a bear market and have no ICO. Proposals that can be carried with own efforts or budgets in PIRL will be prefered!
+- Budgets einbeziehen - Vergesse nicht wir befinden uns in einem Bärenmarkt und haben keinen ICO. Vorschläge die mit eigenem Aufwand oder Budget in PIRL durchgeführt werden können werden bevorzugt!
 
-- Use common sense! Keep it realistic!
+- Verwende gesunden Menschenverstand! Halte es realistisch!
 
-### How
+### Wie
 
-- Make a copy or download the [template](https://docs.google.com/document/d/1LVEAML2oLC2eHee72cmlZ1T-yTH56anE6WBncbOd4kw/edit?usp=sharing)
+- Erstelle eine Kopie oder lade die [Vorlage](https://docs.google.com/document/d/1LVEAML2oLC2eHee72cmlZ1T-yTH56anE6WBncbOd4kw/edit?usp=sharing)
 
-- Fill In the details of your proposal!
+- Fülle die Details deines Vorschlags aus!
 
-- Contact @Fawkes on Discord to submit! [Join Discord](https://discord.gg/3WXkUt9)
+- Kontaktiere @Dptelecom | Official PirlTeam#7828 im Discord zum einreichen! [Discord beitreten](https://discord.gg/3WXkUt9)
 
-- Receive your bounty!
+- Erhalte deine Belohnung!
 
-## Disclaimer
+## Ablehnungshinweis
 
-Pirl Team has the right to disapprove
+Das Pirl Team hat das Recht zu missbilligen.
 
-- 1. Proposals with Insufficient details
+- Vorschläge mit unzureichenden Details
 
-- 2. Unrealistic Proposals
+- Unrealistische Vorschläge
 
-- 3. Proposals which are not submitted in the requested format
+- Vorschläge die nicht im gewünschten Format eingereicht werden
 
 ---
 Author(s):  
@@ -53,3 +53,4 @@ Author(s):
 Contributor(s):  
 
 @Dptelecom
+@packetflow

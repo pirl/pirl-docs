@@ -31,7 +31,7 @@ We would like to turn this into a process and reward your contribution!
 
 - Fill In the details of your proposal!
 
-- Contact @Fawkes on Discord to submit! [Join Discord](https://discord.gg/3WXkUt9)
+- Contact @Dptelecom | Official PirlTeam#7828 on Discord to submit! [Join Discord](https://discord.gg/3WXkUt9)
 
 - Receive your bounty!
 
@@ -39,11 +39,11 @@ We would like to turn this into a process and reward your contribution!
 
 Pirl Team has the right to disapprove
 
-- 1. Proposals with Insufficient details
+- Proposals with Insufficient details
 
-- 2. Unrealistic Proposals
+- Unrealistic Proposals
 
-- 3. Proposals which are not submitted in the requested format
+- Proposals which are not submitted in the requested format
 
 ---
 Author(s):  
