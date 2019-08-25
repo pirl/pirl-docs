@@ -31,7 +31,7 @@ Daraus möchten wir einen Prozess machen und Beiträge belohnen!
 
 - Fülle die Details deines Vorschlags aus!
 
-- Kontaktiere @Dptelecom | Official PirlTeam#7828 im Discord zum einreichen! [Discord beitreten](https://discord.gg/3WXkUt9)
+- Zum einreichen kontaktiere @Dptelecom | Official PirlTeam#7828 im Discord! [Discord beitreten](https://discord.gg/3WXkUt9)
 
 - Erhalte deine Belohnung!
 

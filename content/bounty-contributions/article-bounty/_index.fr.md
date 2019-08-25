@@ -7,9 +7,7 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/article.png" >}}
 
-
 ## Introduction
-
 
 Récompenses - 100 - 200 PIRL  
 
@@ -17,9 +15,7 @@ De nombreux talents en écriture se sont manifestés sur les terres de PIRL
 Partage de leurs écrits sur le projet et la technologie associée.  
 Nous aimerions récompenser votre contribution à la sensibilisation et à l’éducation des personnes intéressées par Pirl et tout ce qui a un rapport!
 
-
 ## Exigences
-
 
 - Les articles doivent faire plus de 200 mots
 - Les articles doivent être publiés sur un média tiers - Blog/ Support / Site Web / Steemit
@@ -27,7 +23,6 @@ Nous aimerions récompenser votre contribution à la sensibilisation et à l’�
 - Toutes les langues sont acceptées
 
 ## Comment
-
 
 - Ecrire un article relatif à Pirl
 
@@ -37,22 +32,17 @@ Nous aimerions récompenser votre contribution à la sensibilisation et à l’�
 
 ### Avertissement
 
-
 Pirl Team a le droit de désapprouver.
 
 - Article de mauvaise qualité.
 - Article avec des informations incorrects.
 - Article non conformes aux exigences.
 
-
 ---
 Author(s):
 
-
 @dptelecom
 
-
 Contributor():
-
 
 @ClaudioPirl
