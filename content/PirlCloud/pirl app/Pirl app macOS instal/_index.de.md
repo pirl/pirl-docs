@@ -1,5 +1,5 @@
 ---
-title: PirlApp macOS install
+title: PirlApp macOS Installation
 weight: 2
 pre: "<b>2. </b>"
 chapter: true
@@ -8,52 +8,51 @@ chapter: true
 {{< imagesurlsheaders "images_headers/pirlapp.png"  >}}
 
 ### Download
-Download here the PirlApp for MacOs
+Downloade hier die PirlApp für MacOs
 [Downloads]({{< ref "/Downloads" >}})
 
-### Pirl app macOS install
+### PirlApp macOS Installation
 
-If your done downloading the PirlApp.dmg go to your download folder and find the PirlApp
+Sobald der Download von PirlApp.dmg fertig ist gehe in den Ordner und finde die PirlApp Datei:
 
 {{< imagesurlsheaders "cloud/pirlappinstall1.jpg"  >}}
 
-There you will find *PirlApp.dmg*:
+Dort solltest du die Datei **PirlApp.dmg** finden:
 
 {{< imagesurlsheaders "cloud/pirlappinstall2.jpg"  >}}
 
-**Double click** it to start the installation:
-When the installation starts you get this:
+**Doppelklick** und starte die Installation. Wenn die Installation startet, erhälst du folgendes:
 
 {{< imagesurlsheaders "cloud/pirlappinstall5.jpg"  >}}
 
-And next you get the *terms of the license*
-Press *Agree to install*
+Und als nächstes siehst du die **terms of the license**
+klick auf **Agree** to install
 
 {{< imagesurlsheaders "cloud/pirlappinstall3.jpg"  >}}
 
-next you see this:
-**Drag PirlApp to the Applications folder**
+Als nächstes siehst du dies:
+**Ziehe PirlApp in den Anwendungsordner**
 
 {{< imagesurlsheaders "cloud/pirlappinstall6.jpg"  >}}
 
-Installation starts:
+Die Installation startet:
 
 {{< imagesurlsheaders "cloud/pirlappinstall7.jpg"  >}}
 
-And your done!
-If you now open **Launchpad** you will find the PirlApp there:
+Und du bist fertig!
+Wenn du jetzt das **Launchpad** öffnest, ist die PirlApp dort:
 
 {{< imagesurlsheaders "cloud/pirlappinstall8.jpg"  >}}
 
 {{< imagesurlsheaders "cloud/pirlappinstall9.jpg"  >}}
 
-Now you can open it and proceed to:
+Jetzt kannst du die PirlApp öffnen und fortfahren mit dem:
 
 #### [PirlApp Guide]({{< ref "/PirlCloud/pirl app/Pirl app guide" >}})
 
-## Warning
+## Warnung
 
-for Mac you have to put PirlApp in application folder or otherwise you get this error:
+Für Mac muss PirlApp in den Anwendungsordner gelegt werden, sonst kommt folgende Fehlermeldung:
 
 {{< imagesurlsheaders "cloud/java.jpg"  >}}
 
@@ -63,3 +62,5 @@ Author(s):
 @dptelecom
 
 Contributor():
+
+@packetflow
