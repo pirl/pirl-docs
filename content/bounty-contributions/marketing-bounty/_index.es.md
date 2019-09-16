@@ -31,7 +31,7 @@ Una parte importante del marketing de Pirl es la retransmisión en el equipo y l
 
 - Rellene los detalles de su propuesta!
 
-- Contacta @Fawkes en Discord para enviar! [Únete al Discord](https://discord.gg/3WXkUt9)
+- Contacta @Dptelecom | Official PirlTeam#7828 en Discord para enviar! [Únete al Discord](https://discord.gg/3WXkUt9)
 
 - ¡Recibe tu recompensa!
 

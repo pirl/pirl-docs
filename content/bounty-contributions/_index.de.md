@@ -7,18 +7,18 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/bounty.png"  >}}
 
-If you are an active part of the Pirl Community and would like to contribute to the project.
+Wenn du ein aktiver Teil der Pirl Community bist und einen Beitrag zum Projekt leisten möchtest.
 
-We would like to welcome you to our Bounty & Contribution initiatives where you can both
-put your talent to user, help us grow and get rewarded for it!
+Wir möchten dich zu unseren Bounty & Contribution-Initiativen begrüßen, wo du dein Talent einsetzen kannst.
+Helfe uns zu wachsen und werde dafür belohnt!
 
-### Our currently open Bounty Campaigns:
+### Unsere aktuell offenen Bounty Kampagnen
 
-#### 1.) [Article-Bounty]({{< ref "/bounty-contributions/article-bounty" >}})
+#### 1.) [Artikel-Bounty]({{< ref "/bounty-contributions/article-bounty" >}})
 
 #### 2.) [Marketing-Bounty]({{< ref "/bounty-contributions/marketing-bounty" >}})
 
- For Questions, please  [Join Discord](https://discord.gg/3WXkUt9)
+Für Fragen, [Discord Beitreten](https://discord.gg/3WXkUt9)
 
  ![](https://pirl.live/ipfs/QmXNSTqEvXohUdLDhcXAApEbZq9uehAW4DY8TbermihLvb)
 
@@ -30,3 +30,4 @@ Author(s):
 Contributor(s):  
 
 @Dptelecom
+@packetflow

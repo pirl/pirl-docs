@@ -20,7 +20,7 @@ Para garantizar el éxito de esta operación, necesitará estos requisitos:
 * Conexión a Internet
 * Descargue aquí la PirlApp para Windows [Descargas] ({{<ref "/Downloads">}})
 * Descargue aquí la PirlApp para MAC [Descargas] ({{<ref "/Downloads">}})
-* Al menos 0,25 PIRL (enviaremos 0,2 como tarifa de activación, como gas) a su billetera [Nautilus] (https://pirl.io/en/nautilus-wallet/), o cualquiera otra billetera de su elección, incluso una billetera de intercambio como [Cryptopia] (https://www.cryptopia.co.nz).
+* Al menos 0,25 PIRL (enviaremos 0,2 como tarifa de activación, como gas) a su billetera [Nautilus] (https://pirl.io/en/nautilus-wallet/), o cualquiera otra billetera de su elección, incluso una billetera de intercambio como [Stex](https://www.stex.com).
 
 ## Acción!
 

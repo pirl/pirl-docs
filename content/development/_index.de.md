@@ -9,7 +9,7 @@ chapter: true
 
 ## Aktualisierungen über die Entwicklung von Pirl
 
-Updates about development for Pirl can be found on the next pages.
+Aktualisierungen zur Entwicklung von Pirl finden sich auf den nächsten Seiten.
 
 #### 1.) [Core]({{< ref "/development/core" >}})
 
@@ -22,4 +22,5 @@ Author(s):
 
 Contributor():
 
-Fawkes thanks buddy for making the header-banner
+@Fawkes (thanks buddy for making the header-banner)
+@packetflow

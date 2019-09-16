@@ -1,5 +1,5 @@
 ---
-title: Article Bounty
+title: Artikel Bounty
 weight: 1
 pre: "<b>1. </b>"
 chapter: true
@@ -7,45 +7,43 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/article.png" >}}
 
+## Einleitung
 
-## Introduction
+### Bounty Belohnung - 100-200 PIRL
 
-### Bounty Reward - 100-200 PIRL
+Im Pirl Unisersum sind viele Schreibtalente zu sehen.
 
-Many writing talents have being showing around the Pirl lands.
+Teile deine schriftlichen Arbeiten über das Projekt und die damit verbundene Technologie.
 
-Sharing their written pieces about the project and its related technology.
+Wir möchten deine Beiträge belohnen, die zur Sensibilisierung und Aufklärung von Menschen dient, die sich für Pirl interessieren und für alles was damit zu tun hat!
 
-We would like reward your contribution on raising awareness and educating people interested in Pirl and anything related!
+## Anforderungen
 
-## Requirements
+- Artikel müssen länger als 200 Wörter sein
 
-- Articles must be longer than 200 words
+- Artikel müssen auf Medien von Drittanbietern veröffentlicht werden - Blog/Medium/Website/Steemit
 
-- Articles must be posted on a 3rd party media - Blog/Medium/Website/Steemit
+- Jedes Thema wird akzeptiert, sofern es sich auf Blockchain-Technologie und Pirl bezieht
 
-- Any subject accepted as long as its related to blockchain technology and Pirl
+- Artikel in beliebigen Sprachen werden akzeptiert
 
-- Any language articles accepted
+## Wie
 
-## How
+- Schreibe einen Artikel über Pirl
 
-- Write an article related to Pirl
+- Zum einreichen kontaktiere @Dptelecom | Official PirlTeam#7828 im Discord! [Discord beitreten](https://discord.gg/3WXkUt9)
 
-- Contact @Fawkes on Discord to submit! [Join Discord](https://discord.gg/3WXkUt9)
+- Erhalte deine Belohnung!
 
-- Receive your bounty!
+### Ablehnungshinweis
 
-### Disclaimer
+Das Pirl Team hat das Recht zu missbilligen:
 
-Pirl Team has the right to disapprove:
+- Artikel von geringer Qualität
 
--  Low quality articles.
+- Artikel mit falschen Angaben
 
--  Articles with incorrect information.
-
--  Articles that do not comply with the requirements.
-
+- Artikel die nicht den Anforderungen entsprechen
 
 ---
 Author(s):  
@@ -55,3 +53,4 @@ Author(s):
 Contributor(s):  
 
 @Dptelecom
+@packetflow

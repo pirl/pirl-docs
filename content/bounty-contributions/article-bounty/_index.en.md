@@ -7,7 +7,6 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/article.png" >}}
 
-
 ## Introduction
 
 ### Bounty Reward - 100-200 PIRL
@@ -40,12 +39,11 @@ We would like reward your contribution on raising awareness and educating people
 
 Pirl Team has the right to disapprove:
 
--  Low quality articles.
+- Low quality articles.
 
--  Articles with incorrect information.
+- Articles with incorrect information.
 
--  Articles that do not comply with the requirements.
-
+- Articles that do not comply with the requirements.
 
 ---
 Author(s):  

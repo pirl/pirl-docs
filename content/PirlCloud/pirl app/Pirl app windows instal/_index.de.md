@@ -9,82 +9,82 @@ chapter: true
 
 ## Einleitung
 
-This guide will explain how to download, setup and register your:
+In diesem Guide wird erklärt wie du die App herunterladen, einrichten und registrieren kannst:
 
 {{< imagesurlsheaders "cloud/pirlapp21.jpg" >}}
 
-## Prerequisites
+## Voraussetzungen
 
-For granting the success of this operation, you will need these requirements:
+Um den Erfolg dieser Operation zu gewährleisten müssen folgende Voraussetzungen erfüllt sein:
 
-* Internet connection
-* Download here the PirlApp for Windows [Downloads]({{< ref "/Downloads" >}})
-* Download here the PirlApp for MAC [Downloads]({{< ref "/Downloads" >}})
-* At least 0,25 PIRL (we will be sending 0,2 as an activation fee, required as a gas) at your [Nautilus](https://pirl.io/en/nautilus-wallet/) wallet, or any other wallet of your choice, even a wallet from exchange like [Cryptopia](https://www.cryptopia.co.nz).
+* Internet Verbindung
+* Downloade hier die PirlApp für Windows [Downloads]({{< ref "/Downloads" >}})
+* Downloade hier die PirlApp für MAC [Downloads]({{< ref "/Downloads" >}})
+* Mindestens 0,25 PIRL (Wir werden 0,2 PIRL als eine Aktivierungsgebühr senden, erforderlich als gas) in deinem [Nautilus](https://pirl.io/en/nautilus-wallet/) Wallet, oder jedes andere Wallet deiner Wahl, auch von einem Exchange Wallet wie [Stex](https://www.stex.com).
 
 ## Action!
 
-* GO to the location where you just downloaded installation package for PirlApp
-* Unzip/Extract downloaded package to your desired destination
+* Wechsel zu dem Speicherort an dem du gerade das Installationspaket für die PirlApp heruntergeladen hast
+* Entpacke/Extrahiere das heruntergeladene Paket zum gewünschten Ziel
 
 {{< imagesurlsheaders "cloud/unziped.PNG"  >}}
 
-* Take a look into downloaded unzipped folder and Search for PirApp.exe
+* Schaue in den Ordner in dem die heruntergeladenen Dateien liegen und suche nach PirApp.exe
 
 {{< imagesurlsheaders "cloud/pirpAppInFile.PNG"  >}}
 
-* Create your account right on the first screen by writing down your Password
+* Erstelle auf dem ersten Bildschirm ein Konto und notiere dein Passwort
 
 {{< imagesurlsheaders "cloud/writeDownYOurPasswprd.PNG"  >}}
 
-* Confirm password by rewriting him once more time and hit Create button
-* And Green Rectangle with an Key icon will pop up above an area where did you just put your password. Nice. This is your nameless Account
+* Bestätige das Passwort indem es erneut eingeben wird und klicke auf die Schaltfläche **Create**
+* Und ein grünes Rechteck mit einem Schlüsselsymbol wird über einem Bereich angezeigt, in dem du gerade dein Passwort eingegeben hast. Super! Dies ist dein namenloser Account
 
 {{< imagesurlsheaders "cloud/JdemetoPojmenovat.JPG"  >}}
 
-* Click on the created account (don't click on create button again) and fill down your Account name (For example "IamKing" or "Mickey") and sign down by typing your Password again
+* Klicke auf das erstellte Konto (klicke **nicht erneut** auf die Schaltfläche **Erstellen**) und geben einen Kontonamen ein (z. B. "IamKing" oder "Mickey"). Melde dich an, indem das Passwort erneut eingeben wird
 
 ![](/PirlCloud/pirl app/Pirl app windows instal/images/creation_on_Accoun_name_+_password__hit_register.PNG)
 
-* If you write everything correctly, your account will be registered by your account name, but a red warning label will pop up in the lower section of your screen. Don't worry, its ok. This error only lets you know that you have no funds in your app and you are low on gas, which is a need for successful running
+* Wenn du alles richtig eingegeben hast, wird das Konto mit dem Kontonamen registriert, aber im unteren Bereich des Bildschirms wird ein roter Warnaufkleber angezeigt. Keine Sorge, es ist in Ordnung. Dieser Fehler zeigt nur an, dass du kein Guthaben in der App auf dem Konto ist und wenig Gas zur Verfügung haben. Dies ist jedoch eine Voraussetzung für eine erfolgreiche Ausführung der App.
 
 {{< imagesurlsheaders "cloud/Low_gas_error_will_pop_out.PNG"  >}}
 
-* Click on the Copy Address button right next to your created account or  highlight it with Left mouse slide and use CTRL+C
+* Klicke auf die Schaltfläche Adresse kopieren direkt neben Ihrem erstellten Konto oder markiere es mit der linken Maustaste und drücke STRG+C
 
 {{< imagesurlsheaders "cloud/copyAdress.JPG"  >}}
 
-* Go into your Nautilus wallet (or any wallet you have some Pirl loaded in) and do a "registration" micro transaction
+* Gehen in das Nautilus-Wallet (oder in jedes Wallet, in die du PIRL hast) und führe eine "Registrierungs" -Mikrotransaktion durch
 
 {{< imagesurlsheaders "cloud/nautilusPlocha.JPG"  >}}
 
-* Manage to send PIRL into your wallet. I will show you how to do it from Nautilus Pirl Wallet. If you are in; hit Send
+* Sende PIRL in dein Wallet. Wir zeigen dir wie es mit dem Nautilus-Wallet geht. Wenn du drin bist; drücke **Senden**
 
 {{< imagesurlsheaders "cloud/InsideOfNautilus.JPG"  >}}
 
-* Use address you have copied for sending 0,2 PIRL from your Nautilus(or any) wallet into your PirlApp. Generate transaction and Send
+* Verwende eine Adresse aus deinem Nautilus-Wallet für das Senden von 0,2 PIRL (oder einem beliebigen Wallet) in die PirlApp. Transaktion generieren und senden
 
 {{< imagesurlsheaders "cloud/sentStartingFee.JPG"  >}}
 
-* Check if it is everything all right in your books and confirm with your password
+* Prüfen ob in deinen Büchern alles in Ordnung ist und bestätige mit deinem Passwort
 
 {{< imagesurlsheaders "cloud/checkSend.JPG"  >}}
 
-* Everything will be done in a few minutes, so take a break and relax for a while in your chair
+* In wenigen Minuten ist alles erledigt. Mache eine kleine Pause und entspannen dich auf deinem Stuhl
 
 {{< imagesurlsheaders "cloud/Actual_status.JPG"  >}}
 
-* _* ...3 minutes later and few blocks higher... *_ Yes, right now you can go to your PirlApp and Get in
+* _*... 3 Minuten später und einige Blocks höher ...*_ Ja, jetzt kannst du zu deiner PirlApp gehen und einsteigen
 
 {{< imagesurlsheaders "cloud/rocky.JPG"  >}}
 
-* Enter your Account and write down the Login name and password. Hit the Register button
+* Gebe deinen Account ein und schreibe den Login-Namen und das Passwort. Klicke auf die Schaltfläche **Register**
 
 {{< imagesurlsheaders "cloud/creation_on_Accoun_name_+_password__hit_register.PNG" >}}
 
 {{< imagesurlsheaders "cloud/almost.JPG"  >}}
 
-* Congratulation, you have just joined the future. Enjoy PirlTube and all that nasty stuff from PIRL which will be knocking on your browser soon!
+* Glückwunsch, du hast dich gerade der Zukunft angeschlossen. Viel Spaß mit PirlTube und all den Dingen von PIRL, die in Kürze in deinem Browser oder auf anderen Geräten erscheinen werden!
 
 {{< imagesurlsheaders "cloud/done.JPG"  >}}
 
@@ -92,8 +92,9 @@ For granting the success of this operation, you will need these requirements:
 
 Author(s):
 
-Test.Object. 001 (Also know as Mickey Maler)
+Test.Object.001 (Also know as Mickey Maler)
 
 Contributor():
 
 @dptelecom
+@packetflow

@@ -20,7 +20,7 @@ For granting the success of this operation, you will need these requirements:
 * Internet connection
 * Download here the PirlApp for Windows [Downloads]({{< ref "/Downloads" >}})
 * Download here the PirlApp for MAC [Downloads]({{< ref "/Downloads" >}})
-* At least 0,25 PIRL (we will be sending 0,2 as an activation fee, required as a gas) at your [Nautilus](https://pirl.io/en/nautilus-wallet/) wallet, or any other wallet of your choice, even a wallet from exchange like [Cryptopia](https://www.cryptopia.co.nz).
+* At least 0,25 PIRL (we will be sending 0,2 as an activation fee, required as a gas) at your [Nautilus](https://pirl.io/en/nautilus-wallet/) wallet, or any other wallet of your choice, even a wallet from exchange like [Stex](https://www.stex.com).
 
 ## Action!
 

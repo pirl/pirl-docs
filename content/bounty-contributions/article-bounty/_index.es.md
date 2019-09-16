@@ -7,7 +7,6 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/article.png" >}}
 
-
 ## Introducción
 
 ### Bono de Recompesa  - 100-200 PIRL
@@ -40,12 +39,11 @@ Compartiendo sus piezas escritas sobre el proyecto y su tecnología relacionada.
 
 Pirl Team tiene el derecho de desaprobar:
 
--  Artículos de baja calidad.
+- Artículos de baja calidad.
 
--  Artículos con información incorrecta.
+- Artículos con información incorrecta.
 
--  Artículos que no cumplan con los requisitos.
-
+- Artículos que no cumplan con los requisitos.
 
 ---
 Autor(s):  

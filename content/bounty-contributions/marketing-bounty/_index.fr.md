@@ -31,17 +31,20 @@ Détaillez la proposition autant que possible!
 
 - Remplissez les details de votre propositions!
 
-- Contactez @Fawkes sur le discord pour lui soumettre!  
+- Contactez @Dptelecom | Official PirlTeam#7828 sur le discord pour lui soumettre!  
  [Rejoindre Discord](https://discord.gg/3WXkUt9)
 
 - Recevez votre prime!
 
 ## Avertissement
 
-Pirl Team à le droit de désapprouver  
-- 1. Propositions avec détails insuffisants
-- 2. Propositions irréalistes  
-- 3. Propositions qui ne sont pas soumises dans le format demandé  
+Pirl Team à le droit de désapprouver
+
+- Propositions avec détails insuffisants
+
+- Propositions irréalistes
+
+- Propositions qui ne sont pas soumises dans le format demandé  
 
 ---
 Author(s):
