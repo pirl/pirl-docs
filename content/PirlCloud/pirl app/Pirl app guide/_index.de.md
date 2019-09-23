@@ -7,108 +7,108 @@ chapter: true
 
 {{< imagesurlsheaders "images_headers/pirlapp.png" >}}
 
-## Overview
+## Überblick
 
-This guide will explain how you setup the:
+In dieser Anleitung wird erklärt wie du folgendes einrichtest:
 
 {{< imagesurlsheaders "cloud/pirlapp21.jpg" >}}
 
-## Prerequisites
+## Voraussetzungen
 
-Download here the PirlApp for MacOs:
+Downloade hier die PirlApp für MacOs:
 [Downloads]({{< ref "/Downloads" >}})
 
-Download here the PirlApp for Windows
+Downloade hier die PirlApp für Windows
 [Downloads]({{< ref "/Downloads" >}})
 
-## Install the PirlApp
+## Installation der PirlApp
 
-**Go to the folder where you downloaded the PirlApp**
+**Gehe zu dem Ordner in den du die PirlApp heruntergeladen hast**
 
-guide on how to install PirlApp can be found here:
+Eine Anleitung zur Installation der PirlApp ist hier zu finden:
 
 #### 1.) [PirlApp Windows install]({{< ref "/PirlCloud/pirl app/Pirl app windows instal" >}})
 
 #### 2.) [PirlApp macOs install]({{< ref "/PirlCloud/pirl app/Pirl app macOS instal" >}})
 
-and run the  installer.
+und starte die Installation.
 
-## Setup the PirlApp
+## Setup der PirlApp
 
-Open the PirlApp:
+Öffne die PirlApp:
 
 {{< imagesurlsheaders "cloud/pirlapp2.jpg" >}}
 
-The welcome sreen:
+Der Begrüßungsbildschirm:
 
 {{< imagesurlsheaders "cloud/pirlapp3.jpg" >}}
 
-## Create the account for using the PirlApp
+## Erstellen das Konto für die Verwendung der PirlApp
 
-Fill in a *password* you want to use (and write it down somewhere for your self)
+Gebe ein *Passwort* ein das du verwenden möchtest (und notiere es)
 
 {{< imagesurlsheaders "cloud/pirlapp22.jpg" >}}
 
-And hit *create*
+Klicke auf *create*
 
 {{< imagesurlsheaders "cloud/pirlapp15.jpg" >}}
 
-## And now we get the following error at the bottom off the screen
+## Und jetzt erhalten wir den folgenden Fehler am unteren Rand des Bildschirms
 
 {{< imagesurlsheaders "cloud/pirlapp5.jpg" >}}
 
-**This is normal don't worry!!**
-you get this because there are no funds at the wallet,
-to pay for the gas you need to activate the contract.
+**Das ist normal, keine Sorge !!**
 
-and now we cone fix this by sending an x amount to the wallet
-in this example we do 0.2 Pirl.
+Du bekommst die Meldung, weil es kein PIRL in deinem Wallet gibt,
+du benötigst ein wenig Gas um den Smart Contract zu aktivieren.
 
-The first step is to copy the key/wallet address:
+Das können wir beheben, indem du einen x-Betrag an dein Wallet sendest.
+In diesem Beispiel senden wir 0.2 Pirl.
+
+Der erste Schritt ist das Kopieren der Wallet-Aadresse:
 
 {{< imagesurlsheaders "cloud/pirlapp6.jpg" >}}
 
-Now you  go to your wallet and transfer 0.2 or any other amount you want to the key/wallet address we just copied
+Jetzt gehe zu deinem Wallet und überweise 0.2 PIRL oder einen anderen Betrag den du möchtest, an die Wallet-Adresse die wir gerade kopiert haben.
 
 {{< imagesurlsheaders "cloud/pirlapp7.jpg" >}}
 
-if you want to verify if the funds are in you can go to the  [explorer](https://devexplorer.pirl.io/home  "explorer")
+Wenn du überprüfen möchtest ob das Guthaben vorhanden ist, gehen zum [explorer](https://devexplorer.pirl.io/home  "explorer")
 
-and fill in the same key/wallet address we just copied and you will see this:
+Und gebe die gleiche Wallet-Adresse ein, die wir gerade kopiert haben und du wirst dieses sehen:
 
 {{< imagesurlsheaders "cloud/pirlapp10.jpg" >}}
 
-**now we wait until the funds are in:**
+**Jetzt warten wir bis der Betrag eingegangen ist:**
 
 {{< imagesurlsheaders "cloud/pirlapp11.jpg" >}}
 
-## continue the creating of the account
+## Fahre mit der Erstellung des Kontos fort
 
-we go back to the *PirlApp*
-**  DO NOT HIT CREATE AGAIN!!!**
-because this makes an extra key/wallet address
-and than it looks like this:
+Wir gehen zurück zur *PirlApp*
+**DRÜCKE NICHT NOCH MAL -> CREATE!!!**
+Weil dieses eine zusätzliche Wallet-Adresse ergibt und dann sieht es so aus:
 
 {{< imagesurlsheaders "cloud/pirlapp24.jpg" >}}
 
-instead you press the first key/wallet address we want to activate,
-you also can see there are funds in now ;-)
+Stattdessen klicke auf die Wallet-Adresse, die du aktivieren möchtest.
+Du kannst nun sehen das es Guthaben gibt ;-)
 
 {{< imagesurlsheaders "cloud/pirlapp25.jpg" >}}
 
-After you press it you will be prompted to fill in the Username and the password we created earlier:
+Nachdem du darauf geklickt hast wirst du aufgefordert den Benutzernamen und das Passwort einzugeben, gebe die Daten ein, die wir zuvor erstellt haben:
 
 {{< imagesurlsheaders "cloud/pirlapp8.jpg" >}}
 
-Press register and there we go we got enough gas to proceed now:
+Klicke **Register** und los geht's, wir haben genug Gas um weiterzumachen:
 
 {{< imagesurlsheaders "cloud/pirlapp12.jpg" >}}
 
-and then magic happens and we can go on:
+Und dann passiert Magie und wir können weitermachen:
 
 {{< imagesurlsheaders "cloud/pirlapp14.jpg" >}}
 
-## Finally we now get this very sexy Dashboard and we are clear to go!!
+## Endlich haben wir dieses sehr sexy Dashboard und es kann losgehen!!
 
 {{< imagesurlsheaders "cloud/pirlapp17.jpg" >}}
 
@@ -118,3 +118,5 @@ Author(s):
 @dptelecom
 
 Contributor():
+
+@packetflow

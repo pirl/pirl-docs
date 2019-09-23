@@ -41,7 +41,7 @@ Open the PirlApp:
 
 {{< imagesurlsheaders "cloud/pirlapp2.jpg" >}}
 
-The welcome sreen:
+The welcome screen:
 
 {{< imagesurlsheaders "cloud/pirlapp3.jpg" >}}
 
@@ -63,14 +63,14 @@ And hit *create*
 you get this because there are no funds at the wallet,
 to pay for the gas you need to activate the contract.
 
-and now we cone fix this by sending an x amount to the wallet
+and now we can fix this by sending an x amount to the wallet
 in this example we do 0.2 Pirl.
 
 The first step is to copy the key/wallet address:
 
 {{< imagesurlsheaders "cloud/pirlapp6.jpg" >}}
 
-Now you  go to your wallet and transfer 0.2 or any other amount you want to the key/wallet address we just copied
+Now you go to your wallet and transfer 0.2 or any other amount you want to the key/wallet address we just copied
 
 {{< imagesurlsheaders "cloud/pirlapp7.jpg" >}}
 
