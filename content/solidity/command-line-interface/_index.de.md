@@ -1,5 +1,5 @@
 ---
-title: Kommandozeilen Interface
+title: Command Line Interface
 weight: 3
 pre: "<b>3. </b>"
 chapter: true
