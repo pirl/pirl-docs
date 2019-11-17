@@ -7,13 +7,13 @@ chapter: true
 
 <html>
   <head>
-    <title>https://pirl.live/ipns/QmVKFJs81erni4KV6Hzt2xVwGtC2P1WtE9A4MxNThFVFVh/en/pirlchat/</title>
-    <link rel="canonical" href="https://support.pirl.io/hc/en-us/categories/360000297678-PirlChat"/>
-    <meta name="robots" content="noindex">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta http-equiv="refresh" content="0; url=https://support.pirl.io/hc/en-us/categories/360000297678-PirlChat"/>
+    <meta http-equiv="refresh" content="0; URL='https://support.pirl.io/hc/en-us/categories/360000297678-PirlChat'" />
   </head>
 </html>
+
+
+
+
 
 
 
