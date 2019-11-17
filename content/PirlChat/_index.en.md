@@ -21,10 +21,6 @@ chapter: true
 
 
 
-
-
-
-
 <img src="https://pirl.live/ipfs/Qmf9USzmQDxTzbMzRj3gW6sHnDHPUH1WttYSwsaLwG1orT" style="width:55%;">
 
 ## Overview.
