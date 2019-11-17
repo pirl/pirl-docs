@@ -9,7 +9,6 @@ draft: true
 All images in these folders cloud for general images and headers for ........
 
 
-
 ---
 Author(s):
 
