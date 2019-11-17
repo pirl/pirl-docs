@@ -1,5 +1,5 @@
 ---
-title: Press Releases
+title: Press releases
 weight: 6
 pre: "<b>5. </b>"
 chapter: true
