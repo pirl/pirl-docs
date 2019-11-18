@@ -42,6 +42,11 @@ Pirl is a community-centric blockchain platform, utilizing a globally distribute
 
 #### 13.) [Bounty & Contributions]({{< ref "/bounty-contributions" >}})
 
+#### 14.) [PirlChat]({{< ref "/PirlChat" >}})
+
+
+
+
 ---
 Author(s):
 
