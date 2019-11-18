@@ -25,8 +25,6 @@ chapter: true
 
 
 
-
-
 ---
 Author(s):
 
