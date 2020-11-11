@@ -58,7 +58,6 @@ sudo ntpq -p
 >
 
 
-<br></br>
 ## Building and Installing the pirl Binary
 
 

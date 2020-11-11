@@ -4,4 +4,6 @@
 - [Participate](./participate.md)
     - [Validator](./run_a_validator.md)
         - [Run a validator](validator_guide/guides_how_to_validate.md)
+- [Migration](migrate/claims_coins.md)        
+- [Credits](credits/credits.md)
 
