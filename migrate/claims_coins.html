@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>About Pirl 2.0 - Pirl 2.0</title>
+        <title>Migration - Pirl 2.0</title>
         
         
 
@@ -18,28 +18,28 @@
         <meta name="theme-color" content="#ffffff" />
 
         
-        <link rel="icon" href="favicon.svg">
+        <link rel="icon" href="../favicon.svg">
         
         
-        <link rel="shortcut icon" href="favicon.png">
+        <link rel="shortcut icon" href="../favicon.png">
         
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
         
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../css/print.css" media="print">
         
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
         
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
         
@@ -49,7 +49,7 @@
     <body>
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
         </script>
 
@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="migrate/claims_coins.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="migrate/in_brief.html"><strong aria-hidden="true">3.1.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="credits/credits.html"><strong aria-hidden="true">4.</strong> Credits</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="../participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../migrate/claims_coins.html" class="active"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../migrate/in_brief.html"><strong aria-hidden="true">3.1.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="../credits/credits.html"><strong aria-hidden="true">4.</strong> Credits</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -131,7 +131,7 @@
 
                     <div class="right-buttons">
                         
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         
@@ -163,29 +163,45 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#about-pirl-20" id="about-pirl-20">About Pirl 2.0</a></h1>
-<p>Pirl has migrated from it's original protocol ( ethash ) and it's now based on substrate. </p>
-<p>Pirl 2.0 is fully decentralised and is managed
-by the community using democracy modules.</p>
-<p>This new version of Pirl is a continuity of the initial idea. 
-The major changes are:</p>
-<ul>
-<li>New monetary policy</li>
-<li>decentralised treasury</li>
-<li>validation of the blockchain using Validator node</li>
-<li>staking ( you can nominate a validator and stake on top of it )</li>
-</ul>
-<p><br></br></p>
-<p><img src="media/Pirl-Logo-New-Police-slogan-black-background.png" alt="Pirl Logo" /></p>
+                        <h1><a class="header" href="#claim-pirl-coins-from-old-chain-to-pirl-20" id="claim-pirl-coins-from-old-chain-to-pirl-20">Claim PIRL coins from old chain to Pirl 2.0</a></h1>
+<p>This tutorial describes how to claim your Pirl from “old chain” to Pirl 2.0.
+Balance of Pirls are taken from snapshot at block 7 650 000.</p>
+<p>In this tutorial we will use the MEW wallet and Pirl 2.0 Portal.
+Before proceeding, you will have to create a wallet in the Pirl 2.0 Portal and log in to your Pirl wallet in <a href="https://www.myetherwallet.com/access-my-wallet">MEW</a> using your Keystore file.</p>
+<p>If you dont get any Pirl balance in the MEW wallet, please check your Network settings (1) and set to (PIRL) as shown in picture below.</p>
+<p><img src="media/claims_coins_1.jpeg" alt="Claims" /></p>
+<p>In Pirl Portal, click Account and choose “Claim Tokens”.</p>
+<p><img src="media/claims_coins_2.jpeg" alt="Claims" /></p>
+<p>Choose your Pirl 2.0 wallet that you want to use for your claim, and click “Continue”</p>
+<p><img src="media/claims_coins_3.jpeg" alt="Claims" /></p>
+<p>Copy your Pirl adress from MEW (1) and paste in to Pirl 2.0 Portal (2), and click “Continue”</p>
+<p><img src="media/claims_coins_4.jpeg" alt="Claims" /></p>
+<p>Go to “Message” in MEW (1)
+Copy string from Pirl 2.0 Portal (2) and paste in to MEW (3), and click “Sign” and “Confirm Signing” in the next box.</p>
+<p><img src="media/claims_coins_5.jpeg" alt="Claims" /></p>
+<p>Copy signature message from MEW (1) and paste in to Pirl 2.0 Portal (2), and click “Confirm claim”.</p>
+<p><img src="media/claims_coins_6.jpeg" alt="Claims" /></p>
+<p>If everything goes well, you will get a confirmation message as shown below.
+Click “Claim” and then “Submit” in the next box to collect your Pirls.</p>
+<p><img src="media/claims_coins_7.jpeg" alt="Claims" /></p>
+<p>After a few seconds your Pirl 2.0 balance will be updated with the claimed Pirl.</p>
+<p><img src="media/claims_coins_8.jpeg" alt="Claims" /></p>
+<p>Well done !</p>
+<p>If you have any feedback or comments to this tutorial, <a href="https://community.pirl.io/t/claim-pirls-from-old-chain-to-pirl-2-0-tutorial/131">please make a reply in this forum</a>.</p>
+<h2><a class="header" href="#thank-you-fantomas-for-the-tutorial" id="thank-you-fantomas-for-the-tutorial">Thank you @Fantomas for the tutorial</a></h2>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
+                            <a rel="prev" href="../validator_guide/guides_how_to_validate.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
 
                         
-                            <a rel="next" href="participate.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../migrate/in_brief.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -197,9 +213,13 @@ The major changes are:</p>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
+                    <a rel="prev" href="../validator_guide/guides_how_to_validate.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
 
                 
-                    <a rel="next" href="participate.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../migrate/in_brief.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
@@ -222,14 +242,14 @@ The major changes are:</p>
         
 
         
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
         
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
         

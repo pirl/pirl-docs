@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>About Pirl 2.0 - Pirl 2.0</title>
+        <title>Run a validator - Pirl 2.0</title>
         
         
 
@@ -18,28 +18,28 @@
         <meta name="theme-color" content="#ffffff" />
 
         
-        <link rel="icon" href="favicon.svg">
+        <link rel="icon" href="../favicon.svg">
         
         
-        <link rel="shortcut icon" href="favicon.png">
+        <link rel="shortcut icon" href="../favicon.png">
         
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
         
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../css/print.css" media="print">
         
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
         
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
         
@@ -49,7 +49,7 @@
     <body>
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
         </script>
 
@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="migrate/claims_coins.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="migrate/in_brief.html"><strong aria-hidden="true">3.1.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="credits/credits.html"><strong aria-hidden="true">4.</strong> Credits</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="../participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../validator_guide/guides_how_to_validate.html" class="active"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../migrate/claims_coins.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../migrate/in_brief.html"><strong aria-hidden="true">3.1.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="../credits/credits.html"><strong aria-hidden="true">4.</strong> Credits</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -131,7 +131,7 @@
 
                     <div class="right-buttons">
                         
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         
@@ -163,29 +163,72 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#about-pirl-20" id="about-pirl-20">About Pirl 2.0</a></h1>
-<p>Pirl has migrated from it's original protocol ( ethash ) and it's now based on substrate. </p>
-<p>Pirl 2.0 is fully decentralised and is managed
-by the community using democracy modules.</p>
-<p>This new version of Pirl is a continuity of the initial idea. 
-The major changes are:</p>
+                        <blockquote>
+<h2><a class="header" href="#warning" id="warning">WARNING</a></h2>
+<p>If you don't use the right requierements you could have your stake 
+slashed, this guide is a baseline, if you do it your own way be 
+sure to know what you are doing or <strong> you will loose money</strong>.
+<br></br></p>
+</blockquote>
+<h2><a class="header" href="#requirements" id="requirements">Requirements</a></h2>
+<p>The most common way for a beginner to run a validator is on a cloud server running Linux. You may choose whatever <a href="#list-of-vps-providers">VPS providers</a> that your prefer, and whatever operating system you are comfortable with.</p>
+<p>The transactions weights in Pirl were benchmarked on standard hardware. It is recommended that validators run at least the standard hardware in order to ensure they are able to process all blocks in time. The following are not minimum requirements but if you decide to run with less than this beware that you might have performance issue.</p>
+<h3><a class="header" href="#minimum-hardware-" id="minimum-hardware-">Minimum Hardware :</a></h3>
 <ul>
-<li>New monetary policy</li>
-<li>decentralised treasury</li>
-<li>validation of the blockchain using Validator node</li>
-<li>staking ( you can nominate a validator and stake on top of it )</li>
+<li>10GB ram, 60 GB Storage, 4 CPU , <strong>stable server uplink connection with fixed IP</strong></li>
 </ul>
+<h3><a class="header" href="#ideal-hardware-" id="ideal-hardware-">Ideal Hardware :</a></h3>
+<ul>
+<li>60GB ram, 300 GB Storage, 6 CPU, <strong>stable server uplink connection with fixed IP</strong></li>
+</ul>
+<h3><a class="header" href="#using-ubuntu-1804-" id="using-ubuntu-1804-">Using Ubuntu 18.04 :</a></h3>
+<p>Install Rust
+Once you choose your cloud service provider and set-up your new server, the first thing you will do is install Rust.</p>
+<p>If you have never installed Rust, you should do this first. This command will fetch the latest version of Rust and install it.</p>
+<pre><code>curl https://sh.rustup.rs -sSf | sh
+</code></pre>
+<p>Otherwise, if you have already installed Rust, run the following command to make sure you are using the latest version.</p>
+<pre><code>rustup update
+</code></pre>
+<p>Finally, run this command to install the necessary dependencies for compiling and running the Polkadot node software.</p>
+<pre><code>sudo apt install make clang pkg-config libssl-dev build-essential
+</code></pre>
+<p>Note - if you are using OSX and you have Homebrew installed, you can issue the following equivalent command INSTEAD of the previous one:</p>
+<pre><code>brew install cmake pkg-config openssl git llvm
+</code></pre>
+<p>Install &amp; Configure Network Time Protocol (NTP) Client
+NTP is a networking protocol designed to synchronize the clocks of computers over a network. NTP allows you to synchronize the clocks of all the systems within the network. Currently it is required that validators' local clocks stay reasonably in sync, so you should be running NTP or a similar service. You can check whether you have the NTP client by running:</p>
+<p>If you are using Ubuntu 18.04 / 19.04, NTP Client should be installed by default.</p>
+<pre><code>timedatectl
+</code></pre>
+<p>If NTP is installed and running, you should see System clock synchronized: yes (or a similar message). If you do not see it, you can install it by executing:</p>
+<pre><code>sudo apt-get install ntp
+</code></pre>
+<p>ntpd will be started automatically after install. You can query ntpd for status information to verify that everything is working:</p>
+<pre><code>sudo ntpq -p
+</code></pre>
+<blockquote>
+<p>WARNING: Skipping this can result in the validator node missing block authorship opportunities. If the clock is out of sync (even by a small amount), the blocks the validator produces may not get accepted by the network. This will result in ImOnline heartbeats making it on chain, but zero allocated blocks making it on chain. </p>
+</blockquote>
+<h2><a class="header" href="#building-and-installing-the-pirl-binary" id="building-and-installing-the-pirl-binary">Building and Installing the pirl Binary</a></h2>
 <p><br></br></p>
-<p><img src="media/Pirl-Logo-New-Police-slogan-black-background.png" alt="Pirl Logo" /></p>
+<h2><a class="header" href="#list-of-vps-providers" id="list-of-vps-providers">List of VPS providers</a></h2>
+<ul>
+<li><a href="https://pirlhosting.com">PirlHosting</a></li>
+</ul>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
+                            <a rel="prev" href="../run_a_validator.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
 
                         
-                            <a rel="next" href="participate.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../migrate/claims_coins.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -197,9 +240,13 @@ The major changes are:</p>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
+                    <a rel="prev" href="../run_a_validator.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
 
                 
-                    <a rel="next" href="participate.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../migrate/claims_coins.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
@@ -222,14 +269,14 @@ The major changes are:</p>
         
 
         
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
         
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
         
