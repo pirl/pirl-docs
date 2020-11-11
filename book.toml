@@ -5,3 +5,5 @@ multilingual = false
 src = "src"
 title = "Pirl 2.0"
 description = "The Pirl 2.0 documentation"
+[output.html]
+default-theme = "navy"
