@@ -187,16 +187,23 @@ The major changes are:</p>
 <p>Validators secure the Relay Chain by staking PIRL, validating proofs from collators and participating in consensus with other validators.</p>
 <p>These participants will play a crucial role in adding new blocks to the Relay Chain and, by extension, to all parachains. This allows parties to complete cross-chain transactions via the Relay Chain.</p>
 <p>Validators perform two functions. First, verifying that the information contained in an assigned set of parachain blocks is valid (such as the identities of the transacting parties and the subject matter of the contract). Their second role is to participate in the consensus mechanism to produce the Relay Chain blocks based on validity statements from other validators. Any instances of non-compliance with the consensus algorithms result in punishment by removal of some or all of the validator’s staked PIRL, thereby discouraging bad actors. Good performance, however, will be rewarded, with validators receiving block rewards (including transaction fees) in the form of PIRL in exchange for their activities.</p>
+<blockquote>
+<h2><a class="header" href="#warning" id="warning">WARNING</a></h2>
+<p>If you don't use the right requierements you could have your stake 
+slashed, this guide is a baseline, if you do it your own way be 
+sure to know what you are doing or <strong> you will loose money</strong>.
+<br></br></p>
+</blockquote>
 <h2><a class="header" href="#requirements" id="requirements">Requirements</a></h2>
 <p>The most common way for a beginner to run a validator is on a cloud server running Linux. You may choose whatever <a href="validator_guide/guides_how_to_validate.html#list-of-vps-providers">VPS providers</a> that your prefer, and whatever operating system you are comfortable with.</p>
 <p>The transactions weights in Pirl were benchmarked on standard hardware. It is recommended that validators run at least the standard hardware in order to ensure they are able to process all blocks in time. The following are not minimum requirements but if you decide to run with less than this beware that you might have performance issue.</p>
 <h3><a class="header" href="#minimum-hardware-" id="minimum-hardware-">Minimum Hardware :</a></h3>
 <ul>
-<li>10GB ram, 60 GB Storage, 4 CPU , <strong>stable server uplink connection </strong></li>
+<li>10GB ram, 60 GB Storage, 4 CPU , <strong>stable server uplink connection with fixed IP</strong></li>
 </ul>
 <h3><a class="header" href="#ideal-hardware-" id="ideal-hardware-">Ideal Hardware :</a></h3>
 <ul>
-<li>60GB ram, 300 GB Storage, 6 CPU, <strong>stable server uplink connection </strong></li>
+<li>60GB ram, 300 GB Storage, 6 CPU, <strong>stable server uplink connection with fixed IP</strong></li>
 </ul>
 <h3><a class="header" href="#using-ubuntu-1804-" id="using-ubuntu-1804-">Using Ubuntu 18.04 :</a></h3>
 <p>Install Rust

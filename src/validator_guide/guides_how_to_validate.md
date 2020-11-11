@@ -1,4 +1,8 @@
-
+>## WARNING 
+> If you don't use the right requierements you could have your stake 
+> slashed, this guide is a baseline, if you do it your own way be 
+> sure to know what you are doing or <strong> you will loose money</strong>.
+> <br></br>
 
 ## Requirements
 The most common way for a beginner to run a validator is on a cloud server running Linux. You may choose whatever [VPS providers](#list-of-vps-providers) that your prefer, and whatever operating system you are comfortable with.
@@ -7,11 +11,11 @@ The transactions weights in Pirl were benchmarked on standard hardware. It is re
 
 ### Minimum Hardware :
 
-- 10GB ram, 60 GB Storage, 4 CPU , <strong>stable server uplink connection </strong>
+- 10GB ram, 60 GB Storage, 4 CPU , <strong>stable server uplink connection with fixed IP</strong>
 
 ### Ideal Hardware :
 
-- 60GB ram, 300 GB Storage, 6 CPU, <strong>stable server uplink connection </strong>
+- 60GB ram, 300 GB Storage, 6 CPU, <strong>stable server uplink connection with fixed IP</strong>
 
 ### Using Ubuntu 18.04 : 
 
