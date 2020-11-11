@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Run a validator - Pirl 2.0</title>
+        <title>Validator - Pirl 2.0</title>
         
         
 
@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="run_a_validator.html" class="active"><strong aria-hidden="true">2.1.</strong> Run a validator</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="run_a_validator.html" class="active"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -164,7 +164,9 @@
                 <div id="content" class="content">
                     <main>
                         <h1><a class="header" href="#validator" id="validator">Validator</a></h1>
-<h2><a class="header" href="#coming-soon-" id="coming-soon-">Coming soon :)</a></h2>
+<p>Validators secure the Relay Chain by staking PIRL, validating proofs from collators and participating in consensus with other validators.</p>
+<p>These participants will play a crucial role in adding new blocks to the Relay Chain and, by extension, to all parachains. This allows parties to complete cross-chain transactions via the Relay Chain.</p>
+<p>Validators perform two functions. First, verifying that the information contained in an assigned set of parachain blocks is valid (such as the identities of the transacting parties and the subject matter of the contract). Their second role is to participate in the consensus mechanism to produce the Relay Chain blocks based on validity statements from other validators. Any instances of non-compliance with the consensus algorithms result in punishment by removal of some or all of the validator’s staked PIRL, thereby discouraging bad actors. Good performance, however, will be rewarded, with validators receiving block rewards (including transaction fees) in the form of PIRL in exchange for their activities.</p>
 
                     </main>
 
@@ -176,6 +178,10 @@
                             </a>
                         
 
+                        
+                            <a rel="next" href="validator_guide/guides_how_to_validate.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
                         
 
                         <div style="clear: both"></div>
@@ -191,10 +197,29 @@
                 
 
                 
+                    <a rel="next" href="validator_guide/guides_how_to_validate.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
             </nav>
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         
