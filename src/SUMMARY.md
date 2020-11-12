@@ -6,5 +6,6 @@
         - [Run a validator](validator_guide/guides_how_to_validate.md)
 - [Migration](migrate/claims_coins.md)        
     - [FAQ](migrate/in_brief.md)     
+- [Contribute](contribute/contribution.md)
 - [Credits](credits/credits.md)
 
