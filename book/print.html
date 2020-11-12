@@ -299,7 +299,7 @@ Click “Claim” and then “Submit” in the next box to collect your Pirls.</
 <blockquote>
 <p>From Pirl 2.0 Portal after block 7 650 000. Follow <a href="https://community.pirl.io/t/claim-pirls-from-old-chain-to-pirl-2-0-tutorial/131">this tutorial</a></p>
 </blockquote>
-<h4><a class="header" href="#what-is-the-minimum-requierement-for-a-validator" id="what-is-the-minimum-requierement-for-a-validator">What is the minimum requierement for a validator</a></h4>
+<h4><a class="header" href="#what-is-the-minimum-requierement-for-a-validator-" id="what-is-the-minimum-requierement-for-a-validator-">What is the minimum requierement for a validator ?</a></h4>
 <blockquote>
 <p><em>The absolute minimum requrements to run the validator node are described below. This settings are NOT recomended as this could lead to unstable node and you could end up getting slashed!! If running validator node with specs close to minimum you must monitor your node and set up warnings for load etc..</em></p>
 <ul>
@@ -310,6 +310,36 @@ Click “Claim” and then “Submit” in the next box to collect your Pirls.</
 <li>Stabile internet connection are required. The validator nodes plays a very important role by securing the network and we recommend renting VPS from providers with good infrastructure and not trying to set up at home. </li>
 </ul>
 <h3><a class="header" href="#a-hrefmigratevalidator_guideguides_how_to_validatehtmlread-more-about-validators-requierements-herea" id="a-hrefmigratevalidator_guideguides_how_to_validatehtmlread-more-about-validators-requierements-herea"><a href="migrate/../validator_guide/guides_how_to_validate.html">Read more about validators requierements here</a></a></h3>
+</blockquote>
+<h4><a class="header" href="#how-does-slashing-works-" id="how-does-slashing-works-">How does slashing works ?</a></h4>
+<blockquote>
+<ul>
+<li>Level 1: isolated unresponsiveness, i.e. being offline for an entire epoch. No slashing, only chilling.</li>
+<li>Level 2: concurrent unresponsiveness or isolated equivocation. Slashes a very small amount of the stake and chills.</li>
+<li>Level 3: misconducts unlikely to be accidental, but which do not harm the network's security to any large extent. Examples include concurrent equivocation or isolated cases of unjustified voting in GRANDPA. Slashes a moderately small amount of the stake and chills.</li>
+<li>Level 4: misconduct that poses a serious security or monetary risk to the system, or mass collusion. Slashes all or most of the stake behind the validator and chills.</li>
+</ul>
+<p><a href="https://research.web3.foundation/en/latest/polkadot/slashing.html">Reference research article about slashing</a></p>
+</blockquote>
+<h4><a class="header" href="#i-used-the-web-wallet-im-safe-for-the-claim-" id="i-used-the-web-wallet-im-safe-for-the-claim-">I used the web wallet, I'm safe for the claim ?</a></h4>
+<blockquote>
+<p>Yes, just wait the fork of the chain and you will be able to claim your coins in Pirl 2.0.</p>
+</blockquote>
+<h4><a class="header" href="#can-i-calim-my-coins-with-ledger-wallet-" id="can-i-calim-my-coins-with-ledger-wallet-">Can I calim my coins with ledger wallet ?</a></h4>
+<blockquote>
+<p>Yes, be sure to have backup phrase and latest firmware.</p>
+</blockquote>
+<h4><a class="header" href="#i-didnt-unlocked-the-coins-locked-in-masternode-contract-are-they-lost-" id="i-didnt-unlocked-the-coins-locked-in-masternode-contract-are-they-lost-">I didn't unlocked the coins locked in masternode contract, are they lost ?</a></h4>
+<blockquote>
+<p>No, the coins locked in the masternode contract(s) will be available freely in your wallet after the fork in the new network.</p>
+</blockquote>
+<h4><a class="header" href="#what-is-the-validator-reward-amount-" id="what-is-the-validator-reward-amount-">What is the validator reward amount ?</a></h4>
+<blockquote>
+<p>We can calculate it precisely, it depend on the network staking rate. Validator will have minted coins plus 20% of the transfert fees ( 80% goes to decentralised treasury ). Rewards are calculated based on era points, which have a probabilistic component. In other words, there may be slight differences in your rewards from era to era, and even amongst validators in the active set at the same time. These variations should cancel out over a long enough timeline.</p>
+</blockquote>
+<h4><a class="header" href="#can-i-get-my-coins-back-if-i-stake-or-create-a-validator-" id="can-i-get-my-coins-back-if-i-stake-or-create-a-validator-">Can I get my coins back if I stake or create a validator ?</a></h4>
+<blockquote>
+<p>Yes you can unlock them when you want, you will have to wait the cooldown period to get it credited in your wallet, actual waiting period is 28 days.</p>
 </blockquote>
 <h1><a class="header" href="#credits-" id="credits-">Credits :</a></h1>
 <h3><a class="header" href="#a-hrefhttpscommunitypirliocommunity-guidesa" id="a-hrefhttpscommunitypirliocommunity-guidesa"><a href="https://community.pirl.io">Community guides</a></a></h3>
