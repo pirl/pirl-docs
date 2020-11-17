@@ -5,7 +5,7 @@
 > <br></br>
 
 ## Requirements
-We assume that you already created a validator under (https://explorer.pirl.network/#/staking/actions)[https://explorer.pirl.network/#/staking/actions].
+We assume that you already created a validator under [https://explorer.pirl.network/#/staking/actions](https://explorer.pirl.network/#/staking/actions).
 
 The most common way for a beginner to run a validator is on a cloud server running Linux. You may choose whatever [VPS providers](#list-of-vps-providers) that your prefer, and whatever operating system you are comfortable with.
 
@@ -153,7 +153,7 @@ After=network-online.target
 
 [Service]
 
-ExecStart=/usr/bin/pirl  --port "30333"   --ws-port "9944"   --rpc-port "9933" --validator --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0'  --name "CHANGE IT TO A DESIRED NAME"
+ExecStart=/usr/bin/pirl  --port "30333"   --ws-port "9944"   --rpc-port "9933" --validator  --name "CHANGE IT TO A DESIRED NAME"
 User=root
 Restart=always
 ExecStartPre=/bin/sleep 5
@@ -164,7 +164,7 @@ WantedBy=multi-user.target
 
 ```
 
-Check if your node is appereing in the telemetry UI : https://telemetry.polkadot.io/#list/Pirl
+Check if your node is appereing in the telemetry UI : [https://telemetry.polkadot.io/#list/Pirl](https://telemetry.polkadot.io/#list/Pirl)
 
 
 ## Step 2 Assign the node to an account
