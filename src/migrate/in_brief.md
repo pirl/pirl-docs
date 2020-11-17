@@ -48,7 +48,7 @@
 #### I used the web wallet, I'm safe for the claim ?
 > Yes, just wait the fork of the chain and you will be able to claim your coins in Pirl 2.0.
 
-#### Can I calim my coins with ledger wallet ?
+#### Can I claim my coins with ledger wallet ?
 > Yes, be sure to have backup phrase and latest firmware.
 
 #### I didn't unlocked the coins locked in masternode contract, are they lost ?
@@ -59,3 +59,8 @@
 
 #### Can I get my coins back if I stake or create a validator ?
 > Yes you can unlock them when you want, you will have to wait the cooldown period to get it credited in your wallet, actual waiting period is 28 days.
+
+### How to delete all the old Pirl services on masternodes ?
+> BE SURE TO NOT HAVE PIRL KEYS PRESENT 
+
+> ``` service pirl stop && service marlin stop && rm -rf /root/.pirl && rm -rf /root/.marlin && systemctl disable pirl && systemctl disable marlin ```

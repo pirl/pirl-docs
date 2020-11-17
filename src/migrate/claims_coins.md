@@ -8,6 +8,8 @@ Before proceeding, you will have to create a wallet in the Pirl 2.0 Portal and l
 
 If you dont get any Pirl balance in the MEW wallet, please check your Network settings (1) and set to (PIRL) as shown in picture below.
 
+# [Pirl 2.0 Portal https://dashboard.pirl.network](https://dashboard.pirl.network) 
+
 ![Claims](media/claims_coins_1.jpeg)
 
 In Pirl Portal, click Account and choose “Claim Tokens”.
