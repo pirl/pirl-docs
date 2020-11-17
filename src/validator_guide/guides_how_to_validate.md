@@ -5,6 +5,8 @@
 > <br></br>
 
 ## Requirements
+We assume that you already created a validator under (https://explorer.pirl.network/#/staking/actions)[https://explorer.pirl.network/#/staking/actions].
+
 The most common way for a beginner to run a validator is on a cloud server running Linux. You may choose whatever [VPS providers](#list-of-vps-providers) that your prefer, and whatever operating system you are comfortable with.
 
 The transactions weights in Pirl were benchmarked on standard hardware. It is recommended that validators run at least the standard hardware in order to ensure they are able to process all blocks in time. The following are not minimum requirements but if you decide to run with less than this beware that you might have performance issue.
@@ -63,6 +65,127 @@ sudo ntpq -p
 
 
 ## Building and Installing the pirl Binary
+
+
+
+
+<br>
+
+# Centos 8
+
+Install and configure time
+```
+dnf install chrony
+```
+
+Enable it
+```
+systemctl enable chronyd
+```
+
+Allow the process in firewall
+
+```
+firewall-cmd --permanent --add-service=ntp && firewall-cmd --add-port=30333/tcp --permanent && firewall-cmd --reload
+```
+
+
+If you have never installed Rust, you should do this first. This command will fetch the latest version of Rust and install it.
+```
+# curl https://sh.rustup.rs -sSf | sh
+# source $HOME/.cargo/env
+```
+
+
+Otherwise, if you have already installed Rust, run the following command to make sure you are using the latest version.
+```
+rustup update
+```
+
+Install development tools
+
+```
+dnf group install "Development Tools" -y
+```
+
+Install other tools needed
+
+```
+dnf install -y cmake llvm  llvm-devel clang
+```
+
+Install rust tools
+
+```
+rustup toolchain install nightly-2020-07-01
+rustup update nightly
+rustup update stable
+rustup target add wasm32-unknown-unknown --toolchain nightly-2020-07-01
+```
+
+clone Pirl from github
+
+```
+git clone https://github.com/pirl/pirl-2_0
+```
+
+and build it
+
+```
+cargo +nightly-2020-07-01 build --release
+```
+
+Copy the binary ready to use
+
+```
+ cp -rp target/release/pirl /usr/bin/
+```
+
+
+## Make the service permanent
+
+create systemd file in /usr/lib/systemd/system/pirl.service
+
+```
+[Unit]
+Description=Pirl Validator
+After=network-online.target
+
+[Service]
+
+ExecStart=/usr/bin/pirl  --port "30333"   --ws-port "9944"   --rpc-port "9933" --validator --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0'  --name "CHANGE IT TO A DESIRED NAME"
+User=root
+Restart=always
+ExecStartPre=/bin/sleep 5
+RestartSec=30s
+
+[Install]
+WantedBy=multi-user.target
+
+```
+
+Check if your node is appereing in the telemetry UI : https://telemetry.polkadot.io/#list/Pirl
+
+
+## Step 2 Assign the node to an account
+
+We assume that you created 2 account and that you have already bonded it. Be carefull, use a stash account and a controller account.
+
+### Create session key:
+
+Go in you terminal where the node is installed and paste the current command, you will have a session key of your node.
+
+```
+curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method": "author_rotateKeys", "params":[]}' http://localhost:9933
+```
+
+### Submitting the setKeys Transaction:
+
+Go to the [explorer](https://explorer.pirl.network/#/staking/actions) and hit the "change session keys", paste the key and submit.
+
+
+
+Voila, you are all set
 
 
 <br></br>
