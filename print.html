@@ -177,6 +177,16 @@ The major changes are:</p>
 <li>validation of the blockchain using Validator node</li>
 <li>staking ( you can nominate a validator and stake on top of it )</li>
 </ul>
+<h2><a class="header" href="#protocol-informations" id="protocol-informations">Protocol informations:</a></h2>
+<ul>
+<li>ID: PIRL</li>
+<li>ss58Format: 42</li>
+<li>TokenDecimals: 12 ( previously 18)</li>
+<li>TokenSymbol: PIRL</li>
+<li>RPC port: 9933</li>
+<li>WS port: 9944</li>
+<li>P2P port: 30333</li>
+</ul>
 <p><br></br></p>
 <p><img src="media/Pirl-Logo-New-Police-slogan-black-background.png" alt="Pirl Logo" /></p>
 <h1><a class="header" href="#particiapte-in-pirl-20" id="particiapte-in-pirl-20">Particiapte in Pirl 2.0</a></h1>
@@ -195,6 +205,7 @@ sure to know what you are doing or <strong> you will loose money</strong>.
 <br></br></p>
 </blockquote>
 <h2><a class="header" href="#requirements" id="requirements">Requirements</a></h2>
+<p>We assume that you already created a validator under (https://explorer.pirl.network/#/staking/actions)[https://explorer.pirl.network/#/staking/actions].</p>
 <p>The most common way for a beginner to run a validator is on a cloud server running Linux. You may choose whatever <a href="validator_guide/guides_how_to_validate.html#list-of-vps-providers">VPS providers</a> that your prefer, and whatever operating system you are comfortable with.</p>
 <p>The transactions weights in Pirl were benchmarked on standard hardware. It is recommended that validators run at least the standard hardware in order to ensure they are able to process all blocks in time. The following are not minimum requirements but if you decide to run with less than this beware that you might have performance issue.</p>
 <h3><a class="header" href="#minimum-hardware-" id="minimum-hardware-">Minimum Hardware :</a></h3>
@@ -235,6 +246,73 @@ NTP is a networking protocol designed to synchronize the clocks of computers ove
 <p>WARNING: Skipping this can result in the validator node missing block authorship opportunities. If the clock is out of sync (even by a small amount), the blocks the validator produces may not get accepted by the network. This will result in ImOnline heartbeats making it on chain, but zero allocated blocks making it on chain. </p>
 </blockquote>
 <h2><a class="header" href="#building-and-installing-the-pirl-binary" id="building-and-installing-the-pirl-binary">Building and Installing the pirl Binary</a></h2>
+<br>
+<h1><a class="header" href="#centos-8" id="centos-8">Centos 8</a></h1>
+<p>Install and configure time</p>
+<pre><code>dnf install chrony
+</code></pre>
+<p>Enable it</p>
+<pre><code>systemctl enable chronyd
+</code></pre>
+<p>Allow the process in firewall</p>
+<pre><code>firewall-cmd --permanent --add-service=ntp &amp;&amp; firewall-cmd --add-port=30333/tcp --permanent &amp;&amp; firewall-cmd --reload
+</code></pre>
+<p>If you have never installed Rust, you should do this first. This command will fetch the latest version of Rust and install it.</p>
+<pre><code># curl https://sh.rustup.rs -sSf | sh
+# source $HOME/.cargo/env
+</code></pre>
+<p>Otherwise, if you have already installed Rust, run the following command to make sure you are using the latest version.</p>
+<pre><code>rustup update
+</code></pre>
+<p>Install development tools</p>
+<pre><code>dnf group install &quot;Development Tools&quot; -y
+</code></pre>
+<p>Install other tools needed</p>
+<pre><code>dnf install -y cmake llvm  llvm-devel clang
+</code></pre>
+<p>Install rust tools</p>
+<pre><code>rustup toolchain install nightly-2020-07-01
+rustup update nightly
+rustup update stable
+rustup target add wasm32-unknown-unknown --toolchain nightly-2020-07-01
+</code></pre>
+<p>clone Pirl from github</p>
+<pre><code>git clone https://github.com/pirl/pirl-2_0
+</code></pre>
+<p>and build it</p>
+<pre><code>cargo +nightly-2020-07-01 build --release
+</code></pre>
+<p>Copy the binary ready to use</p>
+<pre><code> cp -rp target/release/pirl /usr/bin/
+</code></pre>
+<h2><a class="header" href="#make-the-service-permanent" id="make-the-service-permanent">Make the service permanent</a></h2>
+<p>create systemd file in /usr/lib/systemd/system/pirl.service</p>
+<pre><code>[Unit]
+Description=Pirl Validator
+After=network-online.target
+
+[Service]
+
+ExecStart=/usr/bin/pirl  --port &quot;30333&quot;   --ws-port &quot;9944&quot;   --rpc-port &quot;9933&quot; --validator --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0'  --name &quot;CHANGE IT TO A DESIRED NAME&quot;
+User=root
+Restart=always
+ExecStartPre=/bin/sleep 5
+RestartSec=30s
+
+[Install]
+WantedBy=multi-user.target
+
+</code></pre>
+<p>Check if your node is appereing in the telemetry UI : https://telemetry.polkadot.io/#list/Pirl</p>
+<h2><a class="header" href="#step-2-assign-the-node-to-an-account" id="step-2-assign-the-node-to-an-account">Step 2 Assign the node to an account</a></h2>
+<p>We assume that you created 2 account and that you have already bonded it. Be carefull, use a stash account and a controller account.</p>
+<h3><a class="header" href="#create-session-key" id="create-session-key">Create session key:</a></h3>
+<p>Go in you terminal where the node is installed and paste the current command, you will have a session key of your node.</p>
+<pre><code>curl -H &quot;Content-Type: application/json&quot; -d '{&quot;id&quot;:1, &quot;jsonrpc&quot;:&quot;2.0&quot;, &quot;method&quot;: &quot;author_rotateKeys&quot;, &quot;params&quot;:[]}' http://localhost:9933
+</code></pre>
+<h3><a class="header" href="#submitting-the-setkeys-transaction" id="submitting-the-setkeys-transaction">Submitting the setKeys Transaction:</a></h3>
+<p>Go to the <a href="https://explorer.pirl.network/#/staking/actions">explorer</a> and hit the &quot;change session keys&quot;, paste the key and submit.</p>
+<p>Voila, you are all set</p>
 <p><br></br></p>
 <h2><a class="header" href="#list-of-vps-providers" id="list-of-vps-providers">List of VPS providers</a></h2>
 <ul>
@@ -246,6 +324,7 @@ Balance of Pirls are taken from snapshot at block 7 650 000.</p>
 <p>In this tutorial we will use the MEW wallet and Pirl 2.0 Portal.
 Before proceeding, you will have to create a wallet in the Pirl 2.0 Portal and log in to your Pirl wallet in <a href="https://www.myetherwallet.com/access-my-wallet">MEW</a> using your Keystore file.</p>
 <p>If you dont get any Pirl balance in the MEW wallet, please check your Network settings (1) and set to (PIRL) as shown in picture below.</p>
+<h1><a class="header" href="#a-hrefhttpsdashboardpirlnetworkpirl-20-portal-httpsdashboardpirlnetworka" id="a-hrefhttpsdashboardpirlnetworkpirl-20-portal-httpsdashboardpirlnetworka"><a href="https://dashboard.pirl.network">Pirl 2.0 Portal https://dashboard.pirl.network</a></a></h1>
 <p><img src="migrate/media/claims_coins_1.jpeg" alt="Claims" /></p>
 <p>In Pirl Portal, click Account and choose “Claim Tokens”.</p>
 <p><img src="migrate/media/claims_coins_2.jpeg" alt="Claims" /></p>
@@ -325,7 +404,7 @@ Click “Claim” and then “Submit” in the next box to collect your Pirls.</
 <blockquote>
 <p>Yes, just wait the fork of the chain and you will be able to claim your coins in Pirl 2.0.</p>
 </blockquote>
-<h4><a class="header" href="#can-i-calim-my-coins-with-ledger-wallet-" id="can-i-calim-my-coins-with-ledger-wallet-">Can I calim my coins with ledger wallet ?</a></h4>
+<h4><a class="header" href="#can-i-claim-my-coins-with-ledger-wallet-" id="can-i-claim-my-coins-with-ledger-wallet-">Can I claim my coins with ledger wallet ?</a></h4>
 <blockquote>
 <p>Yes, be sure to have backup phrase and latest firmware.</p>
 </blockquote>
@@ -340,6 +419,13 @@ Click “Claim” and then “Submit” in the next box to collect your Pirls.</
 <h4><a class="header" href="#can-i-get-my-coins-back-if-i-stake-or-create-a-validator-" id="can-i-get-my-coins-back-if-i-stake-or-create-a-validator-">Can I get my coins back if I stake or create a validator ?</a></h4>
 <blockquote>
 <p>Yes you can unlock them when you want, you will have to wait the cooldown period to get it credited in your wallet, actual waiting period is 28 days.</p>
+</blockquote>
+<h3><a class="header" href="#how-to-delete-all-the-old-pirl-services-on-masternodes-" id="how-to-delete-all-the-old-pirl-services-on-masternodes-">How to delete all the old Pirl services on masternodes ?</a></h3>
+<blockquote>
+<p>BE SURE TO NOT HAVE PIRL KEYS PRESENT </p>
+</blockquote>
+<blockquote>
+<p><code>service pirl stop &amp;&amp; service marlin stop &amp;&amp; rm -rf /root/.pirl &amp;&amp; rm -rf /root/.marlin &amp;&amp; systemctl disable pirl &amp;&amp; systemctl disable marlin</code></p>
 </blockquote>
 <h1><a class="header" href="#contribution" id="contribution">Contribution</a></h1>
 <h2><a class="header" href="#how-can-i-contribute-to-the-docs-" id="how-can-i-contribute-to-the-docs-">How can I contribute to the docs ?</a></h2>
