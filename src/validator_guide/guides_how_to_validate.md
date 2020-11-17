@@ -5,7 +5,6 @@
 > <br></br>
 
 ## Requirements
-We assume that you already created a validator under [https://explorer.pirl.network/#/staking/actions](https://explorer.pirl.network/#/staking/actions).
 
 The most common way for a beginner to run a validator is on a cloud server running Linux. You may choose whatever [VPS providers](#list-of-vps-providers) that your prefer, and whatever operating system you are comfortable with.
 
@@ -181,8 +180,11 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 
 ### Submitting the setKeys Transaction:
 
-Go to the [explorer](https://explorer.pirl.network/#/staking/actions) and hit the "change session keys", paste the key and submit.
 
+
+Go to the [explorer](https://explorer.pirl.network/#/staking/actions) you can now create a validator, use the key generated above to paste in the form.
+
+Last step, hit the validate button when the transaction is confirmed.
 
 
 Voila, you are all set
