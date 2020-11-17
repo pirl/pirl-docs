@@ -13,6 +13,15 @@ The major changes are:
 - validation of the blockchain using Validator node
 - staking ( you can nominate a validator and stake on top of it )
 
+## Protocol informations:
+- ID: PIRL
+- ss58Format: 42
+- TokenDecimals: 12 ( previously 18)
+- TokenSymbol: PIRL
+- RPC port: 9933
+- WS port: 9944
+- P2P port: 30333
+
 
 <br></br>
 
