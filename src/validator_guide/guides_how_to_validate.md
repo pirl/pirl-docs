@@ -5,7 +5,6 @@
 > <br></br>
 
 ## Requirements
-We assume that you already created a validator under (https://explorer.pirl.network/#/staking/actions)[https://explorer.pirl.network/#/staking/actions].
 
 The most common way for a beginner to run a validator is on a cloud server running Linux. You may choose whatever [VPS providers](#list-of-vps-providers) that your prefer, and whatever operating system you are comfortable with.
 
@@ -153,7 +152,7 @@ After=network-online.target
 
 [Service]
 
-ExecStart=/usr/bin/pirl  --port "30333"   --ws-port "9944"   --rpc-port "9933" --validator --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0'  --name "CHANGE IT TO A DESIRED NAME"
+ExecStart=/usr/bin/pirl  --port "30333"   --ws-port "9944"   --rpc-port "9933" --validator  --name "CHANGE IT TO A DESIRED NAME"
 User=root
 Restart=always
 ExecStartPre=/bin/sleep 5
@@ -164,7 +163,7 @@ WantedBy=multi-user.target
 
 ```
 
-Check if your node is appereing in the telemetry UI : https://telemetry.polkadot.io/#list/Pirl
+Check if your node is appereing in the telemetry UI : [https://telemetry.polkadot.io/#list/Pirl](https://telemetry.polkadot.io/#list/Pirl)
 
 
 ## Step 2 Assign the node to an account
@@ -181,8 +180,11 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 
 ### Submitting the setKeys Transaction:
 
-Go to the [explorer](https://explorer.pirl.network/#/staking/actions) and hit the "change session keys", paste the key and submit.
 
+
+Go to the [explorer](https://explorer.pirl.network/#/staking/actions) you can now create a validator, use the key generated above to paste in the form.
+
+Last step, hit the validate button when the transaction is confirmed.
 
 
 Voila, you are all set
