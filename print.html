@@ -205,7 +205,6 @@ sure to know what you are doing or <strong> you will loose money</strong>.
 <br></br></p>
 </blockquote>
 <h2><a class="header" href="#requirements" id="requirements">Requirements</a></h2>
-<p>We assume that you already created a validator under (https://explorer.pirl.network/#/staking/actions)[https://explorer.pirl.network/#/staking/actions].</p>
 <p>The most common way for a beginner to run a validator is on a cloud server running Linux. You may choose whatever <a href="validator_guide/guides_how_to_validate.html#list-of-vps-providers">VPS providers</a> that your prefer, and whatever operating system you are comfortable with.</p>
 <p>The transactions weights in Pirl were benchmarked on standard hardware. It is recommended that validators run at least the standard hardware in order to ensure they are able to process all blocks in time. The following are not minimum requirements but if you decide to run with less than this beware that you might have performance issue.</p>
 <h3><a class="header" href="#minimum-hardware-" id="minimum-hardware-">Minimum Hardware :</a></h3>
@@ -293,7 +292,7 @@ After=network-online.target
 
 [Service]
 
-ExecStart=/usr/bin/pirl  --port &quot;30333&quot;   --ws-port &quot;9944&quot;   --rpc-port &quot;9933&quot; --validator --telemetry-url 'wss://telemetry.polkadot.io/submit/ 0'  --name &quot;CHANGE IT TO A DESIRED NAME&quot;
+ExecStart=/usr/bin/pirl  --port &quot;30333&quot;   --ws-port &quot;9944&quot;   --rpc-port &quot;9933&quot; --validator  --name &quot;CHANGE IT TO A DESIRED NAME&quot;
 User=root
 Restart=always
 ExecStartPre=/bin/sleep 5
@@ -303,7 +302,7 @@ RestartSec=30s
 WantedBy=multi-user.target
 
 </code></pre>
-<p>Check if your node is appereing in the telemetry UI : https://telemetry.polkadot.io/#list/Pirl</p>
+<p>Check if your node is appereing in the telemetry UI : <a href="https://telemetry.polkadot.io/#list/Pirl">https://telemetry.polkadot.io/#list/Pirl</a></p>
 <h2><a class="header" href="#step-2-assign-the-node-to-an-account" id="step-2-assign-the-node-to-an-account">Step 2 Assign the node to an account</a></h2>
 <p>We assume that you created 2 account and that you have already bonded it. Be carefull, use a stash account and a controller account.</p>
 <h3><a class="header" href="#create-session-key" id="create-session-key">Create session key:</a></h3>
@@ -311,7 +310,8 @@ WantedBy=multi-user.target
 <pre><code>curl -H &quot;Content-Type: application/json&quot; -d '{&quot;id&quot;:1, &quot;jsonrpc&quot;:&quot;2.0&quot;, &quot;method&quot;: &quot;author_rotateKeys&quot;, &quot;params&quot;:[]}' http://localhost:9933
 </code></pre>
 <h3><a class="header" href="#submitting-the-setkeys-transaction" id="submitting-the-setkeys-transaction">Submitting the setKeys Transaction:</a></h3>
-<p>Go to the <a href="https://explorer.pirl.network/#/staking/actions">explorer</a> and hit the &quot;change session keys&quot;, paste the key and submit.</p>
+<p>Go to the <a href="https://explorer.pirl.network/#/staking/actions">explorer</a> you can now create a validator, use the key generated above to paste in the form.</p>
+<p>Last step, hit the validate button when the transaction is confirmed.</p>
 <p>Voila, you are all set</p>
 <p><br></br></p>
 <h2><a class="header" href="#list-of-vps-providers" id="list-of-vps-providers">List of VPS providers</a></h2>
