@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>About Pirl 2.0 - Pirl 2.0</title>
+        <title>How to be a Nominator - Pirl 2.0</title>
         
         
 
@@ -18,28 +18,28 @@
         <meta name="theme-color" content="#ffffff" />
 
         
-        <link rel="icon" href="favicon.svg">
+        <link rel="icon" href="../favicon.svg">
         
         
-        <link rel="shortcut icon" href="favicon.png">
+        <link rel="shortcut icon" href="../favicon.png">
         
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
         
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="stylesheet" href="../css/print.css" media="print">
         
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
         
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
         
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
         
@@ -49,7 +49,7 @@
     <body>
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
-            var path_to_root = "";
+            var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
         </script>
 
@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html" class="active"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li><li class="chapter-item expanded "><a href="nominator_guide/how_to_nominate.html"><strong aria-hidden="true">2.2.</strong> How to be a Nominator</a></li></ol></li><li class="chapter-item expanded "><a href="migrate/claims_coins.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="migrate/in_brief.html"><strong aria-hidden="true">3.1.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="chapter-item expanded "><a href="credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="../participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li><li class="chapter-item expanded "><a href="../nominator_guide/how_to_nominate.html" class="active"><strong aria-hidden="true">2.2.</strong> How to be a Nominator</a></li></ol></li><li class="chapter-item expanded "><a href="../migrate/claims_coins.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../migrate/in_brief.html"><strong aria-hidden="true">3.1.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="../contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="chapter-item expanded "><a href="../credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -131,7 +131,7 @@
 
                     <div class="right-buttons">
                         
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         
@@ -163,39 +163,69 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#about-pirl-20" id="about-pirl-20">About Pirl 2.0</a></h1>
-<p>Pirl has migrated from it's original protocol ( ethash ) and it's now based on substrate. </p>
-<p>Pirl 2.0 is fully decentralised and is managed
-by the community using democracy modules.</p>
-<p>This new version of Pirl is a continuity of the initial idea. 
-The major changes are:</p>
-<ul>
-<li>New monetary policy</li>
-<li>decentralised treasury</li>
-<li>validation of the blockchain using Validator node</li>
-<li>staking ( you can nominate a validator and stake on top of it )</li>
-</ul>
-<h2><a class="header" href="#protocol-informations" id="protocol-informations">Protocol informations:</a></h2>
-<ul>
-<li>ID: PIRL</li>
-<li>ss58Format: 42</li>
-<li>TokenDecimals: 12 ( previously 18)</li>
-<li>TokenSymbol: PIRL</li>
-<li>RPC port: 9933</li>
-<li>WS port: 9944</li>
-<li>P2P port: 30333</li>
-</ul>
-<p><br></br></p>
-<p><img src="media/Pirl-Logo-New-Police-slogan-black-background.png" alt="Pirl Logo" /></p>
+                        <h1><a class="header" href="#how-to-be-a-nominator" id="how-to-be-a-nominator">How to be a Nominator</a></h1>
+<h2><a class="header" href="#requirements" id="requirements">Requirements</a></h2>
+<blockquote>
+<p>You need an account with some pirl on it. If you have a Pirl 1.0 account and do not have claim it yet on the new blockchain, please refer to this <a href="https://docs.pirl.io/migrate/claims_coins.html">tutorial</a> </p>
+</blockquote>
+<h2><a class="header" href="#setup" id="setup">Setup</a></h2>
+<ol>
+<li>
+<p>You need to create a new account for control your staked
+<img src="media/Nominate_1.JPG" alt="Nominate" />
+<img src="media/Nominate_2.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>Then send some pirl for covering network fees
+<img src="media/Nominate_2bis.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>Then go to staking panel
+<img src="media/Nominate_3.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>Add nominator
+<img src="media/Nominate_4.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>For stash account, select the account with you stash (the one with all your precious pirl) and for controller account, the newly created account in step 1
+<img src="media/Nominate_5.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>Choose your validator, you can choose multiple validators. This choice is up to you. </p>
+</li>
+</ol>
+<blockquote>
+<h2><a class="header" href="#warning" id="warning">WARNING</a></h2>
+<p>For avoiding being <strong>slashed</strong> (aka <strong>loose money</strong>), choose wisely your validator !
+The validator need to have good uptime (99.99%) and good behaviour (see <a href="https://docs.pirl.io/migrate/in_brief.html#how-does-slashing-works-">How does slashing works ?</a> for more info about slashing).
+The list below is purely indicative and not a recommandation.
+<br></br></p>
+</blockquote>
+<p><img src="media/Nominate_6.JPG" alt="Nominate" /></p>
+<ol start="7">
+<li>
+<p>Now you need to authorize transaction
+<img src="media/Nominate_7.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>And tadaa ! Enjoy stacking with Pirl. Your all done.
+<img src="media/Nominate_8.JPG" alt="Nominate" /></p>
+</li>
+</ol>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
+                            <a rel="prev" href="../validator_guide/guides_how_to_validate.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
 
                         
-                            <a rel="next" href="participate.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../migrate/claims_coins.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -207,9 +237,13 @@ The major changes are:</p>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
+                    <a rel="prev" href="../validator_guide/guides_how_to_validate.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
 
                 
-                    <a rel="next" href="participate.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../migrate/claims_coins.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
@@ -232,14 +266,14 @@ The major changes are:</p>
         
 
         
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
         
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
         
