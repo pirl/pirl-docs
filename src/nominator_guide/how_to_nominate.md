@@ -24,12 +24,11 @@
 
 6) Choose your validator, you can choose multiple validators. This choice is up to you. 
 
->## WARNING
->
+> ## WARNING
 > For avoiding being <strong>slashed</strong> (aka <strong>loose money</strong>), choose wisely your validator !
 > The validator need to have good uptime (99.99%) and good behaviour (see [How does slashing works ?](https://docs.pirl.io/migrate/in_brief.html#how-does-slashing-works-) for more info about slashing).
 > The list below is purely indicative and not a recommandation.
->
+><br></br>
 
 ![Nominate](media/Nominate_6.JPG)
 
