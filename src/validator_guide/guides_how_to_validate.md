@@ -205,6 +205,15 @@ Go to the [explorer](https://explorer.pirl.network/#/staking/actions) you can no
 Last step, hit the validate button when the transaction is confirmed.
 
 
+>In case you have already bonded your pirl
+>![Stashes](media/AlreadyStaked.JPG)
+>
+>>If your currently nominate, you can stop that with square button
+>
+>You can add your session key in the associate button
+>![Stashes](media/setKeyForValidator.JPG)
+>
+
 Voila, you are all set
 
 
