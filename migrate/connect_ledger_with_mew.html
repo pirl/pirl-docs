@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>How to be a Nominator - Pirl 2.0</title>
+        <title>Ledger wallet with MEW - Pirl 2.0</title>
         
         
 
@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="../participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li><li class="chapter-item expanded "><a href="../nominator_guide/how_to_nominate.html" class="active"><strong aria-hidden="true">2.2.</strong> How to be a Nominator</a></li></ol></li><li class="chapter-item expanded "><a href="../migrate/claims_coins.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../migrate/connect_ledger_with_mew.html"><strong aria-hidden="true">3.1.</strong> Ledger wallet with MEW</a></li><li class="chapter-item expanded "><a href="../migrate/in_brief.html"><strong aria-hidden="true">3.2.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="../contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="chapter-item expanded "><a href="../credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="../participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li><li class="chapter-item expanded "><a href="../nominator_guide/how_to_nominate.html"><strong aria-hidden="true">2.2.</strong> How to be a Nominator</a></li></ol></li><li class="chapter-item expanded "><a href="../migrate/claims_coins.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../migrate/connect_ledger_with_mew.html" class="active"><strong aria-hidden="true">3.1.</strong> Ledger wallet with MEW</a></li><li class="chapter-item expanded "><a href="../migrate/in_brief.html"><strong aria-hidden="true">3.2.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="../contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="chapter-item expanded "><a href="../credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -163,69 +163,36 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#how-to-be-a-nominator" id="how-to-be-a-nominator">How to be a Nominator</a></h1>
-<h2><a class="header" href="#requirements" id="requirements">Requirements</a></h2>
+                        <h1><a class="header" href="#how-to-connect-your-ledger-wallet-through-mew-for-claiming-your-asset" id="how-to-connect-your-ledger-wallet-through-mew-for-claiming-your-asset">How to connect your ledger wallet through MEW for claiming your asset</a></h1>
+<p>Firstly, go to <a href="https://www.myetherwallet.com/">MEW</a> then click on Access My Wallet
+<img src="media/connectMewWitLedger1.JPG" alt="MEW" /></p>
+<p>Then select Hardware
+<img src="media/connectMewWitLedger2.JPG" alt="MEW" /></p>
+<p>Then select the kind of hardware wallet you use (in our case Ledger, but should be revelant for other)
+<img src="media/connectMewWitLedger3.JPG" alt="MEW" /></p>
 <blockquote>
-<p>You need an account with some pirl on it. If you have a Pirl 1.0 account and do not have claim it yet on the new blockchain, please refer to this <a href="https://docs.pirl.io/migrate/claims_coins.html">tutorial</a> </p>
+<p>Do not forget to open the pirl app in your Ledger</p>
 </blockquote>
-<h2><a class="header" href="#setup" id="setup">Setup</a></h2>
-<ol>
-<li>
-<p>You need to create a new account for control your staked
-<img src="media/Nominate_1.JPG" alt="Nominate" />
-<img src="media/Nominate_2.JPG" alt="Nominate" /></p>
-</li>
-<li>
-<p>Then send some pirl for covering network fees
-<img src="media/Nominate_2bis.JPG" alt="Nominate" /></p>
-</li>
-<li>
-<p>Then go to staking panel
-<img src="media/Nominate_3.JPG" alt="Nominate" /></p>
-</li>
-<li>
-<p>Add nominator
-<img src="media/Nominate_4.JPG" alt="Nominate" /></p>
-</li>
-<li>
-<p>For stash account, select the account with you stash (the one with all your precious pirl) and for controller account, the newly created account in step 1
-<img src="media/Nominate_5.JPG" alt="Nominate" /></p>
-</li>
-<li>
-<p>Choose your validator, you can choose multiple validators. This choice is up to you. </p>
-</li>
-</ol>
-<blockquote>
-<h2><a class="header" href="#warning" id="warning">WARNING</a></h2>
-<p>For avoiding being <strong>slashed</strong> (aka <strong>loose money</strong>), choose wisely your validator !
-The validator need to have good uptime (99.99%) and good behaviour (see <a href="https://docs.pirl.io/migrate/in_brief.html#how-does-slashing-works-">How does slashing works ?</a> for more info about slashing).
-The list below is purely indicative and not a recommandation.
-<br></br></p>
-</blockquote>
-<p><img src="media/Nominate_6.JPG" alt="Nominate" /></p>
-<ol start="7">
-<li>
-<p>Now you need to authorize transaction
-<img src="media/Nominate_7.JPG" alt="Nominate" /></p>
-</li>
-<li>
-<p>And tadaa ! Enjoy stacking with Pirl. Your all done.
-<img src="media/Nominate_8.JPG" alt="Nominate" /></p>
-</li>
-</ol>
+<p>Then click on the arrow next to Ethereum to see all network available
+<img src="media/connectMewWitLedger4.JPG" alt="MEW" /></p>
+<p>Then select the Pirl network
+<img src="media/connectMewWitLedger5.JPG" alt="MEW" /></p>
+<p>Then choose your address, check ti accept Terms and tada !
+<img src="media/connectMewWitLedger6.JPG" alt="MEW" /></p>
+<p>Now you can proceed to <a href="./claims_coins.html">claim guide</a></p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
-                            <a rel="prev" href="../validator_guide/guides_how_to_validate.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../migrate/claims_coins.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
                         
 
                         
-                            <a rel="next" href="../migrate/claims_coins.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../migrate/in_brief.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -237,13 +204,13 @@ The list below is purely indicative and not a recommandation.
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
-                    <a rel="prev" href="../validator_guide/guides_how_to_validate.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../migrate/claims_coins.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
                 
 
                 
-                    <a rel="next" href="../migrate/claims_coins.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../migrate/in_brief.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
