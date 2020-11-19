@@ -168,7 +168,25 @@ Check if your node is appereing in the telemetry UI : [https://telemetry.polkado
 
 ## Step 2 Assign the node to an account
 
-We assume that you created 2 account and that you have already bonded it. Be carefull, use a stash account and a controller account.
+We assume that you have already claim your coin from Pirl 1.0 (see [how to claim](https://docs.pirl.io/migrate/claims_coins.html)) or you already have an account with your Pirl on it.
+
+You need to create an controller account in order to do the next steps. 
+
+>The stash account serve as you "cold wallet" with all your precious coin
+>
+>The controller account serve as a manager to your stash account
+><br></br><strong>Always keep in safe place your keystore file or your 12/24 words seed</strong>
+
+To create an controller account, add account
+![Controller](media/01.JPG)
+
+Choose any name that suit for you
+![Controller](media/02.JPG)
+
+Then send some pirl (from your stash account) for covering network fees
+![Controller](media/02b.JPG)
+
+You can proceed to the next steps
 
 ### Create session key:
 
@@ -186,6 +204,15 @@ Go to the [explorer](https://explorer.pirl.network/#/staking/actions) you can no
 
 Last step, hit the validate button when the transaction is confirmed.
 
+
+>In case you have already bonded your pirl
+>![Stashes](media/AlreadyStaked.JPG)
+>
+>>If your currently nominate, you can stop that with square button
+>
+>You can add your session key in the associate button
+>![Stashes](media/setKeyForValidator.JPG)
+>
 
 Voila, you are all set
 
