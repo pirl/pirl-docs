@@ -32,6 +32,24 @@
 
 ![Nominate](media/Nominate_6.JPG)
 
+> ## Info
+> Rewarding system work as follow :
+>
+> Validator are reward by block reward + 20% transaction fee. <strong>This do not depend on stake amount ! </strong>
+>
+> Validator take a % commision (you can see that info in [staking overview](https://explorer.pirl.network/#/staking))
+>
+> Validator and Nominator share the remaining reward according to their share
+>
+>> Eg. Validator has 100 pirl staked, NominatorA has  50 pirl staked and NominatorB has 200 pirl staked
+>>
+>> Validator get 28.57% of the remaining reward, NominatorA 14.29% and NominatorB 57.14%.
+>
+> You can check potential profit/era in the [targets panel](https://explorer.pirl.network/#/staking/targets),
+> but be carreful, this value change according to nomination on each era
+>![NominatorProfit](media/profitNominator.JPG)
+><br></br>
+
 7) Now you need to authorize transaction
 ![Nominate](media/Nominate_7.JPG)
 
