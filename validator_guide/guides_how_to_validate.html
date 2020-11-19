@@ -270,7 +270,20 @@ WantedBy=multi-user.target
 </code></pre>
 <p>Check if your node is appereing in the telemetry UI : <a href="https://telemetry.polkadot.io/#list/Pirl">https://telemetry.polkadot.io/#list/Pirl</a></p>
 <h2><a class="header" href="#step-2-assign-the-node-to-an-account" id="step-2-assign-the-node-to-an-account">Step 2 Assign the node to an account</a></h2>
-<p>We assume that you created 2 account and that you have already bonded it. Be carefull, use a stash account and a controller account.</p>
+<p>We assume that you have already claim your coin from Pirl 1.0 (see <a href="https://docs.pirl.io/migrate/claims_coins.html">how to claim</a>) or you already have an account with your Pirl on it.</p>
+<p>You need to create an controller account in order to do the next steps. </p>
+<blockquote>
+<p>The stash account serve as you &quot;cold wallet&quot; with all your precious coin</p>
+<p>The controller account serve as a manager to your stash account
+<br></br><strong>Always keep in safe place your keystore file or your 12/24 words seed</strong></p>
+</blockquote>
+<p>To create an controller account, add account
+<img src="media/01.JPG" alt="Controller" /></p>
+<p>Choose any name that suit for you
+<img src="media/02.JPG" alt="Controller" /></p>
+<p>Then send some pirl (from your stash account) for covering network fees
+<img src="media/02b.JPG" alt="Controller" /></p>
+<p>You can proceed to the next steps</p>
 <h3><a class="header" href="#create-session-key" id="create-session-key">Create session key:</a></h3>
 <p>Go in you terminal where the node is installed and paste the current command, you will have a session key of your node.</p>
 <pre><code>curl -H &quot;Content-Type: application/json&quot; -d '{&quot;id&quot;:1, &quot;jsonrpc&quot;:&quot;2.0&quot;, &quot;method&quot;: &quot;author_rotateKeys&quot;, &quot;params&quot;:[]}' http://localhost:9933
@@ -278,6 +291,15 @@ WantedBy=multi-user.target
 <h3><a class="header" href="#submitting-the-setkeys-transaction" id="submitting-the-setkeys-transaction">Submitting the setKeys Transaction:</a></h3>
 <p>Go to the <a href="https://explorer.pirl.network/#/staking/actions">explorer</a> you can now create a validator, use the key generated above to paste in the form.</p>
 <p>Last step, hit the validate button when the transaction is confirmed.</p>
+<blockquote>
+<p>In case you have already bonded your pirl
+<img src="media/AlreadyStaked.JPG" alt="Stashes" /></p>
+<blockquote>
+<p>If your currently nominate, you can stop that with square button</p>
+</blockquote>
+<p>You can add your session key in the associate button
+<img src="media/setKeyForValidator.JPG" alt="Stashes" /></p>
+</blockquote>
 <p>Voila, you are all set</p>
 <p><br></br></p>
 <h2><a class="header" href="#list-of-vps-providers" id="list-of-vps-providers">List of VPS providers</a></h2>
