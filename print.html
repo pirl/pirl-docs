@@ -418,14 +418,49 @@ Click “Claim” and then “Submit” in the next box to collect your Pirls.</
 <p>If you have any feedback or comments to this tutorial, <a href="https://community.pirl.io/t/claim-pirls-from-old-chain-to-pirl-2-0-tutorial/131">please make a reply in this forum</a>.</p>
 <h2><a class="header" href="#thank-you-fantomas-for-the-tutorial" id="thank-you-fantomas-for-the-tutorial">Thank you @Fantomas for the tutorial</a></h2>
 <h1><a class="header" href="#migration-faq" id="migration-faq">Migration FAQ</a></h1>
+<h2><a class="header" href="#fast-access" id="fast-access">Fast access</a></h2>
+<p><a href="migrate/in_brief.html#claiming">Claiming</a></p>
+<p><a href="migrate/in_brief.html#masternode">Masternode</a></p>
+<p><a href="migrate/in_brief.html#general">General</a></p>
+<p><a href="migrate/in_brief.html#validator">Validator</a></p>
+<h2><a class="header" href="#claiming" id="claiming">Claiming</a></h2>
+<h4><a class="header" href="#what-should-i-do-to-switch-to-pirl-20-" id="what-should-i-do-to-switch-to-pirl-20-">What should I do to switch to pirl 2.0 ?</a></h4>
+<blockquote>
+<p>Follow the <a href="migrate/./claims_coins.html">claiming guide</a></p>
+</blockquote>
 <h4><a class="header" href="#we-have-until-when-to-claim-for-yours-pirl-20-" id="we-have-until-when-to-claim-for-yours-pirl-20-">We have until when to claim for yours Pirl 2.0 ?</a></h4>
 <blockquote>
 <p>There is no time limit set.</p>
 </blockquote>
+<h4><a class="header" href="#if-i-keep-my-pirl-on-the-exchange-is-the-change-to-the-new-blockchain-automatic-" id="if-i-keep-my-pirl-on-the-exchange-is-the-change-to-the-new-blockchain-automatic-">If I keep my PIRL on the exchange, is the change to the new blockchain automatic ?</a></h4>
+<blockquote>
+<p>Yes, the exchanges will swap your PIRL automatically. (Please don´t hold your coins longer at any exchange, not your keys, not your coins)</p>
+</blockquote>
+<h4><a class="header" href="#i-used-the-web-wallet-im-safe-for-the-claim-" id="i-used-the-web-wallet-im-safe-for-the-claim-">I used the web wallet, I'm safe for the claim ?</a></h4>
+<blockquote>
+<p>Yes, you can claim your coins with web wallet. Follow the <a href="migrate/./claims_coins.html">claiming guide</a></p>
+</blockquote>
+<h4><a class="header" href="#can-i-claim-my-coins-with-ledger-wallet-" id="can-i-claim-my-coins-with-ledger-wallet-">Can I claim my coins with ledger wallet ?</a></h4>
+<blockquote>
+<p>Yes, be sure to have backup phrase and latest firmware.</p>
+</blockquote>
+<h2><a class="header" href="#masternode" id="masternode">Masternode</a></h2>
 <h4><a class="header" href="#do-i-need-to-disable-the-masternode-to-get-my-claim-in-pirl-20-" id="do-i-need-to-disable-the-masternode-to-get-my-claim-in-pirl-20-">Do I need to disable the masternode to get my claim in Pirl 2.0 ?</a></h4>
 <blockquote>
 <p>No, you will get your coins even if they are locked in the contract.</p>
 </blockquote>
+<h4><a class="header" href="#i-didnt-unlocked-the-coins-locked-in-masternode-contract-are-they-lost-" id="i-didnt-unlocked-the-coins-locked-in-masternode-contract-are-they-lost-">I didn't unlocked the coins locked in masternode contract, are they lost ?</a></h4>
+<blockquote>
+<p>No, the coins locked in the masternode contract(s) will be available freely in your wallet after <a href="migrate/./claims_coins.html">claiming process</a>.</p>
+</blockquote>
+<h3><a class="header" href="#how-to-delete-all-the-old-pirl-services-on-masternodes-" id="how-to-delete-all-the-old-pirl-services-on-masternodes-">How to delete all the old Pirl services on masternodes ?</a></h3>
+<blockquote>
+<p>BE SURE TO NOT HAVE PIRL KEYS PRESENT </p>
+</blockquote>
+<blockquote>
+<p><code>service pirl stop &amp;&amp; service marlin stop &amp;&amp; rm -rf /root/.pirl &amp;&amp; rm -rf /root/.marlin &amp;&amp; systemctl disable pirl &amp;&amp; systemctl disable marlin</code></p>
+</blockquote>
+<h2><a class="header" href="#general" id="general">General</a></h2>
 <h4><a class="header" href="#does-wpirl-need-to-be-bridged-back-to-pirl-legacy-chain-for-swap-of-coins" id="does-wpirl-need-to-be-bridged-back-to-pirl-legacy-chain-for-swap-of-coins">Does wPIRL need to be bridged back to pirl legacy chain for swap of coins?</a></h4>
 <blockquote>
 <p>Yes, you need to bridge all your coins back to be able to swap your PIRL. After the snapshot it's not possible until we re-implemented it. No date or schedule yet.</p>
@@ -434,21 +469,24 @@ Click “Claim” and then “Submit” in the next box to collect your Pirls.</
 <blockquote>
 <p>Not at the beginning but we will support hardware wallets at a later stage. No date or schedule yet.</p>
 </blockquote>
-<h4><a class="header" href="#if-i-keep-my-pirl-on-the-exchange-is-the-change-to-the-new-blockchain-automatic-" id="if-i-keep-my-pirl-on-the-exchange-is-the-change-to-the-new-blockchain-automatic-">If I keep my PIRL on the exchange, is the change to the new blockchain automatic ?</a></h4>
+<h4><a class="header" href="#how-does-slashing-works-" id="how-does-slashing-works-">How does slashing works ?</a></h4>
 <blockquote>
-<p>Yes, the exchanges will swap your PIRL automatically. (Please don´t hold your coins longer at any exchange, not your keys, not your coins)</p>
+<ul>
+<li>Level 1: isolated unresponsiveness, i.e. being offline for an entire epoch. No slashing, only chilling.</li>
+<li>Level 2: concurrent unresponsiveness or isolated equivocation. Slashes a very small amount of the stake and chills.</li>
+<li>Level 3: misconducts unlikely to be accidental, but which do not harm the network's security to any large extent. Examples include concurrent equivocation or isolated cases of unjustified voting in GRANDPA. Slashes a moderately small amount of the stake and chills.</li>
+<li>Level 4: misconduct that poses a serious security or monetary risk to the system, or mass collusion. Slashes all or most of the stake behind the validator and chills.</li>
+</ul>
+<p><a href="https://research.web3.foundation/en/latest/polkadot/slashing.html">Reference research article about slashing</a></p>
 </blockquote>
-<h4><a class="header" href="#what-should-i-do-to-switch-to-pirl-20-" id="what-should-i-do-to-switch-to-pirl-20-">What should I do to switch to pirl 2.0 ?</a></h4>
+<h4><a class="header" href="#can-i-get-my-coins-back-if-i-stake-or-create-a-validator-" id="can-i-get-my-coins-back-if-i-stake-or-create-a-validator-">Can I get my coins back if I stake or create a validator ?</a></h4>
 <blockquote>
-<p>The change will be at block 7 650 000. Follow information on Discord and Twitter on when you will be able to perform the swap and switch to Pirl 2.0</p>
+<p>Yes you can unlock them when you want, you will have to wait the cooldown period to get it credited in your wallet, actual waiting period is 28 days.</p>
 </blockquote>
-<h4><a class="header" href="#how-will-the-swap-work-" id="how-will-the-swap-work-">How will the swap work ?</a></h4>
+<h2><a class="header" href="#validator-1" id="validator-1">Validator</a></h2>
+<h4><a class="header" href="#what-is-the-validator-reward-amount-" id="what-is-the-validator-reward-amount-">What is the validator reward amount ?</a></h4>
 <blockquote>
-<p>Snapshot will be taken at block 7 650 000, and you will be able to swap the Pirl balance at this block to Pirl 2.0</p>
-</blockquote>
-<h4><a class="header" href="#where-and-how-to-apply-for-coins-" id="where-and-how-to-apply-for-coins-">Where and how to apply for coins ?</a></h4>
-<blockquote>
-<p>From Pirl 2.0 Portal after block 7 650 000. Follow <a href="https://community.pirl.io/t/claim-pirls-from-old-chain-to-pirl-2-0-tutorial/131">this tutorial</a></p>
+<p>We can calculate it precisely, it depend on the network staking rate. Validator will have minted coins plus 20% of the transfert fees ( 80% goes to decentralised treasury ). Rewards are calculated based on era points, which have a probabilistic component. In other words, there may be slight differences in your rewards from era to era, and even amongst validators in the active set at the same time. These variations should cancel out over a long enough timeline.</p>
 </blockquote>
 <h4><a class="header" href="#what-is-the-minimum-requierement-for-a-validator-" id="what-is-the-minimum-requierement-for-a-validator-">What is the minimum requierement for a validator ?</a></h4>
 <blockquote>
@@ -461,43 +499,6 @@ Click “Claim” and then “Submit” in the next box to collect your Pirls.</
 <li>Stabile internet connection are required. The validator nodes plays a very important role by securing the network and we recommend renting VPS from providers with good infrastructure and not trying to set up at home. </li>
 </ul>
 <h3><a class="header" href="#a-hrefmigratevalidator_guideguides_how_to_validatehtmlread-more-about-validators-requierements-herea" id="a-hrefmigratevalidator_guideguides_how_to_validatehtmlread-more-about-validators-requierements-herea"><a href="migrate/../validator_guide/guides_how_to_validate.html">Read more about validators requierements here</a></a></h3>
-</blockquote>
-<h4><a class="header" href="#how-does-slashing-works-" id="how-does-slashing-works-">How does slashing works ?</a></h4>
-<blockquote>
-<ul>
-<li>Level 1: isolated unresponsiveness, i.e. being offline for an entire epoch. No slashing, only chilling.</li>
-<li>Level 2: concurrent unresponsiveness or isolated equivocation. Slashes a very small amount of the stake and chills.</li>
-<li>Level 3: misconducts unlikely to be accidental, but which do not harm the network's security to any large extent. Examples include concurrent equivocation or isolated cases of unjustified voting in GRANDPA. Slashes a moderately small amount of the stake and chills.</li>
-<li>Level 4: misconduct that poses a serious security or monetary risk to the system, or mass collusion. Slashes all or most of the stake behind the validator and chills.</li>
-</ul>
-<p><a href="https://research.web3.foundation/en/latest/polkadot/slashing.html">Reference research article about slashing</a></p>
-</blockquote>
-<h4><a class="header" href="#i-used-the-web-wallet-im-safe-for-the-claim-" id="i-used-the-web-wallet-im-safe-for-the-claim-">I used the web wallet, I'm safe for the claim ?</a></h4>
-<blockquote>
-<p>Yes, just wait the fork of the chain and you will be able to claim your coins in Pirl 2.0.</p>
-</blockquote>
-<h4><a class="header" href="#can-i-claim-my-coins-with-ledger-wallet-" id="can-i-claim-my-coins-with-ledger-wallet-">Can I claim my coins with ledger wallet ?</a></h4>
-<blockquote>
-<p>Yes, be sure to have backup phrase and latest firmware.</p>
-</blockquote>
-<h4><a class="header" href="#i-didnt-unlocked-the-coins-locked-in-masternode-contract-are-they-lost-" id="i-didnt-unlocked-the-coins-locked-in-masternode-contract-are-they-lost-">I didn't unlocked the coins locked in masternode contract, are they lost ?</a></h4>
-<blockquote>
-<p>No, the coins locked in the masternode contract(s) will be available freely in your wallet after the fork in the new network.</p>
-</blockquote>
-<h4><a class="header" href="#what-is-the-validator-reward-amount-" id="what-is-the-validator-reward-amount-">What is the validator reward amount ?</a></h4>
-<blockquote>
-<p>We can calculate it precisely, it depend on the network staking rate. Validator will have minted coins plus 20% of the transfert fees ( 80% goes to decentralised treasury ). Rewards are calculated based on era points, which have a probabilistic component. In other words, there may be slight differences in your rewards from era to era, and even amongst validators in the active set at the same time. These variations should cancel out over a long enough timeline.</p>
-</blockquote>
-<h4><a class="header" href="#can-i-get-my-coins-back-if-i-stake-or-create-a-validator-" id="can-i-get-my-coins-back-if-i-stake-or-create-a-validator-">Can I get my coins back if I stake or create a validator ?</a></h4>
-<blockquote>
-<p>Yes you can unlock them when you want, you will have to wait the cooldown period to get it credited in your wallet, actual waiting period is 28 days.</p>
-</blockquote>
-<h3><a class="header" href="#how-to-delete-all-the-old-pirl-services-on-masternodes-" id="how-to-delete-all-the-old-pirl-services-on-masternodes-">How to delete all the old Pirl services on masternodes ?</a></h3>
-<blockquote>
-<p>BE SURE TO NOT HAVE PIRL KEYS PRESENT </p>
-</blockquote>
-<blockquote>
-<p><code>service pirl stop &amp;&amp; service marlin stop &amp;&amp; rm -rf /root/.pirl &amp;&amp; rm -rf /root/.marlin &amp;&amp; systemctl disable pirl &amp;&amp; systemctl disable marlin</code></p>
 </blockquote>
 <h1><a class="header" href="#contribution" id="contribution">Contribution</a></h1>
 <h2><a class="header" href="#how-can-i-contribute-to-the-docs-" id="how-can-i-contribute-to-the-docs-">How can I contribute to the docs ?</a></h2>
