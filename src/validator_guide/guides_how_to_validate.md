@@ -128,7 +128,7 @@ clone Pirl from github
 git clone https://github.com/pirl/pirl-2_0
 ```
 
-and build it
+move to pirl-2_0 directory and build it
 
 ```
 cargo +nightly-2020-07-01 build --release

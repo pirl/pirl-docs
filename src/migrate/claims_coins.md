@@ -1,14 +1,15 @@
 # Claim PIRL coins from old chain to Pirl 2.0
 
-This tutorial describes how to claim your Pirl from “old chain” to Pirl 2.0.
-Balance of Pirls are taken from snapshot at block 7 650 000.
+This tutorial describes how to claim your Pirl from “old chain” to Pirl 2.0.<br>
+Balance of Pirls where taken from snapshot at block 7 650 000, meaning you will only be able to claim what you had in balance at this block.
 
-In this tutorial we will use the MEW wallet and Pirl 2.0 Portal.
+In this tutorial we will use the MEW wallet and Pirl 2.0 Portal.<br>
 Before proceeding, you will have to create a wallet in the Pirl 2.0 Portal and log in to your Pirl wallet in [MEW](https://www.myetherwallet.com/access-my-wallet) using your Keystore file.
 
-If you dont get any Pirl balance in the MEW wallet, please check your Network settings (1) and set to (PIRL) as shown in picture below.
+If you dont get any Pirl balance in the MEW wallet, please check your Network settings (1) and set to (PIRL) as shown in picture below.<br>
+- <strong>Note:</strong> It has been tested and verified that the claim works fine without changing the network as well.
 
-# [Pirl 2.0 Portal https://dashboard.pirl.network](https://dashboard.pirl.network) 
+## [Pirl 2.0 Portal https://dashboard.pirl.network](https://dashboard.pirl.network) 
 
 ![Claims](media/claims_coins_1.jpeg)
 
