@@ -9,5 +9,8 @@
 	- [Ledger wallet with MEW](migrate/connect_ledger_with_mew.md)
     - [FAQ](migrate/in_brief.md)     
 - [Contribute](contribute/contribution.md)
+	- [Setup Github + GitKraken](contribute/setup_github.md)
+	- [Write your first guide](contribute/write_your_first_doc.md)
+	- [How to submit](contribute/how_to_submit.md)
 - [Credits](credits/credits.md)
 
