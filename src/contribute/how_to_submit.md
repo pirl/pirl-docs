@@ -80,4 +80,4 @@ You can view your pull request directly in the official repo : [https://github.c
 
 And voila ! You just need to wait approval from official team.
 
-Thank you for contributing to Pirl and share the love <img src="../media/pirlHeart.png" width="20"/>
+Thank you for contributing to Pirl and share the love <img src="../media/PirlHeart.png" width="20"/>
