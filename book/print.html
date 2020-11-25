@@ -97,7 +97,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="migrate/claims_coins.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="migrate/in_brief.html"><strong aria-hidden="true">3.1.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="chapter-item expanded "><a href="credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li><li class="chapter-item expanded "><a href="nominator_guide/how_to_nominate.html"><strong aria-hidden="true">2.2.</strong> How to be a Nominator</a></li></ol></li><li class="chapter-item expanded "><a href="migrate/migrate.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="migrate/new_wallet.html"><strong aria-hidden="true">3.1.</strong> Create Pirl 2.0 wallet</a></li><li class="chapter-item expanded "><a href="migrate/claims_coins.html"><strong aria-hidden="true">3.2.</strong> Claim coins with MEW</a></li><li class="chapter-item expanded "><a href="migrate/connect_ledger_with_mew.html"><strong aria-hidden="true">3.3.</strong> Ledger wallet with MEW</a></li><li class="chapter-item expanded "><a href="migrate/in_brief.html"><strong aria-hidden="true">3.4.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="chapter-item expanded "><a href="credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -177,6 +177,16 @@ The major changes are:</p>
 <li>validation of the blockchain using Validator node</li>
 <li>staking ( you can nominate a validator and stake on top of it )</li>
 </ul>
+<h2><a class="header" href="#protocol-informations" id="protocol-informations">Protocol informations:</a></h2>
+<ul>
+<li>ID: PIRL</li>
+<li>ss58Format: 42</li>
+<li>TokenDecimals: 12 ( previously 18)</li>
+<li>TokenSymbol: PIRL</li>
+<li>RPC port: 9933</li>
+<li>WS port: 9944</li>
+<li>P2P port: 30333</li>
+</ul>
 <p><br></br></p>
 <p><img src="media/Pirl-Logo-New-Police-slogan-black-background.png" alt="Pirl Logo" /></p>
 <h1><a class="header" href="#particiapte-in-pirl-20" id="particiapte-in-pirl-20">Particiapte in Pirl 2.0</a></h1>
@@ -235,17 +245,214 @@ NTP is a networking protocol designed to synchronize the clocks of computers ove
 <p>WARNING: Skipping this can result in the validator node missing block authorship opportunities. If the clock is out of sync (even by a small amount), the blocks the validator produces may not get accepted by the network. This will result in ImOnline heartbeats making it on chain, but zero allocated blocks making it on chain. </p>
 </blockquote>
 <h2><a class="header" href="#building-and-installing-the-pirl-binary" id="building-and-installing-the-pirl-binary">Building and Installing the pirl Binary</a></h2>
+<br>
+<h1><a class="header" href="#centos-8" id="centos-8">Centos 8</a></h1>
+<p>Install and configure time</p>
+<pre><code>dnf install chrony
+</code></pre>
+<p>Enable it</p>
+<pre><code>systemctl enable chronyd
+</code></pre>
+<p>Allow the process in firewall</p>
+<pre><code>firewall-cmd --permanent --add-service=ntp &amp;&amp; firewall-cmd --add-port=30333/tcp --permanent &amp;&amp; firewall-cmd --reload
+</code></pre>
+<p>If you have never installed Rust, you should do this first. This command will fetch the latest version of Rust and install it.</p>
+<pre><code># curl https://sh.rustup.rs -sSf | sh
+# source $HOME/.cargo/env
+</code></pre>
+<p>Otherwise, if you have already installed Rust, run the following command to make sure you are using the latest version.</p>
+<pre><code>rustup update
+</code></pre>
+<p>Install development tools</p>
+<pre><code>dnf group install &quot;Development Tools&quot; -y
+</code></pre>
+<p>Install other tools needed</p>
+<pre><code>dnf install -y cmake llvm  llvm-devel clang
+</code></pre>
+<p>Install rust tools</p>
+<pre><code>rustup toolchain install nightly-2020-07-01
+rustup update nightly
+rustup update stable
+rustup target add wasm32-unknown-unknown --toolchain nightly-2020-07-01
+</code></pre>
+<p>clone Pirl from github</p>
+<pre><code>git clone https://github.com/pirl/pirl-2_0
+</code></pre>
+<p>move to pirl-2_0 directory and build it</p>
+<pre><code>cargo +nightly-2020-07-01 build --release
+</code></pre>
+<p>Copy the binary ready to use</p>
+<pre><code> cp -rp target/release/pirl /usr/bin/
+</code></pre>
+<h2><a class="header" href="#make-the-service-permanent" id="make-the-service-permanent">Make the service permanent</a></h2>
+<p>create systemd file in /usr/lib/systemd/system/pirl.service</p>
+<pre><code>[Unit]
+Description=Pirl Validator
+After=network-online.target
+
+[Service]
+
+ExecStart=/usr/bin/pirl  --port &quot;30333&quot;   --ws-port &quot;9944&quot;   --rpc-port &quot;9933&quot; --validator  --name &quot;CHANGE IT TO A DESIRED NAME&quot;
+User=root
+Restart=always
+ExecStartPre=/bin/sleep 5
+RestartSec=30s
+
+[Install]
+WantedBy=multi-user.target
+
+</code></pre>
+<p>Check if your node is appereing in the telemetry UI : <a href="https://telemetry.polkadot.io/#list/Pirl">https://telemetry.polkadot.io/#list/Pirl</a></p>
+<h2><a class="header" href="#step-2-assign-the-node-to-an-account" id="step-2-assign-the-node-to-an-account">Step 2 Assign the node to an account</a></h2>
+<p>We assume that you have already claim your coin from Pirl 1.0 (see <a href="https://docs.pirl.io/migrate/claims_coins.html">how to claim</a>) or you already have an account with your Pirl on it.</p>
+<p>You need to create an controller account in order to do the next steps. </p>
+<blockquote>
+<p>The stash account serve as you &quot;cold wallet&quot; with all your precious coin</p>
+<p>The controller account serve as a manager to your stash account
+<br></br><strong>Always keep in safe place your keystore file or your 12/24 words seed</strong></p>
+</blockquote>
+<p>To create an controller account, add account
+<img src="validator_guide/media/01.JPG" alt="Controller" /></p>
+<p>Choose any name that suit for you
+<img src="validator_guide/media/02.JPG" alt="Controller" /></p>
+<p>Then send some pirl (from your stash account) for covering network fees
+<img src="validator_guide/media/02b.JPG" alt="Controller" /></p>
+<p>You can proceed to the next steps</p>
+<h3><a class="header" href="#create-session-key" id="create-session-key">Create session key:</a></h3>
+<p>Go in you terminal where the node is installed and paste the current command, you will have a session key of your node.</p>
+<pre><code>curl -H &quot;Content-Type: application/json&quot; -d '{&quot;id&quot;:1, &quot;jsonrpc&quot;:&quot;2.0&quot;, &quot;method&quot;: &quot;author_rotateKeys&quot;, &quot;params&quot;:[]}' http://localhost:9933
+</code></pre>
+<h3><a class="header" href="#submitting-the-setkeys-transaction" id="submitting-the-setkeys-transaction">Submitting the setKeys Transaction:</a></h3>
+<p>Go to the <a href="https://explorer.pirl.network/#/staking/actions">explorer</a> you can now create a validator, use the key generated above to paste in the form.</p>
+<p>Last step, hit the validate button when the transaction is confirmed.</p>
+<blockquote>
+<p>In case you have already bonded your pirl
+<img src="validator_guide/media/AlreadyStaked.JPG" alt="Stashes" /></p>
+<blockquote>
+<p>If your currently nominate, you can stop that with square button</p>
+</blockquote>
+<p>You can add your session key in the associate button
+<img src="validator_guide/media/setKeyForValidator.JPG" alt="Stashes" /></p>
+</blockquote>
+<p>Voila, you are all set</p>
 <p><br></br></p>
 <h2><a class="header" href="#list-of-vps-providers" id="list-of-vps-providers">List of VPS providers</a></h2>
 <ul>
 <li><a href="https://pirlhosting.com">PirlHosting</a></li>
 </ul>
+<h1><a class="header" href="#how-to-be-a-nominator" id="how-to-be-a-nominator">How to be a Nominator</a></h1>
+<h2><a class="header" href="#requirements-1" id="requirements-1">Requirements</a></h2>
+<blockquote>
+<p>You need an account with some pirl on it. If you have a Pirl 1.0 account and do not have claim it yet on the new blockchain, please refer to this <a href="https://docs.pirl.io/migrate/claims_coins.html">tutorial</a> </p>
+</blockquote>
+<h2><a class="header" href="#setup" id="setup">Setup</a></h2>
+<ol>
+<li>
+<p>You need to create a new account for control your staked
+<img src="nominator_guide/media/Nominate_1.JPG" alt="Nominate" />
+<img src="nominator_guide/media/Nominate_2.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>Then send some pirl for covering network fees
+<img src="nominator_guide/media/Nominate_2bis.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>Then go to staking panel
+<img src="nominator_guide/media/Nominate_3.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>Add nominator
+<img src="nominator_guide/media/Nominate_4.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>For stash account, select the account with you stash (the one with all your precious pirl) and for controller account, the newly created account in step 1
+<img src="nominator_guide/media/Nominate_5.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>Choose your validator, you can choose multiple validators. This choice is up to you. </p>
+</li>
+</ol>
+<blockquote>
+<h2><a class="header" href="#warning-1" id="warning-1">WARNING</a></h2>
+<p>For avoiding being <strong>slashed</strong> (aka <strong>loose money</strong>), choose wisely your validator !
+The validator need to have good uptime (99.99%) and good behaviour (see <a href="https://docs.pirl.io/migrate/in_brief.html#how-does-slashing-works-">How does slashing works ?</a> for more info about slashing).
+The list below is purely indicative and not a recommandation.
+<br></br></p>
+</blockquote>
+<p><img src="nominator_guide/media/Nominate_6.JPG" alt="Nominate" /></p>
+<blockquote>
+<h2><a class="header" href="#info" id="info">Info</a></h2>
+<p>Rewarding system work as follow :</p>
+<p>Validator are reward by block reward + 20% transaction fee. <strong>This do not depend on stake amount ! </strong></p>
+<p>Validator take a % commision (you can see that info in <a href="https://explorer.pirl.network/#/staking">staking overview</a>)</p>
+<p>Validator and Nominator share the remaining reward according to their share</p>
+<blockquote>
+<p>Eg. Validator has 100 pirl staked, NominatorA has  50 pirl staked and NominatorB has 200 pirl staked</p>
+<p>Validator get 28.57% of the remaining reward, NominatorA 14.29% and NominatorB 57.14%.</p>
+</blockquote>
+<p>You can check potential profit/era in the <a href="https://explorer.pirl.network/#/staking/targets">targets panel</a>,
+but be carreful, this value change according to nomination on each era
+<img src="nominator_guide/media/profitNominator.JPG" alt="NominatorProfit" />
+<br></br></p>
+</blockquote>
+<ol start="7">
+<li>
+<p>Now you need to authorize transaction
+<img src="nominator_guide/media/Nominate_7.JPG" alt="Nominate" /></p>
+</li>
+<li>
+<p>And tadaa ! Enjoy stacking with Pirl. Your all done.
+<img src="nominator_guide/media/Nominate_8.JPG" alt="Nominate" /></p>
+</li>
+</ol>
+<h2><a class="header" href="#welcome-to-the-new-pirl-20-on-substrate" id="welcome-to-the-new-pirl-20-on-substrate">Welcome to the new Pirl 2.0 on substrate.</a></h2>
+<h3><a class="header" href="#pirl-has-migrated-from-its-original-proof-of-work-protocol--ethash--and-are-now-nominated-proof-of-stake-npos-based-on-substrate" id="pirl-has-migrated-from-its-original-proof-of-work-protocol--ethash--and-are-now-nominated-proof-of-stake-npos-based-on-substrate">Pirl has migrated from it's original proof-of-work protocol ( ethash ) and are now Nominated Proof-of-Stake (nPOS) based on substrate.</a></h3>
+<p>It`s time to claim your new Pirl 2.0.
+You can claim your &quot;old&quot; Pirl by following the guides supplied in this Wiki.
+Claim are based on your balance at block 7 650 000 on the old chain. (Nov 16, 2020)<br>
+<br>
+- Claim only has to be done once per old Pirl wallet.<br>
+- Pirl stored on STEX, Graviex and Sistemcoin at block 7 650 000 has been swapped by exchange.
+<br><br>
+Start by making yourself a new account in the new Pirl Portal as described in the guide.<br>
+Take your time and read the information given in the Wiki.</p>
+<br>
+<p>Welcome to Pirl 2.0 !</p>
+<h1><a class="header" href="#this-tutorial-covers-how-to-make-a-new-pirl-20-wallet-adress" id="this-tutorial-covers-how-to-make-a-new-pirl-20-wallet-adress">This tutorial covers how to make a new Pirl 2.0 wallet adress.</a></h1>
+<h2><a class="header" href="#pirl-20---portal" id="pirl-20---portal">Pirl 2.0 - Portal:</a></h2>
+<p>Go to <a href="https://explorer.pirl.network">Pirl 2.0 Portal - https://explorer.pirl.network</a> </p>
+<p>The new Pirl portal contains wallets,explorer,stats,voting,staking ++</p>
+<h3><a class="header" href="#to-open-a-new-pirl-accountwallet-on-the-new-chain-click-add-account" id="to-open-a-new-pirl-accountwallet-on-the-new-chain-click-add-account">To open a new Pirl Account/wallet on the new chain, click “Add account”</a></h3>
+<p><img src="migrate/media/new_wallet_1.png" alt="New_wallet" />
+<br></br></p>
+<ol>
+<li>Insert a wallet name.
+<strong> Important! Create backup of Mnemonic and store in a safe place. </strong></li>
+<li>Make a password for your new account</li>
+<li>Click <strong> “Next” </strong>
+<img src="migrate/media/new_wallet_2.png" alt="New_wallet" /></li>
+</ol>
+<h3><a class="header" href="#summary-page" id="summary-page">Summary page.</a></h3>
+<ol>
+<li>Click <strong>“Save”</strong> to generate the new wallet and new Keystore file.<br>
+<strong>Important! Remember to backup your wallet info, and keep it somewhere safe.
+<br>YOU are the only responsible for your own wallets.</strong>
+<img src="migrate/media/new_wallet_3.png" alt="New_wallet" /></li>
+</ol>
+<h3><a class="header" href="#general-info" id="general-info">General info.</a></h3>
+<p>To find general info, click on the wallet name (1)
+To copy wallet adress click on symbol (2) or (3)
+<img src="migrate/media/new_wallet_4.png" alt="New_wallet" /></p>
 <h1><a class="header" href="#claim-pirl-coins-from-old-chain-to-pirl-20" id="claim-pirl-coins-from-old-chain-to-pirl-20">Claim PIRL coins from old chain to Pirl 2.0</a></h1>
-<p>This tutorial describes how to claim your Pirl from “old chain” to Pirl 2.0.
-Balance of Pirls are taken from snapshot at block 7 650 000.</p>
-<p>In this tutorial we will use the MEW wallet and Pirl 2.0 Portal.
+<p>This tutorial describes how to claim your Pirl from “old chain” to Pirl 2.0.<br>
+Balance of Pirls where taken from snapshot at block 7 650 000, meaning you will only be able to claim what you had in balance at this block.</p>
+<p>In this tutorial we will use the MEW wallet and Pirl 2.0 Portal.<br>
 Before proceeding, you will have to create a wallet in the Pirl 2.0 Portal and log in to your Pirl wallet in <a href="https://www.myetherwallet.com/access-my-wallet">MEW</a> using your Keystore file.</p>
-<p>If you dont get any Pirl balance in the MEW wallet, please check your Network settings (1) and set to (PIRL) as shown in picture below.</p>
+<p>If you dont get any Pirl balance in the MEW wallet, please check your Network settings (1) and set to (PIRL) as shown in picture below.<br></p>
+<ul>
+<li><strong>Note:</strong> It has been tested and verified that the claim works fine without changing the network as well.</li>
+</ul>
+<h2><a class="header" href="#a-hrefhttpsdashboardpirlnetworkpirl-20-portal-httpsdashboardpirlnetworka" id="a-hrefhttpsdashboardpirlnetworkpirl-20-portal-httpsdashboardpirlnetworka"><a href="https://dashboard.pirl.network">Pirl 2.0 Portal https://dashboard.pirl.network</a></a></h2>
 <p><img src="migrate/media/claims_coins_1.jpeg" alt="Claims" /></p>
 <p>In Pirl Portal, click Account and choose “Claim Tokens”.</p>
 <p><img src="migrate/media/claims_coins_2.jpeg" alt="Claims" /></p>
@@ -266,15 +473,67 @@ Click “Claim” and then “Submit” in the next box to collect your Pirls.</
 <p>Well done !</p>
 <p>If you have any feedback or comments to this tutorial, <a href="https://community.pirl.io/t/claim-pirls-from-old-chain-to-pirl-2-0-tutorial/131">please make a reply in this forum</a>.</p>
 <h2><a class="header" href="#thank-you-fantomas-for-the-tutorial" id="thank-you-fantomas-for-the-tutorial">Thank you @Fantomas for the tutorial</a></h2>
+<h1><a class="header" href="#how-to-connect-your-ledger-wallet-through-mew-for-claiming-your-asset" id="how-to-connect-your-ledger-wallet-through-mew-for-claiming-your-asset">How to connect your ledger wallet through MEW for claiming your asset</a></h1>
+<p>Firstly, go to <a href="https://www.myetherwallet.com/">MEW</a> then click on Access My Wallet
+<img src="migrate/media/connectMewWitLedger1.JPG" alt="MEW" /></p>
+<p>Then select Hardware
+<img src="migrate/media/connectMewWitLedger2.JPG" alt="MEW" /></p>
+<p>Then select the kind of hardware wallet you use (in our case Ledger, but should be revelant for other)
+<img src="migrate/media/connectMewWitLedger3.JPG" alt="MEW" /></p>
+<blockquote>
+<p>Do not forget to open the pirl app in your Ledger</p>
+</blockquote>
+<p>Then click on the arrow next to Ethereum to see all network available
+<img src="migrate/media/connectMewWitLedger4.JPG" alt="MEW" /></p>
+<p>Then select the Pirl network
+<img src="migrate/media/connectMewWitLedger5.JPG" alt="MEW" /></p>
+<p>Then choose your address, check ti accept Terms and tada !
+<img src="migrate/media/connectMewWitLedger6.JPG" alt="MEW" /></p>
+<p>Now you can proceed to <a href="migrate/./claims_coins.html">claim guide</a></p>
 <h1><a class="header" href="#migration-faq" id="migration-faq">Migration FAQ</a></h1>
+<h2><a class="header" href="#fast-access" id="fast-access">Fast access</a></h2>
+<p><a href="migrate/in_brief.html#claiming">Claiming</a></p>
+<p><a href="migrate/in_brief.html#masternode">Masternode</a></p>
+<p><a href="migrate/in_brief.html#general">General</a></p>
+<p><a href="migrate/in_brief.html#validator">Validator</a></p>
+<h2><a class="header" href="#claiming" id="claiming">Claiming</a></h2>
+<h4><a class="header" href="#what-should-i-do-to-switch-to-pirl-20-" id="what-should-i-do-to-switch-to-pirl-20-">What should I do to switch to pirl 2.0 ?</a></h4>
+<blockquote>
+<p>Follow the <a href="migrate/./claims_coins.html">claiming guide</a></p>
+</blockquote>
 <h4><a class="header" href="#we-have-until-when-to-claim-for-yours-pirl-20-" id="we-have-until-when-to-claim-for-yours-pirl-20-">We have until when to claim for yours Pirl 2.0 ?</a></h4>
 <blockquote>
 <p>There is no time limit set.</p>
 </blockquote>
+<h4><a class="header" href="#if-i-keep-my-pirl-on-the-exchange-is-the-change-to-the-new-blockchain-automatic-" id="if-i-keep-my-pirl-on-the-exchange-is-the-change-to-the-new-blockchain-automatic-">If I keep my PIRL on the exchange, is the change to the new blockchain automatic ?</a></h4>
+<blockquote>
+<p>Yes, the exchanges will swap your PIRL automatically. (Please don´t hold your coins longer at any exchange, not your keys, not your coins)</p>
+</blockquote>
+<h4><a class="header" href="#i-used-the-web-wallet-im-safe-for-the-claim-" id="i-used-the-web-wallet-im-safe-for-the-claim-">I used the web wallet, I'm safe for the claim ?</a></h4>
+<blockquote>
+<p>Yes, you can claim your coins with web wallet. Follow the <a href="migrate/./claims_coins.html">claiming guide</a></p>
+</blockquote>
+<h4><a class="header" href="#can-i-claim-my-coins-with-ledger-wallet-" id="can-i-claim-my-coins-with-ledger-wallet-">Can I claim my coins with ledger wallet ?</a></h4>
+<blockquote>
+<p>Yes, be sure to have backup phrase and latest firmware.</p>
+</blockquote>
+<h2><a class="header" href="#masternode" id="masternode">Masternode</a></h2>
 <h4><a class="header" href="#do-i-need-to-disable-the-masternode-to-get-my-claim-in-pirl-20-" id="do-i-need-to-disable-the-masternode-to-get-my-claim-in-pirl-20-">Do I need to disable the masternode to get my claim in Pirl 2.0 ?</a></h4>
 <blockquote>
 <p>No, you will get your coins even if they are locked in the contract.</p>
 </blockquote>
+<h4><a class="header" href="#i-didnt-unlocked-the-coins-locked-in-masternode-contract-are-they-lost-" id="i-didnt-unlocked-the-coins-locked-in-masternode-contract-are-they-lost-">I didn't unlocked the coins locked in masternode contract, are they lost ?</a></h4>
+<blockquote>
+<p>No, the coins locked in the masternode contract(s) will be available freely in your wallet after <a href="migrate/./claims_coins.html">claiming process</a>.</p>
+</blockquote>
+<h3><a class="header" href="#how-to-delete-all-the-old-pirl-services-on-masternodes-" id="how-to-delete-all-the-old-pirl-services-on-masternodes-">How to delete all the old Pirl services on masternodes ?</a></h3>
+<blockquote>
+<p>BE SURE TO NOT HAVE PIRL KEYS PRESENT </p>
+</blockquote>
+<blockquote>
+<p><code>service pirl stop &amp;&amp; service marlin stop &amp;&amp; rm -rf /root/.pirl &amp;&amp; rm -rf /root/.marlin &amp;&amp; systemctl disable pirl &amp;&amp; systemctl disable marlin</code></p>
+</blockquote>
+<h2><a class="header" href="#general" id="general">General</a></h2>
 <h4><a class="header" href="#does-wpirl-need-to-be-bridged-back-to-pirl-legacy-chain-for-swap-of-coins" id="does-wpirl-need-to-be-bridged-back-to-pirl-legacy-chain-for-swap-of-coins">Does wPIRL need to be bridged back to pirl legacy chain for swap of coins?</a></h4>
 <blockquote>
 <p>Yes, you need to bridge all your coins back to be able to swap your PIRL. After the snapshot it's not possible until we re-implemented it. No date or schedule yet.</p>
@@ -283,21 +542,24 @@ Click “Claim” and then “Submit” in the next box to collect your Pirls.</
 <blockquote>
 <p>Not at the beginning but we will support hardware wallets at a later stage. No date or schedule yet.</p>
 </blockquote>
-<h4><a class="header" href="#if-i-keep-my-pirl-on-the-exchange-is-the-change-to-the-new-blockchain-automatic-" id="if-i-keep-my-pirl-on-the-exchange-is-the-change-to-the-new-blockchain-automatic-">If I keep my PIRL on the exchange, is the change to the new blockchain automatic ?</a></h4>
+<h4><a class="header" href="#how-does-slashing-works-" id="how-does-slashing-works-">How does slashing works ?</a></h4>
 <blockquote>
-<p>Yes, the exchanges will swap your PIRL automatically. (Please don´t hold your coins longer at any exchange, not your keys, not your coins)</p>
+<ul>
+<li>Level 1: isolated unresponsiveness, i.e. being offline for an entire epoch. No slashing, only chilling.</li>
+<li>Level 2: concurrent unresponsiveness or isolated equivocation. Slashes a very small amount of the stake and chills.</li>
+<li>Level 3: misconducts unlikely to be accidental, but which do not harm the network's security to any large extent. Examples include concurrent equivocation or isolated cases of unjustified voting in GRANDPA. Slashes a moderately small amount of the stake and chills.</li>
+<li>Level 4: misconduct that poses a serious security or monetary risk to the system, or mass collusion. Slashes all or most of the stake behind the validator and chills.</li>
+</ul>
+<p><a href="https://research.web3.foundation/en/latest/polkadot/slashing.html">Reference research article about slashing</a></p>
 </blockquote>
-<h4><a class="header" href="#what-should-i-do-to-switch-to-pirl-20-" id="what-should-i-do-to-switch-to-pirl-20-">What should I do to switch to pirl 2.0 ?</a></h4>
+<h4><a class="header" href="#can-i-get-my-coins-back-if-i-stake-or-create-a-validator-" id="can-i-get-my-coins-back-if-i-stake-or-create-a-validator-">Can I get my coins back if I stake or create a validator ?</a></h4>
 <blockquote>
-<p>The change will be at block 7 650 000. Follow information on Discord and Twitter on when you will be able to perform the swap and switch to Pirl 2.0</p>
+<p>Yes you can unlock them when you want, you will have to wait the cooldown period to get it credited in your wallet, actual waiting period is 28 days.</p>
 </blockquote>
-<h4><a class="header" href="#how-will-the-swap-work-" id="how-will-the-swap-work-">How will the swap work ?</a></h4>
+<h2><a class="header" href="#validator-1" id="validator-1">Validator</a></h2>
+<h4><a class="header" href="#what-is-the-validator-reward-amount-" id="what-is-the-validator-reward-amount-">What is the validator reward amount ?</a></h4>
 <blockquote>
-<p>Snapshot will be taken at block 7 650 000, and you will be able to swap the Pirl balance at this block to Pirl 2.0</p>
-</blockquote>
-<h4><a class="header" href="#where-and-how-to-apply-for-coins-" id="where-and-how-to-apply-for-coins-">Where and how to apply for coins ?</a></h4>
-<blockquote>
-<p>From Pirl 2.0 Portal after block 7 650 000. Follow <a href="https://community.pirl.io/t/claim-pirls-from-old-chain-to-pirl-2-0-tutorial/131">this tutorial</a></p>
+<p>We can calculate it precisely, it depend on the network staking rate. Validator will have minted coins plus 20% of the transfert fees ( 80% goes to decentralised treasury ). Rewards are calculated based on era points, which have a probabilistic component. In other words, there may be slight differences in your rewards from era to era, and even amongst validators in the active set at the same time. These variations should cancel out over a long enough timeline.</p>
 </blockquote>
 <h4><a class="header" href="#what-is-the-minimum-requierement-for-a-validator-" id="what-is-the-minimum-requierement-for-a-validator-">What is the minimum requierement for a validator ?</a></h4>
 <blockquote>
@@ -310,36 +572,6 @@ Click “Claim” and then “Submit” in the next box to collect your Pirls.</
 <li>Stabile internet connection are required. The validator nodes plays a very important role by securing the network and we recommend renting VPS from providers with good infrastructure and not trying to set up at home. </li>
 </ul>
 <h3><a class="header" href="#a-hrefmigratevalidator_guideguides_how_to_validatehtmlread-more-about-validators-requierements-herea" id="a-hrefmigratevalidator_guideguides_how_to_validatehtmlread-more-about-validators-requierements-herea"><a href="migrate/../validator_guide/guides_how_to_validate.html">Read more about validators requierements here</a></a></h3>
-</blockquote>
-<h4><a class="header" href="#how-does-slashing-works-" id="how-does-slashing-works-">How does slashing works ?</a></h4>
-<blockquote>
-<ul>
-<li>Level 1: isolated unresponsiveness, i.e. being offline for an entire epoch. No slashing, only chilling.</li>
-<li>Level 2: concurrent unresponsiveness or isolated equivocation. Slashes a very small amount of the stake and chills.</li>
-<li>Level 3: misconducts unlikely to be accidental, but which do not harm the network's security to any large extent. Examples include concurrent equivocation or isolated cases of unjustified voting in GRANDPA. Slashes a moderately small amount of the stake and chills.</li>
-<li>Level 4: misconduct that poses a serious security or monetary risk to the system, or mass collusion. Slashes all or most of the stake behind the validator and chills.</li>
-</ul>
-<p><a href="https://research.web3.foundation/en/latest/polkadot/slashing.html">Reference research article about slashing</a></p>
-</blockquote>
-<h4><a class="header" href="#i-used-the-web-wallet-im-safe-for-the-claim-" id="i-used-the-web-wallet-im-safe-for-the-claim-">I used the web wallet, I'm safe for the claim ?</a></h4>
-<blockquote>
-<p>Yes, just wait the fork of the chain and you will be able to claim your coins in Pirl 2.0.</p>
-</blockquote>
-<h4><a class="header" href="#can-i-calim-my-coins-with-ledger-wallet-" id="can-i-calim-my-coins-with-ledger-wallet-">Can I calim my coins with ledger wallet ?</a></h4>
-<blockquote>
-<p>Yes, be sure to have backup phrase and latest firmware.</p>
-</blockquote>
-<h4><a class="header" href="#i-didnt-unlocked-the-coins-locked-in-masternode-contract-are-they-lost-" id="i-didnt-unlocked-the-coins-locked-in-masternode-contract-are-they-lost-">I didn't unlocked the coins locked in masternode contract, are they lost ?</a></h4>
-<blockquote>
-<p>No, the coins locked in the masternode contract(s) will be available freely in your wallet after the fork in the new network.</p>
-</blockquote>
-<h4><a class="header" href="#what-is-the-validator-reward-amount-" id="what-is-the-validator-reward-amount-">What is the validator reward amount ?</a></h4>
-<blockquote>
-<p>We can calculate it precisely, it depend on the network staking rate. Validator will have minted coins plus 20% of the transfert fees ( 80% goes to decentralised treasury ). Rewards are calculated based on era points, which have a probabilistic component. In other words, there may be slight differences in your rewards from era to era, and even amongst validators in the active set at the same time. These variations should cancel out over a long enough timeline.</p>
-</blockquote>
-<h4><a class="header" href="#can-i-get-my-coins-back-if-i-stake-or-create-a-validator-" id="can-i-get-my-coins-back-if-i-stake-or-create-a-validator-">Can I get my coins back if I stake or create a validator ?</a></h4>
-<blockquote>
-<p>Yes you can unlock them when you want, you will have to wait the cooldown period to get it credited in your wallet, actual waiting period is 28 days.</p>
 </blockquote>
 <h1><a class="header" href="#contribution" id="contribution">Contribution</a></h1>
 <h2><a class="header" href="#how-can-i-contribute-to-the-docs-" id="how-can-i-contribute-to-the-docs-">How can I contribute to the docs ?</a></h2>
