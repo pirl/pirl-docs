@@ -37,7 +37,7 @@ Create a new `.md` file (you can also duplicate an existing one)
 ![NewDoc](media/newDoc.png)
 
 For beginning, I'll just add the title
-![NewDoc1](media/newDoc2.png)
+![NewDoc1](media/newDoc2.PNG)
 
 this snippet give this 
 > # [Windows] How to submit your contribution
@@ -47,7 +47,7 @@ this snippet give this
 ><br></br>
 
 Then I add some text
-![NewDoc1](media/newDoc3.png)
+![NewDoc1](media/newDoc3.PNG)
 
 this snippet give this 
 > # [Windows] How to submit your contribution
@@ -60,7 +60,7 @@ this snippet give this
 > You will need to add an extra line between your text if you want an line break
 
 Then I add some link to other guides
-![NewDoc1](media/newDoc4.png)
+![NewDoc1](media/newDoc4.PNG)
 
 this snippet give this 
 > You will need to follow the 2 first guides : 
@@ -73,7 +73,7 @@ this snippet give this
 > If you want bullet, simply add ` - ` on each line 
 
 Then I add some pictures to my guide
-![NewDoc1](media/newDoc5.png)
+![NewDoc1](media/newDoc5.PNG)
 
 this snippet give this 
 > Firstly, if you go back on gitkraken, you will see some changes
