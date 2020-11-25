@@ -97,7 +97,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li><li class="chapter-item expanded "><a href="nominator_guide/how_to_nominate.html"><strong aria-hidden="true">2.2.</strong> How to be a Nominator</a></li></ol></li><li class="chapter-item expanded "><a href="migrate/claims_coins.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="migrate/connect_ledger_with_mew.html"><strong aria-hidden="true">3.1.</strong> Ledger wallet with MEW</a></li><li class="chapter-item expanded "><a href="migrate/in_brief.html"><strong aria-hidden="true">3.2.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="chapter-item expanded "><a href="credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li><li class="chapter-item expanded "><a href="nominator_guide/how_to_nominate.html"><strong aria-hidden="true">2.2.</strong> How to be a Nominator</a></li></ol></li><li class="chapter-item expanded "><a href="migrate/migrate.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="migrate/new_wallet.html"><strong aria-hidden="true">3.1.</strong> Create Pirl 2.0 wallet</a></li><li class="chapter-item expanded "><a href="migrate/claims_coins.html"><strong aria-hidden="true">3.2.</strong> Claim coins with MEW</a></li><li class="chapter-item expanded "><a href="migrate/connect_ledger_with_mew.html"><strong aria-hidden="true">3.3.</strong> Ledger wallet with MEW</a></li><li class="chapter-item expanded "><a href="migrate/in_brief.html"><strong aria-hidden="true">3.4.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="chapter-item expanded "><a href="credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -278,7 +278,7 @@ rustup target add wasm32-unknown-unknown --toolchain nightly-2020-07-01
 <p>clone Pirl from github</p>
 <pre><code>git clone https://github.com/pirl/pirl-2_0
 </code></pre>
-<p>and build it</p>
+<p>move to pirl-2_0 directory and build it</p>
 <pre><code>cargo +nightly-2020-07-01 build --release
 </code></pre>
 <p>Copy the binary ready to use</p>
@@ -405,13 +405,54 @@ but be carreful, this value change according to nomination on each era
 <img src="nominator_guide/media/Nominate_8.JPG" alt="Nominate" /></p>
 </li>
 </ol>
+<h2><a class="header" href="#welcome-to-the-new-pirl-20-on-substrate" id="welcome-to-the-new-pirl-20-on-substrate">Welcome to the new Pirl 2.0 on substrate.</a></h2>
+<h3><a class="header" href="#pirl-has-migrated-from-its-original-proof-of-work-protocol--ethash--and-are-now-nominated-proof-of-stake-npos-based-on-substrate" id="pirl-has-migrated-from-its-original-proof-of-work-protocol--ethash--and-are-now-nominated-proof-of-stake-npos-based-on-substrate">Pirl has migrated from it's original proof-of-work protocol ( ethash ) and are now Nominated Proof-of-Stake (nPOS) based on substrate.</a></h3>
+<p>It`s time to claim your new Pirl 2.0.
+You can claim your &quot;old&quot; Pirl by following the guides supplied in this Wiki.
+Claim are based on your balance at block 7 650 000 on the old chain. (Nov 16, 2020)<br>
+<br>
+- Claim only has to be done once per old Pirl wallet.<br>
+- Pirl stored on STEX, Graviex and Sistemcoin at block 7 650 000 has been swapped by exchange.
+<br><br>
+Start by making yourself a new account in the new Pirl Portal as described in the guide.<br>
+Take your time and read the information given in the Wiki.</p>
+<br>
+<p>Welcome to Pirl 2.0 !</p>
+<h1><a class="header" href="#this-tutorial-covers-how-to-make-a-new-pirl-20-wallet-adress" id="this-tutorial-covers-how-to-make-a-new-pirl-20-wallet-adress">This tutorial covers how to make a new Pirl 2.0 wallet adress.</a></h1>
+<h2><a class="header" href="#pirl-20---portal" id="pirl-20---portal">Pirl 2.0 - Portal:</a></h2>
+<p>Go to <a href="https://explorer.pirl.network">Pirl 2.0 Portal - https://explorer.pirl.network</a> </p>
+<p>The new Pirl portal contains wallets,explorer,stats,voting,staking ++</p>
+<h3><a class="header" href="#to-open-a-new-pirl-accountwallet-on-the-new-chain-click-add-account" id="to-open-a-new-pirl-accountwallet-on-the-new-chain-click-add-account">To open a new Pirl Account/wallet on the new chain, click “Add account”</a></h3>
+<p><img src="migrate/media/new_wallet_1.png" alt="New_wallet" />
+<br></br></p>
+<ol>
+<li>Insert a wallet name.
+<strong> Important! Create backup of Mnemonic and store in a safe place. </strong></li>
+<li>Make a password for your new account</li>
+<li>Click <strong> “Next” </strong>
+<img src="migrate/media/new_wallet_2.png" alt="New_wallet" /></li>
+</ol>
+<h3><a class="header" href="#summary-page" id="summary-page">Summary page.</a></h3>
+<ol>
+<li>Click <strong>“Save”</strong> to generate the new wallet and new Keystore file.<br>
+<strong>Important! Remember to backup your wallet info, and keep it somewhere safe.
+<br>YOU are the only responsible for your own wallets.</strong>
+<img src="migrate/media/new_wallet_3.png" alt="New_wallet" /></li>
+</ol>
+<h3><a class="header" href="#general-info" id="general-info">General info.</a></h3>
+<p>To find general info, click on the wallet name (1)
+To copy wallet adress click on symbol (2) or (3)
+<img src="migrate/media/new_wallet_4.png" alt="New_wallet" /></p>
 <h1><a class="header" href="#claim-pirl-coins-from-old-chain-to-pirl-20" id="claim-pirl-coins-from-old-chain-to-pirl-20">Claim PIRL coins from old chain to Pirl 2.0</a></h1>
-<p>This tutorial describes how to claim your Pirl from “old chain” to Pirl 2.0.
-Balance of Pirls are taken from snapshot at block 7 650 000.</p>
-<p>In this tutorial we will use the MEW wallet and Pirl 2.0 Portal.
+<p>This tutorial describes how to claim your Pirl from “old chain” to Pirl 2.0.<br>
+Balance of Pirls where taken from snapshot at block 7 650 000, meaning you will only be able to claim what you had in balance at this block.</p>
+<p>In this tutorial we will use the MEW wallet and Pirl 2.0 Portal.<br>
 Before proceeding, you will have to create a wallet in the Pirl 2.0 Portal and log in to your Pirl wallet in <a href="https://www.myetherwallet.com/access-my-wallet">MEW</a> using your Keystore file.</p>
-<p>If you dont get any Pirl balance in the MEW wallet, please check your Network settings (1) and set to (PIRL) as shown in picture below.</p>
-<h1><a class="header" href="#a-hrefhttpsdashboardpirlnetworkpirl-20-portal-httpsdashboardpirlnetworka" id="a-hrefhttpsdashboardpirlnetworkpirl-20-portal-httpsdashboardpirlnetworka"><a href="https://dashboard.pirl.network">Pirl 2.0 Portal https://dashboard.pirl.network</a></a></h1>
+<p>If you dont get any Pirl balance in the MEW wallet, please check your Network settings (1) and set to (PIRL) as shown in picture below.<br></p>
+<ul>
+<li><strong>Note:</strong> It has been tested and verified that the claim works fine without changing the network as well.</li>
+</ul>
+<h2><a class="header" href="#a-hrefhttpsdashboardpirlnetworkpirl-20-portal-httpsdashboardpirlnetworka" id="a-hrefhttpsdashboardpirlnetworkpirl-20-portal-httpsdashboardpirlnetworka"><a href="https://dashboard.pirl.network">Pirl 2.0 Portal https://dashboard.pirl.network</a></a></h2>
 <p><img src="migrate/media/claims_coins_1.jpeg" alt="Claims" /></p>
 <p>In Pirl Portal, click Account and choose “Claim Tokens”.</p>
 <p><img src="migrate/media/claims_coins_2.jpeg" alt="Claims" /></p>

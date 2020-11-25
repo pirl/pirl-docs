@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Ledger wallet with MEW - Pirl 2.0</title>
+        <title>Migration - Pirl 2.0</title>
         
         
 
@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="../participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li><li class="chapter-item expanded "><a href="../nominator_guide/how_to_nominate.html"><strong aria-hidden="true">2.2.</strong> How to be a Nominator</a></li></ol></li><li class="chapter-item expanded "><a href="../migrate/migrate.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../migrate/new_wallet.html"><strong aria-hidden="true">3.1.</strong> Create Pirl 2.0 wallet</a></li><li class="chapter-item expanded "><a href="../migrate/claims_coins.html"><strong aria-hidden="true">3.2.</strong> Claim coins with MEW</a></li><li class="chapter-item expanded "><a href="../migrate/connect_ledger_with_mew.html" class="active"><strong aria-hidden="true">3.3.</strong> Ledger wallet with MEW</a></li><li class="chapter-item expanded "><a href="../migrate/in_brief.html"><strong aria-hidden="true">3.4.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="../contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="chapter-item expanded "><a href="../credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="../participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li><li class="chapter-item expanded "><a href="../nominator_guide/how_to_nominate.html"><strong aria-hidden="true">2.2.</strong> How to be a Nominator</a></li></ol></li><li class="chapter-item expanded "><a href="../migrate/migrate.html" class="active"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../migrate/new_wallet.html"><strong aria-hidden="true">3.1.</strong> Create Pirl 2.0 wallet</a></li><li class="chapter-item expanded "><a href="../migrate/claims_coins.html"><strong aria-hidden="true">3.2.</strong> Claim coins with MEW</a></li><li class="chapter-item expanded "><a href="../migrate/connect_ledger_with_mew.html"><strong aria-hidden="true">3.3.</strong> Ledger wallet with MEW</a></li><li class="chapter-item expanded "><a href="../migrate/in_brief.html"><strong aria-hidden="true">3.4.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="../contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li class="chapter-item expanded "><a href="../credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -163,36 +163,32 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#how-to-connect-your-ledger-wallet-through-mew-for-claiming-your-asset" id="how-to-connect-your-ledger-wallet-through-mew-for-claiming-your-asset">How to connect your ledger wallet through MEW for claiming your asset</a></h1>
-<p>Firstly, go to <a href="https://www.myetherwallet.com/">MEW</a> then click on Access My Wallet
-<img src="media/connectMewWitLedger1.JPG" alt="MEW" /></p>
-<p>Then select Hardware
-<img src="media/connectMewWitLedger2.JPG" alt="MEW" /></p>
-<p>Then select the kind of hardware wallet you use (in our case Ledger, but should be revelant for other)
-<img src="media/connectMewWitLedger3.JPG" alt="MEW" /></p>
-<blockquote>
-<p>Do not forget to open the pirl app in your Ledger</p>
-</blockquote>
-<p>Then click on the arrow next to Ethereum to see all network available
-<img src="media/connectMewWitLedger4.JPG" alt="MEW" /></p>
-<p>Then select the Pirl network
-<img src="media/connectMewWitLedger5.JPG" alt="MEW" /></p>
-<p>Then choose your address, check ti accept Terms and tada !
-<img src="media/connectMewWitLedger6.JPG" alt="MEW" /></p>
-<p>Now you can proceed to <a href="./claims_coins.html">claim guide</a></p>
+                        <h2><a class="header" href="#welcome-to-the-new-pirl-20-on-substrate" id="welcome-to-the-new-pirl-20-on-substrate">Welcome to the new Pirl 2.0 on substrate.</a></h2>
+<h3><a class="header" href="#pirl-has-migrated-from-its-original-proof-of-work-protocol--ethash--and-are-now-nominated-proof-of-stake-npos-based-on-substrate" id="pirl-has-migrated-from-its-original-proof-of-work-protocol--ethash--and-are-now-nominated-proof-of-stake-npos-based-on-substrate">Pirl has migrated from it's original proof-of-work protocol ( ethash ) and are now Nominated Proof-of-Stake (nPOS) based on substrate.</a></h3>
+<p>It`s time to claim your new Pirl 2.0.
+You can claim your &quot;old&quot; Pirl by following the guides supplied in this Wiki.
+Claim are based on your balance at block 7 650 000 on the old chain. (Nov 16, 2020)<br>
+<br>
+- Claim only has to be done once per old Pirl wallet.<br>
+- Pirl stored on STEX, Graviex and Sistemcoin at block 7 650 000 has been swapped by exchange.
+<br><br>
+Start by making yourself a new account in the new Pirl Portal as described in the guide.<br>
+Take your time and read the information given in the Wiki.</p>
+<br>
+<p>Welcome to Pirl 2.0 !</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
-                            <a rel="prev" href="../migrate/claims_coins.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../nominator_guide/how_to_nominate.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
                         
 
                         
-                            <a rel="next" href="../migrate/in_brief.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../migrate/new_wallet.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -204,13 +200,13 @@
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
-                    <a rel="prev" href="../migrate/claims_coins.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../nominator_guide/how_to_nominate.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
                 
 
                 
-                    <a rel="next" href="../migrate/in_brief.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../migrate/new_wallet.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
