@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Validator - Pirl 2.0</title>
+        <title>How to set identity - Pirl 2.0</title>
         
         
 
@@ -95,7 +95,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="run_a_validator.html" class="active"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li><li class="chapter-item expanded "><a href="nominator_guide/how_to_nominate.html"><strong aria-hidden="true">2.2.</strong> How to be a Nominator</a></li><li class="chapter-item expanded "><a href="setup_identity.html"><strong aria-hidden="true">2.3.</strong> How to set identity</a></li></ol></li><li class="chapter-item expanded "><a href="migrate/migrate.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="migrate/new_wallet.html"><strong aria-hidden="true">3.1.</strong> Create Pirl 2.0 wallet</a></li><li class="chapter-item expanded "><a href="migrate/claims_coins.html"><strong aria-hidden="true">3.2.</strong> Claim coins with MEW</a></li><li class="chapter-item expanded "><a href="migrate/connect_ledger_with_mew.html"><strong aria-hidden="true">3.3.</strong> Ledger wallet with MEW</a></li><li class="chapter-item expanded "><a href="migrate/in_brief.html"><strong aria-hidden="true">3.4.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="contribute/setup_github.html"><strong aria-hidden="true">4.1.</strong> Setup Github + GitKraken</a></li><li class="chapter-item expanded "><a href="contribute/write_your_first_doc.html"><strong aria-hidden="true">4.2.</strong> Write your first guide</a></li><li class="chapter-item expanded "><a href="contribute/how_to_submit.html"><strong aria-hidden="true">4.3.</strong> How to submit</a></li><li class="chapter-item expanded "><a href="contribute/markdown_keyword.html"><strong aria-hidden="true">4.4.</strong> Markdown Keyword</a></li></ol></li><li class="chapter-item expanded "><a href="credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">1.</strong> About Pirl 2.0</a></li><li class="chapter-item expanded "><a href="participate.html"><strong aria-hidden="true">2.</strong> Participate</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="run_a_validator.html"><strong aria-hidden="true">2.1.</strong> Validator</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="validator_guide/guides_how_to_validate.html"><strong aria-hidden="true">2.1.1.</strong> Run a validator</a></li></ol></li><li class="chapter-item expanded "><a href="nominator_guide/how_to_nominate.html"><strong aria-hidden="true">2.2.</strong> How to be a Nominator</a></li><li class="chapter-item expanded "><a href="setup_identity.html" class="active"><strong aria-hidden="true">2.3.</strong> How to set identity</a></li></ol></li><li class="chapter-item expanded "><a href="migrate/migrate.html"><strong aria-hidden="true">3.</strong> Migration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="migrate/new_wallet.html"><strong aria-hidden="true">3.1.</strong> Create Pirl 2.0 wallet</a></li><li class="chapter-item expanded "><a href="migrate/claims_coins.html"><strong aria-hidden="true">3.2.</strong> Claim coins with MEW</a></li><li class="chapter-item expanded "><a href="migrate/connect_ledger_with_mew.html"><strong aria-hidden="true">3.3.</strong> Ledger wallet with MEW</a></li><li class="chapter-item expanded "><a href="migrate/in_brief.html"><strong aria-hidden="true">3.4.</strong> FAQ</a></li></ol></li><li class="chapter-item expanded "><a href="contribute/contribution.html"><strong aria-hidden="true">4.</strong> Contribute</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="contribute/setup_github.html"><strong aria-hidden="true">4.1.</strong> Setup Github + GitKraken</a></li><li class="chapter-item expanded "><a href="contribute/write_your_first_doc.html"><strong aria-hidden="true">4.2.</strong> Write your first guide</a></li><li class="chapter-item expanded "><a href="contribute/how_to_submit.html"><strong aria-hidden="true">4.3.</strong> How to submit</a></li><li class="chapter-item expanded "><a href="contribute/markdown_keyword.html"><strong aria-hidden="true">4.4.</strong> Markdown Keyword</a></li></ol></li><li class="chapter-item expanded "><a href="credits/credits.html"><strong aria-hidden="true">5.</strong> Credits</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -163,23 +163,31 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#validator" id="validator">Validator</a></h1>
-<p>Validators secure the Relay Chain by staking PIRL, validating proofs from collators and participating in consensus with other validators.</p>
-<p>These participants will play a crucial role in adding new blocks to the Relay Chain and, by extension, to all parachains. This allows parties to complete cross-chain transactions via the Relay Chain.</p>
-<p>Validators perform two functions. First, verifying that the information contained in an assigned set of parachain blocks is valid (such as the identities of the transacting parties and the subject matter of the contract). Their second role is to participate in the consensus mechanism to produce the Relay Chain blocks based on validity statements from other validators. Any instances of non-compliance with the consensus algorithms result in punishment by removal of some or all of the validator’s staked PIRL, thereby discouraging bad actors. Good performance, however, will be rewarded, with validators receiving block rewards (including transaction fees) in the form of PIRL in exchange for their activities.</p>
+                        <h1><a class="header" href="#how-to-setup-identity" id="how-to-setup-identity">How to setup identity</a></h1>
+<p>Go to <a href="https://explorer.pirl.network/#/accounts">account panel</a></p>
+<p>Then click on 3 dot for the account you and to identifie</p>
+<blockquote>
+<p>If you want to name your validator, be sure to select the stake account and not the controller account</p>
+</blockquote>
+<p><img src="media/identity1.JPG" alt="Identity" /></p>
+<p>Then click on Set on-chain identity
+<img src="media/identity2.JPG" alt="Identity" /></p>
+<p>Then fill your info and click on Set identity
+<img src="media/identity3.JPG" alt="Identity" /></p>
+<p>That's it ! </p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
                         
-                            <a rel="prev" href="participate.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="nominator_guide/how_to_nominate.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <i class="fa fa-angle-left"></i>
                             </a>
                         
 
                         
-                            <a rel="next" href="validator_guide/guides_how_to_validate.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="migrate/migrate.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -191,13 +199,13 @@
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
                 
-                    <a rel="prev" href="participate.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="nominator_guide/how_to_nominate.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <i class="fa fa-angle-left"></i>
                     </a>
                 
 
                 
-                    <a rel="next" href="validator_guide/guides_how_to_validate.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="migrate/migrate.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
