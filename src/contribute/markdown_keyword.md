@@ -35,6 +35,6 @@
 >
 > And if you want to scale it to put some heart <img src="../media/pirlHeart.png" width="20"/> everywhere do that 
 >
->`<img src="../media/pirlHeart.png" width="20"/>`
+>`<img src="../media/PirlHeart.png" width="20"/>`
 
 If you want to use more advance keyword, you can find plenty of docs here : [https://www.markdownguide.org/basic-syntax](https://www.markdownguide.org/basic-syntax)
