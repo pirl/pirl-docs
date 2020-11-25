@@ -12,5 +12,6 @@
 	- [Setup Github + GitKraken](contribute/setup_github.md)
 	- [Write your first guide](contribute/write_your_first_doc.md)
 	- [How to submit](contribute/how_to_submit.md)
+	- [Markdown Keyword](contribute/markdown_keyword.md)
 - [Credits](credits/credits.md)
 

@@ -15,18 +15,18 @@ When it's done, connect with your github account.
 ![GitKrakenSignIn](media/gitKrakenSignIn.png)
 ![GitKrakenSetupProfile](media/gitKrakenSetupProfile.png)
 
-You'll need a text editor, you can any one you want. 
+You'll need a text editor, you can use any one you want. 
 
 For instance I use notepad++ : [https://notepad-plus-plus.org/downloads/](https://notepad-plus-plus.org/downloads/)
 
-You have now setup the base, we can start setup things !
+You have now the requirements needed to setup things !
 
 ## Setup
 
 Go to the official depot : [https://github.com/pirl/pirl-docs](https://github.com/pirl/pirl-docs)
 
 Then click on fork
-![ForkRepo](media/githubFork.png)
+[<img src="media/githubFork.png"/>](media/githubFork.png)
 
 You can retreive the fork under `Your repositories`
 ![YourRepositories](media/yourRepositories.png)
@@ -35,7 +35,7 @@ Then you can access it by clicking on the name
 ![SelectRepo](media/selectRepo.png)
 
 Now click on `Code` then copy the URL
-![URLForClone](media/getUrlForClone.png)
+[<img src="media/getUrlForClone.png"/>](media/getUrlForClone.png)
 
 Go on gitkraken then click on `clone a repo`
 ![CloneWithGitKraken](media/cloneRepoGitKraken.png)
@@ -53,6 +53,7 @@ Extract it next to your `pirl-docs` folder
 ![mdbookPlace](media/placingMdbook.JPG)
 
 Then go on `File` -> `Preferences...`
+
 ![settingGitKraken](media/settingGitKraken.png)
 
 Then select `PowerShell` under `Default Terminal`
