@@ -236,16 +236,16 @@ NTP is a networking protocol designed to synchronize the clocks of computers ove
 <pre><code>dnf install -y cmake llvm  llvm-devel clang
 </code></pre>
 <p>Install rust tools</p>
-<pre><code>rustup toolchain install nightly-2020-07-01
+<pre><code>rustup toolchain install nightly-2020-10-06
 rustup update nightly
 rustup update stable
-rustup target add wasm32-unknown-unknown --toolchain nightly-2020-07-01
+rustup target add wasm32-unknown-unknown --toolchain nightly-2020-10-06-x86_64-unknown-linux-gnu
 </code></pre>
 <p>clone Pirl from github</p>
 <pre><code>git clone https://github.com/pirl/pirl-2_0
 </code></pre>
 <p>move to pirl-2_0 directory and build it</p>
-<pre><code>cargo +nightly-2020-07-01 build --release
+<pre><code>cargo +nightly-2020-10-06-x86_64-unknown-linux-gnu build --release
 </code></pre>
 <p>Copy the binary ready to use</p>
 <pre><code> cp -rp target/release/pirl /usr/bin/
