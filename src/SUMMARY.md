@@ -6,6 +6,7 @@
         - [Run a validator](validator_guide/guides_how_to_validate.md)
 	- [How to be a Nominator](nominator_guide/how_to_nominate.md)
 	- [How to set identity](setup_identity.md)
+	- [How to submit a proposal](democracy/submit_proposal.md)
 - [Migration](migrate/migrate.md)
 	- [Create Pirl 2.0 wallet](migrate/new_wallet.md)
 	- [Claim coins with MEW](migrate/claims_coins.md)
