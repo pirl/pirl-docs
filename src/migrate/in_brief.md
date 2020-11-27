@@ -73,3 +73,4 @@
 >* Stabile internet connection are required. The validator nodes plays a very important role by securing the network and we recommend renting VPS from providers with good infrastructure and not trying to set up at home. 
 > ### [Read more about validators requierements here](../validator_guide/guides_how_to_validate.md) 
 
+<p align=right> Written by Masterdubs, Edited by WeHaveCookie </p>

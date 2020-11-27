@@ -28,3 +28,5 @@ The new Pirl portal contains wallets,explorer,stats,voting,staking ++
 To find general info, click on the wallet name (1)
 To copy wallet adress click on symbol (2) or (3)
 ![New_wallet](media/new_wallet_4.png)
+
+<p align=right> Written by FanThomas </p>
