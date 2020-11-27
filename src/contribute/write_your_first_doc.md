@@ -88,6 +88,9 @@ this snippet give this
 
 You can find some usefull markdown keyword [here](markdown_keyword.md)
 
+Finally, you will need to add your guide into the `SUMMARY.md` like this
+![AddToSummary](media/addToSummary.png)
+
 And voila, it's now time to you to write your own guide and contribute to PIRL <img src="../media/PirlHeart.png" width="20"/>
 
 When you have finished writing your guide, you can move on to the next tutorial : [How to submit](how_to_submit.md)

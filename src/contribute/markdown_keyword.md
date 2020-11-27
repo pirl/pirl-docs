@@ -33,7 +33,7 @@
 >
 >`[<img src="../media/PirlHeart.png"/>](../media/PirlHeart.png.png)` give us [<img src="../media/PirlHeart.png"/>](../media/PirlHeart.png.png)
 >
-> And if you want to scale it to put some heart <img src="../media/pirlHeart.png" width="20"/> everywhere do that 
+> And if you want to scale it to put some heart <img src="../media/PirlHeart.png" width="20"/> everywhere do that 
 >
 >`<img src="../media/PirlHeart.png" width="20"/>`
 
