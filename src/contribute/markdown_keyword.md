@@ -38,3 +38,5 @@
 >`<img src="../media/PirlHeart.png" width="20"/>`
 
 If you want to use more advance keyword, you can find plenty of docs here : [https://www.markdownguide.org/basic-syntax](https://www.markdownguide.org/basic-syntax)
+
+<p align=right> Written by WeHaveCookie </p>

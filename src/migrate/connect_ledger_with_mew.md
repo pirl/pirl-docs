@@ -21,3 +21,5 @@ Then choose your address, check ti accept Terms and tada !
 ![MEW](media/connectMewWitLedger6.JPG)
 
 Now you can proceed to [claim guide](./claims_coins.md)
+
+<p align=right> Written by WeHaveCookie </p>

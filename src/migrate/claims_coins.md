@@ -48,6 +48,5 @@ Well done !
 
 If you have any feedback or comments to this tutorial, [please make a reply in this forum](https://community.pirl.io/t/claim-pirls-from-old-chain-to-pirl-2-0-tutorial/131).
 
-
-## Thank you @Fantomas for the tutorial
+<p align=right> Written by FanThomas </p>
 
