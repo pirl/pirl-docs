@@ -29,3 +29,5 @@ You should see your new proposal now
 You can now give us more context on discord ! 
 
 And thanks you for your contribution <img src="../media/PirlHeart.png" width="20"/>
+
+<p align=right> Written by WeHaveCookie </p>

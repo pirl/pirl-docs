@@ -216,9 +216,10 @@ Last step, hit the validate button when the transaction is confirmed.
 
 Voila, you are all set
 
-
 <br></br>
 
 ## List of VPS providers
 
 - [PirlHosting](https://pirlhosting.com)
+
+<p align=right> Written by Masterdubs </p>

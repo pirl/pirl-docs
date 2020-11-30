@@ -63,3 +63,5 @@ You can exit Preferences.
 
 You all now set to start contribute ! 
 See the next [guide](write_your_first_doc.md) learn to how to write your first docs
+
+<p align=right> Written by WeHaveCookie </p>

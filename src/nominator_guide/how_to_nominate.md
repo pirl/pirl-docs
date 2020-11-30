@@ -55,3 +55,5 @@
 
 8) And tadaa ! Enjoy stacking with Pirl. Your all done.
 ![Nominate](media/Nominate_8.JPG)
+
+<p align=right> Written by WeHaveCookie</p>
