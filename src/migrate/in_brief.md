@@ -67,7 +67,7 @@
 > *The absolute minimum requrements to run the validator node are described below. This settings are NOT recomended as this could lead to unstable node and you could end up getting slashed!! If running validator node with specs close to minimum you must monitor your node and set up warnings for load etc..*
 >
 >* Minimum: 10 GB RAM, 60 GB Storage, 4 CPU 
->* Recomended: 60 GB RAN, 300 GB Storage, 6 CPU
+>* Recomended: 60 GB RAM, 300 GB Storage, 6 CPU
 >* Public IP on validator node needed for basic setup. 
 (More information will come on how to setup a secure validator with sentry nodes)
 >* Stabile internet connection are required. The validator nodes plays a very important role by securing the network and we recommend renting VPS from providers with good infrastructure and not trying to set up at home. 
