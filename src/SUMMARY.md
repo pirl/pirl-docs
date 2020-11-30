@@ -8,6 +8,7 @@
 	- [How to set identity](setup_identity.md)
 	- [How to submit a proposal](democracy/submit_proposal.md)
 	- [How to vote for Council](democracy/vote_council.md)
+  - [How to make a treasury tips](democracy/treasury_tips.md)
 - [Migration](migrate/migrate.md)
 	- [Create Pirl 2.0 wallet](migrate/new_wallet.md)
 	- [Claim coins with MEW](migrate/claims_coins.md)
