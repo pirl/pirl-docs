@@ -47,7 +47,7 @@
 >
 > You can check potential profit/era in the [targets panel](https://explorer.pirl.network/#/staking/targets),
 > but be carreful, this value change according to nomination on each era
->![NominatorProfit](media/profitNominator.JPG)
+>[<img src="media/profitNominator.JPG"/>](media/profitNominator.JPG)
 ><br></br>
 
 7) Now you need to authorize transaction
