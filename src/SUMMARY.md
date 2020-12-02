@@ -5,6 +5,7 @@
     - [Validator](./run_a_validator.md)
         - [Run a validator](validator_guide/guides_how_to_validate.md)
 	- [How to be a Nominator](nominator_guide/how_to_nominate.md)
+	- [How to unbound](nominator_guide/how_to_unbound.md)
 	- [How to set identity](setup_identity.md)
 	- [How to submit a proposal](democracy/submit_proposal.md)
 	- [How to vote for Council](democracy/vote_council.md)
