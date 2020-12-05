@@ -1,5 +1,4 @@
 # Summary
-
 - [About Pirl 2.0](./about.md)
 - [Migration](migrate/migrate.md)
 	- [Create Pirl 2.0 wallet](migrate/new_wallet.md)
