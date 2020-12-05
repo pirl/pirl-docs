@@ -10,6 +10,7 @@
         - [Run a validator](staking/validator_guide/guides_how_to_validate.md)
 	- [How to be a Nominator](staking/nominator_guide/how_to_nominate.md)
 	- [How to unbound](staking/nominator_guide/how_to_unbound.md)
+	- [How payout works](staking/payout.md)
 - [Democracy](democracy/democracy.md)
 	- [How works democracy](democracy/how_works_democracy.md)
 	- [How to submit a proposal](democracy/submit_proposal.md)
