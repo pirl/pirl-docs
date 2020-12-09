@@ -31,7 +31,7 @@
 > #### Pro tips
 > If you want to have a clickable picture (to be able user to see it in full screen) use that instead
 >
->`[<img src="../media/PirlHeart.png"/>](../media/PirlHeart.png.png)` give us [<img src="../media/PirlHeart.png"/>](../media/PirlHeart.png.png)
+>`[<img src="../media/PirlHeart.png"/>](../media/PirlHeart.png)` give us [<img src="../media/PirlHeart.png"/>](../media/PirlHeart.png)
 >
 > And if you want to scale it to put some heart <img src="../media/PirlHeart.png" width="20"/> everywhere do that 
 >

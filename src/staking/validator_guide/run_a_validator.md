@@ -15,3 +15,5 @@ The network only pick the top 100 validator in term of total stakes (validator s
 
 At this point, it's important for validator to have some nominators who support them with their own stake to grow the total stake and be in the top 100.
 The validors that not in the top 100 will not be elected by the network and **do not receive any reward**. 
+
+<p align=right> Written by Masterdubs & WeHaveCookie </p>

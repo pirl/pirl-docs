@@ -2,7 +2,7 @@
 
 Hey fellows ! In this guide, you will see how to submit a treasury tips.
 
-If you wonder how you can propose a tip for people that you want they deserve some kind of gratitude, you could propose a tips ! 
+If you wonder how you can propose a tip for people that you think deserves some kind of gratitude, you could propose a tip !
 
 Go on the tips page from Treasury tabs : [https://explorer.pirl.network/#/treasury/tips](https://explorer.pirl.network/#/treasury/tips)
 ![tips](media/tips.png)
