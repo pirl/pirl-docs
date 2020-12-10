@@ -32,6 +32,17 @@
 
 ![Nominate](media/Nominate_6.JPG)
 
+> ## How to find a good validator ? 
+> You always can check validator stats in the [targets tab](https://explorer.pirl.network/#/staking/targets) by clicking on the `stats icon` on the right
+> [<img src="media/validatorStats1.png"/>](media/validatorStats1.png)
+>
+> Then you can see different kind of useful info for making your choice : 
+> - **era point :** Score of this validator for each era
+> - **elected stake :** How much pirl has been staked on this validator each era
+> - **rewards & slashes :** How much this validator get reward and how much it was slashed each era
+> - **commission :** Value of the commission fee of this validator each era
+> [<img src="media/validatorStats.png"/>](media/validatorStats.png)
+
 > ## Info
 > Rewarding system work as follow :
 >
