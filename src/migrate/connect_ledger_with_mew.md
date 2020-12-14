@@ -17,7 +17,7 @@ Then click on the arrow next to Ethereum to see all network available
 Then select the Pirl network
 ![MEW](media/connectMewWitLedger5.JPG)
 
-Then choose your address, check ti accept Terms and tada !
+Then choose your address, check `To access my Wallet, I accept Terms` and tada !
 ![MEW](media/connectMewWitLedger6.JPG)
 
 Now you can proceed to [claim guide](./claims_coins.md)
