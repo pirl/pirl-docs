@@ -64,7 +64,7 @@
 7) Now you need to authorize transaction
 ![Nominate](media/Nominate_7.JPG)
 
-8) And tadaa ! Enjoy stacking with Pirl. Your all done.
+8) And tadaa ! Enjoy staking with Pirl. Your all done.
 ![Nominate](media/Nominate_8.JPG)
 
 <p align=right> Written by WeHaveCookie</p>
