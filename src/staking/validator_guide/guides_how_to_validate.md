@@ -163,7 +163,7 @@ WantedBy=multi-user.target
 
 ```
 
-Check if your node is appereing in the telemetry UI : [https://telemetry.polkadot.io/#list/Pirl](https://telemetry.polkadot.io/#list/Pirl)
+Check if your node is appearing in the telemetry UI : [https://telemetry.polkadot.io/#list/Pirl](https://telemetry.polkadot.io/#list/Pirl)
 
 
 ## Step 2 Assign the node to an account

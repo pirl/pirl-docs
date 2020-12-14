@@ -8,7 +8,7 @@ You can find your pending payout in the [payout tab](https://explorer.pirl.netwo
 ## Nominator
 [<img src="media/payoutNominators.png"/>](media/payoutNominators.png)
 
-When you click on `Payout button`, you request the payout of your reward. This request is made for everyone associate on this validator.
+When you click on `Payout button`, you request the payout of your reward. This request is made for everyone associated on this validator.
 
 Like you can see on this picture, when I request an payout, this is effective for all my nominators (and my nominators can also request the payout).
 [<img src="media/payoutDone.png"/>](media/payoutDone.png)
