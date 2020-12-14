@@ -23,7 +23,7 @@ You have now the requirements needed to setup things !
 
 ## Setup
 
-Go to the official depot : [https://github.com/pirl/pirl-docs](https://github.com/pirl/pirl-docs)
+Go to the official repository : [https://github.com/pirl/pirl-docs](https://github.com/pirl/pirl-docs)
 
 Then click on fork
 [<img src="media/githubFork.png"/>](media/githubFork.png)
