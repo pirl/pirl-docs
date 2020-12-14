@@ -7,7 +7,7 @@ You can see here your current stashes.
 ![StakingView](media/unbound.png)
 
 ## Unbound
-If you want to unbound some pirl, just click on the 3 `dots` on the right of you choosen stashe then select `Unbound funds`
+If you want to unbound some pirl, just click on the 3 `dots` on the right of you choosen stash then select `Unbound funds`
 ![Unbound](media/unbound1.png)
 
 Then enter the amount you want to unbound and `submit transaction`
