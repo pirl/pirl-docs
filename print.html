@@ -387,7 +387,7 @@ rustup update stable
 rustup target add wasm32-unknown-unknown --toolchain nightly-2020-10-06-x86_64-unknown-linux-gnu
 </code></pre>
 <p>clone Pirl from github</p>
-<pre><code>git clone https://github.com/pirl/pirl-2_0
+<pre><code>git clone  --depth 1 --branch  0.8.25 https://github.com/pirl/pirl-2_0
 </code></pre>
 <p>move to pirl-2_0 directory and build it</p>
 <pre><code>cargo +nightly-2020-10-06-x86_64-unknown-linux-gnu build --release
