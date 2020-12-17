@@ -125,7 +125,7 @@ rustup target add wasm32-unknown-unknown --toolchain nightly-2020-10-06-x86_64-u
 clone Pirl from github
 
 ```
-git clone https://github.com/pirl/pirl-2_0
+git clone  --depth 1 --branch  0.8.25 https://github.com/pirl/pirl-2_0
 ```
 
 move to pirl-2_0 directory and build it
