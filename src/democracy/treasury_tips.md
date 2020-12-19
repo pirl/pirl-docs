@@ -16,11 +16,15 @@ You will need to choose a beneficiary, fill the tip reason (why council shoud ac
 
 > The final value of the tip is decided based on the median of all tips issued by the tippers (council members).
 
-And it's all set.
-
 > Tip will enter a closing phase when more than a half plus one of the council have endorsed a tip.
-> So it should be done with valable reason.
+> So it should be done with justified reason.
 
+When the 7th council member voted, a 24 hours countdown does start, then when this is over, a council member
+need to close the tip.
+![tipsClose](media/tipsClose.png)
+
+Then the tips is proceed
+![tipsReceived](media/tipsReceived.png)
 Thanks you for contributing in PIRL 2.0 <img src="../media/PirlHeart.png" width="20"/>
 
 <p align=right> Written by WeHaveCookie </p>
