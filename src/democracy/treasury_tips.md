@@ -5,6 +5,9 @@ Hey fellows ! In this guide, you will see how to submit a treasury tips.
 If you wonder how you can propose a tip for people that you think deserves some kind of gratitude, you could propose a tip !
 
 > Tips can be suggested by anyone and are supported by members of the Council.
+> There are two types of tips: public and tipper-initiated.
+> Public tips have a bond and carry a finder's fee of 20% which is paid out from the total amount. 
+> Tipper-initiated (tips that a Council member published) do not have a finder's fee nor a bond.
 
 Go on the tips page from Treasury tabs : [https://explorer.pirl.network/#/treasury/tips](https://explorer.pirl.network/#/treasury/tips)
 ![tips](media/tips.png)
