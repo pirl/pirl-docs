@@ -414,6 +414,9 @@ WantedBy=multi-user.target
 
 </code></pre>
 <p>Check if your node is appearing in the telemetry UI : <a href="https://telemetry.polkadot.io/#list/Pirl">https://telemetry.polkadot.io/#list/Pirl</a></p>
+<blockquote>
+<p>Do not forget to change the name parameter (--name &quot;CHANGE IT TO A DESIRED NAME&quot;)</p>
+</blockquote>
 <h2><a class="header" href="#step-2-assign-the-node-to-an-account" id="step-2-assign-the-node-to-an-account">Step 2 Assign the node to an account</a></h2>
 <p>We assume that you have already claim your coin from Pirl 1.0 (see <a href="https://docs.pirl.io/migrate/claims_coins.html">how to claim</a>) or you already have an account with your Pirl on it.</p>
 <p>You need to create an controller account in order to do the next steps. </p>
@@ -656,7 +659,10 @@ The amount used for vote will be locked (not available for transfer)</p>
 <p>Hey fellows ! In this guide, you will see how to submit a treasury tips.</p>
 <p>If you wonder how you can propose a tip for people that you think deserves some kind of gratitude, you could propose a tip !</p>
 <blockquote>
-<p>Tips can be suggested by anyone and are supported by members of the Council.</p>
+<p>Tips can be suggested by anyone and are supported by members of the Council.
+There are two types of tips: public and tipper-initiated.
+Public tips have a bond and carry a finder's fee of 20% which is paid out from the total amount. 
+Tipper-initiated (tips that a Council member published) do not have a finder's fee nor a bond.</p>
 </blockquote>
 <p>Go on the tips page from Treasury tabs : <a href="https://explorer.pirl.network/#/treasury/tips">https://explorer.pirl.network/#/treasury/tips</a>
 <img src="democracy/media/tips.png" alt="tips" /></p>
@@ -666,12 +672,16 @@ The amount used for vote will be locked (not available for transfer)</p>
 <blockquote>
 <p>The final value of the tip is decided based on the median of all tips issued by the tippers (council members).</p>
 </blockquote>
-<p>And it's all set.</p>
 <blockquote>
 <p>Tip will enter a closing phase when more than a half plus one of the council have endorsed a tip.
-So it should be done with valable reason.</p>
+So it should be done with justified reason.</p>
 </blockquote>
-<p>Thanks you for contributing in PIRL 2.0 <img src="democracy/../media/PirlHeart.png" width="20"/></p>
+<p>When the 7th council member voted, a 24 hours countdown does start, then when this is over, a council member
+need to close the tip.
+<img src="democracy/media/tipsClose.png" alt="tipsClose" /></p>
+<p>Then the tips is proceed
+<img src="democracy/media/tipsReceived.png" alt="tipsReceived" />
+Thanks you for contributing in PIRL 2.0 <img src="democracy/../media/PirlHeart.png" width="20"/></p>
 <p align=right> Written by WeHaveCookie </p>
 <h1><a class="header" href="#how-to-setup-identity" id="how-to-setup-identity">How to setup identity</a></h1>
 <p>Go to <a href="https://explorer.pirl.network/#/accounts">account panel</a></p>
