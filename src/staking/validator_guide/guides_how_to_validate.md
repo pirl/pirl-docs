@@ -165,6 +165,7 @@ WantedBy=multi-user.target
 
 Check if your node is appearing in the telemetry UI : [https://telemetry.polkadot.io/#list/Pirl](https://telemetry.polkadot.io/#list/Pirl)
 
+> Do not forget to change the name parameter (--name "CHANGE IT TO A DESIRED NAME")
 
 ## Step 2 Assign the node to an account
 
