@@ -20,6 +20,8 @@
 	- [Write your first guide](contribute/write_your_first_doc.md)
 	- [How to submit](contribute/how_to_submit.md)
 	- [Markdown Keyword](contribute/markdown_keyword.md)
+- [Testnet](testnet/testnet.md)
+	- [Setup Masternode](testnet/setup_masternode.md)
 - [FAQ](FAQ/faq.md)     
 - [Credits](credits/credits.md)
 
