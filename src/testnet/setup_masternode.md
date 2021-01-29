@@ -1,16 +1,16 @@
 # Setup Masternode
 
->## WARNING 
-> If you don't use the right requierements you could have your stake 
-> slashed, this guide is a baseline, if you do it your own way be 
-> sure to know what you are doing or <strong> you will loose money</strong>.
-> <br></br>
+> **As validator : You need at least 5.000 MRKTP to create a Masternode**
+>
+> **As nominator : You need at least 5.000 MRKTP to nominate a Masternode**
+>
+> **In both case you need at least 5.000 MRKTP stashed**
 
 ## Requirements
 
 The most common way for a beginner to run a validator is on a cloud server running Linux. You may choose whatever [VPS providers](#list-of-vps-providers) that your prefer, and whatever operating system you are comfortable with.
 
-The transactions weights in Pirl were benchmarked on standard hardware. It is recommended that validators run at least the standard hardware in order to ensure they are able to process all blocks in time. The following are not minimum requirements but if you decide to run with less than this beware that you might have performance issue.
+The transactions weights in Pirl Testnet were benchmarked on standard hardware. It is recommended that validators run at least the standard hardware in order to ensure they are able to process all blocks in time. The following are not minimum requirements but if you decide to run with less than this beware that you might have performance issue.
 
 ### Minimum Hardware :
 
@@ -26,22 +26,6 @@ The transactions weights in Pirl were benchmarked on standard hardware. It is re
 ### Update your Ubuntu
 ```
 apt-get update
-```
-
-### Install docker
-	
-You firstly need to install docker if it's not already done
-
-```
-curl -fsSL https://get.docker.com -o get-docker.sh
-sh get-docker.sh 
-```
-
-then enable it
-
-```
-systemctl enable docker
-service docker start
 ```
 
 ### Install IPFS
@@ -140,7 +124,7 @@ sudo ntpq -p
 >
 
 
-## Building and Installing the pirl Binary
+## Building and Installing the Pirl Testnet Binary
 
 
 
@@ -190,7 +174,7 @@ cargo +nightly-2020-09-28 build --release
 Copy the binary ready to use
 
 ```
- cp -rp target/release/pirl /usr/bin/
+cp -rp target/release/pirl-testnet /usr/bin/
 ```
 
 ## Make the service permanent
@@ -204,7 +188,7 @@ After=network-online.target
 
 [Service]
 
-ExecStart=/usr/bin/pirl  --port "30333"   --ws-port "9944"   --rpc-port "9933" --validator  --name "CHANGE IT TO A DESIRED NAME"
+ExecStart=/usr/bin/pirl-testnet  --port "30333"   --ws-port "9944"   --rpc-port "9933" --validator  --name "CHANGE IT TO A DESIRED NAME"
 User=root
 Restart=always
 ExecStartPre=/bin/sleep 5
@@ -215,13 +199,21 @@ WantedBy=multi-user.target
 
 ```
 
-Check if your node is appearing in the telemetry UI : [https://telemetry.polkadot.io/#list/Pirl](https://telemetry.polkadot.io/#list/CHANGETHIS)
+Check if your node is appearing in the telemetry UI : [https://telemetry.polkadot.io/#/PirlMarketplace](https://telemetry.polkadot.io/#/PirlMarketplace)
 
 > Do not forget to change the name parameter (--name "CHANGE IT TO A DESIRED NAME")
 
+## Add custom types to the testnet explorer
+You can acces to the testnet explorer here : [https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestnet-rpc.pirl.network#/staking](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestnet-rpc.pirl.network#/staking)
+
+> Be sure to add the right custom types in the testnet explorer : [How to add custom types](./add_custom_types.md)
+
+In case you have added the custom types and the explorer didn't load, try to open it in an incognito tab
+
+
 ## Step 2 Assign the node to an account
 
-You can get some pirl with the discord bot
+You can get some MRKTP (Testnet token) with the discord bot
 
 You need to create an controller account in order to do the next steps. 
 
@@ -233,9 +225,9 @@ You need to create an controller account in order to do the next steps.
 To create an controller account, add account
 ![Controller](media/01.JPG)
 
-Choose any name that suit for you
+Save your mnemonic seed, then name your account and add a password
 ![Controller](media/02.JPG)
-
+ 
 Then send some pirl (from your stash account) for covering network fees
 ![Controller](media/02b.JPG)
 
@@ -251,7 +243,7 @@ curl -H "Content-Type: application/json" -d '{"id":1, "jsonrpc":"2.0", "method":
 
 ### Submitting the setKeys Transaction:
 
-Go to the [testnet](TESTNETADDRESSEhttps://explorer.pirl.network/#/staking/actions) you can now create a validator, use the key generated above to paste in the form.
+Go to the [testnet](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ftestnet-rpc.pirl.network#/staking/actions) you can now create a validator, use the key generated above to paste in the form.
 
 Last step, hit the validate button when the transaction is confirmed.
 
