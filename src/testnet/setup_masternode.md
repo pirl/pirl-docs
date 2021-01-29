@@ -169,16 +169,16 @@ firewall-cmd --permanent --add-service=ntp && firewall-cmd --add-port=30333/tcp 
 Install rust tools
 
 ```
-rustup toolchain install nightly-2020-10-06
+rustup toolchain install nightly-2020-09-28
 rustup update nightly
 rustup update stable
-rustup target add wasm32-unknown-unknown --toolchain nightly-2020-10-06-x86_64-unknown-linux-gnu
+rustup target add wasm32-unknown-unknown --toolchain nightly-2020-09-28-x86_64-unknown-linux-gnu
 ```
 
 clone Pirl from github
 
 ```
-git clone --depth 1 --branch  0.8.25 LinkToRepo
+git clone  https://github.com/starkleytech/marketplace-chain.git && cd marketplace-chain/bin/node/pallets/ && git clone https://github.com/starkleytech/ipfs-pallets.git && cd ../../../  
 ```
 
 move to pirl-2_0 directory and build it

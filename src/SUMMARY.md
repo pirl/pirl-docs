@@ -22,6 +22,7 @@
 	- [Markdown Keyword](contribute/markdown_keyword.md)
 - [Testnet](testnet/testnet.md)
 	- [Setup Masternode](testnet/setup_masternode.md)
+	- [How to add custom types](testnet/add_custom_types.md)
 - [FAQ](FAQ/faq.md)     
 - [Credits](credits/credits.md)
 
