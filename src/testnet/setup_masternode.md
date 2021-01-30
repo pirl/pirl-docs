@@ -179,7 +179,11 @@ cp -rp target/release/pirl-testnet /usr/bin/
 
 ## Make the service permanent
 
-create systemd file in /usr/lib/systemd/system/pirl.service
+create systemd file in /etc/systemd/system/pirl.service
+
+```
+nano /etc/systemd/system/pirl.service
+```
 
 ```
 [Unit]
@@ -197,6 +201,11 @@ RestartSec=30s
 [Install]
 WantedBy=multi-user.target
 
+```
+
+then start the service
+```
+systemctl enable pirl && service pirl start 
 ```
 
 Check if your node is appearing in the telemetry UI : [https://telemetry.polkadot.io/#/PirlMarketplace](https://telemetry.polkadot.io/#/PirlMarketplace)
