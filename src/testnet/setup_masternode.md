@@ -94,7 +94,7 @@ Otherwise, if you have already installed Rust, run the following command to make
 rustup update
 ```
 
-Finally, run this command to install the necessary dependencies for compiling and running the Polkadot node software.
+Finally, run this command to install the necessary dependencies for compiling and running the Testnet Pirl node software.
 ```
 sudo apt install make clang pkg-config libssl-dev build-essential
 ```
