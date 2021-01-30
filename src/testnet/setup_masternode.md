@@ -94,7 +94,7 @@ Otherwise, if you have already installed Rust, run the following command to make
 rustup update
 ```
 
-Finally, run this command to install the necessary dependencies for compiling and running the Polkadot node software.
+Finally, run this command to install the necessary dependencies for compiling and running the Testnet Pirl node software.
 ```
 sudo apt install make clang pkg-config libssl-dev build-essential
 ```
@@ -179,7 +179,11 @@ cp -rp target/release/pirl-testnet /usr/bin/
 
 ## Make the service permanent
 
-create systemd file in /usr/lib/systemd/system/pirl.service
+create systemd file in /etc/systemd/system/pirl.service
+
+```
+nano /etc/systemd/system/pirl.service
+```
 
 ```
 [Unit]
@@ -197,6 +201,11 @@ RestartSec=30s
 [Install]
 WantedBy=multi-user.target
 
+```
+
+then start the service
+```
+systemctl enable pirl && service pirl start 
 ```
 
 Check if your node is appearing in the telemetry UI : [https://telemetry.polkadot.io/#/PirlMarketplace](https://telemetry.polkadot.io/#/PirlMarketplace)
