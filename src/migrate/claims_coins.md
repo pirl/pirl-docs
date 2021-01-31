@@ -6,8 +6,9 @@ Balance of Pirls where taken from snapshot at block 7 650 000, meaning you will 
 In this tutorial we will use the MEW wallet and Pirl 2.0 Portal.<br>
 Before proceeding, you will have to create a wallet in the Pirl 2.0 Portal and log in to your Pirl wallet in [MEW](https://www.myetherwallet.com/access-my-wallet) using your Keystore file.
 
-If you dont get any Pirl balance in the MEW wallet, please check your Network settings (1) and set to (PIRL) as shown in picture below.<br>
-- <strong>Note:</strong> It has been tested and verified that the claim works fine without changing the network as well.
+> **You can/must use the Ethereum network for signing part**
+>
+> **Pirl Network doesn't work anymore, so you can't see your pirl 1.0 balance with MEW but it doesn't matter for the claiming**
 
 ## [Pirl 2.0 Portal https://dashboard.pirl.network](https://dashboard.pirl.network) 
 
@@ -18,6 +19,8 @@ In Pirl Portal, click Account and choose “Claim Tokens”.
 ![Claims](media/claims_coins_2.jpeg)
 
 Choose your Pirl 2.0 wallet that you want to use for your claim, and click “Continue”
+
+> **Always double check the selected address for your claim !**
 
 ![Claims](media/claims_coins_3.jpeg)
 
@@ -48,5 +51,5 @@ Well done !
 
 If you have any feedback or comments to this tutorial, [please make a reply in this forum](https://community.pirl.io/t/claim-pirls-from-old-chain-to-pirl-2-0-tutorial/131).
 
-<p align=right> Written by FanThomas </p>
+<p align=right> Written by FanThomas & WeHaveCookie </p>
 
